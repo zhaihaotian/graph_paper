@@ -1,0 +1,149 @@
+{
+  "paper_id": "FA0022",
+  "paper_topic": "Repetition advantage in long-CoT SFT is primarily a termination effect, not improved reasoning",
+  "anchor_paper": "Kopiczko et al. (2026)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Supervised fine-tuning (SFT) on long chain-of-thought (CoT) demonstrations has emerged as a critical technique for developing reasoning-capable language models (Wei et al., 2022; DeepSeek-AI et al., 2025).",
+      "display_label": "Long-CoT SFT for reasoning LMs",
+      "citations": 2
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "In this paradigm, models learn to produce extended reasoning traces before arriving at final answers, enabling improved performance on complex mathematical and scientific problems.",
+      "display_label": "Extended reasoning traces help complex problems",
+      "citations": 0
+    },
+    {
+      "id": "N3",
+      "type": "Prior_Work",
+      "text": "However, recent work by Kopiczko et al. (2026) reveals a counterintuitive phenomenon: under a fixed gradient-update budget, training for many epochs on a small dataset substantially outperforms single-epoch training on a larger dataset.",
+      "display_label": "Kopiczko: many epochs on small data wins",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N4",
+      "type": "Prior_Work",
+      "text": "On AIME and GPQA benchmarks, models trained for 32 epochs on 1,600 samples achieve approximately double the accuracy of models trained for 1 epoch on 51,200 samples.",
+      "display_label": "32 epochs x 1.6k doubles 1 epoch x 51.2k",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Limitation",
+      "text": "This \"repetition advantage\" challenges conventional machine learning intuition, where more unique training samples typically yield better generalization.",
+      "display_label": "Repetition advantage breaks ML intuition",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "Why does data repetition help so dramatically in long-CoT SFT?",
+      "display_label": "Why does repetition help so dramatically?",
+      "citations": 0
+    },
+    {
+      "id": "N6a",
+      "type": "Limitation: hypothesis-A",
+      "text": "One possibility is that repeated exposure to the same examples enables deeper learning of reasoning patterns.",
+      "display_label": "H1: deeper reasoning learning",
+      "citations": 0
+    },
+    {
+      "id": "N6b",
+      "type": "Limitation: hypothesis-B",
+      "text": "An alternative hypothesis is that the advantage stems not from improved reasoning, but from better learning of output format and termination behavior—the ability to reliably produce parseable final answers rather than truncated or malformed outputs.",
+      "display_label": "H2: termination behavior, not reasoning",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Method",
+      "text": "We investigate this question through a diagnostic framework that decomposes accuracy into two components: ParseRate (the fraction of generations with extractable final answers) and Acc|Parse (accuracy conditioned on successful parsing).",
+      "display_label": "Diagnostic: decompose into ParseRate + Acc|Parse",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "This decomposition reveals whether accuracy differences arise from termination behavior or reasoning quality.",
+      "display_label": "Decomposition isolates termination vs reasoning",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Result",
+      "text": "Our mediation analysis shows that the repetition advantage is almost entirely a termination effect: on AIME benchmarks, the accuracy gap between repetition and scaling conditions reverses when conditioning on successful parsing, with mediation fractions exceeding 1.0.",
+      "display_label": "Repetition advantage is termination effect (mediation>1.0)",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Result",
+      "text": "The data-scaling condition actually produces better reasoning when both models terminate properly.",
+      "display_label": "Data scaling wins when both terminate",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method",
+      "text": "Based on this insight, we propose Termination-Aware SFT, a simple modification that increases the loss weight on termination tokens (</think> and EOS).",
+      "display_label": "Termination-Aware SFT: reweight termination tokens",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Result",
+      "text": "This intervention improves ParseRate and accuracy over standard SFT, though it recovers only 14% of the repetition advantage, suggesting that termination learning through repetition involves mechanisms beyond what explicit loss reweighting can capture.",
+      "display_label": "Recovers only 14% of repetition advantage",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "A diagnostic framework decomposing long-CoT accuracy into ParseRate and Acc|Parse, revealing that the repetition advantage in SFT is primarily a termination effect rather than improved reasoning.",
+      "display_label": "Diagnostic framework: termination effect finding",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "A mediation analysis showing that parseability over-explains the accuracy gap between repetition and scaling conditions, with the gap reversing on AIME benchmarks when conditioning on successful parsing.",
+      "display_label": "Mediation: parseability over-explains gap",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "Termination-Aware SFT, a targeted intervention that improves accuracy by 2.0pp through explicit termination token reweighting, demonstrating that termination behavior can be partially addressed without data repetition.",
+      "display_label": "Termination-Aware SFT: +2.0pp",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "contrast", "connective": "However"},
+    {"from": "N3", "to": "N4", "kind": "evidence"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "consequence"},
+    {"from": "N6", "to": "N6a", "kind": "elaboration"},
+    {"from": "N6", "to": "N6b", "kind": "elaboration"},
+    {"from": "N6b", "to": "N7", "kind": "consequence", "connective": "We investigate"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "evidence"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N10", "to": "N11", "kind": "consequence", "connective": "Based on this insight"},
+    {"from": "N11", "to": "N12", "kind": "evidence"},
+    {"from": "N7", "to": "C1", "kind": "elaboration"},
+    {"from": "N9", "to": "C2", "kind": "elaboration"},
+    {"from": "N11", "to": "C3", "kind": "elaboration"},
+    {"from": "N7", "to": "N6b", "kind": "addresses"},
+    {"from": "N11", "to": "N6b", "kind": "addresses"},
+    {"from": "N11", "to": "N5", "kind": "addresses"}
+  ],
+  "observations": "FA0022 follows a hypothesis-test-intervention arc anchored on a single prior result (Kopiczko et al. 2026 'repetition advantage'). The intro opens with two Context sentences on long-CoT SFT, then pivots via 'However' to the anchor's counterintuitive finding (N3-N4). The Limitation zone forms an explicit two-hypothesis fork at N6 (deeper reasoning vs. termination behavior), expanded as N6a/N6b sub-claims — a clean epistemic fork that the rest of the paper resolves. The diagnostic Method (N7-N8) is causally motivated by hypothesis B (N6b), and the addresses edges N7->N6b and N11->N6b mark how the method and intervention map back to the named hypothesis (lexical anchor: 'termination'). Results form a sequential chain (N9 mediation -> N10 reversal), then a Method->Result subchain for Termination-Aware SFT (N11->N12). The three contributions C1-C3 mirror the framework / finding / intervention triplet, with C3 partially addressing the original repetition-advantage gap (N5). Notable: the negative-recovery framing of C3 ('only 14%') keeps the contribution honest about residual unexplained mechanism. The graph has one anchor paper, one explicit hypothesis fork, and three back-references via addresses edges."
+}

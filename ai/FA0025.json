@@ -1,0 +1,198 @@
+{
+  "paper_id": "FA0025",
+  "paper_topic": "RC-Jot: conformal risk control for early exit in diffusion language models",
+  "anchor_paper": "Jot (Kohut et al., 2026)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Diffusion language models (DLLMs) have emerged as a promising alternative to autoregressive generation, enabling parallel token prediction through iterative denoising (Sahoo et al., 2024; Nie et al., 2025; Ye et al., 2025).",
+      "display_label": "DLLMs as parallel-generation alternative",
+      "citations": 3
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "Unlike autoregressive models that generate tokens sequentially, DLLMs can produce entire sequences in parallel, offering potential speedup for long-form generation.",
+      "display_label": "Parallel sequence generation potential",
+      "citations": 0
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "However, this advantage comes at a cost: DLLMs require hundreds of diffusion steps (typically 256–512) to achieve high-quality outputs, making inference computationally expensive.",
+      "display_label": "Hundreds of diffusion steps make inference slow",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Prior_Work",
+      "text": "Early exit strategies offer a natural solution to this inefficiency.",
+      "display_label": "Early exit as natural solution",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Prior_Work",
+      "text": "Recent work on token-level early stopping, such as Jot (Kohut et al., 2026), monitors prediction confidence during diffusion and finalizes tokens when they stabilize, achieving significant speedup.",
+      "display_label": "Jot: token-level early stopping by confidence",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "However, these methods rely on fixed thresholds that are tuned heuristically and provide no formal guarantees on output quality.",
+      "display_label": "Fixed heuristic thresholds, no guarantees",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Result",
+      "text": "In practice, aggressive thresholds can cause substantial accuracy degradation—for instance, Jot's recommended threshold (τ = 30) incurs 17.7% risk on GSM8K, meaning nearly one in five correct predictions are broken by early exit.",
+      "display_label": "Jot τ=30 incurs 17.7% risk on GSM8K",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "In this paper, we propose RC-Jot (Risk-Controlled Jot), a calibration framework that wraps around existing early exit methods and automatically selects thresholds to satisfy user-specified risk constraints with distribution-free guarantees.",
+      "display_label": "RC-Jot: calibration framework with guarantees",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Method: component",
+      "text": "RC-Jot applies conformal risk control (Angelopoulos et al., 2025) to the early exit setting, using held-out calibration data to select the least conservative threshold that satisfies the risk bound.",
+      "display_label": "Apply conformal risk control on calibration data",
+      "citations": 1
+    },
+    {
+      "id": "N10",
+      "type": "Method: component",
+      "text": "We employ UCB-HB bounds (Waudby-Smith & Ramdas, 2020) to provide high-probability guarantees, ensuring that the selected threshold controls risk with probability at least 1 − δ.",
+      "display_label": "UCB-HB bounds for high-prob guarantees",
+      "citations": 1
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We present the first application of conformal risk control to early exit in diffusion language models, providing distribution-free guarantees on accuracy degradation.",
+      "display_label": "First conformal risk control for DLLM early exit",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We demonstrate empirically that RC-Jot achieves 0% violation rate on GSM8K with 1.36× speedup at ε = 0.10, and ≤1% violation on HumanEval with 1.32× speedup at ε = 0.15.",
+      "display_label": "0% violation GSM8K @1.36x; <=1% HumanEval @1.32x",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We compare calibration methods (Naive, CRC, UCB-HB) and show that UCB-HB provides the best balance between guarantee strength and speedup, particularly with small calibration sets.",
+      "display_label": "UCB-HB best balance vs Naive/CRC",
+      "citations": 0
+    },
+    {
+      "id": "C4",
+      "type": "Contribution",
+      "text": "We provide practical guidance on threshold grid design, showing that medium-granularity grids (15–20 values) are sufficient while coarse grids can cause complete speedup loss.",
+      "display_label": "Medium grids (15-20) suffice",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "kind": "contrast",
+      "connective": "However"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "kind": "consequence",
+      "connective": "natural solution"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "kind": "contrast",
+      "connective": "However"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "kind": "evidence"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "kind": "consequence",
+      "connective": "we propose"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N8",
+      "to": "N10",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N8",
+      "to": "C1",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N8",
+      "to": "C2",
+      "kind": "evidence"
+    },
+    {
+      "from": "N9",
+      "to": "C3",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N10",
+      "to": "C3",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N9",
+      "to": "C4",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N9",
+      "to": "N6",
+      "kind": "addresses"
+    },
+    {
+      "from": "N10",
+      "to": "N6",
+      "kind": "addresses"
+    },
+    {
+      "from": "C1",
+      "to": "N6",
+      "kind": "addresses"
+    }
+  ],
+  "observations": "FA0025 is a textbook problem-solution arc with a single-anchor structure (Jot, Kohut et al. 2026). Two Context sentences set up DLLMs and parallel generation, then a 'However' contrast (N2->N3) introduces the hundred-step inference cost. The Prior_Work zone (N4-N5) introduces Jot as the natural solution and anchor, immediately followed by a second 'However' (N5->N6) that pivots to the gap: fixed heuristic thresholds with no guarantees. N7 acts as quantitative evidence for that gap (Jot's τ=30 incurs 17.7% risk). The Method zone has a clear main + two-component fork: N8 (RC-Jot) forks into N9 (conformal risk control) and N10 (UCB-HB bounds). Cross-pair addresses edges anchor the method to the limitations: N9 and N10 both address N6 (sharing 'threshold' / 'guarantee' terminology), and N8 addresses N3 (the original cost gap). Contributions C1-C4 form a join structure where N8/N9/N10 collectively feed claims about novelty (C1), empirical performance (C2), calibration-method comparison (C3), and grid design guidance (C4). The arc is unusually clean: one anchor, one quantitative limitation, one method with two named components, four orthogonal contributions."
+}

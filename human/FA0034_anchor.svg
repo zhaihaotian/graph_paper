@@ -1,0 +1,401 @@
+<svg viewBox="0 0 1480 2820" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="340" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="924" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="660" x2="1450" y2="660" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1396" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="1188" x2="1450" y2="1188" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1700" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PROOF</text>
+<line x1="60" y1="1604" x2="1450" y2="1604" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2092" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1796" x2="1450" y2="1796" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2478" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="2388" x2="1450" y2="2388" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2664" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="2568" x2="1450" y2="2568" stroke="#eee" stroke-width="1"/>
+<rect x="158" y="2596" width="1294" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="2592" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N22</text>
+<line x1="805" y1="164" x2="805" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="288" x2="805" y2="316" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="400" x2="805" y2="428" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="512" x2="805" y2="540" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="612" x2="616" y2="708" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="804" x2="616" y2="832" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="916" x2="616" y2="944" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1028" x2="616" y2="1056" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1140" x2="616" y2="1236" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1332" x2="994" y2="708" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="804" x2="994" y2="832" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="916" x2="994" y2="944" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="994" y="927" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Subsequent</text>
+<line x1="994" y1="1028" x2="994" y2="1056" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="994" y="1039" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To overcome</text>
+<line x1="994" y1="1140" x2="994" y2="1236" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="994" y="1185" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Although</text>
+<line x1="994" y1="1332" x2="805" y2="1360" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1432" x2="805" y2="1460" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1556" x2="805" y2="1844" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1697" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">In this work</text>
+<line x1="805" y1="1916" x2="805" y2="1944" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2016" x2="805" y2="2044" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2128" x2="805" y2="2156" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="2139" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Further</text>
+<line x1="805" y1="2228" x2="805" y2="2256" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="2239" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Finally</text>
+<line x1="805" y1="2340" x2="805" y2="2436" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="2520" x2="322" y2="2616" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2520" x2="644" y2="2616" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2520" x2="966" y2="2616" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2520" x2="1288" y2="2616" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2128" x2="805" y2="1652" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<text x="805" y="1887" font-size="9.5" fill="#b38a2c" font-weight="600" text-anchor="middle">Fig. 1a</text>
+<line x1="805" y1="2228" x2="805" y2="1652" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<text x="805" y="1937" font-size="9.5" fill="#b38a2c" font-weight="600" text-anchor="middle">Fig. 1b</text>
+<line x1="805" y1="2340" x2="805" y2="1652" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<text x="805" y="1993" font-size="9.5" fill="#b38a2c" font-weight="600" text-anchor="middle">Fig. 1c</text>
+<line x1="805" y1="2128" x2="805" y2="1360" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="2228" x2="805" y2="1360" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="2340" x2="994" y2="1236" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1288" y1="2712" x2="805" y2="1360" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">MLLMs dominant in vision-language</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Multimodal Large Language Models (MLLMs) have recently emerged as a dominant</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">paradigm in vision–language understanding, demonstrating strong performance</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">across tasks such as captioning (Jia et al., 2024), visual question</text>
+<text x="805" y="149" text-anchor="middle" font-size="9.5" fill="#555">answering…</text>
+<title>N1 [Context] (cites=3)
+Multimodal Large Language Models (MLLMs) have recently emerged as a dominant paradigm in vision–language understanding, demonstrating strong performance across tasks such as captioning (Jia et al., 2024), visual question answering (Awadalla et al., 2023), and even visual mathematical reasoning (Chen et al., 2025).</title>
+</g>
+<g>
+<rect x="595" y="192" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">common visual-token + LLM design</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">A common design represents visual input as sequences of visual tokens that</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">are fed into a generative Large Language Model (LLM) which, after joint</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">fine-tuning, enables open-world reasoning and instruction following over</text>
+<text x="805" y="273" text-anchor="middle" font-size="9.5" fill="#555">multimodal content.</text>
+<title>N2 [Context] (cites=0)
+A common design represents visual input as sequences of visual tokens that are fed into a generative Large Language Model (LLM) which, after joint fine-tuning, enables open-world reasoning and instruction following over multimodal content.</title>
+</g>
+<circle cx="1022.0" cy="324.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="332.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="340.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="348.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="356.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="316" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="330" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="345" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">extension to video MLLMs</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">Extending this paradigm from images to videos has led to rapid progress in</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">video-based MLLMs (Zhang et al., 2024b; Cheng et al., 2024; Zhang et al.,</text>
+<text x="805" y="385" text-anchor="middle" font-size="9.5" fill="#555">2025a; Tang et al., 2025; Yang et al., 2025).</text>
+<title>N3 [Context] (cites=5)
+Extending this paradigm from images to videos has led to rapid progress in video-based MLLMs (Zhang et al., 2024b; Cheng et al., 2024; Zhang et al., 2025a; Tang et al., 2025; Yang et al., 2025).</title>
+</g>
+<g>
+<rect x="595" y="428" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="442" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="457" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">video adds temporal challenge</text>
+<text x="805" y="473" text-anchor="middle" font-size="9.5" fill="#555">Compared to images, videos introduce richer content and temporal dynamics,</text>
+<text x="805" y="485" text-anchor="middle" font-size="9.5" fill="#555">substantially increasing the challenge of representation learning,</text>
+<text x="805" y="497" text-anchor="middle" font-size="9.5" fill="#555">reasoning, and retrieval.</text>
+<title>N4 [Context] (cites=0)
+Compared to images, videos introduce richer content and temporal dynamics, substantially increasing the challenge of representation learning, reasoning, and retrieval.</title>
+</g>
+<g>
+<rect x="595" y="540" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="554" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="569" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">rep. learning gains attention</text>
+<text x="805" y="585" text-anchor="middle" font-size="9.5" fill="#555">As MLLMs become increasingly widespread, multimodal representation learning</text>
+<text x="805" y="597" text-anchor="middle" font-size="9.5" fill="#555">has attracted growing research interest.</text>
+<title>N5 [Context] (cites=0)
+As MLLMs become increasingly widespread, multimodal representation learning has attracted growing research interest.</title>
+</g>
+<circle cx="803.0" cy="716.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="724.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="732.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="708" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="722" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work]</text>
+<text x="616" y="737" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CLIP/ALIGN/BLIP dual-encoder recipe</text>
+<text x="616" y="753" text-anchor="middle" font-size="9.5" fill="#555">Early vision-language models (VLMs) such as CLIP (Radford et al.,</text>
+<text x="616" y="765" text-anchor="middle" font-size="9.5" fill="#555">2021), ALIGN (Jia et al., 2021), and BLIP (Li et al., 2022)</text>
+<text x="616" y="777" text-anchor="middle" font-size="9.5" fill="#555">established a powerful dual-encoder recipe for text-image</text>
+<text x="616" y="789" text-anchor="middle" font-size="9.5" fill="#555">representations by aligning image and text embeddings…</text>
+<title>N6 [Prior_Work] (cites=3)
+Early vision-language models (VLMs) such as CLIP (Radford et al., 2021), ALIGN (Jia et al., 2021), and BLIP (Li et al., 2022) established a powerful dual-encoder recipe for text-image representations by aligning image and text embeddings with contrastive learning on large-scale image-text data.</title>
+</g>
+<circle cx="803.0" cy="840.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="848.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="856.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="832" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="846" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Prior_Work]</text>
+<text x="616" y="861" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">extended to video retrieval</text>
+<text x="616" y="877" text-anchor="middle" font-size="9.5" fill="#555">Follow-up studies suggest extensions of these models to video</text>
+<text x="616" y="889" text-anchor="middle" font-size="9.5" fill="#555">embedding and retrieval (Luo et al., 2021; Ma et al., 2022; Xu et</text>
+<text x="616" y="901" text-anchor="middle" font-size="9.5" fill="#555">al., 2021).</text>
+<title>N7 [Prior_Work] (cites=3)
+Follow-up studies suggest extensions of these models to video embedding and retrieval (Luo et al., 2021; Ma et al., 2022; Xu et al., 2021).</title>
+</g>
+<g>
+<rect x="436" y="944" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="958" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Prior_Work]</text>
+<text x="616" y="973" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">VFMs scale video pretraining</text>
+<text x="616" y="989" text-anchor="middle" font-size="9.5" fill="#555">Recent large Video Foundation Models (VFMs) have pushed zero-shot</text>
+<text x="616" y="1001" text-anchor="middle" font-size="9.5" fill="#555">and transfer performance by scaling video–text pretraining.</text>
+<title>N8 [Prior_Work] (cites=0)
+Recent large Video Foundation Models (VFMs) have pushed zero-shot and transfer performance by scaling video–text pretraining.</title>
+</g>
+<circle cx="803.0" cy="1064.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="1072.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="1056" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="1070" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Prior_Work]</text>
+<text x="616" y="1085" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">InternVideo2 100M / VideoPrism 600M</text>
+<text x="616" y="1101" text-anchor="middle" font-size="9.5" fill="#555">InternVideo2 (Wang et al., 2024) has pretrained ∼100M video–text</text>
+<text x="616" y="1113" text-anchor="middle" font-size="9.5" fill="#555">pairs to reach superior performance, while VideoPrism (Zhao et</text>
+<text x="616" y="1125" text-anchor="middle" font-size="9.5" fill="#555">al., 2024) contrastively trained with ∼600M pairs.</text>
+<title>N9 [Prior_Work] (cites=2)
+InternVideo2 (Wang et al., 2024) has pretrained ∼100M video–text pairs to reach superior performance, while VideoPrism (Zhao et al., 2024) contrastively trained with ∼600M pairs.</title>
+</g>
+<circle cx="803.0" cy="1244.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="1252.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="1260.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="1236" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="1250" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Limitation]</text>
+<text x="616" y="1265" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">scaling alone insufficient</text>
+<text x="616" y="1281" text-anchor="middle" font-size="9.5" fill="#555">Recent studies suggest that simply scaling video–text pretraining</text>
+<text x="616" y="1293" text-anchor="middle" font-size="9.5" fill="#555">does not uniformly improve performance (Feichtenhofer et al.,</text>
+<text x="616" y="1305" text-anchor="middle" font-size="9.5" fill="#555">2022; Tong et al., 2022; Uselis et al., 2025) motivating</text>
+<text x="616" y="1317" text-anchor="middle" font-size="9.5" fill="#555">alternative approaches that focus on representation…</text>
+<title>N10 [Limitation] (cites=3)
+Recent studies suggest that simply scaling video–text pretraining does not uniformly improve performance (Feichtenhofer et al., 2022; Tong et al., 2022; Uselis et al., 2025) motivating alternative approaches that focus on representation quality and task-related alignment, rather than relying solely on ever-larger corpora.</title>
+</g>
+<circle cx="1181.0" cy="716.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="708" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="722" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Prior_Work]</text>
+<text x="994" y="737" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">MLLMs as representation learners (MTEB)</text>
+<text x="994" y="753" text-anchor="middle" font-size="9.5" fill="#555">Recently, an emerging line of work investigates whether MLLMs can</text>
+<text x="994" y="765" text-anchor="middle" font-size="9.5" fill="#555">serve as representation learners across vision-text modalities,</text>
+<text x="994" y="777" text-anchor="middle" font-size="9.5" fill="#555">motivated by the state-of-the-art performance of LLM-based</text>
+<text x="994" y="789" text-anchor="middle" font-size="9.5" fill="#555">embedding models on MTEB (Muennighoff et al.,…</text>
+<title>N11 [Prior_Work] (cites=1)
+Recently, an emerging line of work investigates whether MLLMs can serve as representation learners across vision-text modalities, motivated by the state-of-the-art performance of LLM-based embedding models on MTEB (Muennighoff et al., 2023).</title>
+</g>
+<circle cx="1181.0" cy="840.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="832" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="846" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Prior_Work : ANCHOR]</text>
+<text x="994" y="861" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">E5-V: text-supervised refinement</text>
+<text x="994" y="877" text-anchor="middle" font-size="9.5" fill="#555">E5-V (Jiang et al., 2024) suggested refining MLLM's language</text>
+<text x="994" y="889" text-anchor="middle" font-size="9.5" fill="#555">component using textual supervision to learn image-text aligned</text>
+<text x="994" y="901" text-anchor="middle" font-size="9.5" fill="#555">embeddings.</text>
+<title>N12 [Prior_Work] (cites=1)
+E5-V (Jiang et al., 2024) suggested refining MLLM's language component using textual supervision to learn image-text aligned embeddings.</title>
+</g>
+<circle cx="1181.0" cy="952.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="960.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="944" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="958" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Prior_Work]</text>
+<text x="994" y="973" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">later methods: contrastive vision-text</text>
+<text x="994" y="989" text-anchor="middle" font-size="9.5" fill="#555">Subsequent methods (Jiang et al., 2025; Lin et al., 2025) convert</text>
+<text x="994" y="1001" text-anchor="middle" font-size="9.5" fill="#555">MLLMs into embedding models by incorporating vision-text paired</text>
+<text x="994" y="1013" text-anchor="middle" font-size="9.5" fill="#555">data into contrastive training.</text>
+<title>N13 [Prior_Work] (cites=2)
+Subsequent methods (Jiang et al., 2025; Lin et al., 2025) convert MLLMs into embedding models by incorporating vision-text paired data into contrastive training.</title>
+</g>
+<circle cx="1181.0" cy="1064.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1072.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="1056" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="1070" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Prior_Work]</text>
+<text x="994" y="1085" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">MegaPairs/UniIR: scale up data</text>
+<text x="994" y="1101" text-anchor="middle" font-size="9.5" fill="#555">To overcome the limited scale of curated embedding datasets,</text>
+<text x="994" y="1113" text-anchor="middle" font-size="9.5" fill="#555">MegaPairs (Zhou et al., 2024) and UniIR (Wei et al., 2024) propose</text>
+<text x="994" y="1125" text-anchor="middle" font-size="9.5" fill="#555">large-scale training datasets.</text>
+<title>N14 [Prior_Work] (cites=2)
+To overcome the limited scale of curated embedding datasets, MegaPairs (Zhou et al., 2024) and UniIR (Wei et al., 2024) propose large-scale training datasets.</title>
+</g>
+<circle cx="1181.0" cy="1244.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1252.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1260.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1268.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1276.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1284.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1292.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1300.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1308.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="1236" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="1250" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Limitation]</text>
+<text x="994" y="1265" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">video lags behind VFMs</text>
+<text x="994" y="1281" text-anchor="middle" font-size="9.5" fill="#555">Although recent methods report impressive results on image</text>
+<text x="994" y="1293" text-anchor="middle" font-size="9.5" fill="#555">retrieval (Zhang et al., 2025b; Thirukovalluru et al., 2025; Kong</text>
+<text x="994" y="1305" text-anchor="middle" font-size="9.5" fill="#555">et al., 2025; Liu et al., 2025; Gu et al., 2026), video is often</text>
+<text x="994" y="1317" text-anchor="middle" font-size="9.5" fill="#555">treated as an auxiliary modality rather than a…</text>
+<title>N15 [Limitation] (cites=9)
+Although recent methods report impressive results on image retrieval (Zhang et al., 2025b; Thirukovalluru et al., 2025; Kong et al., 2025; Liu et al., 2025; Gu et al., 2026), video is often treated as an auxiliary modality rather than a primary focus, and performance on video retrieval remains behind that of dedicated Video Foundation Models (VFMs) (Wang et al., 2024; Liu et al., 2022; Zhu et al., 2023; Lan et al., 2025b).</title>
+</g>
+<g>
+<rect x="595" y="1360" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1374" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Limitation]</text>
+<text x="805" y="1389" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">video-targeted efforts still weak</text>
+<text x="805" y="1405" text-anchor="middle" font-size="9.5" fill="#555">The few efforts that explicitly target video have yet to achieve strong</text>
+<text x="805" y="1417" text-anchor="middle" font-size="9.5" fill="#555">results on standard video–text retrieval benchmarks.</text>
+<title>N16 [Limitation] (cites=0)
+The few efforts that explicitly target video have yet to achieve strong results on standard video–text retrieval benchmarks.</title>
+</g>
+<circle cx="1022.0" cy="1468.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1476.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1484.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1460" width="420" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1474" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16a [Limitation: example]</text>
+<text x="805" y="1489" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CARE &amp; VLM2Vec-V2 underperform</text>
+<text x="805" y="1505" text-anchor="middle" font-size="9.5" fill="#555">CARE (Xu et al., 2024) emphasizes fine-grained captioning and retrieval but</text>
+<text x="805" y="1517" text-anchor="middle" font-size="9.5" fill="#555">underperforms in conventional retrieval settings, while VLM2Vec-V2 (Meng et</text>
+<text x="805" y="1529" text-anchor="middle" font-size="9.5" fill="#555">al., 2025) incorporates video–text pairs during training yet reports</text>
+<text x="805" y="1541" text-anchor="middle" font-size="9.5" fill="#555">substantially…</text>
+<title>N16a [Limitation: example] (cites=3)
+CARE (Xu et al., 2024) emphasizes fine-grained captioning and retrieval but underperforms in conventional retrieval settings, while VLM2Vec-V2 (Meng et al., 2025) incorporates video–text pairs during training yet reports substantially lower performance, even compared to earlier MLLM-based embedders (Kong et al., 2025).</title>
+</g>
+<g>
+<rect x="595" y="1844" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1858" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Method]</text>
+<text x="805" y="1873" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">study MLLMs as video-text embedders</text>
+<text x="805" y="1889" text-anchor="middle" font-size="9.5" fill="#555">Overview of our approach. In this work, we study MLLMs as embedding</text>
+<text x="805" y="1901" text-anchor="middle" font-size="9.5" fill="#555">extractors specifically for video–text retrieval.</text>
+<title>N17 [Method] (cites=0)
+Overview of our approach. In this work, we study MLLMs as embedding extractors specifically for video–text retrieval.</title>
+</g>
+<g>
+<rect x="595" y="1944" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1958" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Method]</text>
+<text x="805" y="1973" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">off-the-shelf MLLMs hold retrieval info</text>
+<text x="805" y="1989" text-anchor="middle" font-size="9.5" fill="#555">We show that off-the-shelf MLLMs encode substantial retrieval-relevant</text>
+<text x="805" y="2001" text-anchor="middle" font-size="9.5" fill="#555">information in their hidden representations.</text>
+<title>N18 [Method] (cites=0)
+We show that off-the-shelf MLLMs encode substantial retrieval-relevant information in their hidden representations.</title>
+</g>
+<g>
+<rect x="595" y="2044" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2058" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Method: component]</text>
+<text x="805" y="2073" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">intermediate layers &gt; final layer</text>
+<text x="805" y="2089" text-anchor="middle" font-size="9.5" fill="#555">A systematic layer-wise analysis reveals that selecting appropriate</text>
+<text x="805" y="2101" text-anchor="middle" font-size="9.5" fill="#555">intermediate layers already yield strong zero-shot retrieval performance</text>
+<text x="805" y="2113" text-anchor="middle" font-size="9.5" fill="#555">(Fig. 1a).</text>
+<title>N19 [Method: component] (cites=0)
+A systematic layer-wise analysis reveals that selecting appropriate intermediate layers already yield strong zero-shot retrieval performance (Fig. 1a).</title>
+</g>
+<g>
+<rect x="595" y="2156" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2170" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Method: component]</text>
+<text x="805" y="2185" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">calibrated MLLM head reranker</text>
+<text x="805" y="2201" text-anchor="middle" font-size="9.5" fill="#555">Further gains are obtained by re-ranking with a calibrated MLLM head (Fig.</text>
+<text x="805" y="2213" text-anchor="middle" font-size="9.5" fill="#555">1b).</text>
+<title>N20 [Method: component] (cites=0)
+Further gains are obtained by re-ranking with a calibrated MLLM head (Fig. 1b).</title>
+</g>
+<g>
+<rect x="595" y="2256" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2270" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Method: component]</text>
+<text x="805" y="2285" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">in-context text-only optimization</text>
+<text x="805" y="2301" text-anchor="middle" font-size="9.5" fill="#555">Finally, we propose an efficient in-context optimization scheme that maps</text>
+<text x="805" y="2313" text-anchor="middle" font-size="9.5" fill="#555">dense video captions to short summaries, enabling task-related embedding</text>
+<text x="805" y="2325" text-anchor="middle" font-size="9.5" fill="#555">learning without visual inputs (Fig. 1c).</text>
+<title>N21 [Method: component] (cites=0)
+Finally, we propose an efficient in-context optimization scheme that maps dense video captions to short summaries, enabling task-related embedding learning without visual inputs (Fig. 1c).</title>
+</g>
+<g>
+<rect x="595" y="2436" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Result]</text>
+<text x="805" y="2465" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">60K text-only beats trained baselines</text>
+<text x="805" y="2481" text-anchor="middle" font-size="9.5" fill="#555">Using only ∼60K text-only in-context pairs, we outperform trained MLLM</text>
+<text x="805" y="2493" text-anchor="middle" font-size="9.5" fill="#555">embedders and video foundation models trained on orders of magnitude more</text>
+<text x="805" y="2505" text-anchor="middle" font-size="9.5" fill="#555">video–text data.</text>
+<title>N22 [Result] (cites=0)
+Using only ∼60K text-only in-context pairs, we outperform trained MLLM embedders and video foundation models trained on orders of magnitude more video–text data.</title>
+</g>
+<g>
+<rect x="170" y="2616" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="322" y="2630" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23a [Contribution: Contribution 1]</text>
+<text x="322" y="2645" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">exploit Video MLLM hidden layers</text>
+<text x="322" y="2661" text-anchor="middle" font-size="9.5" fill="#555">1. We propose a methodology to assess and exploit</text>
+<text x="322" y="2673" text-anchor="middle" font-size="9.5" fill="#555">hidden representations of Video MLLMs for video–text</text>
+<text x="322" y="2685" text-anchor="middle" font-size="9.5" fill="#555">retrieval, and show that intermediate layers can be</text>
+<text x="322" y="2697" text-anchor="middle" font-size="9.5" fill="#555">markedly more effective than the final layer.</text>
+<title>N23a [Contribution: Contribution 1] (cites=0)
+1. We propose a methodology to assess and exploit hidden representations of Video MLLMs for video–text retrieval, and show that intermediate layers can be markedly more effective than the final layer.</title>
+</g>
+<g>
+<rect x="492" y="2616" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="644" y="2630" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23b [Contribution: Contribution 2]</text>
+<text x="644" y="2645" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">zero-shot calibrated-head scorer</text>
+<text x="644" y="2661" text-anchor="middle" font-size="9.5" fill="#555">2. We introduce an effective zero-shot scheme that</text>
+<text x="644" y="2673" text-anchor="middle" font-size="9.5" fill="#555">leverages the MLLM head as a calibrated likelihood</text>
+<text x="644" y="2685" text-anchor="middle" font-size="9.5" fill="#555">scorer, turning off-the-shelf Video MLLMs into</text>
+<text x="644" y="2697" text-anchor="middle" font-size="9.5" fill="#555">competitive video–text retrievers.</text>
+<title>N23b [Contribution: Contribution 2] (cites=0)
+2. We introduce an effective zero-shot scheme that leverages the MLLM head as a calibrated likelihood scorer, turning off-the-shelf Video MLLMs into competitive video–text retrievers.</title>
+</g>
+<g>
+<rect x="814" y="2616" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="966" y="2630" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23c [Contribution: Contribution 3]</text>
+<text x="966" y="2645" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">in-context optimization strategy</text>
+<text x="966" y="2661" text-anchor="middle" font-size="9.5" fill="#555">3. We present an efficient in-context optimization</text>
+<text x="966" y="2673" text-anchor="middle" font-size="9.5" fill="#555">strategy that maps dense video captions to short</text>
+<text x="966" y="2685" text-anchor="middle" font-size="9.5" fill="#555">summaries, enabling task-related embedding learning</text>
+<text x="966" y="2697" text-anchor="middle" font-size="9.5" fill="#555">without visual supervision.</text>
+<title>N23c [Contribution: Contribution 3] (cites=0)
+3. We present an efficient in-context optimization strategy that maps dense video captions to short summaries, enabling task-related embedding learning without visual supervision.</title>
+</g>
+<g>
+<rect x="1136" y="2616" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1288" y="2630" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23d [Contribution: Contribution 4]</text>
+<text x="1288" y="2645" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">SOTA on video-retrieval benchmarks</text>
+<text x="1288" y="2661" text-anchor="middle" font-size="9.5" fill="#555">4. Without any fine-tuning beyond text, our method</text>
+<text x="1288" y="2673" text-anchor="middle" font-size="9.5" fill="#555">achieves state-of-the-art performance on common video</text>
+<text x="1288" y="2685" text-anchor="middle" font-size="9.5" fill="#555">retrieval benchmarks.</text>
+<title>N23d [Contribution: Contribution 4] (cites=0)
+4. Without any fine-tuning beyond text, our method achieves state-of-the-art performance on common video retrieval benchmarks.</title>
+</g>
+<g>
+<rect x="595" y="1652" width="420" height="96" rx="6" fill="#fff2cc" stroke="#b38a2c" stroke-width="1.2"/>
+<text x="805" y="1666" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">P1 [Proof]</text>
+<text x="805" y="1681" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fig. 1: VidVec three-part overview</text>
+<text x="805" y="1697" text-anchor="middle" font-size="9.5" fill="#555">Figure 1. An overview of VidVec. (a) Zero-shot retrieval: extract video and</text>
+<text x="805" y="1709" text-anchor="middle" font-size="9.5" fill="#555">text embeddings from an intermediate MLLM layer for initial ranking. (b)</text>
+<text x="805" y="1721" text-anchor="middle" font-size="9.5" fill="#555">Zero-shot reranking: leverage the calibrated MLLM head for pairwise scoring</text>
+<text x="805" y="1733" text-anchor="middle" font-size="9.5" fill="#555">to rerank…</text>
+<title>P1 [Proof] (cites=0)
+Figure 1. An overview of VidVec. (a) Zero-shot retrieval: extract video and text embeddings from an intermediate MLLM layer for initial ranking. (b) Zero-shot reranking: leverage the calibrated MLLM head for pairwise scoring to rerank top-K candidates. (c) In-context optimization: lightweight model alignment using only ∼60K text-only pairs for embedding extraction via a text-to-text mapping from dense video captions to short summaries, designed to mirror the video–text inference setup.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

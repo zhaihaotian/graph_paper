@@ -1,0 +1,148 @@
+{
+  "paper_id": "FA0011",
+  "paper_topic": "CLIP-scored caption distillation for ReVision-style text-only MLLM pretraining (negative-result empirical study)",
+  "anchor_paper": "ReVision (Yu et al., 2026)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Multimodal large language models (MLLMs) have achieved remarkable progress by combining vision encoders with large language models (Liu et al., 2023; Chen et al., 2023).",
+      "display_label": "MLLMs combine vision + LLM",
+      "citations": 2
+    },
+    {
+      "id": "N2",
+      "type": "Prior_Work",
+      "text": "While recent work demonstrates that more detailed image captions can improve visual understanding (Li et al., 2024), this intuition does not always hold.",
+      "display_label": "Detailed captions help (sometimes)",
+      "citations": 1
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "The Long-Caption Paradox describes the counterintuitive finding that longer captions can hurt MLLM performance in certain training paradigms.",
+      "display_label": "Long-Caption Paradox",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Prior_Work",
+      "text": "This paradox is particularly pronounced in ReVision-style text-only pretraining (Yu et al., 2026), which enables MLLM training without paired images by exploiting the modality gap in contrastive embedding spaces.",
+      "display_label": "ReVision text-only pretraining (anchor)",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N5",
+      "type": "Prior_Work",
+      "text": "ReVision transforms text embeddings to match image embedding statistics, allowing captions to serve as pseudo-visual inputs.",
+      "display_label": "ReVision aligns text to image stats",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "However, verbose captions introduce noise in the text embedding space that disrupts the statistical alignment process.",
+      "display_label": "Verbose captions disrupt alignment",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Prior_Work",
+      "text": "Related approaches such as C3 (Zhang et al., 2024) and Unicorn (Yu et al., 2025) face similar challenges when processing long-form text.",
+      "display_label": "C3 and Unicorn share long-text issue",
+      "citations": 2
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "We hypothesize that CLIP-scored caption distillation—selecting the most visually-relevant sentences from long captions based on image-text similarity—could mitigate this paradox by preserving information density while reducing length.",
+      "display_label": "Hypothesis: CLIP-scored caption distillation",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Method",
+      "text": "To test this hypothesis, we conduct a controlled micro-scale experiment comparing three conditions: (A) original long captions, (B) random length-matched selection, and (C) CLIP-scored selection.",
+      "display_label": "Controlled 3-condition experiment",
+      "citations": 0
+    },
+    {
+      "id": "N9a",
+      "type": "Method: condition",
+      "text": "(A) original long captions",
+      "display_label": "Cond A: long captions",
+      "citations": 0
+    },
+    {
+      "id": "N9b",
+      "type": "Method: condition",
+      "text": "(B) random length-matched selection",
+      "display_label": "Cond B: random selection",
+      "citations": 0
+    },
+    {
+      "id": "N9c",
+      "type": "Method: condition",
+      "text": "(C) CLIP-scored selection",
+      "display_label": "Cond C: CLIP-scored selection",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Result",
+      "text": "Our results show that the hypothesis is not supported: caption distillation (51.88% mean accuracy) underperforms long captions (53.31%) by 1.43 percentage points.",
+      "display_label": "Hypothesis not supported (-1.43pp)",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Result",
+      "text": "However, content-aware selection consistently outperforms random selection (49.90%) by 1.98 percentage points, validating that CLIP-based scoring preserves more useful information than indiscriminate filtering.",
+      "display_label": "CLIP > random by +1.98pp",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "The first systematic study of caption distillation for ReVision-style text-only MLLM pretraining, providing a rigorous test of whether content-aware sentence selection can mitigate the Long-Caption Paradox.",
+      "display_label": "First systematic distillation study",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "A negative result with mechanistic explanation: sentence-level filtering inevitably loses object-presence mentions, as evidenced by POPE recall dropping from 98% to 88%.",
+      "display_label": "Negative result + POPE recall mechanism",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "An actionable insight for future work: caption condensation (rewriting to preserve information in fewer words) may succeed where filtering fails.",
+      "display_label": "Insight: condensation > filtering",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "contrast", "connective": "does not always hold"},
+    {"from": "N3", "to": "N4", "kind": "elaboration", "connective": "particularly pronounced in"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "contrast", "connective": "However"},
+    {"from": "N6", "to": "N7", "kind": "elaboration"},
+    {"from": "N7", "to": "N8", "kind": "consequence", "connective": "We hypothesize"},
+    {"from": "N8", "to": "N9", "kind": "consequence", "connective": "To test this hypothesis"},
+    {"from": "N9", "to": "N9a", "kind": "elaboration"},
+    {"from": "N9", "to": "N9b", "kind": "elaboration"},
+    {"from": "N9", "to": "N9c", "kind": "elaboration"},
+    {"from": "N9", "to": "N10", "kind": "evidence"},
+    {"from": "N10", "to": "N11", "kind": "contrast", "connective": "However"},
+    {"from": "N11", "to": "C1", "kind": "elaboration"},
+    {"from": "N11", "to": "C2", "kind": "elaboration"},
+    {"from": "N11", "to": "C3", "kind": "elaboration"},
+    {"from": "N8", "to": "N6", "kind": "addresses"},
+    {"from": "N9", "to": "N6", "kind": "addresses"}
+  ],
+  "observations": "FA0011 is a negative-result empirical study built around a single anchor paper (ReVision, Yu et al., 2026). The intro opens with broad MLLM context (N1) and immediately introduces a tension: detailed captions usually help (N2) but not always, leading to the Long-Caption Paradox (N3). N3 stays in Context because it describes a field-level phenomenon ('certain training paradigms') without critiquing any single named method. The argument then narrows onto ReVision specifically (N4-N5), and only after that does the proper Limitation appear (N6: verbose captions disrupt the alignment process for ReVision); N7 generalizes the limitation to sibling systems C3/Unicorn. The Method section is hypothesis-driven: a single hypothesis node (N8) is operationalized into a 3-condition experiment (N9 → N9a/b/c, a textbook fork-with-leaves enumeration that the renderer should side-place). The Result block is itself a small contrast (N10 negative result; N11 nuanced positive sub-finding via 'However'), which is the rhetorical hinge of the paper. Three Contributions (C1-C3) all hang from N11. Two Method→Limitation addresses edges (N8 → N6, N9 → N6) connect the proposed distillation hypothesis and its experiment to the verbose-caption disruption Limitation. The narrative arc is unusual: a hypothesis is explicitly stated, tested, refuted, and then partially salvaged with a mechanistic explanation — the Contribution framing centers the negative result as the primary deliverable."
+}

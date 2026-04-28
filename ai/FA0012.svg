@@ -1,0 +1,205 @@
+<svg viewBox="0 0 1480 1896" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="104" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="340" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="188" x2="1450" y2="188" stroke="#eee" stroke-width="1"/>
+<text x="14" y="744" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="492" x2="1450" y2="492" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1086" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="996" x2="1450" y2="996" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1410" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1176" x2="1450" y2="1176" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1740" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1644" x2="1450" y2="1644" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1672" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1668" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N12</text>
+<line x1="805" y1="140" x2="805" y2="236" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="332" x2="805" y2="360" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="444" x2="805" y2="540" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="624" x2="805" y2="652" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="635" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">A key question emerges</text>
+<line x1="805" y1="736" x2="805" y2="764" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="747" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">We hypothesize</text>
+<line x1="805" y1="848" x2="805" y2="876" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="948" x2="805" y2="1044" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="993" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">This motivates our approach</text>
+<line x1="805" y1="1128" x2="805" y2="1224" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1284" x2="805" y2="1312" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1396" x2="805" y2="1424" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1496" x2="805" y2="1524" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1596" x2="427" y2="1692" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1596" x2="805" y2="1692" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1596" x2="1183" y2="1692" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1128" x2="427" y2="1692" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="624" x2="805" y2="1692" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="948" x2="1183" y2="1692" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="848" x2="427" y2="1692" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<g>
+<rect x="595" y="68" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Spatial understanding for embodied AI</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Spatial understanding is fundamental to embodied AI systems, from household</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">robots to navigation assistants.</text>
+<title>N1 [Context] (cites=0)
+Spatial understanding is fundamental to embodied AI systems, from household robots to navigation assistants.</title>
+</g>
+<circle cx="1022.0" cy="244.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="252.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="236" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="250" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Prior_Work]</text>
+<text x="805" y="265" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">VLMs extract spatial info but cannot revise beliefs</text>
+<text x="805" y="281" text-anchor="middle" font-size="9.5" fill="#555">Recent vision-language models (VLMs) have demonstrated impressive</text>
+<text x="805" y="293" text-anchor="middle" font-size="9.5" fill="#555">capabilities in extracting spatial information from images (Chen et al.,</text>
+<text x="805" y="305" text-anchor="middle" font-size="9.5" fill="#555">2024; Cheng et al., 2024), yet a critical challenge remains: how should</text>
+<text x="805" y="317" text-anchor="middle" font-size="9.5" fill="#555">these models maintain and…</text>
+<title>N2 [Prior_Work] (cites=2)
+Recent vision-language models (VLMs) have demonstrated impressive capabilities in extracting spatial information from images (Chen et al., 2024; Cheng et al., 2024), yet a critical challenge remains: how should these models maintain and revise spatial beliefs over time as environments change?</title>
+</g>
+<circle cx="1022.0" cy="368.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="360" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="374" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Prior_Work : ANCHOR]</text>
+<text x="805" y="389" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Theory of Space benchmark (anchor)</text>
+<text x="805" y="405" text-anchor="middle" font-size="9.5" fill="#555">The Theory of Space benchmark (Zhang et al., 2026) isolates this challenge</text>
+<text x="805" y="417" text-anchor="middle" font-size="9.5" fill="#555">by evaluating whether foundation models can construct coherent spatial</text>
+<text x="805" y="429" text-anchor="middle" font-size="9.5" fill="#555">beliefs through active exploration.</text>
+<title>N3 [Prior_Work] (cites=1)
+The Theory of Space benchmark (Zhang et al., 2026) isolates this challenge by evaluating whether foundation models can construct coherent spatial beliefs through active exploration.</title>
+</g>
+<g>
+<rect x="595" y="540" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="554" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Limitation]</text>
+<text x="805" y="569" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">VLMs show high belief inertia</text>
+<text x="805" y="585" text-anchor="middle" font-size="9.5" fill="#555">The benchmark reveals severe limitations: even strong VLMs exhibit high</text>
+<text x="805" y="597" text-anchor="middle" font-size="9.5" fill="#555">belief inertia, failing to update their spatial representations when objects</text>
+<text x="805" y="609" text-anchor="middle" font-size="9.5" fill="#555">move or rotate.</text>
+<title>N4 [Limitation] (cites=0)
+The benchmark reveals severe limitations: even strong VLMs exhibit high belief inertia, failing to update their spatial representations when objects move or rotate.</title>
+</g>
+<g>
+<rect x="595" y="652" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="666" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Limitation]</text>
+<text x="805" y="681" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Perception failure vs interface failure?</text>
+<text x="805" y="697" text-anchor="middle" font-size="9.5" fill="#555">A key question emerges: is this failure due to fundamental perception</text>
+<text x="805" y="709" text-anchor="middle" font-size="9.5" fill="#555">limitations, or does the interface by which beliefs are externalized</text>
+<text x="805" y="721" text-anchor="middle" font-size="9.5" fill="#555">contribute to the problem?</text>
+<title>N5 [Limitation] (cites=0)
+A key question emerges: is this failure due to fundamental perception limitations, or does the interface by which beliefs are externalized contribute to the problem?</title>
+</g>
+<g>
+<rect x="595" y="764" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="778" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="793" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Hypothesis: full regen causes transcription errors</text>
+<text x="805" y="809" text-anchor="middle" font-size="9.5" fill="#555">We hypothesize that repeatedly regenerating complete cognitive maps from</text>
+<text x="805" y="821" text-anchor="middle" font-size="9.5" fill="#555">long observation histories introduces transcription errors and inconsistent</text>
+<text x="805" y="833" text-anchor="middle" font-size="9.5" fill="#555">conflict resolution.</text>
+<title>N6 [Limitation] (cites=0)
+We hypothesize that repeatedly regenerating complete cognitive maps from long observation histories introduces transcription errors and inconsistent conflict resolution.</title>
+</g>
+<g>
+<rect x="595" y="876" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="890" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="905" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Sparse observations -&gt; full regen wasteful</text>
+<text x="805" y="921" text-anchor="middle" font-size="9.5" fill="#555">When most observations only affect a small subset of objects, full</text>
+<text x="805" y="933" text-anchor="middle" font-size="9.5" fill="#555">regeneration is both wasteful and error-prone.</text>
+<title>N7 [Limitation] (cites=0)
+When most observations only affect a small subset of objects, full regeneration is both wasteful and error-prone.</title>
+</g>
+<g>
+<rect x="595" y="1044" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1058" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="1073" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose delta-map updates</text>
+<text x="805" y="1089" text-anchor="middle" font-size="9.5" fill="#555">This motivates our approach: delta-map updates, a sparse belief revision</text>
+<text x="805" y="1101" text-anchor="middle" font-size="9.5" fill="#555">mechanism that preserves unchanged spatial beliefs while selectively</text>
+<text x="805" y="1113" text-anchor="middle" font-size="9.5" fill="#555">updating only elements affected by new observations.</text>
+<title>N8 [Method] (cites=0)
+This motivates our approach: delta-map updates, a sparse belief revision mechanism that preserves unchanged spatial beliefs while selectively updating only elements affected by new observations.</title>
+</g>
+<g>
+<rect x="595" y="1224" width="420" height="60" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1238" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Result]</text>
+<text x="805" y="1253" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Experiments validate hypothesis</text>
+<text x="805" y="1269" text-anchor="middle" font-size="9.5" fill="#555">Our experiments on the Theory of Space benchmark validate this hypothesis.</text>
+<title>N9 [Result] (cites=0)
+Our experiments on the Theory of Space benchmark validate this hypothesis.</title>
+</g>
+<g>
+<rect x="595" y="1312" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1326" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Result]</text>
+<text x="805" y="1341" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Prior context: +16.7pp F1</text>
+<text x="805" y="1357" text-anchor="middle" font-size="9.5" fill="#555">Providing prior map context with explicit preserve/overwrite rules improves</text>
+<text x="805" y="1369" text-anchor="middle" font-size="9.5" fill="#555">false-belief identification F1 by +16.7 percentage points over scratch</text>
+<text x="805" y="1381" text-anchor="middle" font-size="9.5" fill="#555">regeneration.</text>
+<title>N10 [Result] (cites=0)
+Providing prior map context with explicit preserve/overwrite rules improves false-belief identification F1 by +16.7 percentage points over scratch regeneration.</title>
+</g>
+<g>
+<rect x="595" y="1424" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1438" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Result]</text>
+<text x="805" y="1453" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Delta=full F1, 52-63% smaller output</text>
+<text x="805" y="1469" text-anchor="middle" font-size="9.5" fill="#555">Delta-map updates achieve equivalent performance to full regeneration (F1 =</text>
+<text x="805" y="1481" text-anchor="middle" font-size="9.5" fill="#555">0.479 vs 0.477) while producing 52–63% smaller structured outputs.</text>
+<title>N11 [Result] (cites=0)
+Delta-map updates achieve equivalent performance to full regeneration (F1 = 0.479 vs 0.477) while producing 52–63% smaller structured outputs.</title>
+</g>
+<g>
+<rect x="595" y="1524" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1538" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Result]</text>
+<text x="805" y="1553" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">~30% objects updated/step (sparse)</text>
+<text x="805" y="1569" text-anchor="middle" font-size="9.5" fill="#555">Analysis confirms the sparse evidence premise: only ∼30% of objects require</text>
+<text x="805" y="1581" text-anchor="middle" font-size="9.5" fill="#555">updating per step.</text>
+<title>N12 [Result] (cites=0)
+Analysis confirms the sparse evidence premise: only ∼30% of objects require updating per step.</title>
+</g>
+<g>
+<rect x="247" y="1692" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1706" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="427" y="1721" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution: delta-map interface</text>
+<text x="427" y="1737" text-anchor="middle" font-size="9.5" fill="#555">First, we propose a delta-map belief update interface for VLMs</text>
+<text x="427" y="1749" text-anchor="middle" font-size="9.5" fill="#555">that treats cognitive maps as external state and updates them</text>
+<text x="427" y="1761" text-anchor="middle" font-size="9.5" fill="#555">through sparse delta operations.</text>
+<title>C1 [Contribution] (cites=0)
+First, we propose a delta-map belief update interface for VLMs that treats cognitive maps as external state and updates them through sparse delta operations.</title>
+</g>
+<g>
+<rect x="625" y="1692" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1706" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="805" y="1721" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution: prior context +54% rel</text>
+<text x="805" y="1737" text-anchor="middle" font-size="9.5" fill="#555">Second, we provide empirical validation on the Theory of Space</text>
+<text x="805" y="1749" text-anchor="middle" font-size="9.5" fill="#555">benchmark demonstrating that prior context dramatically improves</text>
+<text x="805" y="1761" text-anchor="middle" font-size="9.5" fill="#555">change detection (+54% relative improvement).</text>
+<title>C2 [Contribution] (cites=0)
+Second, we provide empirical validation on the Theory of Space benchmark demonstrating that prior context dramatically improves change detection (+54% relative improvement).</title>
+</g>
+<g>
+<rect x="1003" y="1692" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1706" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="1183" y="1721" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution: sparse=full + efficiency</text>
+<text x="1183" y="1737" text-anchor="middle" font-size="9.5" fill="#555">Third, we present evidence that sparse updates match full</text>
+<text x="1183" y="1749" text-anchor="middle" font-size="9.5" fill="#555">regeneration performance with substantial efficiency gains,</text>
+<text x="1183" y="1761" text-anchor="middle" font-size="9.5" fill="#555">validating the sparse evidence premise for spatial belief</text>
+<text x="1183" y="1773" text-anchor="middle" font-size="9.5" fill="#555">revision.</text>
+<title>C3 [Contribution] (cites=0)
+Third, we present evidence that sparse updates match full regeneration performance with substantial efficiency gains, validating the sparse evidence premise for spatial belief revision.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

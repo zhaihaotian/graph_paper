@@ -1,0 +1,175 @@
+<svg viewBox="0 0 1480 1540" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="104" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="346" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="188" x2="1450" y2="188" stroke="#eee" stroke-width="1"/>
+<text x="14" y="700" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="504" x2="1450" y2="504" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1092" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="896" x2="1450" y2="896" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1384" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1288" x2="1450" y2="1288" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1316" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1312" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N8</text>
+<line x1="805" y1="140" x2="805" y2="236" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="332" x2="805" y2="360" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="343" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Recently</text>
+<line x1="805" y1="456" x2="805" y2="552" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="501" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="648" x2="805" y2="676" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="748" x2="805" y2="776" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="759" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">This raises</text>
+<line x1="805" y1="848" x2="805" y2="944" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="893" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">In this paper</text>
+<line x1="805" y1="1016" x2="805" y2="1044" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1128" x2="805" y2="1156" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1128" x2="427" y2="1336" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="805" y1="1240" x2="805" y2="1336" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="805" y1="1128" x2="1183" y2="1336" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1016" x2="805" y2="552" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1128" x2="805" y2="676" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1240" x2="805" y2="776" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RL improves LLM reasoning</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Reinforcement learning has emerged as a powerful paradigm for improving</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">reasoning capabilities in large language models (Zhang et al., 2025).</text>
+<title>N1 [Context] (cites=1)
+Reinforcement learning has emerged as a powerful paradigm for improving reasoning capabilities in large language models (Zhang et al., 2025).</title>
+</g>
+<circle cx="1022.0" cy="244.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="236" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="250" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Prior_Work]</text>
+<text x="805" y="265" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">GRPO: critic-free group-relative advantages</text>
+<text x="805" y="281" text-anchor="middle" font-size="9.5" fill="#555">Group Relative Policy Optimization (GRPO) (Shao et al., 2024) has proven</text>
+<text x="805" y="293" text-anchor="middle" font-size="9.5" fill="#555">particularly effective for mathematical reasoning, achieving strong results</text>
+<text x="805" y="305" text-anchor="middle" font-size="9.5" fill="#555">by computing advantages relative to group statistics without requiring a</text>
+<text x="805" y="317" text-anchor="middle" font-size="9.5" fill="#555">separate critic…</text>
+<title>N2 [Prior_Work] (cites=1)
+Group Relative Policy Optimization (GRPO) (Shao et al., 2024) has proven particularly effective for mathematical reasoning, achieving strong results by computing advantages relative to group statistics without requiring a separate critic network.</title>
+</g>
+<circle cx="1022.0" cy="368.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="360" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="374" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Prior_Work : ANCHOR]</text>
+<text x="805" y="389" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">TA-GRPO: semantic transforms + pooled advantages</text>
+<text x="805" y="405" text-anchor="middle" font-size="9.5" fill="#555">Recently, Transform-Augmented GRPO (TA-GRPO) (Le et al., 2026) extended this</text>
+<text x="805" y="417" text-anchor="middle" font-size="9.5" fill="#555">approach by generating semantically equivalent variants of each training</text>
+<text x="805" y="429" text-anchor="middle" font-size="9.5" fill="#555">prompt through paraphrasing, variable renaming, and format changes, then</text>
+<text x="805" y="441" text-anchor="middle" font-size="9.5" fill="#555">pooling…</text>
+<title>N3 [Prior_Work] (cites=1)
+Recently, Transform-Augmented GRPO (TA-GRPO) (Le et al., 2026) extended this approach by generating semantically equivalent variants of each training prompt through paraphrasing, variable renaming, and format changes, then pooling advantages across the entire group.</title>
+</g>
+<g>
+<rect x="595" y="552" width="420" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="566" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Limitation]</text>
+<text x="805" y="581" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">TA-GRPO comparison confounded by extra compute</text>
+<text x="805" y="597" text-anchor="middle" font-size="9.5" fill="#555">However, TA-GRPO's reported improvements over standard GRPO are confounded</text>
+<text x="805" y="609" text-anchor="middle" font-size="9.5" fill="#555">by a fundamental difference in compute: by generating N transformations per</text>
+<text x="805" y="621" text-anchor="middle" font-size="9.5" fill="#555">prompt and sampling rollouts for each variant, TA-GRPO uses (N + 1)× more</text>
+<text x="805" y="633" text-anchor="middle" font-size="9.5" fill="#555">rollouts per…</text>
+<title>N4 [Limitation] (cites=0)
+However, TA-GRPO's reported improvements over standard GRPO are confounded by a fundamental difference in compute: by generating N transformations per prompt and sampling rollouts for each variant, TA-GRPO uses (N + 1)× more rollouts per original prompt.</title>
+</g>
+<g>
+<rect x="595" y="676" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="690" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Limitation]</text>
+<text x="805" y="705" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">4x more rollouts than GRPO</text>
+<text x="805" y="721" text-anchor="middle" font-size="9.5" fill="#555">With N = 3 transformations, this amounts to 4× more total rollouts than</text>
+<text x="805" y="733" text-anchor="middle" font-size="9.5" fill="#555">standard GRPO trained for the same number of steps.</text>
+<title>N5 [Limitation] (cites=0)
+With N = 3 transformations, this amounts to 4× more total rollouts than standard GRPO trained for the same number of steps.</title>
+</g>
+<g>
+<rect x="595" y="776" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="790" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="805" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Question: transformations vs compute?</text>
+<text x="805" y="821" text-anchor="middle" font-size="9.5" fill="#555">This raises a critical question: does TA-GRPO's advantage stem from its</text>
+<text x="805" y="833" text-anchor="middle" font-size="9.5" fill="#555">semantic transformation mechanism, or simply from the additional compute?</text>
+<title>N6 [Limitation] (cites=0)
+This raises a critical question: does TA-GRPO's advantage stem from its semantic transformation mechanism, or simply from the additional compute?</title>
+</g>
+<g>
+<rect x="595" y="944" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="958" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Method]</text>
+<text x="805" y="973" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Compute-matched evaluation design</text>
+<text x="805" y="989" text-anchor="middle" font-size="9.5" fill="#555">In this paper, we design a compute-matched evaluation to isolate the true</text>
+<text x="805" y="1001" text-anchor="middle" font-size="9.5" fill="#555">contribution of semantic transformations.</text>
+<title>N7 [Method] (cites=0)
+In this paper, we design a compute-matched evaluation to isolate the true contribution of semantic transformations.</title>
+</g>
+<g>
+<rect x="595" y="1044" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1058" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="1073" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Match total rollouts (~725K) across conditions</text>
+<text x="805" y="1089" text-anchor="middle" font-size="9.5" fill="#555">We compare standard GRPO trained for 708 steps (with 8 rollouts per prompt)</text>
+<text x="805" y="1101" text-anchor="middle" font-size="9.5" fill="#555">against TA-GRPO trained for 177 steps (with 32 rollouts per prompt group),</text>
+<text x="805" y="1113" text-anchor="middle" font-size="9.5" fill="#555">ensuring both methods consume identical total rollouts (∼725K).</text>
+<title>N8 [Method] (cites=0)
+We compare standard GRPO trained for 708 steps (with 8 rollouts per prompt) against TA-GRPO trained for 177 steps (with 32 rollouts per prompt group), ensuring both methods consume identical total rollouts (∼725K).</title>
+</g>
+<g>
+<rect x="595" y="1156" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1170" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="1185" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Per-variant ablation isolates pooling effect</text>
+<text x="805" y="1201" text-anchor="middle" font-size="9.5" fill="#555">We further introduce an ablation condition that uses transformations but</text>
+<text x="805" y="1213" text-anchor="middle" font-size="9.5" fill="#555">computes advantages per-variant rather than pooled, isolating the</text>
+<text x="805" y="1225" text-anchor="middle" font-size="9.5" fill="#555">contribution of data augmentation from pooled normalization.</text>
+<title>N9 [Method] (cites=0)
+We further introduce an ablation condition that uses transformations but computes advantages per-variant rather than pooled, isolating the contribution of data augmentation from pooled normalization.</title>
+</g>
+<g>
+<rect x="247" y="1336" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1350" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution: Finding 1]</text>
+<text x="427" y="1365" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Finding 1: +2.02pp Pass@32 under matched compute</text>
+<text x="427" y="1381" text-anchor="middle" font-size="9.5" fill="#555">We present the first compute-matched evaluation of TA-GRPO,</text>
+<text x="427" y="1393" text-anchor="middle" font-size="9.5" fill="#555">demonstrating that it achieves +2.02pp higher Pass@32 than</text>
+<text x="427" y="1405" text-anchor="middle" font-size="9.5" fill="#555">GRPO-Long under identical rollout budgets, confirming that</text>
+<text x="427" y="1417" text-anchor="middle" font-size="9.5" fill="#555">semantic transformations provide genuine benefits beyond…</text>
+<title>C1 [Contribution: Finding 1] (cites=0)
+We present the first compute-matched evaluation of TA-GRPO, demonstrating that it achieves +2.02pp higher Pass@32 than GRPO-Long under identical rollout budgets, confirming that semantic transformations provide genuine benefits beyond additional compute.</title>
+</g>
+<g>
+<rect x="625" y="1336" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1350" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution: Finding 2]</text>
+<text x="805" y="1365" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Finding 2: 87% augmentation vs 13% pooling</text>
+<text x="805" y="1381" text-anchor="middle" font-size="9.5" fill="#555">Through ablation analysis, we show that 87% of TA-GRPO's</text>
+<text x="805" y="1393" text-anchor="middle" font-size="9.5" fill="#555">improvement comes from semantic data augmentation, while only 13%</text>
+<text x="805" y="1405" text-anchor="middle" font-size="9.5" fill="#555">comes from pooled advantage normalization.</text>
+<title>C2 [Contribution: Finding 2] (cites=0)
+Through ablation analysis, we show that 87% of TA-GRPO's improvement comes from semantic data augmentation, while only 13% comes from pooled advantage normalization.</title>
+</g>
+<g>
+<rect x="1003" y="1336" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1350" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution: Finding 3]</text>
+<text x="1183" y="1365" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Finding 3: gain scales with k (diversity)</text>
+<text x="1183" y="1381" text-anchor="middle" font-size="9.5" fill="#555">We analyze Pass@k scaling and variance rescue, finding that</text>
+<text x="1183" y="1393" text-anchor="middle" font-size="9.5" fill="#555">TA-GRPO's advantage grows with inference-time compute (from</text>
+<text x="1183" y="1405" text-anchor="middle" font-size="9.5" fill="#555">+1.07pp at k = 1 to +2.02pp at k = 32), consistent with improved</text>
+<text x="1183" y="1417" text-anchor="middle" font-size="9.5" fill="#555">solution diversity.</text>
+<title>C3 [Contribution: Finding 3] (cites=0)
+We analyze Pass@k scaling and variance rescue, finding that TA-GRPO's advantage grows with inference-time compute (from +1.07pp at k = 1 to +2.02pp at k = 32), consistent with improved solution diversity.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

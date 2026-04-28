@@ -1,0 +1,134 @@
+{
+  "paper_id": "FA0012",
+  "paper_topic": "Delta-map belief updates for stable spatial revision in vision-language models",
+  "anchor_paper": "Theory of Space (Zhang et al., 2026)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Spatial understanding is fundamental to embodied AI systems, from household robots to navigation assistants.",
+      "display_label": "Spatial understanding for embodied AI",
+      "citations": 0
+    },
+    {
+      "id": "N2",
+      "type": "Prior_Work",
+      "text": "Recent vision-language models (VLMs) have demonstrated impressive capabilities in extracting spatial information from images (Chen et al., 2024; Cheng et al., 2024), yet a critical challenge remains: how should these models maintain and revise spatial beliefs over time as environments change?",
+      "display_label": "VLMs extract spatial info but cannot revise beliefs",
+      "citations": 2
+    },
+    {
+      "id": "N3",
+      "type": "Prior_Work",
+      "text": "The Theory of Space benchmark (Zhang et al., 2026) isolates this challenge by evaluating whether foundation models can construct coherent spatial beliefs through active exploration.",
+      "display_label": "Theory of Space benchmark (anchor)",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N4",
+      "type": "Limitation",
+      "text": "The benchmark reveals severe limitations: even strong VLMs exhibit high belief inertia, failing to update their spatial representations when objects move or rotate.",
+      "display_label": "VLMs show high belief inertia",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Limitation",
+      "text": "A key question emerges: is this failure due to fundamental perception limitations, or does the interface by which beliefs are externalized contribute to the problem?",
+      "display_label": "Perception failure vs interface failure?",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "We hypothesize that repeatedly regenerating complete cognitive maps from long observation histories introduces transcription errors and inconsistent conflict resolution.",
+      "display_label": "Hypothesis: full regen causes transcription errors",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Limitation",
+      "text": "When most observations only affect a small subset of objects, full regeneration is both wasteful and error-prone.",
+      "display_label": "Sparse observations -> full regen wasteful",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "This motivates our approach: delta-map updates, a sparse belief revision mechanism that preserves unchanged spatial beliefs while selectively updating only elements affected by new observations.",
+      "display_label": "Propose delta-map updates",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Result",
+      "text": "Our experiments on the Theory of Space benchmark validate this hypothesis.",
+      "display_label": "Experiments validate hypothesis",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Result",
+      "text": "Providing prior map context with explicit preserve/overwrite rules improves false-belief identification F1 by +16.7 percentage points over scratch regeneration.",
+      "display_label": "Prior context: +16.7pp F1",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Result",
+      "text": "Delta-map updates achieve equivalent performance to full regeneration (F1 = 0.479 vs 0.477) while producing 52–63% smaller structured outputs.",
+      "display_label": "Delta=full F1, 52-63% smaller output",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Result",
+      "text": "Analysis confirms the sparse evidence premise: only ∼30% of objects require updating per step.",
+      "display_label": "~30% objects updated/step (sparse)",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "First, we propose a delta-map belief update interface for VLMs that treats cognitive maps as external state and updates them through sparse delta operations.",
+      "display_label": "Contribution: delta-map interface",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "Second, we provide empirical validation on the Theory of Space benchmark demonstrating that prior context dramatically improves change detection (+54% relative improvement).",
+      "display_label": "Contribution: prior context +54% rel",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "Third, we present evidence that sparse updates match full regeneration performance with substantial efficiency gains, validating the sparse evidence premise for spatial belief revision.",
+      "display_label": "Contribution: sparse=full + efficiency",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "elaboration"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N5", "kind": "consequence", "connective": "A key question emerges"},
+    {"from": "N5", "to": "N6", "kind": "elaboration", "connective": "We hypothesize"},
+    {"from": "N6", "to": "N7", "kind": "elaboration"},
+    {"from": "N7", "to": "N8", "kind": "consequence", "connective": "This motivates our approach"},
+    {"from": "N8", "to": "N9", "kind": "evidence"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "N12", "kind": "elaboration"},
+    {"from": "N12", "to": "C1", "kind": "elaboration"},
+    {"from": "N12", "to": "C2", "kind": "elaboration"},
+    {"from": "N12", "to": "C3", "kind": "elaboration"},
+    {"from": "N8", "to": "C1", "kind": "addresses"},
+    {"from": "N4", "to": "C2", "kind": "addresses"},
+    {"from": "N7", "to": "C3", "kind": "addresses"},
+    {"from": "N6", "to": "C1", "kind": "addresses"}
+  ],
+  "observations": "FA0012 has a tightly anchored single-paper structure: the Theory of Space benchmark (N3) serves as both the source of the diagnostic finding and the evaluation target for the proposed method. The intro opens with embodied-AI context (N1) and immediately raises a tension via a 'yet' contrast embedded inside N2 — VLMs can extract spatial information but cannot revise beliefs over time. The benchmark (N3) then provides 'evidence' for the limitation chain (N4 belief inertia), which then forks into a meta-level diagnostic question (N5: perception vs interface) — this is the rhetorical fulcrum of the paper. The author commits to the interface-failure side via a hypothesis (N6) and a sparsity premise (N7), which together motivate the delta-map method (N8) through an explicit 'This motivates our approach' consequence marker. Result block (N9-N12) is a linear cascade: validation claim → +16.7pp F1 gain → delta=full with smaller outputs → ~30% sparsity confirmation. The three Contributions (C1-C3) form a clean three-way join: each receives both an elaboration edge from the final Result (N12) and a targeted 'addresses' edge from a specific limitation/method node (N8→C1 interface, N4→C2 belief inertia, N7→C3 sparse-evidence premise, plus N6→C1 transcription-error hypothesis). Unlike FA0008's compute-noise problem or FA0011's negative-result hypothesis test, FA0012 frames its work as an interface intervention rather than a model improvement, which is structurally reflected in the diagnostic 'either/or' fork at N5 that no other paper here exhibits."
+}

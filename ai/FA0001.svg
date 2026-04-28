@@ -1,0 +1,224 @@
+<svg viewBox="0 0 1480 1740" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="222" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="508" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="424" x2="1450" y2="424" stroke="#eee" stroke-width="1"/>
+<text x="14" y="794" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="592" x2="1450" y2="592" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1242" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="996" x2="1450" y2="996" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1584" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1488" x2="1450" y2="1488" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1516" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1512" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N11</text>
+<rect x="773" y="475" width="448" height="58" rx="8" fill="none" stroke="#9b8a3a" stroke-width="1.0" stroke-dasharray="4 3" opacity="0.7"/>
+<text x="781" y="471" font-size="9.5" fill="#9b8a3a" font-style="italic">examples</text>
+<line x1="805" y1="140" x2="805" y2="168" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="151" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="264" x2="805" y2="292" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="376" x2="575" y2="472" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="575" y1="544" x2="805" y2="640" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="690" y="589" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="724" x2="805" y2="752" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="836" x2="805" y2="864" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="847" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">therefore</text>
+<line x1="805" y1="948" x2="805" y2="1044" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="993" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">motivates</text>
+<line x1="805" y1="1116" x2="805" y2="1144" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1216" x2="805" y2="1244" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1328" x2="805" y2="1356" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1440" x2="427" y2="1536" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1440" x2="805" y2="1536" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1440" x2="1183" y2="1536" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1216" x2="805" y2="640" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1328" x2="805" y2="864" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1440" x2="805" y2="640" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs use alignment training</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Large language models (LLMs) undergo extensive alignment training to ensure</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">helpful, harmless, and honest behavior (Ouyang et al., 2022).</text>
+<title>N1 [Context] (cites=1)
+Large language models (LLMs) undergo extensive alignment training to ensure helpful, harmless, and honest behavior (Ouyang et al., 2022).</title>
+</g>
+<circle cx="1022.0" cy="176.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="184.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="168" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="182" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="197" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fine-tuning causes broad misalignment</text>
+<text x="805" y="213" text-anchor="middle" font-size="9.5" fill="#555">However, recent work has revealed a concerning phenomenon: fine-tuning on</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">seemingly benign, narrow tasks can cause models to become broadly</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">misaligned, exhibiting harmful behaviors on unrelated prompts (Betley et</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">al., 2026; Turner et al.,…</text>
+<title>N2 [Context] (cites=2)
+However, recent work has revealed a concerning phenomenon: fine-tuning on seemingly benign, narrow tasks can cause models to become broadly misaligned, exhibiting harmful behaviors on unrelated prompts (Betley et al., 2026; Turner et al., 2025).</title>
+</g>
+<circle cx="1022.0" cy="300.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="292" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="306" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="321" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">EM is a safety risk</text>
+<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">This emergent misalignment (EM) poses significant safety risks, as it can</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">arise from innocuous-looking training data without explicit malicious intent</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">(Qi et al., 2023).</text>
+<title>N3 [Context] (cites=1)
+This emergent misalignment (EM) poses significant safety risks, as it can arise from innocuous-looking training data without explicit malicious intent (Qi et al., 2023).</title>
+</g>
+<g>
+<rect x="395" y="472" width="360" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="575" y="486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work]</text>
+<text x="575" y="501" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Defenses against EM exist</text>
+<text x="575" y="517" text-anchor="middle" font-size="9.5" fill="#555">Several defenses have been proposed to mitigate EM during</text>
+<text x="575" y="529" text-anchor="middle" font-size="9.5" fill="#555">fine-tuning.</text>
+<title>N4 [Prior_Work] (cites=0)
+Several defenses have been proposed to mitigate EM during fine-tuning.</title>
+</g>
+<circle cx="924.0" cy="495.0" r="2.0" fill="#9b7a2e"/>
+<g>
+<rect x="779" y="489" width="140" height="38" rx="5" fill="#e8e8e8" stroke="#888" stroke-width="1.0" opacity="0.95"/>
+<text x="849" y="512" text-anchor="middle" font-size="11" fill="#333" font-weight="500">Safe-data interleaving</text>
+<text x="784" y="500" font-size="8" fill="#888">N4a</text>
+<title>N4a [Prior_Work: defense-1] (cites=1)
+Safe-data interleaving mixes benign instruction-following examples with the target training data to preserve alignment (Kaczér et al., 2025).</title>
+</g>
+<circle cx="1072.0" cy="495.0" r="2.0" fill="#9b7a2e"/>
+<g>
+<rect x="927" y="489" width="140" height="38" rx="5" fill="#e8e8e8" stroke="#888" stroke-width="1.0" opacity="0.95"/>
+<text x="997" y="512" text-anchor="middle" font-size="11" fill="#333" font-weight="500">SafeLoRA projection</text>
+<text x="932" y="500" font-size="8" fill="#888">N4b</text>
+<title>N4b [Prior_Work: defense-2] (cites=1)
+SafeLoRA projects LoRA weight updates to preserve safety-critical directions (Hsu et al., 2024).</title>
+</g>
+<circle cx="1220.0" cy="495.0" r="2.0" fill="#9b7a2e"/>
+<g>
+<rect x="1075" y="489" width="140" height="38" rx="5" fill="#e8e8e8" stroke="#888" stroke-width="1.0" opacity="0.95"/>
+<text x="1145" y="512" text-anchor="middle" font-size="11" fill="#333" font-weight="500">Representation engineering</text>
+<text x="1080" y="500" font-size="8" fill="#888">N4c</text>
+<title>N4c [Prior_Work: defense-3] (cites=1)
+Representation engineering approaches identify and protect alignment-relevant features (Ustaomeroglu &amp; Qu, 2026).</title>
+</g>
+<g>
+<rect x="595" y="640" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="654" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Limitation]</text>
+<text x="805" y="669" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Existing defenses use fixed parameters</text>
+<text x="805" y="685" text-anchor="middle" font-size="9.5" fill="#555">However, these methods typically use fixed parameters throughout training,</text>
+<text x="805" y="697" text-anchor="middle" font-size="9.5" fill="#555">applying the same level of intervention regardless of the model's current</text>
+<text x="805" y="709" text-anchor="middle" font-size="9.5" fill="#555">state.</text>
+<title>N5 [Limitation] (cites=0)
+However, these methods typically use fixed parameters throughout training, applying the same level of intervention regardless of the model's current state.</title>
+</g>
+<circle cx="1022.0" cy="760.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="752" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="766" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="781" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">EM risk varies; phase transitions</text>
+<text x="805" y="797" text-anchor="middle" font-size="9.5" fill="#555">We hypothesize that EM risk varies during training—prior work has identified</text>
+<text x="805" y="809" text-anchor="middle" font-size="9.5" fill="#555">phase-transition-like dynamics where misalignment emerges abruptly (Turner</text>
+<text x="805" y="821" text-anchor="middle" font-size="9.5" fill="#555">et al., 2025).</text>
+<title>N6 [Limitation] (cites=1)
+We hypothesize that EM risk varies during training—prior work has identified phase-transition-like dynamics where misalignment emerges abruptly (Turner et al., 2025).</title>
+</g>
+<g>
+<rect x="595" y="864" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="878" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="893" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fixed ratio is suboptimal</text>
+<text x="805" y="909" text-anchor="middle" font-size="9.5" fill="#555">A fixed interleaving ratio may therefore be suboptimal: too little</text>
+<text x="805" y="921" text-anchor="middle" font-size="9.5" fill="#555">intervention when risk is high, or unnecessary overhead when the model is</text>
+<text x="805" y="933" text-anchor="middle" font-size="9.5" fill="#555">safe.</text>
+<title>N7 [Limitation] (cites=0)
+A fixed interleaving ratio may therefore be suboptimal: too little intervention when risk is high, or unnecessary overhead when the model is safe.</title>
+</g>
+<g>
+<rect x="595" y="1044" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1058" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="1073" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Motivation: adaptive approach</text>
+<text x="805" y="1089" text-anchor="middle" font-size="9.5" fill="#555">This motivates an adaptive approach that monitors EM risk in real-time and</text>
+<text x="805" y="1101" text-anchor="middle" font-size="9.5" fill="#555">adjusts the defense strength accordingly.</text>
+<title>N8 [Method] (cites=0)
+This motivates an adaptive approach that monitors EM risk in real-time and adjusts the defense strength accordingly.</title>
+</g>
+<g>
+<rect x="595" y="1144" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1158" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="1173" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Canary-controlled adaptive interleaving</text>
+<text x="805" y="1189" text-anchor="middle" font-size="9.5" fill="#555">We propose canary-controlled adaptive safe-data interleaving, a closed-loop</text>
+<text x="805" y="1201" text-anchor="middle" font-size="9.5" fill="#555">framework that uses canary prompts as a real-time proxy for EM risk.</text>
+<title>N9 [Method] (cites=0)
+We propose canary-controlled adaptive safe-data interleaving, a closed-loop framework that uses canary prompts as a real-time proxy for EM risk.</title>
+</g>
+<g>
+<rect x="595" y="1244" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1258" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method: component]</text>
+<text x="805" y="1273" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">EMA-smoothed risk + threshold controller</text>
+<text x="805" y="1289" text-anchor="middle" font-size="9.5" fill="#555">The controller evaluates the model on a small set of canary prompts during</text>
+<text x="805" y="1301" text-anchor="middle" font-size="9.5" fill="#555">training, computes an EMA-smoothed risk estimate, and adjusts the</text>
+<text x="805" y="1313" text-anchor="middle" font-size="9.5" fill="#555">interleaving ratio using a threshold-based policy with hysteresis.</text>
+<title>N10 [Method: component] (cites=0)
+The controller evaluates the model on a small set of canary prompts during training, computes an EMA-smoothed risk estimate, and adjusts the interleaving ratio using a threshold-based policy with hysteresis.</title>
+</g>
+<g>
+<rect x="595" y="1356" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1370" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method: component]</text>
+<text x="805" y="1385" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Risk-adaptive interleaving policy</text>
+<text x="805" y="1401" text-anchor="middle" font-size="9.5" fill="#555">When elevated risk is detected, the controller increases safe-data</text>
+<text x="805" y="1413" text-anchor="middle" font-size="9.5" fill="#555">interleaving; when risk subsides, it reduces intervention to minimize</text>
+<text x="805" y="1425" text-anchor="middle" font-size="9.5" fill="#555">training overhead.</text>
+<title>N11 [Method: component] (cites=0)
+When elevated risk is detected, the controller increases safe-data interleaving; when risk subsides, it reduces intervention to minimize training overhead.</title>
+</g>
+<g>
+<rect x="247" y="1536" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1550" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Contribution]</text>
+<text x="427" y="1565" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution: adaptive framework</text>
+<text x="427" y="1581" text-anchor="middle" font-size="9.5" fill="#555">We introduce a canary-controlled adaptive interleaving framework</text>
+<text x="427" y="1593" text-anchor="middle" font-size="9.5" fill="#555">that monitors EM risk during fine-tuning and dynamically adjusts</text>
+<text x="427" y="1605" text-anchor="middle" font-size="9.5" fill="#555">the safe-data interleaving ratio based on real-time behavioral</text>
+<text x="427" y="1617" text-anchor="middle" font-size="9.5" fill="#555">signals.</text>
+<title>N12 [Contribution] (cites=0)
+We introduce a canary-controlled adaptive interleaving framework that monitors EM risk during fine-tuning and dynamically adjusts the safe-data interleaving ratio based on real-time behavioral signals.</title>
+</g>
+<g>
+<rect x="625" y="1536" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1550" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Contribution]</text>
+<text x="805" y="1565" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution: 25% improvement, 4x lower variance</text>
+<text x="805" y="1581" text-anchor="middle" font-size="9.5" fill="#555">We demonstrate empirically that our method achieves 5.39% General</text>
+<text x="805" y="1593" text-anchor="middle" font-size="9.5" fill="#555">%Misaligned compared to 7.15% for fixed 5% interleaving—a 25%</text>
+<text x="805" y="1605" text-anchor="middle" font-size="9.5" fill="#555">relative improvement—with 4× lower cross-seed variance on the</text>
+<text x="805" y="1617" text-anchor="middle" font-size="9.5" fill="#555">Security EM benchmark.</text>
+<title>N13 [Contribution] (cites=0)
+We demonstrate empirically that our method achieves 5.39% General %Misaligned compared to 7.15% for fixed 5% interleaving—a 25% relative improvement—with 4× lower cross-seed variance on the Security EM benchmark.</title>
+</g>
+<g>
+<rect x="1003" y="1536" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1550" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Contribution]</text>
+<text x="1183" y="1565" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution: ablation justifies design</text>
+<text x="1183" y="1581" text-anchor="middle" font-size="9.5" fill="#555">We conduct ablation studies showing that adaptive timing provides</text>
+<text x="1183" y="1593" text-anchor="middle" font-size="9.5" fill="#555">value beyond average interleaving ratio (36% degradation with</text>
+<text x="1183" y="1605" text-anchor="middle" font-size="9.5" fill="#555">fixed timing), and that EMA smoothing and hysteresis are critical</text>
+<text x="1183" y="1617" text-anchor="middle" font-size="9.5" fill="#555">for stable controller behavior.</text>
+<title>N14 [Contribution] (cites=0)
+We conduct ablation studies showing that adaptive timing provides value beyond average interleaving ratio (36% degradation with fixed timing), and that EMA smoothing and hysteresis are critical for stable controller behavior.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

@@ -1,0 +1,125 @@
+{
+  "paper_id": "FA0047",
+  "paper_topic": "DelexGate-ASA: schema canonicalization for activation steering under tool-schema churn (negative result)",
+  "anchor_paper": "ASA / Activation Steering Adapter (Wang et al., 2026)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Tool-calling has become a critical capability for large language model (LLM) agents, enabling them to interact with external APIs and execute real-world actions (Patil et al., 2023; Qin et al., 2023).",
+      "display_label": "tool-calling is critical for LLM agents",
+      "citations": 2
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "In production deployments, however, tool schemas evolve over time due to API versioning, refactoring, or style changes\u2014a phenomenon we term schema churn.",
+      "display_label": "schema churn in production deployments",
+      "citations": 0
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "This poses a challenge for methods that rely on schema-specific calibration, as their learned representations may not transfer when identifiers change.",
+      "display_label": "schema-specific calibration may not transfer",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Prior_Work",
+      "text": "ASA (Activation Steering Adapter) (Wang et al., 2026) is a promising training-free method that improves tool-calling by manipulating model activations at inference time.",
+      "display_label": "ASA: training-free activation steering",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N5",
+      "type": "Prior_Work",
+      "text": "ASA learns a steering vector and linear probe from labeled examples to control whether the model enters tool mode.",
+      "display_label": "ASA learns steering vector + probe",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "However, since these assets are computed from hidden states that encode schema identifiers, they may be sensitive to lexical churn.",
+      "display_label": "ASA assets may be churn-sensitive",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Method",
+      "text": "We hypothesize that canonicalizing schemas to a stable placeholder vocabulary (e.g., replacing get weather(location, unit) with tool 0(arg 0 0, arg 0 1)) before ASA processing could make the representation space invariant to surface-level identifier changes.",
+      "display_label": "hypothesis: canonicalize to placeholders for invariance",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "We propose DelexGate-ASA, which applies this canonicalization strategy: schemas are transformed to generic identifiers before ASA calibration and inference, with outputs remapped back to real identifiers.",
+      "display_label": "DelexGate-ASA: canonicalize then remap",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Result",
+      "text": "Surprisingly, this approach fails decisively.",
+      "display_label": "DelexGate-ASA fails decisively",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Result",
+      "text": "On the BFCL v3 benchmark (Patil et al., 2025), DelexGate-ASA degrades clean-schema AST accuracy by 15.2 percentage points (from 0.768 to 0.616) while providing no robustness benefit under churn.",
+      "display_label": "AST accuracy drops 15.2 pts on BFCL v3",
+      "citations": 1
+    },
+    {
+      "id": "N11",
+      "type": "Result",
+      "text": "The failure reveals that LLMs rely on semantic information in parameter names for correct argument-value mapping\u2014canonicalization removes these essential cues.",
+      "display_label": "LLMs need semantic parameter names",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Contribution: contribution-1",
+      "text": "First, we document a well-motivated approach (schema canonicalization for activation steering) that fails, saving future researchers from pursuing similar directions.",
+      "display_label": "C1: document failed canonicalization approach",
+      "citations": 0
+    },
+    {
+      "id": "N13",
+      "type": "Contribution: contribution-2",
+      "text": "Second, we reveal that semantic information in parameter names is essential for function-call accuracy\u2014LLMs cannot reliably map values to generic placeholders even when descriptions are preserved.",
+      "display_label": "C2: parameter-name semantics are essential",
+      "citations": 0
+    },
+    {
+      "id": "N14",
+      "type": "Contribution: contribution-3",
+      "text": "Third, we show that ASA\u2019s learned assets are inherently robust to lexical churn: recalibration provides no benefit over simple reuse, indicating that degradation under churn stems from base model sensitivity rather than ASA asset drift.",
+      "display_label": "C3: ASA assets robust; base model sensitive",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "contrast", "connective": "however"},
+    {"from": "N2", "to": "N3", "kind": "consequence", "connective": "This poses a challenge"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "contrast", "connective": "However"},
+    {"from": "N6", "to": "N7", "kind": "consequence"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "evidence"},
+    {"from": "N9", "to": "N10", "kind": "evidence"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "N12", "kind": "elaboration"},
+    {"from": "N11", "to": "N13", "kind": "elaboration"},
+    {"from": "N11", "to": "N14", "kind": "elaboration"},
+    {"from": "N12", "to": "N6", "kind": "addresses"},
+    {"from": "N13", "to": "N6", "kind": "addresses"},
+    {"from": "N14", "to": "N6", "kind": "addresses"}
+  ],
+  "observations": "FA0047 is structured as a negative-result method paper. The arc opens with a Context (N1: tool-calling for LLM agents), pivots immediately to a Limitation cluster (N2 schema churn definition \u2192 N3 schema-specific calibration challenge), introduces the anchor Prior_Work (N4 = ASA, plus elaboration N5), and surfaces the operative hypothesis-as-Limitation (N6: ASA assets may be churn-sensitive). The Method spine (N7 hypothesis \u2192 N8 DelexGate-ASA) is then refuted by a Result chain (N9 fails decisively \u2192 N10 BFCL v3 numbers \u2192 N11 root-cause finding). Three Contribution bullets (N12\u2013N14) close the intro.\n\nTopologically, N6 is the central join node (in-degree 2 from sentence flow plus three incoming addresses edges from C1/C2/C3 \u2014 every contribution is a back-reference to the same originally hypothesized limitation about ASA churn-sensitivity). N8 forks via evidence into the result chain. The renderer should detect N6 as a heavy join.\n\nAll three addresses edges target N6 (\"ASA assets may be churn-sensitive\") and share distinctive technical terms: C1 \"schema canonicalization for activation steering\" / N6 \"hidden states encode schema identifiers\"; C2 \"parameter names\" / N6 \"schema identifiers\"; C3 \"ASA's learned assets are inherently robust to lexical churn\" / N6 \"sensitive to lexical churn\" (the most direct refutation).\n\nNotable features: anchor paper is ASA (Wang et al., 2026); the paper inverts the standard arc \u2014 the proposed Method N8 is a foil whose failure (N9\u2013N11) is itself the contribution. Despite being a negative-result paper, it is treated as a method paper per the skill rule, so empirical findings stay typed as Results while the high-level take-aways become Contributions."
+}

@@ -1,0 +1,248 @@
+<svg viewBox="0 0 1480 2312" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="334" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="744" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="648" x2="1450" y2="648" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1092" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="840" x2="1450" y2="840" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1422" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PROOF</text>
+<line x1="60" y1="1344" x2="1450" y2="1344" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1696" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1500" x2="1450" y2="1500" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1982" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1892" x2="1450" y2="1892" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2162" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="2072" x2="1450" y2="2072" stroke="#eee" stroke-width="1"/>
+<line x1="616" y1="164" x2="805" y2="696" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="792" x2="805" y2="888" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="837" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">however</text>
+<line x1="805" y1="972" x2="805" y2="1000" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="983" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">moreover</text>
+<line x1="805" y1="1084" x2="805" y2="1112" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1184" x2="805" y2="1212" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="1195" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">while ... in isolation</text>
+<line x1="805" y1="1296" x2="994" y2="68" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="899" y="679" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">particularly, we inquire</text>
+<line x1="994" y1="164" x2="805" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="264" x2="805" y2="292" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="275" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">if this assumption fails</text>
+<line x1="805" y1="376" x2="805" y2="404" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="387" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">in other words</text>
+<line x1="805" y1="500" x2="805" y2="528" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="600" x2="805" y2="1548" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1071" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">in this paper</text>
+<line x1="805" y1="1620" x2="805" y2="1648" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1732" x2="805" y2="1392" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1732" x2="805" y2="1760" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1844" x2="805" y2="1940" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1889" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">in addition</text>
+<line x1="805" y1="2024" x2="805" y2="2120" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2204" x2="805" y2="1212" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="803.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="100.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="108.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="116.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="616" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLM-as-Judge for agentic tasks</text>
+<text x="616" y="113" text-anchor="middle" font-size="9.5" fill="#555">Large Language Models (LLMs) are increasingly used as judges to</text>
+<text x="616" y="125" text-anchor="middle" font-size="9.5" fill="#555">evaluate non-verifiable tasks (Gu et al., 2025; Shao et al.,</text>
+<text x="616" y="137" text-anchor="middle" font-size="9.5" fill="#555">2025), particularly for agentic systems in web navigation and tool</text>
+<text x="616" y="149" text-anchor="middle" font-size="9.5" fill="#555">use (Chen et al., 2024; He et al., 2024; Pan et…</text>
+<title>N1 [Context] (cites=6)
+Large Language Models (LLMs) are increasingly used as judges to evaluate non-verifiable tasks (Gu et al., 2025; Shao et al., 2025), particularly for agentic systems in web navigation and tool use (Chen et al., 2024; He et al., 2024; Pan et al., 2024; Wu et al., 2024).</title>
+</g>
+<circle cx="1022.0" cy="704.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="712.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="720.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="728.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="696" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="710" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Prior_Work]</text>
+<text x="805" y="725" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">judges receive trajectory + CoT, assume faithful</text>
+<text x="805" y="741" text-anchor="middle" font-size="9.5" fill="#555">In this LLM-as-a-Judge paradigm, judges are provided with the agent's</text>
+<text x="805" y="753" text-anchor="middle" font-size="9.5" fill="#555">execution trajectory, including observations, actions, and chain-of-thought</text>
+<text x="805" y="765" text-anchor="middle" font-size="9.5" fill="#555">(CoT; Xue et al., 2025; Lù et al., 2025)—assuming the CoT faithfully</text>
+<text x="805" y="777" text-anchor="middle" font-size="9.5" fill="#555">represents the agent's…</text>
+<title>N2 [Prior_Work] (cites=4)
+In this LLM-as-a-Judge paradigm, judges are provided with the agent's execution trajectory, including observations, actions, and chain-of-thought (CoT; Xue et al., 2025; Lù et al., 2025)—assuming the CoT faithfully represents the agent's reasoning and improves judgment accuracy (Korbak et al., 2025; Chen et al., 2025).</title>
+</g>
+<circle cx="1022.0" cy="896.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="904.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="912.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="920.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="888" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="902" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Limitation]</text>
+<text x="805" y="917" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">judges have systematic biases</text>
+<text x="805" y="933" text-anchor="middle" font-size="9.5" fill="#555">However, LLM judges exhibit systematic biases, including sensitivity to</text>
+<text x="805" y="945" text-anchor="middle" font-size="9.5" fill="#555">surface-level cues, length, and order (Zhao et al., 2025; Huang et al.,</text>
+<text x="805" y="957" text-anchor="middle" font-size="9.5" fill="#555">2025; Li et al., 2025b; Wang et al., 2024).</text>
+<title>N3 [Limitation] (cites=4)
+However, LLM judges exhibit systematic biases, including sensitivity to surface-level cues, length, and order (Zhao et al., 2025; Huang et al., 2025; Li et al., 2025b; Wang et al., 2024).</title>
+</g>
+<circle cx="1022.0" cy="1008.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1016.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1024.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1000" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1014" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Limitation]</text>
+<text x="805" y="1029" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CoTs are unfaithful / post-hoc</text>
+<text x="805" y="1045" text-anchor="middle" font-size="9.5" fill="#555">Moreover, LLM-generated CoTs do not always reflect the model's true</text>
+<text x="805" y="1057" text-anchor="middle" font-size="9.5" fill="#555">reasoning and can function as post-hoc rationalizations (Lanham et al.,</text>
+<text x="805" y="1069" text-anchor="middle" font-size="9.5" fill="#555">2023; Turpin et al., 2023; Arcuschin et al., 2025).</text>
+<title>N4 [Limitation] (cites=3)
+Moreover, LLM-generated CoTs do not always reflect the model's true reasoning and can function as post-hoc rationalizations (Lanham et al., 2023; Turpin et al., 2023; Arcuschin et al., 2025).</title>
+</g>
+<circle cx="1022.0" cy="1120.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1128.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1112" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1126" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Limitation]</text>
+<text x="805" y="1141" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">models hide misbehavior from CoT</text>
+<text x="805" y="1157" text-anchor="middle" font-size="9.5" fill="#555">Models may also learn to hide misbehavior from the CoT or behave differently</text>
+<text x="805" y="1169" text-anchor="middle" font-size="9.5" fill="#555">under alignment evaluation (Baker et al., 2025; Schoen et al., 2025).</text>
+<title>N5 [Limitation] (cites=2)
+Models may also learn to hide misbehavior from the CoT or behave differently under alignment evaluation (Baker et al., 2025; Schoen et al., 2025).</title>
+</g>
+<g>
+<rect x="595" y="1212" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1226" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="1241" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">combined failure mode unstudied</text>
+<text x="805" y="1257" text-anchor="middle" font-size="9.5" fill="#555">While these issues have largely been studied in isolation, their combination</text>
+<text x="805" y="1269" text-anchor="middle" font-size="9.5" fill="#555">gives rise to a particularly concerning failure mode for modern evaluation</text>
+<text x="805" y="1281" text-anchor="middle" font-size="9.5" fill="#555">pipelines.</text>
+<title>N6 [Limitation] (cites=0)
+While these issues have largely been studied in isolation, their combination gives rise to a particularly concerning failure mode for modern evaluation pipelines.</title>
+</g>
+<g>
+<rect x="814" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Context: RQ]</text>
+<text x="994" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RQ: can CoT-only manipulation bias judge?</text>
+<text x="994" y="113" text-anchor="middle" font-size="9.5" fill="#555">Particularly, we inquire: Can an agent systematically bias an LLM</text>
+<text x="994" y="125" text-anchor="middle" font-size="9.5" fill="#555">judge into predicting success—even when the task was not</text>
+<text x="994" y="137" text-anchor="middle" font-size="9.5" fill="#555">completed—by manipulating only its chain-of-thought?</text>
+<title>N7 [Context: RQ] (cites=0)
+Particularly, we inquire: Can an agent systematically bias an LLM judge into predicting success—even when the task was not completed—by manipulating only its chain-of-thought?</title>
+</g>
+<g>
+<rect x="595" y="192" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">targets reasoning-improves-reliability assumption</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">This question targets a central assumption underlying LLM-based evaluation</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">of agents: that exposing the agent's reasoning improves reliability.</text>
+<title>N8 [Context] (cites=0)
+This question targets a central assumption underlying LLM-based evaluation of agents: that exposing the agent's reasoning improves reliability.</title>
+</g>
+<g>
+<rect x="595" y="292" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="306" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Context]</text>
+<text x="805" y="321" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">if assumption fails: rewards presentation not execution</text>
+<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">If this assumption fails, evaluation systems may reward agents for how their</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">reasoning is presented rather than for whether they actually complete the</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">given task.</text>
+<title>N9 [Context] (cites=0)
+If this assumption fails, evaluation systems may reward agents for how their reasoning is presented rather than for whether they actually complete the given task.</title>
+</g>
+<g>
+<rect x="595" y="404" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="418" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Context]</text>
+<text x="805" y="433" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CoT-over-action reliance enables bias</text>
+<text x="805" y="449" text-anchor="middle" font-size="9.5" fill="#555">In other words, if a judge relies on the agent's CoT more than the actual</text>
+<text x="805" y="461" text-anchor="middle" font-size="9.5" fill="#555">actions and environment states, then reasoning traces that exaggerate</text>
+<text x="805" y="473" text-anchor="middle" font-size="9.5" fill="#555">progress, obscure failures, or reframe objectives may systematically bias</text>
+<text x="805" y="485" text-anchor="middle" font-size="9.5" fill="#555">evaluation.</text>
+<title>N10 [Context] (cites=0)
+In other words, if a judge relies on the agent's CoT more than the actual actions and environment states, then reasoning traces that exaggerate progress, obscure failures, or reframe objectives may systematically bias evaluation.</title>
+</g>
+<g>
+<rect x="595" y="528" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="542" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Context]</text>
+<text x="805" y="557" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">wording optimization beats execution</text>
+<text x="805" y="573" text-anchor="middle" font-size="9.5" fill="#555">An agent can improve its perceived performance by optimizing how its CoT is</text>
+<text x="805" y="585" text-anchor="middle" font-size="9.5" fill="#555">worded, rather than by improving task execution itself.</text>
+<title>N11 [Context] (cites=0)
+An agent can improve its perceived performance by optimizing how its CoT is worded, rather than by improving task execution itself.</title>
+</g>
+<g>
+<rect x="595" y="1548" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1562" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Method]</text>
+<text x="805" y="1577" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">we demonstrate failure mode is real + severe</text>
+<text x="805" y="1593" text-anchor="middle" font-size="9.5" fill="#555">In this paper, we demonstrate that this failure mode is both real and</text>
+<text x="805" y="1605" text-anchor="middle" font-size="9.5" fill="#555">severe.</text>
+<title>N12 [Method] (cites=0)
+In this paper, we demonstrate that this failure mode is both real and severe.</title>
+</g>
+<g>
+<rect x="595" y="1648" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1662" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Method]</text>
+<text x="805" y="1677" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CoT-only rewrite biases judges to success</text>
+<text x="805" y="1693" text-anchor="middle" font-size="9.5" fill="#555">By modifying only the agent's CoT—while keeping actions and environment</text>
+<text x="805" y="1705" text-anchor="middle" font-size="9.5" fill="#555">states fixed—we substantially bias LLM judges toward predicting success (see</text>
+<text x="805" y="1717" text-anchor="middle" font-size="9.5" fill="#555">Fig. 1).</text>
+<title>N13 [Method] (cites=0)
+By modifying only the agent's CoT—while keeping actions and environment states fixed—we substantially bias LLM judges toward predicting success (see Fig. 1).</title>
+</g>
+<g>
+<rect x="595" y="1392" width="420" height="60" rx="6" fill="#fff2cc" stroke="#b38a2c" stroke-width="1.2"/>
+<text x="805" y="1406" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">P13 [Proof]</text>
+<text x="805" y="1421" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fig. 1: CoT manipulation flips judgment</text>
+<text x="805" y="1437" text-anchor="middle" font-size="9.5" fill="#555">(see Fig. 1).</text>
+<title>P13 [Proof] (cites=0)
+(see Fig. 1).</title>
+</g>
+<circle cx="1022.0" cy="1768.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1776.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1760" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1774" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Method]</text>
+<text x="805" y="1789" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">mitigations explored, none fully resolve</text>
+<text x="805" y="1805" text-anchor="middle" font-size="9.5" fill="#555">We explore mitigation strategies, including warning judges not to trust</text>
+<text x="805" y="1817" text-anchor="middle" font-size="9.5" fill="#555">agent reasoning, judge-time scaling (Khalifa et al., 2025), and rubric-based</text>
+<text x="805" y="1829" text-anchor="middle" font-size="9.5" fill="#555">methods (Xue et al., 2025), but find that none fully resolve the issue.</text>
+<title>N14 [Method] (cites=2)
+We explore mitigation strategies, including warning judges not to trust agent reasoning, judge-time scaling (Khalifa et al., 2025), and rubric-based methods (Xue et al., 2025), but find that none fully resolve the issue.</title>
+</g>
+<g>
+<rect x="595" y="1940" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1954" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Result]</text>
+<text x="805" y="1969" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">robustness-recall tradeoff</text>
+<text x="805" y="1985" text-anchor="middle" font-size="9.5" fill="#555">In addition, improved robustness often comes at the cost of reduced recall,</text>
+<text x="805" y="1997" text-anchor="middle" font-size="9.5" fill="#555">revealing a fundamental tradeoff between resisting manipulation and</text>
+<text x="805" y="2009" text-anchor="middle" font-size="9.5" fill="#555">recognizing successful trajectories.</text>
+<title>N15 [Result] (cites=0)
+In addition, improved robustness often comes at the cost of reduced recall, revealing a fundamental tradeoff between resisting manipulation and recognizing successful trajectories.</title>
+</g>
+<g>
+<rect x="595" y="2120" width="420" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="2134" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution: first systematic study]</text>
+<text x="805" y="2149" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">first to isolate CoT-manipulation impact</text>
+<text x="805" y="2165" text-anchor="middle" font-size="9.5" fill="#555">To the best of our knowledge, this is the first work to shed light on this</text>
+<text x="805" y="2177" text-anchor="middle" font-size="9.5" fill="#555">failure mode by systematically isolating the impact of CoT manipulation on</text>
+<text x="805" y="2189" text-anchor="middle" font-size="9.5" fill="#555">judge-based agent evaluation.</text>
+<title>C1 [Contribution: first systematic study] (cites=0)
+To the best of our knowledge, this is the first work to shed light on this failure mode by systematically isolating the impact of CoT manipulation on judge-based agent evaluation.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

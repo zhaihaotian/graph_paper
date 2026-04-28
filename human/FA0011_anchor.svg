@@ -1,0 +1,521 @@
+<svg viewBox="0 0 1480 2534" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="296" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="712" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="572" x2="1450" y2="572" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1060" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="852" x2="1450" y2="852" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1346" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PROOF</text>
+<line x1="60" y1="1268" x2="1450" y2="1268" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1763" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1424" x2="1450" y2="1424" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2192" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="2102" x2="1450" y2="2102" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2378" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="2282" x2="1450" y2="2282" stroke="#eee" stroke-width="1"/>
+<rect x="424" y="700" width="762" height="116" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="432" y="696" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N5</text>
+<rect x="583" y="1004" width="444" height="228" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="591" y="1000" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N6a</text>
+<rect x="613" y="172" width="762" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="621" y="168" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N8</text>
+<rect x="424" y="1824" width="762" height="104" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="432" y="1820" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N17</text>
+<rect x="158" y="1924" width="650" height="142" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="1920" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N17pre</text>
+<rect x="802" y="1924" width="650" height="142" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="810" y="1920" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N18</text>
+<rect x="158" y="2310" width="1294" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="2306" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N19</text>
+<line x1="427" y1="164" x2="427" y2="192" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="427" y="175" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="1376" x2="427" y2="192" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<text x="616" y="781" font-size="9.5" fill="#b38a2c" font-weight="600" text-anchor="middle">as shown in</text>
+<line x1="427" y1="288" x2="805" y2="316" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="616" y="299" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Instead</text>
+<line x1="805" y1="400" x2="805" y2="428" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="411" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">implies that</text>
+<line x1="805" y1="524" x2="805" y2="620" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="692" x2="616" y2="720" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="692" x2="994" y2="720" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="804" x2="616" y2="900" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="616" y="849" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="616" y1="996" x2="805" y2="1024" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="710" y="1007" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Furthermore</text>
+<line x1="994" y1="804" x2="994" y2="900" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="994" y="849" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">While promising</text>
+<line x1="616" y1="996" x2="805" y2="1124" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="710" y="1057" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">These limitations point to</text>
+<line x1="805" y1="1096" x2="805" y2="1124" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="994" y1="996" x2="805" y2="1124" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="805" y1="1220" x2="805" y2="68" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="641" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">naturally motivates</text>
+<line x1="805" y1="164" x2="805" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="164" x2="1183" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="288" x2="427" y2="1472" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="616" y="877" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To address</text>
+<line x1="427" y1="1568" x2="616" y2="1596" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="521" y="1579" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Based on</text>
+<line x1="616" y1="1692" x2="616" y2="1720" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1816" x2="805" y2="2150" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="710" y="1980" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">allows us to</text>
+<line x1="805" y1="2234" x2="805" y2="1472" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1850" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Building on</text>
+<line x1="805" y1="1568" x2="1183" y2="68" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1183" y1="164" x2="1183" y2="1472" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1183" y1="1568" x2="994" y2="1596" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="1088" y="1579" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Guided by</text>
+<line x1="994" y1="1692" x2="994" y2="1720" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1816" x2="616" y2="1844" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1916" x2="241" y2="1944" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1916" x2="402" y2="1944" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1916" x2="563" y2="1944" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1916" x2="724" y2="1944" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1816" x2="994" y2="1844" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1916" x2="885" y2="1944" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1916" x2="1046" y2="1944" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1916" x2="1207" y2="1944" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1916" x2="1368" y2="1944" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1368" y1="2054" x2="322" y2="2330" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1368" y1="2054" x2="644" y2="2330" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1368" y1="2054" x2="966" y2="2330" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1368" y1="2054" x2="1288" y2="2330" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1816" x2="805" y2="1024" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="994" y1="1816" x2="994" y2="900" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="994" y1="1916" x2="616" y2="900" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="322" y1="2426" x2="805" y2="1024" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="966" y1="2426" x2="616" y2="900" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="644" y1="2426" x2="994" y2="900" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="614.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="100.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="108.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="247" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="427" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="427" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">multimodal contrastive = standard paradigm</text>
+<text x="427" y="113" text-anchor="middle" font-size="9.5" fill="#555">Multimodal contrastive learning [11, 21, 23, 33, 39] has</text>
+<text x="427" y="125" text-anchor="middle" font-size="9.5" fill="#555">established itself as the standard paradigm for aligning visual</text>
+<text x="427" y="137" text-anchor="middle" font-size="9.5" fill="#555">and text representations.</text>
+<title>N1 [Context] (cites=5)
+Multimodal contrastive learning [11, 21, 23, 33, 39] has established itself as the standard paradigm for aligning visual and text representations.</title>
+</g>
+<g>
+<rect x="247" y="192" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="427" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="427" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">modalities don't coincide despite training</text>
+<text x="427" y="237" text-anchor="middle" font-size="9.5" fill="#555">However, as shown in Fig.1, despite extensive training on massive</text>
+<text x="427" y="249" text-anchor="middle" font-size="9.5" fill="#555">image-text pairs, a persistent empirical observation remains: For</text>
+<text x="427" y="261" text-anchor="middle" font-size="9.5" fill="#555">two modalities that express the same underlying semantics, their</text>
+<text x="427" y="273" text-anchor="middle" font-size="9.5" fill="#555">representations typically do not coincide.</text>
+<title>N2 [Context] (cites=0)
+However, as shown in Fig.1, despite extensive training on massive image-text pairs, a persistent empirical observation remains: For two modalities that express the same underlying semantics, their representations typically do not coincide.</title>
+</g>
+<g>
+<rect x="595" y="1316" width="420" height="60" rx="6" fill="#fff2cc" stroke="#b38a2c" stroke-width="1.2"/>
+<text x="805" y="1330" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">P2 [Proof]</text>
+<text x="805" y="1345" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fig. 1: persistent gap</text>
+<text x="805" y="1361" text-anchor="middle" font-size="9.5" fill="#555">as shown in Fig.1</text>
+<title>P2 [Proof] (cites=0)
+as shown in Fig.1</title>
+</g>
+<circle cx="1022.0" cy="324.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="332.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="316" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="330" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="345" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">the Modality Gap</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">Instead, the two modalities inherently occupy distinct, systematically</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">offset regions of the joint representation space. This phenomenon is known</text>
+<text x="805" y="385" text-anchor="middle" font-size="9.5" fill="#555">as the Modality Gap. [15, 40]</text>
+<title>N3 [Context] (cites=2)
+Instead, the two modalities inherently occupy distinct, systematically offset regions of the joint representation space. This phenomenon is known as the Modality Gap. [15, 40]</title>
+</g>
+<circle cx="1022.0" cy="436.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="428" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="442" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="457" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">bridging gap enables text-as-substitute</text>
+<text x="805" y="473" text-anchor="middle" font-size="9.5" fill="#555">While this gap hinders direct cross-modal interchangeability, it implies</text>
+<text x="805" y="485" text-anchor="middle" font-size="9.5" fill="#555">that if we can precisely bridge this geometric misalignment, we can</text>
+<text x="805" y="497" text-anchor="middle" font-size="9.5" fill="#555">effectively leverage abundant text data as a substitute [36] for expensive</text>
+<text x="805" y="509" text-anchor="middle" font-size="9.5" fill="#555">image-text data in…</text>
+<title>N4 [Context] (cites=1)
+While this gap hinders direct cross-modal interchangeability, it implies that if we can precisely bridge this geometric misalignment, we can effectively leverage abundant text data as a substitute [36] for expensive image-text data in Multimodal Large Language Models (MLLMs) training.</title>
+</g>
+<g>
+<rect x="595" y="620" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="634" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="805" y="649" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">two prior directions</text>
+<text x="805" y="665" text-anchor="middle" font-size="9.5" fill="#555">Prior research has largely advanced along two directions, yet both face</text>
+<text x="805" y="677" text-anchor="middle" font-size="9.5" fill="#555">limitations:</text>
+<title>N5 [Prior_Work] (cites=0)
+Prior research has largely advanced along two directions, yet both face limitations:</title>
+</g>
+<circle cx="803.0" cy="728.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="736.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="720" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="734" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5a [Prior_Work: geometric-correction : ANCHOR]</text>
+<text x="616" y="749" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">geometric projection correction</text>
+<text x="616" y="765" text-anchor="middle" font-size="9.5" fill="#555">Geometric Correction: These approaches attempt to post-hoc correct</text>
+<text x="616" y="777" text-anchor="middle" font-size="9.5" fill="#555">this gap via explicit geometric projections [34, 40].</text>
+<title>N5a [Prior_Work: geometric-correction] (cites=2)
+Geometric Correction: These approaches attempt to post-hoc correct this gap via explicit geometric projections [34, 40].</title>
+</g>
+<circle cx="1181.0" cy="728.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="720" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="734" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5b [Prior_Work: text-only-training]</text>
+<text x="994" y="749" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">text-only pseudo-visual training</text>
+<text x="994" y="765" text-anchor="middle" font-size="9.5" fill="#555">Text-only Large-scale Training: These methods [36] leverage</text>
+<text x="994" y="777" text-anchor="middle" font-size="9.5" fill="#555">modality gap to synthesize pseudo-visual supervision signals from</text>
+<text x="994" y="789" text-anchor="middle" font-size="9.5" fill="#555">pure text.</text>
+<title>N5b [Prior_Work: text-only-training] (cites=1)
+Text-only Large-scale Training: These methods [36] leverage modality gap to synthesize pseudo-visual supervision signals from pure text.</title>
+</g>
+<circle cx="803.0" cy="908.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="916.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="924.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="932.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="940.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="900" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="914" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6a [Limitation]</text>
+<text x="616" y="929" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">limited to small-scale tasks</text>
+<text x="616" y="945" text-anchor="middle" font-size="9.5" fill="#555">However, most of these works are limited to single, small-scale</text>
+<text x="616" y="957" text-anchor="middle" font-size="9.5" fill="#555">tasks [12, 17, 19, 22, 24] such as Image Captioning, failing to</text>
+<text x="616" y="969" text-anchor="middle" font-size="9.5" fill="#555">unlock the true potential of modality gap theory for model</text>
+<text x="616" y="981" text-anchor="middle" font-size="9.5" fill="#555">scaling.</text>
+<title>N6a [Limitation] (cites=5)
+However, most of these works are limited to single, small-scale tasks [12, 17, 19, 22, 24] such as Image Captioning, failing to unlock the true potential of modality gap theory for model scaling.</title>
+</g>
+<g>
+<rect x="595" y="1024" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1038" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6b [Limitation]</text>
+<text x="805" y="1053" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">isotropic noise assumption flawed</text>
+<text x="805" y="1069" text-anchor="middle" font-size="9.5" fill="#555">Furthermore, they typically rely on isotropic noise assumptions, failing to</text>
+<text x="805" y="1081" text-anchor="middle" font-size="9.5" fill="#555">account for the complex anisotropic structures in high-dimensional spaces.</text>
+<title>N6b [Limitation] (cites=0)
+Furthermore, they typically rely on isotropic noise assumptions, failing to account for the complex anisotropic structures in high-dimensional spaces.</title>
+</g>
+<g>
+<rect x="814" y="900" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="914" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6c [Limitation]</text>
+<text x="994" y="929" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">synthetic-real distributional gap</text>
+<text x="994" y="945" text-anchor="middle" font-size="9.5" fill="#555">While promising, existing methods suffer from substantial</text>
+<text x="994" y="957" text-anchor="middle" font-size="9.5" fill="#555">performance degradation on fine-grained visual tasks, exposing a</text>
+<text x="994" y="969" text-anchor="middle" font-size="9.5" fill="#555">pronounced distributional gap between synthetic text</text>
+<text x="994" y="981" text-anchor="middle" font-size="9.5" fill="#555">representations and real-world image data.</text>
+<title>N6c [Limitation] (cites=0)
+While promising, existing methods suffer from substantial performance degradation on fine-grained visual tasks, exposing a pronounced distributional gap between synthetic text representations and real-world image data.</title>
+</g>
+<g>
+<rect x="595" y="1124" width="420" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1138" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="1153" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">fundamental shape-modeling mismatch</text>
+<text x="805" y="1169" text-anchor="middle" font-size="9.5" fill="#555">These limitations point to a fundamental mismatch: existing assumptions are</text>
+<text x="805" y="1181" text-anchor="middle" font-size="9.5" fill="#555">overly simplified, resulting in a lack of precise modeling of the modality</text>
+<text x="805" y="1193" text-anchor="middle" font-size="9.5" fill="#555">gap's geometric shape, which in turn hinders its application in large-scale</text>
+<text x="805" y="1205" text-anchor="middle" font-size="9.5" fill="#555">training.</text>
+<title>N7 [Limitation] (cites=0)
+These limitations point to a fundamental mismatch: existing assumptions are overly simplified, resulting in a lack of precise modeling of the modality gap's geometric shape, which in turn hinders its application in large-scale training.</title>
+</g>
+<g>
+<rect x="625" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">two research questions raised</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">This mismatch naturally motivates two core research questions:</text>
+<title>N8 [Context] (cites=0)
+This mismatch naturally motivates two core research questions:</title>
+</g>
+<g>
+<rect x="625" y="192" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8a [Context: RQ1-shape]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RQ1: characterize gap shape</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">On Shape: Can we move beyond simple mean assumptions to precisely</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">characterize the intrinsic geometric shape of the modality gap</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">within a stable reference frame?</text>
+<title>N8a [Context: RQ1-shape] (cites=0)
+On Shape: Can we move beyond simple mean assumptions to precisely characterize the intrinsic geometric shape of the modality gap within a stable reference frame?</title>
+</g>
+<g>
+<rect x="1003" y="192" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="1183" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8b [Context: RQ2-scale]</text>
+<text x="1183" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RQ2: scalable training via unpaired</text>
+<text x="1183" y="237" text-anchor="middle" font-size="9.5" fill="#555">On Scale: Can we leverage this precise shape modeling to design a</text>
+<text x="1183" y="249" text-anchor="middle" font-size="9.5" fill="#555">scalable training paradigm that substitutes expensive paired data</text>
+<text x="1183" y="261" text-anchor="middle" font-size="9.5" fill="#555">with massive, easily accessible unpaired data, thereby achieving</text>
+<text x="1183" y="273" text-anchor="middle" font-size="9.5" fill="#555">efficient MLLM scaling?</text>
+<title>N8b [Context: RQ2-scale] (cites=0)
+On Scale: Can we leverage this precise shape modeling to design a scalable training paradigm that substitutes expensive paired data with massive, easily accessible unpaired data, thereby achieving efficient MLLM scaling?</title>
+</g>
+<circle cx="614.0" cy="1480.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="247" y="1472" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="427" y="1486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="427" y="1501" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">empirical from-scratch study of gap</text>
+<text x="427" y="1517" text-anchor="middle" font-size="9.5" fill="#555">To address the first question regarding shape, we conduct the</text>
+<text x="427" y="1529" text-anchor="middle" font-size="9.5" fill="#555">first empirical study that trains a contrastive dual-encoder [28]</text>
+<text x="427" y="1541" text-anchor="middle" font-size="9.5" fill="#555">from scratch to precisely track and model the evolution of the</text>
+<text x="427" y="1553" text-anchor="middle" font-size="9.5" fill="#555">modality gap.</text>
+<title>N9 [Method] (cites=1)
+To address the first question regarding shape, we conduct the first empirical study that trains a contrastive dual-encoder [28] from scratch to precisely track and model the evolution of the modality gap.</title>
+</g>
+<g>
+<rect x="436" y="1596" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1610" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="616" y="1625" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">frozen-frame decomposition framework</text>
+<text x="616" y="1641" text-anchor="middle" font-size="9.5" fill="#555">Based on this microscopic analysis, we propose a unified</text>
+<text x="616" y="1653" text-anchor="middle" font-size="9.5" fill="#555">theoretical framework: we no longer treat the modality gap as</text>
+<text x="616" y="1665" text-anchor="middle" font-size="9.5" fill="#555">random fluctuations but mathematically decompose it within a</text>
+<text x="616" y="1677" text-anchor="middle" font-size="9.5" fill="#555">frozen reference frame (Rd = U ⊕ V ).</text>
+<title>N10 [Method] (cites=0)
+Based on this microscopic analysis, we propose a unified theoretical framework: we no longer treat the modality gap as random fluctuations but mathematically decompose it within a frozen reference frame (Rd = U ⊕ V ).</title>
+</g>
+<g>
+<rect x="436" y="1720" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1734" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="616" y="1749" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">dual structure: bias + anisotropic residual</text>
+<text x="616" y="1765" text-anchor="middle" font-size="9.5" fill="#555">By explicitly separating the effective task subspace (U ), where</text>
+<text x="616" y="1777" text-anchor="middle" font-size="9.5" fill="#555">gradients concentrate and semantic information resides, from its</text>
+<text x="616" y="1789" text-anchor="middle" font-size="9.5" fill="#555">orthogonal complement (V ), we reveal the dual geometric structure</text>
+<text x="616" y="1801" text-anchor="middle" font-size="9.5" fill="#555">of the modality gap: it comprises not only…</text>
+<title>N11 [Method] (cites=0)
+By explicitly separating the effective task subspace (U ), where gradients concentrate and semantic information resides, from its orthogonal complement (V ), we reveal the dual geometric structure of the modality gap: it comprises not only a stable bias component but also a residual component characterized by specific second-moment properties.</title>
+</g>
+<g>
+<rect x="595" y="2150" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2164" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Result]</text>
+<text x="805" y="2179" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">captures anisotropic distribution</text>
+<text x="805" y="2195" text-anchor="middle" font-size="9.5" fill="#555">This discovery allows us to transcend simple mean-based descriptions and</text>
+<text x="805" y="2207" text-anchor="middle" font-size="9.5" fill="#555">fully capture the anisotropic distribution of the modality gap across</text>
+<text x="805" y="2219" text-anchor="middle" font-size="9.5" fill="#555">different subspaces.</text>
+<title>N12 [Result] (cites=0)
+This discovery allows us to transcend simple mean-based descriptions and fully capture the anisotropic distribution of the modality gap across different subspaces.</title>
+</g>
+<g>
+<rect x="625" y="1472" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Method]</text>
+<text x="805" y="1501" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">addressing scale question</text>
+<text x="805" y="1517" text-anchor="middle" font-size="9.5" fill="#555">Building on this precise geometric modeling, we further address</text>
+<text x="805" y="1529" text-anchor="middle" font-size="9.5" fill="#555">the second question regarding scale.</text>
+<title>N13 [Method] (cites=0)
+Building on this precise geometric modeling, we further address the second question regarding scale.</title>
+</g>
+<circle cx="1370.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1370.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1370.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="1003" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="1183" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Context]</text>
+<text x="1183" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">unpaired data is easy to obtain</text>
+<text x="1183" y="113" text-anchor="middle" font-size="9.5" fill="#555">Our approach highlights a perspective different from prior work:</text>
+<text x="1183" y="125" text-anchor="middle" font-size="9.5" fill="#555">while acquiring high-quality paired image-text data [4, 10, 13] is</text>
+<text x="1183" y="137" text-anchor="middle" font-size="9.5" fill="#555">expensive, obtaining massive amounts of unpaired single-modality</text>
+<text x="1183" y="149" text-anchor="middle" font-size="9.5" fill="#555">data is extremely easy.</text>
+<title>N14 [Context] (cites=3)
+Our approach highlights a perspective different from prior work: while acquiring high-quality paired image-text data [4, 10, 13] is expensive, obtaining massive amounts of unpaired single-modality data is extremely easy.</title>
+</g>
+<g>
+<rect x="1003" y="1472" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="1183" y="1486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Method]</text>
+<text x="1183" y="1501" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">statistical reconstruction via unpaired</text>
+<text x="1183" y="1517" text-anchor="middle" font-size="9.5" fill="#555">We believe that leveraging such large-scale unpaired data is</text>
+<text x="1183" y="1529" text-anchor="middle" font-size="9.5" fill="#555">sufficient to precisely reconstruct the shape of the modality gap</text>
+<text x="1183" y="1541" text-anchor="middle" font-size="9.5" fill="#555">via statistical laws, without relying on expensive paired samples.</text>
+<title>N15 [Method] (cites=0)
+We believe that leveraging such large-scale unpaired data is sufficient to precisely reconstruct the shape of the modality gap via statistical laws, without relying on expensive paired samples.</title>
+</g>
+<g>
+<rect x="814" y="1596" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1610" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Method]</text>
+<text x="994" y="1625" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">two core contributions introduced</text>
+<text x="994" y="1641" text-anchor="middle" font-size="9.5" fill="#555">Guided by this insight, we introduce two core contributions:</text>
+<title>N16 [Method] (cites=0)
+Guided by this insight, we introduce two core contributions:</title>
+</g>
+<g>
+<rect x="814" y="1720" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1734" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Method: ReAlign]</text>
+<text x="994" y="1749" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">ReAlign: training-free pre-alignment</text>
+<text x="994" y="1765" text-anchor="middle" font-size="9.5" fill="#555">ReAlign. Building on the geometric analysis in Sec. 3, we</text>
+<text x="994" y="1777" text-anchor="middle" font-size="9.5" fill="#555">introduce ReAlign, a training-free pre-alignment strategy that</text>
+<text x="994" y="1789" text-anchor="middle" font-size="9.5" fill="#555">maps text representations into the image representation</text>
+<text x="994" y="1801" text-anchor="middle" font-size="9.5" fill="#555">distribution using statistics derived from large-scale…</text>
+<title>N17 [Method: ReAlign] (cites=0)
+ReAlign. Building on the geometric analysis in Sec. 3, we introduce ReAlign, a training-free pre-alignment strategy that maps text representations into the image representation distribution using statistics derived from large-scale unpaired data.</title>
+</g>
+<g>
+<rect x="436" y="1844" width="360" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1858" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17pre [Method]</text>
+<text x="616" y="1873" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">ReAlign: three-stage procedure</text>
+<text x="616" y="1889" text-anchor="middle" font-size="9.5" fill="#555">ReAlign operates through a three-stage procedure.</text>
+<title>N17pre [Method] (cites=0)
+ReAlign operates through a three-stage procedure.</title>
+</g>
+<g>
+<rect x="170" y="1944" width="143" height="110" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="241" y="1958" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17a [Method: Anchor-component]</text>
+<text x="241" y="1973" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Anchor: match means</text>
+<text x="241" y="1989" text-anchor="middle" font-size="9.5" fill="#555">First, Anchor Alignment</text>
+<text x="241" y="2001" text-anchor="middle" font-size="9.5" fill="#555">matches first-order</text>
+<text x="241" y="2013" text-anchor="middle" font-size="9.5" fill="#555">statistics (means).</text>
+<title>N17a [Method: Anchor-component] (cites=0)
+First, Anchor Alignment matches first-order statistics (means).</title>
+</g>
+<g>
+<rect x="331" y="1944" width="143" height="110" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="402" y="1958" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17b [Method: Trace-component]</text>
+<text x="402" y="1973" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Trace: match variance</text>
+<text x="402" y="1989" text-anchor="middle" font-size="9.5" fill="#555">Second, Trace Alignment</text>
+<text x="402" y="2001" text-anchor="middle" font-size="9.5" fill="#555">matches the global</text>
+<text x="402" y="2013" text-anchor="middle" font-size="9.5" fill="#555">variance scale.</text>
+<title>N17b [Method: Trace-component] (cites=0)
+Second, Trace Alignment matches the global variance scale.</title>
+</g>
+<g>
+<rect x="492" y="1944" width="143" height="110" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="563" y="1958" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17c [Method: Centroid-component]</text>
+<text x="563" y="1973" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Centroid: rectify</text>
+<text x="563" y="1987" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">spherical drift</text>
+<text x="563" y="2003" text-anchor="middle" font-size="9.5" fill="#555">Finally, Centroid</text>
+<text x="563" y="2015" text-anchor="middle" font-size="9.5" fill="#555">Alignment explicitly</text>
+<text x="563" y="2027" text-anchor="middle" font-size="9.5" fill="#555">rectifies the geometric</text>
+<text x="563" y="2039" text-anchor="middle" font-size="9.5" fill="#555">drift induced by…</text>
+<title>N17c [Method: Centroid-component] (cites=0)
+Finally, Centroid Alignment explicitly rectifies the geometric drift induced by spherical projection.</title>
+</g>
+<g>
+<rect x="653" y="1944" width="143" height="110" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="724" y="1958" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17d [Method]</text>
+<text x="724" y="1973" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">statistical alignment,</text>
+<text x="724" y="1987" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">no training</text>
+<text x="724" y="2003" text-anchor="middle" font-size="9.5" fill="#555">Together, these stages</text>
+<text x="724" y="2015" text-anchor="middle" font-size="9.5" fill="#555">achieve precise</text>
+<text x="724" y="2027" text-anchor="middle" font-size="9.5" fill="#555">cross-modal alignment at</text>
+<text x="724" y="2039" text-anchor="middle" font-size="9.5" fill="#555">the statistical level…</text>
+<title>N17d [Method] (cites=0)
+Together, these stages achieve precise cross-modal alignment at the statistical level using only linear transformations and normalization, without requiring any additional training.</title>
+</g>
+<g>
+<rect x="814" y="1844" width="360" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1858" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Method: ReVision]</text>
+<text x="994" y="1873" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">ReVision: 2-stage MLLM pipeline</text>
+<text x="994" y="1889" text-anchor="middle" font-size="9.5" fill="#555">ReVision. We incorporate ReAlign into a two-stage MLLM training</text>
+<text x="994" y="1901" text-anchor="middle" font-size="9.5" fill="#555">pipeline termed ReVision.</text>
+<title>N18 [Method: ReVision] (cites=0)
+ReVision. We incorporate ReAlign into a two-stage MLLM training pipeline termed ReVision.</title>
+</g>
+<g>
+<rect x="814" y="1944" width="143" height="110" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="885" y="1958" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18a [Method: ModSubPretrain-component]</text>
+<text x="885" y="1973" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Stage 1: modality</text>
+<text x="885" y="1987" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">substitution pretrain</text>
+<text x="885" y="2003" text-anchor="middle" font-size="9.5" fill="#555">In the first stage,</text>
+<text x="885" y="2015" text-anchor="middle" font-size="9.5" fill="#555">Modality Substitution</text>
+<text x="885" y="2027" text-anchor="middle" font-size="9.5" fill="#555">Pretraining, the ReAlign</text>
+<text x="885" y="2039" text-anchor="middle" font-size="9.5" fill="#555">operator is used to…</text>
+<title>N18a [Method: ModSubPretrain-component] (cites=0)
+In the first stage, Modality Substitution Pretraining, the ReAlign operator is used to convert large-scale long-form text into pseudo-visual representations.</title>
+</g>
+<g>
+<rect x="975" y="1944" width="143" height="110" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="1046" y="1958" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18b [Method: AdapterTrain-component]</text>
+<text x="1046" y="1973" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">adapter trained, LLM</text>
+<text x="1046" y="1987" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">frozen</text>
+<text x="1046" y="2003" text-anchor="middle" font-size="9.5" fill="#555">An adapter is trained on</text>
+<text x="1046" y="2015" text-anchor="middle" font-size="9.5" fill="#555">these representations</text>
+<text x="1046" y="2027" text-anchor="middle" font-size="9.5" fill="#555">while keeping the LLM</text>
+<text x="1046" y="2039" text-anchor="middle" font-size="9.5" fill="#555">backbone frozen, enabling…</text>
+<title>N18b [Method: AdapterTrain-component] (cites=0)
+An adapter is trained on these representations while keeping the LLM backbone frozen, enabling the model to absorb rich world knowledge and visual semantics purely from text data, without relying on costly image–text pairs.</title>
+</g>
+<g>
+<rect x="1136" y="1944" width="143" height="110" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="1207" y="1958" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18c [Method: VisInstrTune-component]</text>
+<text x="1207" y="1973" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Stage 2: visual</text>
+<text x="1207" y="1987" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">instruction tune</text>
+<text x="1207" y="2003" text-anchor="middle" font-size="9.5" fill="#555">In the second stage,</text>
+<text x="1207" y="2015" text-anchor="middle" font-size="9.5" fill="#555">Visual Instruction</text>
+<text x="1207" y="2027" text-anchor="middle" font-size="9.5" fill="#555">Tuning, real images are</text>
+<text x="1207" y="2039" text-anchor="middle" font-size="9.5" fill="#555">introduced for standard…</text>
+<title>N18c [Method: VisInstrTune-component] (cites=0)
+In the second stage, Visual Instruction Tuning, real images are introduced for standard supervised learning to supplement fine-grained visual details that may be lost under purely statistical alignment, thereby refining the model's ability to follow complex instructions.</title>
+</g>
+<g>
+<rect x="1297" y="1944" width="143" height="110" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="1368" y="1958" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Method]</text>
+<text x="1368" y="1973" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">summary of</text>
+<text x="1368" y="1987" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">contributions</text>
+<text x="1368" y="2003" text-anchor="middle" font-size="9.5" fill="#555">Our main contributions</text>
+<text x="1368" y="2015" text-anchor="middle" font-size="9.5" fill="#555">are summarized as</text>
+<text x="1368" y="2027" text-anchor="middle" font-size="9.5" fill="#555">follows:</text>
+<title>N19 [Method] (cites=0)
+Our main contributions are summarized as follows:</title>
+</g>
+<g>
+<rect x="170" y="2330" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="322" y="2344" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19a [Contribution: Framework]</text>
+<text x="322" y="2359" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: fixed-frame gap framework</text>
+<text x="322" y="2375" text-anchor="middle" font-size="9.5" fill="#555">Fixed-frame Modality-gap Framework: We establish a</text>
+<text x="322" y="2387" text-anchor="middle" font-size="9.5" fill="#555">theoretical framework that decomposes the modality gap</text>
+<text x="322" y="2399" text-anchor="middle" font-size="9.5" fill="#555">into stable biases and anisotropic residuals within a</text>
+<text x="322" y="2411" text-anchor="middle" font-size="9.5" fill="#555">fixed reference frame, moving beyond oversimplified…</text>
+<title>N19a [Contribution: Framework] (cites=0)
+Fixed-frame Modality-gap Framework: We establish a theoretical framework that decomposes the modality gap into stable biases and anisotropic residuals within a fixed reference frame, moving beyond oversimplified isotropic assumptions.</title>
+</g>
+<g>
+<rect x="492" y="2330" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="644" y="2344" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19b [Contribution: ReAlign]</text>
+<text x="644" y="2359" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: ReAlign strategy</text>
+<text x="644" y="2375" text-anchor="middle" font-size="9.5" fill="#555">ReAlign Strategy: We introduce a training-free</text>
+<text x="644" y="2387" text-anchor="middle" font-size="9.5" fill="#555">statistical alignment strategy that precisely maps text</text>
+<text x="644" y="2399" text-anchor="middle" font-size="9.5" fill="#555">representations into the visual distribution through a</text>
+<text x="644" y="2411" text-anchor="middle" font-size="9.5" fill="#555">three-step procedure: Anchor, Trace, and Centroid…</text>
+<title>N19b [Contribution: ReAlign] (cites=0)
+ReAlign Strategy: We introduce a training-free statistical alignment strategy that precisely maps text representations into the visual distribution through a three-step procedure: Anchor, Trace, and Centroid alignment.</title>
+</g>
+<g>
+<rect x="814" y="2330" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="966" y="2344" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19c [Contribution: ReVision]</text>
+<text x="966" y="2359" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: ReVision paradigm</text>
+<text x="966" y="2375" text-anchor="middle" font-size="9.5" fill="#555">ReVision Paradigm: We propose a scalable MLLM training</text>
+<text x="966" y="2387" text-anchor="middle" font-size="9.5" fill="#555">paradigm that leverages ReAlign to effectively</text>
+<text x="966" y="2399" text-anchor="middle" font-size="9.5" fill="#555">substitute expensive paired data with abundant unpaired</text>
+<text x="966" y="2411" text-anchor="middle" font-size="9.5" fill="#555">text for efficient model scaling.</text>
+<title>N19c [Contribution: ReVision] (cites=0)
+ReVision Paradigm: We propose a scalable MLLM training paradigm that leverages ReAlign to effectively substitute expensive paired data with abundant unpaired text for efficient model scaling.</title>
+</g>
+<g>
+<rect x="1136" y="2330" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1288" y="2344" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19d [Contribution: Validation]</text>
+<text x="1288" y="2359" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C4: scaling validation</text>
+<text x="1288" y="2375" text-anchor="middle" font-size="9.5" fill="#555">Scaling Validation: Through comprehensive benchmarking,</text>
+<text x="1288" y="2387" text-anchor="middle" font-size="9.5" fill="#555">we demonstrate that ReVision's text-only pretraining</text>
+<text x="1288" y="2399" text-anchor="middle" font-size="9.5" fill="#555">surpasses traditional baselines trained on large-scale</text>
+<text x="1288" y="2411" text-anchor="middle" font-size="9.5" fill="#555">paired image-text data, validating the superior…</text>
+<title>N19d [Contribution: Validation] (cites=0)
+Scaling Validation: Through comprehensive benchmarking, we demonstrate that ReVision's text-only pretraining surpasses traditional baselines trained on large-scale paired image-text data, validating the superior efficiency and scalability of our paradigm.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

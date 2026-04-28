@@ -1,0 +1,109 @@
+{
+  "paper_id": "FA0018",
+  "paper_topic": "Compute-matched evaluation of Transform-Augmented GRPO (TA-GRPO) for mathematical reasoning",
+  "anchor_paper": "TA-GRPO (Le et al., 2026)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Reinforcement learning has emerged as a powerful paradigm for improving reasoning capabilities in large language models (Zhang et al., 2025).",
+      "display_label": "RL improves LLM reasoning",
+      "citations": 1
+    },
+    {
+      "id": "N2",
+      "type": "Prior_Work",
+      "text": "Group Relative Policy Optimization (GRPO) (Shao et al., 2024) has proven particularly effective for mathematical reasoning, achieving strong results by computing advantages relative to group statistics without requiring a separate critic network.",
+      "display_label": "GRPO: critic-free group-relative advantages",
+      "citations": 1
+    },
+    {
+      "id": "N3",
+      "type": "Prior_Work",
+      "text": "Recently, Transform-Augmented GRPO (TA-GRPO) (Le et al., 2026) extended this approach by generating semantically equivalent variants of each training prompt through paraphrasing, variable renaming, and format changes, then pooling advantages across the entire group.",
+      "display_label": "TA-GRPO: semantic transforms + pooled advantages",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N4",
+      "type": "Limitation",
+      "text": "However, TA-GRPO's reported improvements over standard GRPO are confounded by a fundamental difference in compute: by generating N transformations per prompt and sampling rollouts for each variant, TA-GRPO uses (N + 1)× more rollouts per original prompt.",
+      "display_label": "TA-GRPO comparison confounded by extra compute",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Limitation",
+      "text": "With N = 3 transformations, this amounts to 4× more total rollouts than standard GRPO trained for the same number of steps.",
+      "display_label": "4x more rollouts than GRPO",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "This raises a critical question: does TA-GRPO's advantage stem from its semantic transformation mechanism, or simply from the additional compute?",
+      "display_label": "Question: transformations vs compute?",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Method",
+      "text": "In this paper, we design a compute-matched evaluation to isolate the true contribution of semantic transformations.",
+      "display_label": "Compute-matched evaluation design",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "We compare standard GRPO trained for 708 steps (with 8 rollouts per prompt) against TA-GRPO trained for 177 steps (with 32 rollouts per prompt group), ensuring both methods consume identical total rollouts (∼725K).",
+      "display_label": "Match total rollouts (~725K) across conditions",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Method",
+      "text": "We further introduce an ablation condition that uses transformations but computes advantages per-variant rather than pooled, isolating the contribution of data augmentation from pooled normalization.",
+      "display_label": "Per-variant ablation isolates pooling effect",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution: Finding 1",
+      "text": "We present the first compute-matched evaluation of TA-GRPO, demonstrating that it achieves +2.02pp higher Pass@32 than GRPO-Long under identical rollout budgets, confirming that semantic transformations provide genuine benefits beyond additional compute.",
+      "display_label": "Finding 1: +2.02pp Pass@32 under matched compute",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution: Finding 2",
+      "text": "Through ablation analysis, we show that 87% of TA-GRPO's improvement comes from semantic data augmentation, while only 13% comes from pooled advantage normalization.",
+      "display_label": "Finding 2: 87% augmentation vs 13% pooling",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution: Finding 3",
+      "text": "We analyze Pass@k scaling and variance rescue, finding that TA-GRPO's advantage grows with inference-time compute (from +1.07pp at k = 1 to +2.02pp at k = 32), consistent with improved solution diversity.",
+      "display_label": "Finding 3: gain scales with k (diversity)",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "elaboration", "connective": "Recently"},
+    {"from": "N3", "to": "N4", "kind": "contrast", "connective": "However"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "consequence", "connective": "This raises"},
+    {"from": "N6", "to": "N7", "kind": "consequence", "connective": "In this paper"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "elaboration"},
+    {"from": "N8", "to": "C1", "kind": "consequence"},
+    {"from": "N9", "to": "C2", "kind": "consequence"},
+    {"from": "N8", "to": "C3", "kind": "elaboration"},
+    {"from": "N7", "to": "N4", "kind": "addresses"},
+    {"from": "N8", "to": "N5", "kind": "addresses"},
+    {"from": "N9", "to": "N6", "kind": "addresses"}
+  ],
+  "observations": "FA0018 is a tightly-scoped methodological audit of a single anchor (TA-GRPO). The narrative arc is linear and unusually clean: Context (RL for LLM reasoning, N1) → Prior_Work chain (GRPO → TA-GRPO, N2-N3) → Limitation cluster (compute confound, quantification, research question, N4-N6) → Method cluster (compute-matched comparison plus per-variant ablation, N7-N9) → Contribution fork (3 findings, C1-C3). Pass-2 cross-segment scan finds strong addresses links: the compute-matched design (N7) directly resolves the confound (N4); matched-rollout numbers (N8) resolve the quantified 4x gap (N5); the per-variant ablation (N9) answers the transforms-vs-compute question (N6). Topology shows one strong contrast pivot (N3 → N4) and a fan-out from N8/N9 into the three Contribution leaves (rendered as side enumeration). No surprise reversal; the paper executes exactly the audit it advertised. The structure is an evaluation-paper template: anchor + confound + matched re-evaluation + decomposition."
+}

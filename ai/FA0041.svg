@@ -1,0 +1,200 @@
+<svg viewBox="0 0 1480 1508" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="166" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="408" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="312" x2="1450" y2="312" stroke="#eee" stroke-width="1"/>
+<text x="14" y="600" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="504" x2="1450" y2="504" stroke="#eee" stroke-width="1"/>
+<text x="14" y="892" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="696" x2="1450" y2="696" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1172" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1088" x2="1450" y2="1088" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1352" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1256" x2="1450" y2="1256" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="948" width="1140" height="104" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="944" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N8</text>
+<rect x="235" y="1284" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1280" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N8</text>
+<line x1="805" y1="164" x2="805" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="264" x2="616" y2="552" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="405" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="616" y1="648" x2="805" y2="360" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="710" y="501" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">addresses this limitation</text>
+<line x1="805" y1="456" x2="805" y2="1136" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1208" x2="994" y2="552" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="899" y="877" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="994" y1="648" x2="805" y2="744" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="805" y1="816" x2="805" y2="844" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="940" x2="427" y2="968" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="940" x2="805" y2="968" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="940" x2="1183" y2="968" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="940" x2="427" y2="1304" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="940" x2="805" y2="1304" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="940" x2="1183" y2="1304" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="1400" x2="994" y2="552" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1400" x2="616" y2="552" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RLVR is effective for code generation</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Large language models have achieved remarkable progress in code generation,</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">with reinforcement learning from verifiable rewards (RLVR) emerging as an</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">effective training paradigm (Le et al., 2022; Liu et al., 2023a; Dou et al.,</text>
+<text x="805" y="149" text-anchor="middle" font-size="9.5" fill="#555">2024).</text>
+<title>N1 [Context] (cites=3)
+Large language models have achieved remarkable progress in code generation, with reinforcement learning from verifiable rewards (RLVR) emerging as an effective training paradigm (Le et al., 2022; Liu et al., 2023a; Dou et al., 2024).</title>
+</g>
+<g>
+<rect x="595" y="192" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">unit-test reward is objective supervision</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">By using unit-test execution as a reward signal, RLVR provides objective,</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">reproducible supervision without requiring human annotation.</text>
+<title>N2 [Context] (cites=0)
+By using unit-test execution as a reward signal, RLVR provides objective, reproducible supervision without requiring human annotation.</title>
+</g>
+<circle cx="803.0" cy="560.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="552" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="566" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Limitation]</text>
+<text x="616" y="581" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">GRPO uses only binary pass/fail signal</text>
+<text x="616" y="597" text-anchor="middle" font-size="9.5" fill="#555">However, current methods like GRPO (Shao et al., 2024) treat test</text>
+<text x="616" y="609" text-anchor="middle" font-size="9.5" fill="#555">feedback as binary pass/fail signals, potentially missing richer</text>
+<text x="616" y="621" text-anchor="middle" font-size="9.5" fill="#555">learning opportunities from comparing correct and incorrect</text>
+<text x="616" y="633" text-anchor="middle" font-size="9.5" fill="#555">solutions.</text>
+<title>N3 [Limitation] (cites=1)
+However, current methods like GRPO (Shao et al., 2024) treat test feedback as binary pass/fail signals, potentially missing richer learning opportunities from comparing correct and incorrect solutions.</title>
+</g>
+<circle cx="1022.0" cy="368.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="360" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="374" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work : ANCHOR]</text>
+<text x="805" y="389" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">MEL: contrastive pairs + NLL internalization (math)</text>
+<text x="805" y="405" text-anchor="middle" font-size="9.5" fill="#555">Meta-Experience Learning (MEL) (Huang et al., 2026) addresses this</text>
+<text x="805" y="417" text-anchor="middle" font-size="9.5" fill="#555">limitation in mathematical reasoning by constructing contrastive pairs of</text>
+<text x="805" y="429" text-anchor="middle" font-size="9.5" fill="#555">correct and incorrect trajectories, identifying bifurcation points where</text>
+<text x="805" y="441" text-anchor="middle" font-size="9.5" fill="#555">reasoning diverges, and…</text>
+<title>N4 [Prior_Work] (cites=1)
+Meta-Experience Learning (MEL) (Huang et al., 2026) addresses this limitation in mathematical reasoning by constructing contrastive pairs of correct and incorrect trajectories, identifying bifurcation points where reasoning diverges, and internalizing these insights into model parameters through negative log-likelihood training.</title>
+</g>
+<g>
+<rect x="595" y="1136" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1150" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Result]</text>
+<text x="805" y="1165" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">MEL: +3.9-4.7% Pass@1 on math</text>
+<text x="805" y="1181" text-anchor="middle" font-size="9.5" fill="#555">MEL has demonstrated consistent improvements of 3.9–4.7% Pass@1 on math</text>
+<text x="805" y="1193" text-anchor="middle" font-size="9.5" fill="#555">benchmarks.</text>
+<title>N5 [Result] (cites=0)
+MEL has demonstrated consistent improvements of 3.9–4.7% Pass@1 on math benchmarks.</title>
+</g>
+<g>
+<rect x="814" y="552" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="566" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="994" y="581" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">MEL untested on code; structure differs</text>
+<text x="994" y="597" text-anchor="middle" font-size="9.5" fill="#555">However, its applicability to code generation remains unexplored,</text>
+<text x="994" y="609" text-anchor="middle" font-size="9.5" fill="#555">as code solutions may lack the stepwise structure of mathematical</text>
+<text x="994" y="621" text-anchor="middle" font-size="9.5" fill="#555">proofs and unit-test feedback differs fundamentally from answer</text>
+<text x="994" y="633" text-anchor="middle" font-size="9.5" fill="#555">verification.</text>
+<title>N6 [Limitation] (cites=0)
+However, its applicability to code generation remains unexplored, as code solutions may lack the stepwise structure of mathematical proofs and unit-test feedback differs fundamentally from answer verification.</title>
+</g>
+<g>
+<rect x="595" y="744" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="758" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Method]</text>
+<text x="805" y="773" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">MEL-Code: transfer MEL to code RLVR</text>
+<text x="805" y="789" text-anchor="middle" font-size="9.5" fill="#555">We present MEL-Code, which transfers Meta-Experience Learning to code RLVR</text>
+<text x="805" y="801" text-anchor="middle" font-size="9.5" fill="#555">with unit-test rewards.</text>
+<title>N7 [Method] (cites=0)
+We present MEL-Code, which transfers Meta-Experience Learning to code RLVR with unit-test rewards.</title>
+</g>
+<g>
+<rect x="595" y="844" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="858" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="873" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">three-stage pipeline on top of GRPO</text>
+<text x="805" y="889" text-anchor="middle" font-size="9.5" fill="#555">MEL-Code augments standard GRPO training with three stages: (1) contrastive</text>
+<text x="805" y="901" text-anchor="middle" font-size="9.5" fill="#555">pair construction from GRPO rollouts, where passing and failing solutions</text>
+<text x="805" y="913" text-anchor="middle" font-size="9.5" fill="#555">are identified; (2) replay validation to filter pairs by re-executing</text>
+<text x="805" y="925" text-anchor="middle" font-size="9.5" fill="#555">solutions on unit…</text>
+<title>N8 [Method] (cites=0)
+MEL-Code augments standard GRPO training with three stages: (1) contrastive pair construction from GRPO rollouts, where passing and failing solutions are identified; (2) replay validation to filter pairs by re-executing solutions on unit tests; and (3) NLL internalization where validated meta-experiences are used to train the model alongside the GRPO objective.</title>
+</g>
+<g>
+<rect x="247" y="968" width="360" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="427" y="982" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8a [Method: stage-1]</text>
+<text x="427" y="997" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">contrastive pair construction</text>
+<text x="427" y="1013" text-anchor="middle" font-size="9.5" fill="#555">(1) contrastive pair construction from GRPO rollouts, where</text>
+<text x="427" y="1025" text-anchor="middle" font-size="9.5" fill="#555">passing and failing solutions are identified</text>
+<title>N8a [Method: stage-1] (cites=0)
+(1) contrastive pair construction from GRPO rollouts, where passing and failing solutions are identified</title>
+</g>
+<g>
+<rect x="625" y="968" width="360" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="982" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8b [Method: stage-2]</text>
+<text x="805" y="997" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">replay validation via unit tests</text>
+<text x="805" y="1013" text-anchor="middle" font-size="9.5" fill="#555">(2) replay validation to filter pairs by re-executing solutions on</text>
+<text x="805" y="1025" text-anchor="middle" font-size="9.5" fill="#555">unit tests</text>
+<title>N8b [Method: stage-2] (cites=0)
+(2) replay validation to filter pairs by re-executing solutions on unit tests</title>
+</g>
+<g>
+<rect x="1003" y="968" width="360" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="1183" y="982" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8c [Method: stage-3]</text>
+<text x="1183" y="997" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">NLL internalization with GRPO</text>
+<text x="1183" y="1013" text-anchor="middle" font-size="9.5" fill="#555">(3) NLL internalization where validated meta-experiences are used</text>
+<text x="1183" y="1025" text-anchor="middle" font-size="9.5" fill="#555">to train the model alongside the GRPO objective</text>
+<title>N8c [Method: stage-3] (cites=0)
+(3) NLL internalization where validated meta-experiences are used to train the model alongside the GRPO objective</title>
+</g>
+<g>
+<rect x="247" y="1304" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1318" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Contribution: contribution-1]</text>
+<text x="427" y="1333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: three-stage pipeline + template construction</text>
+<text x="427" y="1349" text-anchor="middle" font-size="9.5" fill="#555">A three-stage pipeline adapting MEL to code RLVR, with</text>
+<text x="427" y="1361" text-anchor="middle" font-size="9.5" fill="#555">template-based meta-experience construction suited to the code</text>
+<text x="427" y="1373" text-anchor="middle" font-size="9.5" fill="#555">domain where solutions may differ from the first line.</text>
+<title>N9 [Contribution: contribution-1] (cites=0)
+A three-stage pipeline adapting MEL to code RLVR, with template-based meta-experience construction suited to the code domain where solutions may differ from the first line.</title>
+</g>
+<g>
+<rect x="625" y="1304" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1318" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Contribution: contribution-2]</text>
+<text x="805" y="1333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: 66% usable contrastive pairs</text>
+<text x="805" y="1349" text-anchor="middle" font-size="9.5" fill="#555">Empirical validation that code RLVR generates abundant</text>
+<text x="805" y="1361" text-anchor="middle" font-size="9.5" fill="#555">meta-experience signal, with 66% of training prompts yielding</text>
+<text x="805" y="1373" text-anchor="middle" font-size="9.5" fill="#555">usable contrastive pairs—far exceeding the 5% threshold from math</text>
+<text x="805" y="1385" text-anchor="middle" font-size="9.5" fill="#555">MEL.</text>
+<title>N10 [Contribution: contribution-2] (cites=0)
+Empirical validation that code RLVR generates abundant meta-experience signal, with 66% of training prompts yielding usable contrastive pairs—far exceeding the 5% threshold from math MEL.</title>
+</g>
+<g>
+<rect x="1003" y="1304" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1318" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Contribution: contribution-3]</text>
+<text x="1183" y="1333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: +MBPP, 33% faster, replay key</text>
+<text x="1183" y="1349" text-anchor="middle" font-size="9.5" fill="#555">Demonstration of improved MBPP performance (9.2% vs. 8.8% greedy</text>
+<text x="1183" y="1361" text-anchor="middle" font-size="9.5" fill="#555">Pass@1) and 33% faster convergence, with ablation studies showing</text>
+<text x="1183" y="1373" text-anchor="middle" font-size="9.5" fill="#555">replay validation as the most critical component.</text>
+<title>N11 [Contribution: contribution-3] (cites=0)
+Demonstration of improved MBPP performance (9.2% vs. 8.8% greedy Pass@1) and 33% faster convergence, with ablation studies showing replay validation as the most critical component.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

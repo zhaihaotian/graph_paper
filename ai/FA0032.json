@@ -1,0 +1,157 @@
+{
+  "paper_id": "FA0032",
+  "paper_topic": "RC-MemStop: conformal risk-controlled early stopping for long-context memory agents",
+  "anchor_paper": "MemAgent (Yu et al., 2025)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Large language models increasingly face inputs that exceed a single context window, such as long reports, codebases, or extensive retrieved documents.",
+      "display_label": "LLMs face oversized inputs",
+      "citations": 0
+    },
+    {
+      "id": "N2",
+      "type": "Prior_Work",
+      "text": "Memory agents address this by processing documents chunk-by-chunk while maintaining a bounded working memory, enabling inference on extremely long contexts (hundreds of thousands of tokens) at cost proportional to document length (Yu et al., 2025).",
+      "display_label": "Memory agents do chunk-by-chunk processing",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N3",
+      "type": "Limitation",
+      "text": "However, this chunk-scanning approach remains computationally expensive: processing a single query may require hundreds of sequential memory updates.",
+      "display_label": "Chunk-scanning is expensive",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Prior_Work",
+      "text": "Early stopping—terminating processing once sufficient evidence has been gathered—offers a natural path to efficiency, with learned stopping policies achieving 3–5× speedup (Wang et al., 2026b).",
+      "display_label": "Learned stopping: 3-5x speedup",
+      "citations": 1
+    },
+    {
+      "id": "N5",
+      "type": "Limitation",
+      "text": "Yet learned stopping policies require training-time supervision and leave deployment knobs (e.g., how aggressively to stop) without explicit safety guarantees.",
+      "display_label": "Learned stopping needs supervision, no safety guarantee",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "A practical deployment question remains: how do we stop early while guaranteeing we do not break more than an \u03b5 fraction of the full-read system's correct answers?",
+      "display_label": "Open question: bounded broken-success risk",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Method",
+      "text": "This motivates a post-hoc, training-free calibration approach that can be applied to any existing memory agent with a user-chosen risk budget.",
+      "display_label": "Post-hoc, training-free calibration",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "We propose RC-MemStop, which applies conformal risk control (Angelopoulos et al., 2025) to calibrate early stopping thresholds for memory agents.",
+      "display_label": "RC-MemStop: conformal risk control",
+      "citations": 1
+    },
+    {
+      "id": "N9",
+      "type": "Method: component",
+      "text": "RC-MemStop uses an answer-stability stopping rule: processing terminates when k consecutive draft answers match.",
+      "display_label": "Answer-stability stopping rule",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Method: component",
+      "text": "Using the Waudby-Smith-Ramdas betting bound, we select the least conservative k that satisfies a user-specified broken-success risk budget \u03b5 with high probability.",
+      "display_label": "WSR betting bound selects k",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method",
+      "text": "This approach requires no retraining and provides finite-sample guarantees on held-out test data.",
+      "display_label": "No retraining, finite-sample guarantee",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Result",
+      "text": "Our experiments on MemAgent with 448K–896K token contexts reveal a surprising finding: risk control is achieved, but speedup is negligible.",
+      "display_label": "Risk controlled but no speedup",
+      "citations": 0
+    },
+    {
+      "id": "N13",
+      "type": "Result",
+      "text": "Across all 8 configurations, we observe zero risk violations (Rtest \u2264 \u03b5), validating that conformal risk control can be successfully applied to memory agent early stopping.",
+      "display_label": "Zero risk violations across 8 configs",
+      "citations": 0
+    },
+    {
+      "id": "N14",
+      "type": "Result",
+      "text": "However, the best speedup is only 1.14×, far below the 1.5× target and even below the 1.2× practical utility threshold.",
+      "display_label": "Best speedup only 1.14x",
+      "citations": 0
+    },
+    {
+      "id": "N15",
+      "type": "Result",
+      "text": "The root cause is that the answer-stability signal is too weak: draft answers do not stabilize until the agent has processed most of the context, requiring k = 60–120 consecutive matches to control risk.",
+      "display_label": "Root cause: stability signal too weak",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We present the first application of conformal risk control to memory agent early stopping, demonstrating that UCB-calibrated thresholds can maintain user-specified risk budgets on held-out test data.",
+      "display_label": "First conformal risk control for memory stopping",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We provide empirical evidence that calibration-only early stopping with answer stability is insufficient for meaningful compute reduction in memory agents, achieving only 1.02×–1.14× speedup.",
+      "display_label": "Calibration-only is insufficient (1.02-1.14x)",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We diagnose the root cause: the answer-stability stopping signal is fundamentally too weak, with broken-success risk remaining above 50% until k = 30–50 consecutive matches, suggesting that training-based stopping policies are necessary for practical efficiency gains.",
+      "display_label": "Diagnosis: stability signal too weak; need training",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "contrast", "connective": "However"},
+    {"from": "N3", "to": "N4", "kind": "consequence", "connective": "offers a natural path"},
+    {"from": "N4", "to": "N5", "kind": "contrast", "connective": "Yet"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N6", "to": "N7", "kind": "consequence", "connective": "This motivates"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "elaboration"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "N12", "kind": "evidence"},
+    {"from": "N12", "to": "N13", "kind": "elaboration"},
+    {"from": "N13", "to": "N14", "kind": "contrast", "connective": "However"},
+    {"from": "N14", "to": "N15", "kind": "consequence", "connective": "The root cause"},
+    {"from": "N15", "to": "C1", "kind": "elaboration"},
+    {"from": "N15", "to": "C2", "kind": "elaboration"},
+    {"from": "N15", "to": "C3", "kind": "elaboration"},
+    {"from": "N8", "to": "N5", "kind": "addresses"},
+    {"from": "N9", "to": "N3", "kind": "addresses"},
+    {"from": "N10", "to": "N6", "kind": "addresses"}
+  ],
+  "observations": "FA0032 has an unusual narrative arc for an AI paper: a negative-result, diagnostic structure. Context (N1) sets up oversized LLM inputs, Prior_Work (N2 MemAgent anchor) introduces memory agents, then a Limitation (N3) flags compute cost. A second Prior_Work (N4 learned stopping) offers a partial fix, immediately followed by a Limitation (N5) on training requirements and a research question (N6). The Method block (N7-N11) is unusually long for an intro: motivation, named system (RC-MemStop), two named components (answer-stability rule, WSR bound), and a guarantee statement. The Result section (N12-N15) is the structural climax: N12 announces 'surprising finding' (works for risk, fails for speedup), N13 validates the positive half, N14 contrasts with a negative numeric result, and N15 attributes the root cause. The three Contributions (C1-C3) parallel the result triad: positive (first calibrated stopping), negative (insufficient speedup), diagnostic (signal too weak). Three addresses edges link Method components to specific Limitations (N8->N5 safety, N9->N3 cost, N10->N6 risk-budget question). Topology has multiple fork (N15) and join nodes. The dominant feature is the 'positive guarantee + negative utility' tension, mirrored in both Result and Contribution layers."
+}

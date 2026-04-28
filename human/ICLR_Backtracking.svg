@@ -1,0 +1,240 @@
+<svg viewBox="0 0 1480 2388" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="154" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="446" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="288" x2="1450" y2="288" stroke="#eee" stroke-width="1"/>
+<text x="14" y="862" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="604" x2="1450" y2="604" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1372" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1120" x2="1450" y2="1120" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1976" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1624" x2="1450" y2="1624" stroke="#eee" stroke-width="1"/>
+<rect x="583" y="632" width="444" height="352" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="591" y="628" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N10</text>
+<line x1="805" y1="140" x2="805" y2="168" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="151" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">As capabilities become</text>
+<line x1="805" y1="240" x2="805" y2="336" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="432" x2="805" y2="460" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="556" x2="805" y2="652" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="748" x2="805" y2="776" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="860" x2="805" y2="888" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="972" x2="805" y2="1000" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="983" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">In this work, we ask</text>
+<line x1="805" y1="1072" x2="805" y2="1168" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1252" x2="805" y2="1280" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1263" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To this end, we introduce</text>
+<line x1="805" y1="1352" x2="805" y2="1380" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1452" x2="805" y2="1480" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1576" x2="805" y2="1672" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1756" x2="805" y2="1784" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1856" x2="805" y2="1884" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1956" x2="805" y2="1984" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2068" x2="805" y2="2096" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2180" x2="805" y2="2208" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1352" x2="805" y2="652" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1352" x2="805" y2="888" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">rapid LLM progress</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Remarkable progress has been recently made in building capable and helpful</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">large language models (Touvron et al., 2023).</text>
+<title>N1 [Context] (cites=1)
+Remarkable progress has been recently made in building capable and helpful large language models (Touvron et al., 2023).</title>
+</g>
+<circle cx="1022.0" cy="176.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="168" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="182" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="197" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">more capability brings more harm potential</text>
+<text x="805" y="213" text-anchor="middle" font-size="9.5" fill="#555">As capabilities become more powerful, these models also have more potential</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">to cause real societal harms (Kumar et al., 2023).</text>
+<title>N2 [Context] (cites=1)
+As capabilities become more powerful, these models also have more potential to cause real societal harms (Kumar et al., 2023).</title>
+</g>
+<circle cx="1022.0" cy="344.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="352.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="336" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="350" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Prior_Work]</text>
+<text x="805" y="365" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">prevention-based alignment via SFT/RLHF</text>
+<text x="805" y="381" text-anchor="middle" font-size="9.5" fill="#555">The de facto standard in safety alignment focuses on prevention: training</text>
+<text x="805" y="393" text-anchor="middle" font-size="9.5" fill="#555">language models to generate safe responses while minimizing the likelihood</text>
+<text x="805" y="405" text-anchor="middle" font-size="9.5" fill="#555">of unsafe ones, through techniques including SFT (Ouyang et al., 2022) and</text>
+<text x="805" y="417" text-anchor="middle" font-size="9.5" fill="#555">RLHF…</text>
+<title>N3 [Prior_Work] (cites=2)
+The de facto standard in safety alignment focuses on prevention: training language models to generate safe responses while minimizing the likelihood of unsafe ones, through techniques including SFT (Ouyang et al., 2022) and RLHF (Christiano et al., 2017).</title>
+</g>
+<circle cx="1022.0" cy="468.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="476.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="460" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="474" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work]</text>
+<text x="805" y="489" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">prevention helps but production models still broken</text>
+<text x="805" y="505" text-anchor="middle" font-size="9.5" fill="#555">Prevention-based safety tuning goes a long way towards building safe</text>
+<text x="805" y="517" text-anchor="middle" font-size="9.5" fill="#555">language models (Bai et al., 2022a), and yet the safety of production models</text>
+<text x="805" y="529" text-anchor="middle" font-size="9.5" fill="#555">which have undergone substantial safety tuning (e.g., Claude 3.5 and GPT-4)</text>
+<text x="805" y="541" text-anchor="middle" font-size="9.5" fill="#555">can still be…</text>
+<title>N4 [Prior_Work] (cites=2)
+Prevention-based safety tuning goes a long way towards building safe language models (Bai et al., 2022a), and yet the safety of production models which have undergone substantial safety tuning (e.g., Claude 3.5 and GPT-4) can still be compromised in the wild by simple attacks (Andriushchenko et al., 2024).</title>
+</g>
+<g>
+<rect x="595" y="652" width="420" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="666" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Limitation]</text>
+<text x="805" y="681" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">attack surface infinite, tuning data small</text>
+<text x="805" y="697" text-anchor="middle" font-size="9.5" fill="#555">The core challenge of safety alignment seems to be that the attack surface</text>
+<text x="805" y="709" text-anchor="middle" font-size="9.5" fill="#555">induced by a text interface is practically infinite, and model developers</text>
+<text x="805" y="721" text-anchor="middle" font-size="9.5" fill="#555">have to rely on the generalization of safe behavior from a relatively small</text>
+<text x="805" y="733" text-anchor="middle" font-size="9.5" fill="#555">(often…</text>
+<title>N5 [Limitation] (cites=0)
+The core challenge of safety alignment seems to be that the attack surface induced by a text interface is practically infinite, and model developers have to rely on the generalization of safe behavior from a relatively small (often predominantly in English) safety tuning dataset to prevent every failure case.</title>
+</g>
+<circle cx="1022.0" cy="784.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="792.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="776" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="790" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="805" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">jailbreaks via base64 and Zulu</text>
+<text x="805" y="821" text-anchor="middle" font-size="9.5" fill="#555">To illustrate just how big this attack surface truly is, two recent papers</text>
+<text x="805" y="833" text-anchor="middle" font-size="9.5" fill="#555">jailbreak GPT-4 by encoding malicious instructions in base64 (Wei et al.,</text>
+<text x="805" y="845" text-anchor="middle" font-size="9.5" fill="#555">2023) and in low-resource languages such as Zulu (Yong et al., 2024).</text>
+<title>N6 [Limitation] (cites=2)
+To illustrate just how big this attack surface truly is, two recent papers jailbreak GPT-4 by encoding malicious instructions in base64 (Wei et al., 2023) and in low-resource languages such as Zulu (Yong et al., 2024).</title>
+</g>
+<g>
+<rect x="595" y="888" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="902" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="917" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">safety tuning misses edge cases</text>
+<text x="805" y="933" text-anchor="middle" font-size="9.5" fill="#555">It is plausible that, through pre-training, GPT-4 picked up capabilities to</text>
+<text x="805" y="945" text-anchor="middle" font-size="9.5" fill="#555">understand a variety of encodings and languages, but that safety tuning</text>
+<text x="805" y="957" text-anchor="middle" font-size="9.5" fill="#555">failed to cover these &quot;edge&quot; cases.</text>
+<title>N7 [Limitation] (cites=0)
+It is plausible that, through pre-training, GPT-4 picked up capabilities to understand a variety of encodings and languages, but that safety tuning failed to cover these &quot;edge&quot; cases.</title>
+</g>
+<g>
+<rect x="595" y="1000" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1014" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Limitation]</text>
+<text x="805" y="1029" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">research question: improve safety despite unsafe generations</text>
+<text x="805" y="1045" text-anchor="middle" font-size="9.5" fill="#555">In this work, we ask: how can we meaningfully improve language model safety,</text>
+<text x="805" y="1057" text-anchor="middle" font-size="9.5" fill="#555">given that models will likely always produce some unsafe generations?</text>
+<title>N8 [Limitation] (cites=0)
+In this work, we ask: how can we meaningfully improve language model safety, given that models will likely always produce some unsafe generations?</title>
+</g>
+<g>
+<rect x="595" y="1168" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1182" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="1197" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">hypothesis: post-hoc verification easier than prevention</text>
+<text x="805" y="1213" text-anchor="middle" font-size="9.5" fill="#555">We hypothesize that it can be easier for a model to verify safety after some</text>
+<text x="805" y="1225" text-anchor="middle" font-size="9.5" fill="#555">tokens have been generated, instead of relying on prevention of unsafe</text>
+<text x="805" y="1237" text-anchor="middle" font-size="9.5" fill="#555">generations solely.</text>
+<title>N9 [Method] (cites=0)
+We hypothesize that it can be easier for a model to verify safety after some tokens have been generated, instead of relying on prevention of unsafe generations solely.</title>
+</g>
+<g>
+<rect x="595" y="1280" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1294" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="805" y="1309" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">introduce backtracking technique</text>
+<text x="805" y="1325" text-anchor="middle" font-size="9.5" fill="#555">To this end, we introduce backtracking, a technique that allows language</text>
+<text x="805" y="1337" text-anchor="middle" font-size="9.5" fill="#555">models to verify and &quot;undo&quot; prior unsafe generations and start anew.</text>
+<title>N10 [Method] (cites=0)
+To this end, we introduce backtracking, a technique that allows language models to verify and &quot;undo&quot; prior unsafe generations and start anew.</title>
+</g>
+<g>
+<rect x="595" y="1380" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1394" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="805" y="1409" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">[RESET] token discards prior tokens</text>
+<text x="805" y="1425" text-anchor="middle" font-size="9.5" fill="#555">Specifically, we allow language models to emit a special token, [RESET],</text>
+<text x="805" y="1437" text-anchor="middle" font-size="9.5" fill="#555">upon which the generation API discards tokens prior to [RESET].</text>
+<title>N11 [Method] (cites=0)
+Specifically, we allow language models to emit a special token, [RESET], upon which the generation API discards tokens prior to [RESET].</title>
+</g>
+<g>
+<rect x="595" y="1480" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1494" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Method]</text>
+<text x="805" y="1509" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">train via contrastive safety demonstrations</text>
+<text x="805" y="1525" text-anchor="middle" font-size="9.5" fill="#555">During training, we supervise language models to properly backtrack by</text>
+<text x="805" y="1537" text-anchor="middle" font-size="9.5" fill="#555">constructing contrastive safety demonstrations, generations that are</text>
+<text x="805" y="1549" text-anchor="middle" font-size="9.5" fill="#555">initially unsafe, but then backtrack into a fresh, safe response (e.g., Here</text>
+<text x="805" y="1561" text-anchor="middle" font-size="9.5" fill="#555">is a vile letter…</text>
+<title>N12 [Method] (cites=0)
+During training, we supervise language models to properly backtrack by constructing contrastive safety demonstrations, generations that are initially unsafe, but then backtrack into a fresh, safe response (e.g., Here is a vile letter [RESET] Sorry I cannot help with that.)</title>
+</g>
+<g>
+<rect x="595" y="1672" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1686" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Result]</text>
+<text x="805" y="1701" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">substantial safety gains on Gemma/Llama</text>
+<text x="805" y="1717" text-anchor="middle" font-size="9.5" fill="#555">Our findings demonstrate that incorporating off-the-shelf alignment</text>
+<text x="805" y="1729" text-anchor="middle" font-size="9.5" fill="#555">techniques, such as SFT and DPO, with our proposed backtracking method</text>
+<text x="805" y="1741" text-anchor="middle" font-size="9.5" fill="#555">substantially improves the safety of both Gemma-2-2B and Llama-3-8B models.</text>
+<title>N13 [Result] (cites=0)
+Our findings demonstrate that incorporating off-the-shelf alignment techniques, such as SFT and DPO, with our proposed backtracking method substantially improves the safety of both Gemma-2-2B and Llama-3-8B models.</title>
+</g>
+<g>
+<rect x="595" y="1784" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1798" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Result]</text>
+<text x="805" y="1813" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">no utility regression</text>
+<text x="805" y="1829" text-anchor="middle" font-size="9.5" fill="#555">Notably, this improvement in safety does not come at the cost of reduced</text>
+<text x="805" y="1841" text-anchor="middle" font-size="9.5" fill="#555">model utility.</text>
+<title>N14 [Result] (cites=0)
+Notably, this improvement in safety does not come at the cost of reduced model utility.</title>
+</g>
+<g>
+<rect x="595" y="1884" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1898" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Result]</text>
+<text x="805" y="1913" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">backtracking decreases efficiency</text>
+<text x="805" y="1929" text-anchor="middle" font-size="9.5" fill="#555">When a language model backtracks, it produces tokens that are not useful to</text>
+<text x="805" y="1941" text-anchor="middle" font-size="9.5" fill="#555">the user, which decreases generation efficiency.</text>
+<title>N15 [Result] (cites=0)
+When a language model backtracks, it produces tokens that are not useful to the user, which decreases generation efficiency.</title>
+</g>
+<g>
+<rect x="595" y="1984" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1998" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Result]</text>
+<text x="805" y="2013" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">logit bias tunes safety/efficiency tradeoff</text>
+<text x="805" y="2029" text-anchor="middle" font-size="9.5" fill="#555">We find that this tradeoff between safety and efficiency due to backtracking</text>
+<text x="805" y="2041" text-anchor="middle" font-size="9.5" fill="#555">can be simply adjusted using logit bias, and discover that large safety</text>
+<text x="805" y="2053" text-anchor="middle" font-size="9.5" fill="#555">gains can be achieved with minimal impact on generation efficiency.</text>
+<title>N16 [Result] (cites=0)
+We find that this tradeoff between safety and efficiency due to backtracking can be simply adjusted using logit bias, and discover that large safety gains can be achieved with minimal impact on generation efficiency.</title>
+</g>
+<circle cx="1022.0" cy="2104.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="2096" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2110" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Result]</text>
+<text x="805" y="2125" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">evaluate vs 3 SOTA attacks + adaptive attack</text>
+<text x="805" y="2141" text-anchor="middle" font-size="9.5" fill="#555">Finally, we evaluate our models against three state-of-the-art adversarial</text>
+<text x="805" y="2153" text-anchor="middle" font-size="9.5" fill="#555">attacks (e.g., GCG (Zou et al., 2023b)), in addition to an adaptive attack</text>
+<text x="805" y="2165" text-anchor="middle" font-size="9.5" fill="#555">designed to break backtracking.</text>
+<title>N17 [Result] (cites=1)
+Finally, we evaluate our models against three state-of-the-art adversarial attacks (e.g., GCG (Zou et al., 2023b)), in addition to an adaptive attack designed to break backtracking.</title>
+</g>
+<g>
+<rect x="595" y="2208" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2222" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Result]</text>
+<text x="805" y="2237" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">improves safety on every attack tested</text>
+<text x="805" y="2253" text-anchor="middle" font-size="9.5" fill="#555">Against every attack that we have tried, backtracking improves model safety</text>
+<text x="805" y="2265" text-anchor="middle" font-size="9.5" fill="#555">over the baseline despite not being adversarially trained.</text>
+<title>N18 [Result] (cites=0)
+Against every attack that we have tried, backtracking improves model safety over the baseline despite not being adversarially trained.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

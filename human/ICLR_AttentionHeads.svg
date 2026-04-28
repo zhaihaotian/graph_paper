@@ -1,0 +1,408 @@
+<svg viewBox="0 0 1480 2340" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="172" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="538" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="324" x2="1450" y2="324" stroke="#eee" stroke-width="1"/>
+<text x="14" y="960" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="752" x2="1450" y2="752" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1476" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1168" x2="1450" y2="1168" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1936" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1784" x2="1450" y2="1784" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2184" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="2088" x2="1450" y2="2088" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1936" width="1140" height="116" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1932" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N23</text>
+<line x1="616" y1="164" x2="805" y2="192" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="175" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Despite this</text>
+<line x1="805" y1="276" x2="616" y2="372" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="710" y="321" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">In sight of this</text>
+<line x1="616" y1="468" x2="994" y2="68" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="265" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Therefore</text>
+<line x1="994" y1="164" x2="994" y2="372" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="468" x2="805" y2="496" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="899" y="479" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Specifically</text>
+<line x1="805" y1="592" x2="805" y2="620" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="704" x2="805" y2="800" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="749" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="884" x2="805" y2="912" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="996" x2="805" y2="1024" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1007" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Additionally</text>
+<line x1="805" y1="1120" x2="322" y2="1216" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="322" y1="1312" x2="616" y2="1340" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="469" y="1323" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To achieve this</text>
+<line x1="616" y1="1424" x2="805" y2="1452" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1524" x2="805" y2="1552" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1535" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Based on this</text>
+<line x1="805" y1="1636" x2="805" y2="1664" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1647" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Concretely</text>
+<line x1="805" y1="1736" x2="322" y2="1832" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="322" y1="1928" x2="644" y2="1216" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="483" y="1569" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Furthermore</text>
+<line x1="644" y1="1312" x2="644" y2="1832" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="644" y1="1928" x2="966" y2="1216" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="966" y1="1312" x2="994" y2="1340" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1424" x2="966" y2="1832" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="966" y1="1928" x2="1288" y2="1216" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1288" y1="1312" x2="1288" y2="1832" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1288" y1="1928" x2="427" y2="1956" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1288" y1="1928" x2="805" y2="1956" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1288" y1="1928" x2="1183" y2="1956" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1288" y1="1928" x2="322" y2="2136" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="644" y1="2232" x2="805" y2="800" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="966" y1="2232" x2="805" y2="912" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1288" y1="2232" x2="805" y2="1024" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="803.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="100.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="616" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLM capabilities have improved</text>
+<text x="616" y="113" text-anchor="middle" font-size="9.5" fill="#555">The capabilities of large language models (LLMs) (Achiam et al.,</text>
+<text x="616" y="125" text-anchor="middle" font-size="9.5" fill="#555">2023; Touvron et al., 2023; Dubey et al., 2024; Yang et al., 2024)</text>
+<text x="616" y="137" text-anchor="middle" font-size="9.5" fill="#555">have significantly improved while learning from larger</text>
+<text x="616" y="149" text-anchor="middle" font-size="9.5" fill="#555">pre-training datasets recently.</text>
+<title>N1 [Context] (cites=4)
+The capabilities of large language models (LLMs) (Achiam et al., 2023; Touvron et al., 2023; Dubey et al., 2024; Yang et al., 2024) have significantly improved while learning from larger pre-training datasets recently.</title>
+</g>
+<circle cx="1022.0" cy="200.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="208.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="216.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="192" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs can produce unsafe content</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">Despite this, language models may respond to harmful queries, generating</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">unsafe and toxic content (Ousidhoum et al., 2021; Deshpande et al., 2023),</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">raising concerns about potential risks (Bengio et al., 2024).</text>
+<title>N2 [Context] (cites=3)
+Despite this, language models may respond to harmful queries, generating unsafe and toxic content (Ousidhoum et al., 2021; Deshpande et al., 2023), raising concerns about potential risks (Bengio et al., 2024).</title>
+</g>
+<circle cx="803.0" cy="380.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="388.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="396.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="404.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="412.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="420.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="372" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="386" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Prior_Work]</text>
+<text x="616" y="401" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Alignment used; can be jailbroken</text>
+<text x="616" y="417" text-anchor="middle" font-size="9.5" fill="#555">In sight of this, alignment (Ouyang et al., 2022; Bai et al.,</text>
+<text x="616" y="429" text-anchor="middle" font-size="9.5" fill="#555">2022a;b) is employed to ensure LLM safety by aligning with human</text>
+<text x="616" y="441" text-anchor="middle" font-size="9.5" fill="#555">values, while existing research (Zou et al., 2023b; Wei et al.,</text>
+<text x="616" y="453" text-anchor="middle" font-size="9.5" fill="#555">2024a; Carlini et al., 2024) suggests that…</text>
+<title>N3 [Prior_Work] (cites=6)
+In sight of this, alignment (Ouyang et al., 2022; Bai et al., 2022a;b) is employed to ensure LLM safety by aligning with human values, while existing research (Zou et al., 2023b; Wei et al., 2024a; Carlini et al., 2024) suggests that malicious attackers can circumvent safety guardrails.</title>
+</g>
+<circle cx="1181.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="994" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Need to understand LLM internals</text>
+<text x="994" y="113" text-anchor="middle" font-size="9.5" fill="#555">Therefore, understanding the inner workings of LLMs is necessary</text>
+<text x="994" y="125" text-anchor="middle" font-size="9.5" fill="#555">for responsible and ethical development (Zhao et al., 2024a;</text>
+<text x="994" y="137" text-anchor="middle" font-size="9.5" fill="#555">Bereska &amp; Gavves, 2024; Fang et al., 2024).</text>
+<title>N4 [Context] (cites=3)
+Therefore, understanding the inner workings of LLMs is necessary for responsible and ethical development (Zhao et al., 2024a; Bereska &amp; Gavves, 2024; Fang et al., 2024).</title>
+</g>
+<g>
+<rect x="814" y="372" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="386" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="994" y="401" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Mechanism interpretation reveals safety</text>
+<text x="994" y="417" text-anchor="middle" font-size="9.5" fill="#555">Currently, revealing the black-box LLM safety is typically</text>
+<text x="994" y="429" text-anchor="middle" font-size="9.5" fill="#555">achieved through mechanism interpretation methods.</text>
+<title>N5 [Prior_Work] (cites=0)
+Currently, revealing the black-box LLM safety is typically achieved through mechanism interpretation methods.</title>
+</g>
+<circle cx="1022.0" cy="504.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="512.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="520.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="496" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="510" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work]</text>
+<text x="805" y="525" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Methods analyze features/neurons/layers</text>
+<text x="805" y="541" text-anchor="middle" font-size="9.5" fill="#555">Specifically, these methods (Geiger et al., 2021; Stolfo et al., 2023;</text>
+<text x="805" y="553" text-anchor="middle" font-size="9.5" fill="#555">Gurnee et al., 2023) granularly analyze features, neurons, layers, and</text>
+<text x="805" y="565" text-anchor="middle" font-size="9.5" fill="#555">parameters to assist humans in understanding model behavior and</text>
+<text x="805" y="577" text-anchor="middle" font-size="9.5" fill="#555">capabilities.</text>
+<title>N6 [Prior_Work] (cites=3)
+Specifically, these methods (Geiger et al., 2021; Stolfo et al., 2023; Gurnee et al., 2023) granularly analyze features, neurons, layers, and parameters to assist humans in understanding model behavior and capabilities.</title>
+</g>
+<circle cx="1022.0" cy="628.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="636.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="644.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="652.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="620" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="634" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Prior_Work]</text>
+<text x="805" y="649" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Safety attributed to reps/neurons</text>
+<text x="805" y="665" text-anchor="middle" font-size="9.5" fill="#555">Recent studies (Zou et al., 2023a; Templeton, 2024; Arditi et al., 2024;</text>
+<text x="805" y="677" text-anchor="middle" font-size="9.5" fill="#555">Chen et al., 2024) indicate that the safety capability can be attributed to</text>
+<text x="805" y="689" text-anchor="middle" font-size="9.5" fill="#555">representations and neurons.</text>
+<title>N7 [Prior_Work] (cites=4)
+Recent studies (Zou et al., 2023a; Templeton, 2024; Arditi et al., 2024; Chen et al., 2024) indicate that the safety capability can be attributed to representations and neurons.</title>
+</g>
+<circle cx="1022.0" cy="808.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="816.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="824.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="800" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="814" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Limitation]</text>
+<text x="805" y="829" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">MHA understudied for safety</text>
+<text x="805" y="845" text-anchor="middle" font-size="9.5" fill="#555">However, multi-head attention, which is confirmed to be crucial in other</text>
+<text x="805" y="857" text-anchor="middle" font-size="9.5" fill="#555">abilities (Vig, 2019; Gould et al., 2024; Wu et al., 2024), has received</text>
+<text x="805" y="869" text-anchor="middle" font-size="9.5" fill="#555">less attention in safety interpretability.</text>
+<title>N8 [Limitation] (cites=3)
+However, multi-head attention, which is confirmed to be crucial in other abilities (Vig, 2019; Gould et al., 2024; Wu et al., 2024), has received less attention in safety interpretability.</title>
+</g>
+<g>
+<rect x="595" y="912" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="926" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Limitation]</text>
+<text x="805" y="941" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Existing methods not transferable</text>
+<text x="805" y="957" text-anchor="middle" font-size="9.5" fill="#555">Due to the differing specificities of components and representations,</text>
+<text x="805" y="969" text-anchor="middle" font-size="9.5" fill="#555">directly transferring existing methods to safety attention attribution is</text>
+<text x="805" y="981" text-anchor="middle" font-size="9.5" fill="#555">challenging.</text>
+<title>N9 [Limitation] (cites=0)
+Due to the differing specificities of components and representations, directly transferring existing methods to safety attention attribution is challenging.</title>
+</g>
+<circle cx="1022.0" cy="1032.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1040.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1048.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1024" width="420" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1038" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Limitation]</text>
+<text x="805" y="1053" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">One-forward methods unfit for safety</text>
+<text x="805" y="1069" text-anchor="middle" font-size="9.5" fill="#555">Additionally, some general approaches (Meng et al., 2022; Wang et al., 2023;</text>
+<text x="805" y="1081" text-anchor="middle" font-size="9.5" fill="#555">Zhang &amp; Nanda, 2024) typically involve special tasks to observe the result</text>
+<text x="805" y="1093" text-anchor="middle" font-size="9.5" fill="#555">changes in one forward, whereas safety tasks necessitate full generation</text>
+<text x="805" y="1105" text-anchor="middle" font-size="9.5" fill="#555">across…</text>
+<title>N10 [Limitation] (cites=3)
+Additionally, some general approaches (Meng et al., 2022; Wang et al., 2023; Zhang &amp; Nanda, 2024) typically involve special tasks to observe the result changes in one forward, whereas safety tasks necessitate full generation across multiple forwards.</title>
+</g>
+<g>
+<rect x="170" y="1216" width="304" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="322" y="1230" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="322" y="1245" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Goal: interpret safety in MHA</text>
+<text x="322" y="1261" text-anchor="middle" font-size="9.5" fill="#555">In this paper, we aim to interpret safety capability</text>
+<text x="322" y="1273" text-anchor="middle" font-size="9.5" fill="#555">within multi-head attention.</text>
+<title>N11 [Method] (cites=0)
+In this paper, we aim to interpret safety capability within multi-head attention.</title>
+</g>
+<g>
+<rect x="436" y="1340" width="360" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1354" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Method]</text>
+<text x="616" y="1369" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Introduce Ships metric</text>
+<text x="616" y="1385" text-anchor="middle" font-size="9.5" fill="#555">To achieve this, we introduce Safety Head ImPortant Scores (Ships)</text>
+<text x="616" y="1397" text-anchor="middle" font-size="9.5" fill="#555">to attribute the safety capability of individual attention heads</text>
+<text x="616" y="1409" text-anchor="middle" font-size="9.5" fill="#555">in an aligned model.</text>
+<title>N12 [Method] (cites=0)
+To achieve this, we introduce Safety Head ImPortant Scores (Ships) to attribute the safety capability of individual attention heads in an aligned model.</title>
+</g>
+<circle cx="1022.0" cy="1460.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1468.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1452" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1466" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Method]</text>
+<text x="805" y="1481" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Aligned model rejects harmful queries</text>
+<text x="805" y="1497" text-anchor="middle" font-size="9.5" fill="#555">The model is trained to reject harmful queries in a high probability so that</text>
+<text x="805" y="1509" text-anchor="middle" font-size="9.5" fill="#555">it aligns with human values (Ganguli et al., 2022; Dubey et al., 2024).</text>
+<title>N13 [Method] (cites=2)
+The model is trained to reject harmful queries in a high probability so that it aligns with human values (Ganguli et al., 2022; Dubey et al., 2024).</title>
+</g>
+<g>
+<rect x="595" y="1552" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1566" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Method]</text>
+<text x="805" y="1581" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Ships uses causal tracing</text>
+<text x="805" y="1597" text-anchor="middle" font-size="9.5" fill="#555">Based on this, Ships quantifies the impact of each attention head on the</text>
+<text x="805" y="1609" text-anchor="middle" font-size="9.5" fill="#555">change in the rejection probability of harmful queries through causal</text>
+<text x="805" y="1621" text-anchor="middle" font-size="9.5" fill="#555">tracing.</text>
+<title>N14 [Method] (cites=0)
+Based on this, Ships quantifies the impact of each attention head on the change in the rejection probability of harmful queries through causal tracing.</title>
+</g>
+<g>
+<rect x="595" y="1664" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1678" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Method]</text>
+<text x="805" y="1693" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Ships attributes safety heads</text>
+<text x="805" y="1709" text-anchor="middle" font-size="9.5" fill="#555">Concretely, we demonstrate that Ships can be used for attributing safety</text>
+<text x="805" y="1721" text-anchor="middle" font-size="9.5" fill="#555">attention head.</text>
+<title>N15 [Method] (cites=0)
+Concretely, we demonstrate that Ships can be used for attributing safety attention head.</title>
+</g>
+<g>
+<rect x="170" y="1832" width="304" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="322" y="1846" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Result]</text>
+<text x="322" y="1861" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">ASR jumps with 0.006% ablation</text>
+<text x="322" y="1877" text-anchor="middle" font-size="9.5" fill="#555">Experimental results show that on three harmful query</text>
+<text x="322" y="1889" text-anchor="middle" font-size="9.5" fill="#555">datasets, using Ships to identify safe heads and using</text>
+<text x="322" y="1901" text-anchor="middle" font-size="9.5" fill="#555">undifferentiated attention ablation (only modifying ∼</text>
+<text x="322" y="1913" text-anchor="middle" font-size="9.5" fill="#555">0.006% of the parameters) can improve the attack…</text>
+<title>N16 [Result] (cites=0)
+Experimental results show that on three harmful query datasets, using Ships to identify safe heads and using undifferentiated attention ablation (only modifying ∼ 0.006% of the parameters) can improve the attack success rate (ASR) of Llama-2-7b-chat from 0.04 to 0.64 ↑ and Vicuna-7b-v1.5 from 0.27 to 0.55 ↑.</title>
+</g>
+<g>
+<rect x="492" y="1216" width="304" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="644" y="1230" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Method]</text>
+<text x="644" y="1245" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Generalize Ships to dataset level</text>
+<text x="644" y="1261" text-anchor="middle" font-size="9.5" fill="#555">Furthermore, to attribute generalized safety attention</text>
+<text x="644" y="1273" text-anchor="middle" font-size="9.5" fill="#555">heads, we generalize Ships to evaluate the changes in</text>
+<text x="644" y="1285" text-anchor="middle" font-size="9.5" fill="#555">the representation of ablating attention heads on</text>
+<text x="644" y="1297" text-anchor="middle" font-size="9.5" fill="#555">harmful query datasets.</text>
+<title>N17 [Method] (cites=0)
+Furthermore, to attribute generalized safety attention heads, we generalize Ships to evaluate the changes in the representation of ablating attention heads on harmful query datasets.</title>
+</g>
+<g>
+<rect x="492" y="1832" width="304" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="644" y="1846" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Result]</text>
+<text x="644" y="1861" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Single head ablation: ASR 0.72</text>
+<text x="644" y="1877" text-anchor="middle" font-size="9.5" fill="#555">Based on the generalized version of Ships, we attribute</text>
+<text x="644" y="1889" text-anchor="middle" font-size="9.5" fill="#555">the most important safety attention head, which is</text>
+<text x="644" y="1901" text-anchor="middle" font-size="9.5" fill="#555">ablated, and the ASR is improved to 0.72 ↑.</text>
+<title>N18 [Result] (cites=0)
+Based on the generalized version of Ships, we attribute the most important safety attention head, which is ablated, and the ASR is improved to 0.72 ↑.</title>
+</g>
+<g>
+<rect x="814" y="1216" width="304" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="966" y="1230" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Method]</text>
+<text x="966" y="1245" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Iterative head selection</text>
+<text x="966" y="1261" text-anchor="middle" font-size="9.5" fill="#555">Iteratively selecting important heads results in a</text>
+<text x="966" y="1273" text-anchor="middle" font-size="9.5" fill="#555">group of heads that can significantly change the</text>
+<text x="966" y="1285" text-anchor="middle" font-size="9.5" fill="#555">rejection representation.</text>
+<title>N19 [Method] (cites=0)
+Iteratively selecting important heads results in a group of heads that can significantly change the rejection representation.</title>
+</g>
+<g>
+<rect x="814" y="1340" width="360" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1354" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Method]</text>
+<text x="994" y="1369" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Name: Sahara algorithm</text>
+<text x="994" y="1385" text-anchor="middle" font-size="9.5" fill="#555">We name this heuristic method Safety Attention Head AttRibution</text>
+<text x="994" y="1397" text-anchor="middle" font-size="9.5" fill="#555">Algorithm (Sahara).</text>
+<title>N20 [Method] (cites=0)
+We name this heuristic method Safety Attention Head AttRibution Algorithm (Sahara).</title>
+</g>
+<g>
+<rect x="814" y="1832" width="304" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="966" y="1846" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Result]</text>
+<text x="966" y="1861" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Group ablation weakens safety more</text>
+<text x="966" y="1877" text-anchor="middle" font-size="9.5" fill="#555">Experimental results show that ablating the attention</text>
+<text x="966" y="1889" text-anchor="middle" font-size="9.5" fill="#555">head group can further weaken the safety capability</text>
+<text x="966" y="1901" text-anchor="middle" font-size="9.5" fill="#555">collaboratively.</text>
+<title>N21 [Result] (cites=0)
+Experimental results show that ablating the attention head group can further weaken the safety capability collaboratively.</title>
+</g>
+<g>
+<rect x="1136" y="1216" width="304" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="1288" y="1230" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Method]</text>
+<text x="1288" y="1245" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Apply to popular LLMs</text>
+<text x="1288" y="1261" text-anchor="middle" font-size="9.5" fill="#555">Based on the Ships and Sahara, we interpret the safety</text>
+<text x="1288" y="1273" text-anchor="middle" font-size="9.5" fill="#555">head of attention on several popular LLMs, such as</text>
+<text x="1288" y="1285" text-anchor="middle" font-size="9.5" fill="#555">Llama-2-7b-chat and Vicuna-7b-v1.5.</text>
+<title>N22 [Method] (cites=0)
+Based on the Ships and Sahara, we interpret the safety head of attention on several popular LLMs, such as Llama-2-7b-chat and Vicuna-7b-v1.5.</title>
+</g>
+<g>
+<rect x="1136" y="1832" width="304" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="1288" y="1846" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23 [Result]</text>
+<text x="1288" y="1861" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Insight 1: safety heads integrate features</text>
+<text x="1288" y="1877" text-anchor="middle" font-size="9.5" fill="#555">This interpretation yields several intriguing insights:</text>
+<text x="1288" y="1889" text-anchor="middle" font-size="9.5" fill="#555">1. Certain safety heads within the attention mechanism</text>
+<text x="1288" y="1901" text-anchor="middle" font-size="9.5" fill="#555">are crucial for feature integration in safety tasks.</text>
+<title>N23 [Result] (cites=0)
+This interpretation yields several intriguing insights: 1. Certain safety heads within the attention mechanism are crucial for feature integration in safety tasks.</title>
+</g>
+<g>
+<rect x="247" y="1956" width="360" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="427" y="1970" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23a [Result: insight-1-detail]</text>
+<text x="427" y="1985" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Weight matrix vs output scaling</text>
+<text x="427" y="2001" text-anchor="middle" font-size="9.5" fill="#555">Specifically, modifying the value of the attention weight matrices</text>
+<text x="427" y="2013" text-anchor="middle" font-size="9.5" fill="#555">changes the model output significantly, while scaling the</text>
+<text x="427" y="2025" text-anchor="middle" font-size="9.5" fill="#555">attention output does not;</text>
+<title>N23a [Result: insight-1-detail] (cites=0)
+Specifically, modifying the value of the attention weight matrices changes the model output significantly, while scaling the attention output does not;</title>
+</g>
+<g>
+<rect x="625" y="1956" width="360" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1970" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23b [Result: insight-2]</text>
+<text x="805" y="1985" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Overlapping heads across fine-tunes</text>
+<text x="805" y="2001" text-anchor="middle" font-size="9.5" fill="#555">2. For LLMs fine-tuned from the same base model, their safety</text>
+<text x="805" y="2013" text-anchor="middle" font-size="9.5" fill="#555">heads have overlap, indicating that in addition to alignment, the</text>
+<text x="805" y="2025" text-anchor="middle" font-size="9.5" fill="#555">safety impact of the base model is critical;</text>
+<title>N23b [Result: insight-2] (cites=0)
+2. For LLMs fine-tuned from the same base model, their safety heads have overlap, indicating that in addition to alignment, the safety impact of the base model is critical;</title>
+</g>
+<g>
+<rect x="1003" y="1956" width="360" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="1183" y="1970" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23c [Result: insight-3]</text>
+<text x="1183" y="1985" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Safety heads act independently of helpfulness</text>
+<text x="1183" y="2001" text-anchor="middle" font-size="9.5" fill="#555">3. The attention heads that affect safety can act independently</text>
+<text x="1183" y="2013" text-anchor="middle" font-size="9.5" fill="#555">with affecting helpfulness little.</text>
+<title>N23c [Result: insight-3] (cites=0)
+3. The attention heads that affect safety can act independently with affecting helpfulness little.</title>
+</g>
+<g>
+<rect x="170" y="2136" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="322" y="2150" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N24 [Contribution]</text>
+<text x="322" y="2165" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">New perspective on LLM safety</text>
+<text x="322" y="2181" text-anchor="middle" font-size="9.5" fill="#555">These insights provide a new perspective on LLM safety</text>
+<text x="322" y="2193" text-anchor="middle" font-size="9.5" fill="#555">and provide a solid basis for the enhancement and</text>
+<text x="322" y="2205" text-anchor="middle" font-size="9.5" fill="#555">future optimization of safety alignment.</text>
+<title>N24 [Contribution] (cites=0)
+These insights provide a new perspective on LLM safety and provide a solid basis for the enhancement and future optimization of safety alignment.</title>
+</g>
+<g>
+<rect x="492" y="2136" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="644" y="2150" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N25 [Contribution]</text>
+<text x="644" y="2165" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: discover safety-specific heads</text>
+<text x="644" y="2181" text-anchor="middle" font-size="9.5" fill="#555">We make a pioneering effort to discover and prove the</text>
+<text x="644" y="2193" text-anchor="middle" font-size="9.5" fill="#555">existence of safety-specific attention heads in LLMs,</text>
+<text x="644" y="2205" text-anchor="middle" font-size="9.5" fill="#555">which complements the research on safety</text>
+<text x="644" y="2217" text-anchor="middle" font-size="9.5" fill="#555">interpretability.</text>
+<title>N25 [Contribution] (cites=0)
+We make a pioneering effort to discover and prove the existence of safety-specific attention heads in LLMs, which complements the research on safety interpretability.</title>
+</g>
+<g>
+<rect x="814" y="2136" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="966" y="2150" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N26 [Contribution]</text>
+<text x="966" y="2165" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: Ships and Sahara</text>
+<text x="966" y="2181" text-anchor="middle" font-size="9.5" fill="#555">We present Ships to evaluate the safety impact of</text>
+<text x="966" y="2193" text-anchor="middle" font-size="9.5" fill="#555">attention head ablation. Then, we propose a heuristic</text>
+<text x="966" y="2205" text-anchor="middle" font-size="9.5" fill="#555">algorithm Sahara to find head groups whose ablation</text>
+<text x="966" y="2217" text-anchor="middle" font-size="9.5" fill="#555">leads to safety degradation.</text>
+<title>N26 [Contribution] (cites=0)
+We present Ships to evaluate the safety impact of attention head ablation. Then, we propose a heuristic algorithm Sahara to find head groups whose ablation leads to safety degradation.</title>
+</g>
+<g>
+<rect x="1136" y="2136" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1288" y="2150" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N27 [Contribution]</text>
+<text x="1288" y="2165" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: comprehensive MHA-safety analysis</text>
+<text x="1288" y="2181" text-anchor="middle" font-size="9.5" fill="#555">We comprehensively analyze the importance of the</text>
+<text x="1288" y="2193" text-anchor="middle" font-size="9.5" fill="#555">standard multi-head attention mechanism for LLM safety,</text>
+<text x="1288" y="2205" text-anchor="middle" font-size="9.5" fill="#555">providing intriguing insights based on extensive</text>
+<text x="1288" y="2217" text-anchor="middle" font-size="9.5" fill="#555">experiments. Our work significantly boosts transparency…</text>
+<title>N27 [Contribution] (cites=0)
+We comprehensively analyze the importance of the standard multi-head attention mechanism for LLM safety, providing intriguing insights based on extensive experiments. Our work significantly boosts transparency and alleviates concerns regarding LLM risks.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

@@ -1,0 +1,189 @@
+<svg viewBox="0 0 1480 1716" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="272" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="614" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="524" x2="1450" y2="524" stroke="#eee" stroke-width="1"/>
+<text x="14" y="850" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="704" x2="1450" y2="704" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1230" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="996" x2="1450" y2="996" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1560" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1464" x2="1450" y2="1464" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1492" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1488" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N11</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="264" x2="805" y2="292" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="275" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="376" x2="805" y2="404" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="476" x2="805" y2="572" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="656" x2="805" y2="752" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="824" x2="805" y2="852" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="948" x2="805" y2="1044" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="993" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">We propose</text>
+<line x1="805" y1="1116" x2="805" y2="1144" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1216" x2="805" y2="1244" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1316" x2="805" y2="1344" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1416" x2="427" y2="1512" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1416" x2="805" y2="1512" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1416" x2="1183" y2="1512" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1416" x2="805" y2="852" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1216" x2="805" y2="752" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs as judges for web agent trajectories</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Large language models (LLMs) are increasingly deployed as judges to evaluate</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">web agent trajectories, providing scalable assessment of whether agents</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">successfully complete tasks (Zheng et al., 2023; Lù et al., 2025).</text>
+<title>N1 [Context] (cites=2)
+Large language models (LLMs) are increasingly deployed as judges to evaluate web agent trajectories, providing scalable assessment of whether agents successfully complete tasks (Zheng et al., 2023; Lù et al., 2025).</title>
+</g>
+<g>
+<rect x="595" y="180" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Judge paradigm enables scaling</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">This LLM-as-a-judge paradigm enables automatic evaluation at scale,</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">supporting both benchmarking and training data selection for agent</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">improvement.</text>
+<title>N2 [Context] (cites=0)
+This LLM-as-a-judge paradigm enables automatic evaluation at scale, supporting both benchmarking and training data selection for agent improvement.</title>
+</g>
+<g>
+<rect x="595" y="292" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="306" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="321" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Judge reliability is critical</text>
+<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">However, the reliability of these judges is critical: when judge outputs are</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">used for rejection sampling or reward signals, false positives can inject</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">label noise and enable reward hacking.</text>
+<title>N3 [Context] (cites=0)
+However, the reliability of these judges is critical: when judge outputs are used for rejection sampling or reward signals, false positives can inject label noise and enable reward hacking.</title>
+</g>
+<g>
+<rect x="595" y="404" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="418" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="433" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Vulnerability: reliance on CoT</text>
+<text x="805" y="449" text-anchor="middle" font-size="9.5" fill="#555">A key vulnerability emerges from the judge's reliance on agent-generated</text>
+<text x="805" y="461" text-anchor="middle" font-size="9.5" fill="#555">chain-of-thought (CoT) reasoning traces.</text>
+<title>N4 [Context] (cites=0)
+A key vulnerability emerges from the judge's reliance on agent-generated chain-of-thought (CoT) reasoning traces.</title>
+</g>
+<circle cx="1022.0" cy="580.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="572" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="586" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work : ANCHOR]</text>
+<text x="805" y="601" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Khalifa: CoT manipulation inflates FPR 90%</text>
+<text x="805" y="617" text-anchor="middle" font-size="9.5" fill="#555">Khalifa et al. (2026) demonstrated that manipulating only the CoT—while</text>
+<text x="805" y="629" text-anchor="middle" font-size="9.5" fill="#555">keeping actions and observations fixed—can inflate false positive rates by</text>
+<text x="805" y="641" text-anchor="middle" font-size="9.5" fill="#555">up to 90%.</text>
+<title>N5 [Prior_Work] (cites=1)
+Khalifa et al. (2026) demonstrated that manipulating only the CoT—while keeping actions and observations fixed—can inflate false positive rates by up to 90%.</title>
+</g>
+<g>
+<rect x="595" y="752" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="766" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="781" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Judge over-trusts persuasive CoT</text>
+<text x="805" y="797" text-anchor="middle" font-size="9.5" fill="#555">This attack exploits the judge's tendency to trust persuasive narrative</text>
+<text x="805" y="809" text-anchor="middle" font-size="9.5" fill="#555">reasoning that is not grounded in observable evidence.</text>
+<title>N6 [Limitation] (cites=0)
+This attack exploits the judge's tendency to trust persuasive narrative reasoning that is not grounded in observable evidence.</title>
+</g>
+<g>
+<rect x="595" y="852" width="420" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="866" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="881" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Mitigation trade-off: cost vs context</text>
+<text x="805" y="897" text-anchor="middle" font-size="9.5" fill="#555">Existing mitigations face a fundamental trade-off: removing CoT entirely</text>
+<text x="805" y="909" text-anchor="middle" font-size="9.5" fill="#555">eliminates the vulnerability but sacrifices useful context for interpreting</text>
+<text x="805" y="921" text-anchor="middle" font-size="9.5" fill="#555">agent behavior, while always-on strict evaluation increases cost and can</text>
+<text x="805" y="933" text-anchor="middle" font-size="9.5" fill="#555">reduce recall.</text>
+<title>N7 [Limitation] (cites=0)
+Existing mitigations face a fundamental trade-off: removing CoT entirely eliminates the vulnerability but sacrifices useful context for interpreting agent behavior, while always-on strict evaluation increases cost and can reduce recall.</title>
+</g>
+<g>
+<rect x="595" y="1044" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1058" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="1073" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">View-disagreement escalation</text>
+<text x="805" y="1089" text-anchor="middle" font-size="9.5" fill="#555">We propose view-disagreement escalation, a training-free framework that</text>
+<text x="805" y="1101" text-anchor="middle" font-size="9.5" fill="#555">exploits the asymmetric effects of CoT manipulation.</text>
+<title>N8 [Method] (cites=0)
+We propose view-disagreement escalation, a training-free framework that exploits the asymmetric effects of CoT manipulation.</title>
+</g>
+<g>
+<rect x="595" y="1144" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1158" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method: component]</text>
+<text x="805" y="1173" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Insight: View1 susceptible, View2 agnostic</text>
+<text x="805" y="1189" text-anchor="middle" font-size="9.5" fill="#555">Our key insight is that a judge seeing CoT (View1) is susceptible to</text>
+<text x="805" y="1201" text-anchor="middle" font-size="9.5" fill="#555">manipulation, while a judge without CoT (View2) is agnostic to it.</text>
+<title>N9 [Method: component] (cites=0)
+Our key insight is that a judge seeing CoT (View1) is susceptible to manipulation, while a judge without CoT (View2) is agnostic to it.</title>
+</g>
+<g>
+<rect x="595" y="1244" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1258" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method: component]</text>
+<text x="805" y="1273" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Manipulation causes view disagreement</text>
+<text x="805" y="1289" text-anchor="middle" font-size="9.5" fill="#555">When CoT is manipulated, View1 predictions shift toward false positives</text>
+<text x="805" y="1301" text-anchor="middle" font-size="9.5" fill="#555">while View2 remains stable, causing disagreement.</text>
+<title>N10 [Method: component] (cites=0)
+When CoT is manipulated, View1 predictions shift toward false positives while View2 remains stable, causing disagreement.</title>
+</g>
+<g>
+<rect x="595" y="1344" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1358" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method: component]</text>
+<text x="805" y="1373" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Disagreement triggers evidence-anchored escalation</text>
+<text x="805" y="1389" text-anchor="middle" font-size="9.5" fill="#555">We use this disagreement as a mechanistically motivated trigger to</text>
+<text x="805" y="1401" text-anchor="middle" font-size="9.5" fill="#555">selectively escalate uncertain cases to evidence-anchored evaluation.</text>
+<title>N11 [Method: component] (cites=0)
+We use this disagreement as a mechanistically motivated trigger to selectively escalate uncertain cases to evidence-anchored evaluation.</title>
+</g>
+<g>
+<rect x="247" y="1512" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1526" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Contribution]</text>
+<text x="427" y="1541" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution: counterfactual view framework</text>
+<text x="427" y="1557" text-anchor="middle" font-size="9.5" fill="#555">A mechanistically-motivated framework that uses counterfactual</text>
+<text x="427" y="1569" text-anchor="middle" font-size="9.5" fill="#555">input views (with/without CoT) to detect unreliable predictions</text>
+<text x="427" y="1581" text-anchor="middle" font-size="9.5" fill="#555">and selectively escalate to strict evidence-anchored judgment.</text>
+<title>N12 [Contribution] (cites=0)
+A mechanistically-motivated framework that uses counterfactual input views (with/without CoT) to detect unreliable predictions and selectively escalate to strict evidence-anchored judgment.</title>
+</g>
+<g>
+<rect x="625" y="1512" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1526" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Contribution]</text>
+<text x="805" y="1541" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution: 2.15x disagreement enrichment</text>
+<text x="805" y="1557" text-anchor="middle" font-size="9.5" fill="#555">Empirical validation that view disagreement is enriched under CoT</text>
+<text x="805" y="1569" text-anchor="middle" font-size="9.5" fill="#555">manipulation attacks (2.15× higher disagreement rate on attacked</text>
+<text x="805" y="1581" text-anchor="middle" font-size="9.5" fill="#555">vs. unmodified failures), confirming the mechanistic hypothesis.</text>
+<title>N13 [Contribution] (cites=0)
+Empirical validation that view disagreement is enriched under CoT manipulation attacks (2.15× higher disagreement rate on attacked vs. unmodified failures), confirming the mechanistic hypothesis.</title>
+</g>
+<g>
+<rect x="1003" y="1512" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1526" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Contribution]</text>
+<text x="1183" y="1541" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution: 63% attack reduction, best recall</text>
+<text x="1183" y="1557" text-anchor="middle" font-size="9.5" fill="#555">Demonstration that our method achieves 63% relative reduction in</text>
+<text x="1183" y="1569" text-anchor="middle" font-size="9.5" fill="#555">attack sensitivity (∆-FPR: 4.31% vs 11.71%) while maintaining</text>
+<text x="1183" y="1581" text-anchor="middle" font-size="9.5" fill="#555">competitive F1 (72.13% vs 72.93%) and achieving the best recall</text>
+<text x="1183" y="1593" text-anchor="middle" font-size="9.5" fill="#555">(77.63%) on AgentRewardBench.</text>
+<title>N14 [Contribution] (cites=0)
+Demonstration that our method achieves 63% relative reduction in attack sensitivity (∆-FPR: 4.31% vs 11.71%) while maintaining competitive F1 (72.13% vs 72.93%) and achieving the best recall (77.63%) on AgentRewardBench.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

@@ -1,0 +1,308 @@
+<svg viewBox="0 0 1480 2316" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="110" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="526" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="200" x2="1450" y2="200" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1122" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="852" x2="1450" y2="852" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1476" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PROOF</text>
+<line x1="60" y1="1392" x2="1450" y2="1392" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1812" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1560" x2="1450" y2="1560" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2160" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="2064" x2="1450" y2="2064" stroke="#eee" stroke-width="1"/>
+<line x1="805" y1="152" x2="616" y2="248" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="710" y="197" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To address this</text>
+<line x1="616" y1="344" x2="616" y2="372" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="468" x2="805" y2="496" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="568" x2="805" y2="596" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="680" x2="805" y2="708" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="691" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Notably</text>
+<line x1="805" y1="804" x2="616" y2="900" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="849" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Surprisingly</text>
+<line x1="616" y1="996" x2="805" y2="1024" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1120" x2="805" y2="1148" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1244" x2="805" y2="1272" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="1255" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="1344" x2="994" y2="248" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="344" x2="994" y2="372" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="994" y="355" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Specifically</text>
+<line x1="994" y1="468" x2="994" y2="900" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="994" y="681" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="994" y1="996" x2="805" y2="1608" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="805" y1="1704" x2="805" y2="1732" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1804" x2="805" y2="1832" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1815" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To overcome this</text>
+<line x1="805" y1="1904" x2="805" y2="1932" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2016" x2="805" y2="1440" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<text x="805" y="1725" font-size="9.5" fill="#b38a2c" font-weight="600" text-anchor="middle">As illustrated in Figure 1</text>
+<line x1="322" y1="2208" x2="616" y2="900" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="644" y1="2208" x2="805" y2="1148" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="966" y1="2208" x2="994" y2="900" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1288" y1="2208" x2="805" y2="1024" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Transformers scale quadratically</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Transformer architectures (Vaswani et al., 2017) have revolutionized NLP but</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">scale quadratically in sequence length, posing computational challenges for</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">long sequences.</text>
+<title>N1 [Context] (cites=1)
+Transformer architectures (Vaswani et al., 2017) have revolutionized NLP but scale quadratically in sequence length, posing computational challenges for long sequences.</title>
+</g>
+<circle cx="803.0" cy="256.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="264.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="272.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="280.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="288.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="296.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="304.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="248" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="262" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Prior_Work]</text>
+<text x="616" y="277" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LRNNs offer linear scaling</text>
+<text x="616" y="293" text-anchor="middle" font-size="9.5" fill="#555">To address this, Linear Recurrent Neural Networks (LRNNs) have</text>
+<text x="616" y="305" text-anchor="middle" font-size="9.5" fill="#555">emerged as promising alternatives that offer linear scaling while</text>
+<text x="616" y="317" text-anchor="middle" font-size="9.5" fill="#555">maintaining competitive performance (Gu &amp; Dao, 2024; Dao &amp; Gu,</text>
+<text x="616" y="329" text-anchor="middle" font-size="9.5" fill="#555">2024; Yang et al., 2024a; Peng et al., 2023;…</text>
+<title>N2 [Prior_Work] (cites=7)
+To address this, Linear Recurrent Neural Networks (LRNNs) have emerged as promising alternatives that offer linear scaling while maintaining competitive performance (Gu &amp; Dao, 2024; Dao &amp; Gu, 2024; Yang et al., 2024a; Peng et al., 2023; Deletang et al., 2023; Sun et al., 2024; Beck et al., 2024).</title>
+</g>
+<g>
+<rect x="436" y="372" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="386" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Prior_Work]</text>
+<text x="616" y="401" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LRNNs use state-transition matrices</text>
+<text x="616" y="417" text-anchor="middle" font-size="9.5" fill="#555">LRNNs update their state via matrix-vector products with</text>
+<text x="616" y="429" text-anchor="middle" font-size="9.5" fill="#555">structured and often input-dependent state-transition matrices.</text>
+<title>N3 [Prior_Work] (cites=0)
+LRNNs update their state via matrix-vector products with structured and often input-dependent state-transition matrices.</title>
+</g>
+<g>
+<rect x="595" y="496" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="510" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work]</text>
+<text x="805" y="525" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Matrix structure shapes expressivity</text>
+<text x="805" y="541" text-anchor="middle" font-size="9.5" fill="#555">The structure of the state-transition matrices largely determines the</text>
+<text x="805" y="553" text-anchor="middle" font-size="9.5" fill="#555">expressivity of LRNNs.</text>
+<title>N4 [Prior_Work] (cites=0)
+The structure of the state-transition matrices largely determines the expressivity of LRNNs.</title>
+</g>
+<circle cx="1022.0" cy="604.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="612.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="596" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="610" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="805" y="625" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Mamba/GLA use diagonal matrices</text>
+<text x="805" y="641" text-anchor="middle" font-size="9.5" fill="#555">While successful models like Mamba (Gu &amp; Dao, 2024) and GLA (Yang et al.,</text>
+<text x="805" y="653" text-anchor="middle" font-size="9.5" fill="#555">2024a) use diagonal matrices (diagonal LRNN) which only mix tokens along the</text>
+<text x="805" y="665" text-anchor="middle" font-size="9.5" fill="#555">sequence dimension, recent work explores more complex forms.</text>
+<title>N5 [Prior_Work] (cites=2)
+While successful models like Mamba (Gu &amp; Dao, 2024) and GLA (Yang et al., 2024a) use diagonal matrices (diagonal LRNN) which only mix tokens along the sequence dimension, recent work explores more complex forms.</title>
+</g>
+<circle cx="1022.0" cy="716.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="724.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="732.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="708" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="722" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work]</text>
+<text x="805" y="737" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">DeltaNet uses GH non-diagonal matrices</text>
+<text x="805" y="753" text-anchor="middle" font-size="9.5" fill="#555">Notably, non-diagonal matrices using generalized Householder (GH)</text>
+<text x="805" y="765" text-anchor="middle" font-size="9.5" fill="#555">transformations, defined as I − uu⊤ where u is a learnable vector and I is</text>
+<text x="805" y="777" text-anchor="middle" font-size="9.5" fill="#555">the identity, enable models like DeltaNet (Schlag et al., 2021; Yang et al.,</text>
+<text x="805" y="789" text-anchor="middle" font-size="9.5" fill="#555">2024b) and TTT-Linear…</text>
+<title>N6 [Prior_Work] (cites=3)
+Notably, non-diagonal matrices using generalized Householder (GH) transformations, defined as I − uu⊤ where u is a learnable vector and I is the identity, enable models like DeltaNet (Schlag et al., 2021; Yang et al., 2024b) and TTT-Linear (Sun et al., 2024) to achieve richer expressiveness through simultaneous token-channel mixing while maintaining efficiency.</title>
+</g>
+<circle cx="803.0" cy="908.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="900" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="914" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="616" y="929" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Both fail at state-tracking</text>
+<text x="616" y="945" text-anchor="middle" font-size="9.5" fill="#555">Surprisingly, both Transformers and current LRNNs face a</text>
+<text x="616" y="957" text-anchor="middle" font-size="9.5" fill="#555">fundamental limitation: they struggle to learn how to track the</text>
+<text x="616" y="969" text-anchor="middle" font-size="9.5" fill="#555">state of even simple finite-state machines from sequences of</text>
+<text x="616" y="981" text-anchor="middle" font-size="9.5" fill="#555">state-transitions (Deletang et al., 2023).</text>
+<title>N7 [Limitation] (cites=1)
+Surprisingly, both Transformers and current LRNNs face a fundamental limitation: they struggle to learn how to track the state of even simple finite-state machines from sequences of state-transitions (Deletang et al., 2023).</title>
+</g>
+<circle cx="1022.0" cy="1032.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1024" width="420" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1038" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Limitation]</text>
+<text x="805" y="1053" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Hurts code/reasoning tasks</text>
+<text x="805" y="1069" text-anchor="middle" font-size="9.5" fill="#555">This limitation may impair performance on tasks such as entity tracking in</text>
+<text x="805" y="1081" text-anchor="middle" font-size="9.5" fill="#555">narratives, handling nested structures in code, and reasoning tasks that can</text>
+<text x="805" y="1093" text-anchor="middle" font-size="9.5" fill="#555">benefit from maintaining and updating an internal state over time (Merrill</text>
+<text x="805" y="1105" text-anchor="middle" font-size="9.5" fill="#555">et al.,…</text>
+<title>N8 [Limitation] (cites=1)
+This limitation may impair performance on tasks such as entity tracking in narratives, handling nested structures in code, and reasoning tasks that can benefit from maintaining and updating an internal state over time (Merrill et al., 2024).</title>
+</g>
+<circle cx="1022.0" cy="1156.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1164.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1148" width="420" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1162" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Limitation]</text>
+<text x="805" y="1177" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Cannot solve parity; LSTMs can</text>
+<text x="805" y="1193" text-anchor="middle" font-size="9.5" fill="#555">Even the simplest state-tracking task, computing the parity of a sequence of</text>
+<text x="805" y="1205" text-anchor="middle" font-size="9.5" fill="#555">bits, cannot be solved by modern architectures, while non-linear RNNs like</text>
+<text x="805" y="1217" text-anchor="middle" font-size="9.5" fill="#555">LSTM (Hochreiter &amp; Schmidhuber, 1997) and sLSTM (Beck et al., 2024) can</text>
+<text x="805" y="1229" text-anchor="middle" font-size="9.5" fill="#555">effectively…</text>
+<title>N9 [Limitation] (cites=2)
+Even the simplest state-tracking task, computing the parity of a sequence of bits, cannot be solved by modern architectures, while non-linear RNNs like LSTM (Hochreiter &amp; Schmidhuber, 1997) and sLSTM (Beck et al., 2024) can effectively track the state of any finite state machine.</title>
+</g>
+<circle cx="1022.0" cy="1280.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1288.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1272" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1286" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Limitation]</text>
+<text x="805" y="1301" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Non-linear RNNs hard to parallelize</text>
+<text x="805" y="1317" text-anchor="middle" font-size="9.5" fill="#555">However, parallelizing non-linear RNNs across the sequence length presents</text>
+<text x="805" y="1329" text-anchor="middle" font-size="9.5" fill="#555">significant challenges (Lim et al., 2024; Gonzalez et al., 2024).</text>
+<title>N10 [Limitation] (cites=2)
+However, parallelizing non-linear RNNs across the sequence length presents significant challenges (Lim et al., 2024; Gonzalez et al., 2024).</title>
+</g>
+<circle cx="1181.0" cy="256.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="248" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="262" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Prior_Work : ANCHOR]</text>
+<text x="994" y="277" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Sarrof: positive eigenvalues block parity</text>
+<text x="994" y="293" text-anchor="middle" font-size="9.5" fill="#555">Recently, Sarrof et al. (2024) demonstrated that the inability of</text>
+<text x="994" y="305" text-anchor="middle" font-size="9.5" fill="#555">diagonal LRNNs to solve the parity problem stems from the fact</text>
+<text x="994" y="317" text-anchor="middle" font-size="9.5" fill="#555">that the eigenvalues of their state-transition matrices are</text>
+<text x="994" y="329" text-anchor="middle" font-size="9.5" fill="#555">constrained to be positive.</text>
+<title>N11 [Prior_Work] (cites=1)
+Recently, Sarrof et al. (2024) demonstrated that the inability of diagonal LRNNs to solve the parity problem stems from the fact that the eigenvalues of their state-transition matrices are constrained to be positive.</title>
+</g>
+<g>
+<rect x="814" y="372" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="386" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Prior_Work]</text>
+<text x="994" y="401" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Diagonal positive eigenvalues fail parity</text>
+<text x="994" y="417" text-anchor="middle" font-size="9.5" fill="#555">Specifically, they proved that finite precision diagonal LRNNs</text>
+<text x="994" y="429" text-anchor="middle" font-size="9.5" fill="#555">with exclusively positive real eigenvalues, cannot solve the</text>
+<text x="994" y="441" text-anchor="middle" font-size="9.5" fill="#555">parity problem in one forward pass for sequences of arbitrary</text>
+<text x="994" y="453" text-anchor="middle" font-size="9.5" fill="#555">length.</text>
+<title>N12 [Prior_Work] (cites=0)
+Specifically, they proved that finite precision diagonal LRNNs with exclusively positive real eigenvalues, cannot solve the parity problem in one forward pass for sequences of arbitrary length.</title>
+</g>
+<g>
+<rect x="814" y="900" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="914" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Limitation]</text>
+<text x="994" y="929" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">No empirical evidence with negatives</text>
+<text x="994" y="945" text-anchor="middle" font-size="9.5" fill="#555">However, their work did not provide empirical evidence showing</text>
+<text x="994" y="957" text-anchor="middle" font-size="9.5" fill="#555">that diagonal LRNNs with negative eigenvalues can be successfully</text>
+<text x="994" y="969" text-anchor="middle" font-size="9.5" fill="#555">trained to overcome this limitation.</text>
+<title>N13 [Limitation] (cites=0)
+However, their work did not provide empirical evidence showing that diagonal LRNNs with negative eigenvalues can be successfully trained to overcome this limitation.</title>
+</g>
+<g>
+<rect x="595" y="1608" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1622" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Method]</text>
+<text x="805" y="1637" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Extend impossibility to non-diagonal</text>
+<text x="805" y="1653" text-anchor="middle" font-size="9.5" fill="#555">We prove that the same limitation also affects LRNNs with non-diagonal</text>
+<text x="805" y="1665" text-anchor="middle" font-size="9.5" fill="#555">state-transition matrices, and further prove that additionally,</text>
+<text x="805" y="1677" text-anchor="middle" font-size="9.5" fill="#555">non-triangular matrices are necessary to solve the more challenging task of</text>
+<text x="805" y="1689" text-anchor="middle" font-size="9.5" fill="#555">modular counting (when the…</text>
+<title>N14 [Method] (cites=0)
+We prove that the same limitation also affects LRNNs with non-diagonal state-transition matrices, and further prove that additionally, non-triangular matrices are necessary to solve the more challenging task of modular counting (when the modulus is not a power of two).</title>
+</g>
+<g>
+<rect x="595" y="1732" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1746" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Method]</text>
+<text x="805" y="1761" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Applies to DeltaNet GH matrices</text>
+<text x="805" y="1777" text-anchor="middle" font-size="9.5" fill="#555">Our findings also apply to the GH matrices used by DeltaNet, as they share</text>
+<text x="805" y="1789" text-anchor="middle" font-size="9.5" fill="#555">the same eigenvalue limitations.</text>
+<title>N15 [Method] (cites=0)
+Our findings also apply to the GH matrices used by DeltaNet, as they share the same eigenvalue limitations.</title>
+</g>
+<g>
+<rect x="595" y="1832" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1846" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Method]</text>
+<text x="805" y="1861" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Extend eigenvalues to [-1, 1]</text>
+<text x="805" y="1877" text-anchor="middle" font-size="9.5" fill="#555">To overcome this, we propose a simple yet powerful solution: extend the</text>
+<text x="805" y="1889" text-anchor="middle" font-size="9.5" fill="#555">range of possible eigenvalues from [0, 1] to [−1, 1].</text>
+<title>N16 [Method] (cites=0)
+To overcome this, we propose a simple yet powerful solution: extend the range of possible eigenvalues from [0, 1] to [−1, 1].</title>
+</g>
+<g>
+<rect x="595" y="1932" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1946" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Method]</text>
+<text x="805" y="1961" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Enables state-tracking, keeps efficiency</text>
+<text x="805" y="1977" text-anchor="middle" font-size="9.5" fill="#555">This change enables state-tracking and significantly improves the</text>
+<text x="805" y="1989" text-anchor="middle" font-size="9.5" fill="#555">expressivity of LRNNs without compromising their efficiency and training</text>
+<text x="805" y="2001" text-anchor="middle" font-size="9.5" fill="#555">stability.</text>
+<title>N17 [Method] (cites=0)
+This change enables state-tracking and significantly improves the expressivity of LRNNs without compromising their efficiency and training stability.</title>
+</g>
+<g>
+<rect x="595" y="1440" width="420" height="72" rx="6" fill="#fff2cc" stroke="#b38a2c" stroke-width="1.2"/>
+<text x="805" y="1454" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">P18 [Proof]</text>
+<text x="805" y="1469" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fig.1: diagonal LRNN learns parity</text>
+<text x="805" y="1485" text-anchor="middle" font-size="9.5" fill="#555">As illustrated in Figure 1, it allows diagonal LRNNs to learn parity</text>
+<text x="805" y="1497" text-anchor="middle" font-size="9.5" fill="#555">successfully.</text>
+<title>P18 [Proof] (cites=0)
+As illustrated in Figure 1, it allows diagonal LRNNs to learn parity successfully.</title>
+</g>
+<g>
+<rect x="170" y="2112" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="322" y="2126" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Contribution]</text>
+<text x="322" y="2141" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: impossibility theorems 1 &amp; 2</text>
+<text x="322" y="2157" text-anchor="middle" font-size="9.5" fill="#555">We prove that any finite precision LRNN with only</text>
+<text x="322" y="2169" text-anchor="middle" font-size="9.5" fill="#555">positive real eigenvalues in the state-transition</text>
+<text x="322" y="2181" text-anchor="middle" font-size="9.5" fill="#555">matrices (most LRNNs used in practice) cannot solve</text>
+<text x="322" y="2193" text-anchor="middle" font-size="9.5" fill="#555">parity at arbitrary sequence lengths (Theorem 1), while…</text>
+<title>N19 [Contribution] (cites=0)
+We prove that any finite precision LRNN with only positive real eigenvalues in the state-transition matrices (most LRNNs used in practice) cannot solve parity at arbitrary sequence lengths (Theorem 1), while non-triangular matrices are also required to learn counting modulo 3 (Theorem 2).</title>
+</g>
+<g>
+<rect x="492" y="2112" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="644" y="2126" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Contribution]</text>
+<text x="644" y="2141" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: positive theorems 3 &amp; 4</text>
+<text x="644" y="2157" text-anchor="middle" font-size="9.5" fill="#555">By extending the eigenvalue range, we significantly</text>
+<text x="644" y="2169" text-anchor="middle" font-size="9.5" fill="#555">improve the state-tracking capabilities of LRNNs. We</text>
+<text x="644" y="2181" text-anchor="middle" font-size="9.5" fill="#555">prove that LRNNs with state-transition matrices formed</text>
+<text x="644" y="2193" text-anchor="middle" font-size="9.5" fill="#555">by products of generalized Householder (GH) matrices…</text>
+<title>N20 [Contribution] (cites=0)
+By extending the eigenvalue range, we significantly improve the state-tracking capabilities of LRNNs. We prove that LRNNs with state-transition matrices formed by products of generalized Householder (GH) matrices, each with eigenvalues in the range [−1, 1], can learn any regular language (Theorem 4), in some cases with just one layer (Theorem 3). Notably, this range extension allows LRNNs using just one GH matrix (like DeltaNet), to learn substantially harder tasks, as the repeated composition of permutations of two (over n) elements, compared to diagonal LRNNs.</title>
+</g>
+<g>
+<rect x="814" y="2112" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="966" y="2126" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Contribution]</text>
+<text x="966" y="2141" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: empirical state-tracking gains</text>
+<text x="966" y="2157" text-anchor="middle" font-size="9.5" fill="#555">We show that the eigenvalue range of Mamba and DeltaNet</text>
+<text x="966" y="2169" text-anchor="middle" font-size="9.5" fill="#555">can be extended to [−1, 1] without compromising</text>
+<text x="966" y="2181" text-anchor="middle" font-size="9.5" fill="#555">efficiency or training stability. We test the modified</text>
+<text x="966" y="2193" text-anchor="middle" font-size="9.5" fill="#555">methods on parity, modular arithmetic, and permutation…</text>
+<title>N21 [Contribution] (cites=0)
+We show that the eigenvalue range of Mamba and DeltaNet can be extended to [−1, 1] without compromising efficiency or training stability. We test the modified methods on parity, modular arithmetic, and permutation composition, demonstrating improved state-tracking performance.</title>
+</g>
+<g>
+<rect x="1136" y="2112" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1288" y="2126" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Contribution]</text>
+<text x="1288" y="2141" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C4: 1.3B-scale pretraining holds</text>
+<text x="1288" y="2157" text-anchor="middle" font-size="9.5" fill="#555">We pre-train modified versions of DeltaNet and Mamba</text>
+<text x="1288" y="2169" text-anchor="middle" font-size="9.5" fill="#555">(up to 1.3B parameters) and show that they reach</text>
+<text x="1288" y="2181" text-anchor="middle" font-size="9.5" fill="#555">performance comparable to the original models on</text>
+<text x="1288" y="2193" text-anchor="middle" font-size="9.5" fill="#555">generative language modeling tasks, while DeltaNet…</text>
+<title>N22 [Contribution] (cites=0)
+We pre-train modified versions of DeltaNet and Mamba (up to 1.3B parameters) and show that they reach performance comparable to the original models on generative language modeling tasks, while DeltaNet shows improved perplexity on code and math datasets.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

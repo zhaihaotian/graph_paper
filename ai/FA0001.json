@@ -1,0 +1,229 @@
+{
+  "paper_id": "FA0001",
+  "paper_topic": "Canary-controlled adaptive safe-data interleaving to mitigate emergent misalignment during fine-tuning",
+  "anchor_paper": "Kaczér et al., 2025 (safe-data interleaving)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Large language models (LLMs) undergo extensive alignment training to ensure helpful, harmless, and honest behavior (Ouyang et al., 2022).",
+      "display_label": "LLMs use alignment training",
+      "citations": 1
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "However, recent work has revealed a concerning phenomenon: fine-tuning on seemingly benign, narrow tasks can cause models to become broadly misaligned, exhibiting harmful behaviors on unrelated prompts (Betley et al., 2026; Turner et al., 2025).",
+      "display_label": "Fine-tuning causes broad misalignment",
+      "citations": 2
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "This emergent misalignment (EM) poses significant safety risks, as it can arise from innocuous-looking training data without explicit malicious intent (Qi et al., 2023).",
+      "display_label": "EM is a safety risk",
+      "citations": 1
+    },
+    {
+      "id": "N4",
+      "type": "Prior_Work",
+      "text": "Several defenses have been proposed to mitigate EM during fine-tuning.",
+      "display_label": "Defenses against EM exist",
+      "citations": 0
+    },
+    {
+      "id": "N4a",
+      "type": "Prior_Work: defense-1",
+      "text": "Safe-data interleaving mixes benign instruction-following examples with the target training data to preserve alignment (Kaczér et al., 2025).",
+      "display_label": "Safe-data interleaving",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N4b",
+      "type": "Prior_Work: defense-2",
+      "text": "SafeLoRA projects LoRA weight updates to preserve safety-critical directions (Hsu et al., 2024).",
+      "display_label": "SafeLoRA projection",
+      "citations": 1
+    },
+    {
+      "id": "N4c",
+      "type": "Prior_Work: defense-3",
+      "text": "Representation engineering approaches identify and protect alignment-relevant features (Ustaomeroglu & Qu, 2026).",
+      "display_label": "Representation engineering",
+      "citations": 1
+    },
+    {
+      "id": "N5",
+      "type": "Limitation",
+      "text": "However, these methods typically use fixed parameters throughout training, applying the same level of intervention regardless of the model's current state.",
+      "display_label": "Existing defenses use fixed parameters",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "We hypothesize that EM risk varies during training—prior work has identified phase-transition-like dynamics where misalignment emerges abruptly (Turner et al., 2025).",
+      "display_label": "EM risk varies; phase transitions",
+      "citations": 1
+    },
+    {
+      "id": "N7",
+      "type": "Limitation",
+      "text": "A fixed interleaving ratio may therefore be suboptimal: too little intervention when risk is high, or unnecessary overhead when the model is safe.",
+      "display_label": "Fixed ratio is suboptimal",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "This motivates an adaptive approach that monitors EM risk in real-time and adjusts the defense strength accordingly.",
+      "display_label": "Motivation: adaptive approach",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Method",
+      "text": "We propose canary-controlled adaptive safe-data interleaving, a closed-loop framework that uses canary prompts as a real-time proxy for EM risk.",
+      "display_label": "Canary-controlled adaptive interleaving",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Method: component",
+      "text": "The controller evaluates the model on a small set of canary prompts during training, computes an EMA-smoothed risk estimate, and adjusts the interleaving ratio using a threshold-based policy with hysteresis.",
+      "display_label": "EMA-smoothed risk + threshold controller",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method: component",
+      "text": "When elevated risk is detected, the controller increases safe-data interleaving; when risk subsides, it reduces intervention to minimize training overhead.",
+      "display_label": "Risk-adaptive interleaving policy",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Contribution",
+      "text": "We introduce a canary-controlled adaptive interleaving framework that monitors EM risk during fine-tuning and dynamically adjusts the safe-data interleaving ratio based on real-time behavioral signals.",
+      "display_label": "Contribution: adaptive framework",
+      "citations": 0
+    },
+    {
+      "id": "N13",
+      "type": "Contribution",
+      "text": "We demonstrate empirically that our method achieves 5.39% General %Misaligned compared to 7.15% for fixed 5% interleaving—a 25% relative improvement—with 4× lower cross-seed variance on the Security EM benchmark.",
+      "display_label": "Contribution: 25% improvement, 4x lower variance",
+      "citations": 0
+    },
+    {
+      "id": "N14",
+      "type": "Contribution",
+      "text": "We conduct ablation studies showing that adaptive timing provides value beyond average interleaving ratio (36% degradation with fixed timing), and that EMA smoothing and hysteresis are critical for stable controller behavior.",
+      "display_label": "Contribution: ablation justifies design",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "kind": "contrast",
+      "connective": "However"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N4",
+      "to": "N4a",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N4",
+      "to": "N4b",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N4",
+      "to": "N4c",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "kind": "contrast",
+      "connective": "However"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "kind": "consequence",
+      "connective": "therefore"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "kind": "consequence",
+      "connective": "motivates"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N11",
+      "to": "N13",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N11",
+      "to": "N14",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N9",
+      "to": "N5",
+      "kind": "addresses"
+    },
+    {
+      "from": "N10",
+      "to": "N7",
+      "kind": "addresses"
+    },
+    {
+      "from": "N11",
+      "to": "N5",
+      "kind": "addresses"
+    }
+  ],
+  "observations": "FA0001 follows a classic gap-filling arc: broad alignment context (N1) is contrasted with the EM phenomenon (N2-N3), which sets up the safety problem. The Prior_Work zone enumerates three existing defenses (N4a-N4c) with N4 as a fork parent over a same-zone enumeration; N4a (safe-data interleaving by Kaczér et al., 2025) is marked as the anchor since the proposed method directly extends it. The Limitation cascade (N5-N7) identifies a single shared weakness across defenses (fixed parameters), supports it with prior phase-transition evidence, and concludes that fixed ratios are suboptimal. The motivation chain (N8) flows naturally into the proposed method (N9) and its two named components (N10 EMA controller, N11 adaptive policy). Three Contribution nodes (N12-N14) close the intro with framework, empirical, and ablation claims. Cross-pair addresses edges link the method/contribution to specific limitations: N9 → N5 (closed-loop solves fixed-parameter problem), N10 → N7 (EMA controller solves fixed-ratio sub-optimality), N12 → N5 (contribution explicitly answers fixed-parameter gap). The narrative is single-thread with no competing hypotheses; the structural fork is over enumerated prior defenses rather than over methodological alternatives."
+}

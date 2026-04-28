@@ -1,0 +1,319 @@
+<svg viewBox="0 0 1480 2556" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="116" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="426" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="212" x2="1450" y2="212" stroke="#eee" stroke-width="1"/>
+<text x="14" y="736" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="640" x2="1450" y2="640" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1428" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="832" x2="1450" y2="832" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2170" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="2024" x2="1450" y2="2024" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2406" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="2316" x2="1450" y2="2316" stroke="#eee" stroke-width="1"/>
+<line x1="616" y1="164" x2="616" y2="260" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="356" x2="805" y2="384" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="468" x2="805" y2="496" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="592" x2="616" y2="688" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="637" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Yet</text>
+<line x1="616" y1="784" x2="994" y2="68" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="423" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">by contrast</text>
+<line x1="994" y1="164" x2="994" y2="260" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="356" x2="994" y2="688" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="994" y="519" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="994" y1="784" x2="805" y2="880" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="952" x2="805" y2="980" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1040" x2="805" y2="1068" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1051" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">First</text>
+<line x1="805" y1="1140" x2="805" y2="1168" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1240" x2="805" y2="1268" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1340" x2="805" y2="1368" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1351" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Hence</text>
+<line x1="805" y1="1428" x2="805" y2="1456" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1516" x2="805" y2="1544" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1616" x2="805" y2="1644" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1728" x2="616" y2="2364" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1728" x2="805" y2="1756" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1852" x2="805" y2="1880" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1863" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Specifically</text>
+<line x1="805" y1="1976" x2="805" y2="2072" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="2144" x2="805" y2="2172" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="2155" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Moreover</text>
+<line x1="805" y1="2268" x2="994" y2="2364" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="952" x2="994" y2="688" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1428" x2="616" y2="688" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1616" x2="994" y2="688" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<g>
+<rect x="436" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="616" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RL improves LLM reasoning</text>
+<text x="616" y="113" text-anchor="middle" font-size="9.5" fill="#555">Reinforcement Learning (RL) has proven to be successful in</text>
+<text x="616" y="125" text-anchor="middle" font-size="9.5" fill="#555">improving reasoning capabilities of LLMs by optimizing against</text>
+<text x="616" y="137" text-anchor="middle" font-size="9.5" fill="#555">task-specific reward signals.</text>
+<title>N1 [Context] (cites=0)
+Reinforcement Learning (RL) has proven to be successful in improving reasoning capabilities of LLMs by optimizing against task-specific reward signals.</title>
+</g>
+<circle cx="803.0" cy="268.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="276.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="260" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Prior_Work]</text>
+<text x="616" y="289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RLHF: InstructGPT, ChatGPT</text>
+<text x="616" y="305" text-anchor="middle" font-size="9.5" fill="#555">Early successes in this direction include RL from Human Feedback</text>
+<text x="616" y="317" text-anchor="middle" font-size="9.5" fill="#555">(RLHF) for aligning LLMs with human intent, most notably in</text>
+<text x="616" y="329" text-anchor="middle" font-size="9.5" fill="#555">InstructGPT (Ouyang et al., 2022) and ChatGPT (Achiam et al.,</text>
+<text x="616" y="341" text-anchor="middle" font-size="9.5" fill="#555">2023), which have demonstrated that incorporating…</text>
+<title>N2 [Prior_Work] (cites=2)
+Early successes in this direction include RL from Human Feedback (RLHF) for aligning LLMs with human intent, most notably in InstructGPT (Ouyang et al., 2022) and ChatGPT (Achiam et al., 2023), which have demonstrated that incorporating preference-based rewards can dramatically improve both the usability and correctness of model outputs.</title>
+</g>
+<circle cx="1022.0" cy="392.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="384" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="398" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Prior_Work]</text>
+<text x="805" y="413" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">DeepSeek-R1: zero configuration</text>
+<text x="805" y="429" text-anchor="middle" font-size="9.5" fill="#555">Recently DeepSeek-R1 (Guo et al., 2025) proposed a distinguishing feature</text>
+<text x="805" y="441" text-anchor="middle" font-size="9.5" fill="#555">which is the so-called zero configuration, wherein the RL process directly</text>
+<text x="805" y="453" text-anchor="middle" font-size="9.5" fill="#555">enhances the base language model.</text>
+<title>N3 [Prior_Work] (cites=1)
+Recently DeepSeek-R1 (Guo et al., 2025) proposed a distinguishing feature which is the so-called zero configuration, wherein the RL process directly enhances the base language model.</title>
+</g>
+<circle cx="1022.0" cy="504.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="512.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="520.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="528.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="536.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="496" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="510" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work]</text>
+<text x="805" y="525" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">follow-up replication efforts</text>
+<text x="805" y="541" text-anchor="middle" font-size="9.5" fill="#555">This breakthrough started several efforts which were targeted at replicating</text>
+<text x="805" y="553" text-anchor="middle" font-size="9.5" fill="#555">DeepSeek-R1’s methodology or refining its underlying RL mechanisms (Zeng et</text>
+<text x="805" y="565" text-anchor="middle" font-size="9.5" fill="#555">al., 2025; Yu et al., 2025; Liu et al., 2025; Cui et al., 2025; Hu et al.,</text>
+<text x="805" y="577" text-anchor="middle" font-size="9.5" fill="#555">2025).</text>
+<title>N4 [Prior_Work] (cites=5)
+This breakthrough started several efforts which were targeted at replicating DeepSeek-R1’s methodology or refining its underlying RL mechanisms (Zeng et al., 2025; Yu et al., 2025; Liu et al., 2025; Cui et al., 2025; Hu et al., 2025).</title>
+</g>
+<g>
+<rect x="436" y="688" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="702" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Limitation]</text>
+<text x="616" y="717" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RL lacks self-feedback / reflection</text>
+<text x="616" y="733" text-anchor="middle" font-size="9.5" fill="#555">Yet, in the realm of complex reasoning, RL algorithms typically do</text>
+<text x="616" y="745" text-anchor="middle" font-size="9.5" fill="#555">not incorporate any form of feedback or reflection on the model’s</text>
+<text x="616" y="757" text-anchor="middle" font-size="9.5" fill="#555">own outputs.</text>
+<title>N5 [Limitation] (cites=0)
+Yet, in the realm of complex reasoning, RL algorithms typically do not incorporate any form of feedback or reflection on the model’s own outputs.</title>
+</g>
+<circle cx="1181.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="100.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="108.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="116.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Context]</text>
+<text x="994" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">humans iterate on drafts</text>
+<text x="994" y="113" text-anchor="middle" font-size="9.5" fill="#555">Humans, by contrast, rarely solve nontrivial problems in a single</text>
+<text x="994" y="125" text-anchor="middle" font-size="9.5" fill="#555">pass: they often iterate on initial drafts, identify mistakes, and</text>
+<text x="994" y="137" text-anchor="middle" font-size="9.5" fill="#555">refine their solutions based on internal feedback (Flower &amp; Hayes,</text>
+<text x="994" y="149" text-anchor="middle" font-size="9.5" fill="#555">1981; Simon, 2012; Braidotti, 2019;…</text>
+<title>N6 [Context] (cites=6)
+Humans, by contrast, rarely solve nontrivial problems in a single pass: they often iterate on initial drafts, identify mistakes, and refine their solutions based on internal feedback (Flower &amp; Hayes, 1981; Simon, 2012; Braidotti, 2019; Flavell, 1979; Schön, 2017; Polya, 2014).</title>
+</g>
+<circle cx="1181.0" cy="268.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="276.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="260" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Prior_Work]</text>
+<text x="994" y="289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">self-feedback aids reasoning</text>
+<text x="994" y="305" text-anchor="middle" font-size="9.5" fill="#555">There is growing evidence that self-feedback mechanisms can</text>
+<text x="994" y="317" text-anchor="middle" font-size="9.5" fill="#555">bolster multi-step reasoning and the capacity to correct errors</text>
+<text x="994" y="329" text-anchor="middle" font-size="9.5" fill="#555">(Madaan et al., 2023; Shinn et al., 2023).</text>
+<title>N7 [Prior_Work] (cites=2)
+There is growing evidence that self-feedback mechanisms can bolster multi-step reasoning and the capacity to correct errors (Madaan et al., 2023; Shinn et al., 2023).</title>
+</g>
+<g>
+<rect x="814" y="688" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="702" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Limitation]</text>
+<text x="994" y="717" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RL frameworks ignore iterative refinement</text>
+<text x="994" y="733" text-anchor="middle" font-size="9.5" fill="#555">However, existing RL frameworks do not capitalize on this</text>
+<text x="994" y="745" text-anchor="middle" font-size="9.5" fill="#555">iterative refinement process, leaving a critical gap between how</text>
+<text x="994" y="757" text-anchor="middle" font-size="9.5" fill="#555">humans naturally solve problems and how LLMs are typically trained</text>
+<text x="994" y="769" text-anchor="middle" font-size="9.5" fill="#555">to do so.</text>
+<title>N8 [Limitation] (cites=0)
+However, existing RL frameworks do not capitalize on this iterative refinement process, leaving a critical gap between how humans naturally solve problems and how LLMs are typically trained to do so.</title>
+</g>
+<circle cx="1022.0" cy="888.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="880" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="894" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="909" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">propose iGRPO extending GRPO</text>
+<text x="805" y="925" text-anchor="middle" font-size="9.5" fill="#555">In this work, we propose to fill this gap with Iterative GRPO (iGRPO) which</text>
+<text x="805" y="937" text-anchor="middle" font-size="9.5" fill="#555">is a powerful extension of GRPO (Shao et al., 2024).</text>
+<title>N9 [Method] (cites=1)
+In this work, we propose to fill this gap with Iterative GRPO (iGRPO) which is a powerful extension of GRPO (Shao et al., 2024).</title>
+</g>
+<g>
+<rect x="595" y="980" width="420" height="60" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="994" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="805" y="1009" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">two-stage method (Fig. 1)</text>
+<text x="805" y="1025" text-anchor="middle" font-size="9.5" fill="#555">As illustrated in Figure 1, Our method operates in two stages.</text>
+<title>N10 [Method] (cites=0)
+As illustrated in Figure 1, Our method operates in two stages.</title>
+</g>
+<g>
+<rect x="595" y="1068" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1082" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method: stage-1]</text>
+<text x="805" y="1097" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">stage 1: sample + group-relative rewards</text>
+<text x="805" y="1113" text-anchor="middle" font-size="9.5" fill="#555">First, we draw multiple candidate completions from the model and compute</text>
+<text x="805" y="1125" text-anchor="middle" font-size="9.5" fill="#555">their relative rewards via the group-based mechanism of GRPO.</text>
+<title>N11 [Method: stage-1] (cites=0)
+First, we draw multiple candidate completions from the model and compute their relative rewards via the group-based mechanism of GRPO.</title>
+</g>
+<g>
+<rect x="595" y="1168" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1182" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Method: stage-1]</text>
+<text x="805" y="1197" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">select highest-scoring first draft</text>
+<text x="805" y="1213" text-anchor="middle" font-size="9.5" fill="#555">We then select the highest-scoring draft and this serves as the</text>
+<text x="805" y="1225" text-anchor="middle" font-size="9.5" fill="#555">&quot;first-draft&quot; output of the model.</text>
+<title>N12 [Method: stage-1] (cites=0)
+We then select the highest-scoring draft and this serves as the &quot;first-draft&quot; output of the model.</title>
+</g>
+<g>
+<rect x="595" y="1268" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1282" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Method: stage-2]</text>
+<text x="805" y="1297" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">first draft as a guide</text>
+<text x="805" y="1313" text-anchor="middle" font-size="9.5" fill="#555">We consider this highest-scoring response as a guide to improve the final</text>
+<text x="805" y="1325" text-anchor="middle" font-size="9.5" fill="#555">output.</text>
+<title>N13 [Method: stage-2] (cites=0)
+We consider this highest-scoring response as a guide to improve the final output.</title>
+</g>
+<g>
+<rect x="595" y="1368" width="420" height="60" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1382" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Method: stage-2]</text>
+<text x="805" y="1397" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">draft becomes self-feedback</text>
+<text x="805" y="1413" text-anchor="middle" font-size="9.5" fill="#555">Hence, it is provided as a self-feedback to the model.</text>
+<title>N14 [Method: stage-2] (cites=0)
+Hence, it is provided as a self-feedback to the model.</title>
+</g>
+<g>
+<rect x="595" y="1456" width="420" height="60" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1470" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Method: stage-2]</text>
+<text x="805" y="1485" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">feed draft + prompt back to model</text>
+<text x="805" y="1501" text-anchor="middle" font-size="9.5" fill="#555">We feed it back to the model alongside the original prompt.</text>
+<title>N15 [Method: stage-2] (cites=0)
+We feed it back to the model alongside the original prompt.</title>
+</g>
+<g>
+<rect x="595" y="1544" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1558" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Method: stage-2]</text>
+<text x="805" y="1573" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">stage 2: refine past prior attempt</text>
+<text x="805" y="1589" text-anchor="middle" font-size="9.5" fill="#555">By conditioning on this exemplar, the second stage encourages the model to</text>
+<text x="805" y="1601" text-anchor="middle" font-size="9.5" fill="#555">refine and surpass its own best prior attempt.</text>
+<title>N16 [Method: stage-2] (cites=0)
+By conditioning on this exemplar, the second stage encourages the model to refine and surpass its own best prior attempt.</title>
+</g>
+<g>
+<rect x="595" y="1644" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1658" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Method]</text>
+<text x="805" y="1673" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">preserves GRPO efficiency, low overhead</text>
+<text x="805" y="1689" text-anchor="middle" font-size="9.5" fill="#555">Notably, this design preserves the efficiency of GRPO while introducing only</text>
+<text x="805" y="1701" text-anchor="middle" font-size="9.5" fill="#555">minimal extra overhead, as iGRPO still relies on the same set of group-based</text>
+<text x="805" y="1713" text-anchor="middle" font-size="9.5" fill="#555">reward signals.</text>
+<title>N17 [Method] (cites=0)
+Notably, this design preserves the efficiency of GRPO while introducing only minimal extra overhead, as iGRPO still relies on the same set of group-based reward signals.</title>
+</g>
+<g>
+<rect x="436" y="2364" width="360" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="616" y="2378" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Contribution]</text>
+<text x="616" y="2393" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">self-guided iterative improvement</text>
+<text x="616" y="2409" text-anchor="middle" font-size="9.5" fill="#555">In doing so, iGRPO offers a promising avenue for self-guided</text>
+<text x="616" y="2421" text-anchor="middle" font-size="9.5" fill="#555">improvement, enabling LLMs to iteratively improve their reasoning</text>
+<text x="616" y="2433" text-anchor="middle" font-size="9.5" fill="#555">capabilities.</text>
+<title>N18 [Contribution] (cites=0)
+In doing so, iGRPO offers a promising avenue for self-guided improvement, enabling LLMs to iteratively improve their reasoning capabilities.</title>
+</g>
+<circle cx="1022.0" cy="1764.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1756" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1770" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Method]</text>
+<text x="805" y="1785" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">controlled experiments on MATH</text>
+<text x="805" y="1801" text-anchor="middle" font-size="9.5" fill="#555">We conduct a series of controlled experiments to compare iGRPO and GRPO</text>
+<text x="805" y="1813" text-anchor="middle" font-size="9.5" fill="#555">under identical training conditions, using different base models trained on</text>
+<text x="805" y="1825" text-anchor="middle" font-size="9.5" fill="#555">the Mathematics Aptitude Test of Heuristics (MATH) (Hendrycks et al., 2021)</text>
+<text x="805" y="1837" text-anchor="middle" font-size="9.5" fill="#555">dataset.</text>
+<title>N19 [Method] (cites=1)
+We conduct a series of controlled experiments to compare iGRPO and GRPO under identical training conditions, using different base models trained on the Mathematics Aptitude Test of Heuristics (MATH) (Hendrycks et al., 2021) dataset.</title>
+</g>
+<circle cx="1022.0" cy="1888.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1896.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1904.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1912.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1920.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1928.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1936.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1944.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1880" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1894" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Method]</text>
+<text x="805" y="1909" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">eval suite: 6 math benchmarks</text>
+<text x="805" y="1925" text-anchor="middle" font-size="9.5" fill="#555">Specifically, we evaluate DeepSeek-R1 Distilled (Guo et al., 2025) and</text>
+<text x="805" y="1937" text-anchor="middle" font-size="9.5" fill="#555">OpenMath-Nemotron (Moshkov et al., 2025) on an extensive array of</text>
+<text x="805" y="1949" text-anchor="middle" font-size="9.5" fill="#555">mathematical reasoning benchmarks, including AIME24 (AI-MO, 2024a), AIME25</text>
+<text x="805" y="1961" text-anchor="middle" font-size="9.5" fill="#555">(OpenCompass, 2025),…</text>
+<title>N20 [Method] (cites=8)
+Specifically, we evaluate DeepSeek-R1 Distilled (Guo et al., 2025) and OpenMath-Nemotron (Moshkov et al., 2025) on an extensive array of mathematical reasoning benchmarks, including AIME24 (AI-MO, 2024a), AIME25 (OpenCompass, 2025), MATH500 (Lightman et al., 2023), AMC23 (AI-MO, 2024b), GSM8K (Cobbe et al., 2021), and Minerva Math (Lewkowycz et al., 2022).</title>
+</g>
+<g>
+<rect x="595" y="2072" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2086" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Result]</text>
+<text x="805" y="2101" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">iGRPO &gt; GRPO at 7B/14B</text>
+<text x="805" y="2117" text-anchor="middle" font-size="9.5" fill="#555">For models with 7B and 14B parameters, iGRPO consistently outperforms</text>
+<text x="805" y="2129" text-anchor="middle" font-size="9.5" fill="#555">standard GRPO.</text>
+<title>N21 [Result] (cites=0)
+For models with 7B and 14B parameters, iGRPO consistently outperforms standard GRPO.</title>
+</g>
+<circle cx="1022.0" cy="2180.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="2188.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="2196.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="2172" width="420" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2186" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Result]</text>
+<text x="805" y="2201" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">SoTA on AIME24/25 (85.62/79.64)</text>
+<text x="805" y="2217" text-anchor="middle" font-size="9.5" fill="#555">Moreover, by leveraging iGRPO algorithm with OpenReasoning-Nemotron-7B model</text>
+<text x="805" y="2229" text-anchor="middle" font-size="9.5" fill="#555">(NVIDIA, 2025) on the large-scale AceReason-Math (Chen et al., 2025b)</text>
+<text x="805" y="2241" text-anchor="middle" font-size="9.5" fill="#555">dataset (R1, 2024), we push the state of the art on AIME24 and AIME25 to</text>
+<text x="805" y="2253" text-anchor="middle" font-size="9.5" fill="#555">85.62% and 79.64%,…</text>
+<title>N22 [Result] (cites=3)
+Moreover, by leveraging iGRPO algorithm with OpenReasoning-Nemotron-7B model (NVIDIA, 2025) on the large-scale AceReason-Math (Chen et al., 2025b) dataset (R1, 2024), we push the state of the art on AIME24 and AIME25 to 85.62% and 79.64%, respectively.</title>
+</g>
+<g>
+<rect x="814" y="2364" width="360" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="994" y="2378" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23 [Contribution]</text>
+<text x="994" y="2393" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">self-feedback effective for RL math reasoning</text>
+<text x="994" y="2409" text-anchor="middle" font-size="9.5" fill="#555">These findings underscore the effectiveness of incorporating a</text>
+<text x="994" y="2421" text-anchor="middle" font-size="9.5" fill="#555">self-feedback stage into group-based RL optimization, particularly</text>
+<text x="994" y="2433" text-anchor="middle" font-size="9.5" fill="#555">for complex mathematical reasoning tasks.</text>
+<title>N23 [Contribution] (cites=0)
+These findings underscore the effectiveness of incorporating a self-feedback stage into group-based RL optimization, particularly for complex mathematical reasoning tasks.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

@@ -1,0 +1,208 @@
+<svg viewBox="0 0 1480 1944" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="104" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="396" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="188" x2="1450" y2="188" stroke="#eee" stroke-width="1"/>
+<text x="14" y="806" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="604" x2="1450" y2="604" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1154" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1008" x2="1450" y2="1008" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1496" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1300" x2="1450" y2="1300" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1788" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1692" x2="1450" y2="1692" stroke="#eee" stroke-width="1"/>
+<rect x="583" y="632" width="444" height="340" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="591" y="628" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N8</text>
+<line x1="805" y1="140" x2="805" y2="236" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="332" x2="805" y2="360" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="343" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Building on these advances</text>
+<line x1="805" y1="456" x2="805" y2="484" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="556" x2="805" y2="652" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="601" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="736" x2="805" y2="764" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="836" x2="805" y2="864" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="960" x2="805" y2="1056" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1005" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To answer this question</text>
+<line x1="805" y1="1152" x2="805" y2="1180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1252" x2="805" y2="1348" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1420" x2="805" y2="1448" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1532" x2="805" y2="1560" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1152" x2="427" y2="1740" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="805" y1="1532" x2="805" y2="1740" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="805" y1="1644" x2="1183" y2="1740" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="805" y1="1152" x2="805" y2="652" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1152" x2="805" y2="764" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1152" x2="805" y2="864" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<g>
+<rect x="595" y="68" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RL improves LLM math reasoning</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Reinforcement learning has emerged as a powerful paradigm for improving</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">mathematical reasoning in large language models.</text>
+<title>N1 [Context] (cites=0)
+Reinforcement learning has emerged as a powerful paradigm for improving mathematical reasoning in large language models.</title>
+</g>
+<circle cx="1022.0" cy="244.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="252.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="236" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="250" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Prior_Work]</text>
+<text x="805" y="265" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">DeepSeek-R1 + GRPO precedent</text>
+<text x="805" y="281" text-anchor="middle" font-size="9.5" fill="#555">DeepSeek-R1 (DeepSeek-AI et al., 2025) demonstrated that RL can incentivize</text>
+<text x="805" y="293" text-anchor="middle" font-size="9.5" fill="#555">sophisticated reasoning behaviors, while Group Relative Policy Optimization</text>
+<text x="805" y="305" text-anchor="middle" font-size="9.5" fill="#555">(GRPO) (Shao et al., 2024) introduced an efficient approach that eliminates</text>
+<text x="805" y="317" text-anchor="middle" font-size="9.5" fill="#555">the need…</text>
+<title>N2 [Prior_Work] (cites=2)
+DeepSeek-R1 (DeepSeek-AI et al., 2025) demonstrated that RL can incentivize sophisticated reasoning behaviors, while Group Relative Policy Optimization (GRPO) (Shao et al., 2024) introduced an efficient approach that eliminates the need for a separate value function by using group-relative advantage estimation.</title>
+</g>
+<circle cx="1022.0" cy="368.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="360" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="374" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Prior_Work : ANCHOR]</text>
+<text x="805" y="389" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">iGRPO: two-stage draft-conditioned training</text>
+<text x="805" y="405" text-anchor="middle" font-size="9.5" fill="#555">Building on these advances, iGRPO (Hatamizadeh et al., 2026) extends GRPO</text>
+<text x="805" y="417" text-anchor="middle" font-size="9.5" fill="#555">with a two-stage draft-conditioned training procedure: the model first</text>
+<text x="805" y="429" text-anchor="middle" font-size="9.5" fill="#555">generates multiple draft solutions, selects the best draft based on reward,</text>
+<text x="805" y="441" text-anchor="middle" font-size="9.5" fill="#555">and then trains on…</text>
+<title>N3 [Prior_Work] (cites=1)
+Building on these advances, iGRPO (Hatamizadeh et al., 2026) extends GRPO with a two-stage draft-conditioned training procedure: the model first generates multiple draft solutions, selects the best draft based on reward, and then trains on refinements conditioned on this selected draft.</title>
+</g>
+<g>
+<rect x="595" y="484" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="498" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work]</text>
+<text x="805" y="513" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">iGRPO gains under matched compute</text>
+<text x="805" y="529" text-anchor="middle" font-size="9.5" fill="#555">This approach achieves strong gains on math reasoning benchmarks under</text>
+<text x="805" y="541" text-anchor="middle" font-size="9.5" fill="#555">matched compute budgets.</text>
+<title>N4 [Prior_Work] (cites=0)
+This approach achieves strong gains on math reasoning benchmarks under matched compute budgets.</title>
+</g>
+<g>
+<rect x="595" y="652" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="666" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Limitation]</text>
+<text x="805" y="681" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Question: draft quality vs two-stage structure</text>
+<text x="805" y="697" text-anchor="middle" font-size="9.5" fill="#555">However, a fundamental question remains unanswered: does iGRPO's benefit</text>
+<text x="805" y="709" text-anchor="middle" font-size="9.5" fill="#555">come from conditioning on high-quality drafts, or from the two-stage</text>
+<text x="805" y="721" text-anchor="middle" font-size="9.5" fill="#555">structure itself?</text>
+<title>N5 [Limitation] (cites=0)
+However, a fundamental question remains unanswered: does iGRPO's benefit come from conditioning on high-quality drafts, or from the two-stage structure itself?</title>
+</g>
+<g>
+<rect x="595" y="764" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="778" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="793" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Best-of-N selection necessity unclear</text>
+<text x="805" y="809" text-anchor="middle" font-size="9.5" fill="#555">The original iGRPO method selects the highest-reward draft for conditioning,</text>
+<text x="805" y="821" text-anchor="middle" font-size="9.5" fill="#555">but it is unclear whether this quality-based selection is necessary.</text>
+<title>N6 [Limitation] (cites=0)
+The original iGRPO method selects the highest-reward draft for conditioning, but it is unclear whether this quality-based selection is necessary.</title>
+</g>
+<g>
+<rect x="595" y="864" width="420" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="878" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="893" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Two competing hypotheses about draft role</text>
+<text x="805" y="909" text-anchor="middle" font-size="9.5" fill="#555">If the benefit primarily comes from exposing the model to an in-context</text>
+<text x="805" y="921" text-anchor="middle" font-size="9.5" fill="#555">&quot;attempt&quot; (regardless of correctness), then even a low-quality draft should</text>
+<text x="805" y="933" text-anchor="middle" font-size="9.5" fill="#555">provide similar gains. Conversely, if draft quality is essential,</text>
+<text x="805" y="945" text-anchor="middle" font-size="9.5" fill="#555">conditioning on incorrect…</text>
+<title>N7 [Limitation] (cites=0)
+If the benefit primarily comes from exposing the model to an in-context &quot;attempt&quot; (regardless of correctness), then even a low-quality draft should provide similar gains. Conversely, if draft quality is essential, conditioning on incorrect drafts should substantially reduce performance.</title>
+</g>
+<g>
+<rect x="595" y="1056" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1070" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="1085" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Three-condition ablation (A/B/C)</text>
+<text x="805" y="1101" text-anchor="middle" font-size="9.5" fill="#555">To answer this question, we design a controlled ablation study with three</text>
+<text x="805" y="1113" text-anchor="middle" font-size="9.5" fill="#555">conditions: (A) GRPO baseline without draft conditioning, (B) iGRPO with</text>
+<text x="805" y="1125" text-anchor="middle" font-size="9.5" fill="#555">best-of-N draft selection (the original method), and (C) iGRPO with</text>
+<text x="805" y="1137" text-anchor="middle" font-size="9.5" fill="#555">worst-of-formatted draft…</text>
+<title>N8 [Method] (cites=0)
+To answer this question, we design a controlled ablation study with three conditions: (A) GRPO baseline without draft conditioning, (B) iGRPO with best-of-N draft selection (the original method), and (C) iGRPO with worst-of-formatted draft selection (our ablation variant that intentionally selects low-quality but well-formatted drafts).</title>
+</g>
+<g>
+<rect x="595" y="1180" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="1209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Matched-compute design</text>
+<text x="805" y="1225" text-anchor="middle" font-size="9.5" fill="#555">All conditions use matched compute, enabling a clean comparison of draft</text>
+<text x="805" y="1237" text-anchor="middle" font-size="9.5" fill="#555">selection strategies.</text>
+<title>N9 [Method] (cites=0)
+All conditions use matched compute, enabling a clean comparison of draft selection strategies.</title>
+</g>
+<g>
+<rect x="595" y="1348" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1362" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Result]</text>
+<text x="805" y="1377" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Worst-of-formatted exceeds best-of-N</text>
+<text x="805" y="1393" text-anchor="middle" font-size="9.5" fill="#555">Our results reveal a surprising finding: conditioning on worst-of-formatted</text>
+<text x="805" y="1405" text-anchor="middle" font-size="9.5" fill="#555">drafts not only recovers but exceeds the performance of best-of-N selection.</text>
+<title>N10 [Result] (cites=0)
+Our results reveal a surprising finding: conditioning on worst-of-formatted drafts not only recovers but exceeds the performance of best-of-N selection.</title>
+</g>
+<g>
+<rect x="595" y="1448" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1462" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Result]</text>
+<text x="805" y="1477" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">64.37% vs 61.94%; recovery ratio 1.34</text>
+<text x="805" y="1493" text-anchor="middle" font-size="9.5" fill="#555">iGRPO-worst achieves 64.37% macro-average accuracy compared to iGRPO-best's</text>
+<text x="805" y="1505" text-anchor="middle" font-size="9.5" fill="#555">61.94% (+2.43 pp), with a recovery ratio of 1.34 (95% CI: [1.21, 1.47]) on</text>
+<text x="805" y="1517" text-anchor="middle" font-size="9.5" fill="#555">MATH500.</text>
+<title>N11 [Result] (cites=0)
+iGRPO-worst achieves 64.37% macro-average accuracy compared to iGRPO-best's 61.94% (+2.43 pp), with a recovery ratio of 1.34 (95% CI: [1.21, 1.47]) on MATH500.</title>
+</g>
+<g>
+<rect x="595" y="1560" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1574" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Result]</text>
+<text x="805" y="1589" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">50% more gradient-active groups</text>
+<text x="805" y="1605" text-anchor="middle" font-size="9.5" fill="#555">Analysis reveals that worst-of-formatted selection produces 50% more</text>
+<text x="805" y="1617" text-anchor="middle" font-size="9.5" fill="#555">gradient-active training groups, potentially explaining its superior</text>
+<text x="805" y="1629" text-anchor="middle" font-size="9.5" fill="#555">performance.</text>
+<title>N12 [Result] (cites=0)
+Analysis reveals that worst-of-formatted selection produces 50% more gradient-active training groups, potentially explaining its superior performance.</title>
+</g>
+<g>
+<rect x="247" y="1740" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1754" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution: Finding 1]</text>
+<text x="427" y="1769" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Finding 1: clean ablation isolates draft quality</text>
+<text x="427" y="1785" text-anchor="middle" font-size="9.5" fill="#555">(1) we design a clean ablation study that isolates the role of</text>
+<text x="427" y="1797" text-anchor="middle" font-size="9.5" fill="#555">draft quality in iGRPO by comparing best-of-N vs</text>
+<text x="427" y="1809" text-anchor="middle" font-size="9.5" fill="#555">worst-of-formatted draft selection under matched compute;</text>
+<title>C1 [Contribution: Finding 1] (cites=0)
+(1) we design a clean ablation study that isolates the role of draft quality in iGRPO by comparing best-of-N vs worst-of-formatted draft selection under matched compute;</title>
+</g>
+<g>
+<rect x="625" y="1740" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1754" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution: Finding 2]</text>
+<text x="805" y="1769" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Finding 2: draft quality not necessary</text>
+<text x="805" y="1785" text-anchor="middle" font-size="9.5" fill="#555">(2) we demonstrate that draft quality is not necessary for iGRPO's</text>
+<text x="805" y="1797" text-anchor="middle" font-size="9.5" fill="#555">benefit, with worst-of-formatted selection achieving a recovery</text>
+<text x="805" y="1809" text-anchor="middle" font-size="9.5" fill="#555">ratio of 1.34 over best-of-N; and</text>
+<title>C2 [Contribution: Finding 2] (cites=0)
+(2) we demonstrate that draft quality is not necessary for iGRPO's benefit, with worst-of-formatted selection achieving a recovery ratio of 1.34 over best-of-N; and</title>
+</g>
+<g>
+<rect x="1003" y="1740" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1754" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution: Finding 3]</text>
+<text x="1183" y="1769" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Finding 3: gradient-active groups explanation</text>
+<text x="1183" y="1785" text-anchor="middle" font-size="9.5" fill="#555">(3) we provide mechanistic analysis showing that</text>
+<text x="1183" y="1797" text-anchor="middle" font-size="9.5" fill="#555">worst-of-formatted selection increases gradient-active training</text>
+<text x="1183" y="1809" text-anchor="middle" font-size="9.5" fill="#555">groups by 50%, offering a potential explanation for its superior</text>
+<text x="1183" y="1821" text-anchor="middle" font-size="9.5" fill="#555">performance.</text>
+<title>C3 [Contribution: Finding 3] (cites=0)
+(3) we provide mechanistic analysis showing that worst-of-formatted selection increases gradient-active training groups by 50%, offering a potential explanation for its superior performance.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

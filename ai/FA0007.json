@@ -1,0 +1,133 @@
+{
+  "paper_id": "FA0007",
+  "paper_topic": "WindowScan-Judge: post-hoc defense for LLM safety judges against benign-padding attacks via windowed scanning and length-aware aggregation",
+  "anchor_paper": "WildGuard (Han et al., 2024)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Large language models (LLMs) deployed in production systems require robust content moderation to prevent harmful outputs.",
+      "display_label": "LLMs need content moderation",
+      "citations": 0
+    },
+    {
+      "id": "N2",
+      "type": "Prior_Work",
+      "text": "Safety judges—specialized models that classify responses as safe or unsafe—have emerged as critical gatekeepers for both offline safety benchmarking and real-time content filtering (Inan et al., 2023; Han et al., 2024; Zeng et al., 2024).",
+      "display_label": "Safety judges as gatekeepers",
+      "citations": 3,
+      "anchor": true
+    },
+    {
+      "id": "N3",
+      "type": "Prior_Work",
+      "text": "These judges typically process responses holistically, examining the entire text to produce a single safety verdict.",
+      "display_label": "Judges process responses holistically",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Limitation",
+      "text": "However, this holistic design creates a fundamental vulnerability.",
+      "display_label": "Holistic design is vulnerable",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Result",
+      "text": "We demonstrate that state-of-the-art safety judges can be completely fooled by benign-padding attacks: simply prepending and appending benign text to harmful content causes WildGuard's false negative rate (FNR) to increase from 0.0455 to 1.0, meaning every unsafe response is misclassified as safe.",
+      "display_label": "WildGuard FNR jumps 0.045 -> 1.0 under padding",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "This catastrophic failure occurs because benign padding dilutes the harmful signal across a longer context, overwhelming the judge's detection capability.",
+      "display_label": "Padding dilutes harmful signal",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Limitation",
+      "text": "The natural mitigation—examining responses through smaller windows rather than holistically—introduces a new challenge.",
+      "display_label": "Naive windowing has new problem",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Limitation",
+      "text": "As response length increases, more windows are scanned, and the probability of spurious false positives grows.",
+      "display_label": "More windows -> more false positives",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Limitation",
+      "text": "This multiple-comparisons effect is particularly problematic for benign-padding attacks, which adversarially increase response length.",
+      "display_label": "Multiple-comparisons issue under padding",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Method",
+      "text": "We propose WindowScan-Judge (WSJ), a post-hoc wrapper that combines multi-scale windowed scanning with Length-Aware FPR Control (LA-FPR).",
+      "display_label": "WindowScan-Judge: windowing + LA-FPR",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method: component",
+      "text": "WSJ splits responses into overlapping windows at multiple scales, runs the base judge on each window independently, and aggregates decisions using a calibrated threshold that maintains false positive rate within a specified budget.",
+      "display_label": "Multi-scale windows + calibrated threshold",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Result",
+      "text": "This approach achieves dramatic improvements: on prepend+append padding, WSJ reduces WildGuard's FNR from 1.0 to 0.0091 while keeping FPR controlled.",
+      "display_label": "FNR 1.0 -> 0.0091 on padding",
+      "citations": 0
+    },
+    {
+      "id": "N13",
+      "type": "Contribution",
+      "text": "We identify and characterize the benign-padding vulnerability in safety judges, demonstrating that holistic evaluation fails catastrophically when harmful content is surrounded by benign text.",
+      "display_label": "Contribution: identify padding vulnerability",
+      "citations": 0
+    },
+    {
+      "id": "N14",
+      "type": "Contribution",
+      "text": "We propose WindowScan-Judge, a tuning-free wrapper that enhances any existing safety judge through multi-scale windowed scanning and length-aware aggregation.",
+      "display_label": "Contribution: WSJ tuning-free wrapper",
+      "citations": 0
+    },
+    {
+      "id": "N15",
+      "type": "Contribution",
+      "text": "We achieve 99.1% absolute FNR reduction on WildGuard while maintaining FPR within budget, with consistent improvements across multiple base judges including Llama Guard 3.",
+      "display_label": "Contribution: 99.1% FNR reduction, generalizes",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "elaboration"},
+    {"from": "N3", "to": "N4", "kind": "contrast", "connective": "However"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N6", "to": "N7", "kind": "elaboration"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "elaboration"},
+    {"from": "N9", "to": "N10", "kind": "consequence", "connective": "we propose"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "N12", "kind": "evidence"},
+    {"from": "N12", "to": "N13", "kind": "elaboration"},
+    {"from": "N12", "to": "N14", "kind": "elaboration"},
+    {"from": "N12", "to": "N15", "kind": "elaboration"},
+    {"from": "N10", "to": "N6", "kind": "addresses"},
+    {"from": "N11", "to": "N9", "kind": "addresses"},
+    {"from": "N10", "to": "N4", "kind": "addresses"}
+  ],
+  "observations": "FA0007 has a vulnerability-discovery-then-defense arc with two structural inflection points. The Context-Prior_Work zone (N1-N3) establishes safety judges as holistic gatekeepers, with WildGuard (N2, anchor) as the primary system the paper attacks and then defends. The first inflection comes at N4-N5: the holistic vulnerability claim (N4) is supported by an in-paper result (N5: WildGuard FNR jumping from 0.045 to 1.0) — this Result functions as evidence inside the Introduction, an unusual placement that makes the threat concrete before the defense is named. The second inflection is the limitation cascade N6-N9, which preemptively rules out the naive fix (windowing alone) by introducing the multiple-comparisons problem. This sets up a constrained design space that the proposed method (N10) must satisfy: both isolate signal AND control FPR. N11 details the two components (multi-scale windows + LA-FPR), and N12 (Result) provides headline empirical evidence (FNR 1.0 -> 0.0091). N12 forks into all three Contributions (vulnerability identification, the WSJ wrapper, the headline numbers). Cross-pair addresses edges connect each method element to its targeted limitation: N10 → N6 (windowing addresses signal dilution), N11 → N9 (LA-FPR addresses multiple-comparisons under padding), N10 → N4 (the WSJ wrapper addresses the holistic-design vulnerability). The narrative is unusually self-contained: the same paper introduces a vulnerability and resolves it, with the prior-work zone supplying only the systems being evaluated, not competing solutions."
+}

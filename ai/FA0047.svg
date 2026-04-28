@@ -1,0 +1,195 @@
+<svg viewBox="0 0 1480 1784" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="210" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="540" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="400" x2="1450" y2="400" stroke="#eee" stroke-width="1"/>
+<text x="14" y="764" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="680" x2="1450" y2="680" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1000" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="848" x2="1450" y2="848" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1342" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1152" x2="1450" y2="1152" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1628" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1532" x2="1450" y2="1532" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1560" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1556" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N11</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="163" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">however</text>
+<line x1="805" y1="252" x2="805" y2="280" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="263" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">This poses a challenge</text>
+<line x1="805" y1="352" x2="805" y2="448" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="532" x2="805" y2="560" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="632" x2="805" y2="728" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="677" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="800" x2="805" y2="896" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="805" y1="992" x2="805" y2="1020" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1104" x2="805" y2="1200" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1260" x2="805" y2="1288" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1372" x2="805" y2="1400" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1484" x2="427" y2="1580" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1484" x2="805" y2="1580" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1484" x2="1183" y2="1580" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="1676" x2="805" y2="728" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1676" x2="805" y2="728" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1183" y1="1676" x2="805" y2="728" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">tool-calling is critical for LLM agents</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Tool-calling has become a critical capability for large language model (LLM)</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">agents, enabling them to interact with external APIs and execute real-world</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">actions (Patil et al., 2023; Qin et al., 2023).</text>
+<title>N1 [Context] (cites=2)
+Tool-calling has become a critical capability for large language model (LLM) agents, enabling them to interact with external APIs and execute real-world actions (Patil et al., 2023; Qin et al., 2023).</title>
+</g>
+<g>
+<rect x="595" y="180" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">schema churn in production deployments</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">In production deployments, however, tool schemas evolve over time due to API</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">versioning, refactoring, or style changes—a phenomenon we term schema churn.</text>
+<title>N2 [Context] (cites=0)
+In production deployments, however, tool schemas evolve over time due to API versioning, refactoring, or style changes—a phenomenon we term schema churn.</title>
+</g>
+<g>
+<rect x="595" y="280" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="294" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="309" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">schema-specific calibration may not transfer</text>
+<text x="805" y="325" text-anchor="middle" font-size="9.5" fill="#555">This poses a challenge for methods that rely on schema-specific calibration,</text>
+<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">as their learned representations may not transfer when identifiers change.</text>
+<title>N3 [Context] (cites=0)
+This poses a challenge for methods that rely on schema-specific calibration, as their learned representations may not transfer when identifiers change.</title>
+</g>
+<circle cx="1022.0" cy="456.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="448" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="462" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work : ANCHOR]</text>
+<text x="805" y="477" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">ASA: training-free activation steering</text>
+<text x="805" y="493" text-anchor="middle" font-size="9.5" fill="#555">ASA (Activation Steering Adapter) (Wang et al., 2026) is a promising</text>
+<text x="805" y="505" text-anchor="middle" font-size="9.5" fill="#555">training-free method that improves tool-calling by manipulating model</text>
+<text x="805" y="517" text-anchor="middle" font-size="9.5" fill="#555">activations at inference time.</text>
+<title>N4 [Prior_Work] (cites=1)
+ASA (Activation Steering Adapter) (Wang et al., 2026) is a promising training-free method that improves tool-calling by manipulating model activations at inference time.</title>
+</g>
+<g>
+<rect x="595" y="560" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="574" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="805" y="589" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">ASA learns steering vector + probe</text>
+<text x="805" y="605" text-anchor="middle" font-size="9.5" fill="#555">ASA learns a steering vector and linear probe from labeled examples to</text>
+<text x="805" y="617" text-anchor="middle" font-size="9.5" fill="#555">control whether the model enters tool mode.</text>
+<title>N5 [Prior_Work] (cites=0)
+ASA learns a steering vector and linear probe from labeled examples to control whether the model enters tool mode.</title>
+</g>
+<g>
+<rect x="595" y="728" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="742" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="757" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">ASA assets may be churn-sensitive</text>
+<text x="805" y="773" text-anchor="middle" font-size="9.5" fill="#555">However, since these assets are computed from hidden states that encode</text>
+<text x="805" y="785" text-anchor="middle" font-size="9.5" fill="#555">schema identifiers, they may be sensitive to lexical churn.</text>
+<title>N6 [Limitation] (cites=0)
+However, since these assets are computed from hidden states that encode schema identifiers, they may be sensitive to lexical churn.</title>
+</g>
+<g>
+<rect x="595" y="896" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="910" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Method]</text>
+<text x="805" y="925" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">hypothesis: canonicalize to placeholders for invariance</text>
+<text x="805" y="941" text-anchor="middle" font-size="9.5" fill="#555">We hypothesize that canonicalizing schemas to a stable placeholder</text>
+<text x="805" y="953" text-anchor="middle" font-size="9.5" fill="#555">vocabulary (e.g., replacing get weather(location, unit) with tool 0(arg 0 0,</text>
+<text x="805" y="965" text-anchor="middle" font-size="9.5" fill="#555">arg 0 1)) before ASA processing could make the representation space</text>
+<text x="805" y="977" text-anchor="middle" font-size="9.5" fill="#555">invariant to surface-level…</text>
+<title>N7 [Method] (cites=0)
+We hypothesize that canonicalizing schemas to a stable placeholder vocabulary (e.g., replacing get weather(location, unit) with tool 0(arg 0 0, arg 0 1)) before ASA processing could make the representation space invariant to surface-level identifier changes.</title>
+</g>
+<g>
+<rect x="595" y="1020" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1034" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="1049" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">DelexGate-ASA: canonicalize then remap</text>
+<text x="805" y="1065" text-anchor="middle" font-size="9.5" fill="#555">We propose DelexGate-ASA, which applies this canonicalization strategy:</text>
+<text x="805" y="1077" text-anchor="middle" font-size="9.5" fill="#555">schemas are transformed to generic identifiers before ASA calibration and</text>
+<text x="805" y="1089" text-anchor="middle" font-size="9.5" fill="#555">inference, with outputs remapped back to real identifiers.</text>
+<title>N8 [Method] (cites=0)
+We propose DelexGate-ASA, which applies this canonicalization strategy: schemas are transformed to generic identifiers before ASA calibration and inference, with outputs remapped back to real identifiers.</title>
+</g>
+<g>
+<rect x="595" y="1200" width="420" height="60" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1214" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Result]</text>
+<text x="805" y="1229" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">DelexGate-ASA fails decisively</text>
+<text x="805" y="1245" text-anchor="middle" font-size="9.5" fill="#555">Surprisingly, this approach fails decisively.</text>
+<title>N9 [Result] (cites=0)
+Surprisingly, this approach fails decisively.</title>
+</g>
+<circle cx="1022.0" cy="1296.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1288" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1302" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Result]</text>
+<text x="805" y="1317" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">AST accuracy drops 15.2 pts on BFCL v3</text>
+<text x="805" y="1333" text-anchor="middle" font-size="9.5" fill="#555">On the BFCL v3 benchmark (Patil et al., 2025), DelexGate-ASA degrades</text>
+<text x="805" y="1345" text-anchor="middle" font-size="9.5" fill="#555">clean-schema AST accuracy by 15.2 percentage points (from 0.768 to 0.616)</text>
+<text x="805" y="1357" text-anchor="middle" font-size="9.5" fill="#555">while providing no robustness benefit under churn.</text>
+<title>N10 [Result] (cites=1)
+On the BFCL v3 benchmark (Patil et al., 2025), DelexGate-ASA degrades clean-schema AST accuracy by 15.2 percentage points (from 0.768 to 0.616) while providing no robustness benefit under churn.</title>
+</g>
+<g>
+<rect x="595" y="1400" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1414" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Result]</text>
+<text x="805" y="1429" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs need semantic parameter names</text>
+<text x="805" y="1445" text-anchor="middle" font-size="9.5" fill="#555">The failure reveals that LLMs rely on semantic information in parameter</text>
+<text x="805" y="1457" text-anchor="middle" font-size="9.5" fill="#555">names for correct argument-value mapping—canonicalization removes these</text>
+<text x="805" y="1469" text-anchor="middle" font-size="9.5" fill="#555">essential cues.</text>
+<title>N11 [Result] (cites=0)
+The failure reveals that LLMs rely on semantic information in parameter names for correct argument-value mapping—canonicalization removes these essential cues.</title>
+</g>
+<g>
+<rect x="247" y="1580" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1594" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Contribution: contribution-1]</text>
+<text x="427" y="1609" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: document failed canonicalization approach</text>
+<text x="427" y="1625" text-anchor="middle" font-size="9.5" fill="#555">First, we document a well-motivated approach (schema</text>
+<text x="427" y="1637" text-anchor="middle" font-size="9.5" fill="#555">canonicalization for activation steering) that fails, saving</text>
+<text x="427" y="1649" text-anchor="middle" font-size="9.5" fill="#555">future researchers from pursuing similar directions.</text>
+<title>N12 [Contribution: contribution-1] (cites=0)
+First, we document a well-motivated approach (schema canonicalization for activation steering) that fails, saving future researchers from pursuing similar directions.</title>
+</g>
+<g>
+<rect x="625" y="1580" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1594" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Contribution: contribution-2]</text>
+<text x="805" y="1609" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: parameter-name semantics are essential</text>
+<text x="805" y="1625" text-anchor="middle" font-size="9.5" fill="#555">Second, we reveal that semantic information in parameter names is</text>
+<text x="805" y="1637" text-anchor="middle" font-size="9.5" fill="#555">essential for function-call accuracy—LLMs cannot reliably map</text>
+<text x="805" y="1649" text-anchor="middle" font-size="9.5" fill="#555">values to generic placeholders even when descriptions are</text>
+<text x="805" y="1661" text-anchor="middle" font-size="9.5" fill="#555">preserved.</text>
+<title>N13 [Contribution: contribution-2] (cites=0)
+Second, we reveal that semantic information in parameter names is essential for function-call accuracy—LLMs cannot reliably map values to generic placeholders even when descriptions are preserved.</title>
+</g>
+<g>
+<rect x="1003" y="1580" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1594" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Contribution: contribution-3]</text>
+<text x="1183" y="1609" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: ASA assets robust; base model sensitive</text>
+<text x="1183" y="1625" text-anchor="middle" font-size="9.5" fill="#555">Third, we show that ASA’s learned assets are inherently robust to</text>
+<text x="1183" y="1637" text-anchor="middle" font-size="9.5" fill="#555">lexical churn: recalibration provides no benefit over simple</text>
+<text x="1183" y="1649" text-anchor="middle" font-size="9.5" fill="#555">reuse, indicating that degradation under churn stems from base</text>
+<text x="1183" y="1661" text-anchor="middle" font-size="9.5" fill="#555">model sensitivity rather than ASA asset drift.</text>
+<title>N14 [Contribution: contribution-3] (cites=0)
+Third, we show that ASA’s learned assets are inherently robust to lexical churn: recalibration provides no benefit over simple reuse, indicating that degradation under churn stems from base model sensitivity rather than ASA asset drift.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

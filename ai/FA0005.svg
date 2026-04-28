@@ -1,0 +1,198 @@
+<svg viewBox="0 0 1480 1632" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="408" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="892" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="796" x2="1450" y2="796" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1184" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="988" x2="1450" y2="988" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1476" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1380" x2="1450" y2="1380" stroke="#eee" stroke-width="1"/>
+<rect x="158" y="1408" width="1294" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="1404" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N10</text>
+<line x1="805" y1="164" x2="805" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="288" x2="805" y2="316" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="400" x2="805" y2="428" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="411" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="512" x2="805" y2="540" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="624" x2="805" y2="652" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="748" x2="805" y2="844" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="940" x2="805" y2="1036" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="985" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">In this paper</text>
+<line x1="805" y1="1108" x2="805" y2="1136" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1220" x2="805" y2="1248" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1332" x2="322" y2="1428" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1332" x2="644" y2="1428" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1332" x2="966" y2="1428" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1332" x2="1288" y2="1428" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="644" y1="1524" x2="805" y2="844" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="322" y1="1524" x2="805" y2="844" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">structured-output APIs are production-essential</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Structured-output APIs have become essential infrastructure for production</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">LLM deployments, enabling reliable integration with downstream systems</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">through guaranteed JSON schema compliance (Willard &amp; Louf, 2023; Dong et</text>
+<text x="805" y="149" text-anchor="middle" font-size="9.5" fill="#555">al., 2024).</text>
+<title>N1 [Context] (cites=2)
+Structured-output APIs have become essential infrastructure for production LLM deployments, enabling reliable integration with downstream systems through guaranteed JSON schema compliance (Willard &amp; Louf, 2023; Dong et al., 2024).</title>
+</g>
+<circle cx="1022.0" cy="200.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="192" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">vLLM/commercial APIs offer constrained decoding</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">Major inference platforms including vLLM (Kwon et al., 2023) and commercial</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">APIs now offer constrained decoding capabilities that mask invalid tokens at</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">each generation step, ensuring outputs conform to user-specified JSON</text>
+<text x="805" y="273" text-anchor="middle" font-size="9.5" fill="#555">schemas.</text>
+<title>N2 [Context] (cites=1)
+Major inference platforms including vLLM (Kwon et al., 2023) and commercial APIs now offer constrained decoding capabilities that mask invalid tokens at each generation step, ensuring outputs conform to user-specified JSON schemas.</title>
+</g>
+<g>
+<rect x="595" y="316" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="330" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="345" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">critical for function calling / data extraction</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">This functionality is critical for applications ranging from function</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">calling to data extraction, where malformed outputs would cause system</text>
+<text x="805" y="385" text-anchor="middle" font-size="9.5" fill="#555">failures.</text>
+<title>N3 [Context] (cites=0)
+This functionality is critical for applications ranging from function calling to data extraction, where malformed outputs would cause system failures.</title>
+</g>
+<circle cx="1022.0" cy="436.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="428" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="442" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="457" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">constrained decoding opens new attack surface</text>
+<text x="805" y="473" text-anchor="middle" font-size="9.5" fill="#555">However, recent work has revealed that these constrained decoding mechanisms</text>
+<text x="805" y="485" text-anchor="middle" font-size="9.5" fill="#555">create a new attack surface that bypasses traditional safety alignment</text>
+<text x="805" y="497" text-anchor="middle" font-size="9.5" fill="#555">(Zhang et al., 2026).</text>
+<title>N4 [Context] (cites=1)
+However, recent work has revealed that these constrained decoding mechanisms create a new attack surface that bypasses traditional safety alignment (Zhang et al., 2026).</title>
+</g>
+<g>
+<rect x="595" y="540" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="554" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="569" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">control-plane jailbreaks via forced enum/const</text>
+<text x="805" y="585" text-anchor="middle" font-size="9.5" fill="#555">Control-plane jailbreaks exploit the schema specification itself rather than</text>
+<text x="805" y="597" text-anchor="middle" font-size="9.5" fill="#555">the prompt, embedding harmful instructions in forced enum or const values</text>
+<text x="805" y="609" text-anchor="middle" font-size="9.5" fill="#555">that the model must output verbatim.</text>
+<title>N5 [Context] (cites=0)
+Control-plane jailbreaks exploit the schema specification itself rather than the prompt, embedding harmful instructions in forced enum or const values that the model must output verbatim.</title>
+</g>
+<g>
+<rect x="595" y="652" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="666" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Context]</text>
+<text x="805" y="681" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">EnumAttack hits 22% ASR on Llama-3.1-8B</text>
+<text x="805" y="697" text-anchor="middle" font-size="9.5" fill="#555">The EnumAttack achieves 22.0% attack success rate on Llama-3.1-8B-Instruct</text>
+<text x="805" y="709" text-anchor="middle" font-size="9.5" fill="#555">by forcing the model to generate harmful content through constrained</text>
+<text x="805" y="721" text-anchor="middle" font-size="9.5" fill="#555">decoding, even when the model would refuse the same request in unconstrained</text>
+<text x="805" y="733" text-anchor="middle" font-size="9.5" fill="#555">generation.</text>
+<title>N6 [Context] (cites=0)
+The EnumAttack achieves 22.0% attack success rate on Llama-3.1-8B-Instruct by forcing the model to generate harmful content through constrained decoding, even when the model would refuse the same request in unconstrained generation.</title>
+</g>
+<g>
+<rect x="595" y="844" width="420" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="858" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="873" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">prompt-level defenses insufficient for schema attacks</text>
+<text x="805" y="889" text-anchor="middle" font-size="9.5" fill="#555">Existing defenses designed for prompt-level attacks prove insufficient:</text>
+<text x="805" y="901" text-anchor="middle" font-size="9.5" fill="#555">input guards cannot detect harmful intent embedded in schema structures, and</text>
+<text x="805" y="913" text-anchor="middle" font-size="9.5" fill="#555">output-level escape mechanisms fail because constrained decoding prevents</text>
+<text x="805" y="925" text-anchor="middle" font-size="9.5" fill="#555">the model from…</text>
+<title>N7 [Limitation] (cites=0)
+Existing defenses designed for prompt-level attacks prove insufficient: input guards cannot detect harmful intent embedded in schema structures, and output-level escape mechanisms fail because constrained decoding prevents the model from selecting refusal tokens.</title>
+</g>
+<g>
+<rect x="595" y="1036" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1050" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="1065" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Selective DeLex-JSON: training-free schema sanitizer</text>
+<text x="805" y="1081" text-anchor="middle" font-size="9.5" fill="#555">In this paper, we propose Selective DeLex-JSON, a training-free defense that</text>
+<text x="805" y="1093" text-anchor="middle" font-size="9.5" fill="#555">sanitizes JSON schemas before constrained decoding.</text>
+<title>N8 [Method] (cites=0)
+In this paper, we propose Selective DeLex-JSON, a training-free defense that sanitizes JSON schemas before constrained decoding.</title>
+</g>
+<g>
+<rect x="595" y="1136" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1150" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="1165" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">intercept schemas, replace suspicious literals with placeholders</text>
+<text x="805" y="1181" text-anchor="middle" font-size="9.5" fill="#555">Our approach intercepts incoming schemas, identifies suspicious forced</text>
+<text x="805" y="1193" text-anchor="middle" font-size="9.5" fill="#555">literals using a conjunction-based heuristic, and replaces them with opaque</text>
+<text x="805" y="1205" text-anchor="middle" font-size="9.5" fill="#555">placeholders that preserve schema structure while removing attack payloads.</text>
+<title>N9 [Method] (cites=0)
+Our approach intercepts incoming schemas, identifies suspicious forced literals using a conjunction-based heuristic, and replaces them with opaque placeholders that preserve schema structure while removing attack payloads.</title>
+</g>
+<g>
+<rect x="595" y="1248" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1262" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="805" y="1277" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">schema-level defense, no model mod or overhead</text>
+<text x="805" y="1293" text-anchor="middle" font-size="9.5" fill="#555">The defense operates at the schema level, addressing the control-plane</text>
+<text x="805" y="1305" text-anchor="middle" font-size="9.5" fill="#555">attack vector directly without requiring model modification or additional</text>
+<text x="805" y="1317" text-anchor="middle" font-size="9.5" fill="#555">inference overhead.</text>
+<title>N10 [Method] (cites=0)
+The defense operates at the schema level, addressing the control-plane attack vector directly without requiring model modification or additional inference overhead.</title>
+</g>
+<g>
+<rect x="170" y="1428" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="322" y="1442" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Contribution: Finding 1]</text>
+<text x="322" y="1457" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">forced literals are the key attack vector</text>
+<text x="322" y="1473" text-anchor="middle" font-size="9.5" fill="#555">We identify forced enum/const literals as the key</text>
+<text x="322" y="1485" text-anchor="middle" font-size="9.5" fill="#555">attack vector in control-plane jailbreaks,</text>
+<text x="322" y="1497" text-anchor="middle" font-size="9.5" fill="#555">demonstrating through ablation that metadata removal</text>
+<text x="322" y="1509" text-anchor="middle" font-size="9.5" fill="#555">alone provides no safety benefit while literal…</text>
+<title>N11 [Contribution: Finding 1] (cites=0)
+We identify forced enum/const literals as the key attack vector in control-plane jailbreaks, demonstrating through ablation that metadata removal alone provides no safety benefit while literal delexicalization achieves complete attack neutralization.</title>
+</g>
+<g>
+<rect x="492" y="1428" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="644" y="1442" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Contribution: Finding 2]</text>
+<text x="644" y="1457" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">0% ASR, 1.1% benign mod rate</text>
+<text x="644" y="1473" text-anchor="middle" font-size="9.5" fill="#555">We propose Selective DeLex-JSON, a training-free</text>
+<text x="644" y="1485" text-anchor="middle" font-size="9.5" fill="#555">defense that achieves 0% HarmBench ASR on both</text>
+<text x="644" y="1497" text-anchor="middle" font-size="9.5" fill="#555">Llama-3.1-8B and Qwen2.5-7B while incurring only 1.1%</text>
+<text x="644" y="1509" text-anchor="middle" font-size="9.5" fill="#555">benign schema modification rate.</text>
+<title>N12 [Contribution: Finding 2] (cites=0)
+We propose Selective DeLex-JSON, a training-free defense that achieves 0% HarmBench ASR on both Llama-3.1-8B and Qwen2.5-7B while incurring only 1.1% benign schema modification rate.</title>
+</g>
+<g>
+<rect x="814" y="1428" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="966" y="1442" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Contribution: Finding 3]</text>
+<text x="966" y="1457" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Pareto-dominates Reject-Only baseline</text>
+<text x="966" y="1473" text-anchor="middle" font-size="9.5" fill="#555">We demonstrate that DeLex-JSON Pareto-dominates</text>
+<text x="966" y="1485" text-anchor="middle" font-size="9.5" fill="#555">existing defenses, reducing benign cost by 3.3</text>
+<text x="966" y="1497" text-anchor="middle" font-size="9.5" fill="#555">percentage points compared to Reject-Only while</text>
+<text x="966" y="1509" text-anchor="middle" font-size="9.5" fill="#555">maintaining identical safety guarantees.</text>
+<title>N13 [Contribution: Finding 3] (cites=0)
+We demonstrate that DeLex-JSON Pareto-dominates existing defenses, reducing benign cost by 3.3 percentage points compared to Reject-Only while maintaining identical safety guarantees.</title>
+</g>
+<g>
+<rect x="1136" y="1428" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1288" y="1442" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Contribution: Finding 4]</text>
+<text x="1288" y="1457" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">syntactic defenses limited vs chunked payloads</text>
+<text x="1288" y="1473" text-anchor="middle" font-size="9.5" fill="#555">We characterize the limitation of syntactic-level</text>
+<text x="1288" y="1485" text-anchor="middle" font-size="9.5" fill="#555">defenses against chunked-payload attacks, motivating</text>
+<text x="1288" y="1497" text-anchor="middle" font-size="9.5" fill="#555">future work on semantic-level detection methods.</text>
+<title>N14 [Contribution: Finding 4] (cites=0)
+We characterize the limitation of syntactic-level defenses against chunked-payload attacks, motivating future work on semantic-level detection methods.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

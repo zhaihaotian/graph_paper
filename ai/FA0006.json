@@ -1,0 +1,124 @@
+{
+  "paper_id": "FA0006",
+  "paper_topic": "View-disagreement escalation: training-free framework for robust LLM trajectory judges against CoT manipulation",
+  "anchor_paper": "Khalifa et al., 2026 (CoT manipulation attack)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Large language models (LLMs) are increasingly deployed as judges to evaluate web agent trajectories, providing scalable assessment of whether agents successfully complete tasks (Zheng et al., 2023; Lù et al., 2025).",
+      "display_label": "LLMs as judges for web agent trajectories",
+      "citations": 2
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "This LLM-as-a-judge paradigm enables automatic evaluation at scale, supporting both benchmarking and training data selection for agent improvement.",
+      "display_label": "Judge paradigm enables scaling",
+      "citations": 0
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "However, the reliability of these judges is critical: when judge outputs are used for rejection sampling or reward signals, false positives can inject label noise and enable reward hacking.",
+      "display_label": "Judge reliability is critical",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Context",
+      "text": "A key vulnerability emerges from the judge's reliance on agent-generated chain-of-thought (CoT) reasoning traces.",
+      "display_label": "Vulnerability: reliance on CoT",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Prior_Work",
+      "text": "Khalifa et al. (2026) demonstrated that manipulating only the CoT—while keeping actions and observations fixed—can inflate false positive rates by up to 90%.",
+      "display_label": "Khalifa: CoT manipulation inflates FPR 90%",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "This attack exploits the judge's tendency to trust persuasive narrative reasoning that is not grounded in observable evidence.",
+      "display_label": "Judge over-trusts persuasive CoT",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Limitation",
+      "text": "Existing mitigations face a fundamental trade-off: removing CoT entirely eliminates the vulnerability but sacrifices useful context for interpreting agent behavior, while always-on strict evaluation increases cost and can reduce recall.",
+      "display_label": "Mitigation trade-off: cost vs context",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "We propose view-disagreement escalation, a training-free framework that exploits the asymmetric effects of CoT manipulation.",
+      "display_label": "View-disagreement escalation",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Method: component",
+      "text": "Our key insight is that a judge seeing CoT (View1) is susceptible to manipulation, while a judge without CoT (View2) is agnostic to it.",
+      "display_label": "Insight: View1 susceptible, View2 agnostic",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Method: component",
+      "text": "When CoT is manipulated, View1 predictions shift toward false positives while View2 remains stable, causing disagreement.",
+      "display_label": "Manipulation causes view disagreement",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method: component",
+      "text": "We use this disagreement as a mechanistically motivated trigger to selectively escalate uncertain cases to evidence-anchored evaluation.",
+      "display_label": "Disagreement triggers evidence-anchored escalation",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Contribution",
+      "text": "A mechanistically-motivated framework that uses counterfactual input views (with/without CoT) to detect unreliable predictions and selectively escalate to strict evidence-anchored judgment.",
+      "display_label": "Contribution: counterfactual view framework",
+      "citations": 0
+    },
+    {
+      "id": "N13",
+      "type": "Contribution",
+      "text": "Empirical validation that view disagreement is enriched under CoT manipulation attacks (2.15× higher disagreement rate on attacked vs. unmodified failures), confirming the mechanistic hypothesis.",
+      "display_label": "Contribution: 2.15x disagreement enrichment",
+      "citations": 0
+    },
+    {
+      "id": "N14",
+      "type": "Contribution",
+      "text": "Demonstration that our method achieves 63% relative reduction in attack sensitivity (∆-FPR: 4.31% vs 11.71%) while maintaining competitive F1 (72.13% vs 72.93%) and achieving the best recall (77.63%) on AgentRewardBench.",
+      "display_label": "Contribution: 63% attack reduction, best recall",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "contrast", "connective": "However"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N5", "kind": "evidence"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N6", "to": "N7", "kind": "elaboration"},
+    {"from": "N7", "to": "N8", "kind": "consequence", "connective": "We propose"},
+    {"from": "N8", "to": "N9", "kind": "elaboration"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "N12", "kind": "elaboration"},
+    {"from": "N11", "to": "N13", "kind": "elaboration"},
+    {"from": "N11", "to": "N14", "kind": "elaboration"},
+    {"from": "N11", "to": "N7", "kind": "addresses"},
+    {"from": "N9", "to": "N6", "kind": "addresses"}
+  ],
+  "observations": "FA0006 has a tightly coupled threat-and-response arc structured around a single anchor paper (Khalifa et al., 2026, N5), which functions as both Prior_Work and the source of the attack the paper defends against. Context (N1-N4) establishes LLM-as-a-judge in web agent evaluation, the field-level reliability concern, and the CoT-reliance vulnerability framing -- all four are field-level problem framing rather than method critique, so they sit in Context. The Limitation block proper begins only after Khalifa (N5) is introduced as Prior_Work: N6 critiques the judges' over-trust of persuasive CoT, and N7 critiques existing mitigations for their cost-vs-context trade-off. The mitigation trade-off (N7) is the immediate motivator for the proposed method (N8). The Method zone is unusually cohesive: an insight (N9), a mechanistic prediction (N10), and a deployment rule (N11) form a linear chain that all three contributions branch off from. N11 is a true fork node leading to all three Contributions. Cross-pair addresses edges link Method to Limitation: N9 → N6 (View2 being CoT-agnostic addresses persuasive-narrative trust), N11 → N7 (selective escalation addresses cost/recall trade-off). The narrative is single-threaded with no competing hypotheses; the structure mirrors a security paper where the same prior work both reveals the vulnerability and constrains the solution space."
+}

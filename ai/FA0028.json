@@ -1,0 +1,266 @@
+{
+  "paper_id": "FA0028",
+  "paper_topic": "Acceptance-Controlled MIS-PO: adaptive trajectory filtering for stable off-policy RLVR training",
+  "anchor_paper": "MIS-PO (Huang et al., 2026)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Reinforcement learning from verifiable rewards (RLVR) has emerged as a powerful paradigm for improving the reasoning capabilities of large language models (DeepSeek-AI et al., 2025; Shao et al., 2024).",
+      "display_label": "RLVR for LLM reasoning",
+      "citations": 2
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "Unlike reinforcement learning from human feedback (RLHF) (Ouyang et al., 2022), which relies on learned reward models, RLVR leverages rule-based verification of outputs—such as checking mathematical correctness or code execution—to provide training signals.",
+      "display_label": "RLVR vs RLHF: rule-based verification",
+      "citations": 1
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "This approach has enabled substantial improvements in mathematical reasoning, with models like DeepSeek-R1 (DeepSeek-AI et al., 2025) demonstrating that RLVR can unlock emergent reasoning behaviors.",
+      "display_label": "RLVR enables emergent reasoning",
+      "citations": 1
+    },
+    {
+      "id": "N4",
+      "type": "Context",
+      "text": "Scaling RLVR training requires efficient utilization of compute resources.",
+      "display_label": "Scaling RLVR needs compute efficiency",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Prior_Work",
+      "text": "Off-policy training, where rollout generation is decoupled from policy updates, offers significant throughput advantages by enabling asynchronous data collection (Yu et al., 2025).",
+      "display_label": "Off-policy training for throughput",
+      "citations": 1
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "However, this introduces staleness: the policy used for rollouts may be many iterations behind the current training policy.",
+      "display_label": "Off-policy introduces staleness",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Limitation",
+      "text": "Under high staleness, the distribution mismatch between rollout and training policies creates severe optimization challenges.",
+      "display_label": "High staleness causes distribution mismatch",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Limitation",
+      "text": "Standard methods like PPO clipping (Schulman et al., 2015) become ineffective when the policy ratio stays near 1.0 due to stale data, while importance sampling corrections can introduce prohibitive variance.",
+      "display_label": "PPO clipping ineffective; IS variance high",
+      "citations": 1
+    },
+    {
+      "id": "N9",
+      "type": "Prior_Work",
+      "text": "Recent work has proposed various mechanisms to address off-policy instability.",
+      "display_label": "Recent work on off-policy instability",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Prior_Work",
+      "text": "MIS-PO (Huang et al., 2026) applies binary accept/reject masks based on importance ratio bounds, filtering trajectories that deviate too far from the current policy.",
+      "display_label": "MIS-PO: binary accept/reject filtering",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N11",
+      "type": "Prior_Work",
+      "text": "M2PO (Zheng et al., 2025b) constrains the second moment of importance ratios to control variance.",
+      "display_label": "M2PO: 2nd-moment variance control",
+      "citations": 1
+    },
+    {
+      "id": "N12",
+      "type": "Limitation",
+      "text": "However, these methods rely on fixed hyperparameters that may not generalize across different staleness levels and training stages.",
+      "display_label": "Fixed hyperparameters fail to generalize",
+      "citations": 0
+    },
+    {
+      "id": "N13",
+      "type": "Result",
+      "text": "In our experiments with staleness s = 256, Fixed MIS-PO with default bounds crashed at step 94 due to gradient explosion, GRPO failed to learn (0% on AIME benchmarks), and M2PO achieved only 18.40% average accuracy.",
+      "display_label": "MIS-PO crashes; GRPO 0%; M2PO 18.4%",
+      "citations": 0
+    },
+    {
+      "id": "N14",
+      "type": "Method",
+      "text": "We propose Acceptance-Controlled MIS-PO (AC-MIS-PO), a method that adaptively adjusts trajectory filtering bounds based on a target acceptance rate schedule.",
+      "display_label": "Propose AC-MIS-PO: adaptive bounds",
+      "citations": 0
+    },
+    {
+      "id": "N15",
+      "type": "Method",
+      "text": "Rather than fixing bounds a priori, AC-MIS-PO uses quantile estimation and exponential moving average (EMA) smoothing to discover appropriate bound magnitudes automatically.",
+      "display_label": "Quantile estimation + EMA smoothing",
+      "citations": 0
+    },
+    {
+      "id": "N16",
+      "type": "Method",
+      "text": "The acceptance schedule starts permissive (40%) and gradually tightens (20%), allowing efficient learning early in training while maintaining stability as the policy diverges from rollout data.",
+      "display_label": "Acceptance schedule 40% to 20%",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We identify that bound magnitude is the primary driver of stable off-policy RLVR training. Tighter trajectory bounds that filter more aggressively yield +12.76 percentage points improvement over default MIS-PO bounds.",
+      "display_label": "Bound magnitude primary driver (+12.76pp)",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We propose AC-MIS-PO, an adaptive controller that targets acceptance rate using quantile estimation and EMA smoothing, automatically discovering appropriate bound magnitudes without manual tuning.",
+      "display_label": "AC-MIS-PO adaptive controller",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We demonstrate that AC-MIS-PO achieves 32.57% average accuracy on mathematical reasoning benchmarks (Math500, AIME24, AIME25) under staleness s = 256, outperforming Fixed MIS-PO (18.67%), M2PO (18.40%), and GRPO (6.57%) while maintaining training stability.",
+      "display_label": "AC-MIS-PO 32.57% vs baselines",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "kind": "contrast",
+      "connective": "Unlike"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "kind": "consequence",
+      "connective": "This approach has enabled"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "kind": "contrast",
+      "connective": "However"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "kind": "consequence",
+      "connective": "to address"
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N9",
+      "to": "N11",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N10",
+      "to": "N12",
+      "kind": "contrast",
+      "connective": "However"
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "kind": "contrast",
+      "connective": "However"
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "kind": "evidence"
+    },
+    {
+      "from": "N13",
+      "to": "N14",
+      "kind": "consequence",
+      "connective": "We propose"
+    },
+    {
+      "from": "N14",
+      "to": "N15",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N15",
+      "to": "N16",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N16",
+      "to": "C1",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N16",
+      "to": "C2",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N16",
+      "to": "C3",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N14",
+      "to": "N10",
+      "kind": "addresses"
+    },
+    {
+      "from": "N15",
+      "to": "N12",
+      "kind": "addresses"
+    },
+    {
+      "from": "N16",
+      "to": "N8",
+      "kind": "addresses"
+    },
+    {
+      "from": "C3",
+      "to": "N12",
+      "kind": "addresses"
+    }
+  ],
+  "observations": "FA0028 follows a tight problem-solution arc anchored on MIS-PO. Opening Context (N1-N4) frames RLVR as the dominant paradigm for LLM reasoning and contrasts it with RLHF, then narrows to compute scaling. The Prior_Work / Limitation interleaving is the structural backbone: off-policy training (N5) is positive, then a cascade of limitations (N6-N8) details staleness, distribution mismatch, and PPO/IS failure modes. A second Prior_Work cluster (N9-N11) introduces the immediate baselines (MIS-PO, M2PO) which both join into a shared limitation (N12: fixed hyperparameters), forming a join node by topology. N13 acts as Result-as-evidence: empirical numbers (crash, 0%, 18.4%) substantiate N12 before the method pivot. The Method block (N14-N16) is a linear chain into the three Contribution nodes (C1-C3). Three addresses edges link the method directly back to the named limitations (MIS-PO baseline, fixed hyperparameters), making the resolution structure explicit. Narrative arc: scale RLVR -> off-policy gives speed but staleness -> existing fixes use fixed bounds and crash -> adapt the bounds via acceptance rate -> three quantified contributions."
+}

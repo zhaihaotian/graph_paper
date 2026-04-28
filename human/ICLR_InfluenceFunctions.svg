@@ -1,0 +1,345 @@
+<svg viewBox="0 0 1480 2592" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="434" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="1056" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="848" x2="1450" y2="848" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1404" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="1264" x2="1450" y2="1264" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1852" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1544" x2="1450" y2="1544" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2256" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="2160" x2="1450" y2="2160" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2442" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="2352" x2="1450" y2="2352" stroke="#eee" stroke-width="1"/>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="240" x2="805" y2="268" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="251" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="340" x2="805" y2="368" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="452" x2="805" y2="480" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="463" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Furthermore</text>
+<line x1="805" y1="576" x2="805" y2="604" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="688" x2="805" y2="716" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="699" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">This motivates</text>
+<line x1="805" y1="800" x2="322" y2="896" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="322" y1="992" x2="616" y2="1020" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1116" x2="427" y2="1312" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="521" y="1211" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="427" y1="1396" x2="644" y2="896" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="644" y1="992" x2="994" y2="1020" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="819" y="1003" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Consequently</text>
+<line x1="994" y1="1116" x2="805" y2="1144" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1216" x2="805" y2="1312" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="1261" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="1396" x2="966" y2="896" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="966" y1="992" x2="1183" y2="1312" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1183" y1="1396" x2="805" y2="1424" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="994" y="1407" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Moreover</text>
+<line x1="805" y1="1496" x2="616" y2="1592" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1688" x2="1288" y2="896" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1288" y1="992" x2="994" y2="1592" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="1141" y="1289" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="994" y1="1688" x2="805" y2="1716" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1800" x2="805" y2="1828" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1924" x2="805" y2="1952" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2012" x2="805" y2="2040" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2112" x2="805" y2="2208" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2304" x2="805" y2="2400" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1800" x2="427" y2="1312" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="616" y1="1688" x2="805" y2="1312" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="2112" x2="1183" y2="1312" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Diffusion drives generative modelling progress</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Generative modelling for continuous data modalities — like images, video,</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">and audio — has advanced rapidly, propelled by improvements in</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">diffusion-based approaches.</text>
+<title>N1 [Context] (cites=0)
+Generative modelling for continuous data modalities — like images, video, and audio — has advanced rapidly, propelled by improvements in diffusion-based approaches.</title>
+</g>
+<g>
+<rect x="595" y="180" width="420" height="60" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Commercial AI image generation widespread</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">Many companies now offer easy access to AI-generated bespoke image content.</text>
+<title>N2 [Context] (cites=0)
+Many companies now offer easy access to AI-generated bespoke image content.</title>
+</g>
+<g>
+<rect x="595" y="268" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="282" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="297" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Need to understand training-data influence</text>
+<text x="805" y="313" text-anchor="middle" font-size="9.5" fill="#555">However, the use of these models for commercial purposes creates a need for</text>
+<text x="805" y="325" text-anchor="middle" font-size="9.5" fill="#555">understanding how the training data influences their outputs.</text>
+<title>N3 [Context] (cites=0)
+However, the use of these models for commercial purposes creates a need for understanding how the training data influences their outputs.</title>
+</g>
+<g>
+<rect x="595" y="368" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="382" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="397" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Need to identify/remove harmful training data</text>
+<text x="805" y="413" text-anchor="middle" font-size="9.5" fill="#555">In cases where the model's outputs are undesirable, it is useful to be able</text>
+<text x="805" y="425" text-anchor="middle" font-size="9.5" fill="#555">to identify, and possibly remove, the training data instances responsible</text>
+<text x="805" y="437" text-anchor="middle" font-size="9.5" fill="#555">for those outputs.</text>
+<title>N4 [Context] (cites=0)
+In cases where the model's outputs are undesirable, it is useful to be able to identify, and possibly remove, the training data instances responsible for those outputs.</title>
+</g>
+<circle cx="1022.0" cy="488.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="480" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="494" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="509" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Copyright works in training corpora raise concerns</text>
+<text x="805" y="525" text-anchor="middle" font-size="9.5" fill="#555">Furthermore, as copyrighted works often make up a significant part of the</text>
+<text x="805" y="537" text-anchor="middle" font-size="9.5" fill="#555">training corpora of these models (Schuhmann et al., 2022), concerns about</text>
+<text x="805" y="549" text-anchor="middle" font-size="9.5" fill="#555">the extent to which individual copyright owners' works influence the</text>
+<text x="805" y="561" text-anchor="middle" font-size="9.5" fill="#555">generated samples…</text>
+<title>N5 [Context] (cites=1)
+Furthermore, as copyrighted works often make up a significant part of the training corpora of these models (Schuhmann et al., 2022), concerns about the extent to which individual copyright owners' works influence the generated samples arise.</title>
+</g>
+<circle cx="1022.0" cy="612.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="620.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="604" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="618" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Context]</text>
+<text x="805" y="633" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Lawsuits over 'copyright infringement as a service'</text>
+<text x="805" y="649" text-anchor="middle" font-size="9.5" fill="#555">Some already characterise what these companies offer as “copyright</text>
+<text x="805" y="661" text-anchor="middle" font-size="9.5" fill="#555">infringement as a service” (Saveri &amp; Butterick, 2023a), which has caused a</text>
+<text x="805" y="673" text-anchor="middle" font-size="9.5" fill="#555">flurry of high-profile lawsuits Saveri &amp; Butterick (2023a;b).</text>
+<title>N6 [Context] (cites=2)
+Some already characterise what these companies offer as “copyright infringement as a service” (Saveri &amp; Butterick, 2023a), which has caused a flurry of high-profile lawsuits Saveri &amp; Butterick (2023a;b).</title>
+</g>
+<g>
+<rect x="595" y="716" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="730" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Context]</text>
+<text x="805" y="745" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Motivates data attribution tools</text>
+<text x="805" y="761" text-anchor="middle" font-size="9.5" fill="#555">This motivates exploring tools for data attribution that might be able to</text>
+<text x="805" y="773" text-anchor="middle" font-size="9.5" fill="#555">quantify how each group of training data points influences the models'</text>
+<text x="805" y="785" text-anchor="middle" font-size="9.5" fill="#555">outputs.</text>
+<title>N7 [Context] (cites=0)
+This motivates exploring tools for data attribution that might be able to quantify how each group of training data points influences the models' outputs.</title>
+</g>
+<circle cx="481.0" cy="904.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="481.0" cy="912.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="170" y="896" width="304" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="322" y="910" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Prior_Work : ANCHOR]</text>
+<text x="322" y="925" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Influence functions: a known attribution tool</text>
+<text x="322" y="941" text-anchor="middle" font-size="9.5" fill="#555">Influence functions (Koh &amp; Liang, 2017b; Bae et al.,</text>
+<text x="322" y="953" text-anchor="middle" font-size="9.5" fill="#555">2022) offer precisely such a tool.</text>
+<title>N8 [Prior_Work] (cites=2)
+Influence functions (Koh &amp; Liang, 2017b; Bae et al., 2022) offer precisely such a tool.</title>
+</g>
+<g>
+<rect x="436" y="1020" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="1034" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Prior_Work]</text>
+<text x="616" y="1049" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">IFs answer the leave-out counterfactual</text>
+<text x="616" y="1065" text-anchor="middle" font-size="9.5" fill="#555">By approximating the answer to the question, “If the model was</text>
+<text x="616" y="1077" text-anchor="middle" font-size="9.5" fill="#555">trained with some of the data excluded, what would its output</text>
+<text x="616" y="1089" text-anchor="middle" font-size="9.5" fill="#555">be?”, they can help finding data points most responsible for a low</text>
+<text x="616" y="1101" text-anchor="middle" font-size="9.5" fill="#555">loss on an example, or a high probability of…</text>
+<title>N9 [Prior_Work] (cites=0)
+By approximating the answer to the question, “If the model was trained with some of the data excluded, what would its output be?”, they can help finding data points most responsible for a low loss on an example, or a high probability of generating a particular example.</title>
+</g>
+<g>
+<rect x="247" y="1312" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="427" y="1326" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Limitation]</text>
+<text x="427" y="1341" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Not yet scalable for diffusion</text>
+<text x="427" y="1357" text-anchor="middle" font-size="9.5" fill="#555">However, they have yet to be scalably adapted to the general</text>
+<text x="427" y="1369" text-anchor="middle" font-size="9.5" fill="#555">diffusion modelling setting.</text>
+<title>N10 [Limitation] (cites=0)
+However, they have yet to be scalably adapted to the general diffusion modelling setting.</title>
+</g>
+<g>
+<rect x="492" y="896" width="304" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="644" y="910" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Prior_Work]</text>
+<text x="644" y="925" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">IFs locally approximate loss-landscape change</text>
+<text x="644" y="941" text-anchor="middle" font-size="9.5" fill="#555">Influence functions work by locally approximating how</text>
+<text x="644" y="953" text-anchor="middle" font-size="9.5" fill="#555">the loss landscape would change if some of the training</text>
+<text x="644" y="965" text-anchor="middle" font-size="9.5" fill="#555">data points were down-weighted in the training loss</text>
+<text x="644" y="977" text-anchor="middle" font-size="9.5" fill="#555">(illustrated in Figure 4).</text>
+<title>N11 [Prior_Work] (cites=0)
+Influence functions work by locally approximating how the loss landscape would change if some of the training data points were down-weighted in the training loss (illustrated in Figure 4).</title>
+</g>
+<g>
+<rect x="814" y="1020" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="1034" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Prior_Work]</text>
+<text x="994" y="1049" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">IFs predict optimum + parameter changes</text>
+<text x="994" y="1065" text-anchor="middle" font-size="9.5" fill="#555">Consequently, this enables prediction for how the (local) optimum</text>
+<text x="994" y="1077" text-anchor="middle" font-size="9.5" fill="#555">of the training loss would change, and how that change in the</text>
+<text x="994" y="1089" text-anchor="middle" font-size="9.5" fill="#555">parameters would affect a measurement of interest (e.g., loss on a</text>
+<text x="994" y="1101" text-anchor="middle" font-size="9.5" fill="#555">particular example).</text>
+<title>N12 [Prior_Work] (cites=0)
+Consequently, this enables prediction for how the (local) optimum of the training loss would change, and how that change in the parameters would affect a measurement of interest (e.g., loss on a particular example).</title>
+</g>
+<g>
+<rect x="595" y="1144" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="1158" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Prior_Work]</text>
+<text x="805" y="1173" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Extrapolate to full-removal estimate</text>
+<text x="805" y="1189" text-anchor="middle" font-size="9.5" fill="#555">By extrapolating this prediction, one can estimate what would happen if the</text>
+<text x="805" y="1201" text-anchor="middle" font-size="9.5" fill="#555">data points were fully removed from the training set.</text>
+<title>N13 [Prior_Work] (cites=0)
+By extrapolating this prediction, one can estimate what would happen if the data points were fully removed from the training set.</title>
+</g>
+<g>
+<rect x="625" y="1312" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1326" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Limitation]</text>
+<text x="805" y="1341" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Hessian inversion is expensive</text>
+<text x="805" y="1357" text-anchor="middle" font-size="9.5" fill="#555">However, to locally approximate the shape of the loss landscape,</text>
+<text x="805" y="1369" text-anchor="middle" font-size="9.5" fill="#555">influence functions require computing and inverting the Hessian of</text>
+<text x="805" y="1381" text-anchor="middle" font-size="9.5" fill="#555">the training loss, which is computationally expensive.</text>
+<title>N14 [Limitation] (cites=0)
+However, to locally approximate the shape of the loss landscape, influence functions require computing and inverting the Hessian of the training loss, which is computationally expensive.</title>
+</g>
+<circle cx="1125.0" cy="904.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1125.0" cy="912.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="896" width="304" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="966" y="910" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Prior_Work]</text>
+<text x="966" y="925" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">GGN: common Hessian approximation</text>
+<text x="966" y="941" text-anchor="middle" font-size="9.5" fill="#555">One common approximation of the training loss's Hessian</text>
+<text x="966" y="953" text-anchor="middle" font-size="9.5" fill="#555">is the generalised Gauss-Newton matrix (GGN,</text>
+<text x="966" y="965" text-anchor="middle" font-size="9.5" fill="#555">Schraudolph, 2002; Martens, 2020).</text>
+<title>N15 [Prior_Work] (cites=2)
+One common approximation of the training loss's Hessian is the generalised Gauss-Newton matrix (GGN, Schraudolph, 2002; Martens, 2020).</title>
+</g>
+<g>
+<rect x="1003" y="1312" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="1183" y="1326" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Limitation]</text>
+<text x="1183" y="1341" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">GGN not formulated for diffusion objective</text>
+<text x="1183" y="1357" text-anchor="middle" font-size="9.5" fill="#555">The GGN has not been clearly formulated for the diffusion</text>
+<text x="1183" y="1369" text-anchor="middle" font-size="9.5" fill="#555">modelling objective before and cannot be uniquely determined based</text>
+<text x="1183" y="1381" text-anchor="middle" font-size="9.5" fill="#555">on its general definition.</text>
+<title>N16 [Limitation] (cites=0)
+The GGN has not been clearly formulated for the diffusion modelling objective before and cannot be uniquely determined based on its general definition.</title>
+</g>
+<g>
+<rect x="595" y="1424" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1438" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Limitation]</text>
+<text x="805" y="1453" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">GGN itself needs further approximation</text>
+<text x="805" y="1469" text-anchor="middle" font-size="9.5" fill="#555">Moreover, to compute and store a GGN for large neural networks further</text>
+<text x="805" y="1481" text-anchor="middle" font-size="9.5" fill="#555">approximations are necessary.</text>
+<title>N17 [Limitation] (cites=0)
+Moreover, to compute and store a GGN for large neural networks further approximations are necessary.</title>
+</g>
+<circle cx="803.0" cy="1600.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="1608.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="1616.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="1592" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1606" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Method]</text>
+<text x="616" y="1621" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose K-FAC / EK-FAC for GGN</text>
+<text x="616" y="1637" text-anchor="middle" font-size="9.5" fill="#555">We propose using Kronecker-Factored Approximate Curvature (K-FAC,</text>
+<text x="616" y="1649" text-anchor="middle" font-size="9.5" fill="#555">Heskes, 2000; Martens &amp; Grosse, 2015) and its variant</text>
+<text x="616" y="1661" text-anchor="middle" font-size="9.5" fill="#555">eigenvalue-corrected K-FAC (George et al., 2018, EK-FAC) to</text>
+<text x="616" y="1673" text-anchor="middle" font-size="9.5" fill="#555">approximate the GGN.</text>
+<title>N18 [Method] (cites=3)
+We propose using Kronecker-Factored Approximate Curvature (K-FAC, Heskes, 2000; Martens &amp; Grosse, 2015) and its variant eigenvalue-corrected K-FAC (George et al., 2018, EK-FAC) to approximate the GGN.</title>
+</g>
+<circle cx="1447.0" cy="904.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="1136" y="896" width="304" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="1288" y="910" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Prior_Work]</text>
+<text x="1288" y="925" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Kwon et al.: K-FAC seen as non-applicable</text>
+<text x="1288" y="941" text-anchor="middle" font-size="9.5" fill="#555">It is not commonly known how to apply it to neural</text>
+<text x="1288" y="953" text-anchor="middle" font-size="9.5" fill="#555">network architectures used in diffusion models; for</text>
+<text x="1288" y="965" text-anchor="middle" font-size="9.5" fill="#555">example, Kwon et al. (2023) resort to alternative</text>
+<text x="1288" y="977" text-anchor="middle" font-size="9.5" fill="#555">Hessian approximation methods because “[K-FAC] might…</text>
+<title>N19 [Prior_Work] (cites=1)
+It is not commonly known how to apply it to neural network architectures used in diffusion models; for example, Kwon et al. (2023) resort to alternative Hessian approximation methods because “[K-FAC] might not be applicable to general deep neural network models as it highly depends on the model architecture”.</title>
+</g>
+<circle cx="1181.0" cy="1600.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1608.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1616.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="1592" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1606" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Method]</text>
+<text x="994" y="1621" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">K-FAC applies to diffusion architectures</text>
+<text x="994" y="1637" text-anchor="middle" font-size="9.5" fill="#555">However, based on recent work, it is indeed clear that it can be</text>
+<text x="994" y="1649" text-anchor="middle" font-size="9.5" fill="#555">applied to architectures used in diffusion models (Grosse &amp;</text>
+<text x="994" y="1661" text-anchor="middle" font-size="9.5" fill="#555">Martens, 2016; Eschenhagen et al., 2023), which typically combine</text>
+<text x="994" y="1673" text-anchor="middle" font-size="9.5" fill="#555">linear layers, convolutions, and attention (Ho…</text>
+<title>N20 [Method] (cites=3)
+However, based on recent work, it is indeed clear that it can be applied to architectures used in diffusion models (Grosse &amp; Martens, 2016; Eschenhagen et al., 2023), which typically combine linear layers, convolutions, and attention (Ho et al., 2020).</title>
+</g>
+<g>
+<rect x="595" y="1716" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1730" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Method]</text>
+<text x="805" y="1745" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Scalable IF for diffusion via (E)K-FAC GGN</text>
+<text x="805" y="1761" text-anchor="middle" font-size="9.5" fill="#555">In this work, we describe a scalable approach to influence function-based</text>
+<text x="805" y="1773" text-anchor="middle" font-size="9.5" fill="#555">approximations for data attribution in diffusion models, using (E)K-FAC</text>
+<text x="805" y="1785" text-anchor="middle" font-size="9.5" fill="#555">approximation of GGNs as Hessian approximations.</text>
+<title>N21 [Method] (cites=0)
+In this work, we describe a scalable approach to influence function-based approximations for data attribution in diffusion models, using (E)K-FAC approximation of GGNs as Hessian approximations.</title>
+</g>
+<circle cx="1022.0" cy="1836.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1844.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1828" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1842" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Method]</text>
+<text x="805" y="1857" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Articulate IF design space; unify prior methods</text>
+<text x="805" y="1873" text-anchor="middle" font-size="9.5" fill="#555">We articulate a design space based on influence functions, unify previous</text>
+<text x="805" y="1885" text-anchor="middle" font-size="9.5" fill="#555">methods for data attribution in diffusion models (Georgiev et al., 2023;</text>
+<text x="805" y="1897" text-anchor="middle" font-size="9.5" fill="#555">Zheng et al., 2024) through our framework, and argue for the design choices</text>
+<text x="805" y="1909" text-anchor="middle" font-size="9.5" fill="#555">that distinguish…</text>
+<title>N22 [Method] (cites=2)
+We articulate a design space based on influence functions, unify previous methods for data attribution in diffusion models (Georgiev et al., 2023; Zheng et al., 2024) through our framework, and argue for the design choices that distinguish our method from previous ones.</title>
+</g>
+<g>
+<rect x="595" y="1952" width="420" height="60" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1966" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23 [Method]</text>
+<text x="805" y="1981" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">GGN is a key design choice</text>
+<text x="805" y="1997" text-anchor="middle" font-size="9.5" fill="#555">One important design choice is the GGN used as the Hessian approximation.</text>
+<title>N23 [Method] (cites=0)
+One important design choice is the GGN used as the Hessian approximation.</title>
+</g>
+<g>
+<rect x="595" y="2040" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2054" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23a [Method]</text>
+<text x="805" y="2069" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Formulate diffusion-specific GGN matrices</text>
+<text x="805" y="2085" text-anchor="middle" font-size="9.5" fill="#555">We formulate different GGN matrices for the diffusion modelling objective</text>
+<text x="805" y="2097" text-anchor="middle" font-size="9.5" fill="#555">and discuss their implicit assumptions.</text>
+<title>N23a [Method] (cites=0)
+We formulate different GGN matrices for the diffusion modelling objective and discuss their implicit assumptions.</title>
+</g>
+<circle cx="1022.0" cy="2216.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="2208" width="420" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2222" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N24 [Result]</text>
+<text x="805" y="2237" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Outperforms prior attribution on LDS / retraining</text>
+<text x="805" y="2253" text-anchor="middle" font-size="9.5" fill="#555">We empirically ablate variations of the GGN approximation and other design</text>
+<text x="805" y="2265" text-anchor="middle" font-size="9.5" fill="#555">choices in our framework and show that our proposed method outperforms the</text>
+<text x="805" y="2277" text-anchor="middle" font-size="9.5" fill="#555">existing data attribution methods for diffusion models as measured by common</text>
+<text x="805" y="2289" text-anchor="middle" font-size="9.5" fill="#555">data…</text>
+<title>N24 [Result] (cites=1)
+We empirically ablate variations of the GGN approximation and other design choices in our framework and show that our proposed method outperforms the existing data attribution methods for diffusion models as measured by common data attribution metrics like the Linear Datamodeling Score (Park et al., 2023) or retraining without top influences.</title>
+</g>
+<g>
+<rect x="595" y="2400" width="420" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="2414" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N25 [Contribution]</text>
+<text x="805" y="2429" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Empirical observations challenge IF understanding</text>
+<text x="805" y="2445" text-anchor="middle" font-size="9.5" fill="#555">Finally, we also discuss interesting empirical observations that challenge</text>
+<text x="805" y="2457" text-anchor="middle" font-size="9.5" fill="#555">our current understanding of influence functions in the context of diffusion</text>
+<text x="805" y="2469" text-anchor="middle" font-size="9.5" fill="#555">models.</text>
+<title>N25 [Contribution] (cites=0)
+Finally, we also discuss interesting empirical observations that challenge our current understanding of influence functions in the context of diffusion models.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

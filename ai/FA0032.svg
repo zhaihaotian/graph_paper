@@ -1,0 +1,240 @@
+<svg viewBox="0 0 1480 1996" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="104" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="284" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="188" x2="1450" y2="188" stroke="#eee" stroke-width="1"/>
+<text x="14" y="526" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="380" x2="1450" y2="380" stroke="#eee" stroke-width="1"/>
+<text x="14" y="962" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="672" x2="1450" y2="672" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1498" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1252" x2="1450" y2="1252" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1840" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1744" x2="1450" y2="1744" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1772" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1768" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N15</text>
+<line x1="805" y1="140" x2="616" y2="236" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="332" x2="616" y2="428" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="616" y="377" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="616" y1="512" x2="994" y2="236" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="371" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">offers a natural path</text>
+<line x1="994" y1="332" x2="994" y2="428" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="994" y="377" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Yet</text>
+<line x1="994" y1="512" x2="805" y2="540" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="624" x2="805" y2="720" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="669" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">This motivates</text>
+<line x1="805" y1="792" x2="805" y2="820" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="892" x2="805" y2="920" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="992" x2="805" y2="1020" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1104" x2="805" y2="1132" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1204" x2="805" y2="1300" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1372" x2="805" y2="1400" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1484" x2="805" y2="1512" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="1495" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="1584" x2="805" y2="1612" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1595" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">The root cause</text>
+<line x1="805" y1="1696" x2="427" y2="1792" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1696" x2="805" y2="1792" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1696" x2="1183" y2="1792" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="892" x2="994" y2="428" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="992" x2="616" y2="428" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1104" x2="805" y2="540" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<g>
+<rect x="595" y="68" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs face oversized inputs</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Large language models increasingly face inputs that exceed a single context</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">window, such as long reports, codebases, or extensive retrieved documents.</text>
+<title>N1 [Context] (cites=0)
+Large language models increasingly face inputs that exceed a single context window, such as long reports, codebases, or extensive retrieved documents.</title>
+</g>
+<circle cx="803.0" cy="244.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="236" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="250" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Prior_Work : ANCHOR]</text>
+<text x="616" y="265" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Memory agents do chunk-by-chunk processing</text>
+<text x="616" y="281" text-anchor="middle" font-size="9.5" fill="#555">Memory agents address this by processing documents chunk-by-chunk</text>
+<text x="616" y="293" text-anchor="middle" font-size="9.5" fill="#555">while maintaining a bounded working memory, enabling inference on</text>
+<text x="616" y="305" text-anchor="middle" font-size="9.5" fill="#555">extremely long contexts (hundreds of thousands of tokens) at cost</text>
+<text x="616" y="317" text-anchor="middle" font-size="9.5" fill="#555">proportional to document length (Yu et…</text>
+<title>N2 [Prior_Work] (cites=1)
+Memory agents address this by processing documents chunk-by-chunk while maintaining a bounded working memory, enabling inference on extremely long contexts (hundreds of thousands of tokens) at cost proportional to document length (Yu et al., 2025).</title>
+</g>
+<g>
+<rect x="436" y="428" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="442" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Limitation]</text>
+<text x="616" y="457" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Chunk-scanning is expensive</text>
+<text x="616" y="473" text-anchor="middle" font-size="9.5" fill="#555">However, this chunk-scanning approach remains computationally</text>
+<text x="616" y="485" text-anchor="middle" font-size="9.5" fill="#555">expensive: processing a single query may require hundreds of</text>
+<text x="616" y="497" text-anchor="middle" font-size="9.5" fill="#555">sequential memory updates.</text>
+<title>N3 [Limitation] (cites=0)
+However, this chunk-scanning approach remains computationally expensive: processing a single query may require hundreds of sequential memory updates.</title>
+</g>
+<circle cx="1181.0" cy="244.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="236" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="250" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work]</text>
+<text x="994" y="265" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Learned stopping: 3-5x speedup</text>
+<text x="994" y="281" text-anchor="middle" font-size="9.5" fill="#555">Early stopping—terminating processing once sufficient evidence has</text>
+<text x="994" y="293" text-anchor="middle" font-size="9.5" fill="#555">been gathered—offers a natural path to efficiency, with learned</text>
+<text x="994" y="305" text-anchor="middle" font-size="9.5" fill="#555">stopping policies achieving 3–5× speedup (Wang et al., 2026b).</text>
+<title>N4 [Prior_Work] (cites=1)
+Early stopping—terminating processing once sufficient evidence has been gathered—offers a natural path to efficiency, with learned stopping policies achieving 3–5× speedup (Wang et al., 2026b).</title>
+</g>
+<g>
+<rect x="814" y="428" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="442" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Limitation]</text>
+<text x="994" y="457" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Learned stopping needs supervision, no safety guarantee</text>
+<text x="994" y="473" text-anchor="middle" font-size="9.5" fill="#555">Yet learned stopping policies require training-time supervision</text>
+<text x="994" y="485" text-anchor="middle" font-size="9.5" fill="#555">and leave deployment knobs (e.g., how aggressively to stop)</text>
+<text x="994" y="497" text-anchor="middle" font-size="9.5" fill="#555">without explicit safety guarantees.</text>
+<title>N5 [Limitation] (cites=0)
+Yet learned stopping policies require training-time supervision and leave deployment knobs (e.g., how aggressively to stop) without explicit safety guarantees.</title>
+</g>
+<g>
+<rect x="595" y="540" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="554" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="569" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Open question: bounded broken-success risk</text>
+<text x="805" y="585" text-anchor="middle" font-size="9.5" fill="#555">A practical deployment question remains: how do we stop early while</text>
+<text x="805" y="597" text-anchor="middle" font-size="9.5" fill="#555">guaranteeing we do not break more than an ε fraction of the full-read</text>
+<text x="805" y="609" text-anchor="middle" font-size="9.5" fill="#555">system's correct answers?</text>
+<title>N6 [Limitation] (cites=0)
+A practical deployment question remains: how do we stop early while guaranteeing we do not break more than an ε fraction of the full-read system's correct answers?</title>
+</g>
+<g>
+<rect x="595" y="720" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="734" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Method]</text>
+<text x="805" y="749" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Post-hoc, training-free calibration</text>
+<text x="805" y="765" text-anchor="middle" font-size="9.5" fill="#555">This motivates a post-hoc, training-free calibration approach that can be</text>
+<text x="805" y="777" text-anchor="middle" font-size="9.5" fill="#555">applied to any existing memory agent with a user-chosen risk budget.</text>
+<title>N7 [Method] (cites=0)
+This motivates a post-hoc, training-free calibration approach that can be applied to any existing memory agent with a user-chosen risk budget.</title>
+</g>
+<circle cx="1022.0" cy="828.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="820" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="834" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="849" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RC-MemStop: conformal risk control</text>
+<text x="805" y="865" text-anchor="middle" font-size="9.5" fill="#555">We propose RC-MemStop, which applies conformal risk control (Angelopoulos et</text>
+<text x="805" y="877" text-anchor="middle" font-size="9.5" fill="#555">al., 2025) to calibrate early stopping thresholds for memory agents.</text>
+<title>N8 [Method] (cites=1)
+We propose RC-MemStop, which applies conformal risk control (Angelopoulos et al., 2025) to calibrate early stopping thresholds for memory agents.</title>
+</g>
+<g>
+<rect x="595" y="920" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="934" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method: component]</text>
+<text x="805" y="949" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Answer-stability stopping rule</text>
+<text x="805" y="965" text-anchor="middle" font-size="9.5" fill="#555">RC-MemStop uses an answer-stability stopping rule: processing terminates</text>
+<text x="805" y="977" text-anchor="middle" font-size="9.5" fill="#555">when k consecutive draft answers match.</text>
+<title>N9 [Method: component] (cites=0)
+RC-MemStop uses an answer-stability stopping rule: processing terminates when k consecutive draft answers match.</title>
+</g>
+<g>
+<rect x="595" y="1020" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1034" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method: component]</text>
+<text x="805" y="1049" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">WSR betting bound selects k</text>
+<text x="805" y="1065" text-anchor="middle" font-size="9.5" fill="#555">Using the Waudby-Smith-Ramdas betting bound, we select the least</text>
+<text x="805" y="1077" text-anchor="middle" font-size="9.5" fill="#555">conservative k that satisfies a user-specified broken-success risk budget ε</text>
+<text x="805" y="1089" text-anchor="middle" font-size="9.5" fill="#555">with high probability.</text>
+<title>N10 [Method: component] (cites=0)
+Using the Waudby-Smith-Ramdas betting bound, we select the least conservative k that satisfies a user-specified broken-success risk budget ε with high probability.</title>
+</g>
+<g>
+<rect x="595" y="1132" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1146" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="805" y="1161" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">No retraining, finite-sample guarantee</text>
+<text x="805" y="1177" text-anchor="middle" font-size="9.5" fill="#555">This approach requires no retraining and provides finite-sample guarantees</text>
+<text x="805" y="1189" text-anchor="middle" font-size="9.5" fill="#555">on held-out test data.</text>
+<title>N11 [Method] (cites=0)
+This approach requires no retraining and provides finite-sample guarantees on held-out test data.</title>
+</g>
+<g>
+<rect x="595" y="1300" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1314" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Result]</text>
+<text x="805" y="1329" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Risk controlled but no speedup</text>
+<text x="805" y="1345" text-anchor="middle" font-size="9.5" fill="#555">Our experiments on MemAgent with 448K–896K token contexts reveal a</text>
+<text x="805" y="1357" text-anchor="middle" font-size="9.5" fill="#555">surprising finding: risk control is achieved, but speedup is negligible.</text>
+<title>N12 [Result] (cites=0)
+Our experiments on MemAgent with 448K–896K token contexts reveal a surprising finding: risk control is achieved, but speedup is negligible.</title>
+</g>
+<g>
+<rect x="595" y="1400" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1414" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Result]</text>
+<text x="805" y="1429" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Zero risk violations across 8 configs</text>
+<text x="805" y="1445" text-anchor="middle" font-size="9.5" fill="#555">Across all 8 configurations, we observe zero risk violations (Rtest ≤ ε),</text>
+<text x="805" y="1457" text-anchor="middle" font-size="9.5" fill="#555">validating that conformal risk control can be successfully applied to memory</text>
+<text x="805" y="1469" text-anchor="middle" font-size="9.5" fill="#555">agent early stopping.</text>
+<title>N13 [Result] (cites=0)
+Across all 8 configurations, we observe zero risk violations (Rtest ≤ ε), validating that conformal risk control can be successfully applied to memory agent early stopping.</title>
+</g>
+<g>
+<rect x="595" y="1512" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1526" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Result]</text>
+<text x="805" y="1541" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Best speedup only 1.14x</text>
+<text x="805" y="1557" text-anchor="middle" font-size="9.5" fill="#555">However, the best speedup is only 1.14×, far below the 1.5× target and even</text>
+<text x="805" y="1569" text-anchor="middle" font-size="9.5" fill="#555">below the 1.2× practical utility threshold.</text>
+<title>N14 [Result] (cites=0)
+However, the best speedup is only 1.14×, far below the 1.5× target and even below the 1.2× practical utility threshold.</title>
+</g>
+<g>
+<rect x="595" y="1612" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1626" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Result]</text>
+<text x="805" y="1641" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Root cause: stability signal too weak</text>
+<text x="805" y="1657" text-anchor="middle" font-size="9.5" fill="#555">The root cause is that the answer-stability signal is too weak: draft</text>
+<text x="805" y="1669" text-anchor="middle" font-size="9.5" fill="#555">answers do not stabilize until the agent has processed most of the context,</text>
+<text x="805" y="1681" text-anchor="middle" font-size="9.5" fill="#555">requiring k = 60–120 consecutive matches to control risk.</text>
+<title>N15 [Result] (cites=0)
+The root cause is that the answer-stability signal is too weak: draft answers do not stabilize until the agent has processed most of the context, requiring k = 60–120 consecutive matches to control risk.</title>
+</g>
+<g>
+<rect x="247" y="1792" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1806" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="427" y="1821" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">First conformal risk control for memory stopping</text>
+<text x="427" y="1837" text-anchor="middle" font-size="9.5" fill="#555">We present the first application of conformal risk control to</text>
+<text x="427" y="1849" text-anchor="middle" font-size="9.5" fill="#555">memory agent early stopping, demonstrating that UCB-calibrated</text>
+<text x="427" y="1861" text-anchor="middle" font-size="9.5" fill="#555">thresholds can maintain user-specified risk budgets on held-out</text>
+<text x="427" y="1873" text-anchor="middle" font-size="9.5" fill="#555">test data.</text>
+<title>C1 [Contribution] (cites=0)
+We present the first application of conformal risk control to memory agent early stopping, demonstrating that UCB-calibrated thresholds can maintain user-specified risk budgets on held-out test data.</title>
+</g>
+<g>
+<rect x="625" y="1792" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1806" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="805" y="1821" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Calibration-only is insufficient (1.02-1.14x)</text>
+<text x="805" y="1837" text-anchor="middle" font-size="9.5" fill="#555">We provide empirical evidence that calibration-only early stopping</text>
+<text x="805" y="1849" text-anchor="middle" font-size="9.5" fill="#555">with answer stability is insufficient for meaningful compute</text>
+<text x="805" y="1861" text-anchor="middle" font-size="9.5" fill="#555">reduction in memory agents, achieving only 1.02×–1.14× speedup.</text>
+<title>C2 [Contribution] (cites=0)
+We provide empirical evidence that calibration-only early stopping with answer stability is insufficient for meaningful compute reduction in memory agents, achieving only 1.02×–1.14× speedup.</title>
+</g>
+<g>
+<rect x="1003" y="1792" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1806" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="1183" y="1821" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Diagnosis: stability signal too weak; need training</text>
+<text x="1183" y="1837" text-anchor="middle" font-size="9.5" fill="#555">We diagnose the root cause: the answer-stability stopping signal</text>
+<text x="1183" y="1849" text-anchor="middle" font-size="9.5" fill="#555">is fundamentally too weak, with broken-success risk remaining</text>
+<text x="1183" y="1861" text-anchor="middle" font-size="9.5" fill="#555">above 50% until k = 30–50 consecutive matches, suggesting that</text>
+<text x="1183" y="1873" text-anchor="middle" font-size="9.5" fill="#555">training-based stopping policies are necessary…</text>
+<title>C3 [Contribution] (cites=0)
+We diagnose the root cause: the answer-stability stopping signal is fundamentally too weak, with broken-success risk remaining above 50% until k = 30–50 consecutive matches, suggesting that training-based stopping policies are necessary for practical efficiency gains.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>
