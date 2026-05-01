@@ -153,21 +153,29 @@
 
 ---
 
-**C1. `lim_scope_avg_cites`** — Limitation 批评范围
+**C1. `lim_scope_avg_cites`** — Limitation 批评范围（v2: PW 集群 sum）
 
 - **你的直觉**：Limitation 批评的是某个具体方法，还是整个领域？
-- **算法**：对每个 Limitation 节点 L：
-  1. 从 L 做**反向 BFS**（follow in-edges 向上游走）
-  2. 在每一层检查：是否有 Prior_Work 祖先且 `citations > 0`
-  3. 如果这一层发现了被引 PW 祖先，停下，记录该 PW 的 citations（取该层 min，选"最具体"的）
-  4. 否则继续往上一层
+- **算法**（v2，2026-05-01 更新）：对每个 Limitation 节点 L：
+  1. 从 L 做**反向 BFS**（follow in-edges 向上游走，excluding `addresses` 反向边）
+  2. 在每一层检查：是否有 Prior_Work 祖先
+  3. 如果这一层有 PW 祖先：构造 **PW cluster coverage 集合** =（这些 PW 祖先）∪（它们的 PW elaboration children），sum 起来这个集合内所有节点的 citations
+  4. 如果 sum > 0，停下，记录这个 sum 为 L 的 scope；否则继续往上一层
+  5. 走完 15 层都没找到 → skip 这个 L（不计入均值）
+- **为什么 cluster sum 而不是单个 PW 的 cite**（v1 → v2 关键变更）：
+  - 常见模式："Several defenses have been proposed (parent PW, 0 cite) → Defense A (1c), Defense B (1c), Defense C (1c)" → "However, all these defenses share limitation X"
+  - v1 算法只看 parent.cites，得到 0，跳过
+  - v2 算法看 parent + 3 个 children 的 cite 集群 = 3，正确反映 "L 在批评 3 个具体方法"
 - **含义**：
-  - **低值（1-2）** → Limitation 批评的是**单篇 named method**（AI 论文常见：anchor paper only）
-  - **高值（3+）** → Limitation 批评的是**一整类/领域**（人写常见：PW 节点聚合了多篇）
-- **结果**：AI **1.12** / Human **2.30** → 2.04×（含义：AI 每个 Limitation 反向找到的最近被引 PW 平均只有 1 cite，人写平均 2.3 cite）
+  - **低值（1-2）** → Limitation 批评的是**单篇 named method**（典型 AI 模式：single anchor）
+  - **高值（3+）** → Limitation 批评的是**一组/一类方法**（人写常见：PW cluster 多个 named methods）
+- **结果（v2 算法 + n=80 corpus）**：
+  - AI **1.48** / Human **3.03** → **2.05×**
+  - per-Limitation aggregation: AI 1.71 / Human 2.84 → 1.66×
+  - 其中 FA0001 这种 cluster 结构现在被正确捕获（之前 0，现在 3）
 
-**辅助样本数**：`lim_scope_sample_count` — 有多少个 Limitation 能找到被引 PW 祖先
-- AI 2.25 / Human 3.55 → 1.58×
+**辅助样本数**：`lim_scope_sample_count` — 有多少个 Limitation 能找到被引 PW cluster
+- AI 2.12 / Human 3.98 → 1.87×
 
 ### D. Method 分析（2）
 
@@ -237,7 +245,7 @@
 | B. PW | pw_top_level_count (多样性) | 1.43 | 1.93 | 1.35× |
 | B. PW | pw_avg_cites (人均引用) | 0.98 | 1.85 | **1.89×** |
 | B. PW | **pw_total_cites (总引用) ★** | **2.15** | **7.42** | **3.45×** |
-| C. Lim | lim_scope_avg_cites (批评范围) ★ | 1.18 | 2.67 | **2.26×** |
+| C. Lim | lim_scope_avg_cites (批评范围, v2 cluster sum) ★ | 1.48 | 3.03 | **2.05×** |
 | D. Method | method_node_count (复杂度) ★ | 3.42 | 7.33 | **2.14×** |
 | D. Method | method_pw_reach_avg | 2.20 | 3.37 | **1.53×** |
 | 引用 | total_cites | 5.12 | 17.95 | **3.50×** |
