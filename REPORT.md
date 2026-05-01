@@ -153,28 +153,26 @@
 
 ---
 
-**C1. `lim_scope_avg_cites`** — Limitation 批评范围（v2: PW 集群 sum）
+**C1. `lim_scope_avg_cites`** — Limitation 批评的 critique surface（v3: per-paper PW union）
 
-- **你的直觉**：Limitation 批评的是某个具体方法，还是整个领域？
-- **算法**（v2，2026-05-01 更新）：对每个 Limitation 节点 L：
-  1. 从 L 做**反向 BFS**（follow in-edges 向上游走，excluding `addresses` 反向边）
-  2. 在每一层检查：是否有 Prior_Work 祖先
-  3. 如果这一层有 PW 祖先：构造 **PW cluster coverage 集合** =（这些 PW 祖先）∪（它们的 PW elaboration children），sum 起来这个集合内所有节点的 citations
-  4. 如果 sum > 0，停下，记录这个 sum 为 L 的 scope；否则继续往上一层
-  5. 走完 15 层都没找到 → skip 这个 L（不计入均值）
-- **为什么 cluster sum 而不是单个 PW 的 cite**（v1 → v2 关键变更）：
-  - 常见模式："Several defenses have been proposed (parent PW, 0 cite) → Defense A (1c), Defense B (1c), Defense C (1c)" → "However, all these defenses share limitation X"
-  - v1 算法只看 parent.cites，得到 0，跳过
-  - v2 算法看 parent + 3 个 children 的 cite 集群 = 3，正确反映 "L 在批评 3 个具体方法"
+- **直觉**：整篇 paper 的 Limitation 总共批评了多少篇 prior work？
+- **算法**（v3，2026-05-01 更新）：
+  1. 对每个 Limitation L 做**反向 BFS**（excluding `addresses` 反向边）
+  2. 在第一个有 PW 祖先的 BFS 层，构造 **L 的 coverage 集合** =（PW 祖先）∪（它们的 PW elaboration children）
+  3. 如果 coverage 里至少有一个 cited PW（cites>0），记录这个 coverage；否则继续往上一层
+  4. 全文聚合：所有 L 的 coverage **取并集**（无重复）
+  5. paper 的 `lim_scope_avg_cites` = sum(p.cites for p in 并集)
+- **为什么改 v2 → v3**：
+  - v2 是 per-Lim avg → per-paper mean，平均掉了 "Human paper 不仅每个 Lim 范围广，还有更多 Lim" 的双重效应
+  - v3 直接看整篇 paper 的 critique surface 总和，捕获了 breadth × count 的乘积
 - **含义**：
-  - **低值（1-2）** → Limitation 批评的是**单篇 named method**（典型 AI 模式：single anchor）
-  - **高值（3+）** → Limitation 批评的是**一组/一类方法**（人写常见：PW cluster 多个 named methods）
-- **结果（v2 算法 + n=80 corpus）**：
-  - AI **1.48** / Human **3.03** → **2.05×**
-  - per-Limitation aggregation: AI 1.71 / Human 2.84 → 1.66×
-  - 其中 FA0001 这种 cluster 结构现在被正确捕获（之前 0，现在 3）
+  - 低值（1-2）→ paper 整体只批评 1-2 篇 prior work（典型 AI：single anchor 论文）
+  - 高值（5+）→ paper 整体批评一大片 prior work（典型 Human：multi-thread Limitation cluster）
+- **结果（v3 算法 + n=80）**：
+  - AI **1.73** / Human **4.65** → **2.70×**
+  - 比 v2 (2.05×) 信号更强，因为捕获了 paper-level 的 Lim 数量效应
 
-**辅助样本数**：`lim_scope_sample_count` — 有多少个 Limitation 能找到被引 PW cluster
+**辅助样本数**：`lim_scope_sample_count` — 这篇 paper 里有多少 Lim 贡献到了 union
 - AI 2.12 / Human 3.98 → 1.87×
 
 ### D. Method 分析（2）
@@ -245,7 +243,7 @@
 | B. PW | pw_top_level_count (多样性) | 1.43 | 1.93 | 1.35× |
 | B. PW | pw_avg_cites (人均引用) | 0.98 | 1.85 | **1.89×** |
 | B. PW | **pw_total_cites (总引用) ★** | **2.15** | **7.42** | **3.45×** |
-| C. Lim | lim_scope_avg_cites (批评范围, v2 cluster sum) ★ | 1.48 | 3.03 | **2.05×** |
+| C. Lim | lim_scope_avg_cites (paper critique surface, v3 union) ★ | 1.73 | 4.65 | **2.70×** |
 | D. Method | method_node_count (复杂度) ★ | 3.42 | 7.33 | **2.14×** |
 | D. Method | method_pw_reach_avg | 2.20 | 3.37 | **1.53×** |
 | 引用 | total_cites | 5.12 | 17.95 | **3.50×** |
