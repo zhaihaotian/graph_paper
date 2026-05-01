@@ -219,36 +219,38 @@
 
 ## 5. 均值对比总表
 
+> **2026-05-01 更新**：应用 Pass 3 "Limitation source" 规则修复（每个 Limitation 必须有 Prior_Work 或 Limitation 入边，详见 §8）。修复涉及 16 个 violation，14 个 paper。Cite 总量守恒（AI 4.65、Human 19.70 不变），但部分 cite 从 Limitation 节点重新归位到 Prior_Work 节点。
+
 | 组 | 指标 | AI | Human | Human/AI |
 |---|---|---|---|---|
-| A. 结构 | sum_node_degree (Σ in+out = 2|E|) | 34.2 | 60.8 | **1.78×** |
-| A. 结构 | graph_longest_path (深度) | 12.55 | 23.95 | **1.91×** |
+| A. 结构 | sum_node_degree (Σ in+out = 2|E|) | 35.0 | 61.7 | **1.76×** |
+| A. 结构 | graph_longest_path (深度) | 12.75 | 24.15 | **1.89×** |
 | A. 结构 | max_width (宽度) | 3.15 | 3.80 | 1.21× |
-| B. PW | pw_node_count | 2.15 | 4.35 | **2.02×** |
-| B. PW | pw_top_level_count (多样性) | 1.20 | 1.65 | 1.38× |
-| B. PW | pw_avg_cites (人均引用) | 0.89 | 1.73 | **1.94×** |
-| B. PW | **pw_total_cites (总引用)** | **2.05** | **7.25** | **3.54×** |
-| C. Lim | lim_scope_avg_cites (批评范围) | 1.12 | 2.30 | **2.04×** |
+| B. PW | pw_node_count | 2.40 | 4.60 | **1.92×** |
+| B. PW | pw_top_level_count (多样性) | 1.40 | 1.90 | 1.36× |
+| B. PW | pw_avg_cites (人均引用) | 0.89 | 1.81 | **2.03×** |
+| B. PW | **pw_total_cites (总引用)** | **2.15** | **7.65** | **3.56×** |
+| C. Lim | lim_scope_avg_cites (批评范围) | 1.18 | 2.36 | **2.01×** |
 | D. Method | method_node_count (复杂度) | 3.15 | 8.35 | **2.65×** |
-| D. Method | method_pw_reach_avg | 1.95 | 3.17 | **1.62×** |
+| D. Method | method_pw_reach_avg | 2.20 | 3.32 | **1.51×** |
 
 ---
 
 ## 6. 结论（报告用 narrative）
 
 **AI 论文的结构指纹**：
-1. **扁平**：论证链平均 12 跳，人写 24 跳
+1. **扁平**：论证链平均 12.75 跳，人写 24.15 跳
 2. **单线 Prior_Work**：只有 1-2 条独立前人工作线索
-3. **PW 人均引用低**：每个 PW 节点只挂 ~1 篇引用（**"每个 PW = 1 篇 named anchor"**）
-4. **Limitation 批评单点**：反向找到的最近被引 PW 只有 1 cite（批评的是具体单篇）
+3. **PW 人均引用低**：每个 PW 节点只挂 ~0.9 篇引用（**"每个 PW = 1 篇 named anchor"**）
+4. **Limitation 批评单点**：反向找到的最近被引 PW 只有 1.18 cite（批评的是具体单篇）
 5. **Method 简单**：只有 ~3 个 claim（主方法 + 1-2 组件）
-6. **Method 扎根浅**：Method 反向只能触达 ~2 个 Prior_Work
+6. **Method 扎根浅**：Method 反向只能触达 ~2.2 个 Prior_Work
 
 **人写论文**：
-1. **深**：论证链深度接近 AI 两倍
+1. **深**：论证链深度接近 AI 两倍（24 跳）
 2. **多线**：Prior_Work 有 2+ 条独立线索
-3. **多源引用**：每个 PW 节点平均挂近 2 篇引用
-4. **Limitation 批评广**：反向找到的 PW 祖先 citations 均值 2.3（批评一整类方法）
+3. **多源引用**：每个 PW 节点平均挂近 1.8 篇引用
+4. **Limitation 批评广**：反向找到的 PW 祖先 citations 均值 2.36（批评一整类方法）
 5. **Method 复杂**：~8 个 claim（主方法 + 多组件 + 理论/动机）
 6. **Method 扎根深**：反向触达 3+ 独立 Prior_Work
 
@@ -265,3 +267,39 @@
   - `validate_graph.py` — schema 校验
   - `coverage_check.py` — 覆盖率硬校验
   - `compute_metrics.py` — 指标计算
+
+---
+
+## 8. Pass 3 修复（2026-05-01）
+
+**动机**：原 Pass 1 抽边规则只看相邻句、按 marker 触发 kind，没有强制"Limitation 必须由 Prior_Work 引出"的语义约束。结果是只要源文本是 `[PW] [Result] However [Limitation]` 这种结构（人写常见），抽出来的图就成了 `Result → Limitation`，PW 那一步被中间的 Result 挡住——给出"Limitation 凭空冒出"的假象。
+
+**新规则**（SKILL.md Stage 3 Pass 3，validate_graph.py 强制 warning）：
+
+> 每个 Limitation 节点的入边来源 type ∈ {Prior_Work, Limitation}，excluding `addresses` back-references（这些是 Method/Contribution 反向回指，代表 resolve 不代表 source）。
+
+三种修复方式：
+
+| Case | 适用 | 操作 |
+|---|---|---|
+| **(a) Re-type → Context** | L 是 paper-theme-aligned 的领域级 framing，没有具体被 critique 的 PW | 改 type，不动边 |
+| **(b) 加 PW → L 边** | 上游已有相关 PW 节点，L 实际批评的是它（"However its …" 模式） | 加显式 contrast/elaboration 边，原相邻边降级为 elaboration |
+| **(c) 拆 buried PW** | L 的文本里嵌入了某 PW 的描述+citation（一句话兼描述 + 批评） | 把描述部分切出新的 PW 节点，L 文本缩到只剩批评 |
+
+**修复结果**（16 violations / 14 papers）：
+
+| Case | 数量 | 代表性例子 |
+|---|---|---|
+| A | 3 | FA0013 N3, ICLR_KAN N3+N4 — 论文主题就是论 X 的局限 |
+| B | 5 | FA0007 N6, FA0027 N6, FA0012_anchor N10, ICLR_InferenceScaling N11, ICLR_KAN N20b |
+| C | 8 | FA0005 N7, FA0027 N4, FA0034 N6, FA0035 N8, FA0001_anchor N11, FA0008_anchor N3, FA0013_anchor N5, ICLR_WizardMath N22 |
+
+**对指标的影响**（cite 总量守恒）：
+- `pw_node_count` AI +0.25 / Human +0.25 — Case C 新增的 buried-PW 节点
+- `pw_total_cites` AI +0.10 / Human +0.40 — cite 从 Limit 节点搬到 PW 节点
+- `lim_node_count` AI -0.20 / Human -0.10 — Case A 把 3 个 Limit 改成 Context
+- `method_pw_reach_avg` AI +0.25 / Human +0.15 — Method 反向 BFS 触达更多 PW
+
+**对 fingerprint 的影响**：差距没缩小。AI vs Human 在 `pw_node_count` 仍 1.92×，`pw_total_cites` 仍 3.56×，`method_pw_reach_avg` 仍 1.51×。AI 论文"单 anchor + 浅 PW"指纹在更严格的图上保持。
+
+**修改前快照**：保存在 `before_pw_lim_fix/`（14 个 JSON+SVG + 旧 metrics.csv），可直接 diff 对比。

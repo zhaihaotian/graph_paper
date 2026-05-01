@@ -40,9 +40,16 @@
       "citations": 0
     },
     {
+      "id": "N6pw",
+      "type": "Prior_Work",
+      "text": "Existing adaptive methods use the embedding similarity margin (the gap between top-1 and top-2 scores) as a confidence signal,",
+      "display_label": "Existing methods: margin as confidence signal",
+      "citations": 0
+    },
+    {
       "id": "N6",
       "type": "Limitation",
-      "text": "Existing adaptive methods use the embedding similarity margin (the gap between top-1 and top-2 scores) as a confidence signal, but this captures only the relative ranking of top candidates, not the underlying model uncertainty.",
+      "text": "but this captures only the relative ranking of top candidates, not the underlying model uncertainty.",
       "display_label": "Margin signal misses real uncertainty",
       "citations": 0
     },
@@ -114,6 +121,11 @@
     },
     {
       "from": "N5",
+      "to": "N6pw",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N6pw",
       "to": "N6",
       "kind": "contrast",
       "connective": "but"
@@ -166,5 +178,5 @@
       "kind": "addresses"
     }
   ],
-  "observations": "FA0034 is a compact, linear motivation arc anchored on VidVec. It opens with a single Context sentence (N1), introduces the two-stage retrieve-then-rerank pipeline as the anchor Prior_Work (N2), then a contrastive Limitation on the K-cost tradeoff (N3). A second Context-pair (N4-N5) develops the 'not all queries need same budget' insight, leading into a second Limitation (N6) that critiques the existing margin-based confidence signal. Method emerges in two sentences: N7 names the proposal (cross-layer ranking disagreement) and N9 explains the operational principle, with N8 (Prior_Work on intermediate-layer representations) acting as evidentiary support between them. The Contribution block (C1-C3) is a clean 3-fork from N9 with no further branching. Three addresses edges back-link to limitations: N7->N6 (replaces margin signal), C1->N6 (Jaccard disagreement vs margin), C3->N3 (70% compute saving against K cost). The narrative arc is tight and didactic: state pipeline -> identify K-cost limit -> note query heterogeneity -> critique existing adaptive signal -> propose layer-disagreement signal -> evidence from layer-representation literature -> three crisp contributions. Note: N8 functioning as evidence inside the method block (rather than in the Prior_Work intro band) is a distinctive feature."
+  "observations": "FA0034 is a compact, linear motivation arc anchored on VidVec. It opens with a single Context sentence (N1), introduces the two-stage retrieve-then-rerank pipeline as the anchor Prior_Work (N2), then a contrastive Limitation on the K-cost tradeoff (N3). A second Context-pair (N4-N5) develops the 'not all queries need same budget' insight, leading into a Prior_Work on margin-based adaptive routing (N6pw, split out of the original N6 sentence) and the corresponding Limitation N6 that critiques it (margin captures only relative ranking, not model uncertainty). Method emerges in two sentences: N7 names the proposal (cross-layer ranking disagreement) and N9 explains the operational principle, with N8 (Prior_Work on intermediate-layer representations) acting as evidentiary support between them. The Contribution block (C1-C3) is a clean 3-fork from N9 with no further branching. Three addresses edges back-link to limitations: N7->N6 (replaces margin signal), C1->N6 (Jaccard disagreement vs margin), C3->N3 (70% compute saving against K cost). The narrative arc is tight and didactic: state pipeline -> identify K-cost limit -> note query heterogeneity -> introduce margin-based PW -> critique existing adaptive signal -> propose layer-disagreement signal -> evidence from layer-representation literature -> three crisp contributions. Note: N8 functioning as evidence inside the method block (rather than in the Prior_Work intro band) is a distinctive feature."
 }

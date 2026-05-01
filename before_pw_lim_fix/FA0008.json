@@ -1,0 +1,132 @@
+{
+  "paper_id": "FA0008",
+  "paper_topic": "Lower Confidence Bound (LCB) reward for RLVR code generation under finite-sample uncertainty",
+  "anchor_paper": null,
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Reinforcement learning from verifiable rewards (RLVR) has emerged as a powerful paradigm for training large language models on tasks with automatic verification.",
+      "display_label": "RLVR for LLM training",
+      "citations": 0
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "In code generation, unit tests provide a natural verifier: a solution is correct if it passes all tests.",
+      "display_label": "Unit tests as natural verifier",
+      "citations": 0
+    },
+    {
+      "id": "N3",
+      "type": "Prior_Work",
+      "text": "This approach has driven significant advances, from early work on CodeRL (Le et al., 2022) and RLTF (Liu et al., 2023) to recent breakthroughs like DeepSeek-R1 (DeepSeek-AI et al., 2025) and DeepSeekMath (Shao et al., 2024), which demonstrate that RL with verifiable rewards can substantially improve reasoning capabilities.",
+      "display_label": "Prior RLVR systems (CodeRL, DeepSeek-R1)",
+      "citations": 4
+    },
+    {
+      "id": "N4",
+      "type": "Context",
+      "text": "However, a fundamental challenge arises when computational constraints limit the number of unit tests executed per rollout.",
+      "display_label": "Compute-limited test execution",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Prior_Work",
+      "text": "The standard approach uses the pass-rate—the fraction of tests passed—as the reward signal.",
+      "display_label": "Standard pass-rate reward",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "When only m tests are executed (e.g., m = 5 for efficiency), this point estimate has high variance and can mislead the policy.",
+      "display_label": "Pass-rate has high variance at small m",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Limitation",
+      "text": "A solution that passes 4 out of 5 tests might receive a reward of 0.8, yet its true pass probability could plausibly range from 0.5 to 1.0.",
+      "display_label": "4/5 reward hides 0.5-1.0 true range",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Limitation",
+      "text": "This finite-sample noise creates a systematic failure mode: solutions that happen to pass a favorable subset of tests receive inflated rewards, potentially leading the policy to over-optimize noisy estimates rather than true code quality.",
+      "display_label": "Finite-sample noise inflates rewards",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Method",
+      "text": "We propose the Lower Confidence Bound (LCB) reward, which addresses this challenge through principled uncertainty quantification.",
+      "display_label": "Propose LCB reward",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Method",
+      "text": "Instead of treating the pass-rate as a point estimate, we model test outcomes as Bernoulli trials with unknown success probability and place a Beta prior over this probability.",
+      "display_label": "Bernoulli model with Beta prior",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method",
+      "text": "After observing npass successes out of m tests, we compute the δ-quantile of the Beta posterior as the reward.",
+      "display_label": "δ-quantile of Beta posterior as reward",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Method",
+      "text": "This provides a conservative estimate that naturally penalizes solutions with high uncertainty: a solution passing 3/5 tests receives a lower LCB reward than one passing 27/30 tests, even though both have the same pass-rate of 0.6.",
+      "display_label": "Conservative estimate penalizes uncertainty",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We propose the LCB reward for unit-test RLVR, which uses the lower confidence bound of a Beta posterior to account for finite-sample uncertainty in pass-rate estimation.",
+      "display_label": "Contribution: LCB reward design",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We demonstrate that LCB (m=5) achieves state-of-the-art Pass@1 accuracy on MBPP+ (57.0%) and HumanEval+ (57.1%), outperforming Pass-rate (2m=10) while using only half the verifier compute.",
+      "display_label": "Contribution: SOTA Pass@1, half compute",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We show that LCB is robust to hyperparameter choices (δ, prior) and exhibits the most stable training dynamics among all tested reward functions.",
+      "display_label": "Contribution: robust + stable training",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "elaboration"},
+    {"from": "N3", "to": "N4", "kind": "contrast", "connective": "However"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N6", "to": "N7", "kind": "elaboration"},
+    {"from": "N7", "to": "N8", "kind": "consequence", "connective": "creates a systematic failure mode"},
+    {"from": "N8", "to": "N9", "kind": "consequence", "connective": "addresses this challenge"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "N12", "kind": "elaboration"},
+    {"from": "N12", "to": "C1", "kind": "elaboration"},
+    {"from": "N12", "to": "C2", "kind": "elaboration"},
+    {"from": "N12", "to": "C3", "kind": "elaboration"},
+    {"from": "N9", "to": "N8", "kind": "addresses"},
+    {"from": "N12", "to": "N7", "kind": "addresses"},
+    {"from": "N11", "to": "N6", "kind": "addresses"}
+  ],
+  "observations": "FA0008 follows a classic problem-solution arc with a single linear spine. The intro opens with two Context nodes establishing RLVR and unit-test verification (N1-N2), then anchors prior practice with a multi-citation Prior_Work cluster (N3, 4 citations). A 'However' marker pivots into N4, which is field-level problem framing (compute constraints on unit-test execution) and stays in Context. The pass-rate reward (N5) is then introduced as the standard Prior_Work, and only after that does the Limitation chain (N6-N8) begin: high variance at small m, the concrete 4/5 example, and the systematic over-optimization failure mode -- each is an explicit critique of the named pass-rate baseline. The Method block (N9-N12) is presented as a tightly nested elaboration chain (propose LCB → Bernoulli/Beta model → δ-quantile formula → conservative interpretation), with no internal forks. Three Contributions (C1-C3) receive 'addresses' edges from the limitation chain: N9 → N8 (LCB addresses the failure mode), N12 → N7 (the conservative estimate addresses the 4/5 example), N11 → N6 (the δ-quantile addresses high variance at small m). No competing-hypothesis fork; no anchor paper (this is a methodological extension rather than a single-paper follow-up). The narrative is heavily marker-driven (However, creates, addresses) and reads as a uniform top-down derivation rather than a comparative survey."
+}

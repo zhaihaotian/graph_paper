@@ -1,0 +1,178 @@
+<svg viewBox="0 0 1480 1128" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="160" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="396" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="300" x2="1450" y2="300" stroke="#eee" stroke-width="1"/>
+<text x="14" y="588" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="492" x2="1450" y2="492" stroke="#eee" stroke-width="1"/>
+<text x="14" y="780" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="684" x2="1450" y2="684" stroke="#eee" stroke-width="1"/>
+<text x="14" y="972" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="876" x2="1450" y2="876" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="904" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="900" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N9</text>
+<line x1="616" y1="140" x2="616" y2="348" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="444" x2="616" y2="540" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="616" y="489" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">While effective</text>
+<line x1="616" y1="636" x2="994" y2="68" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="349" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">A key insight</text>
+<line x1="994" y1="140" x2="805" y2="168" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="252" x2="994" y2="540" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="899" y="393" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">but</text>
+<line x1="994" y1="636" x2="616" y2="732" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="681" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">We propose</text>
+<line x1="616" y1="828" x2="994" y2="348" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="444" x2="994" y2="732" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="994" y="585" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Building on this insight</text>
+<line x1="994" y1="828" x2="427" y2="924" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="828" x2="805" y2="924" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="828" x2="1183" y2="924" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="828" x2="994" y2="540" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="994" y1="828" x2="616" y2="540" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="427" y1="1020" x2="994" y2="540" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<g>
+<rect x="436" y="68" width="360" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="616" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Video-text retrieval matters</text>
+<text x="616" y="113" text-anchor="middle" font-size="9.5" fill="#555">Video-text retrieval has become increasingly important for video</text>
+<text x="616" y="125" text-anchor="middle" font-size="9.5" fill="#555">search, recommendation, and multimodal understanding.</text>
+<title>N1 [Context] (cites=0)
+Video-text retrieval has become increasingly important for video search, recommendation, and multimodal understanding.</title>
+</g>
+<circle cx="803.0" cy="356.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="348" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="362" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Prior_Work : ANCHOR]</text>
+<text x="616" y="377" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Two-stage retrieve-then-rerank</text>
+<text x="616" y="393" text-anchor="middle" font-size="9.5" fill="#555">State-of-the-art systems typically employ a two-stage</text>
+<text x="616" y="405" text-anchor="middle" font-size="9.5" fill="#555">retrieve-then-rerank pipeline: a fast embedding model retrieves</text>
+<text x="616" y="417" text-anchor="middle" font-size="9.5" fill="#555">candidate videos via cosine similarity, followed by an expensive</text>
+<text x="616" y="429" text-anchor="middle" font-size="9.5" fill="#555">reranker that scores the top-K candidates with higher…</text>
+<title>N2 [Prior_Work] (cites=1)
+State-of-the-art systems typically employ a two-stage retrieve-then-rerank pipeline: a fast embedding model retrieves candidate videos via cosine similarity, followed by an expensive reranker that scores the top-K candidates with higher fidelity (Tzachor et al., 2026).</title>
+</g>
+<g>
+<rect x="436" y="540" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="554" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Limitation]</text>
+<text x="616" y="569" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Reranker K passes dominate cost</text>
+<text x="616" y="585" text-anchor="middle" font-size="9.5" fill="#555">While effective, this approach faces a fundamental</text>
+<text x="616" y="597" text-anchor="middle" font-size="9.5" fill="#555">efficiency-quality tradeoff: the reranker requires K forward</text>
+<text x="616" y="609" text-anchor="middle" font-size="9.5" fill="#555">passes per query, making K the dominant cost factor.</text>
+<title>N3 [Limitation] (cites=0)
+While effective, this approach faces a fundamental efficiency-quality tradeoff: the reranker requires K forward passes per query, making K the dominant cost factor.</title>
+</g>
+<g>
+<rect x="814" y="68" width="360" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="994" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Not all queries need same budget</text>
+<text x="994" y="113" text-anchor="middle" font-size="9.5" fill="#555">A key insight is that not all queries require the same reranking</text>
+<text x="994" y="125" text-anchor="middle" font-size="9.5" fill="#555">budget.</text>
+<title>N4 [Context] (cites=0)
+A key insight is that not all queries require the same reranking budget.</title>
+</g>
+<g>
+<rect x="595" y="168" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="182" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="197" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Easy vs hard queries</text>
+<text x="805" y="213" text-anchor="middle" font-size="9.5" fill="#555">Some queries are “easy”—the embedding model is confident and the top</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">candidate is likely correct—while others are “hard” and benefit</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">substantially from deeper reranking.</text>
+<title>N5 [Context] (cites=0)
+Some queries are “easy”—the embedding model is confident and the top candidate is likely correct—while others are “hard” and benefit substantially from deeper reranking.</title>
+</g>
+<g>
+<rect x="814" y="540" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="554" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="994" y="569" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Margin signal misses real uncertainty</text>
+<text x="994" y="585" text-anchor="middle" font-size="9.5" fill="#555">Existing adaptive methods use the embedding similarity margin (the</text>
+<text x="994" y="597" text-anchor="middle" font-size="9.5" fill="#555">gap between top-1 and top-2 scores) as a confidence signal, but</text>
+<text x="994" y="609" text-anchor="middle" font-size="9.5" fill="#555">this captures only the relative ranking of top candidates, not the</text>
+<text x="994" y="621" text-anchor="middle" font-size="9.5" fill="#555">underlying model uncertainty.</text>
+<title>N6 [Limitation] (cites=0)
+Existing adaptive methods use the embedding similarity margin (the gap between top-1 and top-2 scores) as a confidence signal, but this captures only the relative ranking of top candidates, not the underlying model uncertainty.</title>
+</g>
+<g>
+<rect x="436" y="732" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="746" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Method]</text>
+<text x="616" y="761" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose cross-layer disagreement signal</text>
+<text x="616" y="777" text-anchor="middle" font-size="9.5" fill="#555">We propose using cross-layer ranking disagreement as a more</text>
+<text x="616" y="789" text-anchor="middle" font-size="9.5" fill="#555">principled confidence signal.</text>
+<title>N7 [Method] (cites=0)
+We propose using cross-layer ranking disagreement as a more principled confidence signal.</title>
+</g>
+<circle cx="1181.0" cy="356.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="364.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="348" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="362" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Prior_Work]</text>
+<text x="994" y="377" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Intermediate layers carry rich signal</text>
+<text x="994" y="393" text-anchor="middle" font-size="9.5" fill="#555">Recent work has shown that intermediate layers of large language</text>
+<text x="994" y="405" text-anchor="middle" font-size="9.5" fill="#555">models encode rich, task-relevant representations (Skean et al.,</text>
+<text x="994" y="417" text-anchor="middle" font-size="9.5" fill="#555">2025), and that the best visual embeddings are often found in</text>
+<text x="994" y="429" text-anchor="middle" font-size="9.5" fill="#555">intermediate rather than final layers (Bolya et…</text>
+<title>N8 [Prior_Work] (cites=2)
+Recent work has shown that intermediate layers of large language models encode rich, task-relevant representations (Skean et al., 2025), and that the best visual embeddings are often found in intermediate rather than final layers (Bolya et al., 2025).</title>
+</g>
+<g>
+<rect x="814" y="732" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="746" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="994" y="761" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Layer agreement = confidence</text>
+<text x="994" y="777" text-anchor="middle" font-size="9.5" fill="#555">Building on this insight, we observe that when different</text>
+<text x="994" y="789" text-anchor="middle" font-size="9.5" fill="#555">transformer layers agree on the ranking of top candidates, the</text>
+<text x="994" y="801" text-anchor="middle" font-size="9.5" fill="#555">model is confident; when they disagree, the query is ambiguous and</text>
+<text x="994" y="813" text-anchor="middle" font-size="9.5" fill="#555">reranking is more likely to correct errors.</text>
+<title>N9 [Method] (cites=0)
+Building on this insight, we observe that when different transformer layers agree on the ranking of top candidates, the model is confident; when they disagree, the query is ambiguous and reranking is more likely to correct errors.</title>
+</g>
+<g>
+<rect x="247" y="924" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="938" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="427" y="953" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Jaccard cross-layer disagreement signal</text>
+<text x="427" y="969" text-anchor="middle" font-size="9.5" fill="#555">We introduce cross-layer ranking disagreement as a novel</text>
+<text x="427" y="981" text-anchor="middle" font-size="9.5" fill="#555">confidence signal for adaptive reranking, measuring the Jaccard</text>
+<text x="427" y="993" text-anchor="middle" font-size="9.5" fill="#555">distance between top-k candidate sets across transformer layers to</text>
+<text x="427" y="1005" text-anchor="middle" font-size="9.5" fill="#555">quantify model uncertainty.</text>
+<title>C1 [Contribution] (cites=0)
+We introduce cross-layer ranking disagreement as a novel confidence signal for adaptive reranking, measuring the Jaccard distance between top-k candidate sets across transformer layers to quantify model uncertainty.</title>
+</g>
+<g>
+<rect x="625" y="924" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="938" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="805" y="953" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">3-tier routing K in {10,60,100}</text>
+<text x="805" y="969" text-anchor="middle" font-size="9.5" fill="#555">We propose a 3-tier routing architecture that maps disagreement</text>
+<text x="805" y="981" text-anchor="middle" font-size="9.5" fill="#555">scores to reranking budgets K ∈ {10, 60, 100}, enabling</text>
+<text x="805" y="993" text-anchor="middle" font-size="9.5" fill="#555">fine-grained allocation compared to binary routing schemes.</text>
+<title>C2 [Contribution] (cites=0)
+We propose a 3-tier routing architecture that maps disagreement scores to reranking budgets K ∈ {10, 60, 100}, enabling fine-grained allocation compared to binary routing schemes.</title>
+</g>
+<g>
+<rect x="1003" y="924" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="938" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="1183" y="953" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">+0.9/+1.5 R@1, 70% compute saving</text>
+<text x="1183" y="969" text-anchor="middle" font-size="9.5" fill="#555">We demonstrate that our training-free method achieves +0.9 R@1</text>
+<text x="1183" y="981" text-anchor="middle" font-size="9.5" fill="#555">over margin-based routing on MSR-VTT and +1.5 R@1 on DiDeMo, while</text>
+<text x="1183" y="993" text-anchor="middle" font-size="9.5" fill="#555">reducing reranking compute by approximately 70% compared to fixed</text>
+<text x="1183" y="1005" text-anchor="middle" font-size="9.5" fill="#555">K=100.</text>
+<title>C3 [Contribution] (cites=0)
+We demonstrate that our training-free method achieves +0.9 R@1 over margin-based routing on MSR-VTT and +1.5 R@1 on DiDeMo, while reducing reranking compute by approximately 70% compared to fixed K=100.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

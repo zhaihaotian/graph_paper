@@ -1,0 +1,205 @@
+<svg viewBox="0 0 1480 1696" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="104" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="334" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="188" x2="1450" y2="188" stroke="#eee" stroke-width="1"/>
+<text x="14" y="720" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="480" x2="1450" y2="480" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1106" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="960" x2="1450" y2="960" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1348" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1252" x2="1450" y2="1252" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1540" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1444" x2="1450" y2="1444" stroke="#eee" stroke-width="1"/>
+<rect x="424" y="508" width="762" height="116" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="432" y="504" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N10</text>
+<rect x="235" y="1472" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1468" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N12</text>
+<line x1="805" y1="140" x2="805" y2="236" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="332" x2="805" y2="360" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="432" x2="616" y2="528" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="477" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="616" y1="612" x2="616" y2="1300" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1396" x2="994" y2="528" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="612" x2="805" y2="640" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="712" x2="805" y2="740" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="812" x2="805" y2="840" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="912" x2="805" y2="1008" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="957" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">we propose</text>
+<line x1="805" y1="1080" x2="805" y2="1108" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1204" x2="994" y2="1300" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="994" y1="1396" x2="427" y2="1492" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1396" x2="805" y2="1492" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1396" x2="1183" y2="1492" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1080" x2="994" y2="528" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1204" x2="805" y2="840" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1080" x2="616" y2="528" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<g>
+<rect x="595" y="68" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs need content moderation</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Large language models (LLMs) deployed in production systems require robust</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">content moderation to prevent harmful outputs.</text>
+<title>N1 [Context] (cites=0)
+Large language models (LLMs) deployed in production systems require robust content moderation to prevent harmful outputs.</title>
+</g>
+<circle cx="1022.0" cy="244.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="252.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="260.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="236" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="250" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Prior_Work : ANCHOR]</text>
+<text x="805" y="265" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Safety judges as gatekeepers</text>
+<text x="805" y="281" text-anchor="middle" font-size="9.5" fill="#555">Safety judges—specialized models that classify responses as safe or</text>
+<text x="805" y="293" text-anchor="middle" font-size="9.5" fill="#555">unsafe—have emerged as critical gatekeepers for both offline safety</text>
+<text x="805" y="305" text-anchor="middle" font-size="9.5" fill="#555">benchmarking and real-time content filtering (Inan et al., 2023; Han et al.,</text>
+<text x="805" y="317" text-anchor="middle" font-size="9.5" fill="#555">2024; Zeng et al., 2024).</text>
+<title>N2 [Prior_Work] (cites=3)
+Safety judges—specialized models that classify responses as safe or unsafe—have emerged as critical gatekeepers for both offline safety benchmarking and real-time content filtering (Inan et al., 2023; Han et al., 2024; Zeng et al., 2024).</title>
+</g>
+<g>
+<rect x="595" y="360" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="374" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Prior_Work]</text>
+<text x="805" y="389" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Judges process responses holistically</text>
+<text x="805" y="405" text-anchor="middle" font-size="9.5" fill="#555">These judges typically process responses holistically, examining the entire</text>
+<text x="805" y="417" text-anchor="middle" font-size="9.5" fill="#555">text to produce a single safety verdict.</text>
+<title>N3 [Prior_Work] (cites=0)
+These judges typically process responses holistically, examining the entire text to produce a single safety verdict.</title>
+</g>
+<g>
+<rect x="436" y="528" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="542" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Limitation]</text>
+<text x="616" y="557" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Holistic design is vulnerable</text>
+<text x="616" y="573" text-anchor="middle" font-size="9.5" fill="#555">However, this holistic design creates a fundamental vulnerability.</text>
+<title>N4 [Limitation] (cites=0)
+However, this holistic design creates a fundamental vulnerability.</title>
+</g>
+<g>
+<rect x="436" y="1300" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="616" y="1314" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Result]</text>
+<text x="616" y="1329" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">WildGuard FNR jumps 0.045 -&gt; 1.0 under padding</text>
+<text x="616" y="1345" text-anchor="middle" font-size="9.5" fill="#555">We demonstrate that state-of-the-art safety judges can be</text>
+<text x="616" y="1357" text-anchor="middle" font-size="9.5" fill="#555">completely fooled by benign-padding attacks: simply prepending and</text>
+<text x="616" y="1369" text-anchor="middle" font-size="9.5" fill="#555">appending benign text to harmful content causes WildGuard's false</text>
+<text x="616" y="1381" text-anchor="middle" font-size="9.5" fill="#555">negative rate (FNR) to increase from 0.0455 to…</text>
+<title>N5 [Result] (cites=0)
+We demonstrate that state-of-the-art safety judges can be completely fooled by benign-padding attacks: simply prepending and appending benign text to harmful content causes WildGuard's false negative rate (FNR) to increase from 0.0455 to 1.0, meaning every unsafe response is misclassified as safe.</title>
+</g>
+<g>
+<rect x="814" y="528" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="542" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="994" y="557" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Padding dilutes harmful signal</text>
+<text x="994" y="573" text-anchor="middle" font-size="9.5" fill="#555">This catastrophic failure occurs because benign padding dilutes</text>
+<text x="994" y="585" text-anchor="middle" font-size="9.5" fill="#555">the harmful signal across a longer context, overwhelming the</text>
+<text x="994" y="597" text-anchor="middle" font-size="9.5" fill="#555">judge's detection capability.</text>
+<title>N6 [Limitation] (cites=0)
+This catastrophic failure occurs because benign padding dilutes the harmful signal across a longer context, overwhelming the judge's detection capability.</title>
+</g>
+<g>
+<rect x="595" y="640" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="654" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="669" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Naive windowing has new problem</text>
+<text x="805" y="685" text-anchor="middle" font-size="9.5" fill="#555">The natural mitigation—examining responses through smaller windows rather</text>
+<text x="805" y="697" text-anchor="middle" font-size="9.5" fill="#555">than holistically—introduces a new challenge.</text>
+<title>N7 [Limitation] (cites=0)
+The natural mitigation—examining responses through smaller windows rather than holistically—introduces a new challenge.</title>
+</g>
+<g>
+<rect x="595" y="740" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="754" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Limitation]</text>
+<text x="805" y="769" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">More windows -&gt; more false positives</text>
+<text x="805" y="785" text-anchor="middle" font-size="9.5" fill="#555">As response length increases, more windows are scanned, and the probability</text>
+<text x="805" y="797" text-anchor="middle" font-size="9.5" fill="#555">of spurious false positives grows.</text>
+<title>N8 [Limitation] (cites=0)
+As response length increases, more windows are scanned, and the probability of spurious false positives grows.</title>
+</g>
+<g>
+<rect x="595" y="840" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="854" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Limitation]</text>
+<text x="805" y="869" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Multiple-comparisons issue under padding</text>
+<text x="805" y="885" text-anchor="middle" font-size="9.5" fill="#555">This multiple-comparisons effect is particularly problematic for</text>
+<text x="805" y="897" text-anchor="middle" font-size="9.5" fill="#555">benign-padding attacks, which adversarially increase response length.</text>
+<title>N9 [Limitation] (cites=0)
+This multiple-comparisons effect is particularly problematic for benign-padding attacks, which adversarially increase response length.</title>
+</g>
+<g>
+<rect x="595" y="1008" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1022" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="805" y="1037" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">WindowScan-Judge: windowing + LA-FPR</text>
+<text x="805" y="1053" text-anchor="middle" font-size="9.5" fill="#555">We propose WindowScan-Judge (WSJ), a post-hoc wrapper that combines</text>
+<text x="805" y="1065" text-anchor="middle" font-size="9.5" fill="#555">multi-scale windowed scanning with Length-Aware FPR Control (LA-FPR).</text>
+<title>N10 [Method] (cites=0)
+We propose WindowScan-Judge (WSJ), a post-hoc wrapper that combines multi-scale windowed scanning with Length-Aware FPR Control (LA-FPR).</title>
+</g>
+<g>
+<rect x="595" y="1108" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1122" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method: component]</text>
+<text x="805" y="1137" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Multi-scale windows + calibrated threshold</text>
+<text x="805" y="1153" text-anchor="middle" font-size="9.5" fill="#555">WSJ splits responses into overlapping windows at multiple scales, runs the</text>
+<text x="805" y="1165" text-anchor="middle" font-size="9.5" fill="#555">base judge on each window independently, and aggregates decisions using a</text>
+<text x="805" y="1177" text-anchor="middle" font-size="9.5" fill="#555">calibrated threshold that maintains false positive rate within a specified</text>
+<text x="805" y="1189" text-anchor="middle" font-size="9.5" fill="#555">budget.</text>
+<title>N11 [Method: component] (cites=0)
+WSJ splits responses into overlapping windows at multiple scales, runs the base judge on each window independently, and aggregates decisions using a calibrated threshold that maintains false positive rate within a specified budget.</title>
+</g>
+<g>
+<rect x="814" y="1300" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="994" y="1314" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Result]</text>
+<text x="994" y="1329" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">FNR 1.0 -&gt; 0.0091 on padding</text>
+<text x="994" y="1345" text-anchor="middle" font-size="9.5" fill="#555">This approach achieves dramatic improvements: on prepend+append</text>
+<text x="994" y="1357" text-anchor="middle" font-size="9.5" fill="#555">padding, WSJ reduces WildGuard's FNR from 1.0 to 0.0091 while</text>
+<text x="994" y="1369" text-anchor="middle" font-size="9.5" fill="#555">keeping FPR controlled.</text>
+<title>N12 [Result] (cites=0)
+This approach achieves dramatic improvements: on prepend+append padding, WSJ reduces WildGuard's FNR from 1.0 to 0.0091 while keeping FPR controlled.</title>
+</g>
+<g>
+<rect x="247" y="1492" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1506" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Contribution]</text>
+<text x="427" y="1521" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution: identify padding vulnerability</text>
+<text x="427" y="1537" text-anchor="middle" font-size="9.5" fill="#555">We identify and characterize the benign-padding vulnerability in</text>
+<text x="427" y="1549" text-anchor="middle" font-size="9.5" fill="#555">safety judges, demonstrating that holistic evaluation fails</text>
+<text x="427" y="1561" text-anchor="middle" font-size="9.5" fill="#555">catastrophically when harmful content is surrounded by benign</text>
+<text x="427" y="1573" text-anchor="middle" font-size="9.5" fill="#555">text.</text>
+<title>N13 [Contribution] (cites=0)
+We identify and characterize the benign-padding vulnerability in safety judges, demonstrating that holistic evaluation fails catastrophically when harmful content is surrounded by benign text.</title>
+</g>
+<g>
+<rect x="625" y="1492" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1506" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Contribution]</text>
+<text x="805" y="1521" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution: WSJ tuning-free wrapper</text>
+<text x="805" y="1537" text-anchor="middle" font-size="9.5" fill="#555">We propose WindowScan-Judge, a tuning-free wrapper that enhances</text>
+<text x="805" y="1549" text-anchor="middle" font-size="9.5" fill="#555">any existing safety judge through multi-scale windowed scanning</text>
+<text x="805" y="1561" text-anchor="middle" font-size="9.5" fill="#555">and length-aware aggregation.</text>
+<title>N14 [Contribution] (cites=0)
+We propose WindowScan-Judge, a tuning-free wrapper that enhances any existing safety judge through multi-scale windowed scanning and length-aware aggregation.</title>
+</g>
+<g>
+<rect x="1003" y="1492" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1506" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Contribution]</text>
+<text x="1183" y="1521" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution: 99.1% FNR reduction, generalizes</text>
+<text x="1183" y="1537" text-anchor="middle" font-size="9.5" fill="#555">We achieve 99.1% absolute FNR reduction on WildGuard while</text>
+<text x="1183" y="1549" text-anchor="middle" font-size="9.5" fill="#555">maintaining FPR within budget, with consistent improvements across</text>
+<text x="1183" y="1561" text-anchor="middle" font-size="9.5" fill="#555">multiple base judges including Llama Guard 3.</text>
+<title>N15 [Contribution] (cites=0)
+We achieve 99.1% absolute FNR reduction on WildGuard while maintaining FPR within budget, with consistent improvements across multiple base judges including Llama Guard 3.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

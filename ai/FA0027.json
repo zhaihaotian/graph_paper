@@ -25,12 +25,19 @@
       "citations": 0
     },
     {
-      "id": "N4",
-      "type": "Limitation",
-      "text": "However, reference-based verifiers harbor a critical vulnerability: they can be fooled by trivial \"master-key\" responses that exploit reference answer leakage (Zhao et al., 2025).",
-      "display_label": "Master-key vulnerability in reference verifiers",
+      "id": "N4pw",
+      "type": "Prior_Work",
+      "text": "they can be fooled by trivial \"master-key\" responses that exploit reference answer leakage (Zhao et al., 2025).",
+      "display_label": "Zhao et al.: master-key attack on verifiers",
       "citations": 1,
       "anchor": true
+    },
+    {
+      "id": "N4",
+      "type": "Limitation",
+      "text": "However, reference-based verifiers harbor a critical vulnerability:",
+      "display_label": "Master-key vulnerability in reference verifiers",
+      "citations": 0
     },
     {
       "id": "N5",
@@ -113,8 +120,10 @@
   "edges": [
     {"from": "N1", "to": "N2", "kind": "elaboration"},
     {"from": "N2", "to": "N3", "kind": "elaboration"},
-    {"from": "N3", "to": "N4", "kind": "contrast", "connective": "However"},
-    {"from": "N4", "to": "N5", "kind": "evidence"},
+    {"from": "N3", "to": "N4pw", "kind": "contrast", "connective": "However"},
+    {"from": "N4pw", "to": "N4", "kind": "elaboration"},
+    {"from": "N4pw", "to": "N5", "kind": "evidence"},
+    {"from": "N4", "to": "N6", "kind": "elaboration"},
     {"from": "N5", "to": "N6", "kind": "consequence", "connective": "can corrupt"},
     {"from": "N6", "to": "N7", "kind": "elaboration"},
     {"from": "N7", "to": "N8", "kind": "consequence", "connective": "motivates"},
@@ -129,5 +138,5 @@
     {"from": "N9", "to": "N7", "kind": "addresses"},
     {"from": "N10", "to": "N8", "kind": "addresses"}
   ],
-  "observations": "FA0027 follows a vulnerability-defense arc with a single anchor (Zhao et al. 2025 master-key attacks). Three Context sentences ground RLVR, then 'However' (N3->N4) pivots to the master-key vulnerability, immediately quantified by N5 (25-29% FPR on xVerify and Qwen2.5) which serves as evidence. The Limitation chain extends through downstream consequences: corruption of RLVR training (N6), failure of simple length filtering (N7), and an explicit motivation statement (N8) that bridges to the method. The Method zone is compact: N9 (RefSwap) elaborated by N10 (self-solving asymmetry insight), with N11 supplying the AUC=0.991 result evidence. Cross-pair addresses edges connect the method back to specific limitations: N9 addresses N4 (master-key) and N7 (length-filtering failure, sharing 'master keys'/'false positive rate'), while N10's 'semantic' insight addresses N8's 'deeper semantic properties' lexical anchor. Four Contributions form a join: identify-vulnerability (C1) traces from N4, propose-method (C2) and backbone-dependency (C4) from N9, empirical-result (C3) from N11. Notably, C4 acknowledges the method's limited generality (works on xVerify but not Qwen) — a candor signal embedded in the contribution list rather than buried."
+  "observations": "FA0027 follows a vulnerability-defense arc with a single anchor (Zhao et al. 2025 master-key attacks). Three Context sentences ground RLVR, then 'However' (N3->N4pw) pivots to Zhao et al.'s master-key discovery (N4pw, the anchor PW node split out via Pass-3 Case (c) so the downstream Limitation has a Prior_Work source); the framing claim 'reference-based verifiers harbor a critical vulnerability' is preserved as the Limitation N4, sourced from N4pw. N5 (25-29% FPR on xVerify and Qwen2.5) provides evidence for the master-key discovery N4pw. The Limitation chain extends through downstream consequences: corruption of RLVR training (N6, sourced from N4 elaboration alongside the N5 'can corrupt' consequence narrative), failure of simple length filtering (N7), and an explicit motivation statement (N8) that bridges to the method. The Method zone is compact: N9 (RefSwap) elaborated by N10 (self-solving asymmetry insight), with N11 supplying the AUC=0.991 result evidence. Cross-pair addresses edges connect the method back to specific limitations: N9 addresses N4 (master-key vulnerability framing) and N7 (length-filtering failure, sharing 'master keys'/'false positive rate'), while N10's 'semantic' insight addresses N8's 'deeper semantic properties' lexical anchor. Four Contributions form a join: identify-vulnerability (C1) traces from N4, propose-method (C2) and backbone-dependency (C4) from N9, empirical-result (C3) from N11. Notably, C4 acknowledges the method's limited generality (works on xVerify but not Qwen) — a candor signal embedded in the contribution list rather than buried."
 }

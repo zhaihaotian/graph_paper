@@ -1,4 +1,4 @@
-<svg viewBox="0 0 1480 2592" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<svg viewBox="0 0 1480 2392" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
 <defs>
   <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
   <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
@@ -6,499 +6,501 @@
   <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
   <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
 </defs>
-<text x="14" y="334" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
-<text x="14" y="868" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
-<line x1="60" y1="648" x2="1450" y2="648" stroke="#eee" stroke-width="1"/>
-<text x="14" y="1408" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
-<line x1="60" y1="1088" x2="1450" y2="1088" stroke="#eee" stroke-width="1"/>
-<text x="14" y="1868" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
-<line x1="60" y1="1728" x2="1450" y2="1728" stroke="#eee" stroke-width="1"/>
-<text x="14" y="2104" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
-<line x1="60" y1="2008" x2="1450" y2="2008" stroke="#eee" stroke-width="1"/>
-<text x="14" y="2366" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
-<line x1="60" y1="2200" x2="1450" y2="2200" stroke="#eee" stroke-width="1"/>
-<rect x="235" y="1240" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
-<text x="243" y="1236" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N6</text>
-<rect x="480" y="2228" width="650" height="130" rx="10" fill="none" stroke="#3a6a8a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
-<text x="488" y="2370" font-size="10" fill="#3a6a8a" font-style="italic" font-weight="600">JOIN -&gt; N19</text>
-<rect x="235" y="2036" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
-<text x="243" y="2032" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N21</text>
-<rect x="158" y="2354" width="263" height="142" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
-<text x="166" y="2350" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N25</text>
-<rect x="415" y="2354" width="263" height="142" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
-<text x="423" y="2350" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N28</text>
-<rect x="673" y="2354" width="392" height="142" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
-<text x="681" y="2350" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N31</text>
-<rect x="1059" y="2354" width="392" height="142" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
-<text x="1067" y="2350" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N35</text>
-<line x1="805" y1="140" x2="805" y2="168" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="805" y1="252" x2="805" y2="280" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="805" y1="364" x2="805" y2="392" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="805" y1="476" x2="805" y2="504" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="805" y1="600" x2="427" y2="1136" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
-<text x="616" y="865" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
-<line x1="427" y1="1232" x2="427" y2="1260" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="427" y1="1356" x2="616" y2="1384" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="616" y1="1468" x2="805" y2="1496" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="805" y1="1580" x2="805" y2="1608" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<text x="805" y="1591" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Moreover</text>
-<line x1="805" y1="1680" x2="616" y2="696" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="616" y1="792" x2="805" y2="1136" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="805" y1="1232" x2="805" y2="1260" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="427" y1="1232" x2="1183" y2="1260" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="1183" y1="1356" x2="994" y2="1384" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="994" y1="1468" x2="994" y2="696" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="994" y1="792" x2="805" y2="820" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
-<text x="899" y="803" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">This convergence has enabled</text>
-<line x1="805" y1="916" x2="805" y2="944" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="805" y1="1040" x2="1183" y2="1136" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
-<text x="994" y="1085" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
-<line x1="1183" y1="1232" x2="805" y2="1776" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
-<text x="994" y="1501" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">In this paper, we address</text>
-<line x1="805" y1="1848" x2="805" y2="1876" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="805" y1="1960" x2="427" y2="2056" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
-<line x1="805" y1="1960" x2="805" y2="2056" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
-<line x1="805" y1="1960" x2="1183" y2="2056" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
-<line x1="1183" y1="2152" x2="322" y2="2248" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="322" y1="2346" x2="427" y2="1260" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
-<line x1="644" y1="2346" x2="1183" y2="1136" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
-<line x1="966" y1="2346" x2="1183" y2="1136" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
-<line x1="1288" y1="2346" x2="805" y2="1136" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
-<line x1="322" y1="2346" x2="225" y2="2374" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="322" y1="2346" x2="354" y2="2374" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="644" y1="2346" x2="483" y2="2374" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="644" y1="2346" x2="611" y2="2374" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="966" y1="2346" x2="740" y2="2374" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="966" y1="2346" x2="869" y2="2374" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="966" y1="2346" x2="998" y2="2374" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="1288" y1="2346" x2="1127" y2="2374" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="1288" y1="2346" x2="1255" y2="2374" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="1288" y1="2346" x2="1384" y2="2374" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="14" y="234" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="668" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="448" x2="1450" y2="448" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1208" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="888" x2="1450" y2="888" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1668" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1528" x2="1450" y2="1528" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1904" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1808" x2="1450" y2="1808" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2166" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="2000" x2="1450" y2="2000" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1040" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1036" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N6</text>
+<rect x="480" y="2028" width="650" height="130" rx="10" fill="none" stroke="#3a6a8a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="488" y="2170" font-size="10" fill="#3a6a8a" font-style="italic" font-weight="600">JOIN -&gt; N19</text>
+<rect x="235" y="1836" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1832" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N21</text>
+<rect x="158" y="2154" width="263" height="142" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="2150" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N25</text>
+<rect x="415" y="2154" width="263" height="142" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="423" y="2150" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N28</text>
+<rect x="673" y="2154" width="392" height="142" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="681" y="2150" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N31</text>
+<rect x="1059" y="2154" width="392" height="142" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="1067" y="2150" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N35</text>
+<line x1="616" y1="164" x2="427" y2="496" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="592" x2="994" y2="68" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="164" x2="805" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="276" x2="805" y2="304" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="400" x2="427" y2="936" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="592" x2="427" y2="936" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="427" y="761" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="427" y1="1032" x2="427" y2="1060" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="1156" x2="616" y2="1184" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1268" x2="805" y2="1296" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1380" x2="805" y2="1408" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1391" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Moreover</text>
+<line x1="805" y1="1480" x2="805" y2="496" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="592" x2="805" y2="936" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1032" x2="805" y2="1060" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="1032" x2="1183" y2="1060" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1183" y1="1156" x2="994" y2="1184" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1268" x2="1183" y2="496" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1183" y1="592" x2="805" y2="620" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="994" y="603" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">This convergence has enabled</text>
+<line x1="805" y1="716" x2="805" y2="744" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="840" x2="1183" y2="936" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="994" y="885" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="1183" y1="1032" x2="805" y2="1576" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="994" y="1301" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">In this paper, we address</text>
+<line x1="805" y1="1648" x2="805" y2="1676" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1760" x2="427" y2="1856" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1760" x2="805" y2="1856" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1760" x2="1183" y2="1856" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="1183" y1="1952" x2="322" y2="2048" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="322" y1="2146" x2="427" y2="1060" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="644" y1="2146" x2="1183" y2="936" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="966" y1="2146" x2="1183" y2="936" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1288" y1="2146" x2="805" y2="936" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="322" y1="2146" x2="225" y2="2174" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="322" y1="2146" x2="354" y2="2174" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="644" y1="2146" x2="483" y2="2174" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="644" y1="2146" x2="611" y2="2174" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="966" y1="2146" x2="740" y2="2174" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="966" y1="2146" x2="869" y2="2174" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="966" y1="2146" x2="998" y2="2174" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1288" y1="2146" x2="1127" y2="2174" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1288" y1="2146" x2="1255" y2="2174" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1288" y1="2146" x2="1384" y2="2174" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
 <g>
-<rect x="595" y="68" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
-<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
-<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">deep nets succeed broadly</text>
-<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">In recent years, deep neural networks have achieved remarkable success</text>
-<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">across a wide range of applications.</text>
+<rect x="436" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="616" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">deep nets succeed broadly</text>
+<text x="616" y="113" text-anchor="middle" font-size="9.5" fill="#555">In recent years, deep neural networks have achieved remarkable</text>
+<text x="616" y="125" text-anchor="middle" font-size="9.5" fill="#555">success across a wide range of applications.</text>
 <title>N1 [Context] (cites=0)
 In recent years, deep neural networks have achieved remarkable success across a wide range of applications.</title>
 </g>
-<circle cx="1022.0" cy="176.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="504.0" r="2.8" fill="#9b7a2e"/>
 <g>
-<rect x="595" y="168" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
-<text x="805" y="182" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
-<text x="805" y="197" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Neural ODEs: continuous, parameter-efficient</text>
-<text x="805" y="213" text-anchor="middle" font-size="9.5" fill="#555">Among these advancements, Neural Ordinary Differential Equations (ODEs)</text>
-<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">(Chen et al., 2018b) stand out due to their continuous nature and parameter</text>
-<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">efficiency through shared parameters.</text>
-<title>N2 [Context] (cites=1)
+<rect x="247" y="496" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="427" y="510" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Prior_Work]</text>
+<text x="427" y="525" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Neural ODEs: continuous, parameter-efficient</text>
+<text x="427" y="541" text-anchor="middle" font-size="9.5" fill="#555">Among these advancements, Neural Ordinary Differential Equations</text>
+<text x="427" y="553" text-anchor="middle" font-size="9.5" fill="#555">(ODEs) (Chen et al., 2018b) stand out due to their continuous</text>
+<text x="427" y="565" text-anchor="middle" font-size="9.5" fill="#555">nature and parameter efficiency through shared parameters.</text>
+<title>N2 [Prior_Work] (cites=1)
 Among these advancements, Neural Ordinary Differential Equations (ODEs) (Chen et al., 2018b) stand out due to their continuous nature and parameter efficiency through shared parameters.</title>
 </g>
 <g>
-<rect x="595" y="280" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
-<text x="805" y="294" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
-<text x="805" y="309" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">continuous-time hidden state evolution</text>
-<text x="805" y="325" text-anchor="middle" font-size="9.5" fill="#555">Unlike conventional neural networks with discrete layers, Neural ODEs model</text>
-<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">the evolution of hidden states as a continuous-time differential equation,</text>
-<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">allowing them to better capture dynamic systems.</text>
+<rect x="814" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="994" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">continuous-time hidden state evolution</text>
+<text x="994" y="113" text-anchor="middle" font-size="9.5" fill="#555">Unlike conventional neural networks with discrete layers, Neural</text>
+<text x="994" y="125" text-anchor="middle" font-size="9.5" fill="#555">ODEs model the evolution of hidden states as a continuous-time</text>
+<text x="994" y="137" text-anchor="middle" font-size="9.5" fill="#555">differential equation, allowing them to better capture dynamic</text>
+<text x="994" y="149" text-anchor="middle" font-size="9.5" fill="#555">systems.</text>
 <title>N3 [Context] (cites=0)
 Unlike conventional neural networks with discrete layers, Neural ODEs model the evolution of hidden states as a continuous-time differential equation, allowing them to better capture dynamic systems.</title>
 </g>
 <g>
-<rect x="595" y="392" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
-<text x="805" y="406" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
-<text x="805" y="421" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">shared params: consistent dynamics, less memory</text>
-<text x="805" y="437" text-anchor="middle" font-size="9.5" fill="#555">This parameter-sharing mechanism ensures consistent dynamics throughout the</text>
-<text x="805" y="449" text-anchor="middle" font-size="9.5" fill="#555">continuous transformation and reduces the number of parameters, improving</text>
-<text x="805" y="461" text-anchor="middle" font-size="9.5" fill="#555">both memory efficiency and computational complexity.</text>
+<rect x="595" y="192" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">shared params: consistent dynamics, less memory</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">This parameter-sharing mechanism ensures consistent dynamics throughout the</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">continuous transformation and reduces the number of parameters, improving</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">both memory efficiency and computational complexity.</text>
 <title>N4 [Context] (cites=0)
 This parameter-sharing mechanism ensures consistent dynamics throughout the continuous transformation and reduces the number of parameters, improving both memory efficiency and computational complexity.</title>
 </g>
-<circle cx="1022.0" cy="512.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="1022.0" cy="520.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="1022.0" cy="528.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="1022.0" cy="536.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="1022.0" cy="544.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="312.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="320.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="328.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="336.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="344.0" r="2.8" fill="#9b7a2e"/>
 <g>
-<rect x="595" y="504" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
-<text x="805" y="518" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
-<text x="805" y="533" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">applied across vision/NLP/time-series/RL/diffusion</text>
-<text x="805" y="549" text-anchor="middle" font-size="9.5" fill="#555">These unique properties make Neural ODEs particularly effective not only for</text>
-<text x="805" y="561" text-anchor="middle" font-size="9.5" fill="#555">traditional machine learning tasks like image classification (Chen et al.,</text>
-<text x="805" y="573" text-anchor="middle" font-size="9.5" fill="#555">2018b) and natural language processing (Rubanova et al., 2019), but also for</text>
-<text x="805" y="585" text-anchor="middle" font-size="9.5" fill="#555">more…</text>
+<rect x="595" y="304" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="318" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">applied across vision/NLP/time-series/RL/diffusion</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">These unique properties make Neural ODEs particularly effective not only for</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">traditional machine learning tasks like image classification (Chen et al.,</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">2018b) and natural language processing (Rubanova et al., 2019), but also for</text>
+<text x="805" y="385" text-anchor="middle" font-size="9.5" fill="#555">more…</text>
 <title>N5 [Context] (cites=5)
 These unique properties make Neural ODEs particularly effective not only for traditional machine learning tasks like image classification (Chen et al., 2018b) and natural language processing (Rubanova et al., 2019), but also for more complex tasks involving continuous processes, such as time series analysis (Kidger et al., 2020), reinforcement learning (Du et al., 2020), and diffusion models (Song et al., 2020).</title>
 </g>
 <g>
-<rect x="247" y="1136" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
-<text x="427" y="1150" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
-<text x="427" y="1165" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">two key training challenges</text>
-<text x="427" y="1181" text-anchor="middle" font-size="9.5" fill="#555">However, while these features offer flexibility and efficiency,</text>
-<text x="427" y="1193" text-anchor="middle" font-size="9.5" fill="#555">they also introduce significant challenges during training,</text>
-<text x="427" y="1205" text-anchor="middle" font-size="9.5" fill="#555">particularly in gradient computation and convergence analysis.</text>
+<rect x="247" y="936" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="427" y="950" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="427" y="965" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">two key training challenges</text>
+<text x="427" y="981" text-anchor="middle" font-size="9.5" fill="#555">However, while these features offer flexibility and efficiency,</text>
+<text x="427" y="993" text-anchor="middle" font-size="9.5" fill="#555">they also introduce significant challenges during training,</text>
+<text x="427" y="1005" text-anchor="middle" font-size="9.5" fill="#555">particularly in gradient computation and convergence analysis.</text>
 <title>N6 [Limitation] (cites=0)
 However, while these features offer flexibility and efficiency, they also introduce significant challenges during training, particularly in gradient computation and convergence analysis.</title>
 </g>
 <g>
-<rect x="247" y="1260" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
-<text x="427" y="1274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation: challenge-1]</text>
-<text x="427" y="1289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">challenge 1: gradient computation</text>
-<text x="427" y="1305" text-anchor="middle" font-size="9.5" fill="#555">One of the key challenges in training Neural ODEs is accurately</text>
-<text x="427" y="1317" text-anchor="middle" font-size="9.5" fill="#555">computing gradients.</text>
+<rect x="247" y="1060" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="427" y="1074" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation: challenge-1]</text>
+<text x="427" y="1089" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">challenge 1: gradient computation</text>
+<text x="427" y="1105" text-anchor="middle" font-size="9.5" fill="#555">One of the key challenges in training Neural ODEs is accurately</text>
+<text x="427" y="1117" text-anchor="middle" font-size="9.5" fill="#555">computing gradients.</text>
 <title>N7 [Limitation: challenge-1] (cites=0)
 One of the key challenges in training Neural ODEs is accurately computing gradients.</title>
 </g>
 <g>
-<rect x="436" y="1384" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
-<text x="616" y="1398" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Limitation]</text>
-<text x="616" y="1413" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">must solve forward/backward ODEs numerically</text>
-<text x="616" y="1429" text-anchor="middle" font-size="9.5" fill="#555">Unlike traditional networks, where backpropagation can be computed</text>
-<text x="616" y="1441" text-anchor="middle" font-size="9.5" fill="#555">through a discrete chain of layers, Neural ODEs require solving</text>
-<text x="616" y="1453" text-anchor="middle" font-size="9.5" fill="#555">forward and backward ODEs using numerical solvers.</text>
+<rect x="436" y="1184" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="1198" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Limitation]</text>
+<text x="616" y="1213" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">must solve forward/backward ODEs numerically</text>
+<text x="616" y="1229" text-anchor="middle" font-size="9.5" fill="#555">Unlike traditional networks, where backpropagation can be computed</text>
+<text x="616" y="1241" text-anchor="middle" font-size="9.5" fill="#555">through a discrete chain of layers, Neural ODEs require solving</text>
+<text x="616" y="1253" text-anchor="middle" font-size="9.5" fill="#555">forward and backward ODEs using numerical solvers.</text>
 <title>N8 [Limitation] (cites=0)
 Unlike traditional networks, where backpropagation can be computed through a discrete chain of layers, Neural ODEs require solving forward and backward ODEs using numerical solvers.</title>
 </g>
-<circle cx="1022.0" cy="1504.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1304.0" r="2.8" fill="#9b7a2e"/>
 <g>
-<rect x="595" y="1496" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
-<text x="805" y="1510" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Limitation]</text>
-<text x="805" y="1525" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">numerical errors hurt gradients</text>
-<text x="805" y="1541" text-anchor="middle" font-size="9.5" fill="#555">These solvers introduce numerical errors, which can lead to inaccurate</text>
-<text x="805" y="1553" text-anchor="middle" font-size="9.5" fill="#555">gradients and slow convergence or even suboptimal model performance</text>
-<text x="805" y="1565" text-anchor="middle" font-size="9.5" fill="#555">(Rodriguez et al., 2022).</text>
+<rect x="595" y="1296" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1310" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Limitation]</text>
+<text x="805" y="1325" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">numerical errors hurt gradients</text>
+<text x="805" y="1341" text-anchor="middle" font-size="9.5" fill="#555">These solvers introduce numerical errors, which can lead to inaccurate</text>
+<text x="805" y="1353" text-anchor="middle" font-size="9.5" fill="#555">gradients and slow convergence or even suboptimal model performance</text>
+<text x="805" y="1365" text-anchor="middle" font-size="9.5" fill="#555">(Rodriguez et al., 2022).</text>
 <title>N9 [Limitation] (cites=1)
 These solvers introduce numerical errors, which can lead to inaccurate gradients and slow convergence or even suboptimal model performance (Rodriguez et al., 2022).</title>
 </g>
 <g>
-<rect x="595" y="1608" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
-<text x="805" y="1622" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Limitation]</text>
-<text x="805" y="1637" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">well-posedness during training is nontrivial</text>
-<text x="805" y="1653" text-anchor="middle" font-size="9.5" fill="#555">Moreover, ensuring the well-posedness of ODE solutions during training is</text>
-<text x="805" y="1665" text-anchor="middle" font-size="9.5" fill="#555">nontrivial.</text>
+<rect x="595" y="1408" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1422" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Limitation]</text>
+<text x="805" y="1437" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">well-posedness during training is nontrivial</text>
+<text x="805" y="1453" text-anchor="middle" font-size="9.5" fill="#555">Moreover, ensuring the well-posedness of ODE solutions during training is</text>
+<text x="805" y="1465" text-anchor="middle" font-size="9.5" fill="#555">nontrivial.</text>
 <title>N10 [Limitation] (cites=0)
 Moreover, ensuring the well-posedness of ODE solutions during training is nontrivial.</title>
 </g>
-<circle cx="803.0" cy="704.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="803.0" cy="712.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="803.0" cy="720.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="504.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="512.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="520.0" r="2.8" fill="#9b7a2e"/>
 <g>
-<rect x="436" y="696" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
-<text x="616" y="710" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Prior_Work]</text>
-<text x="616" y="725" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Picard-Lindelof: solutions may be local only</text>
-<text x="616" y="741" text-anchor="middle" font-size="9.5" fill="#555">According to the Picard–Lindelöf Theorem, solutions may not always</text>
-<text x="616" y="753" text-anchor="middle" font-size="9.5" fill="#555">exist or may only exist locally, which can cause training</text>
-<text x="616" y="765" text-anchor="middle" font-size="9.5" fill="#555">divergence or significant numerical errors (Gholami et al., 2019;</text>
-<text x="616" y="777" text-anchor="middle" font-size="9.5" fill="#555">Ott et al., 2020; Sander et al., 2022).</text>
+<rect x="625" y="496" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="510" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Prior_Work]</text>
+<text x="805" y="525" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Picard-Lindelof: solutions may be local only</text>
+<text x="805" y="541" text-anchor="middle" font-size="9.5" fill="#555">According to the Picard–Lindelöf Theorem, solutions may not always</text>
+<text x="805" y="553" text-anchor="middle" font-size="9.5" fill="#555">exist or may only exist locally, which can cause training</text>
+<text x="805" y="565" text-anchor="middle" font-size="9.5" fill="#555">divergence or significant numerical errors (Gholami et al., 2019;</text>
+<text x="805" y="577" text-anchor="middle" font-size="9.5" fill="#555">Ott et al., 2020; Sander et al., 2022).</text>
 <title>N11 [Prior_Work] (cites=3)
 According to the Picard–Lindelöf Theorem, solutions may not always exist or may only exist locally, which can cause training divergence or significant numerical errors (Gholami et al., 2019; Ott et al., 2020; Sander et al., 2022).</title>
 </g>
-<circle cx="992.0" cy="1144.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="992.0" cy="1152.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="992.0" cy="1160.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="992.0" cy="1168.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="944.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="952.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="960.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="968.0" r="2.8" fill="#9b7a2e"/>
 <g>
-<rect x="625" y="1136" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
-<text x="805" y="1150" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Limitation]</text>
-<text x="805" y="1165" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">open: can SGD train Neural ODEs reliably?</text>
-<text x="805" y="1181" text-anchor="middle" font-size="9.5" fill="#555">Even with advanced solvers (Zhuang et al., 2020a;b; Matsubara et</text>
-<text x="805" y="1193" text-anchor="middle" font-size="9.5" fill="#555">al., 2021; Ko et al., 2023), it remains an open problem whether</text>
-<text x="805" y="1205" text-anchor="middle" font-size="9.5" fill="#555">simple first-order methods, such as stochastic gradient descent</text>
-<text x="805" y="1217" text-anchor="middle" font-size="9.5" fill="#555">(SGD), can reliably train Neural ODEs to…</text>
+<rect x="625" y="936" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="950" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Limitation]</text>
+<text x="805" y="965" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">open: can SGD train Neural ODEs reliably?</text>
+<text x="805" y="981" text-anchor="middle" font-size="9.5" fill="#555">Even with advanced solvers (Zhuang et al., 2020a;b; Matsubara et</text>
+<text x="805" y="993" text-anchor="middle" font-size="9.5" fill="#555">al., 2021; Ko et al., 2023), it remains an open problem whether</text>
+<text x="805" y="1005" text-anchor="middle" font-size="9.5" fill="#555">simple first-order methods, such as stochastic gradient descent</text>
+<text x="805" y="1017" text-anchor="middle" font-size="9.5" fill="#555">(SGD), can reliably train Neural ODEs to…</text>
 <title>N12 [Limitation] (cites=4)
 Even with advanced solvers (Zhuang et al., 2020a;b; Matsubara et al., 2021; Ko et al., 2023), it remains an open problem whether simple first-order methods, such as stochastic gradient descent (SGD), can reliably train Neural ODEs to convergence.</title>
 </g>
-<circle cx="992.0" cy="1268.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="992.0" cy="1276.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="1068.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="1076.0" r="2.8" fill="#9b7a2e"/>
 <g>
-<rect x="625" y="1260" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
-<text x="805" y="1274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Limitation]</text>
-<text x="805" y="1289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">discretization gradients may not match continuous</text>
-<text x="805" y="1305" text-anchor="middle" font-size="9.5" fill="#555">While discretizing Neural ODEs as finite-depth networks offers a</text>
-<text x="805" y="1317" text-anchor="middle" font-size="9.5" fill="#555">potential solution, it results in a deeper computation graph</text>
-<text x="805" y="1329" text-anchor="middle" font-size="9.5" fill="#555">(Zhuang et al., 2020a;b), raising questions about whether the</text>
-<text x="805" y="1341" text-anchor="middle" font-size="9.5" fill="#555">gradients computed in this manner truly match those…</text>
+<rect x="625" y="1060" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1074" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Limitation]</text>
+<text x="805" y="1089" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">discretization gradients may not match continuous</text>
+<text x="805" y="1105" text-anchor="middle" font-size="9.5" fill="#555">While discretizing Neural ODEs as finite-depth networks offers a</text>
+<text x="805" y="1117" text-anchor="middle" font-size="9.5" fill="#555">potential solution, it results in a deeper computation graph</text>
+<text x="805" y="1129" text-anchor="middle" font-size="9.5" fill="#555">(Zhuang et al., 2020a;b), raising questions about whether the</text>
+<text x="805" y="1141" text-anchor="middle" font-size="9.5" fill="#555">gradients computed in this manner truly match those…</text>
 <title>N13 [Limitation] (cites=2)
 While discretizing Neural ODEs as finite-depth networks offers a potential solution, it results in a deeper computation graph (Zhuang et al., 2020a;b), raising questions about whether the gradients computed in this manner truly match those of the continuous model.</title>
 </g>
 <g>
-<rect x="1003" y="1260" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
-<text x="1183" y="1274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Limitation: challenge-2]</text>
-<text x="1183" y="1289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">challenge 2: training dynamics analysis</text>
-<text x="1183" y="1305" text-anchor="middle" font-size="9.5" fill="#555">Another essential challenge lies in analyzing the training</text>
-<text x="1183" y="1317" text-anchor="middle" font-size="9.5" fill="#555">dynamics of Neural ODEs.</text>
+<rect x="1003" y="1060" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="1183" y="1074" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Limitation: challenge-2]</text>
+<text x="1183" y="1089" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">challenge 2: training dynamics analysis</text>
+<text x="1183" y="1105" text-anchor="middle" font-size="9.5" fill="#555">Another essential challenge lies in analyzing the training</text>
+<text x="1183" y="1117" text-anchor="middle" font-size="9.5" fill="#555">dynamics of Neural ODEs.</text>
 <title>N14 [Limitation: challenge-2] (cites=0)
 Another essential challenge lies in analyzing the training dynamics of Neural ODEs.</title>
 </g>
 <g>
-<rect x="814" y="1384" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
-<text x="994" y="1398" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Limitation]</text>
-<text x="994" y="1413" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">nonconvex optimization is hard to analyze</text>
-<text x="994" y="1429" text-anchor="middle" font-size="9.5" fill="#555">The optimization problem in training neural networks is inherently</text>
-<text x="994" y="1441" text-anchor="middle" font-size="9.5" fill="#555">nonconvex, making theoretical analysis difficult.</text>
+<rect x="814" y="1184" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="1198" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Limitation]</text>
+<text x="994" y="1213" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">nonconvex optimization is hard to analyze</text>
+<text x="994" y="1229" text-anchor="middle" font-size="9.5" fill="#555">The optimization problem in training neural networks is inherently</text>
+<text x="994" y="1241" text-anchor="middle" font-size="9.5" fill="#555">nonconvex, making theoretical analysis difficult.</text>
 <title>N15 [Limitation] (cites=0)
 The optimization problem in training neural networks is inherently nonconvex, making theoretical analysis difficult.</title>
 </g>
-<circle cx="1181.0" cy="704.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1370.0" cy="504.0" r="2.8" fill="#9b7a2e"/>
 <g>
-<rect x="814" y="696" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
-<text x="994" y="710" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Prior_Work : ANCHOR]</text>
-<text x="994" y="725" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Jacot et al.: NTK converges as width grows</text>
-<text x="994" y="741" text-anchor="middle" font-size="9.5" fill="#555">Recent work by Jacot et al. (2018) has shown that the training</text>
-<text x="994" y="753" text-anchor="middle" font-size="9.5" fill="#555">dynamics of overparameterized networks can be understood through</text>
-<text x="994" y="765" text-anchor="middle" font-size="9.5" fill="#555">the lens of the Neural Tangent Kernel (NTK), which converges to a</text>
-<text x="994" y="777" text-anchor="middle" font-size="9.5" fill="#555">deterministic limit as network width…</text>
+<rect x="1003" y="496" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="1183" y="510" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Prior_Work : ANCHOR]</text>
+<text x="1183" y="525" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Jacot et al.: NTK converges as width grows</text>
+<text x="1183" y="541" text-anchor="middle" font-size="9.5" fill="#555">Recent work by Jacot et al. (2018) has shown that the training</text>
+<text x="1183" y="553" text-anchor="middle" font-size="9.5" fill="#555">dynamics of overparameterized networks can be understood through</text>
+<text x="1183" y="565" text-anchor="middle" font-size="9.5" fill="#555">the lens of the Neural Tangent Kernel (NTK), which converges to a</text>
+<text x="1183" y="577" text-anchor="middle" font-size="9.5" fill="#555">deterministic limit as network width…</text>
 <title>N16 [Prior_Work] (cites=1)
 Recent work by Jacot et al. (2018) has shown that the training dynamics of overparameterized networks can be understood through the lens of the Neural Tangent Kernel (NTK), which converges to a deterministic limit as network width increases.</title>
 </g>
-<circle cx="1022.0" cy="828.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="1022.0" cy="836.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="1022.0" cy="844.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="1022.0" cy="852.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="628.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="636.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="644.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="652.0" r="2.8" fill="#9b7a2e"/>
 <g>
-<rect x="595" y="820" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
-<text x="805" y="834" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Prior_Work]</text>
-<text x="805" y="849" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">global convergence given SPD NTK</text>
-<text x="805" y="865" text-anchor="middle" font-size="9.5" fill="#555">This convergence has enabled researchers to establish global convergence</text>
-<text x="805" y="877" text-anchor="middle" font-size="9.5" fill="#555">guarantees for gradient-based methods in overparameterized regimes, provided</text>
-<text x="805" y="889" text-anchor="middle" font-size="9.5" fill="#555">the NTK remains strictly positive definite (SPD) (Du et al., 2019a;</text>
-<text x="805" y="901" text-anchor="middle" font-size="9.5" fill="#555">Allen-Zhu et al.,…</text>
+<rect x="595" y="620" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="634" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Prior_Work]</text>
+<text x="805" y="649" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">global convergence given SPD NTK</text>
+<text x="805" y="665" text-anchor="middle" font-size="9.5" fill="#555">This convergence has enabled researchers to establish global convergence</text>
+<text x="805" y="677" text-anchor="middle" font-size="9.5" fill="#555">guarantees for gradient-based methods in overparameterized regimes, provided</text>
+<text x="805" y="689" text-anchor="middle" font-size="9.5" fill="#555">the NTK remains strictly positive definite (SPD) (Du et al., 2019a;</text>
+<text x="805" y="701" text-anchor="middle" font-size="9.5" fill="#555">Allen-Zhu et al.,…</text>
 <title>N17 [Prior_Work] (cites=4)
 This convergence has enabled researchers to establish global convergence guarantees for gradient-based methods in overparameterized regimes, provided the NTK remains strictly positive definite (SPD) (Du et al., 2019a; Allen-Zhu et al., 2019; Nguyen, 2021; Gao et al., 2021).</title>
 </g>
-<circle cx="1022.0" cy="952.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="1022.0" cy="960.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="1022.0" cy="968.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="752.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="760.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="768.0" r="2.8" fill="#9b7a2e"/>
 <g>
-<rect x="595" y="944" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
-<text x="805" y="958" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Prior_Work]</text>
-<text x="805" y="973" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">dual activation extended to deep finite nets</text>
-<text x="805" y="989" text-anchor="middle" font-size="9.5" fill="#555">The analysis of the NTK's strict positive definiteness began with Daniely et</text>
-<text x="805" y="1001" text-anchor="middle" font-size="9.5" fill="#555">al. (2016), who introduced the concept of dual activation for two-layer</text>
-<text x="805" y="1013" text-anchor="middle" font-size="9.5" fill="#555">networks, later extended to deeper, finite networks (Jacot et al., 2018; Du</text>
-<text x="805" y="1025" text-anchor="middle" font-size="9.5" fill="#555">et al., 2019a).</text>
+<rect x="595" y="744" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="758" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Prior_Work]</text>
+<text x="805" y="773" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">dual activation extended to deep finite nets</text>
+<text x="805" y="789" text-anchor="middle" font-size="9.5" fill="#555">The analysis of the NTK's strict positive definiteness began with Daniely et</text>
+<text x="805" y="801" text-anchor="middle" font-size="9.5" fill="#555">al. (2016), who introduced the concept of dual activation for two-layer</text>
+<text x="805" y="813" text-anchor="middle" font-size="9.5" fill="#555">networks, later extended to deeper, finite networks (Jacot et al., 2018; Du</text>
+<text x="805" y="825" text-anchor="middle" font-size="9.5" fill="#555">et al., 2019a).</text>
 <title>N18 [Prior_Work] (cites=3)
 The analysis of the NTK's strict positive definiteness began with Daniely et al. (2016), who introduced the concept of dual activation for two-layer networks, later extended to deeper, finite networks (Jacot et al., 2018; Du et al., 2019a).</title>
 </g>
 <g>
-<rect x="1003" y="1136" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
-<text x="1183" y="1150" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Limitation]</text>
-<text x="1183" y="1165" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">discrete-layer-only: continuous case open</text>
-<text x="1183" y="1181" text-anchor="middle" font-size="9.5" fill="#555">However, these results are limited to networks with discrete</text>
-<text x="1183" y="1193" text-anchor="middle" font-size="9.5" fill="#555">layers, raising the question of whether the same properties hold</text>
-<text x="1183" y="1205" text-anchor="middle" font-size="9.5" fill="#555">for continuous models like Neural ODEs.</text>
+<rect x="1003" y="936" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="1183" y="950" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Limitation]</text>
+<text x="1183" y="965" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">discrete-layer-only: continuous case open</text>
+<text x="1183" y="981" text-anchor="middle" font-size="9.5" fill="#555">However, these results are limited to networks with discrete</text>
+<text x="1183" y="993" text-anchor="middle" font-size="9.5" fill="#555">layers, raising the question of whether the same properties hold</text>
+<text x="1183" y="1005" text-anchor="middle" font-size="9.5" fill="#555">for continuous models like Neural ODEs.</text>
 <title>N19 [Limitation] (cites=0)
 However, these results are limited to networks with discrete layers, raising the question of whether the same properties hold for continuous models like Neural ODEs.</title>
 </g>
 <g>
-<rect x="595" y="1776" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
-<text x="805" y="1790" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Method]</text>
-<text x="805" y="1805" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">approach: study activation functions</text>
-<text x="805" y="1821" text-anchor="middle" font-size="9.5" fill="#555">In this paper, we address these challenges by exploring the impact of</text>
-<text x="805" y="1833" text-anchor="middle" font-size="9.5" fill="#555">activation functions on training Neural ODEs.</text>
+<rect x="595" y="1576" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1590" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Method]</text>
+<text x="805" y="1605" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">approach: study activation functions</text>
+<text x="805" y="1621" text-anchor="middle" font-size="9.5" fill="#555">In this paper, we address these challenges by exploring the impact of</text>
+<text x="805" y="1633" text-anchor="middle" font-size="9.5" fill="#555">activation functions on training Neural ODEs.</text>
 <title>N20 [Method] (cites=0)
 In this paper, we address these challenges by exploring the impact of activation functions on training Neural ODEs.</title>
 </g>
 <g>
-<rect x="595" y="1876" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
-<text x="805" y="1890" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Method]</text>
-<text x="805" y="1905" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">smoothness + nonlinearity drive well-posedness + NTK</text>
-<text x="805" y="1921" text-anchor="middle" font-size="9.5" fill="#555">We show that activation function properties—specifically, smoothness and</text>
-<text x="805" y="1933" text-anchor="middle" font-size="9.5" fill="#555">nonlinearity—play critical roles in determining the well-posedness of ODE</text>
-<text x="805" y="1945" text-anchor="middle" font-size="9.5" fill="#555">solutions and the spectral properties of the NTK.</text>
+<rect x="595" y="1676" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1690" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Method]</text>
+<text x="805" y="1705" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">smoothness + nonlinearity drive well-posedness + NTK</text>
+<text x="805" y="1721" text-anchor="middle" font-size="9.5" fill="#555">We show that activation function properties—specifically, smoothness and</text>
+<text x="805" y="1733" text-anchor="middle" font-size="9.5" fill="#555">nonlinearity—play critical roles in determining the well-posedness of ODE</text>
+<text x="805" y="1745" text-anchor="middle" font-size="9.5" fill="#555">solutions and the spectral properties of the NTK.</text>
 <title>N21 [Method] (cites=0)
 We show that activation function properties—specifically, smoothness and nonlinearity—play critical roles in determining the well-posedness of ODE solutions and the spectral properties of the NTK.</title>
 </g>
 <g>
-<rect x="247" y="2056" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
-<text x="427" y="2070" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Result]</text>
-<text x="427" y="2085" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">smoothness gives globally unique ODE solutions</text>
-<text x="427" y="2101" text-anchor="middle" font-size="9.5" fill="#555">Through our analysis, we demonstrate that smooth activation</text>
-<text x="427" y="2113" text-anchor="middle" font-size="9.5" fill="#555">functions lead to globally unique solutions for both forward and</text>
-<text x="427" y="2125" text-anchor="middle" font-size="9.5" fill="#555">backward ODEs, ensuring the stability of the training process.</text>
+<rect x="247" y="1856" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="427" y="1870" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Result]</text>
+<text x="427" y="1885" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">smoothness gives globally unique ODE solutions</text>
+<text x="427" y="1901" text-anchor="middle" font-size="9.5" fill="#555">Through our analysis, we demonstrate that smooth activation</text>
+<text x="427" y="1913" text-anchor="middle" font-size="9.5" fill="#555">functions lead to globally unique solutions for both forward and</text>
+<text x="427" y="1925" text-anchor="middle" font-size="9.5" fill="#555">backward ODEs, ensuring the stability of the training process.</text>
 <title>N22 [Result] (cites=0)
 Through our analysis, we demonstrate that smooth activation functions lead to globally unique solutions for both forward and backward ODEs, ensuring the stability of the training process.</title>
 </g>
 <g>
-<rect x="625" y="2056" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
-<text x="805" y="2070" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23 [Result]</text>
-<text x="805" y="2085" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">extend NTK results to continuous models</text>
-<text x="805" y="2101" text-anchor="middle" font-size="9.5" fill="#555">Additionally, we extend existing results on the NTK from</text>
-<text x="805" y="2113" text-anchor="middle" font-size="9.5" fill="#555">discrete-layered neural networks to continuous models,</text>
-<text x="805" y="2125" text-anchor="middle" font-size="9.5" fill="#555">demonstrating that the NTK for Neural ODEs is well-defined.</text>
+<rect x="625" y="1856" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1870" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23 [Result]</text>
+<text x="805" y="1885" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">extend NTK results to continuous models</text>
+<text x="805" y="1901" text-anchor="middle" font-size="9.5" fill="#555">Additionally, we extend existing results on the NTK from</text>
+<text x="805" y="1913" text-anchor="middle" font-size="9.5" fill="#555">discrete-layered neural networks to continuous models,</text>
+<text x="805" y="1925" text-anchor="middle" font-size="9.5" fill="#555">demonstrating that the NTK for Neural ODEs is well-defined.</text>
 <title>N23 [Result] (cites=0)
 Additionally, we extend existing results on the NTK from discrete-layered neural networks to continuous models, demonstrating that the NTK for Neural ODEs is well-defined.</title>
 </g>
 <g>
-<rect x="1003" y="2056" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
-<text x="1183" y="2070" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N24 [Result]</text>
-<text x="1183" y="2085" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">more nonlinearity preserves SPD NTK + speeds convergence</text>
-<text x="1183" y="2101" text-anchor="middle" font-size="9.5" fill="#555">Importantly, we find that a higher degree of nonlinearity in the</text>
-<text x="1183" y="2113" text-anchor="middle" font-size="9.5" fill="#555">activation function not only helps maintain the SPD property of</text>
-<text x="1183" y="2125" text-anchor="middle" font-size="9.5" fill="#555">the limiting NTK, but also practically speeds up Neural ODE</text>
-<text x="1183" y="2137" text-anchor="middle" font-size="9.5" fill="#555">convergence.</text>
+<rect x="1003" y="1856" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="1183" y="1870" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N24 [Result]</text>
+<text x="1183" y="1885" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">more nonlinearity preserves SPD NTK + speeds convergence</text>
+<text x="1183" y="1901" text-anchor="middle" font-size="9.5" fill="#555">Importantly, we find that a higher degree of nonlinearity in the</text>
+<text x="1183" y="1913" text-anchor="middle" font-size="9.5" fill="#555">activation function not only helps maintain the SPD property of</text>
+<text x="1183" y="1925" text-anchor="middle" font-size="9.5" fill="#555">the limiting NTK, but also practically speeds up Neural ODE</text>
+<text x="1183" y="1937" text-anchor="middle" font-size="9.5" fill="#555">convergence.</text>
 <title>N24 [Result] (cites=0)
 Importantly, we find that a higher degree of nonlinearity in the activation function not only helps maintain the SPD property of the limiting NTK, but also practically speeds up Neural ODE convergence.</title>
 </g>
 <g>
-<rect x="170" y="2248" width="304" height="98" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
-<text x="322" y="2262" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N25 [Contribution]</text>
-<text x="322" y="2277" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 1: smoothness analysis for</text>
-<text x="322" y="2291" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">well-posedness</text>
-<text x="322" y="2307" text-anchor="middle" font-size="9.5" fill="#555">We investigate the significance of the smoothness of</text>
-<text x="322" y="2319" text-anchor="middle" font-size="9.5" fill="#555">activation functions for the well-posedness of forward</text>
-<text x="322" y="2331" text-anchor="middle" font-size="9.5" fill="#555">and backward ODEs in Neural ODEs.</text>
+<rect x="170" y="2048" width="304" height="98" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="322" y="2062" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N25 [Contribution]</text>
+<text x="322" y="2077" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 1: smoothness analysis for</text>
+<text x="322" y="2091" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">well-posedness</text>
+<text x="322" y="2107" text-anchor="middle" font-size="9.5" fill="#555">We investigate the significance of the smoothness of</text>
+<text x="322" y="2119" text-anchor="middle" font-size="9.5" fill="#555">activation functions for the well-posedness of forward</text>
+<text x="322" y="2131" text-anchor="middle" font-size="9.5" fill="#555">and backward ODEs in Neural ODEs.</text>
 <title>N25 [Contribution] (cites=0)
 We investigate the significance of the smoothness of activation functions for the well-posedness of forward and backward ODEs in Neural ODEs.</title>
 </g>
 <g>
-<rect x="170" y="2374" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
-<text x="225" y="2388" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N26 [Contribution]</text>
-<text x="225" y="2403" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 1b:</text>
-<text x="225" y="2417" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">existence via</text>
-<text x="225" y="2433" text-anchor="middle" font-size="9.5" fill="#555">Using random matrix</text>
-<text x="225" y="2445" text-anchor="middle" font-size="9.5" fill="#555">theory, we</text>
-<text x="225" y="2457" text-anchor="middle" font-size="9.5" fill="#555">demonstrate the</text>
-<text x="225" y="2469" text-anchor="middle" font-size="9.5" fill="#555">existence of…</text>
+<rect x="170" y="2174" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="225" y="2188" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N26 [Contribution]</text>
+<text x="225" y="2203" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 1b:</text>
+<text x="225" y="2217" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">existence via</text>
+<text x="225" y="2233" text-anchor="middle" font-size="9.5" fill="#555">Using random matrix</text>
+<text x="225" y="2245" text-anchor="middle" font-size="9.5" fill="#555">theory, we</text>
+<text x="225" y="2257" text-anchor="middle" font-size="9.5" fill="#555">demonstrate the</text>
+<text x="225" y="2269" text-anchor="middle" font-size="9.5" fill="#555">existence of…</text>
 <title>N26 [Contribution] (cites=0)
 Using random matrix theory, we demonstrate the existence of globally unique solutions.</title>
 </g>
 <g>
-<rect x="298" y="2374" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
-<text x="354" y="2388" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N27 [Contribution]</text>
-<text x="354" y="2403" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 1c:</text>
-<text x="354" y="2417" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">no extra</text>
-<text x="354" y="2433" text-anchor="middle" font-size="9.5" fill="#555">Additionally, we</text>
-<text x="354" y="2445" text-anchor="middle" font-size="9.5" fill="#555">show that no</text>
-<text x="354" y="2457" text-anchor="middle" font-size="9.5" fill="#555">additional</text>
-<text x="354" y="2469" text-anchor="middle" font-size="9.5" fill="#555">regularity is needed…</text>
+<rect x="298" y="2174" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="354" y="2188" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N27 [Contribution]</text>
+<text x="354" y="2203" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 1c:</text>
+<text x="354" y="2217" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">no extra</text>
+<text x="354" y="2233" text-anchor="middle" font-size="9.5" fill="#555">Additionally, we</text>
+<text x="354" y="2245" text-anchor="middle" font-size="9.5" fill="#555">show that no</text>
+<text x="354" y="2257" text-anchor="middle" font-size="9.5" fill="#555">additional</text>
+<text x="354" y="2269" text-anchor="middle" font-size="9.5" fill="#555">regularity is needed…</text>
 <title>N27 [Contribution] (cites=0)
 Additionally, we show that no additional regularity is needed if forward and backward ODEs are combined in a weakly coupled ODE system.</title>
 </g>
 <g>
-<rect x="492" y="2248" width="304" height="98" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
-<text x="644" y="2262" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N28 [Contribution]</text>
-<text x="644" y="2277" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 2: new approximation-theory</text>
-<text x="644" y="2291" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">framework</text>
-<text x="644" y="2307" text-anchor="middle" font-size="9.5" fill="#555">We propose a new mathematical framework for studying</text>
-<text x="644" y="2319" text-anchor="middle" font-size="9.5" fill="#555">continuous models from the approximation theory</text>
-<text x="644" y="2331" text-anchor="middle" font-size="9.5" fill="#555">perspective.</text>
+<rect x="492" y="2048" width="304" height="98" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="644" y="2062" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N28 [Contribution]</text>
+<text x="644" y="2077" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 2: new approximation-theory</text>
+<text x="644" y="2091" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">framework</text>
+<text x="644" y="2107" text-anchor="middle" font-size="9.5" fill="#555">We propose a new mathematical framework for studying</text>
+<text x="644" y="2119" text-anchor="middle" font-size="9.5" fill="#555">continuous models from the approximation theory</text>
+<text x="644" y="2131" text-anchor="middle" font-size="9.5" fill="#555">perspective.</text>
 <title>N28 [Contribution] (cites=0)
 We propose a new mathematical framework for studying continuous models from the approximation theory perspective.</title>
 </g>
 <g>
-<rect x="427" y="2374" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
-<text x="483" y="2388" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N29 [Contribution]</text>
-<text x="483" y="2403" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 2b:</text>
-<text x="483" y="2417" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">finite-depth</text>
-<text x="483" y="2433" text-anchor="middle" font-size="9.5" fill="#555">By using a sequence</text>
-<text x="483" y="2445" text-anchor="middle" font-size="9.5" fill="#555">of finite-depth</text>
-<text x="483" y="2457" text-anchor="middle" font-size="9.5" fill="#555">neural networks to</text>
-<text x="483" y="2469" text-anchor="middle" font-size="9.5" fill="#555">approximate Neural…</text>
+<rect x="427" y="2174" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="483" y="2188" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N29 [Contribution]</text>
+<text x="483" y="2203" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 2b:</text>
+<text x="483" y="2217" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">finite-depth</text>
+<text x="483" y="2233" text-anchor="middle" font-size="9.5" fill="#555">By using a sequence</text>
+<text x="483" y="2245" text-anchor="middle" font-size="9.5" fill="#555">of finite-depth</text>
+<text x="483" y="2257" text-anchor="middle" font-size="9.5" fill="#555">neural networks to</text>
+<text x="483" y="2269" text-anchor="middle" font-size="9.5" fill="#555">approximate Neural…</text>
 <title>N29 [Contribution] (cites=0)
 By using a sequence of finite-depth neural networks to approximate Neural ODEs, we show that key properties like activation and gradient propagation are preserved as depth approaches infinity.</title>
 </g>
 <g>
-<rect x="556" y="2374" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
-<text x="611" y="2388" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N30 [Contribution]</text>
-<text x="611" y="2403" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 2c:</text>
-<text x="611" y="2417" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Moore-Osgood</text>
-<text x="611" y="2433" text-anchor="middle" font-size="9.5" fill="#555">This allows us to</text>
-<text x="611" y="2445" text-anchor="middle" font-size="9.5" fill="#555">apply the</text>
-<text x="611" y="2457" text-anchor="middle" font-size="9.5" fill="#555">Moore-Osgood theorem</text>
-<text x="611" y="2469" text-anchor="middle" font-size="9.5" fill="#555">from functional…</text>
+<rect x="556" y="2174" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="611" y="2188" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N30 [Contribution]</text>
+<text x="611" y="2203" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 2c:</text>
+<text x="611" y="2217" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Moore-Osgood</text>
+<text x="611" y="2233" text-anchor="middle" font-size="9.5" fill="#555">This allows us to</text>
+<text x="611" y="2245" text-anchor="middle" font-size="9.5" fill="#555">apply the</text>
+<text x="611" y="2257" text-anchor="middle" font-size="9.5" fill="#555">Moore-Osgood theorem</text>
+<text x="611" y="2269" text-anchor="middle" font-size="9.5" fill="#555">from functional…</text>
 <title>N30 [Contribution] (cites=0)
 This allows us to apply the Moore-Osgood theorem from functional analysis to prove that the NTK of Neural ODEs is well-defined.</title>
 </g>
 <g>
-<rect x="814" y="2248" width="304" height="98" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
-<text x="966" y="2262" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N31 [Contribution]</text>
-<text x="966" y="2277" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 3: SPD may fail at infinite depth</text>
-<text x="966" y="2293" text-anchor="middle" font-size="9.5" fill="#555">Unfortunately, the SPD property of the NTK may not hold</text>
-<text x="966" y="2305" text-anchor="middle" font-size="9.5" fill="#555">at infinite depth, even we can show every finite-depth</text>
-<text x="966" y="2317" text-anchor="middle" font-size="9.5" fill="#555">approximation satisfies it.</text>
+<rect x="814" y="2048" width="304" height="98" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="966" y="2062" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N31 [Contribution]</text>
+<text x="966" y="2077" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 3: SPD may fail at infinite depth</text>
+<text x="966" y="2093" text-anchor="middle" font-size="9.5" fill="#555">Unfortunately, the SPD property of the NTK may not hold</text>
+<text x="966" y="2105" text-anchor="middle" font-size="9.5" fill="#555">at infinite depth, even we can show every finite-depth</text>
+<text x="966" y="2117" text-anchor="middle" font-size="9.5" fill="#555">approximation satisfies it.</text>
 <title>N31 [Contribution] (cites=0)
 Unfortunately, the SPD property of the NTK may not hold at infinite depth, even we can show every finite-depth approximation satisfies it.</title>
 </g>
 <g>
-<rect x="685" y="2374" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
-<text x="740" y="2388" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N32 [Contribution]</text>
-<text x="740" y="2403" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 3b:</text>
-<text x="740" y="2417" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">integral form for</text>
-<text x="740" y="2433" text-anchor="middle" font-size="9.5" fill="#555">To address this, we</text>
-<text x="740" y="2445" text-anchor="middle" font-size="9.5" fill="#555">conduct a</text>
-<text x="740" y="2457" text-anchor="middle" font-size="9.5" fill="#555">fine-grained</text>
-<text x="740" y="2469" text-anchor="middle" font-size="9.5" fill="#555">analysis and derive…</text>
+<rect x="685" y="2174" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="740" y="2188" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N32 [Contribution]</text>
+<text x="740" y="2203" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 3b:</text>
+<text x="740" y="2217" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">integral form for</text>
+<text x="740" y="2233" text-anchor="middle" font-size="9.5" fill="#555">To address this, we</text>
+<text x="740" y="2245" text-anchor="middle" font-size="9.5" fill="#555">conduct a</text>
+<text x="740" y="2257" text-anchor="middle" font-size="9.5" fill="#555">fine-grained</text>
+<text x="740" y="2269" text-anchor="middle" font-size="9.5" fill="#555">analysis and derive…</text>
 <title>N32 [Contribution] (cites=0)
 To address this, we conduct a fine-grained analysis and derive an integral form for the limiting NTK of Neural ODEs.</title>
 </g>
 <g>
-<rect x="814" y="2374" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
-<text x="869" y="2388" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N33 [Contribution]</text>
-<text x="869" y="2403" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 3c:</text>
-<text x="869" y="2417" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">NTK SPD iff</text>
-<text x="869" y="2433" text-anchor="middle" font-size="9.5" fill="#555">This form reveals</text>
-<text x="869" y="2445" text-anchor="middle" font-size="9.5" fill="#555">that the NTK remains</text>
-<text x="869" y="2457" text-anchor="middle" font-size="9.5" fill="#555">SPD if the</text>
-<text x="869" y="2469" text-anchor="middle" font-size="9.5" fill="#555">activation function…</text>
+<rect x="814" y="2174" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="869" y="2188" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N33 [Contribution]</text>
+<text x="869" y="2203" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 3c:</text>
+<text x="869" y="2217" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">NTK SPD iff</text>
+<text x="869" y="2233" text-anchor="middle" font-size="9.5" fill="#555">This form reveals</text>
+<text x="869" y="2245" text-anchor="middle" font-size="9.5" fill="#555">that the NTK remains</text>
+<text x="869" y="2257" text-anchor="middle" font-size="9.5" fill="#555">SPD if the</text>
+<text x="869" y="2269" text-anchor="middle" font-size="9.5" fill="#555">activation function…</text>
 <title>N33 [Contribution] (cites=0)
 This form reveals that the NTK remains SPD if the activation function is non-polynomial.</title>
 </g>
 <g>
-<rect x="942" y="2374" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
-<text x="998" y="2388" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N34 [Contribution]</text>
-<text x="998" y="2403" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 3d:</text>
-<text x="998" y="2417" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">integral form</text>
-<text x="998" y="2433" text-anchor="middle" font-size="9.5" fill="#555">Leveraging this</text>
-<text x="998" y="2445" text-anchor="middle" font-size="9.5" fill="#555">integral</text>
-<text x="998" y="2457" text-anchor="middle" font-size="9.5" fill="#555">representation</text>
-<text x="998" y="2469" text-anchor="middle" font-size="9.5" fill="#555">provides valuable…</text>
+<rect x="942" y="2174" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="998" y="2188" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N34 [Contribution]</text>
+<text x="998" y="2203" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 3d:</text>
+<text x="998" y="2217" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">integral form</text>
+<text x="998" y="2233" text-anchor="middle" font-size="9.5" fill="#555">Leveraging this</text>
+<text x="998" y="2245" text-anchor="middle" font-size="9.5" fill="#555">integral</text>
+<text x="998" y="2257" text-anchor="middle" font-size="9.5" fill="#555">representation</text>
+<text x="998" y="2269" text-anchor="middle" font-size="9.5" fill="#555">provides valuable…</text>
 <title>N34 [Contribution] (cites=0)
 Leveraging this integral representation provides valuable insights into continuous models and may inspire further research.</title>
 </g>
 <g>
-<rect x="1136" y="2248" width="304" height="98" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
-<text x="1288" y="2262" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N35 [Contribution]</text>
-<text x="1288" y="2277" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 4: numerical experiments support</text>
-<text x="1288" y="2291" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">theory</text>
-<text x="1288" y="2307" text-anchor="middle" font-size="9.5" fill="#555">We conduct a series of numerical experiments to support</text>
-<text x="1288" y="2319" text-anchor="middle" font-size="9.5" fill="#555">our theoretical findings.</text>
+<rect x="1136" y="2048" width="304" height="98" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1288" y="2062" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N35 [Contribution]</text>
+<text x="1288" y="2077" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 4: numerical experiments support</text>
+<text x="1288" y="2091" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">theory</text>
+<text x="1288" y="2107" text-anchor="middle" font-size="9.5" fill="#555">We conduct a series of numerical experiments to support</text>
+<text x="1288" y="2119" text-anchor="middle" font-size="9.5" fill="#555">our theoretical findings.</text>
 <title>N35 [Contribution] (cites=0)
 We conduct a series of numerical experiments to support our theoretical findings.</title>
 </g>
 <g>
-<rect x="1071" y="2374" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
-<text x="1127" y="2388" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N36 [Contribution]</text>
-<text x="1127" y="2403" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 4b:</text>
-<text x="1127" y="2417" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">practical</text>
-<text x="1127" y="2433" text-anchor="middle" font-size="9.5" fill="#555">Beyond validating</text>
-<text x="1127" y="2445" text-anchor="middle" font-size="9.5" fill="#555">our analysis, these</text>
-<text x="1127" y="2457" text-anchor="middle" font-size="9.5" fill="#555">experiments also</text>
-<text x="1127" y="2469" text-anchor="middle" font-size="9.5" fill="#555">provide practical…</text>
+<rect x="1071" y="2174" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1127" y="2188" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N36 [Contribution]</text>
+<text x="1127" y="2203" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 4b:</text>
+<text x="1127" y="2217" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">practical</text>
+<text x="1127" y="2233" text-anchor="middle" font-size="9.5" fill="#555">Beyond validating</text>
+<text x="1127" y="2245" text-anchor="middle" font-size="9.5" fill="#555">our analysis, these</text>
+<text x="1127" y="2257" text-anchor="middle" font-size="9.5" fill="#555">experiments also</text>
+<text x="1127" y="2269" text-anchor="middle" font-size="9.5" fill="#555">provide practical…</text>
 <title>N36 [Contribution] (cites=0)
 Beyond validating our analysis, these experiments also provide practical guidelines for training Neural ODEs.</title>
 </g>
 <g>
-<rect x="1200" y="2374" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
-<text x="1255" y="2388" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N37 [Contribution]</text>
-<text x="1255" y="2403" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 4c:</text>
-<text x="1255" y="2417" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">smoothness/nonlinearity</text>
-<text x="1255" y="2433" text-anchor="middle" font-size="9.5" fill="#555">We show that</text>
-<text x="1255" y="2445" text-anchor="middle" font-size="9.5" fill="#555">activation function</text>
-<text x="1255" y="2457" text-anchor="middle" font-size="9.5" fill="#555">smoothness and</text>
-<text x="1255" y="2469" text-anchor="middle" font-size="9.5" fill="#555">nonlinearity…</text>
+<rect x="1200" y="2174" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1255" y="2188" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N37 [Contribution]</text>
+<text x="1255" y="2203" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 4c:</text>
+<text x="1255" y="2217" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">smoothness/nonlinearity</text>
+<text x="1255" y="2233" text-anchor="middle" font-size="9.5" fill="#555">We show that</text>
+<text x="1255" y="2245" text-anchor="middle" font-size="9.5" fill="#555">activation function</text>
+<text x="1255" y="2257" text-anchor="middle" font-size="9.5" fill="#555">smoothness and</text>
+<text x="1255" y="2269" text-anchor="middle" font-size="9.5" fill="#555">nonlinearity…</text>
 <title>N37 [Contribution] (cites=0)
 We show that activation function smoothness and nonlinearity accelerate convergence and improve performance (see Figure 7-8).</title>
 </g>
 <g>
-<rect x="1329" y="2374" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
-<text x="1384" y="2388" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N38 [Contribution]</text>
-<text x="1384" y="2403" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 4d:</text>
-<text x="1384" y="2417" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">improper</text>
-<text x="1384" y="2433" text-anchor="middle" font-size="9.5" fill="#555">Conversely, improper</text>
-<text x="1384" y="2445" text-anchor="middle" font-size="9.5" fill="#555">ODE scaling leads to</text>
-<text x="1384" y="2457" text-anchor="middle" font-size="9.5" fill="#555">damping from</text>
-<text x="1384" y="2469" text-anchor="middle" font-size="9.5" fill="#555">accumulated…</text>
+<rect x="1329" y="2174" width="110" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1384" y="2188" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N38 [Contribution]</text>
+<text x="1384" y="2203" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contribution 4d:</text>
+<text x="1384" y="2217" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">improper</text>
+<text x="1384" y="2233" text-anchor="middle" font-size="9.5" fill="#555">Conversely, improper</text>
+<text x="1384" y="2245" text-anchor="middle" font-size="9.5" fill="#555">ODE scaling leads to</text>
+<text x="1384" y="2257" text-anchor="middle" font-size="9.5" fill="#555">damping from</text>
+<text x="1384" y="2269" text-anchor="middle" font-size="9.5" fill="#555">accumulated…</text>
 <title>N38 [Contribution] (cites=0)
 Conversely, improper ODE scaling leads to damping from accumulated numerical errors (see Figure3), while adaptive solvers struggle with efficiency in large-scale Neural ODEs (see Figure 14), causing instability and high computational overhead.</title>
 </g>

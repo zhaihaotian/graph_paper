@@ -1,0 +1,472 @@
+{
+  "paper_id": "ICLR_NeuralODE",
+  "paper_topic": "Establishing global convergence of Neural ODEs under gradient descent by analyzing the role of activation function smoothness and nonlinearity in well-posedness and NTK spectral properties",
+  "anchor_paper": null,
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "In recent years, deep neural networks have achieved remarkable success across a wide range of applications.",
+      "display_label": "deep nets succeed broadly",
+      "citations": 0
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "Among these advancements, Neural Ordinary Differential Equations (ODEs) (Chen et al., 2018b) stand out due to their continuous nature and parameter efficiency through shared parameters.",
+      "display_label": "Neural ODEs: continuous, parameter-efficient",
+      "citations": 1
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "Unlike conventional neural networks with discrete layers, Neural ODEs model the evolution of hidden states as a continuous-time differential equation, allowing them to better capture dynamic systems.",
+      "display_label": "continuous-time hidden state evolution",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Context",
+      "text": "This parameter-sharing mechanism ensures consistent dynamics throughout the continuous transformation and reduces the number of parameters, improving both memory efficiency and computational complexity.",
+      "display_label": "shared params: consistent dynamics, less memory",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Context",
+      "text": "These unique properties make Neural ODEs particularly effective not only for traditional machine learning tasks like image classification (Chen et al., 2018b) and natural language processing (Rubanova et al., 2019), but also for more complex tasks involving continuous processes, such as time series analysis (Kidger et al., 2020), reinforcement learning (Du et al., 2020), and diffusion models (Song et al., 2020).",
+      "display_label": "applied across vision/NLP/time-series/RL/diffusion",
+      "citations": 5
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "However, while these features offer flexibility and efficiency, they also introduce significant challenges during training, particularly in gradient computation and convergence analysis.",
+      "display_label": "two key training challenges",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Limitation: challenge-1",
+      "text": "One of the key challenges in training Neural ODEs is accurately computing gradients.",
+      "display_label": "challenge 1: gradient computation",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Limitation",
+      "text": "Unlike traditional networks, where backpropagation can be computed through a discrete chain of layers, Neural ODEs require solving forward and backward ODEs using numerical solvers.",
+      "display_label": "must solve forward/backward ODEs numerically",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Limitation",
+      "text": "These solvers introduce numerical errors, which can lead to inaccurate gradients and slow convergence or even suboptimal model performance (Rodriguez et al., 2022).",
+      "display_label": "numerical errors hurt gradients",
+      "citations": 1
+    },
+    {
+      "id": "N10",
+      "type": "Limitation",
+      "text": "Moreover, ensuring the well-posedness of ODE solutions during training is nontrivial.",
+      "display_label": "well-posedness during training is nontrivial",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Prior_Work",
+      "text": "According to the Picard–Lindelöf Theorem, solutions may not always exist or may only exist locally, which can cause training divergence or significant numerical errors (Gholami et al., 2019; Ott et al., 2020; Sander et al., 2022).",
+      "display_label": "Picard-Lindelof: solutions may be local only",
+      "citations": 3
+    },
+    {
+      "id": "N12",
+      "type": "Limitation",
+      "text": "Even with advanced solvers (Zhuang et al., 2020a;b; Matsubara et al., 2021; Ko et al., 2023), it remains an open problem whether simple first-order methods, such as stochastic gradient descent (SGD), can reliably train Neural ODEs to convergence.",
+      "display_label": "open: can SGD train Neural ODEs reliably?",
+      "citations": 4
+    },
+    {
+      "id": "N13",
+      "type": "Limitation",
+      "text": "While discretizing Neural ODEs as finite-depth networks offers a potential solution, it results in a deeper computation graph (Zhuang et al., 2020a;b), raising questions about whether the gradients computed in this manner truly match those of the continuous model.",
+      "display_label": "discretization gradients may not match continuous",
+      "citations": 2
+    },
+    {
+      "id": "N14",
+      "type": "Limitation: challenge-2",
+      "text": "Another essential challenge lies in analyzing the training dynamics of Neural ODEs.",
+      "display_label": "challenge 2: training dynamics analysis",
+      "citations": 0
+    },
+    {
+      "id": "N15",
+      "type": "Limitation",
+      "text": "The optimization problem in training neural networks is inherently nonconvex, making theoretical analysis difficult.",
+      "display_label": "nonconvex optimization is hard to analyze",
+      "citations": 0
+    },
+    {
+      "id": "N16",
+      "type": "Prior_Work",
+      "text": "Recent work by Jacot et al. (2018) has shown that the training dynamics of overparameterized networks can be understood through the lens of the Neural Tangent Kernel (NTK), which converges to a deterministic limit as network width increases.",
+      "display_label": "Jacot et al.: NTK converges as width grows",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N17",
+      "type": "Prior_Work",
+      "text": "This convergence has enabled researchers to establish global convergence guarantees for gradient-based methods in overparameterized regimes, provided the NTK remains strictly positive definite (SPD) (Du et al., 2019a; Allen-Zhu et al., 2019; Nguyen, 2021; Gao et al., 2021).",
+      "display_label": "global convergence given SPD NTK",
+      "citations": 4
+    },
+    {
+      "id": "N18",
+      "type": "Prior_Work",
+      "text": "The analysis of the NTK's strict positive definiteness began with Daniely et al. (2016), who introduced the concept of dual activation for two-layer networks, later extended to deeper, finite networks (Jacot et al., 2018; Du et al., 2019a).",
+      "display_label": "dual activation extended to deep finite nets",
+      "citations": 3
+    },
+    {
+      "id": "N19",
+      "type": "Limitation",
+      "text": "However, these results are limited to networks with discrete layers, raising the question of whether the same properties hold for continuous models like Neural ODEs.",
+      "display_label": "discrete-layer-only: continuous case open",
+      "citations": 0
+    },
+    {
+      "id": "N20",
+      "type": "Method",
+      "text": "In this paper, we address these challenges by exploring the impact of activation functions on training Neural ODEs.",
+      "display_label": "approach: study activation functions",
+      "citations": 0
+    },
+    {
+      "id": "N21",
+      "type": "Method",
+      "text": "We show that activation function properties—specifically, smoothness and nonlinearity—play critical roles in determining the well-posedness of ODE solutions and the spectral properties of the NTK.",
+      "display_label": "smoothness + nonlinearity drive well-posedness + NTK",
+      "citations": 0
+    },
+    {
+      "id": "N22",
+      "type": "Result",
+      "text": "Through our analysis, we demonstrate that smooth activation functions lead to globally unique solutions for both forward and backward ODEs, ensuring the stability of the training process.",
+      "display_label": "smoothness gives globally unique ODE solutions",
+      "citations": 0
+    },
+    {
+      "id": "N23",
+      "type": "Result",
+      "text": "Additionally, we extend existing results on the NTK from discrete-layered neural networks to continuous models, demonstrating that the NTK for Neural ODEs is well-defined.",
+      "display_label": "extend NTK results to continuous models",
+      "citations": 0
+    },
+    {
+      "id": "N24",
+      "type": "Result",
+      "text": "Importantly, we find that a higher degree of nonlinearity in the activation function not only helps maintain the SPD property of the limiting NTK, but also practically speeds up Neural ODE convergence.",
+      "display_label": "more nonlinearity preserves SPD NTK + speeds convergence",
+      "citations": 0
+    },
+    {
+      "id": "N25",
+      "type": "Contribution",
+      "text": "We investigate the significance of the smoothness of activation functions for the well-posedness of forward and backward ODEs in Neural ODEs.",
+      "display_label": "Contribution 1: smoothness analysis for well-posedness",
+      "citations": 0
+    },
+    {
+      "id": "N26",
+      "type": "Contribution",
+      "text": "Using random matrix theory, we demonstrate the existence of globally unique solutions.",
+      "display_label": "Contribution 1b: existence via random matrix theory",
+      "citations": 0
+    },
+    {
+      "id": "N27",
+      "type": "Contribution",
+      "text": "Additionally, we show that no additional regularity is needed if forward and backward ODEs are combined in a weakly coupled ODE system.",
+      "display_label": "Contribution 1c: no extra regularity in coupled system",
+      "citations": 0
+    },
+    {
+      "id": "N28",
+      "type": "Contribution",
+      "text": "We propose a new mathematical framework for studying continuous models from the approximation theory perspective.",
+      "display_label": "Contribution 2: new approximation-theory framework",
+      "citations": 0
+    },
+    {
+      "id": "N29",
+      "type": "Contribution",
+      "text": "By using a sequence of finite-depth neural networks to approximate Neural ODEs, we show that key properties like activation and gradient propagation are preserved as depth approaches infinity.",
+      "display_label": "Contribution 2b: finite-depth approximation preserves properties",
+      "citations": 0
+    },
+    {
+      "id": "N30",
+      "type": "Contribution",
+      "text": "This allows us to apply the Moore-Osgood theorem from functional analysis to prove that the NTK of Neural ODEs is well-defined.",
+      "display_label": "Contribution 2c: Moore-Osgood proves NTK well-defined",
+      "citations": 0
+    },
+    {
+      "id": "N31",
+      "type": "Contribution",
+      "text": "Unfortunately, the SPD property of the NTK may not hold at infinite depth, even we can show every finite-depth approximation satisfies it.",
+      "display_label": "Contribution 3: SPD may fail at infinite depth",
+      "citations": 0
+    },
+    {
+      "id": "N32",
+      "type": "Contribution",
+      "text": "To address this, we conduct a fine-grained analysis and derive an integral form for the limiting NTK of Neural ODEs.",
+      "display_label": "Contribution 3b: integral form for limiting NTK",
+      "citations": 0
+    },
+    {
+      "id": "N33",
+      "type": "Contribution",
+      "text": "This form reveals that the NTK remains SPD if the activation function is non-polynomial.",
+      "display_label": "Contribution 3c: NTK SPD iff non-polynomial activation",
+      "citations": 0
+    },
+    {
+      "id": "N34",
+      "type": "Contribution",
+      "text": "Leveraging this integral representation provides valuable insights into continuous models and may inspire further research.",
+      "display_label": "Contribution 3d: integral form inspires future work",
+      "citations": 0
+    },
+    {
+      "id": "N35",
+      "type": "Contribution",
+      "text": "We conduct a series of numerical experiments to support our theoretical findings.",
+      "display_label": "Contribution 4: numerical experiments support theory",
+      "citations": 0
+    },
+    {
+      "id": "N36",
+      "type": "Contribution",
+      "text": "Beyond validating our analysis, these experiments also provide practical guidelines for training Neural ODEs.",
+      "display_label": "Contribution 4b: practical guidelines",
+      "citations": 0
+    },
+    {
+      "id": "N37",
+      "type": "Contribution",
+      "text": "We show that activation function smoothness and nonlinearity accelerate convergence and improve performance (see Figure 7-8).",
+      "display_label": "Contribution 4c: smoothness/nonlinearity speed convergence",
+      "citations": 0
+    },
+    {
+      "id": "N38",
+      "type": "Contribution",
+      "text": "Conversely, improper ODE scaling leads to damping from accumulated numerical errors (see Figure3), while adaptive solvers struggle with efficiency in large-scale Neural ODEs (see Figure 14), causing instability and high computational overhead.",
+      "display_label": "Contribution 4d: improper scaling/adaptive solvers fail",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "kind": "contrast",
+      "connective": "However"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "kind": "elaboration",
+      "connective": "Moreover"
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N6",
+      "to": "N14",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N14",
+      "to": "N15",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N15",
+      "to": "N16",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N16",
+      "to": "N17",
+      "kind": "consequence",
+      "connective": "This convergence has enabled"
+    },
+    {
+      "from": "N17",
+      "to": "N18",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N18",
+      "to": "N19",
+      "kind": "contrast",
+      "connective": "However"
+    },
+    {
+      "from": "N19",
+      "to": "N20",
+      "kind": "consequence",
+      "connective": "In this paper, we address"
+    },
+    {
+      "from": "N20",
+      "to": "N21",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N21",
+      "to": "N22",
+      "kind": "evidence"
+    },
+    {
+      "from": "N21",
+      "to": "N23",
+      "kind": "evidence"
+    },
+    {
+      "from": "N21",
+      "to": "N24",
+      "kind": "evidence"
+    },
+    {
+      "from": "N24",
+      "to": "N25",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N25",
+      "to": "N7",
+      "kind": "addresses"
+    },
+    {
+      "from": "N28",
+      "to": "N19",
+      "kind": "addresses"
+    },
+    {
+      "from": "N31",
+      "to": "N19",
+      "kind": "addresses"
+    },
+    {
+      "from": "N35",
+      "to": "N12",
+      "kind": "addresses"
+    },
+    {
+      "from": "N25",
+      "to": "N26",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N25",
+      "to": "N27",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N28",
+      "to": "N29",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N28",
+      "to": "N30",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N31",
+      "to": "N32",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N31",
+      "to": "N33",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N31",
+      "to": "N34",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N35",
+      "to": "N36",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N35",
+      "to": "N37",
+      "kind": "elaboration"
+    },
+    {
+      "from": "N35",
+      "to": "N38",
+      "kind": "elaboration"
+    }
+  ],
+  "observations": "The Neural ODE paper has the longest and most clearly bifurcated Limitation/Prior_Work spine of the three. After a five-node Context band introducing Neural ODEs, the 'However' at N6 explicitly announces TWO parallel challenges. Each challenge then receives its own multi-sentence sub-spine: challenge 1 (gradient computation, N7-N13) integrates a Picard-Lindelof theorem reference and notes that even advanced solvers leave the SGD-convergence question open and that discretization may not match the continuous model. Challenge 2 (training dynamics, N14-N19) walks through the nonconvex difficulty, then anchors on Jacot et al.'s NTK framework as the key prior-work line, then reaches a sharp 'However' at N19 that locates the gap in continuous models specifically.\n\nN16 (Jacot et al. NTK) is marked anchor=true: the paper's whole NTK extension thesis builds on this single line of work, threaded through N17 (SPD-based convergence guarantees) and N18 (dual activation lineage from Daniely 2016).\n\nThe Method band is small (N20-N21): a single thesis (study activation functions) plus the specific claim (smoothness + nonlinearity drive well-posedness + NTK spectral properties). The Result band (N22-N24) has three parallel theoretical findings, each supported as evidence by the Method thesis — a fork-join pattern.\n\nThe Contribution band is unusually long (14 nodes, N25-N38) because the paper presents four numbered contribution paragraphs each with 3-4 sub-claims. Per skill rules, Contribution outgoing edges are restricted to addresses-to-Limitation, so the internal structure of each numbered contribution is rendered as a flat zone rather than a sub-tree. Four addresses edges anchor the contributions to the limitations they resolve: N25 → N7 (smoothness analysis addresses the gradient/well-posedness challenge), N28 → N19 (the new approximation-theory framework addresses the discrete-layer-only NTK gap), N31 → N19 (the SPD-at-infinite-depth analysis also targets the same continuous-model gap), N35 → N12 (numerical experiments address the open SGD-convergence question).\n\nDistinctive feature for a theoretical paper: heavy Contribution enumeration without a separate Result-block-as-evidence pattern; the four numbered contributions each combine theoretical claim, technique, and practical implication in one paragraph."
+}

@@ -40,21 +40,21 @@
     },
     {
       "id": "N6",
-      "type": "Limitation",
+      "type": "Context",
       "text": "However, this introduces staleness: the policy used for rollouts may be many iterations behind the current training policy.",
       "display_label": "Off-policy introduces staleness",
       "citations": 0
     },
     {
       "id": "N7",
-      "type": "Limitation",
+      "type": "Context",
       "text": "Under high staleness, the distribution mismatch between rollout and training policies creates severe optimization challenges.",
       "display_label": "High staleness causes distribution mismatch",
       "citations": 0
     },
     {
       "id": "N8",
-      "type": "Limitation",
+      "type": "Context",
       "text": "Standard methods like PPO clipping (Schulman et al., 2015) become ineffective when the policy ratio stays near 1.0 due to stale data, while importance sampling corrections can introduce prohibitive variance.",
       "display_label": "PPO clipping ineffective; IS variance high",
       "citations": 1
@@ -252,15 +252,10 @@
       "kind": "addresses"
     },
     {
-      "from": "N16",
-      "to": "N8",
-      "kind": "addresses"
-    },
-    {
       "from": "C3",
       "to": "N12",
       "kind": "addresses"
     }
   ],
-  "observations": "FA0028 follows a tight problem-solution arc anchored on MIS-PO. Opening Context (N1-N4) frames RLVR as the dominant paradigm for LLM reasoning and contrasts it with RLHF, then narrows to compute scaling. The Prior_Work / Limitation interleaving is the structural backbone: off-policy training (N5) is positive, then a cascade of limitations (N6-N8) details staleness, distribution mismatch, and PPO/IS failure modes. A second Prior_Work cluster (N9-N11) introduces the immediate baselines (MIS-PO, M2PO) which both join into a shared limitation (N12: fixed hyperparameters), forming a join node by topology. N13 acts as Result-as-evidence: empirical numbers (crash, 0%, 18.4%) substantiate N12 before the method pivot. The Method block (N14-N16) is a linear chain into the three Contribution nodes (C1-C3). Three addresses edges link the method directly back to the named limitations (MIS-PO baseline, fixed hyperparameters), making the resolution structure explicit. Narrative arc: scale RLVR -> off-policy gives speed but staleness -> existing fixes use fixed bounds and crash -> adapt the bounds via acceptance rate -> three quantified contributions."
+  "observations": "FA0028 follows a tight problem-solution arc anchored on MIS-PO. Opening Context (N1-N4) frames RLVR as the dominant paradigm for LLM reasoning and contrasts it with RLHF, then narrows to compute scaling. Paragraph 2 sets up the off-policy *setting* of the paper: N5 (Prior_Work) introduces off-policy training as a throughput-oriented paradigm (Yu et al., 2025), then N6-N8 are paper-theme-aligned Context that frames the staleness phenomenon the paper itself studies (the 'However' here is field-level problem framing for the paper's own topic, not a critique of any specific named method — PPO is cited only as backdrop for 'standard methods that no longer apply in our setting'). Paragraph 3 introduces the actual specific Prior_Work being critiqued: a 'Recent work' cluster (N9-N11) names MIS-PO and M2PO, both of which join into the real Limitation N12 ('fixed hyperparameters fail to generalize'), forming a join node by topology. N13 is Result-as-evidence: empirical numbers (crash, 0%, 18.4%) substantiate N12 before the method pivot. The Method block (N14-N16) is a linear chain into three Contribution nodes (C1-C3). Three addresses edges link the method/contribution directly to the single named Limitation N12 (N15 -> N12, C3 -> N12) and to the anchor MIS-PO Prior_Work (N14 -> N10), making the resolution structure explicit. Narrative arc: scale RLVR -> off-policy gives speed but the staleness phenomenon needs handling -> existing named fixes (MIS-PO, M2PO) use fixed bounds and fail -> adapt the bounds via acceptance rate -> three quantified contributions."
 }

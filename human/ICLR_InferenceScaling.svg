@@ -41,8 +41,9 @@
 <text x="736" y="1163" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">In this work</text>
 <line x1="289" y1="1458" x2="427" y2="1486" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
 <line x1="427" y1="1582" x2="427" y2="1610" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="427" y1="1694" x2="994" y2="788" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
-<text x="710" y="1238" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Nevertheless</text>
+<line x1="427" y1="1694" x2="994" y2="788" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="580" x2="994" y2="788" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="899" y="681" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Nevertheless</text>
 <line x1="994" y1="860" x2="547" y2="1348" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
 <text x="770" y="1101" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Inspired by</text>
 <line x1="547" y1="1458" x2="805" y2="1486" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>

@@ -18,11 +18,18 @@
       "citations": 0
     },
     {
+      "id": "N3pw",
+      "type": "Prior_Work",
+      "text": "current methods like GRPO (Shao et al., 2024) treat test feedback as binary pass/fail signals",
+      "display_label": "GRPO: binary pass/fail reward signal",
+      "citations": 1
+    },
+    {
       "id": "N3",
       "type": "Limitation",
-      "text": "However, current methods like GRPO (Shao et al., 2024) treat test feedback as binary pass/fail signals, potentially missing richer learning opportunities from comparing correct and incorrect solutions.",
-      "display_label": "GRPO uses only binary pass/fail signal",
-      "citations": 1
+      "text": "potentially missing richer learning opportunities from comparing correct and incorrect solutions.",
+      "display_label": "Binary signal misses richer learning",
+      "citations": 0
     },
     {
       "id": "N4",
@@ -105,10 +112,12 @@
   ],
   "edges": [
     {"from": "N1", "to": "N2", "kind": "elaboration"},
-    {"from": "N2", "to": "N3", "kind": "contrast", "connective": "However"},
+    {"from": "N2", "to": "N3pw", "kind": "contrast", "connective": "However"},
+    {"from": "N3pw", "to": "N3", "kind": "elaboration"},
     {"from": "N3", "to": "N4", "kind": "consequence", "connective": "addresses this limitation"},
     {"from": "N4", "to": "N5", "kind": "evidence"},
-    {"from": "N5", "to": "N6", "kind": "contrast", "connective": "However"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N4", "to": "N6", "kind": "contrast", "connective": "However"},
     {"from": "N6", "to": "N7", "kind": "consequence"},
     {"from": "N7", "to": "N8", "kind": "elaboration"},
     {"from": "N8", "to": "N8a", "kind": "elaboration"},
@@ -120,5 +129,5 @@
     {"from": "N9", "to": "N6", "kind": "addresses"},
     {"from": "N10", "to": "N3", "kind": "addresses"}
   ],
-  "observations": "FA0041 follows a clean transfer-paper arc: a Context pair (N1\u2013N2) sets up RLVR with unit-test rewards as effective code-generation supervision; a Limitation (N3) calls out GRPO's binary signal; a Prior_Work anchor (N4 = MEL) is introduced as the conceptual donor along with a math-domain Result (N5) acting as evidence; a second Limitation (N6) carves out the gap (MEL untested on code); the proposed Method (N7) and its three-stage decomposition (N8 \u2192 N8a/N8b/N8c) occupy the methodological spine; and three Contribution bullets (N9, N10, N11) close the intro.\n\nTopologically, N8 is the dominant fork (six outgoing elaboration edges \u2014 three method-stage children plus three contribution leaves); the renderer should auto-side-place the three method-stage children since they are pure leaves in the Method zone. The Contribution leaves are in a separate destination zone and remain on the spine.\n\nTwo cross-segment addresses edges are warranted: N9 (three-stage pipeline) addresses N6 (MEL untested on code) via shared term \"code\"/\"three-stage\"; N11 (improved MBPP, replay-validation ablation) addresses N3 (GRPO binary signal) via shared technical territory of GRPO/contrastive comparison. C2 (N10) is a measurement claim about signal availability, not a direct gap-resolver, so no addresses edge is added.\n\nNotable features: anchor paper is MEL (Huang et al., 2026), explicitly called out and re-instantiated as Method N7. The intro is a textbook \"transplant X from domain A to domain B\" template, with the second Limitation (N6) doing the local motivational work for the proposed method."
+  "observations": "FA0041 follows a clean transfer-paper arc with two paired PW\u2192Limitation critique points. A Context pair (N1\u2013N2) sets up RLVR with unit-test rewards as effective code-generation supervision; the GRPO Prior_Work N3pw (split out of the original N3 sentence so the binary-signal description has its own PW node) describes how current methods like GRPO use binary pass/fail rewards; N3 then becomes a proper Limitation that critiques N3pw (binary misses richer learning). The MEL anchor (N4) is introduced as the conceptual donor with a math-domain Result (N5) acting as evidence; a second Limitation N6 (MEL untested on code) is wired both from N5 via narrative elaboration AND from N4 via the actual contrast pivot ('However, its applicability to code generation...' \u2014 the 'its' refers to MEL=N4, so the contrast/However marker is attributed to N4 \u2192 N6 rather than N5 \u2192 N6).\n\nThe proposed Method (N7) and its three-stage decomposition (N8 \u2192 N8a/N8b/N8c) occupy the methodological spine; three Contribution bullets (N9, N10, N11) close the intro. Topologically, N8 is the dominant fork (six outgoing elaboration edges); N6 is now a join node (in_degree=2 from N5 and N4, but the join box will be suppressed since N4 is N5's ancestor).\n\nTwo cross-segment addresses edges are warranted: N9 (three-stage pipeline) addresses N6 (MEL untested on code); N11 (improved MBPP, replay-validation ablation) addresses N3 (binary signal misses richer learning). Notable: every Limitation now has at least one Prior_Work source (N3 \u2190 N3pw, N6 \u2190 N4), satisfying the PW\u2192Limitation rule."
 }

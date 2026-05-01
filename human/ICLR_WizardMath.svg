@@ -19,8 +19,8 @@
 <line x1="60" y1="2848" x2="1450" y2="2848" stroke="#eee" stroke-width="1"/>
 <rect x="424" y="1136" width="762" height="116" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
 <text x="432" y="1132" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N16</text>
-<line x1="805" y1="164" x2="616" y2="260" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="616" y1="344" x2="616" y2="372" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="164" x2="427" y2="260" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="344" x2="616" y2="372" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
 <line x1="616" y1="468" x2="616" y2="496" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
 <text x="616" y="479" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">As a result</text>
 <line x1="616" y1="580" x2="616" y2="608" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
@@ -30,8 +30,8 @@
 <line x1="616" y1="804" x2="616" y2="832" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
 <line x1="616" y1="916" x2="616" y2="1460" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
 <text x="616" y="1185" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
-<line x1="616" y1="1556" x2="994" y2="260" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="994" y1="344" x2="994" y2="372" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1556" x2="805" y2="260" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="344" x2="994" y2="372" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
 <line x1="994" y1="468" x2="994" y2="496" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
 <line x1="994" y1="580" x2="994" y2="608" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
 <line x1="994" y1="692" x2="994" y2="720" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
@@ -45,8 +45,9 @@
 <line x1="805" y1="1364" x2="616" y2="1652" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
 <text x="710" y="1505" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Inspired by</text>
 <line x1="616" y1="1736" x2="616" y2="1764" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="616" y1="1860" x2="994" y2="1460" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
-<text x="805" y="1657" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However different from</text>
+<line x1="616" y1="1860" x2="1183" y2="260" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="899" y="1057" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However different from</text>
+<line x1="1183" y1="344" x2="994" y2="1460" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
 <line x1="994" y1="1556" x2="994" y2="1652" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
 <line x1="994" y1="1736" x2="994" y2="1460" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
 <line x1="994" y1="1736" x2="994" y2="1764" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
@@ -87,10 +88,10 @@
 Recently, Large-scale language models (LLMs) have garnered significant attention and become the go-to approach for numerous natural language processing (NLP) tasks, including open domain conversation (Ouyang et al., 2022; OpenAI, 2023; Touvron et al., 2023a), coding (Chen et al., 2021; Wang et al., 2021; Li et al., 2023b) and math (Taylor et al., 2022; Lewkowycz et al., 2022; Shao et al., 2024; Yang et al., 2024).</title>
 </g>
 <g>
-<rect x="436" y="260" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
-<text x="616" y="274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Prior_Work]</text>
-<text x="616" y="289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">ChatGPT example</text>
-<text x="616" y="305" text-anchor="middle" font-size="9.5" fill="#555">A conspicuous example is ChatGPT, developed by OpenAI.</text>
+<rect x="247" y="260" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="427" y="274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Prior_Work]</text>
+<text x="427" y="289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">ChatGPT example</text>
+<text x="427" y="305" text-anchor="middle" font-size="9.5" fill="#555">A conspicuous example is ChatGPT, developed by OpenAI.</text>
 <title>N2 [Prior_Work] (cites=0)
 A conspicuous example is ChatGPT, developed by OpenAI.</title>
 </g>
@@ -162,14 +163,14 @@ This trend also gradually stimulates the releases of Mistral (Jiang et al., 2023
 <title>N8 [Limitation] (cites=2)
 However, these open models still struggle with the scenarios which require complex multi-step quantitative reasoning, such as solving mathematical and science challenges (Ahn et al., 2024; Long et al., 2024).</title>
 </g>
-<circle cx="1181.0" cy="268.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="268.0" r="2.8" fill="#9b7a2e"/>
 <g>
-<rect x="814" y="260" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
-<text x="994" y="274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Prior_Work]</text>
-<text x="994" y="289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CoT prompting</text>
-<text x="994" y="305" text-anchor="middle" font-size="9.5" fill="#555">Chain-of-thought (CoT) (Wei et al., 2022) proposes to design</text>
-<text x="994" y="317" text-anchor="middle" font-size="9.5" fill="#555">better prompts to generate step-by-step solutions, which can lead</text>
-<text x="994" y="329" text-anchor="middle" font-size="9.5" fill="#555">to improved performance.</text>
+<rect x="625" y="260" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Prior_Work]</text>
+<text x="805" y="289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CoT prompting</text>
+<text x="805" y="305" text-anchor="middle" font-size="9.5" fill="#555">Chain-of-thought (CoT) (Wei et al., 2022) proposes to design</text>
+<text x="805" y="317" text-anchor="middle" font-size="9.5" fill="#555">better prompts to generate step-by-step solutions, which can lead</text>
+<text x="805" y="329" text-anchor="middle" font-size="9.5" fill="#555">to improved performance.</text>
 <title>N9 [Prior_Work] (cites=1)
 Chain-of-thought (CoT) (Wei et al., 2022) proposes to design better prompts to generate step-by-step solutions, which can lead to improved performance.</title>
 </g>
@@ -304,18 +305,25 @@ Inspired by Evol-Instruct and Process-supervised Reinforcement Learning, this wo
 <title>N21 [Method] (cites=0)
 As shown in the Figure 1, we propose a new method named Reinforcement Learning from Evol-Instruct Feedback (RLEIF), which could firstly generate diverse math instructions data by brand-new Math Evol-Instruct, which includes two downward evolution and upward evolution progress to produce the grade school math and challenging high school math respectively.</title>
 </g>
-<circle cx="1181.0" cy="1468.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="1181.0" cy="1476.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1370.0" cy="268.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1370.0" cy="276.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="1003" y="260" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="1183" y="274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22pw [Prior_Work]</text>
+<text x="1183" y="289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">WizardLM/WizardCoder: SFT-only</text>
+<text x="1183" y="305" text-anchor="middle" font-size="9.5" fill="#555">However different from WizardLM (Xu et al., 2023) and WizardCoder</text>
+<text x="1183" y="317" text-anchor="middle" font-size="9.5" fill="#555">(Luo et al., 2023), which mainly focus on the SFT stage</text>
+<title>N22pw [Prior_Work] (cites=2)
+However different from WizardLM (Xu et al., 2023) and WizardCoder (Luo et al., 2023), which mainly focus on the SFT stage</title>
+</g>
 <g>
 <rect x="814" y="1460" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
 <text x="994" y="1474" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Limitation]</text>
 <text x="994" y="1489" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">WizardLM/WizardCoder hallucinate from teacher</text>
-<text x="994" y="1505" text-anchor="middle" font-size="9.5" fill="#555">However different from WizardLM (Xu et al., 2023) and WizardCoder</text>
-<text x="994" y="1517" text-anchor="middle" font-size="9.5" fill="#555">(Luo et al., 2023), which mainly focus on the SFT stage and are</text>
-<text x="994" y="1529" text-anchor="middle" font-size="9.5" fill="#555">susceptible to learning hallucinated information from the teacher</text>
-<text x="994" y="1541" text-anchor="middle" font-size="9.5" fill="#555">model,</text>
-<title>N22 [Limitation] (cites=2)
-However different from WizardLM (Xu et al., 2023) and WizardCoder (Luo et al., 2023), which mainly focus on the SFT stage and are susceptible to learning hallucinated information from the teacher model,</title>
+<text x="994" y="1505" text-anchor="middle" font-size="9.5" fill="#555">and are susceptible to learning hallucinated information from the</text>
+<text x="994" y="1517" text-anchor="middle" font-size="9.5" fill="#555">teacher model,</text>
+<title>N22 [Limitation] (cites=0)
+and are susceptible to learning hallucinated information from the teacher model,</title>
 </g>
 <g>
 <rect x="814" y="1652" width="360" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>

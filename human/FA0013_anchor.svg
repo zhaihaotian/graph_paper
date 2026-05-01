@@ -27,12 +27,13 @@
 <line x1="805" y1="264" x2="805" y2="292" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
 <text x="805" y="275" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
 <line x1="805" y1="376" x2="805" y2="404" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
-<line x1="805" y1="488" x2="427" y2="1000" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<text x="616" y="741" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Currently</text>
-<line x1="427" y1="1096" x2="616" y2="584" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
-<text x="521" y="837" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">While</text>
-<line x1="616" y1="680" x2="616" y2="708" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
-<text x="616" y="691" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To bridge this gap</text>
+<line x1="805" y1="488" x2="427" y2="584" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="616" y="533" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Currently</text>
+<line x1="427" y1="680" x2="427" y2="1000" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="1096" x2="805" y2="584" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="616" y="837" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">While</text>
+<line x1="805" y1="680" x2="616" y2="708" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="710" y="691" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To bridge this gap</text>
 <line x1="616" y1="780" x2="805" y2="808" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
 <line x1="805" y1="904" x2="805" y2="1000" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
 <text x="805" y="949" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
@@ -48,9 +49,9 @@
 <text x="563" y="1903" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To address this</text>
 <line x1="322" y1="2128" x2="994" y2="68" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
 <line x1="994" y1="164" x2="644" y2="2032" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
-<line x1="644" y1="2128" x2="994" y2="584" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
-<text x="819" y="1353" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">differs from</text>
-<line x1="994" y1="680" x2="994" y2="708" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="644" y1="2128" x2="1183" y2="584" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="913" y="1353" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">differs from</text>
+<line x1="1183" y1="680" x2="994" y2="708" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
 <line x1="994" y1="780" x2="1183" y2="1000" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
 <text x="1088" y="887" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">While effective</text>
 <line x1="1183" y1="1096" x2="966" y2="2032" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
@@ -119,28 +120,36 @@ However, when environments become cluttered or actions require long-horizon fore
 <title>N4 [Context] (cites=0)
 This ability to scale &quot;compute&quot; to task complexity is a hallmark of efficient reasoning that remains a significant challenge for modern robotics.</title>
 </g>
-<circle cx="614.0" cy="1008.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="614.0" cy="1016.0" r="2.8" fill="#9b7a2e"/>
-<circle cx="614.0" cy="1024.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="592.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="600.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="608.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="247" y="584" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="427" y="598" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5pw [Prior_Work]</text>
+<text x="427" y="613" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">VLA models [22, 4, 25]</text>
+<text x="427" y="629" text-anchor="middle" font-size="9.5" fill="#555">Currently, most Vision-Language-Action (VLA) models [22, 4, 25]</text>
+<title>N5pw [Prior_Work] (cites=3)
+Currently, most Vision-Language-Action (VLA) models [22, 4, 25]</title>
+</g>
 <g>
 <rect x="247" y="1000" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
 <text x="427" y="1014" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Limitation]</text>
 <text x="427" y="1029" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">VLAs use fixed compute depth</text>
-<text x="427" y="1045" text-anchor="middle" font-size="9.5" fill="#555">Currently, most Vision-Language-Action (VLA) models [22, 4, 25]</text>
-<text x="427" y="1057" text-anchor="middle" font-size="9.5" fill="#555">are limited to a fixed computational depth, processing every</text>
-<text x="427" y="1069" text-anchor="middle" font-size="9.5" fill="#555">control step with the same number of parameters regardless of</text>
-<text x="427" y="1081" text-anchor="middle" font-size="9.5" fill="#555">difficulty; a simple gripper adjustment receives the…</text>
-<title>N5 [Limitation] (cites=3)
-Currently, most Vision-Language-Action (VLA) models [22, 4, 25] are limited to a fixed computational depth, processing every control step with the same number of parameters regardless of difficulty; a simple gripper adjustment receives the same compute as high-precision navigation in a cluttered space.</title>
+<text x="427" y="1045" text-anchor="middle" font-size="9.5" fill="#555">are limited to a fixed computational depth, processing every</text>
+<text x="427" y="1057" text-anchor="middle" font-size="9.5" fill="#555">control step with the same number of parameters regardless of</text>
+<text x="427" y="1069" text-anchor="middle" font-size="9.5" fill="#555">difficulty; a simple gripper adjustment receives the same compute</text>
+<text x="427" y="1081" text-anchor="middle" font-size="9.5" fill="#555">as high-precision navigation in a cluttered space.</text>
+<title>N5 [Limitation] (cites=0)
+are limited to a fixed computational depth, processing every control step with the same number of parameters regardless of difficulty; a simple gripper adjustment receives the same compute as high-precision navigation in a cluttered space.</title>
 </g>
 <g>
-<rect x="436" y="584" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
-<text x="616" y="598" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work]</text>
-<text x="616" y="613" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">generalist VLAs underuse latent reasoning</text>
-<text x="616" y="629" text-anchor="middle" font-size="9.5" fill="#555">While generalist VLAs built upon Multimodal Large Language Models</text>
-<text x="616" y="641" text-anchor="middle" font-size="9.5" fill="#555">(MLLMs) exhibit impressive visual understanding, they often remain</text>
-<text x="616" y="653" text-anchor="middle" font-size="9.5" fill="#555">brittle and fail to fully leverage the latent reasoning</text>
-<text x="616" y="665" text-anchor="middle" font-size="9.5" fill="#555">capabilities of their backbone models.</text>
+<rect x="625" y="584" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="598" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work]</text>
+<text x="805" y="613" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">generalist VLAs underuse latent reasoning</text>
+<text x="805" y="629" text-anchor="middle" font-size="9.5" fill="#555">While generalist VLAs built upon Multimodal Large Language Models</text>
+<text x="805" y="641" text-anchor="middle" font-size="9.5" fill="#555">(MLLMs) exhibit impressive visual understanding, they often remain</text>
+<text x="805" y="653" text-anchor="middle" font-size="9.5" fill="#555">brittle and fail to fully leverage the latent reasoning</text>
+<text x="805" y="665" text-anchor="middle" font-size="9.5" fill="#555">capabilities of their backbone models.</text>
 <title>N6 [Prior_Work] (cites=0)
 While generalist VLAs built upon Multimodal Large Language Models (MLLMs) exhibit impressive visual understanding, they often remain brittle and fail to fully leverage the latent reasoning capabilities of their backbone models.</title>
 </g>
@@ -273,13 +282,13 @@ Human cognition is fundamentally characterized by recurrent neural dynamics, whe
 <title>N18 [Method] (cites=0)
 An architectural analogy in neural networks is the recursive reuse of layers, in which a model iteratively processes information until a refined decision is reached.</title>
 </g>
-<circle cx="1181.0" cy="592.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1370.0" cy="592.0" r="2.8" fill="#9b7a2e"/>
 <g>
-<rect x="814" y="584" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
-<text x="994" y="598" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Prior_Work]</text>
-<text x="994" y="613" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">differs from Diffusion Policies</text>
-<text x="994" y="629" text-anchor="middle" font-size="9.5" fill="#555">This iterative process differs from Diffusion Policies [8], which</text>
-<text x="994" y="641" text-anchor="middle" font-size="9.5" fill="#555">generate actions through multi-step refinement.</text>
+<rect x="1003" y="584" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="1183" y="598" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Prior_Work]</text>
+<text x="1183" y="613" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">differs from Diffusion Policies</text>
+<text x="1183" y="629" text-anchor="middle" font-size="9.5" fill="#555">This iterative process differs from Diffusion Policies [8], which</text>
+<text x="1183" y="641" text-anchor="middle" font-size="9.5" fill="#555">generate actions through multi-step refinement.</text>
 <title>N19 [Prior_Work] (cites=1)
 This iterative process differs from Diffusion Policies [8], which generate actions through multi-step refinement.</title>
 </g>
