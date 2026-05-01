@@ -1,0 +1,178 @@
+{
+  "paper_id": "FA0063",
+  "paper_topic": "Testing whether Intent Reconstruction Gate (clarification timing) mitigates anchoring bias in tool-using LLM agents",
+  "anchor_paper": null,
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Tool-using LLM agents are increasingly deployed for information retrieval tasks, combining language reasoning with external tools such as search and databases (Qu et al., 2024; Yao et al., 2022).",
+      "display_label": "Tool-using LLM agents for retrieval",
+      "citations": 2
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "However, these agents exhibit systematic biases that degrade performance on ambiguous queries.",
+      "display_label": "Agents have systematic biases",
+      "citations": 0
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "Anchoring bias—the tendency to over-rely on initially encountered information—is particularly problematic: when presented with multiple plausible candidates, agents disproportionately select the first-listed option regardless of its correctness (Valencia-Clavijo, 2025; Yin et al., 2025).",
+      "display_label": "Anchoring bias: first-listed preferred",
+      "citations": 2
+    },
+    {
+      "id": "N4",
+      "type": "Context",
+      "text": "This bias is especially costly in interactive settings where agents must clarify user intent before committing to an answer.",
+      "display_label": "Bias is costly in interactive settings",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Prior_Work",
+      "text": "A natural hypothesis is that anchoring occurs because agents commit to candidate interpretations before fully understanding user intent.",
+      "display_label": "Hypothesis: premature commitment causes anchoring",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Prior_Work",
+      "text": "If the agent sees retrieval results early, the first candidate may anchor subsequent reasoning and clarification questions.",
+      "display_label": "Early retrieval anchors reasoning",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Prior_Work",
+      "text": "The Intent Reconstruction Gate (IRG) intervention addresses this by forcing clarification before retrieval exposure, potentially preventing premature commitment to the first candidate.",
+      "display_label": "IRG: clarify before retrieval",
+      "citations": 0,
+      "anchor": true
+    },
+    {
+      "id": "N8",
+      "type": "Prior_Work",
+      "text": "This approach is motivated by cognitive science research showing that anchoring effects can be mitigated through deliberation before anchor exposure (Sumita et al., 2024).",
+      "display_label": "Cog-sci: deliberation mitigates anchoring",
+      "citations": 1
+    },
+    {
+      "id": "N9",
+      "type": "Method",
+      "text": "We conduct controlled experiments to test the IRG hypothesis on InteractComp-Anchor (Deng et al., 2025), a benchmark for ambiguous queries requiring clarification.",
+      "display_label": "Test IRG on InteractComp-Anchor",
+      "citations": 1
+    },
+    {
+      "id": "N10",
+      "type": "Method",
+      "text": "We compare three conditions under identical interaction budgets: (A) search-first baseline where the agent sees candidates before clarification, (B) IRG clarify-first where clarification precedes retrieval, and (C) candidate-order control where the target is listed first.",
+      "display_label": "Three conditions: A, B, C",
+      "citations": 0
+    },
+    {
+      "id": "N10a",
+      "type": "Method: condition-A",
+      "text": "(A) search-first baseline where the agent sees candidates before clarification",
+      "display_label": "A: search-first baseline",
+      "citations": 0
+    },
+    {
+      "id": "N10b",
+      "type": "Method: condition-B",
+      "text": "(B) IRG clarify-first where clarification precedes retrieval",
+      "display_label": "B: IRG clarify-first",
+      "citations": 0
+    },
+    {
+      "id": "N10c",
+      "type": "Method: condition-C",
+      "text": "(C) candidate-order control where the target is listed first",
+      "display_label": "C: candidate-order control",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method",
+      "text": "This design isolates the effect of clarification timing from candidate presentation order.",
+      "display_label": "Design isolates timing vs order",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Result",
+      "text": "Our results reveal a surprising negative finding: IRG does not work.",
+      "display_label": "Negative finding: IRG fails",
+      "citations": 0
+    },
+    {
+      "id": "N13",
+      "type": "Result",
+      "text": "The timing manipulation produces a negligible +0.95 percentage point improvement over the search-first baseline (p = 0.42), while simply reordering candidates to place the target first achieves a 13.33 percentage point gain (p < 0.001).",
+      "display_label": "IRG +0.95pp ns; reorder +13.33pp",
+      "citations": 0
+    },
+    {
+      "id": "N14",
+      "type": "Result",
+      "text": "The dominant factor in anchoring bias is candidate presentation order, not clarification timing.",
+      "display_label": "Order dominates timing",
+      "citations": 0
+    },
+    {
+      "id": "N15",
+      "type": "Result",
+      "text": "This suggests that for 7B-scale models, anchoring operates at the candidate presentation stage rather than intent formation.",
+      "display_label": "Anchoring at presentation, not intent",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "The first controlled test of whether clarification timing can mitigate anchoring bias in tool-using LLM agents, with pre-registered success criteria.",
+      "display_label": "C1: first controlled test of timing",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "Empirical evidence that candidate presentation order dominates timing effects: reordering candidates is 14× more effective than the IRG intervention.",
+      "display_label": "C2: order 14x more effective than IRG",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "Actionable guidance for practitioners: focus on candidate presentation strategies (e.g., randomization, confidence-based reordering) rather than clarification timing to mitigate anchoring bias.",
+      "display_label": "C3: focus on presentation strategies",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "contrast", "connective": "However"},
+    {"from": "N2", "to": "N3", "kind": "elaboration"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N6", "to": "N7", "kind": "consequence", "connective": "addresses this"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "consequence"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N10", "to": "N10a", "kind": "elaboration"},
+    {"from": "N10", "to": "N10b", "kind": "elaboration"},
+    {"from": "N10", "to": "N10c", "kind": "elaboration"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "N12", "kind": "evidence"},
+    {"from": "N12", "to": "N13", "kind": "elaboration"},
+    {"from": "N13", "to": "N14", "kind": "elaboration"},
+    {"from": "N14", "to": "N15", "kind": "elaboration"},
+    {"from": "N15", "to": "C1", "kind": "elaboration"},
+    {"from": "N15", "to": "C2", "kind": "elaboration"},
+    {"from": "N15", "to": "C3", "kind": "elaboration"}
+  ],
+  "observations": "FA0063 is a negative-result paper testing the IRG (Intent Reconstruction Gate) hypothesis. Para 1 is Context (N1-N4): tool-using agents are deployed for retrieval, but exhibit anchoring bias on ambiguous queries — the 'However' here introduces the paper's own topic-of-study (anchoring bias), so it is field-level Context, not Limitation (Para-1 'However' rule). Para 2 is the Prior_Work block (N5-N8): the prior literature's natural hypothesis (premature commitment causes anchoring), the IRG intervention as the anchor approach the paper tests, and its cog-sci motivation (Sumita et al., 2024). The paper has no Limitation node — it is testing whether IRG works rather than critiquing a prior method.\n\nPara 3 is the Method block (N9-N11) describing the controlled experiment with three conditions, expanded to N10a/b/c sub-claims. Para 4 is the Result block (N12-N15) reporting the negative finding: IRG fails (+0.95pp ns) while candidate reordering succeeds (+13.33pp). N15 forks into the three Contribution bullets (C1-C3).\n\nTopologically, N10 is a fork (out_degree=4) with three same-type same-zone leaf children (N10a/b/c) plus a continuation to N11 — these conditions are pure leaves so the renderer should put them as side-enum chips. N15 is the second fork into the contributions. No addresses edges are added because there is no Limitation node — the paper's structure is hypothesis → test → empirical refutation, not method-fixes-gap. Narrative arc: anchoring bias is well-known → natural hypothesis is premature commitment, with IRG as the proposed fix → controlled three-condition experiment → IRG does not help, but presentation order does → guidance to practitioners."
+}

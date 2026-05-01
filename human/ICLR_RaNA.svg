@@ -1,0 +1,360 @@
+<svg viewBox="0 0 1480 3276" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="172" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="538" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="324" x2="1450" y2="324" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1072" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="752" x2="1450" y2="752" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1470" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PROOF</text>
+<line x1="60" y1="1392" x2="1450" y2="1392" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1894" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1548" x2="1450" y2="1548" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2728" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="2240" x2="1450" y2="2240" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1116" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1112" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N8</text>
+<rect x="235" y="1116" width="762" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1112" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N14</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="276" x2="805" y2="372" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="468" x2="805" y2="496" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="592" x2="805" y2="620" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="704" x2="805" y2="800" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="749" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Unfortunately</text>
+<line x1="805" y1="1500" x2="805" y2="800" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="884" x2="805" y2="912" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="996" x2="805" y2="1024" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1108" x2="427" y2="1136" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1108" x2="805" y2="1136" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1108" x2="1183" y2="1136" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1183" y1="1232" x2="805" y2="1260" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1344" x2="805" y2="1596" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1467" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To address these gaps</text>
+<line x1="805" y1="1680" x2="805" y2="1708" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1780" x2="805" y2="1808" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1892" x2="805" y2="1920" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1992" x2="805" y2="2020" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="2003" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">unlike neuron adapters</text>
+<line x1="805" y1="2092" x2="805" y2="2120" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2192" x2="805" y2="2288" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2348" x2="805" y2="2376" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2472" x2="805" y2="2500" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2596" x2="805" y2="2624" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2708" x2="805" y2="2736" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2820" x2="805" y2="2848" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2944" x2="805" y2="2972" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="3056" x2="805" y2="3084" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2092" x2="427" y2="1136" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="2092" x2="805" y2="1136" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="2192" x2="1183" y2="1136" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="2820" x2="805" y2="800" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs grow in size and compute cost</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">As Large Language Models (LLMs) have grown in popularity and size, they have</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">begun consuming a non-trivial amount of compute and time for training and</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">inference (Kim et al. (2023), Pope et al. (2022)).</text>
+<title>N1 [Context] (cites=2)
+As Large Language Models (LLMs) have grown in popularity and size, they have begun consuming a non-trivial amount of compute and time for training and inference (Kim et al. (2023), Pope et al. (2022)).</title>
+</g>
+<circle cx="1022.0" cy="188.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="180" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Adaptive compute methods speed up inference</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">Adaptive compute methods seek to speed up the inference stage of</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">Transformers (Vaswani et al. (2023)), the de facto LLM architecture, by</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">identifying and avoiding redundant computations to save I/O and</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">floating-point operations (FLOPs).</text>
+<title>N2 [Context] (cites=1)
+Adaptive compute methods seek to speed up the inference stage of Transformers (Vaswani et al. (2023)), the de facto LLM architecture, by identifying and avoiding redundant computations to save I/O and floating-point operations (FLOPs).</title>
+</g>
+<circle cx="1022.0" cy="380.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="388.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="396.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="404.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="372" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="386" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Prior_Work]</text>
+<text x="805" y="401" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Neuron adapters target MLP layers</text>
+<text x="805" y="417" text-anchor="middle" font-size="9.5" fill="#555">Commonly, these methods apply neuron adapters to the Multi Layer Perceptron</text>
+<text x="805" y="429" text-anchor="middle" font-size="9.5" fill="#555">(MLP) layers of the Transformer architecture, which dynamically ignore</text>
+<text x="805" y="441" text-anchor="middle" font-size="9.5" fill="#555">neurons depending on the input of the layer (Lee et al. (2024), Mirzadeh et</text>
+<text x="805" y="453" text-anchor="middle" font-size="9.5" fill="#555">al. (2023), Liu…</text>
+<title>N3 [Prior_Work] (cites=4)
+Commonly, these methods apply neuron adapters to the Multi Layer Perceptron (MLP) layers of the Transformer architecture, which dynamically ignore neurons depending on the input of the layer (Lee et al. (2024), Mirzadeh et al. (2023), Liu et al. (2023) Zhang et al. (2024)).</title>
+</g>
+<g>
+<rect x="595" y="496" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="510" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work]</text>
+<text x="805" y="525" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Speedup: O(d_in d_hidden) -&gt; O(d_in d_adapted)</text>
+<text x="805" y="541" text-anchor="middle" font-size="9.5" fill="#555">Utilizing these adapters leads to inference speedups, as the amortized time</text>
+<text x="805" y="553" text-anchor="middle" font-size="9.5" fill="#555">complexity of an MLP layer reduces from O(din ·dhidden ) to O(din ·dadapted</text>
+<text x="805" y="565" text-anchor="middle" font-size="9.5" fill="#555">), where din is the input dimension of the MLP, dhidden is the hidden</text>
+<text x="805" y="577" text-anchor="middle" font-size="9.5" fill="#555">dimension, and…</text>
+<title>N4 [Prior_Work] (cites=0)
+Utilizing these adapters leads to inference speedups, as the amortized time complexity of an MLP layer reduces from O(din ·dhidden ) to O(din ·dadapted ), where din is the input dimension of the MLP, dhidden is the hidden dimension, and dadapted is the average number of active neurons.</title>
+</g>
+<g>
+<rect x="595" y="620" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="634" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="805" y="649" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Neuron adapters: practical speedup, small quality drop</text>
+<text x="805" y="665" text-anchor="middle" font-size="9.5" fill="#555">For modern Transformer architectures, this results in practical speedups at</text>
+<text x="805" y="677" text-anchor="middle" font-size="9.5" fill="#555">the expense of negligible model quality decrease for a sufficient amount of</text>
+<text x="805" y="689" text-anchor="middle" font-size="9.5" fill="#555">average active neurons.</text>
+<title>N5 [Prior_Work] (cites=0)
+For modern Transformer architectures, this results in practical speedups at the expense of negligible model quality decrease for a sufficient amount of average active neurons.</title>
+</g>
+<g>
+<rect x="595" y="800" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="814" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="829" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Rapid performance drop on modern Transformers</text>
+<text x="805" y="845" text-anchor="middle" font-size="9.5" fill="#555">Unfortunately, adaptive compute methods using neuron adapters suffer from</text>
+<text x="805" y="857" text-anchor="middle" font-size="9.5" fill="#555">rapid performance degradation in modern Transformer architectures (Figs. 1a,</text>
+<text x="805" y="869" text-anchor="middle" font-size="9.5" fill="#555">1c).</text>
+<title>N6 [Limitation] (cites=0)
+Unfortunately, adaptive compute methods using neuron adapters suffer from rapid performance degradation in modern Transformer architectures (Figs. 1a, 1c).</title>
+</g>
+<g>
+<rect x="595" y="1440" width="420" height="60" rx="6" fill="#fff2cc" stroke="#b38a2c" stroke-width="1.2"/>
+<text x="805" y="1454" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">P6 [Proof]</text>
+<text x="805" y="1469" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fig. 1a, 1c: degradation evidence</text>
+<text x="805" y="1485" text-anchor="middle" font-size="9.5" fill="#555">Figs. 1a, 1c</text>
+<title>P6 [Proof] (cites=0)
+Figs. 1a, 1c</title>
+</g>
+<g>
+<rect x="595" y="912" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="926" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="941" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Root cause: activation-based allocation</text>
+<text x="805" y="957" text-anchor="middle" font-size="9.5" fill="#555">We observe this issue arises from the limitations of the neuron-adaptive</text>
+<text x="805" y="969" text-anchor="middle" font-size="9.5" fill="#555">framework, which enforces dynamic neuron allocation based on activation</text>
+<text x="805" y="981" text-anchor="middle" font-size="9.5" fill="#555">values.</text>
+<title>N7 [Limitation] (cites=0)
+We observe this issue arises from the limitations of the neuron-adaptive framework, which enforces dynamic neuron allocation based on activation values.</title>
+</g>
+<g>
+<rect x="595" y="1024" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1038" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Limitation]</text>
+<text x="805" y="1053" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Three concrete limitations</text>
+<text x="805" y="1069" text-anchor="middle" font-size="9.5" fill="#555">Concretely, we believe this decline is attributed to this framework's lack</text>
+<text x="805" y="1081" text-anchor="middle" font-size="9.5" fill="#555">of generalization across different layer types, reliance on sparse</text>
+<text x="805" y="1093" text-anchor="middle" font-size="9.5" fill="#555">activation functions, and costly neuron masking techniques.</text>
+<title>N8 [Limitation] (cites=0)
+Concretely, we believe this decline is attributed to this framework's lack of generalization across different layer types, reliance on sparse activation functions, and costly neuron masking techniques.</title>
+</g>
+<g>
+<rect x="247" y="1136" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="427" y="1150" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8a [Limitation]</text>
+<text x="427" y="1165" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Cannot apply to QKV / non-MLP layers</text>
+<text x="427" y="1181" text-anchor="middle" font-size="9.5" fill="#555">First, neuron adapters, often tailored to MLPs, can not be</text>
+<text x="427" y="1193" text-anchor="middle" font-size="9.5" fill="#555">directly applied to non-MLP layers, such as the Query, Key, and</text>
+<text x="427" y="1205" text-anchor="middle" font-size="9.5" fill="#555">Value modules of attention layers, which lack neurons.</text>
+<title>N8a [Limitation] (cites=0)
+First, neuron adapters, often tailored to MLPs, can not be directly applied to non-MLP layers, such as the Query, Key, and Value modules of attention layers, which lack neurons.</title>
+</g>
+<circle cx="992.0" cy="1144.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="1152.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="1160.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="625" y="1136" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1150" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8b [Limitation]</text>
+<text x="805" y="1165" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Depends on activation sparsity (ReLU only)</text>
+<text x="805" y="1181" text-anchor="middle" font-size="9.5" fill="#555">In addition, these methods frequently depend on activation-induced</text>
+<text x="805" y="1193" text-anchor="middle" font-size="9.5" fill="#555">sparsity, like that attained by ReLU (Agarap (2019)), making them</text>
+<text x="805" y="1205" text-anchor="middle" font-size="9.5" fill="#555">ineffective with non-sparse activation functions like SwiGLU</text>
+<text x="805" y="1217" text-anchor="middle" font-size="9.5" fill="#555">(Shazeer (2020), Zhang et al. (2024)).</text>
+<title>N8b [Limitation] (cites=3)
+In addition, these methods frequently depend on activation-induced sparsity, like that attained by ReLU (Agarap (2019)), making them ineffective with non-sparse activation functions like SwiGLU (Shazeer (2020), Zhang et al. (2024)).</title>
+</g>
+<circle cx="1370.0" cy="1144.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1370.0" cy="1152.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="1003" y="1136" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="1183" y="1150" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8c [Limitation]</text>
+<text x="1183" y="1165" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CATS/ReLUfication: costly pre-activation compute</text>
+<text x="1183" y="1181" text-anchor="middle" font-size="9.5" fill="#555">Further, while recent approaches like CATS (Lee et al. (2024)) or</text>
+<text x="1183" y="1193" text-anchor="middle" font-size="9.5" fill="#555">ReLUfication (Mirzadeh et al. (2023)) attempt to handle non-sparse</text>
+<text x="1183" y="1205" text-anchor="middle" font-size="9.5" fill="#555">activations, they inefficiently compute neuron-activations before</text>
+<text x="1183" y="1217" text-anchor="middle" font-size="9.5" fill="#555">determining which neurons to exclude.</text>
+<title>N8c [Limitation] (cites=2)
+Further, while recent approaches like CATS (Lee et al. (2024)) or ReLUfication (Mirzadeh et al. (2023)) attempt to handle non-sparse activations, they inefficiently compute neuron-activations before determining which neurons to exclude.</title>
+</g>
+<circle cx="1022.0" cy="1268.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1276.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1284.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1260" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Limitation]</text>
+<text x="805" y="1289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Modern LLMs use non-sparse activations</text>
+<text x="805" y="1305" text-anchor="middle" font-size="9.5" fill="#555">This is concerning as Transformers architectures like Llama (Touvron et al.</text>
+<text x="805" y="1317" text-anchor="middle" font-size="9.5" fill="#555">(2023)), Gemma (Team et al. (2024)) or Mistral (Jiang et al. (2023)) rely on</text>
+<text x="805" y="1329" text-anchor="middle" font-size="9.5" fill="#555">non-sparse activation functions, which makes sparsity-based neuron adapters…</text>
+<title>N9 [Limitation] (cites=3)
+This is concerning as Transformers architectures like Llama (Touvron et al. (2023)), Gemma (Team et al. (2024)) or Mistral (Jiang et al. (2023)) rely on non-sparse activation functions, which makes sparsity-based neuron adapters ineffective for them, pushing us to rely on more computationally intensive neuron adapters.</title>
+</g>
+<g>
+<rect x="595" y="1596" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1610" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="805" y="1625" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose Adaptive Rank Allocation + RaNA</text>
+<text x="805" y="1641" text-anchor="middle" font-size="9.5" fill="#555">To address these gaps in the neuron-adaptive setup, we propose the Adaptive</text>
+<text x="805" y="1653" text-anchor="middle" font-size="9.5" fill="#555">Rank Allocation framework, together with the Rank and Neuron Allocator</text>
+<text x="805" y="1665" text-anchor="middle" font-size="9.5" fill="#555">(RaNA) adapter.</text>
+<title>N10 [Method] (cites=0)
+To address these gaps in the neuron-adaptive setup, we propose the Adaptive Rank Allocation framework, together with the Rank and Neuron Allocator (RaNA) adapter.</title>
+</g>
+<g>
+<rect x="595" y="1708" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1722" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="805" y="1737" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Rank-adaptive generalizes neuron-adaptive</text>
+<text x="805" y="1753" text-anchor="middle" font-size="9.5" fill="#555">We note that this rank-adaptive framework is a more powerful generalization</text>
+<text x="805" y="1765" text-anchor="middle" font-size="9.5" fill="#555">of the neuron-adaptive one.</text>
+<title>N11 [Method] (cites=0)
+We note that this rank-adaptive framework is a more powerful generalization of the neuron-adaptive one.</title>
+</g>
+<g>
+<rect x="595" y="1808" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1822" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Method]</text>
+<text x="805" y="1837" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Linear(x) ≈ A(r(x) ⊙ Bx) decomposition</text>
+<text x="805" y="1853" text-anchor="middle" font-size="9.5" fill="#555">Concretely, we devise this framework from the observation that any linear</text>
+<text x="805" y="1865" text-anchor="middle" font-size="9.5" fill="#555">layer can be decomposed into the product of two low-rank matrices and an</text>
+<text x="805" y="1877" text-anchor="middle" font-size="9.5" fill="#555">adaptive router/masker, namely Linear(x) = W x ≈ A(r(x) ⊙ Bx).</text>
+<title>N12 [Method] (cites=0)
+Concretely, we devise this framework from the observation that any linear layer can be decomposed into the product of two low-rank matrices and an adaptive router/masker, namely Linear(x) = W x ≈ A(r(x) ⊙ Bx).</title>
+</g>
+<g>
+<rect x="595" y="1920" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1934" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Method]</text>
+<text x="805" y="1949" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RaNA: A,B + masker for QKV and MLPs</text>
+<text x="805" y="1965" text-anchor="middle" font-size="9.5" fill="#555">Moreover, we develop RaNA in this framework, leveraging specific A and B</text>
+<text x="805" y="1977" text-anchor="middle" font-size="9.5" fill="#555">decompositions and a masker m(x) for Transformer layers, like QKV or MLPs.</text>
+<title>N13 [Method] (cites=0)
+Moreover, we develop RaNA in this framework, leveraging specific A and B decompositions and a masker m(x) for Transformer layers, like QKV or MLPs.</title>
+</g>
+<g>
+<rect x="595" y="2020" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2034" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Method]</text>
+<text x="805" y="2049" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Applies to any linear layer, no sparsity needed</text>
+<text x="805" y="2065" text-anchor="middle" font-size="9.5" fill="#555">Notably, unlike neuron adapters, RaNA can be directly applied to any linear</text>
+<text x="805" y="2077" text-anchor="middle" font-size="9.5" fill="#555">layer without relying on activation function sparsity.</text>
+<title>N14 [Method] (cites=0)
+Notably, unlike neuron adapters, RaNA can be directly applied to any linear layer without relying on activation function sparsity.</title>
+</g>
+<g>
+<rect x="595" y="2120" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2134" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Method]</text>
+<text x="805" y="2149" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Better FLOP distribution across SwiGLU MLP</text>
+<text x="805" y="2165" text-anchor="middle" font-size="9.5" fill="#555">Further, when used with modern MLP layers with SwiGLU activations, it</text>
+<text x="805" y="2177" text-anchor="middle" font-size="9.5" fill="#555">enables better distribution of compute across the MLP's linear layers.</text>
+<title>N15 [Method] (cites=0)
+Further, when used with modern MLP layers with SwiGLU activations, it enables better distribution of compute across the MLP's linear layers.</title>
+</g>
+<g>
+<rect x="595" y="2288" width="420" height="60" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2302" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Result]</text>
+<text x="805" y="2317" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Empirical validation</text>
+<text x="805" y="2333" text-anchor="middle" font-size="9.5" fill="#555">We empirically validate the rank-adaptive framework and the RaNA adapter.</text>
+<title>N16 [Result] (cites=0)
+We empirically validate the rank-adaptive framework and the RaNA adapter.</title>
+</g>
+<g>
+<rect x="595" y="2376" width="420" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2390" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Result]</text>
+<text x="805" y="2405" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Ranks of AB have sparse importances</text>
+<text x="805" y="2421" text-anchor="middle" font-size="9.5" fill="#555">We demonstrate that, similar to neuron-adaptive setups, the ranks of the AB</text>
+<text x="805" y="2433" text-anchor="middle" font-size="9.5" fill="#555">matrix decomposition in the proposed RaNA adapters have sparse importances,</text>
+<text x="805" y="2445" text-anchor="middle" font-size="9.5" fill="#555">depending on the input (Figs. 2a, 2b), allowing us to dynamically prune</text>
+<text x="805" y="2457" text-anchor="middle" font-size="9.5" fill="#555">them.</text>
+<title>N17 [Result] (cites=0)
+We demonstrate that, similar to neuron-adaptive setups, the ranks of the AB matrix decomposition in the proposed RaNA adapters have sparse importances, depending on the input (Figs. 2a, 2b), allowing us to dynamically prune them.</title>
+</g>
+<g>
+<rect x="595" y="2500" width="420" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2514" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Result]</text>
+<text x="805" y="2529" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Lowest MLP recovery error: +6.7/+18.1/+7.4 pp</text>
+<text x="805" y="2545" text-anchor="middle" font-size="9.5" fill="#555">We also show that RaNA adapters attain the lowest error in MLP layers when</text>
+<text x="805" y="2557" text-anchor="middle" font-size="9.5" fill="#555">recovering the full MLP outputs, outperforming neuron-adaptive methods by</text>
+<text x="805" y="2569" text-anchor="middle" font-size="9.5" fill="#555">6.7, 18.1 and 7.4 percentage-points on Llama2-7b, Gemma-2b and Pythia-160M</text>
+<text x="805" y="2581" text-anchor="middle" font-size="9.5" fill="#555">respectively.</text>
+<title>N18 [Result] (cites=0)
+We also show that RaNA adapters attain the lowest error in MLP layers when recovering the full MLP outputs, outperforming neuron-adaptive methods by 6.7, 18.1 and 7.4 percentage-points on Llama2-7b, Gemma-2b and Pythia-160M respectively.</title>
+</g>
+<circle cx="1022.0" cy="2632.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="2640.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="2624" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2638" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Result]</text>
+<text x="805" y="2653" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Applied to Llama and Gemma</text>
+<text x="805" y="2669" text-anchor="middle" font-size="9.5" fill="#555">Further, we show the effectiveness of RaNA in modern Transformer</text>
+<text x="805" y="2681" text-anchor="middle" font-size="9.5" fill="#555">architectures by applying it to Llama (Touvron et al. (2023)) and Gemma</text>
+<text x="805" y="2693" text-anchor="middle" font-size="9.5" fill="#555">(Team et al. (2024)).</text>
+<title>N19 [Result] (cites=2)
+Further, we show the effectiveness of RaNA in modern Transformer architectures by applying it to Llama (Touvron et al. (2023)) and Gemma (Team et al. (2024)).</title>
+</g>
+<circle cx="1022.0" cy="2744.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="2736" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2750" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Result]</text>
+<text x="805" y="2765" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Outperforms CATS at multiple compression rates</text>
+<text x="805" y="2781" text-anchor="middle" font-size="9.5" fill="#555">Notably, RaNA closes the gap between full-model and adapted-model</text>
+<text x="805" y="2793" text-anchor="middle" font-size="9.5" fill="#555">performance, as it outperforms the state-of-the-art method CATS (Lee et al.</text>
+<text x="805" y="2805" text-anchor="middle" font-size="9.5" fill="#555">(2024)) on multiple compression rates (Tabs. 1, 2).</text>
+<title>N20 [Result] (cites=1)
+Notably, RaNA closes the gap between full-model and adapted-model performance, as it outperforms the state-of-the-art method CATS (Lee et al. (2024)) on multiple compression rates (Tabs. 1, 2).</title>
+</g>
+<g>
+<rect x="595" y="2848" width="420" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2862" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Result]</text>
+<text x="805" y="2877" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">44% compression: +4/8 pp Llama2; +7/5 pp Gemma</text>
+<text x="805" y="2893" text-anchor="middle" font-size="9.5" fill="#555">Concretely, at a ∼44% FLOP compression rate, RaNA achieves an average</text>
+<text x="805" y="2905" text-anchor="middle" font-size="9.5" fill="#555">improvement of 4 perplexity-points and 8 percentage-points in benchmark</text>
+<text x="805" y="2917" text-anchor="middle" font-size="9.5" fill="#555">accuracy for Llama2-7b, while for Gemma-2b, it improves perplexity by 7</text>
+<text x="805" y="2929" text-anchor="middle" font-size="9.5" fill="#555">points and accuracy by 5…</text>
+<title>N21 [Result] (cites=0)
+Concretely, at a ∼44% FLOP compression rate, RaNA achieves an average improvement of 4 perplexity-points and 8 percentage-points in benchmark accuracy for Llama2-7b, while for Gemma-2b, it improves perplexity by 7 points and accuracy by 5 percentage-points, compared to prior adapters.</title>
+</g>
+<circle cx="1022.0" cy="2980.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="2988.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="2972" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2986" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Result]</text>
+<text x="805" y="3001" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Applied to Pythia (GPTNeoX) suite</text>
+<text x="805" y="3017" text-anchor="middle" font-size="9.5" fill="#555">Finally, to assess the effectiveness of RaNA's applicability to different</text>
+<text x="805" y="3029" text-anchor="middle" font-size="9.5" fill="#555">types of layers and activations, we apply it to the Pythia suite (Biderman</text>
+<text x="805" y="3041" text-anchor="middle" font-size="9.5" fill="#555">et al. (2023)), a set of varied-sized GPTNeox (Black et al. (2022)) models.</text>
+<title>N22 [Result] (cites=2)
+Finally, to assess the effectiveness of RaNA's applicability to different types of layers and activations, we apply it to the Pythia suite (Biderman et al. (2023)), a set of varied-sized GPTNeox (Black et al. (2022)) models.</title>
+</g>
+<g>
+<rect x="595" y="3084" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="3098" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23 [Result]</text>
+<text x="805" y="3113" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Pythia: better perplexity and accuracy</text>
+<text x="805" y="3129" text-anchor="middle" font-size="9.5" fill="#555">Here we also observe that, when comparing their performance to conventional</text>
+<text x="805" y="3141" text-anchor="middle" font-size="9.5" fill="#555">neuron-adaptive methods, it consistently attains better perplexity and</text>
+<text x="805" y="3153" text-anchor="middle" font-size="9.5" fill="#555">downstream task performance (Figs. 1c, 4).</text>
+<title>N23 [Result] (cites=0)
+Here we also observe that, when comparing their performance to conventional neuron-adaptive methods, it consistently attains better perplexity and downstream task performance (Figs. 1c, 4).</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

@@ -1,0 +1,196 @@
+<svg viewBox="0 0 1480 1540" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="334" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="738" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="648" x2="1450" y2="648" stroke="#eee" stroke-width="1"/>
+<text x="14" y="912" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="828" x2="1450" y2="828" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1142" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="996" x2="1450" y2="996" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1384" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1288" x2="1450" y2="1288" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1316" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1312" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N10</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="264" x2="805" y2="292" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="275" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="388" x2="805" y2="416" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="488" x2="805" y2="516" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="600" x2="616" y2="696" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="710" y="645" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">has addressed this</text>
+<line x1="616" y1="780" x2="616" y2="876" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="616" y="825" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">While</text>
+<line x1="616" y1="948" x2="994" y2="696" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="780" x2="994" y2="876" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="948" x2="805" y2="1044" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="899" y="993" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">We propose</text>
+<line x1="805" y1="1128" x2="805" y2="1156" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1240" x2="427" y2="1336" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1240" x2="805" y2="1336" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1240" x2="1183" y2="1336" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="1432" x2="616" y2="876" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1432" x2="994" y2="876" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">SSMs: linear-time alternative to Transformers</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">State space models (SSMs) have emerged as an efficient alternative to</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">Transformers for sequence modeling, offering linear-time complexity in</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">sequence length (Gu et al., 2021; Gu &amp; Dao, 2023).</text>
+<title>N1 [Context] (cites=2)
+State space models (SSMs) have emerged as an efficient alternative to Transformers for sequence modeling, offering linear-time complexity in sequence length (Gu et al., 2021; Gu &amp; Dao, 2023).</title>
+</g>
+<circle cx="1022.0" cy="188.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="196.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="180" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Mamba/Mamba2 competitive with Transformers</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">Mamba (Gu &amp; Dao, 2023) and its successor Mamba2 (Dao &amp; Gu, 2024) achieve</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">competitive performance with Transformers while enabling efficient</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">processing of long sequences.</text>
+<title>N2 [Context] (cites=2)
+Mamba (Gu &amp; Dao, 2023) and its successor Mamba2 (Dao &amp; Gu, 2024) achieve competitive performance with Transformers while enabling efficient processing of long sequences.</title>
+</g>
+<g>
+<rect x="595" y="292" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="306" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="321" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Mamba PPL explodes at long contexts</text>
+<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">However, when evaluated on contexts significantly longer than their training</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">distribution, these models exhibit severe perplexity</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">degradation—Mamba2-1.3B's perplexity explodes from 9.31 at 2K tokens to over</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">1400 at 64K tokens.</text>
+<title>N3 [Context] (cites=0)
+However, when evaluated on contexts significantly longer than their training distribution, these models exhibit severe perplexity degradation—Mamba2-1.3B's perplexity explodes from 9.31 at 2K tokens to over 1400 at 64K tokens.</title>
+</g>
+<g>
+<rect x="595" y="416" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="430" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="445" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Cause: extreme eigenvalues in spectrum</text>
+<text x="805" y="461" text-anchor="middle" font-size="9.5" fill="#555">This long-context failure stems from extreme eigenvalues in the transition</text>
+<text x="805" y="473" text-anchor="middle" font-size="9.5" fill="#555">spectrum.</text>
+<title>N4 [Context] (cites=0)
+This long-context failure stems from extreme eigenvalues in the transition spectrum.</title>
+</g>
+<g>
+<rect x="595" y="516" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="530" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="545" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Eigenvalues near 1: explode; near 0: forget</text>
+<text x="805" y="561" text-anchor="middle" font-size="9.5" fill="#555">Eigenvalues near 1 cause state explosion as historical information</text>
+<text x="805" y="573" text-anchor="middle" font-size="9.5" fill="#555">accumulates without sufficient decay, while eigenvalues near 0 lead to</text>
+<text x="805" y="585" text-anchor="middle" font-size="9.5" fill="#555">premature context loss.</text>
+<title>N5 [Context] (cites=0)
+Eigenvalues near 1 cause state explosion as historical information accumulates without sufficient decay, while eigenvalues near 0 lead to premature context loss.</title>
+</g>
+<circle cx="803.0" cy="704.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="696" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="710" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work : ANCHOR]</text>
+<text x="616" y="725" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Calibrated scaling (Lu 2025)</text>
+<text x="616" y="741" text-anchor="middle" font-size="9.5" fill="#555">Prior work has addressed this through calibrated scaling (Lu et</text>
+<text x="616" y="753" text-anchor="middle" font-size="9.5" fill="#555">al., 2025), which determines optimal per-layer scaling factors via</text>
+<text x="616" y="765" text-anchor="middle" font-size="9.5" fill="#555">forward passes on representative data.</text>
+<title>N6 [Prior_Work] (cites=1)
+Prior work has addressed this through calibrated scaling (Lu et al., 2025), which determines optimal per-layer scaling factors via forward passes on representative data.</title>
+</g>
+<g>
+<rect x="436" y="876" width="360" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="890" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="616" y="905" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Calibrated scaling: needs calibration data</text>
+<text x="616" y="921" text-anchor="middle" font-size="9.5" fill="#555">While effective (achieving PPL@64K of 4.72), this approach</text>
+<text x="616" y="933" text-anchor="middle" font-size="9.5" fill="#555">requires calibration data that may not always be available.</text>
+<title>N7 [Limitation] (cites=0)
+While effective (achieving PPL@64K of 4.72), this approach requires calibration data that may not always be available.</title>
+</g>
+<g>
+<rect x="814" y="696" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="710" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Prior_Work]</text>
+<text x="994" y="725" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Constant scaling: data-free baseline</text>
+<text x="994" y="741" text-anchor="middle" font-size="9.5" fill="#555">Constant scaling provides a data-free alternative but applies</text>
+<text x="994" y="753" text-anchor="middle" font-size="9.5" fill="#555">uniform modifications to all channels, degrading short-context</text>
+<text x="994" y="765" text-anchor="middle" font-size="9.5" fill="#555">performance (PPL@2K increases from 9.31 to 11.25).</text>
+<title>N8 [Prior_Work] (cites=0)
+Constant scaling provides a data-free alternative but applies uniform modifications to all channels, degrading short-context performance (PPL@2K increases from 9.31 to 11.25).</title>
+</g>
+<g>
+<rect x="814" y="876" width="360" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="890" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8lim [Limitation]</text>
+<text x="994" y="905" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Constant scaling degrades short context</text>
+<text x="994" y="921" text-anchor="middle" font-size="9.5" fill="#555">applies uniform modifications to all channels, degrading</text>
+<text x="994" y="933" text-anchor="middle" font-size="9.5" fill="#555">short-context performance (PPL@2K increases from 9.31 to 11.25).</text>
+<title>N8lim [Limitation] (cites=0)
+applies uniform modifications to all channels, degrading short-context performance (PPL@2K increases from 9.31 to 11.25).</title>
+</g>
+<g>
+<rect x="595" y="1044" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1058" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="1073" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose transition-spectrum winsorization</text>
+<text x="805" y="1089" text-anchor="middle" font-size="9.5" fill="#555">We propose transition-spectrum winsorization, a data-free method that clips</text>
+<text x="805" y="1101" text-anchor="middle" font-size="9.5" fill="#555">only the extreme eigenvalues in each layer's spectrum while preserving the</text>
+<text x="805" y="1113" text-anchor="middle" font-size="9.5" fill="#555">mid-spectrum.</text>
+<title>N9 [Method] (cites=0)
+We propose transition-spectrum winsorization, a data-free method that clips only the extreme eigenvalues in each layer's spectrum while preserving the mid-spectrum.</title>
+</g>
+<g>
+<rect x="595" y="1156" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1170" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="805" y="1185" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Targets [q,1-q] tails; 17.5% channels</text>
+<text x="805" y="1201" text-anchor="middle" font-size="9.5" fill="#555">By targeting channels with eigenvalues outside the [q, 1−q] percentile</text>
+<text x="805" y="1213" text-anchor="middle" font-size="9.5" fill="#555">range, our method modifies only 17.5% of channels while achieving better</text>
+<text x="805" y="1225" text-anchor="middle" font-size="9.5" fill="#555">performance than constant scaling on both short and long contexts.</text>
+<title>N10 [Method] (cites=0)
+By targeting channels with eigenvalues outside the [q, 1−q] percentile range, our method modifies only 17.5% of channels while achieving better performance than constant scaling on both short and long contexts.</title>
+</g>
+<g>
+<rect x="247" y="1336" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1350" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="427" y="1365" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: data-free method, PPL@64K=11.44</text>
+<text x="427" y="1381" text-anchor="middle" font-size="9.5" fill="#555">A data-free method for Mamba long-context extension via</text>
+<text x="427" y="1393" text-anchor="middle" font-size="9.5" fill="#555">transition-spectrum winsorization, achieving PPL@64K of 11.44 (13%</text>
+<text x="427" y="1405" text-anchor="middle" font-size="9.5" fill="#555">better than constant scaling) without requiring calibration data.</text>
+<title>C1 [Contribution] (cites=0)
+A data-free method for Mamba long-context extension via transition-spectrum winsorization, achieving PPL@64K of 11.44 (13% better than constant scaling) without requiring calibration data.</title>
+</g>
+<g>
+<rect x="625" y="1336" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1350" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="805" y="1365" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: targeted beats uniform; +6.8% vs +20.8%</text>
+<text x="805" y="1381" text-anchor="middle" font-size="9.5" fill="#555">Empirical demonstration that targeted clipping of extreme</text>
+<text x="805" y="1393" text-anchor="middle" font-size="9.5" fill="#555">eigenvalues (17.5% of channels) outperforms uniform scaling (100%</text>
+<text x="805" y="1405" text-anchor="middle" font-size="9.5" fill="#555">of channels), with lower short-context regression (+6.8% vs</text>
+<text x="805" y="1417" text-anchor="middle" font-size="9.5" fill="#555">+20.8%).</text>
+<title>C2 [Contribution] (cites=0)
+Empirical demonstration that targeted clipping of extreme eigenvalues (17.5% of channels) outperforms uniform scaling (100% of channels), with lower short-context regression (+6.8% vs +20.8%).</title>
+</g>
+<g>
+<rect x="1003" y="1336" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1350" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="1183" y="1365" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: extreme eigenvalues are input-dependent</text>
+<text x="1183" y="1381" text-anchor="middle" font-size="9.5" fill="#555">Mechanism analysis revealing that extreme effective eigenvalues</text>
+<text x="1183" y="1393" text-anchor="middle" font-size="9.5" fill="#555">are driven by input-dependent ∆t dynamics rather than static A</text>
+<text x="1183" y="1405" text-anchor="middle" font-size="9.5" fill="#555">outliers, motivating future work on input-dependent interventions.</text>
+<title>C3 [Contribution] (cites=0)
+Mechanism analysis revealing that extreme effective eigenvalues are driven by input-dependent ∆t dynamics rather than static A outliers, motivating future work on input-dependent interventions.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

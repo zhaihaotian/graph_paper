@@ -1,0 +1,347 @@
+<svg viewBox="0 0 1480 3068" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="396" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="918" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="772" x2="1450" y2="772" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1210" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="1064" x2="1450" y2="1064" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1434" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PROOF</text>
+<line x1="60" y1="1356" x2="1450" y2="1356" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1970" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1512" x2="1450" y2="1512" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2718" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="2428" x2="1450" y2="2428" stroke="#eee" stroke-width="1"/>
+<line x1="616" y1="164" x2="616" y2="192" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="616" y="175" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="616" y1="288" x2="616" y2="316" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="412" x2="616" y2="440" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="536" x2="805" y2="564" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="624" x2="805" y2="652" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="635" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Therefore</text>
+<line x1="805" y1="724" x2="805" y2="820" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="892" x2="805" y2="920" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1016" x2="805" y2="1112" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="1061" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Nonetheless</text>
+<line x1="805" y1="1196" x2="805" y2="1224" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1308" x2="994" y2="68" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="164" x2="994" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="288" x2="994" y2="316" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="412" x2="994" y2="440" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="536" x2="805" y2="1560" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="899" y="1045" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Building on these insights</text>
+<line x1="805" y1="1656" x2="805" y2="1684" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1756" x2="805" y2="1784" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1868" x2="805" y2="1896" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1980" x2="805" y2="2008" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2080" x2="805" y2="2108" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2180" x2="805" y2="2208" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2280" x2="805" y2="2308" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2380" x2="805" y2="2476" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2548" x2="805" y2="2576" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1464" x2="805" y2="2576" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="2648" x2="805" y2="2676" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2760" x2="805" y2="2788" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2860" x2="805" y2="2888" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<circle cx="803.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="100.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="108.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="116.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="124.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="616" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs scale with capacity + data</text>
+<text x="616" y="113" text-anchor="middle" font-size="9.5" fill="#555">Large Language Models (LLMs, Achiam et al., 2023; Touvron et al.,</text>
+<text x="616" y="125" text-anchor="middle" font-size="9.5" fill="#555">2023a;b; Team et al., 2023; Bai et al., 2023) have achieved</text>
+<text x="616" y="137" text-anchor="middle" font-size="9.5" fill="#555">remarkable progress in language understanding and generation,</text>
+<text x="616" y="149" text-anchor="middle" font-size="9.5" fill="#555">which are primarily attributed to their…</text>
+<title>N1 [Context] (cites=7)
+Large Language Models (LLMs, Achiam et al., 2023; Touvron et al., 2023a;b; Team et al., 2023; Bai et al., 2023) have achieved remarkable progress in language understanding and generation, which are primarily attributed to their unprecedented model capacity and the corresponding growth in the volume of training data they require (Kaplan et al., 2020; Hoffmann et al., 2022).</title>
+</g>
+<g>
+<rect x="436" y="192" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="616" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Scaling is computationally costly</text>
+<text x="616" y="237" text-anchor="middle" font-size="9.5" fill="#555">However, this scaling up comes with a substantial rise in</text>
+<text x="616" y="249" text-anchor="middle" font-size="9.5" fill="#555">computational costs, making the training efficiency of LLMs a</text>
+<text x="616" y="261" text-anchor="middle" font-size="9.5" fill="#555">critical concern.</text>
+<title>N2 [Context] (cites=0)
+However, this scaling up comes with a substantial rise in computational costs, making the training efficiency of LLMs a critical concern.</title>
+</g>
+<circle cx="803.0" cy="324.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="316" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="330" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="616" y="345" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Reducing training cost without quality loss is hard</text>
+<text x="616" y="361" text-anchor="middle" font-size="9.5" fill="#555">Despite the ongoing efforts on efficient LLMs (Wan et al., 2023),</text>
+<text x="616" y="373" text-anchor="middle" font-size="9.5" fill="#555">it remains a formidable challenge to reduce training costs without</text>
+<text x="616" y="385" text-anchor="middle" font-size="9.5" fill="#555">compromising the model performance.</text>
+<title>N3 [Context] (cites=1)
+Despite the ongoing efforts on efficient LLMs (Wan et al., 2023), it remains a formidable challenge to reduce training costs without compromising the model performance.</title>
+</g>
+<g>
+<rect x="436" y="440" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="454" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="616" y="469" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C ∝ N · D</text>
+<text x="616" y="485" text-anchor="middle" font-size="9.5" fill="#555">Specifically, the amount of compute (FLOPs) required for training</text>
+<text x="616" y="497" text-anchor="middle" font-size="9.5" fill="#555">LLMs is approximately proportional to both the number of model</text>
+<text x="616" y="509" text-anchor="middle" font-size="9.5" fill="#555">parameters N and the number of text units (i.e., tokens) D in the</text>
+<text x="616" y="521" text-anchor="middle" font-size="9.5" fill="#555">training data.</text>
+<title>N4 [Context] (cites=0)
+Specifically, the amount of compute (FLOPs) required for training LLMs is approximately proportional to both the number of model parameters N and the number of text units (i.e., tokens) D in the training data.</title>
+</g>
+<g>
+<rect x="595" y="564" width="420" height="60" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="578" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="593" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C ≈ 6 N D</text>
+<text x="805" y="609" text-anchor="middle" font-size="9.5" fill="#555">This relationship can be expressed as: C ≈ 6N D.</text>
+<title>N5 [Context] (cites=0)
+This relationship can be expressed as: C ≈ 6N D.</title>
+</g>
+<g>
+<rect x="595" y="652" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="666" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Context]</text>
+<text x="805" y="681" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Reduce N or D</text>
+<text x="805" y="697" text-anchor="middle" font-size="9.5" fill="#555">Therefore, strategies for reducing training costs can target either the</text>
+<text x="805" y="709" text-anchor="middle" font-size="9.5" fill="#555">reduction in the number of model parameters N or the number of text units D.</text>
+<title>N6 [Context] (cites=0)
+Therefore, strategies for reducing training costs can target either the reduction in the number of model parameters N or the number of text units D.</title>
+</g>
+<circle cx="1022.0" cy="828.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="836.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="844.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="820" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="834" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Prior_Work]</text>
+<text x="805" y="849" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Model growth reduces N</text>
+<text x="805" y="865" text-anchor="middle" font-size="9.5" fill="#555">One prominent approach to reduce the parameter size N is called model growth</text>
+<text x="805" y="877" text-anchor="middle" font-size="9.5" fill="#555">(Gong et al., 2019; Yang et al., 2020; Chen et al., 2022).</text>
+<title>N7 [Prior_Work] (cites=3)
+One prominent approach to reduce the parameter size N is called model growth (Gong et al., 2019; Yang et al., 2020; Chen et al., 2022).</title>
+</g>
+<g>
+<rect x="595" y="920" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="934" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Prior_Work]</text>
+<text x="805" y="949" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Progressive expansion of params</text>
+<text x="805" y="965" text-anchor="middle" font-size="9.5" fill="#555">Rather than equipping the model with full parameters from the beginning, it</text>
+<text x="805" y="977" text-anchor="middle" font-size="9.5" fill="#555">advocates for a progressive expansion of the model's parameter size</text>
+<text x="805" y="989" text-anchor="middle" font-size="9.5" fill="#555">throughout the training phase, thereby reducing the average parameter size</text>
+<text x="805" y="1001" text-anchor="middle" font-size="9.5" fill="#555">during training.</text>
+<title>N8 [Prior_Work] (cites=0)
+Rather than equipping the model with full parameters from the beginning, it advocates for a progressive expansion of the model's parameter size throughout the training phase, thereby reducing the average parameter size during training.</title>
+</g>
+<g>
+<rect x="595" y="1112" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1126" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Limitation]</text>
+<text x="805" y="1141" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Performance hinges on parameter count</text>
+<text x="805" y="1157" text-anchor="middle" font-size="9.5" fill="#555">Nonetheless, a model's performance hinges on an adequate number of</text>
+<text x="805" y="1169" text-anchor="middle" font-size="9.5" fill="#555">parameters to store extensive knowledge and develop intricate reasoning</text>
+<text x="805" y="1181" text-anchor="middle" font-size="9.5" fill="#555">capabilities.</text>
+<title>N9 [Limitation] (cites=0)
+Nonetheless, a model's performance hinges on an adequate number of parameters to store extensive knowledge and develop intricate reasoning capabilities.</title>
+</g>
+<g>
+<rect x="595" y="1224" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1238" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Limitation]</text>
+<text x="805" y="1253" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Insufficient params caps capabilities</text>
+<text x="805" y="1269" text-anchor="middle" font-size="9.5" fill="#555">The inadequacy of parameters inherently limits the scope of knowledge and</text>
+<text x="805" y="1281" text-anchor="middle" font-size="9.5" fill="#555">capabilities a model can develop, rendering it challenging to match the</text>
+<text x="805" y="1293" text-anchor="middle" font-size="9.5" fill="#555">performance of training with the full parameter set.</text>
+<title>N10 [Limitation] (cites=0)
+The inadequacy of parameters inherently limits the scope of knowledge and capabilities a model can develop, rendering it challenging to match the performance of training with the full parameter set.</title>
+</g>
+<g>
+<rect x="814" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Context]</text>
+<text x="994" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Alt: reduce text-unit count D</text>
+<text x="994" y="113" text-anchor="middle" font-size="9.5" fill="#555">The second pathway to lowering training costs is reducing the</text>
+<text x="994" y="125" text-anchor="middle" font-size="9.5" fill="#555">number of text units D within the training data.</text>
+<title>N11 [Context] (cites=0)
+The second pathway to lowering training costs is reducing the number of text units D within the training data.</title>
+</g>
+<g>
+<rect x="814" y="192" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Context]</text>
+<text x="994" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">D-reduction unexplored; tokens info-sparse</text>
+<text x="994" y="237" text-anchor="middle" font-size="9.5" fill="#555">This direction remains largely unexplored but intuitively holds</text>
+<text x="994" y="249" text-anchor="middle" font-size="9.5" fill="#555">more promise, as the knowledge embedded within training data is</text>
+<text x="994" y="261" text-anchor="middle" font-size="9.5" fill="#555">sparsely distributed across numerous tokens, with each token</text>
+<text x="994" y="273" text-anchor="middle" font-size="9.5" fill="#555">encapsulating a minimal amount of information.</text>
+<title>N12 [Context] (cites=0)
+This direction remains largely unexplored but intuitively holds more promise, as the knowledge embedded within training data is sparsely distributed across numerous tokens, with each token encapsulating a minimal amount of information.</title>
+</g>
+<g>
+<rect x="814" y="316" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="330" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Context]</text>
+<text x="994" y="345" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Per-step compute under-utilizes parameters</text>
+<text x="994" y="361" text-anchor="middle" font-size="9.5" fill="#555">This sparse distribution of information results in a scenario</text>
+<text x="994" y="373" text-anchor="middle" font-size="9.5" fill="#555">where, despite the substantial computational costs incurred during</text>
+<text x="994" y="385" text-anchor="middle" font-size="9.5" fill="#555">each learning step, only a small fraction of model parameters that</text>
+<text x="994" y="397" text-anchor="middle" font-size="9.5" fill="#555">are relevant to the current token are…</text>
+<title>N13 [Context] (cites=0)
+This sparse distribution of information results in a scenario where, despite the substantial computational costs incurred during each learning step, only a small fraction of model parameters that are relevant to the current token are effectively updated.</title>
+</g>
+<g>
+<rect x="814" y="440" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="454" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Context]</text>
+<text x="994" y="469" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Higher info-density per step would help</text>
+<text x="994" y="485" text-anchor="middle" font-size="9.5" fill="#555">By increasing the amount of information the model processes at</text>
+<text x="994" y="497" text-anchor="middle" font-size="9.5" fill="#555">each learning step—that is, by augmenting the information density</text>
+<text x="994" y="509" text-anchor="middle" font-size="9.5" fill="#555">of text units and thus reducing the number of text units D—we</text>
+<text x="994" y="521" text-anchor="middle" font-size="9.5" fill="#555">could potentially boost training efficiency…</text>
+<title>N14 [Context] (cites=0)
+By increasing the amount of information the model processes at each learning step—that is, by augmenting the information density of text units and thus reducing the number of text units D—we could potentially boost training efficiency significantly without sacrificing model performance.</title>
+</g>
+<g>
+<rect x="595" y="1560" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1574" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Method]</text>
+<text x="805" y="1589" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose patch-level training</text>
+<text x="805" y="1605" text-anchor="middle" font-size="9.5" fill="#555">Building on these insights, this paper introduces patch-level training for</text>
+<text x="805" y="1617" text-anchor="middle" font-size="9.5" fill="#555">large language models, in which multiple tokens are aggregated into a unit</text>
+<text x="805" y="1629" text-anchor="middle" font-size="9.5" fill="#555">of higher information density, referred to as a 'patch', to serve as the</text>
+<text x="805" y="1641" text-anchor="middle" font-size="9.5" fill="#555">fundamental text…</text>
+<title>N15 [Method] (cites=0)
+Building on these insights, this paper introduces patch-level training for large language models, in which multiple tokens are aggregated into a unit of higher information density, referred to as a 'patch', to serve as the fundamental text unit for training LLMs.</title>
+</g>
+<g>
+<rect x="595" y="1684" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1698" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Method]</text>
+<text x="805" y="1713" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Two stages: patch then token</text>
+<text x="805" y="1729" text-anchor="middle" font-size="9.5" fill="#555">Specifically, we divide the training process into two stages: patch-level</text>
+<text x="805" y="1741" text-anchor="middle" font-size="9.5" fill="#555">training and token-level training.</text>
+<title>N16 [Method] (cites=0)
+Specifically, we divide the training process into two stages: patch-level training and token-level training.</title>
+</g>
+<g>
+<rect x="595" y="1784" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1798" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Method]</text>
+<text x="805" y="1813" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Patch stage: predict next patch</text>
+<text x="805" y="1829" text-anchor="middle" font-size="9.5" fill="#555">During patch-level training, we feed the language model shorter sequences of</text>
+<text x="805" y="1841" text-anchor="middle" font-size="9.5" fill="#555">patches and train it to predict the next patch, thereby processing the</text>
+<text x="805" y="1853" text-anchor="middle" font-size="9.5" fill="#555">majority of the training data at a significantly reduced cost.</text>
+<title>N17 [Method] (cites=0)
+During patch-level training, we feed the language model shorter sequences of patches and train it to predict the next patch, thereby processing the majority of the training data at a significantly reduced cost.</title>
+</g>
+<g>
+<rect x="595" y="1896" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1910" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Method]</text>
+<text x="805" y="1925" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Token stage: continue from patch init</text>
+<text x="805" y="1941" text-anchor="middle" font-size="9.5" fill="#555">The resulting parameters are used to initialize the token-level model, which</text>
+<text x="805" y="1953" text-anchor="middle" font-size="9.5" fill="#555">then continues training on the remaining data to adapt the knowledge gained</text>
+<text x="805" y="1965" text-anchor="middle" font-size="9.5" fill="#555">during patch-level training to the token-level.</text>
+<title>N18 [Method] (cites=0)
+The resulting parameters are used to initialize the token-level model, which then continues training on the remaining data to adapt the knowledge gained during patch-level training to the token-level.</title>
+</g>
+<g>
+<rect x="595" y="2008" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2022" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Method]</text>
+<text x="805" y="2037" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fig. 1: efficiency advantage</text>
+<text x="805" y="2053" text-anchor="middle" font-size="9.5" fill="#555">Figure 1 illustrates the efficiency advantage of patch-level training, where</text>
+<text x="805" y="2065" text-anchor="middle" font-size="9.5" fill="#555">the area of the shape represents the overall training costs.</text>
+<title>N19 [Method] (cites=0)
+Figure 1 illustrates the efficiency advantage of patch-level training, where the area of the shape represents the overall training costs.</title>
+</g>
+<g>
+<rect x="595" y="2108" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2122" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Method]</text>
+<text x="805" y="2137" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Patch compute = 1/K of token compute</text>
+<text x="805" y="2153" text-anchor="middle" font-size="9.5" fill="#555">With a patch size of K, the amount of compute required for patch-level</text>
+<text x="805" y="2165" text-anchor="middle" font-size="9.5" fill="#555">training is 1/K of that required for token-level training.</text>
+<title>N20 [Method] (cites=0)
+With a patch size of K, the amount of compute required for patch-level training is 1/K of that required for token-level training.</title>
+</g>
+<g>
+<rect x="595" y="2208" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2222" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Method]</text>
+<text x="805" y="2237" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Total cost = λ/K + 1 − λ</text>
+<text x="805" y="2253" text-anchor="middle" font-size="9.5" fill="#555">When a fraction λ of the training data is compressed into patches, the</text>
+<text x="805" y="2265" text-anchor="middle" font-size="9.5" fill="#555">overall training costs are reduced to λ/K + 1 − λ times the original costs.</text>
+<title>N21 [Method] (cites=0)
+When a fraction λ of the training data is compressed into patches, the overall training costs are reduced to λ/K + 1 − λ times the original costs.</title>
+</g>
+<g>
+<rect x="595" y="2308" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2322" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Method]</text>
+<text x="805" y="2337" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">K=4, λ=2/3 -&gt; 0.5x cost</text>
+<text x="805" y="2353" text-anchor="middle" font-size="9.5" fill="#555">For instance, to halve the training costs, one could set the patch size K =</text>
+<text x="805" y="2365" text-anchor="middle" font-size="9.5" fill="#555">4 and conduct patch-level training on λ = 2/3 of the training data.</text>
+<title>N22 [Method] (cites=0)
+For instance, to halve the training costs, one could set the patch size K = 4 and conduct patch-level training on λ = 2/3 of the training data.</title>
+</g>
+<circle cx="1022.0" cy="2484.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="2476" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2490" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23 [Result]</text>
+<text x="805" y="2505" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Train 370M-2.7B on Pile</text>
+<text x="805" y="2521" text-anchor="middle" font-size="9.5" fill="#555">Employing the above settings (K = 4, λ = 2/3), we train a series of LLMs of</text>
+<text x="805" y="2533" text-anchor="middle" font-size="9.5" fill="#555">varying sizes (370M-2.7B parameters) on the Pile dataset (Gao et al., 2020).</text>
+<title>N23 [Result] (cites=1)
+Employing the above settings (K = 4, λ = 2/3), we train a series of LLMs of varying sizes (370M-2.7B parameters) on the Pile dataset (Gao et al., 2020).</title>
+</g>
+<g>
+<rect x="595" y="2576" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2590" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N24 [Result]</text>
+<text x="805" y="2605" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fig. 2: NLL loss curve</text>
+<text x="805" y="2621" text-anchor="middle" font-size="9.5" fill="#555">Figure 2 illustrates the trend of NLL loss against the number of training</text>
+<text x="805" y="2633" text-anchor="middle" font-size="9.5" fill="#555">tokens for the 370M model.</text>
+<title>N24 [Result] (cites=0)
+Figure 2 illustrates the trend of NLL loss against the number of training tokens for the 370M model.</title>
+</g>
+<g>
+<rect x="595" y="1404" width="420" height="60" rx="6" fill="#fff2cc" stroke="#b38a2c" stroke-width="1.2"/>
+<text x="805" y="1418" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">P24 [Proof]</text>
+<text x="805" y="1433" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fig. 2: NLL trend</text>
+<text x="805" y="1449" text-anchor="middle" font-size="9.5" fill="#555">Figure 2</text>
+<title>P24 [Proof] (cites=0)
+Figure 2</title>
+</g>
+<g>
+<rect x="595" y="2676" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2690" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N25 [Result]</text>
+<text x="805" y="2705" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Rapid loss drop after patch init</text>
+<text x="805" y="2721" text-anchor="middle" font-size="9.5" fill="#555">After initialization with patch-level training, the model experiences a</text>
+<text x="805" y="2733" text-anchor="middle" font-size="9.5" fill="#555">rapid decrease in loss as it continues token-level training on the remaining</text>
+<text x="805" y="2745" text-anchor="middle" font-size="9.5" fill="#555">data.</text>
+<title>N25 [Result] (cites=0)
+After initialization with patch-level training, the model experiences a rapid decrease in loss as it continues token-level training on the remaining data.</title>
+</g>
+<g>
+<rect x="595" y="2788" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2802" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N26 [Result]</text>
+<text x="805" y="2817" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Lower loss at half the cost</text>
+<text x="805" y="2833" text-anchor="middle" font-size="9.5" fill="#555">Remarkably, it achieves an even lower loss in comparison with training from</text>
+<text x="805" y="2845" text-anchor="middle" font-size="9.5" fill="#555">scratch, while reducing training costs by half.</text>
+<title>N26 [Result] (cites=0)
+Remarkably, it achieves an even lower loss in comparison with training from scratch, while reducing training costs by half.</title>
+</g>
+<g>
+<rect x="595" y="2888" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2902" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N27 [Result]</text>
+<text x="805" y="2917" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Higher acceleration with small quality cost</text>
+<text x="805" y="2933" text-anchor="middle" font-size="9.5" fill="#555">By further adjusting the hyperparameter settings, even higher acceleration</text>
+<text x="805" y="2945" text-anchor="middle" font-size="9.5" fill="#555">rates can be achieved, with only a slight sacrifice in model performance.</text>
+<title>N27 [Result] (cites=0)
+By further adjusting the hyperparameter settings, even higher acceleration rates can be achieved, with only a slight sacrifice in model performance.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

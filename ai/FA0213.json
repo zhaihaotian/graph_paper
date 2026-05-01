@@ -1,0 +1,135 @@
+{
+  "paper_id": "FA0213",
+  "paper_topic": "Overlap-Refresh: decoupling window shifts from full KV refresh in diffusion language models",
+  "anchor_paper": "Window-Diffusion (Zuo et al., 2026)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Diffusion language models (dLLMs) have emerged as a compelling alternative to autoregressive models, offering advantages such as parallel generation, bidirectional context, and natural controllability (Ye et al., 2025; Nie et al., 2025; Sahoo et al., 2024).",
+      "display_label": "dLLMs: parallel, bidirectional context",
+      "citations": 3
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "However, their iterative denoising process creates significant inference overhead: each of the hundreds of diffusion steps requires a forward pass over the full sequence, making deployment computationally expensive.",
+      "display_label": "Iterative denoising is expensive",
+      "citations": 0
+    },
+    {
+      "id": "N3",
+      "type": "Prior_Work",
+      "text": "Window-Diffusion (Zuo et al., 2026) addresses this by restricting attention to a sliding window around the decoding frontier, achieving substantial speedups while largely preserving generation quality.",
+      "display_label": "Window-Diffusion: sliding window attn",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N4",
+      "type": "Limitation",
+      "text": "However, Window-Diffusion couples two distinct operations at each phase boundary: (1) shifting the window to align with the current decoding frontier, and (2) performing a full KV cache refresh.",
+      "display_label": "Couples shift + full refresh",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Limitation",
+      "text": "A single refresh cycle parameter controls both frequencies, creating an efficiency trade-off: shifting windows more often improves quality but forces more expensive full refreshes.",
+      "display_label": "Single param forces tradeoff",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Method",
+      "text": "We observe that these two operations serve fundamentally different purposes and can be decoupled.",
+      "display_label": "Insight: ops can be decoupled",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Method",
+      "text": "Critically, consecutive external windows overlap substantially—most tokens remain unchanged between shifts.",
+      "display_label": "Consecutive windows overlap heavily",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Limitation",
+      "text": "Window-Diffusion recomputes KV for the entire window at every phase boundary, even though only a small fraction of tokens are new.",
+      "display_label": "Window-Diff recomputes all KV",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Method",
+      "text": "We propose Overlap-Refresh, which introduces two independent scheduling parameters: shift interval controls how often the window moves, while refresh interval controls how often full KV recomputation occurs.",
+      "display_label": "Propose Overlap-Refresh: 2 params",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Method",
+      "text": "At shift-only boundaries, we use delta-prefill—computing KV only for newly entered tokens while reusing cached KV for overlap tokens.",
+      "display_label": "Delta-prefill at shift-only boundaries",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method",
+      "text": "This achieves O(|N | × C) cost versus O(C 2 ) for full refresh, where |N | is the number of new tokens and C is the context size.",
+      "display_label": "O(|N|·C) vs O(C²) cost",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We identify the coupling inefficiency in Window-Diffusion's phase boundary operations and show that naive refresh reduction degrades both quality and speed.",
+      "display_label": "C1: identify coupling inefficiency",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We propose Overlap-Refresh, which decouples window shift frequency from KV refresh frequency via two independent scheduling parameters.",
+      "display_label": "C2: Overlap-Refresh decoupling",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We introduce delta-prefill, an efficient operation that computes KV only for newly entered tokens, achieving 3.3× cost reduction compared to full refresh.",
+      "display_label": "C3: delta-prefill, 3.3x cheaper",
+      "citations": 0
+    },
+    {
+      "id": "C4",
+      "type": "Contribution",
+      "text": "We demonstrate 6.0% throughput improvement on MBPP while preserving generation quality within 0.6 percentage points of the Window-Diffusion baseline.",
+      "display_label": "C4: +6.0% throughput, quality held",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "contrast", "connective": "However"},
+    {"from": "N2", "to": "N3", "kind": "consequence", "connective": "addresses this"},
+    {"from": "N3", "to": "N4", "kind": "contrast", "connective": "However"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N6", "to": "N7", "kind": "elaboration"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N3", "to": "N8", "kind": "contrast"},
+    {"from": "N8", "to": "N9", "kind": "consequence", "connective": "We propose"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "C1", "kind": "elaboration"},
+    {"from": "N11", "to": "C2", "kind": "elaboration"},
+    {"from": "N11", "to": "C3", "kind": "elaboration"},
+    {"from": "N11", "to": "C4", "kind": "elaboration"},
+    {"from": "C1", "to": "N4", "kind": "addresses"},
+    {"from": "C2", "to": "N5", "kind": "addresses"},
+    {"from": "C3", "to": "N8", "kind": "addresses"},
+    {"from": "C4", "to": "N5", "kind": "addresses"}
+  ],
+  "observations": "FA0213 follows a clean PW-Limitation-Method-Contribution arc anchored on Window-Diffusion. Para 1 (N1-N2) is Context: dLLMs offer parallel generation but iterative denoising is expensive (the para-1 'However' is field-level problem framing — the topic the paper itself addresses, so it stays Context not Limitation). Para 2 introduces the anchor Prior_Work N3 (Window-Diffusion, citation Zuo 2026) and pivots on 'However' to two Limitations: N4 (couples shift + refresh) and N5 (single param forces a quality/cost tradeoff). Both Limitations trace to the anchor Prior_Work N3.\n\nPara 3 starts the methodological insight (N6, N7) and surfaces a third Limitation N8 (Window-Diffusion recomputes all KV every phase boundary). N8 has an incoming PW-source edge from N3 ('Window-Diffusion recomputes...' is a fresh critique of the same anchor PW), satisfying Pass 3 — a contrast edge from N3 to N8 captures the long-distance critique even though the local sentence flow puts N8 after the method observation N7.\n\nPara 4 (N9-N11) presents the Method: Overlap-Refresh with two independent parameters, delta-prefill at shift-only boundaries, and the asymptotic cost analysis. Four Contributions (C1-C4) close the intro, each with an addresses edge back to a specific Limitation: C1 -> N4 (coupling inefficiency), C2 -> N5 (decouples the param), C3 -> N8 (delta-prefill avoids full recompute), C4 -> N5 (throughput gain resolves the tradeoff). N11 is the dominant fork (4 outgoing); N5 and N8 are join nodes by topology."
+}

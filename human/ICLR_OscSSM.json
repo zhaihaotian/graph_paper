@@ -1,0 +1,42 @@
+{
+  "paper_id": "ICLR_OscSSM",
+  "paper_topic": "LinOSS: Linear Oscillatory State-Space models — using forced harmonic oscillators with stable parallel-scan discretizations for long-sequence learning",
+  "anchor_paper": null,
+  "nodes": [
+    {"id": "N1", "type": "Context", "text": "State-space models (Gu et al., 2021; Hasani et al., 2022; Smith et al., 2023; Orvieto et al., 2023) have recently emerged as a powerful tool for learning on long sequences.", "display_label": "SSMs powerful for long sequences", "citations": 4},
+    {"id": "N2", "type": "Context", "text": "These models posses the statefullness and fast inference capabilities of Recurrent Neural Networks (RNNs) together with many of the benefits of Transformers (Vaswani, 2017; Devlin, 2018), such as efficient training and competitive performance on large-scale language and image modeling tasks.", "display_label": "SSMs combine RNN + Transformer benefits", "citations": 2},
+    {"id": "N3", "type": "Context", "text": "For these reasons, state-space models have been successfully implemented as foundation models, surpassing Transformer-based counterparts in several key modalities, including language, audio, and genomics (Gu & Dao, 2023).", "display_label": "SSMs surpass Transformers as FMs", "citations": 1},
+    {"id": "N4", "type": "Prior_Work", "text": "Originally, state-space models have been introduced to modern sequence modelling by leveraging specific structures of the state matrix, i.e., normal plus low-rank HiPPO matrices (Gu et al., 2020; 2021), allowing to solve linear recurrences via a Fast Fourier Transform (FFT).", "display_label": "HiPPO + FFT for linear recurrences", "citations": 2},
+    {"id": "N5", "type": "Prior_Work", "text": "This has since been simplified to only requiring diagonal state matrices (Gu et al., 2022a; Smith et al., 2023; Orvieto et al., 2023) while still obtaining similar or even better performance.", "display_label": "Diagonal state matrices simplify SSMs", "citations": 3},
+    {"id": "N6", "type": "Limitation", "text": "However, due to the linear nature of state-space models, the corresponding state matrices need to fulfill specific structural properties in order to learn long-range interactions and produce stable predictions.", "display_label": "Linear SSMs need structural constraints", "citations": 0},
+    {"id": "N7", "type": "Limitation", "text": "Consequently, these structural requirements heavily constrain the underlying latent feature space, potentially impairing the model's expressive power.", "display_label": "Constraints impair expressive power", "citations": 0},
+    {"id": "N8", "type": "Method", "text": "In this article, we adopt a radically different approach by observing that forced harmonic oscillators, the basis of many systems in physics, biology, and engineering, can produce stable dynamics while at the same time seem to ensure expressive representations.", "display_label": "Use forced harmonic oscillators", "citations": 0},
+    {"id": "N9", "type": "Method", "text": "Motivated by this, we propose to construct state-space models based on stable discretizations of forced linear second-order ordinary differential equations (ODEs) modelling oscillators.", "display_label": "Propose oscillatory SSM via ODEs", "citations": 0},
+    {"id": "N10", "type": "Contribution", "text": "Our additional contributions are:", "display_label": "Additional contributions list", "citations": 0},
+    {"id": "C1", "type": "Contribution", "text": "we introduce implicit and implicit-explicit associative parallel scans ensuring fast training and inference.", "display_label": "C1: implicit/IMEX parallel scans", "citations": 0},
+    {"id": "C2", "type": "Contribution", "text": "we show that our proposed state-space model yields stable dynamics and is able to learn long-range interactions only requiring nonnegative diagonal state matrix.", "display_label": "C2: stable + long-range with nonneg diagonal", "citations": 0},
+    {"id": "C3", "type": "Contribution", "text": "we demonstrate that a symplectic discretization of our underlying oscillatory system conserves its symmetry of time reversibility.", "display_label": "C3: symplectic preserves time reversibility", "citations": 0},
+    {"id": "C4", "type": "Contribution", "text": "we rigorously prove that our proposed state-space model is a universal approximator of continuous and causal operators between time-series.", "display_label": "C4: universal approximator proof", "citations": 0},
+    {"id": "C5", "type": "Contribution", "text": "we provide an extensive empirical evaluation of our model on a wide variety of sequential data sets with sequence lengths reaching up to 50k. Our results demonstrate that our model consistently outperforms or matches the performance of state-of-the-art state-space models, including Mamba, S4, S5, and LRU.", "display_label": "C5: empirical: matches/beats Mamba/S4/S5/LRU", "citations": 0}
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "consequence", "connective": "For these reasons"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "contrast", "connective": "However"},
+    {"from": "N4", "to": "N6", "kind": "contrast", "connective": "However"},
+    {"from": "N6", "to": "N7", "kind": "consequence", "connective": "Consequently"},
+    {"from": "N7", "to": "N8", "kind": "consequence", "connective": "we adopt a radically different approach"},
+    {"from": "N8", "to": "N9", "kind": "consequence", "connective": "Motivated by this"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N10", "to": "C1", "kind": "elaboration"},
+    {"from": "N10", "to": "C2", "kind": "elaboration"},
+    {"from": "N10", "to": "C3", "kind": "elaboration"},
+    {"from": "N10", "to": "C4", "kind": "elaboration"},
+    {"from": "N10", "to": "C5", "kind": "elaboration"},
+    {"from": "C2", "to": "N7", "kind": "addresses"},
+    {"from": "C2", "to": "N6", "kind": "addresses"}
+  ],
+  "observations": "OscSSM (LinOSS) has a very compact 2-paragraph intro with explicit bullet-list contributions. The opening Context (N1-N3) frames SSMs as a powerful sequence-modeling paradigm that combines RNN and Transformer strengths and surpasses Transformers as foundation models. The Prior_Work cluster (N4-N5) traces the lineage from HiPPO+FFT to diagonal-state-matrix simplifications. The Limitation pair (N6-N7) is a tight consequence chain: linear SSMs need restrictive structural properties (N6) which in turn impair expressive power (N7). Pass 3: N6 receives contrast 'However' from N5 (PW) and additionally from N4 (PW, the named-class HiPPO/FFT lineage being critiqued).\n\nThe Method block is minimal (N8-N9): introduce forced harmonic oscillators as a 'radically different approach' (consequence-marked from the Limitation), then propose constructing SSMs via stable discretizations of second-order ODEs.\n\nThe paper has an explicit numbered contribution list (C1-C5) tied to N10 (the 'Our additional contributions are:' anchor). Two addresses edges link C2 -> N7 and C2 -> N6 because C2 is a direct rebuttal: it shows the new SSM is stable AND learns long-range interactions while requiring only a nonnegative diagonal — directly contradicting the prior need for restrictive structural properties. Lexical match: 'nonnegative diagonal state matrix' (C2) vs 'specific structural properties' (N6) and 'underlying latent feature space ... expressive power' (N7).\n\nNotable structural feature: this is a methods paper (not benchmark) but the bulleted post-abstract list is explicit 'contributions', so per skill convention the bullets are Contribution rather than Result. The Result-label is reserved here only for the in-bullet phrase 'our results demonstrate ...' which is folded into C5 as its own contribution-with-empirical-claim. Topology: N10 is a pure 5-way fork to the contribution bullets; the spine is otherwise linear with two explicit consequence pivots and one cross-paragraph 'However' contrast at N5 -> N6."
+}

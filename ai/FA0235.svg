@@ -1,0 +1,212 @@
+<svg viewBox="0 0 1480 1936" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="408" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="892" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="796" x2="1450" y2="796" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1246" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="988" x2="1450" y2="988" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1594" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1504" x2="1450" y2="1504" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1780" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1684" x2="1450" y2="1684" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1712" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1708" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N12</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="276" x2="805" y2="304" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="287" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="388" x2="805" y2="416" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="500" x2="805" y2="528" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="624" x2="805" y2="652" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="748" x2="805" y2="844" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="940" x2="805" y2="1036" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1120" x2="805" y2="1148" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1131" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">This motivates</text>
+<line x1="805" y1="1232" x2="805" y2="1260" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1243" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">We propose</text>
+<line x1="805" y1="1344" x2="805" y2="1372" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1456" x2="805" y2="1552" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1636" x2="427" y2="1732" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1636" x2="805" y2="1732" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1636" x2="1183" y2="1732" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Charts ubiquitous for quant info</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Charts are ubiquitous in scientific publications, business reports, and data</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">journalism, serving as a primary medium for communicating quantitative</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">information.</text>
+<title>N1 [Context] (cites=0)
+Charts are ubiquitous in scientific publications, business reports, and data journalism, serving as a primary medium for communicating quantitative information.</title>
+</g>
+<circle cx="1022.0" cy="188.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="196.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="180" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">VLMs progress on chart QA</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">Vision-language models (VLMs) have made substantial progress on chart</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">question answering, with recent benchmarks such as ChartQA (Masry et al.,</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">2022) and ChartQAPro (Masry et al., 2025) driving advances in visual</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">reasoning over data…</text>
+<title>N2 [Context] (cites=2)
+Vision-language models (VLMs) have made substantial progress on chart question answering, with recent benchmarks such as ChartQA (Masry et al., 2022) and ChartQAPro (Masry et al., 2025) driving advances in visual reasoning over data visualizations.</title>
+</g>
+<g>
+<rect x="595" y="304" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="318" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Benchmarks use clean images only</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">However, these benchmarks predominantly evaluate performance on clean,</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">high-quality images, leaving a critical gap in understanding how VLMs</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">perform under realistic deployment conditions.</text>
+<title>N3 [Context] (cites=0)
+However, these benchmarks predominantly evaluate performance on clean, high-quality images, leaving a critical gap in understanding how VLMs perform under realistic deployment conditions.</title>
+</g>
+<g>
+<rect x="595" y="416" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="430" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="445" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Real charts: blur, pixelation, noise</text>
+<text x="805" y="461" text-anchor="middle" font-size="9.5" fill="#555">Real-world chart images are frequently degraded by compression artifacts,</text>
+<text x="805" y="473" text-anchor="middle" font-size="9.5" fill="#555">blur from scanning or screenshots, pixelation from low-resolution sources,</text>
+<text x="805" y="485" text-anchor="middle" font-size="9.5" fill="#555">and noise from photocopying.</text>
+<title>N4 [Context] (cites=0)
+Real-world chart images are frequently degraded by compression artifacts, blur from scanning or screenshots, pixelation from low-resolution sources, and noise from photocopying.</title>
+</g>
+<circle cx="1022.0" cy="536.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="544.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="528" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="542" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="557" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">VLMs drop 25-30pp on corruptions</text>
+<text x="805" y="573" text-anchor="middle" font-size="9.5" fill="#555">Recent studies have shown that VLMs suffer dramatic performance drops under</text>
+<text x="805" y="585" text-anchor="middle" font-size="9.5" fill="#555">such corruptions (Shin et al., 2025; Mukhopadhyay et al., 2024), with</text>
+<text x="805" y="597" text-anchor="middle" font-size="9.5" fill="#555">accuracy declining by 25–30 percentage points on blurred or pixelated</text>
+<text x="805" y="609" text-anchor="middle" font-size="9.5" fill="#555">charts.</text>
+<title>N5 [Context] (cites=2)
+Recent studies have shown that VLMs suffer dramatic performance drops under such corruptions (Shin et al., 2025; Mukhopadhyay et al., 2024), with accuracy declining by 25–30 percentage points on blurred or pixelated charts.</title>
+</g>
+<g>
+<rect x="595" y="652" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="666" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Context]</text>
+<text x="805" y="681" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Failure mode: text illegibility</text>
+<text x="805" y="697" text-anchor="middle" font-size="9.5" fill="#555">The primary failure mode is text illegibility: when axis labels, tick marks,</text>
+<text x="805" y="709" text-anchor="middle" font-size="9.5" fill="#555">legend entries, and titles become unreadable, VLMs cannot extract the</text>
+<text x="805" y="721" text-anchor="middle" font-size="9.5" fill="#555">information needed to answer questions, even when their visual reasoning</text>
+<text x="805" y="733" text-anchor="middle" font-size="9.5" fill="#555">capabilities remain…</text>
+<title>N6 [Context] (cites=0)
+The primary failure mode is text illegibility: when axis labels, tick marks, legend entries, and titles become unreadable, VLMs cannot extract the information needed to answer questions, even when their visual reasoning capabilities remain intact.</title>
+</g>
+<circle cx="1022.0" cy="852.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="860.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="844" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="858" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Prior_Work]</text>
+<text x="805" y="873" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Existing: retrain or specialized arch</text>
+<text x="805" y="889" text-anchor="middle" font-size="9.5" fill="#555">Existing approaches to improving robustness typically require retraining</text>
+<text x="805" y="901" text-anchor="middle" font-size="9.5" fill="#555">models on augmented data or developing specialized architectures (Masry et</text>
+<text x="805" y="913" text-anchor="middle" font-size="9.5" fill="#555">al., 2023; Xu et al., 2024), which is expensive and may not generalize to</text>
+<text x="805" y="925" text-anchor="middle" font-size="9.5" fill="#555">new corruption…</text>
+<title>N7 [Prior_Work] (cites=2)
+Existing approaches to improving robustness typically require retraining models on augmented data or developing specialized architectures (Masry et al., 2023; Xu et al., 2024), which is expensive and may not generalize to new corruption types.</title>
+</g>
+<g>
+<rect x="595" y="1036" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1050" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="1065" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">OCR recovers text better than VLMs</text>
+<text x="805" y="1081" text-anchor="middle" font-size="9.5" fill="#555">We observe that OCR systems, which are specifically optimized for text</text>
+<text x="805" y="1093" text-anchor="middle" font-size="9.5" fill="#555">extraction, can often recover text from degraded images more reliably than</text>
+<text x="805" y="1105" text-anchor="middle" font-size="9.5" fill="#555">VLM vision encoders.</text>
+<title>N8 [Method] (cites=0)
+We observe that OCR systems, which are specifically optimized for text extraction, can often recover text from degraded images more reliably than VLM vision encoders.</title>
+</g>
+<g>
+<rect x="595" y="1148" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1162" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="1177" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Q: OCR text at inference time?</text>
+<text x="805" y="1193" text-anchor="middle" font-size="9.5" fill="#555">This motivates a simple question: can we improve chart QA robustness by</text>
+<text x="805" y="1205" text-anchor="middle" font-size="9.5" fill="#555">providing OCR-extracted text to VLMs at inference time, without any model</text>
+<text x="805" y="1217" text-anchor="middle" font-size="9.5" fill="#555">modification?</text>
+<title>N9 [Method] (cites=0)
+This motivates a simple question: can we improve chart QA robustness by providing OCR-extracted text to VLMs at inference time, without any model modification?</title>
+</g>
+<g>
+<rect x="595" y="1260" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="805" y="1289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose ReInk: OCR + canvas wrapper</text>
+<text x="805" y="1305" text-anchor="middle" font-size="9.5" fill="#555">We propose ReInk, a training-free inference wrapper that extracts text from</text>
+<text x="805" y="1317" text-anchor="middle" font-size="9.5" fill="#555">corrupted charts using OCR and renders it as a spatially-aligned auxiliary</text>
+<text x="805" y="1329" text-anchor="middle" font-size="9.5" fill="#555">image.</text>
+<title>N10 [Method] (cites=0)
+We propose ReInk, a training-free inference wrapper that extracts text from corrupted charts using OCR and renders it as a spatially-aligned auxiliary image.</title>
+</g>
+<g>
+<rect x="595" y="1372" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1386" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="805" y="1401" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Two-image: corrupted + re-inked</text>
+<text x="805" y="1417" text-anchor="middle" font-size="9.5" fill="#555">By providing both the corrupted chart and the re-inked canvas to the VLM, we</text>
+<text x="805" y="1429" text-anchor="middle" font-size="9.5" fill="#555">give the model access to legible text while preserving the original chart's</text>
+<text x="805" y="1441" text-anchor="middle" font-size="9.5" fill="#555">visual structure.</text>
+<title>N11 [Method] (cites=0)
+By providing both the corrupted chart and the re-inked canvas to the VLM, we give the model access to legible text while preserving the original chart's visual structure.</title>
+</g>
+<g>
+<rect x="595" y="1552" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1566" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Result]</text>
+<text x="805" y="1581" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">ReInk: +12.21pp on ChartQAPro-Corrupted</text>
+<text x="805" y="1597" text-anchor="middle" font-size="9.5" fill="#555">Our experiments on ChartQAPro-Corrupted demonstrate that ReInk improves</text>
+<text x="805" y="1609" text-anchor="middle" font-size="9.5" fill="#555">accuracy by +12.21 percentage points (27.95% vs 15.74% baseline), with gains</text>
+<text x="805" y="1621" text-anchor="middle" font-size="9.5" fill="#555">scaling predictably with OCR quality.</text>
+<title>N12 [Result] (cites=0)
+Our experiments on ChartQAPro-Corrupted demonstrate that ReInk improves accuracy by +12.21 percentage points (27.95% vs 15.74% baseline), with gains scaling predictably with OCR quality.</title>
+</g>
+<g>
+<rect x="247" y="1732" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1746" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="427" y="1761" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: ReInk wrapper proposal</text>
+<text x="427" y="1777" text-anchor="middle" font-size="9.5" fill="#555">We propose ReInk, a training-free inference wrapper that improves</text>
+<text x="427" y="1789" text-anchor="middle" font-size="9.5" fill="#555">VLM robustness on corrupted charts by providing OCR-extracted text</text>
+<text x="427" y="1801" text-anchor="middle" font-size="9.5" fill="#555">as a spatially-rendered auxiliary image.</text>
+<title>C1 [Contribution] (cites=0)
+We propose ReInk, a training-free inference wrapper that improves VLM robustness on corrupted charts by providing OCR-extracted text as a spatially-rendered auxiliary image.</title>
+</g>
+<g>
+<rect x="625" y="1732" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1746" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="805" y="1761" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: +12.21pp baseline, +8.50pp control</text>
+<text x="805" y="1777" text-anchor="middle" font-size="9.5" fill="#555">We conduct comprehensive experiments on ChartQAPro-Corrupted,</text>
+<text x="805" y="1789" text-anchor="middle" font-size="9.5" fill="#555">demonstrating +12.21pp improvement over baseline and +8.50pp over</text>
+<text x="805" y="1801" text-anchor="middle" font-size="9.5" fill="#555">a scrambled-text control, confirming that correct text semantics</text>
+<text x="805" y="1813" text-anchor="middle" font-size="9.5" fill="#555">drive the gains.</text>
+<title>C2 [Contribution] (cites=0)
+We conduct comprehensive experiments on ChartQAPro-Corrupted, demonstrating +12.21pp improvement over baseline and +8.50pp over a scrambled-text control, confirming that correct text semantics drive the gains.</title>
+</g>
+<g>
+<rect x="1003" y="1732" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1746" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="1183" y="1761" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: text content drives gains</text>
+<text x="1183" y="1777" text-anchor="middle" font-size="9.5" fill="#555">We analyze what components matter: text content is the primary</text>
+<text x="1183" y="1789" text-anchor="middle" font-size="9.5" fill="#555">driver (+11.57pp from OCR text alone), while spatial rendering</text>
+<text x="1183" y="1801" text-anchor="middle" font-size="9.5" fill="#555">(+0.64pp) and bounding box outlines (+0.10pp) provide marginal</text>
+<text x="1183" y="1813" text-anchor="middle" font-size="9.5" fill="#555">additional benefit.</text>
+<title>C3 [Contribution] (cites=0)
+We analyze what components matter: text content is the primary driver (+11.57pp from OCR text alone), while spatial rendering (+0.64pp) and bounding box outlines (+0.10pp) provide marginal additional benefit.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

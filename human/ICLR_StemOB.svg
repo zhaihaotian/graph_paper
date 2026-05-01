@@ -1,0 +1,319 @@
+<svg viewBox="0 0 1480 3008" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="352" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="942" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="684" x2="1450" y2="684" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1390" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="1200" x2="1450" y2="1200" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2068" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1580" x2="1450" y2="1580" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2752" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="2556" x2="1450" y2="2556" stroke="#eee" stroke-width="1"/>
+<rect x="583" y="1228" width="444" height="316" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="591" y="1224" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N16</text>
+<line x1="805" y1="164" x2="805" y2="192" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="175" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Despite</text>
+<line x1="805" y1="288" x2="805" y2="316" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="400" x2="805" y2="428" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="512" x2="805" y2="540" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="636" x2="616" y2="732" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="828" x2="805" y2="1248" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="1035" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">however</text>
+<line x1="805" y1="1320" x2="805" y2="1348" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1420" x2="805" y2="1448" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1532" x2="994" y2="732" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="828" x2="805" y2="856" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="940" x2="805" y2="968" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1040" x2="805" y2="1068" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1152" x2="805" y2="1628" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1700" x2="805" y2="1728" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1812" x2="805" y2="1840" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1823" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To distill such property</text>
+<line x1="805" y1="1924" x2="805" y2="1952" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2024" x2="805" y2="2052" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2148" x2="805" y2="2176" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2272" x2="805" y2="2300" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="2283" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Moreover</text>
+<line x1="805" y1="2396" x2="805" y2="2424" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2508" x2="805" y2="2604" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="2676" x2="805" y2="2704" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2788" x2="805" y2="2816" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1924" x2="805" y2="1248" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1924" x2="805" y2="1448" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="100.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="108.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Visual IL popular for real robot tasks</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Visual Imitation Learning (IL), where an agent learns to mimic the behavior</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">of the demonstrator by learning a direct mapping from visual observations to</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">low-level actions, has gained popularity in recent real-world robot tasks</text>
+<text x="805" y="149" text-anchor="middle" font-size="9.5" fill="#555">(Chi et al.,…</text>
+<title>N1 [Context] (cites=5)
+Visual Imitation Learning (IL), where an agent learns to mimic the behavior of the demonstrator by learning a direct mapping from visual observations to low-level actions, has gained popularity in recent real-world robot tasks (Chi et al., 2023; Zhao et al., 2023; Wang et al., 2023; Chi et al., 2024; Ze et al., 2024).</title>
+</g>
+<circle cx="1022.0" cy="200.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="208.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="192" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Visual IL brittle to visual perturbations</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">Despite the versatility demonstrated by visual IL, learned policies are</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">often brittle and fail to generalize to unseen environments, even minor</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">perturbations such as altering lighting conditions or changing the texture</text>
+<text x="805" y="273" text-anchor="middle" font-size="9.5" fill="#555">of the object may…</text>
+<title>N2 [Context] (cites=2)
+Despite the versatility demonstrated by visual IL, learned policies are often brittle and fail to generalize to unseen environments, even minor perturbations such as altering lighting conditions or changing the texture of the object may lead to failure of the learned policy (Xie et al., 2023; Yuan et al., 2024b).</title>
+</g>
+<g>
+<rect x="595" y="316" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="330" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="345" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Cause: redundant high-dim obs space</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">The underlying reason is that the high-dimensional visual observation space</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">is redundant with virtually infinite variations in appearance that are</text>
+<text x="805" y="385" text-anchor="middle" font-size="9.5" fill="#555">irrelevant to the task and hard to generalize.</text>
+<title>N3 [Context] (cites=0)
+The underlying reason is that the high-dimensional visual observation space is redundant with virtually infinite variations in appearance that are irrelevant to the task and hard to generalize.</title>
+</g>
+<g>
+<rect x="595" y="428" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="442" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="457" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Humans handle appearance variation</text>
+<text x="805" y="473" text-anchor="middle" font-size="9.5" fill="#555">As human beings, we can easily manipulate objects that have different</text>
+<text x="805" y="485" text-anchor="middle" font-size="9.5" fill="#555">appearances. For example, we can pick up a cup of coffee regardless of its</text>
+<text x="805" y="497" text-anchor="middle" font-size="9.5" fill="#555">color, texture, or the lighting condition of the room.</text>
+<title>N4 [Context] (cites=0)
+As human beings, we can easily manipulate objects that have different appearances. For example, we can pick up a cup of coffee regardless of its color, texture, or the lighting condition of the room.</title>
+</g>
+<circle cx="1022.0" cy="548.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="540" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="554" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="569" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Human vision: hierarchical semantic abstraction</text>
+<text x="805" y="585" text-anchor="middle" font-size="9.5" fill="#555">This is partially because our visual system is capable of abstracting the</text>
+<text x="805" y="597" text-anchor="middle" font-size="9.5" fill="#555">high-level semantics of the scene, such as the silhouette of the object, the</text>
+<text x="805" y="609" text-anchor="middle" font-size="9.5" fill="#555">structure and arrangement of different objects, etc in a hierarchical manner</text>
+<text x="805" y="621" text-anchor="middle" font-size="9.5" fill="#555">(Hochstein…</text>
+<title>N5 [Context] (cites=1)
+This is partially because our visual system is capable of abstracting the high-level semantics of the scene, such as the silhouette of the object, the structure and arrangement of different objects, etc in a hierarchical manner (Hochstein &amp; Ahissar, 2002), effectively merging scenes with perceptual differences to similar “meta” observations.</title>
+</g>
+<circle cx="803.0" cy="740.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="748.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="732" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="746" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work]</text>
+<text x="616" y="761" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">SRM / Mixup remove details</text>
+<text x="616" y="777" text-anchor="middle" font-size="9.5" fill="#555">Augmentation techniques such as Spectrum Random Masking (SRM)</text>
+<text x="616" y="789" text-anchor="middle" font-size="9.5" fill="#555">(Huang et al., 2022) and Mixup (Zhang et al., 2018) remove details</text>
+<text x="616" y="801" text-anchor="middle" font-size="9.5" fill="#555">from observations to encourage the model to focus on structural</text>
+<text x="616" y="813" text-anchor="middle" font-size="9.5" fill="#555">features;</text>
+<title>N6 [Prior_Work] (cites=2)
+Augmentation techniques such as Spectrum Random Masking (SRM) (Huang et al., 2022) and Mixup (Zhang et al., 2018) remove details from observations to encourage the model to focus on structural features;</title>
+</g>
+<g>
+<rect x="595" y="1248" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1262" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="1277" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Augmentation lacks hi/lo distinction</text>
+<text x="805" y="1293" text-anchor="middle" font-size="9.5" fill="#555">however, they lack the ability to distinguish between low-level and</text>
+<text x="805" y="1305" text-anchor="middle" font-size="9.5" fill="#555">high-level features.</text>
+<title>N7 [Limitation] (cites=0)
+however, they lack the ability to distinguish between low-level and high-level features.</title>
+</g>
+<g>
+<rect x="595" y="1348" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1362" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Limitation]</text>
+<text x="805" y="1377" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Want: sweep low-level, keep structure</text>
+<text x="805" y="1393" text-anchor="middle" font-size="9.5" fill="#555">It is preferable if we can sweep the photometrical differences while</text>
+<text x="805" y="1405" text-anchor="middle" font-size="9.5" fill="#555">maintaining the high-level structure for the scene.</text>
+<title>N8 [Limitation] (cites=0)
+It is preferable if we can sweep the photometrical differences while maintaining the high-level structure for the scene.</title>
+</g>
+<g>
+<rect x="595" y="1448" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1462" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Limitation]</text>
+<text x="805" y="1477" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Naive Gaussian noise loses information</text>
+<text x="805" y="1493" text-anchor="middle" font-size="9.5" fill="#555">Achieving this requires a semantic understanding of the observations, and</text>
+<text x="805" y="1505" text-anchor="middle" font-size="9.5" fill="#555">naively perturbing the data with Gaussian noise can lead to irreversible</text>
+<text x="805" y="1517" text-anchor="middle" font-size="9.5" fill="#555">information loss.</text>
+<title>N9 [Limitation] (cites=0)
+Achieving this requires a semantic understanding of the observations, and naively perturbing the data with Gaussian noise can lead to irreversible information loss.</title>
+</g>
+<circle cx="1181.0" cy="740.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="748.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="732" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="746" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Prior_Work : ANCHOR]</text>
+<text x="994" y="761" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Diffusion models embed world knowledge</text>
+<text x="994" y="777" text-anchor="middle" font-size="9.5" fill="#555">Pretrained large image diffusion models, such as Stable Diffusion</text>
+<text x="994" y="789" text-anchor="middle" font-size="9.5" fill="#555">(Rombach et al., 2022; Esser et al., 2024), embed essential world</text>
+<text x="994" y="801" text-anchor="middle" font-size="9.5" fill="#555">knowledge for visual understanding.</text>
+<title>N10 [Prior_Work] (cites=2)
+Pretrained large image diffusion models, such as Stable Diffusion (Rombach et al., 2022; Esser et al., 2024), embed essential world knowledge for visual understanding.</title>
+</g>
+<circle cx="1022.0" cy="864.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="856" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="870" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Prior_Work]</text>
+<text x="805" y="885" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Diffusion supports inversion</text>
+<text x="805" y="901" text-anchor="middle" font-size="9.5" fill="#555">Apart from synthesizing new images from random noise, these models are</text>
+<text x="805" y="913" text-anchor="middle" font-size="9.5" fill="#555">capable to perform a reverse procedure called inversion (Song et al., 2022),</text>
+<text x="805" y="925" text-anchor="middle" font-size="9.5" fill="#555">which converts an image back to the space of random noises.</text>
+<title>N11 [Prior_Work] (cites=1)
+Apart from synthesizing new images from random noise, these models are capable to perform a reverse procedure called inversion (Song et al., 2022), which converts an image back to the space of random noises.</title>
+</g>
+<circle cx="1022.0" cy="976.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="968" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="982" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Prior_Work]</text>
+<text x="805" y="997" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Inversion selectively erases info</text>
+<text x="805" y="1013" text-anchor="middle" font-size="9.5" fill="#555">A recent study (Yue et al., 2024) indicates that this inversion process</text>
+<text x="805" y="1025" text-anchor="middle" font-size="9.5" fill="#555">selectively eliminates information from the image.</text>
+<title>N12 [Prior_Work] (cites=1)
+A recent study (Yue et al., 2024) indicates that this inversion process selectively eliminates information from the image.</title>
+</g>
+<g>
+<rect x="595" y="1068" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="1082" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Prior_Work]</text>
+<text x="805" y="1097" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Early inversion: same-structure images converge</text>
+<text x="805" y="1113" text-anchor="middle" font-size="9.5" fill="#555">Rather than uniformly removing information from different semantic</text>
+<text x="805" y="1125" text-anchor="middle" font-size="9.5" fill="#555">hierarchies, it will push those images with similar structures closer in the</text>
+<text x="805" y="1137" text-anchor="middle" font-size="9.5" fill="#555">early stages of the inversion process.</text>
+<title>N13 [Prior_Work] (cites=0)
+Rather than uniformly removing information from different semantic hierarchies, it will push those images with similar structures closer in the early stages of the inversion process.</title>
+</g>
+<g>
+<rect x="595" y="1628" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1642" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Method]</text>
+<text x="805" y="1657" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Inversion ~ stem-cell reprogramming</text>
+<text x="805" y="1673" text-anchor="middle" font-size="9.5" fill="#555">Inversion is like the reprogramming of a differentiated cell back to a stem</text>
+<text x="805" y="1685" text-anchor="middle" font-size="9.5" fill="#555">cell, which bears the totipotency to differentiate into any cell type.</text>
+<title>N14 [Method] (cites=0)
+Inversion is like the reprogramming of a differentiated cell back to a stem cell, which bears the totipotency to differentiate into any cell type.</title>
+</g>
+<g>
+<rect x="595" y="1728" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1742" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Method]</text>
+<text x="805" y="1757" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Aligns with IL robustness goal</text>
+<text x="805" y="1773" text-anchor="middle" font-size="9.5" fill="#555">This characteristic aligns perfectly with our will of enhancing the</text>
+<text x="805" y="1785" text-anchor="middle" font-size="9.5" fill="#555">robustness and generalizability of visual IL algorithms to visual</text>
+<text x="805" y="1797" text-anchor="middle" font-size="9.5" fill="#555">variations.</text>
+<title>N15 [Method] (cites=0)
+This characteristic aligns perfectly with our will of enhancing the robustness and generalizability of visual IL algorithms to visual variations.</title>
+</g>
+<g>
+<rect x="595" y="1840" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1854" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Method]</text>
+<text x="805" y="1869" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose IL pipeline using diffusion inversion</text>
+<text x="805" y="1885" text-anchor="middle" font-size="9.5" fill="#555">To distill such property into a visual IL policy, we propose an imitation</text>
+<text x="805" y="1897" text-anchor="middle" font-size="9.5" fill="#555">learning pipeline which applies diffusion inversion to the visual</text>
+<text x="805" y="1909" text-anchor="middle" font-size="9.5" fill="#555">observations.</text>
+<title>N16 [Method] (cites=0)
+To distill such property into a visual IL policy, we propose an imitation learning pipeline which applies diffusion inversion to the visual observations.</title>
+</g>
+<g>
+<rect x="595" y="1952" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1966" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Method]</text>
+<text x="805" y="1981" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Name: Stem-OB</text>
+<text x="805" y="1997" text-anchor="middle" font-size="9.5" fill="#555">We name our method Stem-OB to highlight the similarity between the inversed</text>
+<text x="805" y="2009" text-anchor="middle" font-size="9.5" fill="#555">observation and the stem cell in biology, as illustrated in Figure 1.</text>
+<title>N17 [Method] (cites=0)
+We name our method Stem-OB to highlight the similarity between the inversed observation and the stem cell in biology, as illustrated in Figure 1.</title>
+</g>
+<g>
+<rect x="595" y="2052" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2066" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Method]</text>
+<text x="805" y="2081" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Invert N steps as preprocessing</text>
+<text x="805" y="2097" text-anchor="middle" font-size="9.5" fill="#555">To be specific, our method is as simple as inverting the image for</text>
+<text x="805" y="2109" text-anchor="middle" font-size="9.5" fill="#555">reasonable steps before sending them to the downstream visual IL algorithms,</text>
+<text x="805" y="2121" text-anchor="middle" font-size="9.5" fill="#555">effectively serving as a preprocessing step that converges low-level</text>
+<text x="805" y="2133" text-anchor="middle" font-size="9.5" fill="#555">appearance differences…</text>
+<title>N18 [Method] (cites=0)
+To be specific, our method is as simple as inverting the image for reasonable steps before sending them to the downstream visual IL algorithms, effectively serving as a preprocessing step that converges low-level appearance differences into similar high-level structures.</title>
+</g>
+<circle cx="1022.0" cy="2184.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="2192.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="2176" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2190" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Method]</text>
+<text x="805" y="2205" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Differs from generative augmentation</text>
+<text x="805" y="2221" text-anchor="middle" font-size="9.5" fill="#555">From this perspective, our approach fundamentally distinguishes from</text>
+<text x="805" y="2233" text-anchor="middle" font-size="9.5" fill="#555">generative augmentation methods, which aim to enrich the training dataset</text>
+<text x="805" y="2245" text-anchor="middle" font-size="9.5" fill="#555">with more unseen objects and appearances (Yu et al., 2023; Mandlekar et al.,</text>
+<text x="805" y="2257" text-anchor="middle" font-size="9.5" fill="#555">2023).</text>
+<title>N19 [Method] (cites=2)
+From this perspective, our approach fundamentally distinguishes from generative augmentation methods, which aim to enrich the training dataset with more unseen objects and appearances (Yu et al., 2023; Mandlekar et al., 2023).</title>
+</g>
+<g>
+<rect x="595" y="2300" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2314" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Method]</text>
+<text x="805" y="2329" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Indifferent to unspecified changes</text>
+<text x="805" y="2345" text-anchor="middle" font-size="9.5" fill="#555">Moreover, Stem-OB is indifferent to many unspecified appearance changes, in</text>
+<text x="805" y="2357" text-anchor="middle" font-size="9.5" fill="#555">contrast to augmentation-based methods that must concentrate on a few</text>
+<text x="805" y="2369" text-anchor="middle" font-size="9.5" fill="#555">selected types of generalization, thereby introducing inevitable inductive</text>
+<text x="805" y="2381" text-anchor="middle" font-size="9.5" fill="#555">biases.</text>
+<title>N20 [Method] (cites=0)
+Moreover, Stem-OB is indifferent to many unspecified appearance changes, in contrast to augmentation-based methods that must concentrate on a few selected types of generalization, thereby introducing inevitable inductive biases.</title>
+</g>
+<g>
+<rect x="595" y="2424" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2438" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Method]</text>
+<text x="805" y="2453" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Theory + user study support</text>
+<text x="805" y="2469" text-anchor="middle" font-size="9.5" fill="#555">We provide theoretical analysis and a user study to support our claim that</text>
+<text x="805" y="2481" text-anchor="middle" font-size="9.5" fill="#555">Stem-OB can effectively merge scenes with perceptual differences to similar</text>
+<text x="805" y="2493" text-anchor="middle" font-size="9.5" fill="#555">“stem observations”.</text>
+<title>N21 [Method] (cites=0)
+We provide theoretical analysis and a user study to support our claim that Stem-OB can effectively merge scenes with perceptual differences to similar “stem observations”.</title>
+</g>
+<g>
+<rect x="595" y="2604" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2618" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Result]</text>
+<text x="805" y="2633" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Effective across sim + real perturbations</text>
+<text x="805" y="2649" text-anchor="middle" font-size="9.5" fill="#555">Empirical study demonstrates the effectiveness of our approach in a variety</text>
+<text x="805" y="2661" text-anchor="middle" font-size="9.5" fill="#555">of simulated and real-world tasks and a range of different perturbations.</text>
+<title>N22 [Result] (cites=0)
+Empirical study demonstrates the effectiveness of our approach in a variety of simulated and real-world tasks and a range of different perturbations.</title>
+</g>
+<g>
+<rect x="595" y="2704" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2718" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23 [Result]</text>
+<text x="805" y="2733" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">+22.2% real-world success rate</text>
+<text x="805" y="2749" text-anchor="middle" font-size="9.5" fill="#555">Stem-OB proves to be particularly effective in real-world tasks where</text>
+<text x="805" y="2761" text-anchor="middle" font-size="9.5" fill="#555">appearance and lighting changes hamper the other baselines, establishing an</text>
+<text x="805" y="2773" text-anchor="middle" font-size="9.5" fill="#555">overall improvement in the success rate of 22.2%.</text>
+<title>N23 [Result] (cites=0)
+Stem-OB proves to be particularly effective in real-world tasks where appearance and lighting changes hamper the other baselines, establishing an overall improvement in the success rate of 22.2%.</title>
+</g>
+<g>
+<rect x="595" y="2816" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2830" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N24 [Result]</text>
+<text x="805" y="2845" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">No inference-time inversion needed</text>
+<text x="805" y="2861" text-anchor="middle" font-size="9.5" fill="#555">What's better, no inference time inversion is required for Stem-OB to take</text>
+<text x="805" y="2873" text-anchor="middle" font-size="9.5" fill="#555">effect, making the deployment of our method virtually free of computational</text>
+<text x="805" y="2885" text-anchor="middle" font-size="9.5" fill="#555">cost.</text>
+<title>N24 [Result] (cites=0)
+What's better, no inference time inversion is required for Stem-OB to take effect, making the deployment of our method virtually free of computational cost.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

@@ -1,0 +1,149 @@
+{
+  "paper_id": "FA0058",
+  "paper_topic": "Chunked budget allocation for world-model verification of irreversible web-agent actions",
+  "anchor_paper": "Li et al., 2025 (Word2World / WebShop verifier)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "World models that predict environment dynamics have emerged as a powerful tool for agent decision-making (Ha & Schmidhuber, 2018; Schrittwieser et al., 2019).",
+      "display_label": "World models for agent decisions",
+      "citations": 2
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "For agents operating in environments with irreversible actions—such as submitting purchases, sending emails, or deleting files—world models can serve as pre-execution verifiers: before committing to a high-stakes action, the agent queries the world model to predict whether the action will succeed.",
+      "display_label": "World models as pre-execution verifiers",
+      "citations": 0
+    },
+    {
+      "id": "N3",
+      "type": "Prior_Work",
+      "text": "Recent work has demonstrated this approach for web agents, using LLM-based world models to verify checkout actions before execution (Li et al., 2025; Gu et al., 2025).",
+      "display_label": "LLM world models verify web checkout",
+      "citations": 2,
+      "anchor": true
+    },
+    {
+      "id": "N4",
+      "type": "Limitation",
+      "text": "However, a counterintuitive failure mode has been observed: increasing the verification budget (the number of world-model queries allowed) can reduce task success rates (Li et al., 2025).",
+      "display_label": "More budget reduces success",
+      "citations": 1
+    },
+    {
+      "id": "N5",
+      "type": "Limitation",
+      "text": "This nonmonotonic behavior occurs because sequential verify-and-retry creates a problematic feedback loop.",
+      "display_label": "Sequential verify-and-retry feedback loop",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "When verification rejects a checkout (potentially a false negative), the agent re-browses to find another product.",
+      "display_label": "Rejection triggers re-browsing",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Limitation",
+      "text": "During re-browsing, the agent often selects a worse product than the one originally found—a phenomenon we call trajectory drift.",
+      "display_label": "Trajectory drift: worse product selected",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Limitation",
+      "text": "More verification cycles mean more opportunities for trajectory drift.",
+      "display_label": "More cycles = more drift",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Context",
+      "text": "The key insight is that the problem lies not in verification accuracy, but in the sequential structure of verify-and-retry.",
+      "display_label": "Problem: sequential structure, not accuracy",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Context",
+      "text": "Each rejection triggers re-browsing, compounding errors across cycles.",
+      "display_label": "Rejections compound errors across cycles",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Context",
+      "text": "This suggests a simple solution: instead of spreading the verification budget across many sequential cycles, spend it in fewer cycles with more parallel rollouts per cycle.",
+      "display_label": "Solution: fewer cycles, more parallel rollouts",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Method",
+      "text": "We propose chunked budget allocation: given a fixed verification budget B, allocate it across M cycles with K = B/M parallel world-model rollouts per cycle.",
+      "display_label": "Propose chunked budget allocation",
+      "citations": 0
+    },
+    {
+      "id": "N13",
+      "type": "Method",
+      "text": "By setting M = 1, we spend the entire budget in one parallel chunk, eliminating the sequential cycles that trigger trajectory drift.",
+      "display_label": "M=1: one parallel chunk eliminates drift",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We identify trajectory drift as the dominant failure mode in sequential verify-and-retry, accounting for 60.5% of failures when agents re-browse after verification rejection.",
+      "display_label": "C1: trajectory drift = 60.5% of failures",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We demonstrate that chunked budget allocation achieves a 25× improvement in task success rate (21.50% vs. 0.86%) by eliminating sequential verification cycles.",
+      "display_label": "C2: chunked = 25x success (21.50% vs 0.86%)",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We show that consensus aggregation across parallel rollouts provides no benefit over single-rollout acceptance, as the world model's poor calibration (predicting p̂ = 0 for 98.4% of cycles) causes consensus to degenerate.",
+      "display_label": "C3: consensus has no benefit (98.4% miscalib)",
+      "citations": 0
+    },
+    {
+      "id": "C4",
+      "type": "Contribution",
+      "text": "We provide practical guidance: setting M = 1 (spending all budget in one parallel chunk) consistently outperforms finer-grained allocations, with performance degrading monotonically as M increases.",
+      "display_label": "C4: M=1 consistently best",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "elaboration"},
+    {"from": "N3", "to": "N4", "kind": "contrast", "connective": "However"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N6", "to": "N7", "kind": "elaboration"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "elaboration"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "N12", "kind": "consequence", "connective": "We propose"},
+    {"from": "N12", "to": "N13", "kind": "elaboration"},
+    {"from": "N13", "to": "C1", "kind": "elaboration"},
+    {"from": "N13", "to": "C2", "kind": "elaboration"},
+    {"from": "N13", "to": "C3", "kind": "elaboration"},
+    {"from": "N13", "to": "C4", "kind": "elaboration"},
+    {"from": "C2", "to": "N4", "kind": "addresses"},
+    {"from": "C4", "to": "N8", "kind": "addresses"},
+    {"from": "C1", "to": "N7", "kind": "addresses"}
+  ],
+  "observations": "FA0058 follows a clean problem-solution arc anchored on the LLM-based world-model verifier of Li et al. (2025). Para 1 is pure Context (N1-N2) introducing world models as pre-execution verifiers, with N3 as the anchoring Prior_Work that establishes the LLM-verifier-for-checkout setup. Para 2 pivots into a sustained Limitation chain (N4-N8): the 'However' marker introduces the nonmonotonic budget paradox (N4), then N5-N8 unpack the underlying mechanism (sequential verify-and-retry → re-browsing → trajectory drift → more cycles = more drift). Because N4 is grounded in a specific Prior_Work (Li et al., 2025) and inherits the contrast edge from N3, the entire Limitation chain has a Prior_Work source via N3.\n\nPara 3 is interpretive Context (N9-N11) — it reframes the problem (it's the structure, not accuracy) and motivates the solution direction. The Method block (N12-N13) introduces chunked budget allocation and the M=1 special case. Four Contribution bullets close the intro (C1-C4).\n\nTopologically, N13 is the dominant fork (out_degree=4 to all four contributions). The four contributions form a parallel side-enum group. Three addresses edges link contributions back to specific named limitations: C2 (25x improvement) → N4 (the nonmonotonic budget paradox), C4 (M=1 best) → N8 (more cycles = more drift), and C1 (trajectory drift identified) → N7 (the trajectory drift definition). Narrative arc: world-model verifiers are useful → but more budget paradoxically hurts because of trajectory drift in sequential retry → solution is structural (chunk the budget) → empirically validated with 25x gain and surprising consensus null result."
+}

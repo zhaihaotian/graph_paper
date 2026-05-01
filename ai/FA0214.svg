@@ -1,0 +1,264 @@
+<svg viewBox="0 0 1480 1996" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="384" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="832" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="748" x2="1450" y2="748" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1044" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="916" x2="1450" y2="916" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1362" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1172" x2="1450" y2="1172" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1648" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1552" x2="1450" y2="1552" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1840" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1744" x2="1450" y2="1744" stroke="#eee" stroke-width="1"/>
+<rect x="480" y="1580" width="650" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="488" y="1576" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N9</text>
+<rect x="158" y="1772" width="1294" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="1768" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N16</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="252" x2="805" y2="280" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="364" x2="805" y2="392" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="464" x2="805" y2="492" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="576" x2="805" y2="604" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="700" x2="322" y2="1600" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="322" y1="1696" x2="805" y2="796" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="868" x2="805" y2="964" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1024" x2="644" y2="1600" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1024" x2="966" y2="1600" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="966" y1="1696" x2="805" y2="1052" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1024" x2="805" y2="1052" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1124" x2="805" y2="1220" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1169" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">We propose</text>
+<line x1="805" y1="1292" x2="805" y2="1320" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1404" x2="805" y2="1432" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1504" x2="1288" y2="1600" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="1288" y1="1696" x2="322" y2="1792" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1288" y1="1696" x2="644" y2="1792" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1288" y1="1696" x2="966" y2="1792" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1288" y1="1696" x2="1288" y2="1792" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="322" y1="1888" x2="805" y2="1052" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="644" y1="1888" x2="805" y2="1052" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="966" y1="1888" x2="805" y2="964" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1288" y1="1888" x2="805" y2="964" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Agentic commerce paradigm</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">As large language models become capable of autonomous economic action, a new</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">paradigm of agentic commerce is emerging where AI agents search, negotiate,</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">and transact on behalf of human principals (Rothschild et al., 2025).</text>
+<title>N1 [Context] (cites=1)
+As large language models become capable of autonomous economic action, a new paradigm of agentic commerce is emerging where AI agents search, negotiate, and transact on behalf of human principals (Rothschild et al., 2025).</title>
+</g>
+<g>
+<rect x="595" y="180" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Promises efficiency, raises design challenges</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">This shift promises efficiency gains through automated discovery and</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">negotiation, but introduces fundamental challenges in marketplace design.</text>
+<title>N2 [Context] (cites=0)
+This shift promises efficiency gains through automated discovery and negotiation, but introduces fundamental challenges in marketplace design.</title>
+</g>
+<g>
+<rect x="595" y="280" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="294" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="309" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Info bottleneck at large consideration sets</text>
+<text x="805" y="325" text-anchor="middle" font-size="9.5" fill="#555">When agents must evaluate large consideration sets—hundreds of potential</text>
+<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">sellers matching a customer's query—they face an information bottleneck that</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">human-designed interfaces were never built to address.</text>
+<title>N3 [Context] (cites=0)
+When agents must evaluate large consideration sets—hundreds of potential sellers matching a customer's query—they face an information bottleneck that human-designed interfaces were never built to address.</title>
+</g>
+<g>
+<rect x="595" y="392" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="406" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="421" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Truncated descriptions lose fit signals</text>
+<text x="805" y="437" text-anchor="middle" font-size="9.5" fill="#555">The core problem is that marketplace search results typically present</text>
+<text x="805" y="449" text-anchor="middle" font-size="9.5" fill="#555">truncated natural language descriptions that lose critical fit signals.</text>
+<title>N4 [Context] (cites=0)
+The core problem is that marketplace search results typically present truncated natural language descriptions that lose critical fit signals.</title>
+</g>
+<g>
+<rect x="595" y="492" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="506" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="521" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">40-token snippet hides key info</text>
+<text x="805" y="537" text-anchor="middle" font-size="9.5" fill="#555">A customer seeking specific menu items, amenities, and budget constraints</text>
+<text x="805" y="549" text-anchor="middle" font-size="9.5" fill="#555">cannot reliably determine from a 40-token description snippet whether a</text>
+<text x="805" y="561" text-anchor="middle" font-size="9.5" fill="#555">restaurant carries the requested dishes or falls within budget.</text>
+<title>N5 [Context] (cites=0)
+A customer seeking specific menu items, amenities, and budget constraints cannot reliably determine from a 40-token description snippet whether a restaurant carries the requested dishes or falls within budget.</title>
+</g>
+<circle cx="1022.0" cy="612.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="604" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="618" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Context]</text>
+<text x="805" y="633" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">First-proposal bias compounds loss</text>
+<text x="805" y="649" text-anchor="middle" font-size="9.5" fill="#555">At scale, this information loss compounds: agents contact businesses based</text>
+<text x="805" y="661" text-anchor="middle" font-size="9.5" fill="#555">on incomplete signals, accumulate irrelevant context from poor-fit</text>
+<text x="805" y="673" text-anchor="middle" font-size="9.5" fill="#555">interactions, and exhibit first-proposal bias that locks in suboptimal early</text>
+<text x="805" y="685" text-anchor="middle" font-size="9.5" fill="#555">matches (Bansal et…</text>
+<title>N6 [Context] (cites=1)
+At scale, this information loss compounds: agents contact businesses based on incomplete signals, accumulate irrelevant context from poor-fit interactions, and exhibit first-proposal bias that locks in suboptimal early matches (Bansal et al., 2025).</title>
+</g>
+<g>
+<rect x="170" y="1600" width="304" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="322" y="1614" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Result]</text>
+<text x="322" y="1629" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Baseline: 7.8% contacted-fit rate</text>
+<text x="322" y="1645" text-anchor="middle" font-size="9.5" fill="#555">In our experiments with 100 businesses, the baseline</text>
+<text x="322" y="1657" text-anchor="middle" font-size="9.5" fill="#555">system achieves only 7.8% contacted-fit rate—agents</text>
+<text x="322" y="1669" text-anchor="middle" font-size="9.5" fill="#555">waste over 90% of their interactions on businesses that</text>
+<text x="322" y="1681" text-anchor="middle" font-size="9.5" fill="#555">cannot satisfy customer requirements.</text>
+<title>N7 [Result] (cites=0)
+In our experiments with 100 businesses, the baseline system achieves only 7.8% contacted-fit rate—agents waste over 90% of their interactions on businesses that cannot satisfy customer requirements.</title>
+</g>
+<g>
+<rect x="595" y="796" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="810" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Prior_Work]</text>
+<text x="805" y="825" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Hypothesis: agent-side fixes</text>
+<text x="805" y="841" text-anchor="middle" font-size="9.5" fill="#555">A natural hypothesis is that agent-side interventions—better prompting or</text>
+<text x="805" y="853" text-anchor="middle" font-size="9.5" fill="#555">more inference compute—can overcome this information bottleneck.</text>
+<title>N8 [Prior_Work] (cites=0)
+A natural hypothesis is that agent-side interventions—better prompting or more inference compute—can overcome this information bottleneck.</title>
+</g>
+<g>
+<rect x="595" y="964" width="420" height="60" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="978" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Limitation]</text>
+<text x="805" y="993" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Hypothesis rejected by experiments</text>
+<text x="805" y="1009" text-anchor="middle" font-size="9.5" fill="#555">Our experiments reject this hypothesis.</text>
+<title>N9 [Limitation] (cites=0)
+Our experiments reject this hypothesis.</title>
+</g>
+<g>
+<rect x="492" y="1600" width="304" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="644" y="1614" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Result]</text>
+<text x="644" y="1629" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Prompting drops welfare 68.51 to -35.85</text>
+<text x="644" y="1645" text-anchor="middle" font-size="9.5" fill="#555">Prompting agents to explicitly extract fit signals from</text>
+<text x="644" y="1657" text-anchor="middle" font-size="9.5" fill="#555">truncated descriptions actually hurts welfare, dropping</text>
+<text x="644" y="1669" text-anchor="middle" font-size="9.5" fill="#555">it from 68.51 to −35.85: agents become more selective</text>
+<text x="644" y="1681" text-anchor="middle" font-size="9.5" fill="#555">but without sufficient information to act on, leading…</text>
+<title>N10 [Result] (cites=0)
+Prompting agents to explicitly extract fit signals from truncated descriptions actually hurts welfare, dropping it from 68.51 to −35.85: agents become more selective but without sufficient information to act on, leading to misdirected selectivity.</title>
+</g>
+<g>
+<rect x="814" y="1600" width="304" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="966" y="1614" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Result]</text>
+<text x="966" y="1629" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Inference scaling: -29.71 welfare</text>
+<text x="966" y="1645" text-anchor="middle" font-size="9.5" fill="#555">Inference scaling fares no better: providing 4.7× more</text>
+<text x="966" y="1657" text-anchor="middle" font-size="9.5" fill="#555">LLM calls and forcing agents to explore multiple</text>
+<text x="966" y="1669" text-anchor="middle" font-size="9.5" fill="#555">options yields negative welfare (−29.71) because</text>
+<text x="966" y="1681" text-anchor="middle" font-size="9.5" fill="#555">additional computation cannot recover information lost…</text>
+<title>N11 [Result] (cites=0)
+Inference scaling fares no better: providing 4.7× more LLM calls and forcing agents to explore multiple options yields negative welfare (−29.71) because additional computation cannot recover information lost during description truncation.</title>
+</g>
+<g>
+<rect x="595" y="1052" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1066" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Limitation]</text>
+<text x="805" y="1081" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Bottleneck is information, not reasoning</text>
+<text x="805" y="1097" text-anchor="middle" font-size="9.5" fill="#555">These failures reveal that the bottleneck is information, not reasoning</text>
+<text x="805" y="1109" text-anchor="middle" font-size="9.5" fill="#555">capacity.</text>
+<title>N12 [Limitation] (cites=0)
+These failures reveal that the bottleneck is information, not reasoning capacity.</title>
+</g>
+<g>
+<rect x="595" y="1220" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1234" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Method]</text>
+<text x="805" y="1249" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose Fit Cards: platform-side metadata</text>
+<text x="805" y="1265" text-anchor="middle" font-size="9.5" fill="#555">We propose Fit Cards, a platform-side intervention that replaces truncated</text>
+<text x="805" y="1277" text-anchor="middle" font-size="9.5" fill="#555">descriptions with query-conditioned structured metadata.</text>
+<title>N13 [Method] (cites=0)
+We propose Fit Cards, a platform-side intervention that replaces truncated descriptions with query-conditioned structured metadata.</title>
+</g>
+<g>
+<rect x="595" y="1320" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1334" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Method]</text>
+<text x="805" y="1349" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Compute fit signals from catalog</text>
+<text x="805" y="1365" text-anchor="middle" font-size="9.5" fill="#555">Rather than presenting generic text snippets, the platform computes fit</text>
+<text x="805" y="1377" text-anchor="middle" font-size="9.5" fill="#555">signals—how many requested items are available, which amenities match, and</text>
+<text x="805" y="1389" text-anchor="middle" font-size="9.5" fill="#555">the estimated price—directly from its structured catalog.</text>
+<title>N14 [Method] (cites=0)
+Rather than presenting generic text snippets, the platform computes fit signals—how many requested items are available, which amenities match, and the estimated price—directly from its structured catalog.</title>
+</g>
+<g>
+<rect x="595" y="1432" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1446" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Method]</text>
+<text x="805" y="1461" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Rank-labeled, sorted results</text>
+<text x="805" y="1477" text-anchor="middle" font-size="9.5" fill="#555">Results are sorted by relevance with explicit rank labels, enabling agents</text>
+<text x="805" y="1489" text-anchor="middle" font-size="9.5" fill="#555">to identify high-fit businesses at a glance.</text>
+<title>N15 [Method] (cites=0)
+Results are sorted by relevance with explicit rank labels, enabling agents to identify high-fit businesses at a glance.</title>
+</g>
+<g>
+<rect x="1136" y="1600" width="304" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="1288" y="1614" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Result]</text>
+<text x="1288" y="1629" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fit Cards: 11.4x welfare, 28% fewer calls</text>
+<text x="1288" y="1645" text-anchor="middle" font-size="9.5" fill="#555">In experiments on a restaurant marketplace with 100</text>
+<text x="1288" y="1657" text-anchor="middle" font-size="9.5" fill="#555">businesses, Fit Cards achieve 11.4× higher welfare than</text>
+<text x="1288" y="1669" text-anchor="middle" font-size="9.5" fill="#555">the status quo baseline while using 28% fewer LLM</text>
+<text x="1288" y="1681" text-anchor="middle" font-size="9.5" fill="#555">calls.</text>
+<title>N16 [Result] (cites=0)
+In experiments on a restaurant marketplace with 100 businesses, Fit Cards achieve 11.4× higher welfare than the status quo baseline while using 28% fewer LLM calls.</title>
+</g>
+<g>
+<rect x="170" y="1792" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="322" y="1806" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="322" y="1821" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: identify info bottleneck</text>
+<text x="322" y="1837" text-anchor="middle" font-size="9.5" fill="#555">We identify the information bottleneck in agentic</text>
+<text x="322" y="1849" text-anchor="middle" font-size="9.5" fill="#555">marketplace search, showing that agent-side</text>
+<text x="322" y="1861" text-anchor="middle" font-size="9.5" fill="#555">interventions fail because truncated descriptions lose</text>
+<text x="322" y="1873" text-anchor="middle" font-size="9.5" fill="#555">fit signals that agents cannot recover through…</text>
+<title>C1 [Contribution] (cites=0)
+We identify the information bottleneck in agentic marketplace search, showing that agent-side interventions fail because truncated descriptions lose fit signals that agents cannot recover through reasoning.</title>
+</g>
+<g>
+<rect x="492" y="1792" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="644" y="1806" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="644" y="1821" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: Fit Cards platform-side</text>
+<text x="644" y="1837" text-anchor="middle" font-size="9.5" fill="#555">We propose Fit Cards, a platform-side intervention that</text>
+<text x="644" y="1849" text-anchor="middle" font-size="9.5" fill="#555">surfaces query-conditioned structured metadata computed</text>
+<text x="644" y="1861" text-anchor="middle" font-size="9.5" fill="#555">from the platform's catalog.</text>
+<title>C2 [Contribution] (cites=0)
+We propose Fit Cards, a platform-side intervention that surfaces query-conditioned structured metadata computed from the platform's catalog.</title>
+</g>
+<g>
+<rect x="814" y="1792" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="966" y="1806" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="966" y="1821" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: contacted-fit 7.8% to 73.6%</text>
+<text x="966" y="1837" text-anchor="middle" font-size="9.5" fill="#555">We demonstrate that Fit Cards improve contacted-fit</text>
+<text x="966" y="1849" text-anchor="middle" font-size="9.5" fill="#555">rate from 7.8% to 73.6%, validating that better</text>
+<text x="966" y="1861" text-anchor="middle" font-size="9.5" fill="#555">discovery-stage contact selection drives welfare</text>
+<text x="966" y="1873" text-anchor="middle" font-size="9.5" fill="#555">improvements.</text>
+<title>C3 [Contribution] (cites=0)
+We demonstrate that Fit Cards improve contacted-fit rate from 7.8% to 73.6%, validating that better discovery-stage contact selection drives welfare improvements.</title>
+</g>
+<g>
+<rect x="1136" y="1792" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1288" y="1806" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C4 [Contribution]</text>
+<text x="1288" y="1821" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C4: discovery beats proposal-stage</text>
+<text x="1288" y="1837" text-anchor="middle" font-size="9.5" fill="#555">We show that discovery-stage interventions are more</text>
+<text x="1288" y="1849" text-anchor="middle" font-size="9.5" fill="#555">effective than proposal-stage interventions:</text>
+<text x="1288" y="1861" text-anchor="middle" font-size="9.5" fill="#555">first-proposal bias persists but does not dominate</text>
+<text x="1288" y="1873" text-anchor="middle" font-size="9.5" fill="#555">welfare when agents contact high-fit businesses.</text>
+<title>C4 [Contribution] (cites=0)
+We show that discovery-stage interventions are more effective than proposal-stage interventions: first-proposal bias persists but does not dominate welfare when agents contact high-fit businesses.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

@@ -1,0 +1,225 @@
+<svg viewBox="0 0 1480 1716" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="228" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="526" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="436" x2="1450" y2="436" stroke="#eee" stroke-width="1"/>
+<text x="14" y="900" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="616" x2="1450" y2="616" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1324" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1184" x2="1450" y2="1184" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1560" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1464" x2="1450" y2="1464" stroke="#eee" stroke-width="1"/>
+<rect x="158" y="1492" width="1294" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="1488" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N13</text>
+<line x1="616" y1="152" x2="616" y2="180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="276" x2="805" y2="484" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="568" x2="805" y2="664" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="613" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="748" x2="805" y2="776" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="848" x2="805" y2="876" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="948" x2="805" y2="976" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1048" x2="805" y2="1076" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1136" x2="994" y2="68" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="152" x2="994" y2="180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="276" x2="805" y2="304" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="388" x2="805" y2="1232" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="807" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">We propose</text>
+<line x1="805" y1="1316" x2="805" y2="1344" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1416" x2="322" y2="1512" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1416" x2="644" y2="1512" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1416" x2="966" y2="1512" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1416" x2="1288" y2="1512" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="644" y1="1608" x2="805" y2="664" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1288" y1="1608" x2="805" y2="1076" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="322" y1="1608" x2="805" y2="976" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="803.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="68" width="360" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="616" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">World models for agent decisions</text>
+<text x="616" y="113" text-anchor="middle" font-size="9.5" fill="#555">World models that predict environment dynamics have emerged as a</text>
+<text x="616" y="125" text-anchor="middle" font-size="9.5" fill="#555">powerful tool for agent decision-making (Ha &amp; Schmidhuber, 2018;</text>
+<text x="616" y="137" text-anchor="middle" font-size="9.5" fill="#555">Schrittwieser et al., 2019).</text>
+<title>N1 [Context] (cites=2)
+World models that predict environment dynamics have emerged as a powerful tool for agent decision-making (Ha &amp; Schmidhuber, 2018; Schrittwieser et al., 2019).</title>
+</g>
+<g>
+<rect x="436" y="180" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="616" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">World models as pre-execution verifiers</text>
+<text x="616" y="225" text-anchor="middle" font-size="9.5" fill="#555">For agents operating in environments with irreversible</text>
+<text x="616" y="237" text-anchor="middle" font-size="9.5" fill="#555">actions—such as submitting purchases, sending emails, or deleting</text>
+<text x="616" y="249" text-anchor="middle" font-size="9.5" fill="#555">files—world models can serve as pre-execution verifiers: before</text>
+<text x="616" y="261" text-anchor="middle" font-size="9.5" fill="#555">committing to a high-stakes action, the agent queries…</text>
+<title>N2 [Context] (cites=0)
+For agents operating in environments with irreversible actions—such as submitting purchases, sending emails, or deleting files—world models can serve as pre-execution verifiers: before committing to a high-stakes action, the agent queries the world model to predict whether the action will succeed.</title>
+</g>
+<circle cx="1022.0" cy="492.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="500.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="484" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="498" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Prior_Work : ANCHOR]</text>
+<text x="805" y="513" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLM world models verify web checkout</text>
+<text x="805" y="529" text-anchor="middle" font-size="9.5" fill="#555">Recent work has demonstrated this approach for web agents, using LLM-based</text>
+<text x="805" y="541" text-anchor="middle" font-size="9.5" fill="#555">world models to verify checkout actions before execution (Li et al., 2025;</text>
+<text x="805" y="553" text-anchor="middle" font-size="9.5" fill="#555">Gu et al., 2025).</text>
+<title>N3 [Prior_Work] (cites=2)
+Recent work has demonstrated this approach for web agents, using LLM-based world models to verify checkout actions before execution (Li et al., 2025; Gu et al., 2025).</title>
+</g>
+<circle cx="1022.0" cy="672.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="664" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="678" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Limitation]</text>
+<text x="805" y="693" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">More budget reduces success</text>
+<text x="805" y="709" text-anchor="middle" font-size="9.5" fill="#555">However, a counterintuitive failure mode has been observed: increasing the</text>
+<text x="805" y="721" text-anchor="middle" font-size="9.5" fill="#555">verification budget (the number of world-model queries allowed) can reduce</text>
+<text x="805" y="733" text-anchor="middle" font-size="9.5" fill="#555">task success rates (Li et al., 2025).</text>
+<title>N4 [Limitation] (cites=1)
+However, a counterintuitive failure mode has been observed: increasing the verification budget (the number of world-model queries allowed) can reduce task success rates (Li et al., 2025).</title>
+</g>
+<g>
+<rect x="595" y="776" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="790" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Limitation]</text>
+<text x="805" y="805" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Sequential verify-and-retry feedback loop</text>
+<text x="805" y="821" text-anchor="middle" font-size="9.5" fill="#555">This nonmonotonic behavior occurs because sequential verify-and-retry</text>
+<text x="805" y="833" text-anchor="middle" font-size="9.5" fill="#555">creates a problematic feedback loop.</text>
+<title>N5 [Limitation] (cites=0)
+This nonmonotonic behavior occurs because sequential verify-and-retry creates a problematic feedback loop.</title>
+</g>
+<g>
+<rect x="595" y="876" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="890" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="905" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Rejection triggers re-browsing</text>
+<text x="805" y="921" text-anchor="middle" font-size="9.5" fill="#555">When verification rejects a checkout (potentially a false negative), the</text>
+<text x="805" y="933" text-anchor="middle" font-size="9.5" fill="#555">agent re-browses to find another product.</text>
+<title>N6 [Limitation] (cites=0)
+When verification rejects a checkout (potentially a false negative), the agent re-browses to find another product.</title>
+</g>
+<g>
+<rect x="595" y="976" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="990" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="1005" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Trajectory drift: worse product selected</text>
+<text x="805" y="1021" text-anchor="middle" font-size="9.5" fill="#555">During re-browsing, the agent often selects a worse product than the one</text>
+<text x="805" y="1033" text-anchor="middle" font-size="9.5" fill="#555">originally found—a phenomenon we call trajectory drift.</text>
+<title>N7 [Limitation] (cites=0)
+During re-browsing, the agent often selects a worse product than the one originally found—a phenomenon we call trajectory drift.</title>
+</g>
+<g>
+<rect x="595" y="1076" width="420" height="60" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1090" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Limitation]</text>
+<text x="805" y="1105" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">More cycles = more drift</text>
+<text x="805" y="1121" text-anchor="middle" font-size="9.5" fill="#555">More verification cycles mean more opportunities for trajectory drift.</text>
+<title>N8 [Limitation] (cites=0)
+More verification cycles mean more opportunities for trajectory drift.</title>
+</g>
+<g>
+<rect x="814" y="68" width="360" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Context]</text>
+<text x="994" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Problem: sequential structure, not accuracy</text>
+<text x="994" y="113" text-anchor="middle" font-size="9.5" fill="#555">The key insight is that the problem lies not in verification</text>
+<text x="994" y="125" text-anchor="middle" font-size="9.5" fill="#555">accuracy, but in the sequential structure of verify-and-retry.</text>
+<title>N9 [Context] (cites=0)
+The key insight is that the problem lies not in verification accuracy, but in the sequential structure of verify-and-retry.</title>
+</g>
+<g>
+<rect x="814" y="180" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Context]</text>
+<text x="994" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Rejections compound errors across cycles</text>
+<text x="994" y="225" text-anchor="middle" font-size="9.5" fill="#555">Each rejection triggers re-browsing, compounding errors across</text>
+<text x="994" y="237" text-anchor="middle" font-size="9.5" fill="#555">cycles.</text>
+<title>N10 [Context] (cites=0)
+Each rejection triggers re-browsing, compounding errors across cycles.</title>
+</g>
+<g>
+<rect x="595" y="304" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="318" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Context]</text>
+<text x="805" y="333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Solution: fewer cycles, more parallel rollouts</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">This suggests a simple solution: instead of spreading the verification</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">budget across many sequential cycles, spend it in fewer cycles with more</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">parallel rollouts per cycle.</text>
+<title>N11 [Context] (cites=0)
+This suggests a simple solution: instead of spreading the verification budget across many sequential cycles, spend it in fewer cycles with more parallel rollouts per cycle.</title>
+</g>
+<g>
+<rect x="595" y="1232" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1246" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Method]</text>
+<text x="805" y="1261" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose chunked budget allocation</text>
+<text x="805" y="1277" text-anchor="middle" font-size="9.5" fill="#555">We propose chunked budget allocation: given a fixed verification budget B,</text>
+<text x="805" y="1289" text-anchor="middle" font-size="9.5" fill="#555">allocate it across M cycles with K = B/M parallel world-model rollouts per</text>
+<text x="805" y="1301" text-anchor="middle" font-size="9.5" fill="#555">cycle.</text>
+<title>N12 [Method] (cites=0)
+We propose chunked budget allocation: given a fixed verification budget B, allocate it across M cycles with K = B/M parallel world-model rollouts per cycle.</title>
+</g>
+<g>
+<rect x="595" y="1344" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1358" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Method]</text>
+<text x="805" y="1373" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">M=1: one parallel chunk eliminates drift</text>
+<text x="805" y="1389" text-anchor="middle" font-size="9.5" fill="#555">By setting M = 1, we spend the entire budget in one parallel chunk,</text>
+<text x="805" y="1401" text-anchor="middle" font-size="9.5" fill="#555">eliminating the sequential cycles that trigger trajectory drift.</text>
+<title>N13 [Method] (cites=0)
+By setting M = 1, we spend the entire budget in one parallel chunk, eliminating the sequential cycles that trigger trajectory drift.</title>
+</g>
+<g>
+<rect x="170" y="1512" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="322" y="1526" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="322" y="1541" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: trajectory drift = 60.5% of failures</text>
+<text x="322" y="1557" text-anchor="middle" font-size="9.5" fill="#555">We identify trajectory drift as the dominant failure</text>
+<text x="322" y="1569" text-anchor="middle" font-size="9.5" fill="#555">mode in sequential verify-and-retry, accounting for</text>
+<text x="322" y="1581" text-anchor="middle" font-size="9.5" fill="#555">60.5% of failures when agents re-browse after</text>
+<text x="322" y="1593" text-anchor="middle" font-size="9.5" fill="#555">verification rejection.</text>
+<title>C1 [Contribution] (cites=0)
+We identify trajectory drift as the dominant failure mode in sequential verify-and-retry, accounting for 60.5% of failures when agents re-browse after verification rejection.</title>
+</g>
+<g>
+<rect x="492" y="1512" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="644" y="1526" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="644" y="1541" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: chunked = 25x success (21.50% vs 0.86%)</text>
+<text x="644" y="1557" text-anchor="middle" font-size="9.5" fill="#555">We demonstrate that chunked budget allocation achieves</text>
+<text x="644" y="1569" text-anchor="middle" font-size="9.5" fill="#555">a 25× improvement in task success rate (21.50% vs.</text>
+<text x="644" y="1581" text-anchor="middle" font-size="9.5" fill="#555">0.86%) by eliminating sequential verification cycles.</text>
+<title>C2 [Contribution] (cites=0)
+We demonstrate that chunked budget allocation achieves a 25× improvement in task success rate (21.50% vs. 0.86%) by eliminating sequential verification cycles.</title>
+</g>
+<g>
+<rect x="814" y="1512" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="966" y="1526" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="966" y="1541" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: consensus has no benefit (98.4% miscalib)</text>
+<text x="966" y="1557" text-anchor="middle" font-size="9.5" fill="#555">We show that consensus aggregation across parallel</text>
+<text x="966" y="1569" text-anchor="middle" font-size="9.5" fill="#555">rollouts provides no benefit over single-rollout</text>
+<text x="966" y="1581" text-anchor="middle" font-size="9.5" fill="#555">acceptance, as the world model's poor calibration</text>
+<text x="966" y="1593" text-anchor="middle" font-size="9.5" fill="#555">(predicting p̂ = 0 for 98.4% of cycles) causes…</text>
+<title>C3 [Contribution] (cites=0)
+We show that consensus aggregation across parallel rollouts provides no benefit over single-rollout acceptance, as the world model's poor calibration (predicting p̂ = 0 for 98.4% of cycles) causes consensus to degenerate.</title>
+</g>
+<g>
+<rect x="1136" y="1512" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1288" y="1526" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C4 [Contribution]</text>
+<text x="1288" y="1541" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C4: M=1 consistently best</text>
+<text x="1288" y="1557" text-anchor="middle" font-size="9.5" fill="#555">We provide practical guidance: setting M = 1 (spending</text>
+<text x="1288" y="1569" text-anchor="middle" font-size="9.5" fill="#555">all budget in one parallel chunk) consistently</text>
+<text x="1288" y="1581" text-anchor="middle" font-size="9.5" fill="#555">outperforms finer-grained allocations, with performance</text>
+<text x="1288" y="1593" text-anchor="middle" font-size="9.5" fill="#555">degrading monotonically as M increases.</text>
+<title>C4 [Contribution] (cites=0)
+We provide practical guidance: setting M = 1 (spending all budget in one parallel chunk) consistently outperforms finer-grained allocations, with performance degrading monotonically as M increases.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

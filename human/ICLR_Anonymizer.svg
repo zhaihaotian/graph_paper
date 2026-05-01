@@ -1,0 +1,355 @@
+<svg viewBox="0 0 1480 2092" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="296" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="668" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="572" x2="1450" y2="572" stroke="#eee" stroke-width="1"/>
+<text x="14" y="860" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="764" x2="1450" y2="764" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1252" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="956" x2="1450" y2="956" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1694" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1548" x2="1450" y2="1548" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1936" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1840" x2="1450" y2="1840" stroke="#eee" stroke-width="1"/>
+<rect x="613" y="792" width="762" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="621" y="788" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N15</text>
+<rect x="235" y="1868" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1864" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N23</text>
+<line x1="322" y1="164" x2="322" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="322" y1="288" x2="616" y2="620" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="469" y="451" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Recently</text>
+<line x1="616" y1="716" x2="644" y2="68" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="630" y="389" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Moreover</text>
+<line x1="644" y1="164" x2="644" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="644" y="175" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Concurrently</text>
+<line x1="644" y1="288" x2="427" y2="812" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="535" y="547" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Rather concerningly</text>
+<line x1="427" y1="908" x2="966" y2="68" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="966" y1="164" x2="966" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="966" y1="288" x2="616" y2="316" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="791" y="299" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">thus</text>
+<line x1="616" y1="412" x2="805" y2="812" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="609" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Yet</text>
+<line x1="805" y1="908" x2="1288" y2="68" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1288" y1="164" x2="1288" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="1288" y="175" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">At the same time</text>
+<line x1="1288" y1="288" x2="994" y2="316" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="1141" y="299" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Notably</text>
+<line x1="994" y1="412" x2="805" y2="440" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="524" x2="994" y2="620" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="716" x2="1183" y2="812" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="1088" y="761" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">As such</text>
+<line x1="1183" y1="908" x2="805" y2="1004" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="994" y="953" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">We aim to bridge</text>
+<line x1="805" y1="1088" x2="805" y2="1116" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1188" x2="805" y2="1216" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1300" x2="805" y2="1328" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1400" x2="805" y2="1428" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1500" x2="805" y2="1596" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1692" x2="805" y2="1720" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1703" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Notably</text>
+<line x1="805" y1="1792" x2="427" y2="1888" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1792" x2="805" y2="1888" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1792" x2="1183" y2="1888" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="716" x2="427" y2="812" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="716" x2="805" y2="812" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1188" x2="1183" y2="812" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1984" x2="1183" y2="812" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="427" y1="1984" x2="427" y2="812" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="481.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="481.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="170" y="68" width="304" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="322" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="322" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs spark societal-impact discussions</text>
+<text x="322" y="113" text-anchor="middle" font-size="9.5" fill="#555">The rapidly increasing capabilities and widespread</text>
+<text x="322" y="125" text-anchor="middle" font-size="9.5" fill="#555">adoption of large language models (LLMs) (OpenAI, 2023;</text>
+<text x="322" y="137" text-anchor="middle" font-size="9.5" fill="#555">Touvron et al., 2023b) have sparked various discussions</text>
+<text x="322" y="149" text-anchor="middle" font-size="9.5" fill="#555">about their potential impacts on society.</text>
+<title>N1 [Context] (cites=2)
+The rapidly increasing capabilities and widespread adoption of large language models (LLMs) (OpenAI, 2023; Touvron et al., 2023b) have sparked various discussions about their potential impacts on society.</title>
+</g>
+<circle cx="481.0" cy="200.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="481.0" cy="208.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="170" y="192" width="304" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="322" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="322" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Privacy focus: training-data memorization</text>
+<text x="322" y="237" text-anchor="middle" font-size="9.5" fill="#555">An area of particular interest has been the privacy</text>
+<text x="322" y="249" text-anchor="middle" font-size="9.5" fill="#555">implications of LLMs, where initial investigations</text>
+<text x="322" y="261" text-anchor="middle" font-size="9.5" fill="#555">focused primarily on the memorization of model training</text>
+<text x="322" y="273" text-anchor="middle" font-size="9.5" fill="#555">data (Carlini et al., 2021; 2023).</text>
+<title>N2 [Context] (cites=2)
+An area of particular interest has been the privacy implications of LLMs, where initial investigations focused primarily on the memorization of model training data (Carlini et al., 2021; 2023).</title>
+</g>
+<circle cx="803.0" cy="628.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="620" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="634" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Prior_Work : ANCHOR]</text>
+<text x="616" y="649" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Staab et al.: LLMs infer personal attributes</text>
+<text x="616" y="665" text-anchor="middle" font-size="9.5" fill="#555">Recently, it has been shown that modern LLMs can be misused for</text>
+<text x="616" y="677" text-anchor="middle" font-size="9.5" fill="#555">high-accuracy predictions of personal attributes from seemingly</text>
+<text x="616" y="689" text-anchor="middle" font-size="9.5" fill="#555">non-revealing online posts (Staab et al., 2023).</text>
+<title>N3 [Prior_Work] (cites=1)
+Recently, it has been shown that modern LLMs can be misused for high-accuracy predictions of personal attributes from seemingly non-revealing online posts (Staab et al., 2023).</title>
+</g>
+<g>
+<rect x="492" y="68" width="304" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="644" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="644" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs automate inference at scale</text>
+<text x="644" y="113" text-anchor="middle" font-size="9.5" fill="#555">Moreover, where previously one would have to hire</text>
+<text x="644" y="125" text-anchor="middle" font-size="9.5" fill="#555">humans to infer private attributes, these models are</text>
+<text x="644" y="137" text-anchor="middle" font-size="9.5" fill="#555">fast and cheap enough to automate such inferences at</text>
+<text x="644" y="149" text-anchor="middle" font-size="9.5" fill="#555">scale.</text>
+<title>N4 [Context] (cites=0)
+Moreover, where previously one would have to hire humans to infer private attributes, these models are fast and cheap enough to automate such inferences at scale.</title>
+</g>
+<g>
+<rect x="492" y="192" width="304" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="644" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="644" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Users unaware, keep sharing</text>
+<text x="644" y="237" text-anchor="middle" font-size="9.5" fill="#555">Concurrently, as users are unaware of such issues, they</text>
+<text x="644" y="249" text-anchor="middle" font-size="9.5" fill="#555">continue to share texts with information easily</text>
+<text x="644" y="261" text-anchor="middle" font-size="9.5" fill="#555">inferrable by LLMs.</text>
+<title>N5 [Context] (cites=0)
+Concurrently, as users are unaware of such issues, they continue to share texts with information easily inferrable by LLMs.</title>
+</g>
+<g>
+<rect x="247" y="812" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="427" y="826" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="427" y="841" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Industry anonymizers insufficient vs LLM attacks</text>
+<text x="427" y="857" text-anchor="middle" font-size="9.5" fill="#555">Rather concerningly, prior work has also shown that current</text>
+<text x="427" y="869" text-anchor="middle" font-size="9.5" fill="#555">industry-standard text anonymizers are largely insufficient at</text>
+<text x="427" y="881" text-anchor="middle" font-size="9.5" fill="#555">protecting users from such attacks, as they are unable to pick up</text>
+<text x="427" y="893" text-anchor="middle" font-size="9.5" fill="#555">on revealing yet complex and context-dependent…</text>
+<title>N6 [Limitation] (cites=0)
+Rather concerningly, prior work has also shown that current industry-standard text anonymizers are largely insufficient at protecting users from such attacks, as they are unable to pick up on revealing yet complex and context-dependent cues.</title>
+</g>
+<circle cx="1125.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="68" width="304" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="966" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Context]</text>
+<text x="966" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Example: 'left shark' comment</text>
+<text x="966" y="113" text-anchor="middle" font-size="9.5" fill="#555">Consider the following shortened example from Staab et</text>
+<text x="966" y="125" text-anchor="middle" font-size="9.5" fill="#555">al. (2023): This left shark thing is hilarious, I've</text>
+<text x="966" y="137" text-anchor="middle" font-size="9.5" fill="#555">seen it, walked just by there to see it live after my</text>
+<text x="966" y="149" text-anchor="middle" font-size="9.5" fill="#555">final exams.</text>
+<title>N7 [Context] (cites=1)
+Consider the following shortened example from Staab et al. (2023): This left shark thing is hilarious, I've seen it, walked just by there to see it live after my final exams.</title>
+</g>
+<g>
+<rect x="814" y="192" width="304" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="966" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Context]</text>
+<text x="966" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLM infers Glendale via context</text>
+<text x="966" y="237" text-anchor="middle" font-size="9.5" fill="#555">While the comment contains no direct references to any</text>
+<text x="966" y="249" text-anchor="middle" font-size="9.5" fill="#555">locations, the context allows both an informed reader</text>
+<text x="966" y="261" text-anchor="middle" font-size="9.5" fill="#555">and an LLM to infer that the author lived in Glendale,</text>
+<text x="966" y="273" text-anchor="middle" font-size="9.5" fill="#555">where the 2015 Super Bowl halftime show featured a…</text>
+<title>N8 [Context] (cites=0)
+While the comment contains no direct references to any locations, the context allows both an informed reader and an LLM to infer that the author lived in Glendale, where the 2015 Super Bowl halftime show featured a performance colloquially called &quot;left shark incident.&quot;</title>
+</g>
+<g>
+<rect x="436" y="316" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="330" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Context]</text>
+<text x="616" y="345" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Need: warn user + offer alternative</text>
+<text x="616" y="361" text-anchor="middle" font-size="9.5" fill="#555">It would thus be desirable if the user could be warned before</text>
+<text x="616" y="373" text-anchor="middle" font-size="9.5" fill="#555">posting the comment that it might reveal their location and,</text>
+<text x="616" y="385" text-anchor="middle" font-size="9.5" fill="#555">ideally, be offered a less revealing alternative.</text>
+<title>N9 [Context] (cites=0)
+It would thus be desirable if the user could be warned before posting the comment that it might reveal their location and, ideally, be offered a less revealing alternative.</title>
+</g>
+<g>
+<rect x="625" y="812" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="826" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Limitation]</text>
+<text x="805" y="841" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">NER-based anonymizers fooled by indirection</text>
+<text x="805" y="857" text-anchor="middle" font-size="9.5" fill="#555">Yet, anonymizing this text with existing tools proves futile, as</text>
+<text x="805" y="869" text-anchor="middle" font-size="9.5" fill="#555">no location was directly mentioned, fooling traditional</text>
+<text x="805" y="881" text-anchor="middle" font-size="9.5" fill="#555">entity-recognition-based anonymizers.</text>
+<title>N10 [Limitation] (cites=0)
+Yet, anonymizing this text with existing tools proves futile, as no location was directly mentioned, fooling traditional entity-recognition-based anonymizers.</title>
+</g>
+<circle cx="1447.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="1136" y="68" width="304" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="1288" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Context]</text>
+<text x="1288" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Commercial LLM inference already deployed</text>
+<text x="1288" y="113" text-anchor="middle" font-size="9.5" fill="#555">This is particularly alarming as there have already</text>
+<text x="1288" y="125" text-anchor="middle" font-size="9.5" fill="#555">been reports of LLM inferences being commercially</text>
+<text x="1288" y="137" text-anchor="middle" font-size="9.5" fill="#555">applied online to categorize users based on their posts</text>
+<text x="1288" y="149" text-anchor="middle" font-size="9.5" fill="#555">(Brewster, 2023).</text>
+<title>N11 [Context] (cites=1)
+This is particularly alarming as there have already been reports of LLM inferences being commercially applied online to categorize users based on their posts (Brewster, 2023).</title>
+</g>
+<g>
+<rect x="1136" y="192" width="304" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="1288" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Context]</text>
+<text x="1288" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Regulatory push for privacy</text>
+<text x="1288" y="237" text-anchor="middle" font-size="9.5" fill="#555">At the same time, there has been a large regulatory</text>
+<text x="1288" y="249" text-anchor="middle" font-size="9.5" fill="#555">push for stronger individual privacy protection.</text>
+<title>N12 [Context] (cites=0)
+At the same time, there has been a large regulatory push for stronger individual privacy protection.</title>
+</g>
+<circle cx="1181.0" cy="324.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="332.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="316" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="330" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Context]</text>
+<text x="994" y="345" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">GDPR/CCPA protect private data</text>
+<text x="994" y="361" text-anchor="middle" font-size="9.5" fill="#555">Notably, regulations such as the EU's GDPR (EU, 2016) and</text>
+<text x="994" y="373" text-anchor="middle" font-size="9.5" fill="#555">California's CCPA (Cal, 2018) have established extensive</text>
+<text x="994" y="385" text-anchor="middle" font-size="9.5" fill="#555">legislative requirements to protect individuals' private data,</text>
+<text x="994" y="397" text-anchor="middle" font-size="9.5" fill="#555">such as location, age, and sex.</text>
+<title>N13 [Context] (cites=2)
+Notably, regulations such as the EU's GDPR (EU, 2016) and California's CCPA (Cal, 2018) have established extensive legislative requirements to protect individuals' private data, such as location, age, and sex.</title>
+</g>
+<g>
+<rect x="595" y="440" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="454" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Context]</text>
+<text x="805" y="469" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Users demand stronger privacy</text>
+<text x="805" y="485" text-anchor="middle" font-size="9.5" fill="#555">Complementing regulatory efforts, online users, e.g., on pseudonymized sites</text>
+<text x="805" y="497" text-anchor="middle" font-size="9.5" fill="#555">like Reddit, are also increasingly aware of the need to protect their</text>
+<text x="805" y="509" text-anchor="middle" font-size="9.5" fill="#555">privacy and demand tighter governance over their personal data.</text>
+<title>N14 [Context] (cites=0)
+Complementing regulatory efforts, online users, e.g., on pseudonymized sites like Reddit, are also increasingly aware of the need to protect their privacy and demand tighter governance over their personal data.</title>
+</g>
+<circle cx="1181.0" cy="628.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="636.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="644.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="620" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="634" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Prior_Work]</text>
+<text x="994" y="649" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Presidio/Azure: structural-only, regulatory shortfall</text>
+<text x="994" y="665" text-anchor="middle" font-size="9.5" fill="#555">Industry-standard tools such as Presidio (Mic, 2021) or Microsoft</text>
+<text x="994" y="677" text-anchor="middle" font-size="9.5" fill="#555">Azure Language Services (Aahill, 2023) that mainly remove</text>
+<text x="994" y="689" text-anchor="middle" font-size="9.5" fill="#555">structured information, such as SSIDs or mail addresses, are</text>
+<text x="994" y="701" text-anchor="middle" font-size="9.5" fill="#555">especially problematic in this setting as they (1)…</text>
+<title>N15 [Prior_Work] (cites=3)
+Industry-standard tools such as Presidio (Mic, 2021) or Microsoft Azure Language Services (Aahill, 2023) that mainly remove structured information, such as SSIDs or mail addresses, are especially problematic in this setting as they (1) fall short of meeting the regulatory requirements of text anonymization (Pilán et al., 2022) and (2) indiscriminately mask any information matching specific patterns, often resulting in hardly readable texts—an issue especially grieving for the short, informal, and fast-flowing nature of online comments.</title>
+</g>
+<g>
+<rect x="1003" y="812" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="1183" y="826" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Limitation]</text>
+<text x="1183" y="841" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Adversary-anonymizer gap leaves users vulnerable</text>
+<text x="1183" y="857" text-anchor="middle" font-size="9.5" fill="#555">As such, despite expanding regulatory protection, the gap between</text>
+<text x="1183" y="869" text-anchor="middle" font-size="9.5" fill="#555">increasingly stronger adversaries and lacking anonymization</text>
+<text x="1183" y="881" text-anchor="middle" font-size="9.5" fill="#555">methods leaves users in a particularly vulnerable position.</text>
+<title>N16 [Limitation] (cites=0)
+As such, despite expanding regulatory protection, the gap between increasingly stronger adversaries and lacking anonymization methods leaves users in a particularly vulnerable position.</title>
+</g>
+<g>
+<rect x="595" y="1004" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1018" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Method]</text>
+<text x="805" y="1033" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Goal: bridge privacy-anonymization gap</text>
+<text x="805" y="1049" text-anchor="middle" font-size="9.5" fill="#555">We aim to bridge the gap between the increasing threat to user privacy in</text>
+<text x="805" y="1061" text-anchor="middle" font-size="9.5" fill="#555">online texts and the lack of viable anonymization techniques against</text>
+<text x="805" y="1073" text-anchor="middle" font-size="9.5" fill="#555">LLM-based inferences.</text>
+<title>N17 [Method] (cites=0)
+We aim to bridge the gap between the increasing threat to user privacy in online texts and the lack of viable anonymization techniques against LLM-based inferences.</title>
+</g>
+<g>
+<rect x="595" y="1116" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1130" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Method]</text>
+<text x="805" y="1145" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose feedback-guided adversarial framework</text>
+<text x="805" y="1161" text-anchor="middle" font-size="9.5" fill="#555">In particular, we propose a new framework, shown in Fig. 1, that anonymizes</text>
+<text x="805" y="1173" text-anchor="middle" font-size="9.5" fill="#555">texts using a feedback-guided adversarial approach.</text>
+<title>N18 [Method] (cites=0)
+In particular, we propose a new framework, shown in Fig. 1, that anonymizes texts using a feedback-guided adversarial approach.</title>
+</g>
+<g>
+<rect x="595" y="1216" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1230" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Method]</text>
+<text x="805" y="1245" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Insight: LLM inference informs anonymizer</text>
+<text x="805" y="1261" text-anchor="middle" font-size="9.5" fill="#555">The key insight of this framework is to leverage the strong attribute</text>
+<text x="805" y="1273" text-anchor="middle" font-size="9.5" fill="#555">inference capabilities of LLMs to inform a separate anonymizer language</text>
+<text x="805" y="1285" text-anchor="middle" font-size="9.5" fill="#555">model.</text>
+<title>N19 [Method] (cites=0)
+The key insight of this framework is to leverage the strong attribute inference capabilities of LLMs to inform a separate anonymizer language model.</title>
+</g>
+<g>
+<rect x="595" y="1328" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1342" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Method]</text>
+<text x="805" y="1357" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Step 1: LLM adversary infers attributes</text>
+<text x="805" y="1373" text-anchor="middle" font-size="9.5" fill="#555">Over multiple rounds, we first employ an LLM adversary for a detailed</text>
+<text x="805" y="1385" text-anchor="middle" font-size="9.5" fill="#555">private attribute inference from the given text.</text>
+<title>N20 [Method] (cites=0)
+Over multiple rounds, we first employ an LLM adversary for a detailed private attribute inference from the given text.</title>
+</g>
+<g>
+<rect x="595" y="1428" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1442" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Method]</text>
+<text x="805" y="1457" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Step 2: anonymizer removes/obfuscates cues</text>
+<text x="805" y="1473" text-anchor="middle" font-size="9.5" fill="#555">Then, an anonymizing LLM attempts to remove, obfuscate, or generalize cues</text>
+<text x="805" y="1485" text-anchor="middle" font-size="9.5" fill="#555">used in the inference by adapting relevant parts of the text.</text>
+<title>N21 [Method] (cites=0)
+Then, an anonymizing LLM attempts to remove, obfuscate, or generalize cues used in the inference by adapting relevant parts of the text.</title>
+</g>
+<g>
+<rect x="595" y="1596" width="420" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1610" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Result]</text>
+<text x="805" y="1625" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Iterations beat traditional in quality+privacy</text>
+<text x="805" y="1641" text-anchor="middle" font-size="9.5" fill="#555">In our evaluation on both real-world and synthetic online texts, we find</text>
+<text x="805" y="1653" text-anchor="middle" font-size="9.5" fill="#555">that performing multiple iterations of this adversarial feedback loop leads</text>
+<text x="805" y="1665" text-anchor="middle" font-size="9.5" fill="#555">to increasingly anonymized text while consistently outperforming traditional</text>
+<text x="805" y="1677" text-anchor="middle" font-size="9.5" fill="#555">techniques in…</text>
+<title>N22 [Result] (cites=0)
+In our evaluation on both real-world and synthetic online texts, we find that performing multiple iterations of this adversarial feedback loop leads to increasingly anonymized text while consistently outperforming traditional techniques in resulting text quality and privacy.</title>
+</g>
+<g>
+<rect x="595" y="1720" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1734" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23 [Result]</text>
+<text x="805" y="1749" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Local small LLMs beat commercial anonymizers</text>
+<text x="805" y="1765" text-anchor="middle" font-size="9.5" fill="#555">Notably, even smaller locally deployed LLMs outperform commercial</text>
+<text x="805" y="1777" text-anchor="middle" font-size="9.5" fill="#555">industry-grade anonymizers.</text>
+<title>N23 [Result] (cites=0)
+Notably, even smaller locally deployed LLMs outperform commercial industry-grade anonymizers.</title>
+</g>
+<g>
+<rect x="247" y="1888" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1902" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N24 [Contribution]</text>
+<text x="427" y="1917" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: novel adversarial-inference problem formulation</text>
+<text x="427" y="1933" text-anchor="middle" font-size="9.5" fill="#555">A novel characterization and formulation of the problem of</text>
+<text x="427" y="1945" text-anchor="middle" font-size="9.5" fill="#555">anonymization under adversarial LLM attribute inference,</text>
+<text x="427" y="1957" text-anchor="middle" font-size="9.5" fill="#555">overcoming the pitfalls of existing anonymization evaluation.</text>
+<title>N24 [Contribution] (cites=0)
+A novel characterization and formulation of the problem of anonymization under adversarial LLM attribute inference, overcoming the pitfalls of existing anonymization evaluation.</title>
+</g>
+<g>
+<rect x="625" y="1888" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1902" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N25 [Contribution]</text>
+<text x="805" y="1917" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: novel adversarial anonymization framework</text>
+<text x="805" y="1933" text-anchor="middle" font-size="9.5" fill="#555">A novel adversarial anonymization framework leveraging LLMs</text>
+<text x="805" y="1945" text-anchor="middle" font-size="9.5" fill="#555">inferential capabilities.</text>
+<title>N25 [Contribution] (cites=0)
+A novel adversarial anonymization framework leveraging LLMs inferential capabilities.</title>
+</g>
+<g>
+<rect x="1003" y="1888" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1902" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N26 [Contribution]</text>
+<text x="1183" y="1917" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: 13-LLM evaluation + human study</text>
+<text x="1183" y="1933" text-anchor="middle" font-size="9.5" fill="#555">Extensive experimental evaluation on 13 LLMs and several</text>
+<text x="1183" y="1945" text-anchor="middle" font-size="9.5" fill="#555">baselines, including a human study, showing on both real-world and</text>
+<text x="1183" y="1957" text-anchor="middle" font-size="9.5" fill="#555">synthetic online texts that our adversarial framework outperforms</text>
+<text x="1183" y="1969" text-anchor="middle" font-size="9.5" fill="#555">state-of-the-art commercial anonymizers both in…</text>
+<title>N26 [Contribution] (cites=0)
+Extensive experimental evaluation on 13 LLMs and several baselines, including a human study, showing on both real-world and synthetic online texts that our adversarial framework outperforms state-of-the-art commercial anonymizers both in terms of utility and privacy.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

@@ -1,0 +1,258 @@
+<svg viewBox="0 0 1480 1646" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="228" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="582" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="436" x2="1450" y2="436" stroke="#eee" stroke-width="1"/>
+<text x="14" y="818" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="728" x2="1450" y2="728" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1055" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="908" x2="1450" y2="908" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1298" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1202" x2="1450" y2="1202" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1490" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1394" x2="1450" y2="1394" stroke="#eee" stroke-width="1"/>
+<rect x="158" y="1060" width="1294" height="106" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="1056" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N8</text>
+<rect x="158" y="1422" width="1294" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="1418" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N9</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="264" x2="805" y2="292" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="275" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="388" x2="805" y2="484" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="556" x2="805" y2="584" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="680" x2="805" y2="776" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="860" x2="616" y2="1250" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="616" y1="1346" x2="805" y2="956" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="805" y1="1052" x2="253" y2="1080" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1052" x2="437" y2="1080" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1052" x2="621" y2="1080" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1052" x2="805" y2="1080" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1052" x2="989" y2="1080" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1052" x2="1173" y2="1080" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1052" x2="1357" y2="1080" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1052" x2="994" y2="1250" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="994" y1="1346" x2="322" y2="1442" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1346" x2="644" y2="1442" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1346" x2="966" y2="1442" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1346" x2="1288" y2="1442" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="322" y1="1538" x2="805" y2="776" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLM-as-a-Judge for evaluation</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Large language models (LLMs) are increasingly deployed as automated</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">evaluators—a paradigm known as LLM-as-a-Judge (Zheng et al., 2023)—to assess</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">the quality of model-generated text at scale.</text>
+<title>N1 [Context] (cites=1)
+Large language models (LLMs) are increasingly deployed as automated evaluators—a paradigm known as LLM-as-a-Judge (Zheng et al., 2023)—to assess the quality of model-generated text at scale.</title>
+</g>
+<circle cx="1022.0" cy="188.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="196.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="204.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="180" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">MT-Bench, G-Eval, LiveMedBench</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">This approach has enabled benchmarks such as MT-Bench (Zheng et al., 2023),</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">G-Eval (Liu et al., 2023), and LiveMedBench (Yan et al., 2026) to evaluate</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">open-ended responses without requiring expensive human annotation.</text>
+<title>N2 [Context] (cites=3)
+This approach has enabled benchmarks such as MT-Bench (Zheng et al., 2023), G-Eval (Liu et al., 2023), and LiveMedBench (Yan et al., 2026) to evaluate open-ended responses without requiring expensive human annotation.</title>
+</g>
+<circle cx="1022.0" cy="300.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="308.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="292" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="306" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="321" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLM judges vulnerable to prompt injection</text>
+<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">However, recent work has raised concerns about the vulnerability of LLM</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">judges to prompt injection attacks, where adversarial content embedded in</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">evaluated responses manipulates the judge's output (Maloyan et al., 2025;</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">Shi et al., 2025).</text>
+<title>N3 [Context] (cites=2)
+However, recent work has raised concerns about the vulnerability of LLM judges to prompt injection attacks, where adversarial content embedded in evaluated responses manipulates the judge's output (Maloyan et al., 2025; Shi et al., 2025).</title>
+</g>
+<g>
+<rect x="595" y="484" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="498" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work : ANCHOR]</text>
+<text x="805" y="513" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LiveMedBench as case study</text>
+<text x="805" y="529" text-anchor="middle" font-size="9.5" fill="#555">LiveMedBench presents a particularly interesting case study for security</text>
+<text x="805" y="541" text-anchor="middle" font-size="9.5" fill="#555">analysis.</text>
+<title>N4 [Prior_Work] (cites=0)
+LiveMedBench presents a particularly interesting case study for security analysis.</title>
+</g>
+<g>
+<rect x="595" y="584" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="598" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="805" y="613" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LiveMedBench: direct interp + permissive parse</text>
+<text x="805" y="629" text-anchor="middle" font-size="9.5" fill="#555">Its rubric grader directly interpolates model responses into the judge</text>
+<text x="805" y="641" text-anchor="middle" font-size="9.5" fill="#555">prompt without explicit untrusted-data framing, and employs permissive</text>
+<text x="805" y="653" text-anchor="middle" font-size="9.5" fill="#555">fallback parsing that searches for substrings like &quot;met&quot; and true when JSON</text>
+<text x="805" y="665" text-anchor="middle" font-size="9.5" fill="#555">parsing fails.</text>
+<title>N5 [Prior_Work] (cites=0)
+Its rubric grader directly interpolates model responses into the judge prompt without explicit untrusted-data framing, and employs permissive fallback parsing that searches for substrings like &quot;met&quot; and true when JSON parsing fails.</title>
+</g>
+<g>
+<rect x="595" y="776" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="790" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="805" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Theoretical attack surfaces</text>
+<text x="805" y="821" text-anchor="middle" font-size="9.5" fill="#555">These design choices create theoretical attack surfaces: an adversary could</text>
+<text x="805" y="833" text-anchor="middle" font-size="9.5" fill="#555">inject instructions to override the judge's evaluation logic or craft</text>
+<text x="805" y="845" text-anchor="middle" font-size="9.5" fill="#555">responses that trigger favorable fallback parsing.</text>
+<title>N6 [Limitation] (cites=0)
+These design choices create theoretical attack surfaces: an adversary could inject instructions to override the judge's evaluation logic or craft responses that trigger favorable fallback parsing.</title>
+</g>
+<g>
+<rect x="436" y="1250" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="616" y="1264" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Result]</text>
+<text x="616" y="1279" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">99.78% trigger fallback heuristics</text>
+<text x="616" y="1295" text-anchor="middle" font-size="9.5" fill="#555">In our experiments, 99.78% of baseline evaluations triggered these</text>
+<text x="616" y="1307" text-anchor="middle" font-size="9.5" fill="#555">fallback heuristics.</text>
+<title>N7 [Result] (cites=0)
+In our experiments, 99.78% of baseline evaluations triggered these fallback heuristics.</title>
+</g>
+<g>
+<rect x="595" y="956" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="970" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="985" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">First audit: 3 payloads + 4-layer hardening</text>
+<text x="805" y="1001" text-anchor="middle" font-size="9.5" fill="#555">We conduct the first security audit of LiveMedBench's rubric grader, testing</text>
+<text x="805" y="1013" text-anchor="middle" font-size="9.5" fill="#555">three injection payload families (direct override, format spoofing, and</text>
+<text x="805" y="1025" text-anchor="middle" font-size="9.5" fill="#555">fallback-parse trigger) and implementing a four-layer hardening strategy</text>
+<text x="805" y="1037" text-anchor="middle" font-size="9.5" fill="#555">(untrusted data…</text>
+<title>N8 [Method] (cites=0)
+We conduct the first security audit of LiveMedBench's rubric grader, testing three injection payload families (direct override, format spoofing, and fallback-parse trigger) and implementing a four-layer hardening strategy (untrusted data framing, schema-constrained output, strict parsing, and evidence verification).</title>
+</g>
+<g>
+<rect x="170" y="1080" width="166" height="74" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="253" y="1094" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8a [Method: payload-1]</text>
+<text x="253" y="1109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">payload: direct override</text>
+<text x="253" y="1125" text-anchor="middle" font-size="9.5" fill="#555">direct override</text>
+<title>N8a [Method: payload-1] (cites=0)
+direct override</title>
+</g>
+<g>
+<rect x="354" y="1080" width="166" height="74" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="437" y="1094" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8b [Method: payload-2]</text>
+<text x="437" y="1109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">payload: format spoofing</text>
+<text x="437" y="1125" text-anchor="middle" font-size="9.5" fill="#555">format spoofing</text>
+<title>N8b [Method: payload-2] (cites=0)
+format spoofing</title>
+</g>
+<g>
+<rect x="538" y="1080" width="166" height="74" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="621" y="1094" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8c [Method: payload-3]</text>
+<text x="621" y="1109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">payload: fallback-parse</text>
+<text x="621" y="1123" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">trigger</text>
+<text x="621" y="1139" text-anchor="middle" font-size="9.5" fill="#555">fallback-parse trigger</text>
+<title>N8c [Method: payload-3] (cites=0)
+fallback-parse trigger</title>
+</g>
+<g>
+<rect x="722" y="1080" width="166" height="74" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1094" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8d [Method: layer-1]</text>
+<text x="805" y="1109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">defense: untrusted data</text>
+<text x="805" y="1123" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">framing</text>
+<text x="805" y="1139" text-anchor="middle" font-size="9.5" fill="#555">untrusted data framing</text>
+<title>N8d [Method: layer-1] (cites=0)
+untrusted data framing</title>
+</g>
+<g>
+<rect x="906" y="1080" width="166" height="74" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="989" y="1094" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8e [Method: layer-2]</text>
+<text x="989" y="1109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">defense:</text>
+<text x="989" y="1123" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">schema-constrained output</text>
+<text x="989" y="1139" text-anchor="middle" font-size="9.5" fill="#555">schema-constrained output</text>
+<title>N8e [Method: layer-2] (cites=0)
+schema-constrained output</title>
+</g>
+<g>
+<rect x="1090" y="1080" width="166" height="74" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="1173" y="1094" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8f [Method: layer-3]</text>
+<text x="1173" y="1109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">defense: strict parsing</text>
+<text x="1173" y="1125" text-anchor="middle" font-size="9.5" fill="#555">strict parsing</text>
+<title>N8f [Method: layer-3] (cites=0)
+strict parsing</title>
+</g>
+<g>
+<rect x="1274" y="1080" width="166" height="74" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="1357" y="1094" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8g [Method: layer-4]</text>
+<text x="1357" y="1109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">defense: evidence</text>
+<text x="1357" y="1123" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">verification</text>
+<text x="1357" y="1139" text-anchor="middle" font-size="9.5" fill="#555">evidence verification</text>
+<title>N8g [Method: layer-4] (cites=0)
+evidence verification</title>
+</g>
+<g>
+<rect x="814" y="1250" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="994" y="1264" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Result]</text>
+<text x="994" y="1279" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Negative: robust baseline; -6.42% drift from hardening</text>
+<text x="994" y="1295" text-anchor="middle" font-size="9.5" fill="#555">Our findings constitute a negative result: the baseline grader</text>
+<text x="994" y="1307" text-anchor="middle" font-size="9.5" fill="#555">demonstrates natural robustness to all tested attacks, while the</text>
+<text x="994" y="1319" text-anchor="middle" font-size="9.5" fill="#555">hardening introduces a statistically significant benign drift of</text>
+<text x="994" y="1331" text-anchor="middle" font-size="9.5" fill="#555">−6.42% without providing measurable security…</text>
+<title>N9 [Result] (cites=0)
+Our findings constitute a negative result: the baseline grader demonstrates natural robustness to all tested attacks, while the hardening introduces a statistically significant benign drift of −6.42% without providing measurable security benefit.</title>
+</g>
+<g>
+<rect x="170" y="1442" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="322" y="1456" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="322" y="1471" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: first security audit (3 payloads)</text>
+<text x="322" y="1487" text-anchor="middle" font-size="9.5" fill="#555">First, we present the first security audit of</text>
+<text x="322" y="1499" text-anchor="middle" font-size="9.5" fill="#555">LiveMedBench's rubric grader against prompt injection</text>
+<text x="322" y="1511" text-anchor="middle" font-size="9.5" fill="#555">attacks, testing three payload families targeting</text>
+<text x="322" y="1523" text-anchor="middle" font-size="9.5" fill="#555">distinct attack vectors.</text>
+<title>C1 [Contribution] (cites=0)
+First, we present the first security audit of LiveMedBench's rubric grader against prompt injection attacks, testing three payload families targeting distinct attack vectors.</title>
+</g>
+<g>
+<rect x="492" y="1442" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="644" y="1456" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="644" y="1471" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: baseline naturally robust</text>
+<text x="644" y="1487" text-anchor="middle" font-size="9.5" fill="#555">Second, we provide empirical evidence that the baseline</text>
+<text x="644" y="1499" text-anchor="middle" font-size="9.5" fill="#555">grader is naturally robust to the tested attacks, with</text>
+<text x="644" y="1511" text-anchor="middle" font-size="9.5" fill="#555">no statistically significant score inflation (all 95%</text>
+<text x="644" y="1523" text-anchor="middle" font-size="9.5" fill="#555">CIs include zero).</text>
+<title>C2 [Contribution] (cites=0)
+Second, we provide empirical evidence that the baseline grader is naturally robust to the tested attacks, with no statistically significant score inflation (all 95% CIs include zero).</title>
+</g>
+<g>
+<rect x="814" y="1442" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="966" y="1456" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="966" y="1471" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: hardening causes -6.42% benign drift</text>
+<text x="966" y="1487" text-anchor="middle" font-size="9.5" fill="#555">Third, we demonstrate that a four-layer hardening</text>
+<text x="966" y="1499" text-anchor="middle" font-size="9.5" fill="#555">strategy causes net harm: −6.42% benign drift (CI</text>
+<text x="966" y="1511" text-anchor="middle" font-size="9.5" fill="#555">excludes zero) without security improvement.</text>
+<title>C3 [Contribution] (cites=0)
+Third, we demonstrate that a four-layer hardening strategy causes net harm: −6.42% benign drift (CI excludes zero) without security improvement.</title>
+</g>
+<g>
+<rect x="1136" y="1442" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1288" y="1456" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C4 [Contribution]</text>
+<text x="1288" y="1471" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C4: validate on adversarial + benign</text>
+<text x="1288" y="1487" text-anchor="middle" font-size="9.5" fill="#555">Fourth, we recommend that security interventions in LLM</text>
+<text x="1288" y="1499" text-anchor="middle" font-size="9.5" fill="#555">evaluation pipelines be empirically validated on both</text>
+<text x="1288" y="1511" text-anchor="middle" font-size="9.5" fill="#555">adversarial and benign conditions before deployment.</text>
+<title>C4 [Contribution] (cites=0)
+Fourth, we recommend that security interventions in LLM evaluation pipelines be empirically validated on both adversarial and benign conditions before deployment.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

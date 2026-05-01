@@ -1,0 +1,218 @@
+<svg viewBox="0 0 1480 2020" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="278" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="626" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="536" x2="1450" y2="536" stroke="#eee" stroke-width="1"/>
+<text x="14" y="868" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="716" x2="1450" y2="716" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1260" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1020" x2="1450" y2="1020" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1640" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1500" x2="1450" y2="1500" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1870" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1780" x2="1450" y2="1780" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1808" width="1140" height="116" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1804" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N13</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="276" x2="805" y2="304" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="388" x2="805" y2="416" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="399" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To mitigate</text>
+<line x1="805" y1="488" x2="805" y2="584" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="668" x2="805" y2="764" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="713" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="848" x2="805" y2="876" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="972" x2="805" y2="1068" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1017" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">This gap raises</text>
+<line x1="805" y1="1152" x2="805" y2="1180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1252" x2="805" y2="1280" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="1263" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Conversely</text>
+<line x1="805" y1="1352" x2="805" y2="1380" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1452" x2="805" y2="1548" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1632" x2="805" y2="1660" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="805" y1="1732" x2="427" y2="1828" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1732" x2="805" y2="1828" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1732" x2="1183" y2="1828" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="1912" x2="805" y2="764" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1912" x2="805" y2="876" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">NLP services transmit embeddings</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Embedding-based NLP services—including semantic search, text classification,</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">and language model inference—require transmitting dense vector</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">representations of user text to remote servers.</text>
+<title>N1 [Context] (cites=0)
+Embedding-based NLP services—including semantic search, text classification, and language model inference—require transmitting dense vector representations of user text to remote servers.</title>
+</g>
+<circle cx="1022.0" cy="188.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="196.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="180" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Embeddings can be inverted to text</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">These embeddings, while enabling powerful downstream applications, pose</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">significant privacy risks: recent work has demonstrated that text embeddings</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">can be inverted to recover the original text with high fidelity (Morris et</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">al., 2023; Kale…</text>
+<title>N2 [Context] (cites=2)
+These embeddings, while enabling powerful downstream applications, pose significant privacy risks: recent work has demonstrated that text embeddings can be inverted to recover the original text with high fidelity (Morris et al., 2023; Kale et al., 2025).</title>
+</g>
+<g>
+<rect x="595" y="304" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="318" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Split inference exposes embeddings</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">This vulnerability is particularly concerning in split inference</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">architectures, where clients compute embeddings locally before sending them</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">to untrusted servers.</text>
+<title>N3 [Context] (cites=0)
+This vulnerability is particularly concerning in split inference architectures, where clients compute embeddings locally before sending them to untrusted servers.</title>
+</g>
+<g>
+<rect x="595" y="416" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="430" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="445" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Perturbation-based defenses proposed</text>
+<text x="805" y="461" text-anchor="middle" font-size="9.5" fill="#555">To mitigate embedding leakage, researchers have proposed perturbation-based</text>
+<text x="805" y="473" text-anchor="middle" font-size="9.5" fill="#555">defenses that add calibrated noise to embeddings before transmission.</text>
+<title>N4 [Context] (cites=0)
+To mitigate embedding leakage, researchers have proposed perturbation-based defenses that add calibrated noise to embeddings before transmission.</title>
+</g>
+<circle cx="1022.0" cy="592.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="600.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="584" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="598" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work : ANCHOR]</text>
+<text x="805" y="613" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Norm-clipped L2-Laplacian (Mai 2023)</text>
+<text x="805" y="629" text-anchor="middle" font-size="9.5" fill="#555">A prominent approach combines L2-Laplacian noise with norm clipping (Mai et</text>
+<text x="805" y="641" text-anchor="middle" font-size="9.5" fill="#555">al., 2023), providing dχ-privacy guarantees (Chatzikokolakis et al., 2013)</text>
+<text x="805" y="653" text-anchor="middle" font-size="9.5" fill="#555">while bounding the output space.</text>
+<title>N5 [Prior_Work] (cites=2)
+A prominent approach combines L2-Laplacian noise with norm clipping (Mai et al., 2023), providing dχ-privacy guarantees (Chatzikokolakis et al., 2013) while bounding the output space.</title>
+</g>
+<g>
+<rect x="595" y="764" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="778" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="793" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Defense evaluated only with NN attacks</text>
+<text x="805" y="809" text-anchor="middle" font-size="9.5" fill="#555">However, the effectiveness of this defense has been evaluated primarily</text>
+<text x="805" y="821" text-anchor="middle" font-size="9.5" fill="#555">using simple per-token nearest-neighbor (NN) attacks, which ignore</text>
+<text x="805" y="833" text-anchor="middle" font-size="9.5" fill="#555">sequence-level constraints.</text>
+<title>N6 [Limitation] (cites=0)
+However, the effectiveness of this defense has been evaluated primarily using simple per-token nearest-neighbor (NN) attacks, which ignore sequence-level constraints.</title>
+</g>
+<circle cx="1022.0" cy="884.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="876" width="420" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="890" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="905" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">BeamClean stronger but untested on clipping</text>
+<text x="805" y="921" text-anchor="middle" font-size="9.5" fill="#555">Recent work on BeamClean (Kale et al., 2025) has shown that sequence-aware</text>
+<text x="805" y="933" text-anchor="middle" font-size="9.5" fill="#555">attacks leveraging language model priors can dramatically outperform NN</text>
+<text x="805" y="945" text-anchor="middle" font-size="9.5" fill="#555">baselines under input-independent noise—but BeamClean's evaluation did not</text>
+<text x="805" y="957" text-anchor="middle" font-size="9.5" fill="#555">include…</text>
+<title>N7 [Limitation] (cites=1)
+Recent work on BeamClean (Kale et al., 2025) has shown that sequence-aware attacks leveraging language model priors can dramatically outperform NN baselines under input-independent noise—but BeamClean's evaluation did not include norm-clipped mechanisms.</title>
+</g>
+<g>
+<rect x="595" y="1068" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1082" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="1097" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RQ: BeamClean vs NN under norm-clipping</text>
+<text x="805" y="1113" text-anchor="middle" font-size="9.5" fill="#555">This gap raises a critical question: Does the sequence-aware BeamClean</text>
+<text x="805" y="1125" text-anchor="middle" font-size="9.5" fill="#555">attacker pose a greater threat than simple NN decoding under norm-clipped</text>
+<text x="805" y="1137" text-anchor="middle" font-size="9.5" fill="#555">L2-Laplacian perturbation?</text>
+<title>N8 [Method] (cites=0)
+This gap raises a critical question: Does the sequence-aware BeamClean attacker pose a greater threat than simple NN decoding under norm-clipped L2-Laplacian perturbation?</title>
+</g>
+<g>
+<rect x="595" y="1180" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="1209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">If yes: NN under-estimates leakage</text>
+<text x="805" y="1225" text-anchor="middle" font-size="9.5" fill="#555">If BeamClean significantly outperforms NN, then privacy evaluations relying</text>
+<text x="805" y="1237" text-anchor="middle" font-size="9.5" fill="#555">solely on NN attacks may substantially underestimate leakage.</text>
+<title>N9 [Method] (cites=0)
+If BeamClean significantly outperforms NN, then privacy evaluations relying solely on NN attacks may substantially underestimate leakage.</title>
+</g>
+<g>
+<rect x="595" y="1280" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1294" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="805" y="1309" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">If no: clipping is effective mitigation</text>
+<text x="805" y="1325" text-anchor="middle" font-size="9.5" fill="#555">Conversely, if norm clipping closes the gap, it could serve as an effective</text>
+<text x="805" y="1337" text-anchor="middle" font-size="9.5" fill="#555">practical mitigation.</text>
+<title>N10 [Method] (cites=0)
+Conversely, if norm clipping closes the gap, it could serve as an effective practical mitigation.</title>
+</g>
+<g>
+<rect x="595" y="1380" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1394" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="805" y="1409" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Conduct systematic privacy audit</text>
+<text x="805" y="1425" text-anchor="middle" font-size="9.5" fill="#555">We conduct a systematic privacy audit to answer this question, and our</text>
+<text x="805" y="1437" text-anchor="middle" font-size="9.5" fill="#555">findings are surprising.</text>
+<title>N11 [Method] (cites=0)
+We conduct a systematic privacy audit to answer this question, and our findings are surprising.</title>
+</g>
+<g>
+<rect x="595" y="1548" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1562" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Result]</text>
+<text x="805" y="1577" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Both attackers &gt;99.98% Token-ASR</text>
+<text x="805" y="1593" text-anchor="middle" font-size="9.5" fill="#555">At the operating point proposed in prior work (η = 142, producing 30–50%</text>
+<text x="805" y="1605" text-anchor="middle" font-size="9.5" fill="#555">clip rate), both NN and BeamClean achieve near-perfect reconstruction</text>
+<text x="805" y="1617" text-anchor="middle" font-size="9.5" fill="#555">(&gt;99.98% Token-ASR, 100% Canary-EM).</text>
+<title>N12 [Result] (cites=0)
+At the operating point proposed in prior work (η = 142, producing 30–50% clip rate), both NN and BeamClean achieve near-perfect reconstruction (&gt;99.98% Token-ASR, 100% Canary-EM).</title>
+</g>
+<g>
+<rect x="595" y="1660" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1674" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Result]</text>
+<text x="805" y="1689" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Comparison moot; defense ineffective</text>
+<text x="805" y="1705" text-anchor="middle" font-size="9.5" fill="#555">The comparison between attackers becomes moot: the defense provides no</text>
+<text x="805" y="1717" text-anchor="middle" font-size="9.5" fill="#555">meaningful privacy protection.</text>
+<title>N13 [Result] (cites=0)
+The comparison between attackers becomes moot: the defense provides no meaningful privacy protection.</title>
+</g>
+<g>
+<rect x="247" y="1828" width="360" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1842" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="427" y="1857" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: ceiling effect; defense ineffective</text>
+<text x="427" y="1873" text-anchor="middle" font-size="9.5" fill="#555">We demonstrate a ceiling effect: at the proposed operating point,</text>
+<text x="427" y="1885" text-anchor="middle" font-size="9.5" fill="#555">both simple and sophisticated attackers achieve near-perfect</text>
+<text x="427" y="1897" text-anchor="middle" font-size="9.5" fill="#555">reconstruction, rendering the defense ineffective.</text>
+<title>C1 [Contribution] (cites=0)
+We demonstrate a ceiling effect: at the proposed operating point, both simple and sophisticated attackers achieve near-perfect reconstruction, rendering the defense ineffective.</title>
+</g>
+<g>
+<rect x="625" y="1828" width="360" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1842" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="805" y="1857" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: BeamClean does not beat NN here</text>
+<text x="805" y="1873" text-anchor="middle" font-size="9.5" fill="#555">We show that BeamClean does not outperform NN under norm-clipped</text>
+<text x="805" y="1885" text-anchor="middle" font-size="9.5" fill="#555">perturbation; in fact, NN achieves marginally higher accuracy due</text>
+<text x="805" y="1897" text-anchor="middle" font-size="9.5" fill="#555">to the ceiling effect.</text>
+<title>C2 [Contribution] (cites=0)
+We show that BeamClean does not outperform NN under norm-clipped perturbation; in fact, NN achieves marginally higher accuracy due to the ceiling effect.</title>
+</g>
+<g>
+<rect x="1003" y="1828" width="360" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1842" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="1183" y="1857" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: directional preservation explains it</text>
+<text x="1183" y="1873" text-anchor="middle" font-size="9.5" fill="#555">We explain this finding through directional preservation analysis:</text>
+<text x="1183" y="1885" text-anchor="middle" font-size="9.5" fill="#555">norm clipping preserves directional information exactly, making</text>
+<text x="1183" y="1897" text-anchor="middle" font-size="9.5" fill="#555">simple NN attacks sufficient when noise is mild.</text>
+<title>C3 [Contribution] (cites=0)
+We explain this finding through directional preservation analysis: norm clipping preserves directional information exactly, making simple NN attacks sufficient when noise is mild.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

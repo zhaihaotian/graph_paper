@@ -1,0 +1,249 @@
+<svg viewBox="0 0 1480 2048" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="154" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="484" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="288" x2="1450" y2="288" stroke="#eee" stroke-width="1"/>
+<text x="14" y="764" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="680" x2="1450" y2="680" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1088" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="848" x2="1450" y2="848" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1562" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1328" x2="1450" y2="1328" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1892" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1796" x2="1450" y2="1796" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1824" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1820" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N15</text>
+<line x1="805" y1="140" x2="805" y2="168" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="240" x2="616" y2="336" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="432" x2="805" y2="460" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="532" x2="805" y2="560" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="632" x2="616" y2="728" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="677" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="616" y1="800" x2="994" y2="336" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="432" x2="994" y2="728" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="532" x2="616" y2="728" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="627" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="994" y1="800" x2="805" y2="896" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="968" x2="805" y2="996" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1068" x2="805" y2="1096" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1180" x2="805" y2="1208" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1280" x2="805" y2="1376" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1448" x2="805" y2="1476" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1548" x2="805" y2="1576" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="1559" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="1648" x2="805" y2="1676" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1748" x2="427" y2="1844" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1748" x2="805" y2="1844" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1748" x2="1183" y2="1844" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1068" x2="994" y2="728" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1280" x2="994" y2="728" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="427" y1="1940" x2="994" y2="728" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1183" y1="1940" x2="994" y2="728" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<g>
+<rect x="595" y="68" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLM knowledge becomes outdated</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Large language models encode vast amounts of factual knowledge in their</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">parameters, but this knowledge can become outdated or incorrect over time.</text>
+<title>N1 [Context] (cites=0)
+Large language models encode vast amounts of factual knowledge in their parameters, but this knowledge can become outdated or incorrect over time.</title>
+</g>
+<circle cx="1022.0" cy="176.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="184.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="168" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="182" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="197" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Model editing for fact updates</text>
+<text x="805" y="213" text-anchor="middle" font-size="9.5" fill="#555">Model editing has emerged as a promising approach to update specific facts</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">without expensive full retraining (Zhang et al., 2024; Wang et al., 2023).</text>
+<title>N2 [Context] (cites=2)
+Model editing has emerged as a promising approach to update specific facts without expensive full retraining (Zhang et al., 2024; Wang et al., 2023).</title>
+</g>
+<circle cx="803.0" cy="344.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="352.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="360.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="368.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="336" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="350" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Prior_Work]</text>
+<text x="616" y="365" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">ROME/MEMIT vs MEND/SERAC</text>
+<text x="616" y="381" text-anchor="middle" font-size="9.5" fill="#555">Methods such as ROME (Meng et al., 2022a) and MEMIT (Meng et al.,</text>
+<text x="616" y="393" text-anchor="middle" font-size="9.5" fill="#555">2022b) directly modify model weights to insert new knowledge,</text>
+<text x="616" y="405" text-anchor="middle" font-size="9.5" fill="#555">while memory-based approaches like MEND (Mitchell et al., 2021)</text>
+<text x="616" y="417" text-anchor="middle" font-size="9.5" fill="#555">and SERAC (Mitchell et al., 2022) learn to…</text>
+<title>N3 [Prior_Work] (cites=4)
+Methods such as ROME (Meng et al., 2022a) and MEMIT (Meng et al., 2022b) directly modify model weights to insert new knowledge, while memory-based approaches like MEND (Mitchell et al., 2021) and SERAC (Mitchell et al., 2022) learn to predict weight updates or store edits externally.</title>
+</g>
+<circle cx="1022.0" cy="468.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="460" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="474" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work : ANCHOR]</text>
+<text x="805" y="489" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fine-tuning-based editing</text>
+<text x="805" y="505" text-anchor="middle" font-size="9.5" fill="#555">Fine-tuning-based editing offers a simpler alternative: directly optimizing</text>
+<text x="805" y="517" text-anchor="middle" font-size="9.5" fill="#555">a subset of model parameters on the edit examples (Yang et al., 2025b).</text>
+<title>N4 [Prior_Work] (cites=1)
+Fine-tuning-based editing offers a simpler alternative: directly optimizing a subset of model parameters on the edit examples (Yang et al., 2025b).</title>
+</g>
+<g>
+<rect x="595" y="560" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="574" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="805" y="589" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Competitive without editing networks</text>
+<text x="805" y="605" text-anchor="middle" font-size="9.5" fill="#555">This approach achieves competitive editing performance while avoiding the</text>
+<text x="805" y="617" text-anchor="middle" font-size="9.5" fill="#555">complexity of specialized editing networks.</text>
+<title>N5 [Prior_Work] (cites=0)
+This approach achieves competitive editing performance while avoiding the complexity of specialized editing networks.</title>
+</g>
+<g>
+<rect x="436" y="728" width="360" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="742" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="616" y="757" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Open question: which layer?</text>
+<text x="616" y="773" text-anchor="middle" font-size="9.5" fill="#555">However, a critical design choice remains: which layer should be</text>
+<text x="616" y="785" text-anchor="middle" font-size="9.5" fill="#555">fine-tuned?</text>
+<title>N6 [Limitation] (cites=0)
+However, a critical design choice remains: which layer should be fine-tuned?</title>
+</g>
+<circle cx="1181.0" cy="344.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="336" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="350" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7pw [Prior_Work]</text>
+<text x="994" y="365" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Current heuristics via layer sweeps</text>
+<text x="994" y="381" text-anchor="middle" font-size="9.5" fill="#555">Current practice relies on model-specific heuristics—early-middle</text>
+<text x="994" y="393" text-anchor="middle" font-size="9.5" fill="#555">layers for some architectures, late-middle layers for</text>
+<text x="994" y="405" text-anchor="middle" font-size="9.5" fill="#555">others—determined through expensive layer sweeps (Yang et al.,</text>
+<text x="994" y="417" text-anchor="middle" font-size="9.5" fill="#555">2025b).</text>
+<title>N7pw [Prior_Work] (cites=1)
+Current practice relies on model-specific heuristics—early-middle layers for some architectures, late-middle layers for others—determined through expensive layer sweeps (Yang et al., 2025b).</title>
+</g>
+<g>
+<rect x="814" y="728" width="360" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="742" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="994" y="757" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Heuristics: ad hoc, must re-tune</text>
+<text x="994" y="773" text-anchor="middle" font-size="9.5" fill="#555">These heuristics lack principled justification and must be</text>
+<text x="994" y="785" text-anchor="middle" font-size="9.5" fill="#555">re-tuned for each new model family.</text>
+<title>N7 [Limitation] (cites=0)
+These heuristics lack principled justification and must be re-tuned for each new model family.</title>
+</g>
+<g>
+<rect x="595" y="896" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="910" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="925" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Investigate gradient-based selection</text>
+<text x="805" y="941" text-anchor="middle" font-size="9.5" fill="#555">In this paper, we investigate whether gradient information can provide a</text>
+<text x="805" y="953" text-anchor="middle" font-size="9.5" fill="#555">principled basis for layer selection.</text>
+<title>N8 [Method] (cites=0)
+In this paper, we investigate whether gradient information can provide a principled basis for layer selection.</title>
+</g>
+<g>
+<rect x="595" y="996" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1010" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="1025" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose GradRatio-Select score</text>
+<text x="805" y="1041" text-anchor="middle" font-size="9.5" fill="#555">We propose GradRatio-Select, which computes the ratio of edit-to-retain</text>
+<text x="805" y="1053" text-anchor="middle" font-size="9.5" fill="#555">gradient magnitudes across layers: S(ℓ) = ∥gedit (ℓ)∥2 /∥gretain (ℓ)∥2 .</text>
+<title>N9 [Method] (cites=0)
+We propose GradRatio-Select, which computes the ratio of edit-to-retain gradient magnitudes across layers: S(ℓ) = ∥gedit (ℓ)∥2 /∥gretain (ℓ)∥2 .</title>
+</g>
+<g>
+<rect x="595" y="1096" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1110" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="805" y="1125" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Intuition: edit-sensitive, retain-safe</text>
+<text x="805" y="1141" text-anchor="middle" font-size="9.5" fill="#555">The intuition is that an ideal editing layer should be responsive to the</text>
+<text x="805" y="1153" text-anchor="middle" font-size="9.5" fill="#555">edit objective (large edit gradient) while having minimal impact on general</text>
+<text x="805" y="1165" text-anchor="middle" font-size="9.5" fill="#555">capabilities (small retain gradient).</text>
+<title>N10 [Method] (cites=0)
+The intuition is that an ideal editing layer should be responsive to the edit objective (large edit gradient) while having minimal impact on general capabilities (small retain gradient).</title>
+</g>
+<g>
+<rect x="595" y="1208" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1222" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="805" y="1237" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Adaptive threshold excludes early layers</text>
+<text x="805" y="1253" text-anchor="middle" font-size="9.5" fill="#555">We further introduce an adaptive threshold to exclude structurally critical</text>
+<text x="805" y="1265" text-anchor="middle" font-size="9.5" fill="#555">early layers that would cause catastrophic capability loss if modified.</text>
+<title>N11 [Method] (cites=0)
+We further introduce an adaptive threshold to exclude structurally critical early layers that would cause catastrophic capability loss if modified.</title>
+</g>
+<g>
+<rect x="595" y="1376" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1390" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Result]</text>
+<text x="805" y="1405" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Auto-selects layers adjacent to heuristics</text>
+<text x="805" y="1421" text-anchor="middle" font-size="9.5" fill="#555">Our experiments on Qwen2.5-7B and LLaMA-3-8B reveal that GradRatio-Select</text>
+<text x="805" y="1433" text-anchor="middle" font-size="9.5" fill="#555">automatically identifies layers adjacent to manually-tuned heuristics.</text>
+<title>N12 [Result] (cites=0)
+Our experiments on Qwen2.5-7B and LLaMA-3-8B reveal that GradRatio-Select automatically identifies layers adjacent to manually-tuned heuristics.</title>
+</g>
+<g>
+<rect x="595" y="1476" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1490" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Result]</text>
+<text x="805" y="1505" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Qwen2.5-7B: matches baseline</text>
+<text x="805" y="1521" text-anchor="middle" font-size="9.5" fill="#555">On Qwen2.5-7B, the method achieves performance statistically</text>
+<text x="805" y="1533" text-anchor="middle" font-size="9.5" fill="#555">indistinguishable from the baseline.</text>
+<title>N13 [Result] (cites=0)
+On Qwen2.5-7B, the method achieves performance statistically indistinguishable from the baseline.</title>
+</g>
+<g>
+<rect x="595" y="1576" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1590" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Result]</text>
+<text x="805" y="1605" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLaMA-3-8B: -5.26pp on math</text>
+<text x="805" y="1621" text-anchor="middle" font-size="9.5" fill="#555">However, on LLaMA-3-8B, it shows a 5.26 percentage point capability</text>
+<text x="805" y="1633" text-anchor="middle" font-size="9.5" fill="#555">degradation, primarily driven by mathematical reasoning tasks.</text>
+<title>N14 [Result] (cites=0)
+However, on LLaMA-3-8B, it shows a 5.26 percentage point capability degradation, primarily driven by mathematical reasoning tasks.</title>
+</g>
+<g>
+<rect x="595" y="1676" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1690" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Result]</text>
+<text x="805" y="1705" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Automation but no improvement</text>
+<text x="805" y="1721" text-anchor="middle" font-size="9.5" fill="#555">These results suggest that while gradient-based selection can automate layer</text>
+<text x="805" y="1733" text-anchor="middle" font-size="9.5" fill="#555">identification, it does not improve upon carefully-tuned heuristics.</text>
+<title>N15 [Result] (cites=0)
+These results suggest that while gradient-based selection can automate layer identification, it does not improve upon carefully-tuned heuristics.</title>
+</g>
+<g>
+<rect x="247" y="1844" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1858" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="427" y="1873" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: GradRatio scoring metric</text>
+<text x="427" y="1889" text-anchor="middle" font-size="9.5" fill="#555">We propose GradRatio scoring, a gradient-based metric for</text>
+<text x="427" y="1901" text-anchor="middle" font-size="9.5" fill="#555">evaluating layer editability based on the ratio of edit-to-retain</text>
+<text x="427" y="1913" text-anchor="middle" font-size="9.5" fill="#555">gradient magnitudes.</text>
+<title>C1 [Contribution] (cites=0)
+We propose GradRatio scoring, a gradient-based metric for evaluating layer editability based on the ratio of edit-to-retain gradient magnitudes.</title>
+</g>
+<g>
+<rect x="625" y="1844" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1858" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="805" y="1873" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: adaptive early-layer threshold</text>
+<text x="805" y="1889" text-anchor="middle" font-size="9.5" fill="#555">We introduce an adaptive threshold mechanism that excludes</text>
+<text x="805" y="1901" text-anchor="middle" font-size="9.5" fill="#555">structurally critical early layers, preventing capability</text>
+<text x="805" y="1913" text-anchor="middle" font-size="9.5" fill="#555">catastrophe.</text>
+<title>C2 [Contribution] (cites=0)
+We introduce an adaptive threshold mechanism that excludes structurally critical early layers, preventing capability catastrophe.</title>
+</g>
+<g>
+<rect x="1003" y="1844" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1858" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="1183" y="1873" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: matches Qwen, lags LLaMA</text>
+<text x="1183" y="1889" text-anchor="middle" font-size="9.5" fill="#555">We provide empirical evaluation showing that GradRatio-Select</text>
+<text x="1183" y="1901" text-anchor="middle" font-size="9.5" fill="#555">matches heuristic performance on Qwen2.5-7B but underperforms on</text>
+<text x="1183" y="1913" text-anchor="middle" font-size="9.5" fill="#555">LLaMA-3-8B, demonstrating that gradient-based selection provides</text>
+<text x="1183" y="1925" text-anchor="middle" font-size="9.5" fill="#555">automation without improvement.</text>
+<title>C3 [Contribution] (cites=0)
+We provide empirical evaluation showing that GradRatio-Select matches heuristic performance on Qwen2.5-7B but underperforms on LLaMA-3-8B, demonstrating that gradient-based selection provides automation without improvement.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

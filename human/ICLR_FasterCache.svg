@@ -1,0 +1,478 @@
+<svg viewBox="0 0 1480 3008" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="228" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="688" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="436" x2="1450" y2="436" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1074" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="940" x2="1450" y2="940" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1286" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PROOF</text>
+<line x1="60" y1="1208" x2="1450" y2="1208" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1684" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1364" x2="1450" y2="1364" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2336" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="2004" x2="1450" y2="2004" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2808" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="2668" x2="1450" y2="2668" stroke="#eee" stroke-width="1"/>
+<rect x="424" y="1056" width="762" height="116" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="432" y="1052" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N8</text>
+<rect x="158" y="2784" width="1294" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="2780" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N29</text>
+<rect x="424" y="1056" width="762" height="116" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="432" y="1052" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N29c</text>
+<line x1="805" y1="164" x2="805" y2="192" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="175" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Although</text>
+<line x1="805" y1="276" x2="805" y2="304" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="287" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">This calls for</text>
+<line x1="805" y1="388" x2="805" y2="484" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="556" x2="805" y2="584" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="668" x2="805" y2="696" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="768" x2="805" y2="796" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="892" x2="805" y2="988" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="937" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Despite their proven effectiveness</text>
+<line x1="805" y1="1048" x2="616" y2="1076" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1048" x2="994" y2="1076" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1160" x2="427" y2="1412" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="710" y="1283" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">In this work, we aim to address</text>
+<line x1="427" y1="1508" x2="616" y2="1536" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1632" x2="427" y2="2052" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="2148" x2="427" y2="2176" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="427" y="2159" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="427" y1="2272" x2="427" y2="2300" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="427" y="2283" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">As a result</text>
+<line x1="616" y1="1316" x2="427" y2="2300" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="427" y1="2384" x2="805" y2="1412" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1508" x2="805" y2="2052" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1316" x2="805" y2="2052" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="2148" x2="805" y2="2176" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2272" x2="805" y2="2300" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2384" x2="616" y2="2412" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="2395" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">In contrast</text>
+<line x1="616" y1="2496" x2="805" y2="2524" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2620" x2="1183" y2="1412" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="994" y="2013" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Based on the above insights</text>
+<line x1="1183" y1="1508" x2="994" y2="1536" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1632" x2="805" y2="1660" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1744" x2="805" y2="1772" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1856" x2="805" y2="1884" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1956" x2="1183" y2="2052" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1183" y1="2148" x2="1183" y2="2176" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1183" y1="2272" x2="1183" y2="2300" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1183" y1="2384" x2="994" y2="2412" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="2496" x2="805" y2="2716" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2776" x2="322" y2="2804" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2776" x2="644" y2="2804" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2776" x2="966" y2="2804" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2776" x2="1288" y2="2804" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1632" x2="616" y2="1076" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1856" x2="994" y2="1076" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="966" y1="2900" x2="616" y2="1076" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="966" y1="2900" x2="994" y2="1076" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="100.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="108.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="116.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="124.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">DiT successful in image/video generation</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Diffusion transformers (DiT) (Peebles &amp; Xie, 2023) have achieved notable</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">success in image (Chen et al., 2023; 2024b; Esser et al., 2024) and video</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">generation (Ma et al., 2024a; Zheng et al., 2024; PKU-Yuan Lab and Tuzhan AI</text>
+<text x="805" y="149" text-anchor="middle" font-size="9.5" fill="#555">etc., 2024),…</text>
+<title>N1 [Context] (cites=7)
+Diffusion transformers (DiT) (Peebles &amp; Xie, 2023) have achieved notable success in image (Chen et al., 2023; 2024b; Esser et al., 2024) and video generation (Ma et al., 2024a; Zheng et al., 2024; PKU-Yuan Lab and Tuzhan AI etc., 2024), attracting significant attention for their potential.</title>
+</g>
+<circle cx="1022.0" cy="200.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="192" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">But: 2-5 min for 6s 480P video</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">Although iterative denoising, classifier-free guidance (CFG) (Ho &amp; Salimans,</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">2022), and transformer attention mechanisms have significantly improved the</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">generative capabilities of diffusion models, they also lead to substantial…</text>
+<title>N2 [Context] (cites=1)
+Although iterative denoising, classifier-free guidance (CFG) (Ho &amp; Salimans, 2022), and transformer attention mechanisms have significantly improved the generative capabilities of diffusion models, they also lead to substantial computational costs and increased memory requirements for inference, especially for video generation which typically takes 2-5 minutes to synthesize a 6-second 480P video, limiting their practical use.</title>
+</g>
+<circle cx="1022.0" cy="312.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="320.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="328.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="336.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="304" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="318" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Need cheaper diffusion inference</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">This calls for the development of new techniques that require less</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">computational cost for diffusion models (Salimans &amp; Ho, 2022; Ma et al.,</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">2024b; Chen et al., 2024c; Zhao et al., 2024c).</text>
+<title>N3 [Context] (cites=4)
+This calls for the development of new techniques that require less computational cost for diffusion models (Salimans &amp; Ho, 2022; Ma et al., 2024b; Chen et al., 2024c; Zhao et al., 2024c).</title>
+</g>
+<g>
+<rect x="595" y="484" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="498" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work]</text>
+<text x="805" y="513" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Cache-based acceleration widely adopted</text>
+<text x="805" y="529" text-anchor="middle" font-size="9.5" fill="#555">Among the recently proposed solutions, cache-based acceleration has emerged</text>
+<text x="805" y="541" text-anchor="middle" font-size="9.5" fill="#555">as one of the most widely adopted approaches.</text>
+<title>N4 [Prior_Work] (cites=0)
+Among the recently proposed solutions, cache-based acceleration has emerged as one of the most widely adopted approaches.</title>
+</g>
+<g>
+<rect x="595" y="584" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="598" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="805" y="613" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Reuse intermediate features across steps</text>
+<text x="805" y="629" text-anchor="middle" font-size="9.5" fill="#555">This approach speeds up the sampling process by reusing intermediate</text>
+<text x="805" y="641" text-anchor="middle" font-size="9.5" fill="#555">features across timesteps, thereby reducing redundant computations and</text>
+<text x="805" y="653" text-anchor="middle" font-size="9.5" fill="#555">significantly improving computational efficiency.</text>
+<title>N5 [Prior_Work] (cites=0)
+This approach speeds up the sampling process by reusing intermediate features across timesteps, thereby reducing redundant computations and significantly improving computational efficiency.</title>
+</g>
+<g>
+<rect x="595" y="696" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="710" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work]</text>
+<text x="805" y="725" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Training-free + portable</text>
+<text x="805" y="741" text-anchor="middle" font-size="9.5" fill="#555">Besides, it requires no additional training costs for inference acceleration</text>
+<text x="805" y="753" text-anchor="middle" font-size="9.5" fill="#555">and offers straightforward generalization to other video diffusion models.</text>
+<title>N6 [Prior_Work] (cites=0)
+Besides, it requires no additional training costs for inference acceleration and offers straightforward generalization to other video diffusion models.</title>
+</g>
+<circle cx="1022.0" cy="804.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="812.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="820.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="828.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="796" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="810" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Prior_Work]</text>
+<text x="805" y="825" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Examples: U-Net cache, ∆-DiT, PAB</text>
+<text x="805" y="841" text-anchor="middle" font-size="9.5" fill="#555">Examples include cache-based methods for U-Net based diffusion models (Ma et</text>
+<text x="805" y="853" text-anchor="middle" font-size="9.5" fill="#555">al., 2024b; Li et al., 2023b), residual caching in ∆-DiT (Chen et al.,</text>
+<text x="805" y="865" text-anchor="middle" font-size="9.5" fill="#555">2024c) for transformer based diffusion models, and hierarchical attention</text>
+<text x="805" y="877" text-anchor="middle" font-size="9.5" fill="#555">caching of PAB…</text>
+<title>N7 [Prior_Work] (cites=4)
+Examples include cache-based methods for U-Net based diffusion models (Ma et al., 2024b; Li et al., 2023b), residual caching in ∆-DiT (Chen et al., 2024c) for transformer based diffusion models, and hierarchical attention caching of PAB (Zhao et al., 2024c) for video generation.</title>
+</g>
+<g>
+<rect x="595" y="988" width="420" height="60" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1002" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Limitation]</text>
+<text x="805" y="1017" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Two critical concerns</text>
+<text x="805" y="1033" text-anchor="middle" font-size="9.5" fill="#555">Despite their proven effectiveness, there exist two critical concerns:</text>
+<title>N8 [Limitation] (cites=0)
+Despite their proven effectiveness, there exist two critical concerns:</title>
+</g>
+<g>
+<rect x="436" y="1076" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="1090" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8a [Limitation]</text>
+<text x="616" y="1105" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Concern 1: misalignment with iterative denoising</text>
+<text x="616" y="1121" text-anchor="middle" font-size="9.5" fill="#555">1) Whether directly reusing intermediate features aligns with the</text>
+<text x="616" y="1133" text-anchor="middle" font-size="9.5" fill="#555">iterative denoising mechanism, considering the inherent feature</text>
+<text x="616" y="1145" text-anchor="middle" font-size="9.5" fill="#555">variations between timesteps.</text>
+<title>N8a [Limitation] (cites=0)
+1) Whether directly reusing intermediate features aligns with the iterative denoising mechanism, considering the inherent feature variations between timesteps.</title>
+</g>
+<g>
+<rect x="814" y="1076" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="1090" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8b [Limitation]</text>
+<text x="994" y="1105" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Concern 2: only attention features explored</text>
+<text x="994" y="1121" text-anchor="middle" font-size="9.5" fill="#555">2) Current cache-based methods focus primarily on the attention</text>
+<text x="994" y="1133" text-anchor="middle" font-size="9.5" fill="#555">features within the transformer networks, with limited exploration</text>
+<text x="994" y="1145" text-anchor="middle" font-size="9.5" fill="#555">of accelerating different parts of the pipeline.</text>
+<title>N8b [Limitation] (cites=0)
+2) Current cache-based methods focus primarily on the attention features within the transformer networks, with limited exploration of accelerating different parts of the pipeline.</title>
+</g>
+<g>
+<rect x="247" y="1412" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="427" y="1426" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="427" y="1441" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Address both concerns</text>
+<text x="427" y="1457" text-anchor="middle" font-size="9.5" fill="#555">In this work, we aim to address these two concerns.</text>
+<title>N9 [Method] (cites=0)
+In this work, we aim to address these two concerns.</title>
+</g>
+<g>
+<rect x="436" y="1536" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1550" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="616" y="1565" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Investigate feature reuse process</text>
+<text x="616" y="1581" text-anchor="middle" font-size="9.5" fill="#555">To thoroughly investigate the acceleration potential of DiT</text>
+<text x="616" y="1593" text-anchor="middle" font-size="9.5" fill="#555">inference for video generation, we delve into the feature reuse</text>
+<text x="616" y="1605" text-anchor="middle" font-size="9.5" fill="#555">process of existing cache-based methods.</text>
+<title>N10 [Method] (cites=0)
+To thoroughly investigate the acceleration potential of DiT inference for video generation, we delve into the feature reuse process of existing cache-based methods.</title>
+</g>
+<g>
+<rect x="247" y="2052" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="427" y="2066" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Result]</text>
+<text x="427" y="2081" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Existing methods assume high adjacent-step similarity</text>
+<text x="427" y="2097" text-anchor="middle" font-size="9.5" fill="#555">As shown in Fig. 2, these methods typically assume a high degree</text>
+<text x="427" y="2109" text-anchor="middle" font-size="9.5" fill="#555">of feature similarity between adjacent timesteps in the iterative</text>
+<text x="427" y="2121" text-anchor="middle" font-size="9.5" fill="#555">denoising process, and achieve accelerated inference by sharing</text>
+<text x="427" y="2133" text-anchor="middle" font-size="9.5" fill="#555">features across consecutive timesteps.</text>
+<title>N11 [Result] (cites=0)
+As shown in Fig. 2, these methods typically assume a high degree of feature similarity between adjacent timesteps in the iterative denoising process, and achieve accelerated inference by sharing features across consecutive timesteps.</title>
+</g>
+<g>
+<rect x="247" y="2176" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="427" y="2190" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Result]</text>
+<text x="427" y="2205" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Subtle yet discernible differences exist</text>
+<text x="427" y="2221" text-anchor="middle" font-size="9.5" fill="#555">However, our investigation reveals that while features in the same</text>
+<text x="427" y="2233" text-anchor="middle" font-size="9.5" fill="#555">attention module (e.g., spatial attention) appear to be nearly</text>
+<text x="427" y="2245" text-anchor="middle" font-size="9.5" fill="#555">identical between adjacent timesteps, there exist some subtle yet</text>
+<text x="427" y="2257" text-anchor="middle" font-size="9.5" fill="#555">discernible differences.</text>
+<title>N12 [Result] (cites=0)
+However, our investigation reveals that while features in the same attention module (e.g., spatial attention) appear to be nearly identical between adjacent timesteps, there exist some subtle yet discernible differences.</title>
+</g>
+<g>
+<rect x="247" y="2300" width="360" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="427" y="2314" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Result]</text>
+<text x="427" y="2329" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Naive reuse degrades details</text>
+<text x="427" y="2345" text-anchor="middle" font-size="9.5" fill="#555">As a result, a naive feature caching and reuse strategy often</text>
+<text x="427" y="2357" text-anchor="middle" font-size="9.5" fill="#555">leads to degradation of details in generated videos, as shown in</text>
+<text x="427" y="2369" text-anchor="middle" font-size="9.5" fill="#555">Fig. 3 (a).</text>
+<title>N13 [Result] (cites=0)
+As a result, a naive feature caching and reuse strategy often leads to degradation of details in generated videos, as shown in Fig. 3 (a).</title>
+</g>
+<g>
+<rect x="436" y="1256" width="360" height="60" rx="6" fill="#fff2cc" stroke="#b38a2c" stroke-width="1.2"/>
+<text x="616" y="1270" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">P13 [Proof]</text>
+<text x="616" y="1285" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fig. 3a: detail degradation</text>
+<text x="616" y="1301" text-anchor="middle" font-size="9.5" fill="#555">Fig. 3 (a)</text>
+<title>P13 [Proof] (cites=0)
+Fig. 3 (a)</title>
+</g>
+<g>
+<rect x="625" y="1412" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1426" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Method]</text>
+<text x="805" y="1441" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Investigate CFG redundancy</text>
+<text x="805" y="1457" text-anchor="middle" font-size="9.5" fill="#555">Following this analysis, we further extend the scope of our</text>
+<text x="805" y="1469" text-anchor="middle" font-size="9.5" fill="#555">investigation to explore potential redundancy within the</text>
+<text x="805" y="1481" text-anchor="middle" font-size="9.5" fill="#555">classifier-free guidance (CFG).</text>
+<title>N14 [Method] (cites=0)
+Following this analysis, we further extend the scope of our investigation to explore potential redundancy within the classifier-free guidance (CFG).</title>
+</g>
+<g>
+<rect x="625" y="2052" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2066" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Result]</text>
+<text x="805" y="2081" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CFG nearly doubles inference time</text>
+<text x="805" y="2097" text-anchor="middle" font-size="9.5" fill="#555">As shown in Fig. 3 (b), compared to internal network modules</text>
+<text x="805" y="2109" text-anchor="middle" font-size="9.5" fill="#555">(e.g., spatial attention and temporal attention), CFG almost</text>
+<text x="805" y="2121" text-anchor="middle" font-size="9.5" fill="#555">doubles the inference time due to the additional computation</text>
+<text x="805" y="2133" text-anchor="middle" font-size="9.5" fill="#555">required for unconditional outputs.</text>
+<title>N15 [Result] (cites=0)
+As shown in Fig. 3 (b), compared to internal network modules (e.g., spatial attention and temporal attention), CFG almost doubles the inference time due to the additional computation required for unconditional outputs.</title>
+</g>
+<g>
+<rect x="814" y="1256" width="360" height="60" rx="6" fill="#fff2cc" stroke="#b38a2c" stroke-width="1.2"/>
+<text x="994" y="1270" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">P15 [Proof]</text>
+<text x="994" y="1285" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fig. 3b: CFG time overhead</text>
+<text x="994" y="1301" text-anchor="middle" font-size="9.5" fill="#555">Fig. 3 (b)</text>
+<title>P15 [Proof] (cites=0)
+Fig. 3 (b)</title>
+</g>
+<g>
+<rect x="625" y="2176" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2190" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Result]</text>
+<text x="805" y="2205" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CFG differs from attention modules</text>
+<text x="805" y="2221" text-anchor="middle" font-size="9.5" fill="#555">Our experiments reveal a notable difference from our earlier</text>
+<text x="805" y="2233" text-anchor="middle" font-size="9.5" fill="#555">conclusion regarding attention modules.</text>
+<title>N16 [Result] (cites=0)
+Our experiments reveal a notable difference from our earlier conclusion regarding attention modules.</title>
+</g>
+<g>
+<rect x="625" y="2300" width="360" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2314" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Result]</text>
+<text x="805" y="2329" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Cond / uncond same-step: high similarity</text>
+<text x="805" y="2345" text-anchor="middle" font-size="9.5" fill="#555">In CFG, the conditional and unconditional outputs at the same</text>
+<text x="805" y="2357" text-anchor="middle" font-size="9.5" fill="#555">timestep exhibit a very high degree of similarity, suggesting</text>
+<text x="805" y="2369" text-anchor="middle" font-size="9.5" fill="#555">significant information redundancy.</text>
+<title>N17 [Result] (cites=0)
+In CFG, the conditional and unconditional outputs at the same timestep exhibit a very high degree of similarity, suggesting significant information redundancy.</title>
+</g>
+<g>
+<rect x="436" y="2412" width="360" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="616" y="2426" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Result]</text>
+<text x="616" y="2441" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Uncond across steps: weak similarity</text>
+<text x="616" y="2457" text-anchor="middle" font-size="9.5" fill="#555">In contrast, the similarity of unconditional features between</text>
+<text x="616" y="2469" text-anchor="middle" font-size="9.5" fill="#555">adjacent timesteps is relatively weak.</text>
+<title>N18 [Result] (cites=0)
+In contrast, the similarity of unconditional features between adjacent timesteps is relatively weak.</title>
+</g>
+<g>
+<rect x="595" y="2524" width="420" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2538" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Result]</text>
+<text x="805" y="2553" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Diff: low-mid -&gt; high-freq across phases</text>
+<text x="805" y="2569" text-anchor="middle" font-size="9.5" fill="#555">We further discover that the differences between the conditional and</text>
+<text x="805" y="2581" text-anchor="middle" font-size="9.5" fill="#555">unconditional outputs are predominantly concentrated in low- to</text>
+<text x="805" y="2593" text-anchor="middle" font-size="9.5" fill="#555">mid-frequency features during the mid-sampling phase, shifting to</text>
+<text x="805" y="2605" text-anchor="middle" font-size="9.5" fill="#555">high-frequency features in the…</text>
+<title>N19 [Result] (cites=0)
+We further discover that the differences between the conditional and unconditional outputs are predominantly concentrated in low- to mid-frequency features during the mid-sampling phase, shifting to high-frequency features in the late-sampling phase, with these differences evolving gradually.</title>
+</g>
+<g>
+<rect x="1003" y="1412" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="1183" y="1426" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Method]</text>
+<text x="1183" y="1441" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose FasterCache (training-free)</text>
+<text x="1183" y="1457" text-anchor="middle" font-size="9.5" fill="#555">Based on the above insights, we propose a novel strategy, termed</text>
+<text x="1183" y="1469" text-anchor="middle" font-size="9.5" fill="#555">FasterCache, to accelerate the inference of video diffusion models</text>
+<text x="1183" y="1481" text-anchor="middle" font-size="9.5" fill="#555">while ensuring high-quality generation and remaining</text>
+<text x="1183" y="1493" text-anchor="middle" font-size="9.5" fill="#555">training-free.</text>
+<title>N20 [Method] (cites=0)
+Based on the above insights, we propose a novel strategy, termed FasterCache, to accelerate the inference of video diffusion models while ensuring high-quality generation and remaining training-free.</title>
+</g>
+<g>
+<rect x="814" y="1536" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1550" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Method]</text>
+<text x="994" y="1565" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Dynamic feature reuse for attention</text>
+<text x="994" y="1581" text-anchor="middle" font-size="9.5" fill="#555">Specifically, we first introduce a dynamic feature reuse strategy</text>
+<text x="994" y="1593" text-anchor="middle" font-size="9.5" fill="#555">for attention modules which dynamically adjusts the reused</text>
+<text x="994" y="1605" text-anchor="middle" font-size="9.5" fill="#555">features across different timesteps, ensuring both distinction and</text>
+<text x="994" y="1617" text-anchor="middle" font-size="9.5" fill="#555">continuity of features between adjacent…</text>
+<title>N21 [Method] (cites=0)
+Specifically, we first introduce a dynamic feature reuse strategy for attention modules which dynamically adjusts the reused features across different timesteps, ensuring both distinction and continuity of features between adjacent timesteps are maintained.</title>
+</g>
+<g>
+<rect x="595" y="1660" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1674" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Method]</text>
+<text x="805" y="1689" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Preserve subtle variations + temporal consistency</text>
+<text x="805" y="1705" text-anchor="middle" font-size="9.5" fill="#555">This strategy preserves the subtle variations essential for the iterative</text>
+<text x="805" y="1717" text-anchor="middle" font-size="9.5" fill="#555">denoising process while ensuring temporal consistency, resulting in</text>
+<text x="805" y="1729" text-anchor="middle" font-size="9.5" fill="#555">accelerated inference with minimal loss of details in the generated videos.</text>
+<title>N22 [Method] (cites=0)
+This strategy preserves the subtle variations essential for the iterative denoising process while ensuring temporal consistency, resulting in accelerated inference with minimal loss of details in the generated videos.</title>
+</g>
+<g>
+<rect x="595" y="1772" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1786" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23 [Method]</text>
+<text x="805" y="1801" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CFG-Cache: residual + freq enhancement</text>
+<text x="805" y="1817" text-anchor="middle" font-size="9.5" fill="#555">Furthermore, we introduce CFG-Cache, an innovative technique that stores the</text>
+<text x="805" y="1829" text-anchor="middle" font-size="9.5" fill="#555">residuals between conditional and unconditional outputs, dynamically</text>
+<text x="805" y="1841" text-anchor="middle" font-size="9.5" fill="#555">enhancing their high-frequency and low-frequency components before reuse.</text>
+<title>N23 [Method] (cites=0)
+Furthermore, we introduce CFG-Cache, an innovative technique that stores the residuals between conditional and unconditional outputs, dynamically enhancing their high-frequency and low-frequency components before reuse.</title>
+</g>
+<g>
+<rect x="595" y="1884" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1898" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N24 [Method]</text>
+<text x="805" y="1913" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Speedup with detail preservation</text>
+<text x="805" y="1929" text-anchor="middle" font-size="9.5" fill="#555">This significantly accelerates inference while preserving details in</text>
+<text x="805" y="1941" text-anchor="middle" font-size="9.5" fill="#555">generated videos.</text>
+<title>N24 [Method] (cites=0)
+This significantly accelerates inference while preserving details in generated videos.</title>
+</g>
+<circle cx="1370.0" cy="2060.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1370.0" cy="2068.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1370.0" cy="2076.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1370.0" cy="2084.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1370.0" cy="2092.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="1003" y="2052" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="1183" y="2066" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N25 [Result]</text>
+<text x="1183" y="2081" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Evaluate on 5 video diffusion models</text>
+<text x="1183" y="2097" text-anchor="middle" font-size="9.5" fill="#555">We evaluate our FasterCache on various video diffusion models,</text>
+<text x="1183" y="2109" text-anchor="middle" font-size="9.5" fill="#555">including Open-Sora 1.2 (Zheng et al., 2024), Open-Sora-Plan</text>
+<text x="1183" y="2121" text-anchor="middle" font-size="9.5" fill="#555">(PKU-Yuan Lab and Tuzhan AI etc., 2024), Latte (Ma et al., 2024a),</text>
+<text x="1183" y="2133" text-anchor="middle" font-size="9.5" fill="#555">CogVideoX (Yang et al., 2024), and Vchitect-2.0…</text>
+<title>N25 [Result] (cites=5)
+We evaluate our FasterCache on various video diffusion models, including Open-Sora 1.2 (Zheng et al., 2024), Open-Sora-Plan (PKU-Yuan Lab and Tuzhan AI etc., 2024), Latte (Ma et al., 2024a), CogVideoX (Yang et al., 2024), and Vchitect-2.0 (Fan et al., 2025).</title>
+</g>
+<g>
+<rect x="1003" y="2176" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="1183" y="2190" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N26 [Result]</text>
+<text x="1183" y="2205" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fast + high quality across all models</text>
+<text x="1183" y="2221" text-anchor="middle" font-size="9.5" fill="#555">As shown in Fig 1, experimental results demonstrate that</text>
+<text x="1183" y="2233" text-anchor="middle" font-size="9.5" fill="#555">FasterCache can significantly accelerate inference while</text>
+<text x="1183" y="2245" text-anchor="middle" font-size="9.5" fill="#555">preserving high-quality video generation across all tested models.</text>
+<title>N26 [Result] (cites=0)
+As shown in Fig 1, experimental results demonstrate that FasterCache can significantly accelerate inference while preserving high-quality video generation across all tested models.</title>
+</g>
+<g>
+<rect x="1003" y="2300" width="360" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="1183" y="2314" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N27 [Result]</text>
+<text x="1183" y="2329" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Vchitect-2.0: 1.67x speedup, VBench 80.80→80.84</text>
+<text x="1183" y="2345" text-anchor="middle" font-size="9.5" fill="#555">Specifically, on Vchitect-2.0, FasterCache achieves 1.67× speedup,</text>
+<text x="1183" y="2357" text-anchor="middle" font-size="9.5" fill="#555">with performance comparable to the baseline (VBench: baseline</text>
+<text x="1183" y="2369" text-anchor="middle" font-size="9.5" fill="#555">80.80% → FasterCache 80.84%).</text>
+<title>N27 [Result] (cites=0)
+Specifically, on Vchitect-2.0, FasterCache achieves 1.67× speedup, with performance comparable to the baseline (VBench: baseline 80.80% → FasterCache 80.84%).</title>
+</g>
+<g>
+<rect x="814" y="2412" width="360" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="994" y="2426" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N28 [Result]</text>
+<text x="994" y="2441" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Beats baselines on both speed and quality</text>
+<text x="994" y="2457" text-anchor="middle" font-size="9.5" fill="#555">Furthermore, our method outperforms existing approaches in both</text>
+<text x="994" y="2469" text-anchor="middle" font-size="9.5" fill="#555">inference speed and video generation quality, highlighting its</text>
+<text x="994" y="2481" text-anchor="middle" font-size="9.5" fill="#555">effectiveness and efficiency in real-world applications.</text>
+<title>N28 [Result] (cites=0)
+Furthermore, our method outperforms existing approaches in both inference speed and video generation quality, highlighting its effectiveness and efficiency in real-world applications.</title>
+</g>
+<g>
+<rect x="595" y="2716" width="420" height="60" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="2730" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N29 [Contribution]</text>
+<text x="805" y="2745" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contributions:</text>
+<text x="805" y="2761" text-anchor="middle" font-size="9.5" fill="#555">Overall, the contributions of this work are as follows:</text>
+<title>N29 [Contribution] (cites=0)
+Overall, the contributions of this work are as follows:</title>
+</g>
+<g>
+<rect x="170" y="2804" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="322" y="2818" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N29a [Contribution]</text>
+<text x="322" y="2833" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: subtle adjacent-step differences matter</text>
+<text x="322" y="2849" text-anchor="middle" font-size="9.5" fill="#555">We analyze the feature reuse process in cache-based</text>
+<text x="322" y="2861" text-anchor="middle" font-size="9.5" fill="#555">methods and discover that while adjacent-step features</text>
+<text x="322" y="2873" text-anchor="middle" font-size="9.5" fill="#555">in attention modules appear to be similar, their subtle</text>
+<text x="322" y="2885" text-anchor="middle" font-size="9.5" fill="#555">differences can degrade output quality if ignored.</text>
+<title>N29a [Contribution] (cites=0)
+We analyze the feature reuse process in cache-based methods and discover that while adjacent-step features in attention modules appear to be similar, their subtle differences can degrade output quality if ignored.</title>
+</g>
+<g>
+<rect x="492" y="2804" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="644" y="2818" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N29b [Contribution]</text>
+<text x="644" y="2833" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: pioneer CFG acceleration analysis</text>
+<text x="644" y="2849" text-anchor="middle" font-size="9.5" fill="#555">We conduct a pioneering investigation of CFG's</text>
+<text x="644" y="2861" text-anchor="middle" font-size="9.5" fill="#555">potential for acceleration, finding high redundancy</text>
+<text x="644" y="2873" text-anchor="middle" font-size="9.5" fill="#555">within the same timestep but weaker similarity across</text>
+<text x="644" y="2885" text-anchor="middle" font-size="9.5" fill="#555">adjacent timesteps, revealing new acceleration…</text>
+<title>N29b [Contribution] (cites=0)
+We conduct a pioneering investigation of CFG's potential for acceleration, finding high redundancy within the same timestep but weaker similarity across adjacent timesteps, revealing new acceleration opportunities.</title>
+</g>
+<g>
+<rect x="814" y="2804" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="966" y="2818" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N29c [Contribution]</text>
+<text x="966" y="2833" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: propose FasterCache + CFG-Cache</text>
+<text x="966" y="2849" text-anchor="middle" font-size="9.5" fill="#555">We propose FasterCache, a training-free strategy that</text>
+<text x="966" y="2861" text-anchor="middle" font-size="9.5" fill="#555">dynamically adjusts feature reuse, preserving both</text>
+<text x="966" y="2873" text-anchor="middle" font-size="9.5" fill="#555">feature distinction and continuity. It also introduces</text>
+<text x="966" y="2885" text-anchor="middle" font-size="9.5" fill="#555">CFG-Cache to accelerate inference while preserving…</text>
+<title>N29c [Contribution] (cites=0)
+We propose FasterCache, a training-free strategy that dynamically adjusts feature reuse, preserving both feature distinction and continuity. It also introduces CFG-Cache to accelerate inference while preserving details in generated videos.</title>
+</g>
+<g>
+<rect x="1136" y="2804" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1288" y="2818" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N29d [Contribution]</text>
+<text x="1288" y="2833" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C4: empirical eval across models</text>
+<text x="1288" y="2849" text-anchor="middle" font-size="9.5" fill="#555">We empirically evaluate our approach on various video</text>
+<text x="1288" y="2861" text-anchor="middle" font-size="9.5" fill="#555">diffusion models, demonstrating significant improvement</text>
+<text x="1288" y="2873" text-anchor="middle" font-size="9.5" fill="#555">in inference speed while maintaining high video</text>
+<text x="1288" y="2885" text-anchor="middle" font-size="9.5" fill="#555">quality.</text>
+<title>N29d [Contribution] (cites=0)
+We empirically evaluate our approach on various video diffusion models, demonstrating significant improvement in inference speed while maintaining high video quality.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

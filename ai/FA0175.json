@@ -1,0 +1,117 @@
+{
+  "paper_id": "FA0175",
+  "paper_topic": "Secure SimHash: distance-hiding binary fingerprints via XOR k-composition for privacy-preserving similarity search",
+  "anchor_paper": "SimHash (Charikar, 2002)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Binary fingerprints from locality-sensitive hashing (LSH) are fundamental to large-scale similarity search, enabling efficient duplicate detection, semantic retrieval, and cross-service threat intelligence sharing (Thakur et al., 2021; Gill et al., 2025).",
+      "display_label": "LSH binary fingerprints for similarity search",
+      "citations": 2
+    },
+    {
+      "id": "N2",
+      "type": "Prior_Work",
+      "text": "SimHash (Charikar, 2002) produces compact binary codes where Hamming distance approximates cosine similarity, making it widely adopted for applications where raw text cannot be shared across organizational boundaries.",
+      "display_label": "SimHash: Hamming approximates cosine",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N3",
+      "type": "Limitation",
+      "text": "However, this similarity-preserving property is a double-edged sword: the collision probability P(s) = (1 + s)/2 leaks distance information, enabling attackers to estimate pairwise similarities from fingerprint comparisons.",
+      "display_label": "SimHash collision curve leaks distance",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Context",
+      "text": "This privacy vulnerability is particularly concerning for cross-service telemetry sharing, where fingerprints are released across compliance boundaries.",
+      "display_label": "Cross-service telemetry: privacy concern",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Context",
+      "text": "An adversary observing fingerprint comparisons can triangulate to estimate original embedding similarities (Riazi et al., 2016), potentially revealing sensitive information about the underlying data.",
+      "display_label": "Adversary triangulates similarities",
+      "citations": 1
+    },
+    {
+      "id": "N6",
+      "type": "Prior_Work",
+      "text": "Prior work has explored randomized response (Erlingsson et al., 2014; Gill et al., 2025) and noise injection for fingerprint privacy, but these approaches face fundamental limitations: randomized response requires extreme bit flipping for privacy but destroys utility, while noise injection shows cliff-effect behavior where small noise increases cause catastrophic utility collapse.",
+      "display_label": "RR + noise injection prior approaches",
+      "citations": 2
+    },
+    {
+      "id": "N6lim",
+      "type": "Limitation",
+      "text": "randomized response requires extreme bit flipping for privacy but destroys utility, while noise injection shows cliff-effect behavior where small noise increases cause catastrophic utility collapse.",
+      "display_label": "RR destroys utility; noise has cliff effect",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Method",
+      "text": "We propose Secure SimHash, a distance-hiding fingerprint transform that addresses these limitations by flattening collision probability curves rather than adding noise.",
+      "display_label": "Propose Secure SimHash: flatten collision curve",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "The key insight is that by composing k independent SimHash bits with XOR, the collision probability becomes Psec(s) = 1/2 + 1/2·p(s)^k, which approaches 0.5 for low-similarity pairs as k increases.",
+      "display_label": "XOR k-composition: Psec→0.5 for non-neighbors",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Method",
+      "text": "This makes distance estimation uninformative for non-neighbors while preserving high collision rates for true near-neighbors, enabling both privacy and utility.",
+      "display_label": "Uninformative for non-neighbors; preserves neighbors",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We formalize the privacy-utility tradeoff for binary fingerprints and identify the collision probability curve as the root cause of distance leakage.",
+      "display_label": "C1: formalize privacy-utility tradeoff",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We propose Secure SimHash with theoretical analysis showing how k-composition with XOR flattens collision curves for non-neighbors while preserving near-neighbor detection.",
+      "display_label": "C2: Secure SimHash + theory",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We demonstrate empirically on BEIR Quora that Secure SimHash dominates the privacy-utility Pareto frontier, achieving AUC@0.5=0.463 (near random-guess) at Recall@10=0.780, significantly outperforming randomized response and noise injection baselines.",
+      "display_label": "C3: dominates Pareto on BEIR Quora",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "contrast", "connective": "However"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N6", "to": "N6lim", "kind": "elaboration"},
+    {"from": "N6lim", "to": "N7", "kind": "consequence", "connective": "addresses these limitations"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "elaboration"},
+    {"from": "N9", "to": "C1", "kind": "elaboration"},
+    {"from": "N9", "to": "C2", "kind": "elaboration"},
+    {"from": "N9", "to": "C3", "kind": "elaboration"},
+    {"from": "C1", "to": "N3", "kind": "addresses"},
+    {"from": "C2", "to": "N6lim", "kind": "addresses"},
+    {"from": "C3", "to": "N6lim", "kind": "addresses"}
+  ],
+  "observations": "FA0175 follows a tight problem-solution arc with two named Limitations sourced from two distinct Prior_Work nodes. Para 1 opens with broad Context (N1: LSH binary fingerprints) and the SimHash Prior_Work anchor (N2), then pivots via 'However' to the core Limitation N3: the SimHash collision curve P(s)=(1+s)/2 leaks distance information.\n\nN4-N5 elaborate Context (cross-service telemetry concern, adversary triangulation), then N6 introduces a second Prior_Work block (randomized response + noise injection). The original sentence is split into N6 (the neutral PW description: prior work explored RR and noise injection) and N6lim (the evaluative critique: RR destroys utility, noise has cliff effect) — Case C of the Pass 3 source check, which gives N6lim a clean PW source (N6).\n\nThe Method block (N7-N9) proposes Secure SimHash with the XOR k-composition mechanism (Psec(s) = 1/2 + 1/2·p(s)^k) and the privacy-utility property. Three Contributions (C1-C3) close the intro, all fed by N9. Three addresses edges link back: C1 (formalize privacy-utility tradeoff) addresses N3 (the collision-curve leakage limitation), and both C2 (Secure SimHash + theory) and C3 (empirical dominance over RR + noise injection) address N6lim (the prior-method failure modes). Topology features N9 as the contribution-fork."
+}

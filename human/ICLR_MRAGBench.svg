@@ -1,0 +1,330 @@
+<svg viewBox="0 0 1480 3274" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="116" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="508" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="212" x2="1450" y2="212" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1056" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="804" x2="1450" y2="804" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1386" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PROOF</text>
+<line x1="60" y1="1308" x2="1450" y2="1308" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1791" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1464" x2="1450" y2="1464" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2582" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="2118" x2="1450" y2="2118" stroke="#eee" stroke-width="1"/>
+<text x="14" y="3130" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="3046" x2="1450" y2="3046" stroke="#eee" stroke-width="1"/>
+<line x1="805" y1="164" x2="805" y2="260" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="344" x2="805" y2="372" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="432" x2="805" y2="460" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="443" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">For example</text>
+<line x1="805" y1="532" x2="805" y2="560" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="632" x2="805" y2="660" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="756" x2="805" y2="852" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="801" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="924" x2="805" y2="952" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="935" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">In contrast</text>
+<line x1="805" y1="1024" x2="805" y2="1052" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1035" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Specifically</text>
+<line x1="805" y1="1416" x2="805" y2="1052" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1136" x2="805" y2="1164" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1147" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">For instance</text>
+<line x1="805" y1="1260" x2="805" y2="1512" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1383" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">In this paper, we introduce</text>
+<line x1="805" y1="1608" x2="805" y2="1636" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1708" x2="805" y2="1736" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1832" x2="805" y2="1860" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1843" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Specifically</text>
+<line x1="805" y1="1970" x2="805" y2="1998" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1981" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Additionally</text>
+<line x1="805" y1="2070" x2="805" y2="2166" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="2238" x2="805" y2="2266" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2350" x2="805" y2="2378" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2462" x2="805" y2="2490" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2562" x2="805" y2="2590" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="2573" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Notably</text>
+<line x1="805" y1="2674" x2="805" y2="2702" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="2685" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">This indicates</text>
+<line x1="805" y1="2774" x2="805" y2="2802" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2886" x2="805" y2="2914" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2998" x2="805" y2="3094" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="3043" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">These results highlight</text>
+<line x1="805" y1="1608" x2="805" y2="852" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="3166" x2="805" y2="852" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="100.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="108.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="116.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="124.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="132.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="140.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RAG promising for LVLMs</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Retrieval-augmented generation (RAG) has emerged as a promising direction in</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">large vision-language models (LVLMs) (OpenAI, 2023; Liu et al., 2023a; Bai</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">et al., 2023; Huang et al., 2023; Chen et al., 2023a; Hu et al., 2024b; Chen</text>
+<text x="805" y="149" text-anchor="middle" font-size="9.5" fill="#555">et al.,…</text>
+<title>N1 [Context] (cites=9)
+Retrieval-augmented generation (RAG) has emerged as a promising direction in large vision-language models (LVLMs) (OpenAI, 2023; Liu et al., 2023a; Bai et al., 2023; Huang et al., 2023; Chen et al., 2023a; Hu et al., 2024b; Chen et al., 2024; Tong et al., 2024; McKinzie et al., 2024).</title>
+</g>
+<circle cx="1022.0" cy="268.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="260" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Prior_Work]</text>
+<text x="805" y="289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Wiki-LLaVA: external knowledge boosts QA</text>
+<text x="805" y="305" text-anchor="middle" font-size="9.5" fill="#555">By incorporating external knowledge during generation, models such as</text>
+<text x="805" y="317" text-anchor="middle" font-size="9.5" fill="#555">Wiki-LLaVA (Caffagni et al., 2024) have demonstrated improved performance in</text>
+<text x="805" y="329" text-anchor="middle" font-size="9.5" fill="#555">knowledge-intensive question answering tasks.</text>
+<title>N2 [Prior_Work] (cites=1)
+By incorporating external knowledge during generation, models such as Wiki-LLaVA (Caffagni et al., 2024) have demonstrated improved performance in knowledge-intensive question answering tasks.</title>
+</g>
+<g>
+<rect x="595" y="372" width="420" height="60" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="386" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Prior_Work]</text>
+<text x="805" y="401" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Several RAG-LVLM benchmarks exist</text>
+<text x="805" y="417" text-anchor="middle" font-size="9.5" fill="#555">There are several existing benchmarks evaluating retrieval-augmented LVLMs.</text>
+<title>N3 [Prior_Work] (cites=0)
+There are several existing benchmarks evaluating retrieval-augmented LVLMs.</title>
+</g>
+<circle cx="1022.0" cy="468.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="460" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="474" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work]</text>
+<text x="805" y="489" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">OK-VQA: image-insufficient QA</text>
+<text x="805" y="505" text-anchor="middle" font-size="9.5" fill="#555">For example, OK-VQA (Marino et al., 2019) focused on scenarios where the</text>
+<text x="805" y="517" text-anchor="middle" font-size="9.5" fill="#555">image content alone is insufficient to answer the questions.</text>
+<title>N4 [Prior_Work] (cites=1)
+For example, OK-VQA (Marino et al., 2019) focused on scenarios where the image content alone is insufficient to answer the questions.</title>
+</g>
+<circle cx="1022.0" cy="568.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="560" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="574" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="805" y="589" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">A-OKVQA: + world knowledge</text>
+<text x="805" y="605" text-anchor="middle" font-size="9.5" fill="#555">A-OKVQA (Schwenk et al., 2022) further extended this dataset to incorporate</text>
+<text x="805" y="617" text-anchor="middle" font-size="9.5" fill="#555">additional types of world knowledge.</text>
+<title>N5 [Prior_Work] (cites=1)
+A-OKVQA (Schwenk et al., 2022) further extended this dataset to incorporate additional types of world knowledge.</title>
+</g>
+<circle cx="1022.0" cy="668.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="676.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="684.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="660" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="674" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work]</text>
+<text x="805" y="689" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Recent: large-scale KB datasets</text>
+<text x="805" y="705" text-anchor="middle" font-size="9.5" fill="#555">More recent works (Chang et al., 2022; Chen et al., 2023b; Mensink et al.,</text>
+<text x="805" y="717" text-anchor="middle" font-size="9.5" fill="#555">2023) further expanded and curated large-scale knowledge base data to</text>
+<text x="805" y="729" text-anchor="middle" font-size="9.5" fill="#555">evaluate pre-trained vision and language models in knowledge-intensive and</text>
+<text x="805" y="741" text-anchor="middle" font-size="9.5" fill="#555">information-seeking…</text>
+<title>N6 [Prior_Work] (cites=3)
+More recent works (Chang et al., 2022; Chen et al., 2023b; Mensink et al., 2023) further expanded and curated large-scale knowledge base data to evaluate pre-trained vision and language models in knowledge-intensive and information-seeking visual questions.</title>
+</g>
+<g>
+<rect x="595" y="852" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="866" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="881" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Existing benchmarks remain text-centric</text>
+<text x="805" y="897" text-anchor="middle" font-size="9.5" fill="#555">However, as shown in Table 1, these benchmarks remain text-centric, as their</text>
+<text x="805" y="909" text-anchor="middle" font-size="9.5" fill="#555">questions can often be resolved with related external textual knowledge.</text>
+<title>N7 [Limitation] (cites=0)
+However, as shown in Table 1, these benchmarks remain text-centric, as their questions can often be resolved with related external textual knowledge.</title>
+</g>
+<g>
+<rect x="595" y="952" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="966" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Limitation]</text>
+<text x="805" y="981" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Visual retrieval often more beneficial</text>
+<text x="805" y="997" text-anchor="middle" font-size="9.5" fill="#555">In contrast, retrieving visual information is sometimes more beneficial than</text>
+<text x="805" y="1009" text-anchor="middle" font-size="9.5" fill="#555">retrieving text, as humans often gain greater insights from it.</text>
+<title>N8 [Limitation] (cites=0)
+In contrast, retrieving visual information is sometimes more beneficial than retrieving text, as humans often gain greater insights from it.</title>
+</g>
+<g>
+<rect x="595" y="1052" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1066" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Limitation]</text>
+<text x="805" y="1081" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fig. 1: text retrieval hard/useless vs images</text>
+<text x="805" y="1097" text-anchor="middle" font-size="9.5" fill="#555">Specifically, we illustrate examples in Figure 1 where retrieving correct</text>
+<text x="805" y="1109" text-anchor="middle" font-size="9.5" fill="#555">textual knowledge can be hard and retrieved textual knowledge can be</text>
+<text x="805" y="1121" text-anchor="middle" font-size="9.5" fill="#555">useless, while retrieving additional images is helpful.</text>
+<title>N9 [Limitation] (cites=0)
+Specifically, we illustrate examples in Figure 1 where retrieving correct textual knowledge can be hard and retrieved textual knowledge can be useless, while retrieving additional images is helpful.</title>
+</g>
+<g>
+<rect x="595" y="1356" width="420" height="60" rx="6" fill="#fff2cc" stroke="#b38a2c" stroke-width="1.2"/>
+<text x="805" y="1370" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">P9 [Proof]</text>
+<text x="805" y="1385" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fig. 1: example scenarios</text>
+<text x="805" y="1401" text-anchor="middle" font-size="9.5" fill="#555">we illustrate examples in Figure 1</text>
+<title>P9 [Proof] (cites=0)
+we illustrate examples in Figure 1</title>
+</g>
+<g>
+<rect x="595" y="1164" width="420" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1178" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Limitation]</text>
+<text x="805" y="1193" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Example: top-down vs front-facing car</text>
+<text x="805" y="1209" text-anchor="middle" font-size="9.5" fill="#555">For instance, when presented with a top-down view of a car, humans may</text>
+<text x="805" y="1221" text-anchor="middle" font-size="9.5" fill="#555">struggle to accurately identify it; however, with a front-facing view, they</text>
+<text x="805" y="1233" text-anchor="middle" font-size="9.5" fill="#555">can quickly recognize the vehicle and effectively leverage the visual</text>
+<text x="805" y="1245" text-anchor="middle" font-size="9.5" fill="#555">information.</text>
+<title>N10 [Limitation] (cites=0)
+For instance, when presented with a top-down view of a car, humans may struggle to accurately identify it; however, with a front-facing view, they can quickly recognize the vehicle and effectively leverage the visual information.</title>
+</g>
+<g>
+<rect x="595" y="1512" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1526" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="805" y="1541" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Introduce MRAG-Bench (vision-centric)</text>
+<text x="805" y="1557" text-anchor="middle" font-size="9.5" fill="#555">In this paper, we introduce MRAG-BENCH, a benchmark specifically designed</text>
+<text x="805" y="1569" text-anchor="middle" font-size="9.5" fill="#555">for vision-centric evaluation for retrieval-augmented multimodal models,</text>
+<text x="805" y="1581" text-anchor="middle" font-size="9.5" fill="#555">with visual questions typically benefit more from retrieving visual</text>
+<text x="805" y="1593" text-anchor="middle" font-size="9.5" fill="#555">knowledge than textual…</text>
+<title>N11 [Method] (cites=0)
+In this paper, we introduce MRAG-BENCH, a benchmark specifically designed for vision-centric evaluation for retrieval-augmented multimodal models, with visual questions typically benefit more from retrieving visual knowledge than textual information.</title>
+</g>
+<g>
+<rect x="595" y="1636" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1650" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Method]</text>
+<text x="805" y="1665" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">16,130 images, 1,353 MCQs, 9 scenarios</text>
+<text x="805" y="1681" text-anchor="middle" font-size="9.5" fill="#555">MRAG-BENCH consists of 16,130 images and 1,353 human-annotated multi-choice</text>
+<text x="805" y="1693" text-anchor="middle" font-size="9.5" fill="#555">questions spanning 9 distinctive scenarios.</text>
+<title>N12 [Method] (cites=0)
+MRAG-BENCH consists of 16,130 images and 1,353 human-annotated multi-choice questions spanning 9 distinctive scenarios.</title>
+</g>
+<g>
+<rect x="595" y="1736" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1750" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Method]</text>
+<text x="805" y="1765" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Two aspects: perspective + transformative</text>
+<text x="805" y="1781" text-anchor="middle" font-size="9.5" fill="#555">Focusing on utilizing visually augmented knowledge in real-world scenarios,</text>
+<text x="805" y="1793" text-anchor="middle" font-size="9.5" fill="#555">we divide our benchmark into two aspects: perspective, where changes in</text>
+<text x="805" y="1805" text-anchor="middle" font-size="9.5" fill="#555">visual entity's perspective requiring visually augmented knowledge; and</text>
+<text x="805" y="1817" text-anchor="middle" font-size="9.5" fill="#555">transformative,…</text>
+<title>N13 [Method] (cites=0)
+Focusing on utilizing visually augmented knowledge in real-world scenarios, we divide our benchmark into two aspects: perspective, where changes in visual entity's perspective requiring visually augmented knowledge; and transformative, where the visual entity undergoes transformative change physically thus requiring visually augmented knowledge.</title>
+</g>
+<g>
+<rect x="595" y="1860" width="420" height="110" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1874" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Method]</text>
+<text x="805" y="1889" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Perspective: angle/partial/scope/occlusion; Transf:</text>
+<text x="805" y="1903" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">temporal/incomp/bio/deform</text>
+<text x="805" y="1919" text-anchor="middle" font-size="9.5" fill="#555">Specifically, MRAG-BENCH requires models to reason about visual entities</text>
+<text x="805" y="1931" text-anchor="middle" font-size="9.5" fill="#555">that undergo perspective changes, such as angle, partial, scope and</text>
+<text x="805" y="1943" text-anchor="middle" font-size="9.5" fill="#555">occlusion, as well as transformative changes, such as temporal, incomplete,</text>
+<text x="805" y="1955" text-anchor="middle" font-size="9.5" fill="#555">biological and…</text>
+<title>N14 [Method] (cites=0)
+Specifically, MRAG-BENCH requires models to reason about visual entities that undergo perspective changes, such as angle, partial, scope and occlusion, as well as transformative changes, such as temporal, incomplete, biological and deformations.</title>
+</g>
+<g>
+<rect x="595" y="1998" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2012" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Method]</text>
+<text x="805" y="2027" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">9,673 human-selected GT images</text>
+<text x="805" y="2043" text-anchor="middle" font-size="9.5" fill="#555">Additionally, MRAG-BENCH includes 9,673 human-selected images, which serves</text>
+<text x="805" y="2055" text-anchor="middle" font-size="9.5" fill="#555">as the ground-truth image knowledge corpus for model evaluation.</text>
+<title>N15 [Method] (cites=0)
+Additionally, MRAG-BENCH includes 9,673 human-selected images, which serves as the ground-truth image knowledge corpus for model evaluation.</title>
+</g>
+<g>
+<rect x="595" y="2166" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2180" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Result]</text>
+<text x="805" y="2195" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Eval on 10 OS + 4 proprietary LVLMs</text>
+<text x="805" y="2211" text-anchor="middle" font-size="9.5" fill="#555">We conduct extensive experiments on MRAG-BENCH to evaluate 10 open-source</text>
+<text x="805" y="2223" text-anchor="middle" font-size="9.5" fill="#555">and 4 proprietary LVLMs.</text>
+<title>N16 [Result] (cites=0)
+We conduct extensive experiments on MRAG-BENCH to evaluate 10 open-source and 4 proprietary LVLMs.</title>
+</g>
+<g>
+<rect x="595" y="2266" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2280" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Result]</text>
+<text x="805" y="2295" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Confirmed vision-centric: image gains &gt; text</text>
+<text x="805" y="2311" text-anchor="middle" font-size="9.5" fill="#555">The results confirm that MRAG-BENCH is vision-centric, as all LVLMs show</text>
+<text x="805" y="2323" text-anchor="middle" font-size="9.5" fill="#555">greater improvements when augmented with images compared to textual</text>
+<text x="805" y="2335" text-anchor="middle" font-size="9.5" fill="#555">knowledge.</text>
+<title>N17 [Result] (cites=0)
+The results confirm that MRAG-BENCH is vision-centric, as all LVLMs show greater improvements when augmented with images compared to textual knowledge.</title>
+</g>
+<g>
+<rect x="595" y="2378" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2392" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Result]</text>
+<text x="805" y="2407" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">GPT-4o: 68.68% / 74.5% (no-RAG / GT)</text>
+<text x="805" y="2423" text-anchor="middle" font-size="9.5" fill="#555">Our results indicate that the best-performing GPT-4o model only achieve</text>
+<text x="805" y="2435" text-anchor="middle" font-size="9.5" fill="#555">68.68% and 74.5% of accuracy without RAG knowledge and with ground-truth</text>
+<text x="805" y="2447" text-anchor="middle" font-size="9.5" fill="#555">(GT) RAG knowledge, respectively.</text>
+<title>N18 [Result] (cites=0)
+Our results indicate that the best-performing GPT-4o model only achieve 68.68% and 74.5% of accuracy without RAG knowledge and with ground-truth (GT) RAG knowledge, respectively.</title>
+</g>
+<g>
+<rect x="595" y="2490" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2504" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Result]</text>
+<text x="805" y="2519" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Beats LLaVA-OneVision by 15.39/15.52%</text>
+<text x="805" y="2535" text-anchor="middle" font-size="9.5" fill="#555">This substantially outperforms the best open-source model LLaVA-OneVision by</text>
+<text x="805" y="2547" text-anchor="middle" font-size="9.5" fill="#555">15.39% and 15.52%, respectively.</text>
+<title>N19 [Result] (cites=0)
+This substantially outperforms the best open-source model LLaVA-OneVision by 15.39% and 15.52%, respectively.</title>
+</g>
+<g>
+<rect x="595" y="2590" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2604" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Result]</text>
+<text x="805" y="2619" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Only proprietary use noisy retrieval</text>
+<text x="805" y="2635" text-anchor="middle" font-size="9.5" fill="#555">Notably, we observe while all models improve with GT knowledge, only</text>
+<text x="805" y="2647" text-anchor="middle" font-size="9.5" fill="#555">proprietary models are able to effectively utilize noisy retrieved</text>
+<text x="805" y="2659" text-anchor="middle" font-size="9.5" fill="#555">multimodal knowledge.</text>
+<title>N20 [Result] (cites=0)
+Notably, we observe while all models improve with GT knowledge, only proprietary models are able to effectively utilize noisy retrieved multimodal knowledge.</title>
+</g>
+<g>
+<rect x="595" y="2702" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2716" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Result]</text>
+<text x="805" y="2731" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Open-source vs closed gap persists</text>
+<text x="805" y="2747" text-anchor="middle" font-size="9.5" fill="#555">This indicates the gap between open-source and close-source models still</text>
+<text x="805" y="2759" text-anchor="middle" font-size="9.5" fill="#555">exists.</text>
+<title>N21 [Result] (cites=0)
+This indicates the gap between open-source and close-source models still exists.</title>
+</g>
+<g>
+<rect x="595" y="2802" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2816" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Result]</text>
+<text x="805" y="2831" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">OS shortfall: parametric + retrieval quality</text>
+<text x="805" y="2847" text-anchor="middle" font-size="9.5" fill="#555">Open-source models are falling short on their parametric knowledge and the</text>
+<text x="805" y="2859" text-anchor="middle" font-size="9.5" fill="#555">ability to distinguish between high-quality and poor-quality retrieved</text>
+<text x="805" y="2871" text-anchor="middle" font-size="9.5" fill="#555">visually augmented examples.</text>
+<title>N22 [Result] (cites=0)
+Open-source models are falling short on their parametric knowledge and the ability to distinguish between high-quality and poor-quality retrieved visually augmented examples.</title>
+</g>
+<g>
+<rect x="595" y="2914" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2928" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23 [Result]</text>
+<text x="805" y="2943" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">GPT-4o gain 5.82/0.28% vs human 33.16/22.91%</text>
+<text x="805" y="2959" text-anchor="middle" font-size="9.5" fill="#555">In comparison to humans, GPT-4o achieves only a 5.82% improvement when</text>
+<text x="805" y="2971" text-anchor="middle" font-size="9.5" fill="#555">augmented with GT knowledge and 0.28% with retrieved knowledge, whereas</text>
+<text x="805" y="2983" text-anchor="middle" font-size="9.5" fill="#555">humans demonstrate a 33.16% and 22.91% improvement, respectively.</text>
+<title>N23 [Result] (cites=0)
+In comparison to humans, GPT-4o achieves only a 5.82% improvement when augmented with GT knowledge and 0.28% with retrieved knowledge, whereas humans demonstrate a 33.16% and 22.91% improvement, respectively.</title>
+</g>
+<g>
+<rect x="595" y="3094" width="420" height="72" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="3108" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N24 [Contribution]</text>
+<text x="805" y="3123" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">MRAG-Bench encourages better visual-RAG LVLMs</text>
+<text x="805" y="3139" text-anchor="middle" font-size="9.5" fill="#555">These results highlight the importance of MRAG-BENCH in encouraging the</text>
+<text x="805" y="3151" text-anchor="middle" font-size="9.5" fill="#555">community to develop LVLMs better utilizing of visually augmented knowledge.</text>
+<title>N24 [Contribution] (cites=0)
+These results highlight the importance of MRAG-BENCH in encouraging the community to develop LVLMs better utilizing of visually augmented knowledge.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

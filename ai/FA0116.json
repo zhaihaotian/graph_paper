@@ -1,0 +1,133 @@
+{
+  "paper_id": "FA0116",
+  "paper_topic": "Fact-Check Grounding (FCG) loss for semantically consistent model editing — balanced True/False supervision",
+  "anchor_paper": "LocFT-BF (Yang et al., 2025b)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Large language models encode extensive factual knowledge in their parameters, but this knowledge can become outdated or incorrect after deployment.",
+      "display_label": "LLM facts can become outdated",
+      "citations": 0
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "Model editing (Wang et al., 2023b) aims to update specific factual associations without full retraining, enabling efficient knowledge maintenance.",
+      "display_label": "Model editing for knowledge updates",
+      "citations": 1
+    },
+    {
+      "id": "N3",
+      "type": "Prior_Work",
+      "text": "Methods such as ROME (Meng et al., 2022a), MEMIT (Meng et al., 2022b), and localized fine-tuning (Yang et al., 2025b) have demonstrated success in modifying model outputs for targeted prompts while preserving general capabilities.",
+      "display_label": "ROME, MEMIT, LocFT: modify outputs",
+      "citations": 3,
+      "anchor": true
+    },
+    {
+      "id": "N4",
+      "type": "Limitation",
+      "text": "However, current editing methods focus primarily on token-level generation accuracy—whether the model produces the correct new answer when prompted.",
+      "display_label": "Current methods: only token-level accuracy",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Limitation",
+      "text": "Recent work has revealed a critical gap: edited models often cannot reliably judge the truth of statements containing their own edited facts (Liu et al., 2025).",
+      "display_label": "Edited models can't judge truth of edits",
+      "citations": 1
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "For example, a model edited to associate \"Danielle Darrieux\" with \"English\" as her mother language may correctly generate \"English\" when prompted, yet fail to judge \"The mother language of Danielle Darrieux is English\" as true.",
+      "display_label": "Example: gen 'English' but can't judge true",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Limitation",
+      "text": "This semantic inconsistency undermines the trustworthiness of edits as genuine knowledge updates.",
+      "display_label": "Semantic inconsistency undermines trust",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Prior_Work",
+      "text": "A natural approach is to add truth-judgment supervision during editing.",
+      "display_label": "Natural approach: add truth supervision",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Limitation",
+      "text": "However, simply training the model to output \"True\" for edited facts is insufficient—the model can learn an \"always True\" shortcut, achieving perfect accuracy on positive examples while failing on negative ones.",
+      "display_label": "'Always True' shortcut",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Limitation",
+      "text": "This yields chance-level performance on balanced evaluation.",
+      "display_label": "Yields chance-level on balanced eval",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method",
+      "text": "We propose Fact-Check Grounding (FCG), which adds balanced truth-conditional supervision during editing.",
+      "display_label": "Propose FCG: balanced truth supervision",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Method",
+      "text": "For each edit, FCG trains the model to judge the new fact as \"True\" and the old fact as \"False\", forcing genuine truth discrimination rather than format-based shortcuts.",
+      "display_label": "Train new=True, old=False",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We propose FCG, a method that augments model editing with balanced True/False supervision to improve semantic consistency.",
+      "display_label": "C1: propose FCG with balanced T/F",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We demonstrate that FCG improves balanced fact-check accuracy (BFC-Acc) by +12.3 points over the LocFT-BF baseline (p = 0.0044) on KnowEdit ZsRE, while the format-only control achieves only chance-level performance.",
+      "display_label": "C2: +12.3pp BFC-Acc on KnowEdit ZsRE",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We reveal an important limitation: FCG's improvement is template-specific, with limited transfer to paraphrased prompts (+2.44 points, not significant), indicating that the model learns template-label associations rather than semantically robust truth-judgment.",
+      "display_label": "C3: template-specific; limited paraphrase transfer",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "elaboration"},
+    {"from": "N3", "to": "N4", "kind": "contrast", "connective": "However"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N6", "to": "N7", "kind": "elaboration"},
+    {"from": "N7", "to": "N8", "kind": "consequence"},
+    {"from": "N8", "to": "N9", "kind": "contrast", "connective": "However"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N10", "to": "N11", "kind": "consequence", "connective": "We propose"},
+    {"from": "N11", "to": "N12", "kind": "elaboration"},
+    {"from": "N12", "to": "C1", "kind": "elaboration"},
+    {"from": "N12", "to": "C2", "kind": "elaboration"},
+    {"from": "N12", "to": "C3", "kind": "elaboration"},
+    {"from": "N11", "to": "N4", "kind": "addresses"},
+    {"from": "N12", "to": "N9", "kind": "addresses"},
+    {"from": "C2", "to": "N5", "kind": "addresses"}
+  ],
+  "observations": "FA0116 follows a clean problem-solution arc on model editing for semantic consistency. Para 1 is Context (N1-N2) framing model editing as knowledge maintenance, with N3 the anchor Prior_Work cluster (ROME, MEMIT, LocFT). Para 2 is the Limitation chain (N4-N7): the 'However' in N4 critiques the named ROME/MEMIT/LocFT methods (token-level accuracy only); N5 introduces the Liu et al. 2025 finding (edited models can't judge truth); N6 is a worked example; N7 generalizes (semantic inconsistency undermines trust). The chain has clear PW source via N3→N4 contrast.\n\nPara 3 introduces the second Prior_Work N8 (natural approach: add truth supervision) and its Limitation N9 (the 'always True' shortcut), with N10 elaborating (chance-level on balanced eval). N9 has Prior_Work source from N8. The Method block (N11-N12) introduces FCG with balanced True/False supervision. Three Contribution bullets (C1-C3) close.\n\nTopologically, N12 is the main fork into the contributions. Three addresses edges: N11 (FCG) → N4 (current methods focus on token-level accuracy only); N12 (balanced True/False) → N9 (the 'always True' shortcut); C2 (+12.3pp BFC-Acc, format-only chance-level) → N5 (the semantic-consistency gap). All three addresses edges share distinctive technical terms (truth-judgment, balanced, BFC-Acc, semantic consistency).\n\nNarrative arc: LLM facts go stale → editing methods (ROME, MEMIT, LocFT) update outputs → but only token-level accuracy, missing semantic truth-judgment → naive truth-supervision fix has 'always True' shortcut → propose balanced True/False FCG loss → empirically +12.3pp BFC-Acc, but template-specific limitation acknowledged."
+}

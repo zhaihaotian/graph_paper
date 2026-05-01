@@ -1,0 +1,132 @@
+{
+  "paper_id": "FA0163",
+  "paper_topic": "Execution-Signature Recycling: deduplicating unit-test failure feedback for test-time code scaling (negative result)",
+  "anchor_paper": "Self-Debug (Chen et al., 2023)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Large language models (LLMs) have demonstrated remarkable capabilities in code generation, and recent work shows that allocating additional inference-time compute—known as test-time scaling—can substantially improve performance (Snell et al., 2024; Brown et al., 2024).",
+      "display_label": "LLMs + test-time scaling for code",
+      "citations": 2
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "A common approach is best-of-N sampling: generate multiple candidate programs, execute them against unit tests, and select the best-performing candidate.",
+      "display_label": "Best-of-N sampling baseline",
+      "citations": 0
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "This simple strategy can significantly boost Pass@1 accuracy compared to single-sample generation.",
+      "display_label": "Best-of-N boosts Pass@1",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Context",
+      "text": "Execution feedback provides a powerful signal for improving code generation.",
+      "display_label": "Execution feedback as signal",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Prior_Work",
+      "text": "Self-debugging methods (Chen et al., 2023) use error messages and tracebacks to iteratively refine failing candidates, while approaches like Reflexion (Shinn et al., 2023) and Self-Refine (Madaan et al., 2023) maintain memory of past failures to guide future attempts.",
+      "display_label": "Self-Debug, Reflexion, Self-Refine",
+      "citations": 3,
+      "anchor": true
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "However, these methods typically operate on individual candidates, refining each based on its own execution feedback without sharing information across candidates.",
+      "display_label": "Per-candidate; no cross-sample sharing",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Method",
+      "text": "We hypothesize that under best-of-N sampling, multiple candidates often fail for similar reasons—the same edge case, the same type error, or the same off-by-one bug.",
+      "display_label": "Hypothesis: candidates share failure modes",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "If failure modes cluster strongly, then providing deduplicated feedback about common failures could help the model avoid redundant exploration and focus on novel solutions.",
+      "display_label": "Dedup feedback to avoid redundancy",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Method",
+      "text": "To test this hypothesis, we propose Execution-Signature Recycling (ESR), a training-free test-time scaling method that clusters candidates by their execution signatures (the set of failing tests and error types) and conditions subsequent generations on a compact, deduplicated failure bank.",
+      "display_label": "Propose ESR: signature-based clustering",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Result",
+      "text": "We evaluate ESR on HumanEval+ with Qwen2.5-Coder-7B-Instruct under a fixed 16-generation budget.",
+      "display_label": "Evaluate on HumanEval+ Qwen2.5-Coder-7B",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Result",
+      "text": "While ESR achieves the highest mean Pass@1 (87.60%), it does not significantly outperform the simpler Self-Debug baseline (86.99%), with a 95% confidence interval of [−0.81, 2.24] that includes zero.",
+      "display_label": "ESR 87.60% vs Self-Debug 86.99%; CI includes 0",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Result",
+      "text": "This negative result suggests that for strong code generation models, per-sample self-debugging may be sufficient, and cross-sample feedback aggregation does not provide reliable additional benefits.",
+      "display_label": "Negative result: per-sample suffices",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We propose ESR, a method that aggregates execution feedback across candidates using signature-based clustering and provides deduplicated failure information to guide subsequent generations.",
+      "display_label": "C1: ESR signature-based clustering",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We conduct a rigorous evaluation with pre-registered decision rules and paired bootstrap confidence intervals across multiple random seeds.",
+      "display_label": "C2: rigorous pre-registered eval",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We report a negative result: ESR does not significantly outperform per-sample self-debugging on HumanEval+, providing evidence that simpler feedback approaches may be sufficient for strong models.",
+      "display_label": "C3: negative result for ESR",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "elaboration"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "contrast", "connective": "However"},
+    {"from": "N6", "to": "N7", "kind": "consequence"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "consequence", "connective": "To test this hypothesis"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N10", "to": "N11", "kind": "evidence"},
+    {"from": "N11", "to": "N12", "kind": "consequence", "connective": "This negative result suggests"},
+    {"from": "N12", "to": "C1", "kind": "elaboration"},
+    {"from": "N12", "to": "C2", "kind": "elaboration"},
+    {"from": "N12", "to": "C3", "kind": "elaboration"},
+    {"from": "C1", "to": "N6", "kind": "addresses"},
+    {"from": "C3", "to": "N6", "kind": "addresses"}
+  ],
+  "observations": "FA0163 is a negative-result paper that follows the standard problem-method-result arc but lands on a null finding. Para 1 (N1-N4) is Context — LLM code generation, test-time scaling via best-of-N, and execution feedback as a signal. Para 2 introduces Prior_Work N5 (Self-Debug, Reflexion, Self-Refine) anchored on Self-Debug, then pivots via 'However' to the per-candidate Limitation N6 (no cross-sample sharing).\n\nThe Method block (N7-N9) builds the hypothesis (failure modes cluster), the rationale (dedup avoids redundancy), and the proposed ESR method. The Result block (N10-N12) reports the empirical setup, the actual numbers (87.60% vs 86.99%, CI includes 0), and the interpretive negative-result framing. N12 then fans out to three Contributions (C1: method, C2: rigorous evaluation methodology, C3: explicit negative result).\n\nTwo addresses edges link contributions back to the lone Limitation N6: C1 (the proposed method) addresses N6 directly, and C3 (the negative result framing) also addresses N6 by providing evidence that per-candidate methods are in fact sufficient. Topology shows N12 as the sole fork node (3 outgoing to contributions). Notable: this is a paper whose own results undermine its proposed method, and the contributions reframe the absence of improvement as the principal finding."
+}

@@ -1,0 +1,219 @@
+<svg viewBox="0 0 1480 1796" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="216" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="552" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="412" x2="1450" y2="412" stroke="#eee" stroke-width="1"/>
+<text x="14" y="838" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="692" x2="1450" y2="692" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1174" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="984" x2="1450" y2="984" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1454" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1364" x2="1450" y2="1364" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1640" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1544" x2="1450" y2="1544" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1572" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1568" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N13</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="163" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">As</text>
+<line x1="805" y1="264" x2="805" y2="292" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="364" x2="616" y2="460" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="544" x2="805" y2="572" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="644" x2="616" y2="740" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="689" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="616" y1="836" x2="805" y2="864" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="936" x2="994" y2="460" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="994" y1="544" x2="994" y2="740" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="994" y="639" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="994" y1="836" x2="805" y2="1412" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1496" x2="805" y2="1032" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1261" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">We propose</text>
+<line x1="805" y1="1104" x2="805" y2="1132" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1216" x2="805" y2="1244" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1316" x2="427" y2="1592" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1316" x2="805" y2="1592" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1316" x2="1183" y2="1592" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="1688" x2="805" y2="864" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1688" x2="994" y2="740" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1183" y1="1688" x2="994" y2="740" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Long-term assistants need history recall</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Long-term conversational assistants must recall information from extensive</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">interaction histories spanning weeks or months (Packer et al., 2023; Zhong</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">et al., 2023).</text>
+<title>N1 [Context] (cites=2)
+Long-term conversational assistants must recall information from extensive interaction histories spanning weeks or months (Packer et al., 2023; Zhong et al., 2023).</title>
+</g>
+<circle cx="1022.0" cy="188.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="180" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Retrieval-augmented memory is essential</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">As these histories grow beyond context window limits, retrieval-augmented</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">approaches become essential: given a user query, the system retrieves</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">relevant past conversation rounds to inform its response (Gao et al., 2023).</text>
+<title>N2 [Context] (cites=1)
+As these histories grow beyond context window limits, retrieval-augmented approaches become essential: given a user query, the system retrieves relevant past conversation rounds to inform its response (Gao et al., 2023).</title>
+</g>
+<g>
+<rect x="595" y="292" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="306" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="321" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Indexing is the critical lever</text>
+<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">The effectiveness of such memory systems depends critically on how</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">conversation rounds are indexed for retrieval.</text>
+<title>N3 [Context] (cites=0)
+The effectiveness of such memory systems depends critically on how conversation rounds are indexed for retrieval.</title>
+</g>
+<circle cx="803.0" cy="468.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="460" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="474" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work]</text>
+<text x="616" y="489" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Current systems index user utterances only</text>
+<text x="616" y="505" text-anchor="middle" font-size="9.5" fill="#555">Current conversational memory systems predominantly index only</text>
+<text x="616" y="517" text-anchor="middle" font-size="9.5" fill="#555">user utterances, treating each round's user turn as the retrieval</text>
+<text x="616" y="529" text-anchor="middle" font-size="9.5" fill="#555">key (Maharana et al., 2024).</text>
+<title>N4 [Prior_Work] (cites=1)
+Current conversational memory systems predominantly index only user utterances, treating each round's user turn as the retrieval key (Maharana et al., 2024).</title>
+</g>
+<g>
+<rect x="595" y="572" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="586" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="805" y="601" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Assumes users query own past info</text>
+<text x="805" y="617" text-anchor="middle" font-size="9.5" fill="#555">This design reflects an implicit assumption that users query about</text>
+<text x="805" y="629" text-anchor="middle" font-size="9.5" fill="#555">information they previously provided.</text>
+<title>N5 [Prior_Work] (cites=0)
+This design reflects an implicit assumption that users query about information they previously provided.</title>
+</g>
+<circle cx="803.0" cy="748.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="740" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="754" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="616" y="769" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">SSA queries break this assumption</text>
+<text x="616" y="785" text-anchor="middle" font-size="9.5" fill="#555">However, the LongMemEval benchmark (Wu et al., 2024) identifies a</text>
+<text x="616" y="797" text-anchor="middle" font-size="9.5" fill="#555">distinct category of queries—single-session-assistant (SSA)</text>
+<text x="616" y="809" text-anchor="middle" font-size="9.5" fill="#555">questions—where users ask about information the assistant provided</text>
+<text x="616" y="821" text-anchor="middle" font-size="9.5" fill="#555">in earlier turns, such as &quot;What restaurant did…</text>
+<title>N6 [Limitation] (cites=1)
+However, the LongMemEval benchmark (Wu et al., 2024) identifies a distinct category of queries—single-session-assistant (SSA) questions—where users ask about information the assistant provided in earlier turns, such as &quot;What restaurant did you recommend last week?&quot;</title>
+</g>
+<g>
+<rect x="595" y="864" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="878" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="893" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Mismatch: SSA needs assistant content</text>
+<text x="805" y="909" text-anchor="middle" font-size="9.5" fill="#555">For SSA queries, the relevant information resides in assistant responses,</text>
+<text x="805" y="921" text-anchor="middle" font-size="9.5" fill="#555">creating a fundamental mismatch with user-only indexing.</text>
+<title>N7 [Limitation] (cites=0)
+For SSA queries, the relevant information resides in assistant responses, creating a fundamental mismatch with user-only indexing.</title>
+</g>
+<g>
+<rect x="814" y="460" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="474" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Prior_Work]</text>
+<text x="994" y="489" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Concatenation as natural solution</text>
+<text x="994" y="505" text-anchor="middle" font-size="9.5" fill="#555">A natural solution is to concatenate user and assistant text into</text>
+<text x="994" y="517" text-anchor="middle" font-size="9.5" fill="#555">a single embedding.</text>
+<title>N8 [Prior_Work] (cites=0)
+A natural solution is to concatenate user and assistant text into a single embedding.</title>
+</g>
+<g>
+<rect x="814" y="740" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="754" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Limitation]</text>
+<text x="994" y="769" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Concatenation: cross-field interference</text>
+<text x="994" y="785" text-anchor="middle" font-size="9.5" fill="#555">However, this approach suffers from cross-field interference:</text>
+<text x="994" y="797" text-anchor="middle" font-size="9.5" fill="#555">mixing semantically different content in one embedding dilutes</text>
+<text x="994" y="809" text-anchor="middle" font-size="9.5" fill="#555">query-relevant features.</text>
+<title>N9 [Limitation] (cites=0)
+However, this approach suffers from cross-field interference: mixing semantically different content in one embedding dilutes query-relevant features.</title>
+</g>
+<g>
+<rect x="595" y="1412" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1426" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Result]</text>
+<text x="805" y="1441" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Concatenation: -0.145 overall Recall@10</text>
+<text x="805" y="1457" text-anchor="middle" font-size="9.5" fill="#555">Our experiments confirm this hypothesis—concatenation improves SSA recall</text>
+<text x="805" y="1469" text-anchor="middle" font-size="9.5" fill="#555">but causes catastrophic degradation on other query types (−0.145 overall</text>
+<text x="805" y="1481" text-anchor="middle" font-size="9.5" fill="#555">Recall@10), making it unsuitable for production deployment.</text>
+<title>N10 [Result] (cites=0)
+Our experiments confirm this hypothesis—concatenation improves SSA recall but causes catastrophic degradation on other query types (−0.145 overall Recall@10), making it unsuitable for production deployment.</title>
+</g>
+<g>
+<rect x="595" y="1032" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1046" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="805" y="1061" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose fielded max-sim keying</text>
+<text x="805" y="1077" text-anchor="middle" font-size="9.5" fill="#555">We propose fielded max-sim keying, which treats each conversation round as a</text>
+<text x="805" y="1089" text-anchor="middle" font-size="9.5" fill="#555">two-field document with separate embeddings for user and assistant content.</text>
+<title>N11 [Method] (cites=0)
+We propose fielded max-sim keying, which treats each conversation round as a two-field document with separate embeddings for user and assistant content.</title>
+</g>
+<g>
+<rect x="595" y="1132" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1146" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Method]</text>
+<text x="805" y="1161" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Max-sim across fields = field selection</text>
+<text x="805" y="1177" text-anchor="middle" font-size="9.5" fill="#555">The relevance score is the maximum similarity across fields, providing a</text>
+<text x="805" y="1189" text-anchor="middle" font-size="9.5" fill="#555">natural field selection mechanism: user-centric queries match the user field</text>
+<text x="805" y="1201" text-anchor="middle" font-size="9.5" fill="#555">while SSA queries match the assistant field.</text>
+<title>N12 [Method] (cites=0)
+The relevance score is the maximum similarity across fields, providing a natural field selection mechanism: user-centric queries match the user field while SSA queries match the assistant field.</title>
+</g>
+<g>
+<rect x="595" y="1244" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1258" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Method]</text>
+<text x="805" y="1273" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Training-free; only indexing change</text>
+<text x="805" y="1289" text-anchor="middle" font-size="9.5" fill="#555">This approach requires no additional training—only a change in indexing and</text>
+<text x="805" y="1301" text-anchor="middle" font-size="9.5" fill="#555">scoring.</text>
+<title>N13 [Method] (cites=0)
+This approach requires no additional training—only a change in indexing and scoring.</title>
+</g>
+<g>
+<rect x="247" y="1592" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1606" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="427" y="1621" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: zero-harm; +0.018 SSA Recall@10</text>
+<text x="427" y="1637" text-anchor="middle" font-size="9.5" fill="#555">We demonstrate a zero-harm property: fielded max-sim achieves</text>
+<text x="427" y="1649" text-anchor="middle" font-size="9.5" fill="#555">identical overall Recall@10 (0.664) to user-only indexing while</text>
+<text x="427" y="1661" text-anchor="middle" font-size="9.5" fill="#555">improving SSA Recall@10 by +0.018 and NDCG@10 by +0.038, enabling</text>
+<text x="427" y="1673" text-anchor="middle" font-size="9.5" fill="#555">risk-free adoption as a drop-in replacement.</text>
+<title>C1 [Contribution] (cites=0)
+We demonstrate a zero-harm property: fielded max-sim achieves identical overall Recall@10 (0.664) to user-only indexing while improving SSA Recall@10 by +0.018 and NDCG@10 by +0.038, enabling risk-free adoption as a drop-in replacement.</title>
+</g>
+<g>
+<rect x="625" y="1592" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1606" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="805" y="1621" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: empirical cross-field interference</text>
+<text x="805" y="1637" text-anchor="middle" font-size="9.5" fill="#555">We provide empirical evidence of cross-field interference in</text>
+<text x="805" y="1649" text-anchor="middle" font-size="9.5" fill="#555">concatenation-based indexing, which degrades overall Recall@10 by</text>
+<text x="805" y="1661" text-anchor="middle" font-size="9.5" fill="#555">−0.145 despite improving SSA recall, explaining why naive field</text>
+<text x="805" y="1673" text-anchor="middle" font-size="9.5" fill="#555">combination fails.</text>
+<title>C2 [Contribution] (cites=0)
+We provide empirical evidence of cross-field interference in concatenation-based indexing, which degrades overall Recall@10 by −0.145 despite improving SSA recall, explaining why naive field combination fails.</title>
+</g>
+<g>
+<rect x="1003" y="1592" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1606" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="1183" y="1621" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: max beats linear mixtures</text>
+<text x="1183" y="1637" text-anchor="middle" font-size="9.5" fill="#555">We compare max-sim against linear mixture scoring and show that</text>
+<text x="1183" y="1649" text-anchor="middle" font-size="9.5" fill="#555">only the non-linear max operator achieves zero-harm—linear</text>
+<text x="1183" y="1661" text-anchor="middle" font-size="9.5" fill="#555">mixtures trade SSA gains for unacceptable overall degradation.</text>
+<title>C3 [Contribution] (cites=0)
+We compare max-sim against linear mixture scoring and show that only the non-linear max operator achieves zero-harm—linear mixtures trade SSA gains for unacceptable overall degradation.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

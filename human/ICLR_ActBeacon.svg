@@ -1,0 +1,428 @@
+<svg viewBox="0 0 1480 3900" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="316" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="808" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="612" x2="1450" y2="612" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1356" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="1004" x2="1450" y2="1004" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2522" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1708" x2="1450" y2="1708" stroke="#eee" stroke-width="1"/>
+<text x="14" y="3588" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="3336" x2="1450" y2="3336" stroke="#eee" stroke-width="1"/>
+<rect x="424" y="372" width="762" height="116" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="432" y="368" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N3</text>
+<rect x="424" y="372" width="762" height="116" rx="10" fill="none" stroke="#3a6a8a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="432" y="500" font-size="10" fill="#3a6a8a" font-style="italic" font-weight="600">JOIN -&gt; N6</text>
+<rect x="583" y="1132" width="444" height="540" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="591" y="1128" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N7</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="163" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To address these needs</text>
+<line x1="805" y1="264" x2="805" y2="292" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="275" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Despite their effectiveness</text>
+<line x1="805" y1="364" x2="616" y2="392" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="364" x2="994" y2="392" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="476" x2="805" y2="504" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="476" x2="805" y2="504" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="564" x2="805" y2="660" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="744" x2="805" y2="772" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="844" x2="805" y2="872" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="855" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Therefore</text>
+<line x1="805" y1="956" x2="805" y2="1052" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="1001" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Despite the current progresses</text>
+<line x1="805" y1="1124" x2="805" y2="1152" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1135" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Specifically</text>
+<line x1="805" y1="1236" x2="805" y2="1264" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1247" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Besides</text>
+<line x1="805" y1="1336" x2="805" y2="1364" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1347" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Moreover</text>
+<line x1="805" y1="1436" x2="805" y2="1464" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1447" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Lastly</text>
+<line x1="805" y1="1548" x2="805" y2="1576" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1660" x2="805" y2="1756" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1705" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To address the above challenges</text>
+<line x1="805" y1="1840" x2="805" y2="1868" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1928" x2="805" y2="1956" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2016" x2="805" y2="2044" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2128" x2="805" y2="2156" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="2139" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Next</text>
+<line x1="805" y1="2228" x2="805" y2="2256" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="2239" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Specifically</text>
+<line x1="805" y1="2316" x2="805" y2="2344" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2416" x2="805" y2="2444" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2516" x2="805" y2="2544" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2616" x2="805" y2="2644" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2728" x2="805" y2="2756" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2852" x2="805" y2="2880" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="2863" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Finally</text>
+<line x1="805" y1="2952" x2="805" y2="2980" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="3064" x2="805" y2="3092" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="3176" x2="805" y2="3204" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="3288" x2="805" y2="3384" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="3456" x2="805" y2="3484" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="3568" x2="805" y2="3596" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="3692" x2="805" y2="3720" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="3703" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Moreover</text>
+<line x1="805" y1="744" x2="805" y2="1152" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="744" x2="805" y2="1576" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2016" x2="805" y2="1152" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="2228" x2="805" y2="1264" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="2728" x2="805" y2="1364" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="3176" x2="805" y2="1464" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs need long contexts for many tasks</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Large language models (LLMs) need to process long contexts to accomplish</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">many important tasks, such as long-document understanding [27], long-content</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">creation [4], and long-term memorization/reasoning [41].</text>
+<title>N1 [Context] (cites=3)
+Large language models (LLMs) need to process long contexts to accomplish many important tasks, such as long-document understanding [27], long-content creation [4], and long-term memorization/reasoning [41].</title>
+</g>
+<circle cx="1022.0" cy="188.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="196.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="204.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="180" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Modern LLMs have 128K context windows</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">To address these needs, modern LLMs are built with extended context windows</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">(e.g., 128K) that enable remarkable long-context processing capabilities</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">[33; 39; 18].</text>
+<title>N2 [Context] (cites=3)
+To address these needs, modern LLMs are built with extended context windows (e.g., 128K) that enable remarkable long-context processing capabilities [33; 39; 18].</title>
+</g>
+<g>
+<rect x="595" y="292" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="306" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="321" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Long contexts cause efficiency challenges</text>
+<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">Despite their effectiveness, LLMs encounter efficiency challenges in</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">processing long contexts.</text>
+<title>N3 [Context] (cites=0)
+Despite their effectiveness, LLMs encounter efficiency challenges in processing long contexts.</title>
+</g>
+<g>
+<rect x="436" y="392" width="360" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="406" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="616" y="421" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Quadratic self-attention compute cost</text>
+<text x="616" y="437" text-anchor="middle" font-size="9.5" fill="#555">On one hand, transformer-based LLMs incur substantial</text>
+<text x="616" y="449" text-anchor="middle" font-size="9.5" fill="#555">computational costs due to the quadratic complexity of self</text>
+<text x="616" y="461" text-anchor="middle" font-size="9.5" fill="#555">attention.</text>
+<title>N4 [Context] (cites=0)
+On one hand, transformer-based LLMs incur substantial computational costs due to the quadratic complexity of self attention.</title>
+</g>
+<g>
+<rect x="814" y="392" width="360" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="406" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="994" y="421" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Large GPU memory for full KV cache</text>
+<text x="994" y="437" text-anchor="middle" font-size="9.5" fill="#555">On the other hand, they require tremendous GPU memory to hold the</text>
+<text x="994" y="449" text-anchor="middle" font-size="9.5" fill="#555">KV cache of the entire sequence for faster decoding.</text>
+<title>N5 [Context] (cites=0)
+On the other hand, they require tremendous GPU memory to hold the KV cache of the entire sequence for faster decoding.</title>
+</g>
+<g>
+<rect x="595" y="504" width="420" height="60" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="518" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Context]</text>
+<text x="805" y="533" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Costs grow with context length</text>
+<text x="805" y="549" text-anchor="middle" font-size="9.5" fill="#555">Both computation and memory costs increase as the context length grows.</text>
+<title>N6 [Context] (cites=0)
+Both computation and memory costs increase as the context length grows.</title>
+</g>
+<circle cx="1022.0" cy="668.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="676.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="684.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="692.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="700.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="660" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="674" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Prior_Work]</text>
+<text x="805" y="689" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Context compression is a promising direction</text>
+<text x="805" y="705" text-anchor="middle" font-size="9.5" fill="#555">A wide array of studies are dedicated to alleviating efficiency issues,</text>
+<text x="805" y="717" text-anchor="middle" font-size="9.5" fill="#555">among which context compression is a promising direction [32; 11; 20; 24;</text>
+<text x="805" y="729" text-anchor="middle" font-size="9.5" fill="#555">25].</text>
+<title>N7 [Prior_Work] (cites=5)
+A wide array of studies are dedicated to alleviating efficiency issues, among which context compression is a promising direction [32; 11; 20; 24; 25].</title>
+</g>
+<g>
+<rect x="595" y="772" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="786" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Prior_Work]</text>
+<text x="805" y="801" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Compress raw input into shorter representations</text>
+<text x="805" y="817" text-anchor="middle" font-size="9.5" fill="#555">This approach aims to compress raw input into more concise representations,</text>
+<text x="805" y="829" text-anchor="middle" font-size="9.5" fill="#555">allowing the generation process to be conditioned on a shorter context.</text>
+<title>N8 [Prior_Work] (cites=0)
+This approach aims to compress raw input into more concise representations, allowing the generation process to be conditioned on a shorter context.</title>
+</g>
+<g>
+<rect x="595" y="872" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="886" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Prior_Work]</text>
+<text x="805" y="901" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Cuts compute + memory; enables longer inputs</text>
+<text x="805" y="917" text-anchor="middle" font-size="9.5" fill="#555">Therefore, it helps to reduce both computation cost of inference and memory</text>
+<text x="805" y="929" text-anchor="middle" font-size="9.5" fill="#555">cost from KV cache, while also enabling the processing of longer inputs than</text>
+<text x="805" y="941" text-anchor="middle" font-size="9.5" fill="#555">the LLM's built-in context window.</text>
+<title>N9 [Prior_Work] (cites=0)
+Therefore, it helps to reduce both computation cost of inference and memory cost from KV cache, while also enabling the processing of longer inputs than the LLM's built-in context window.</title>
+</g>
+<g>
+<rect x="595" y="1052" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1066" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Limitation]</text>
+<text x="805" y="1081" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Compressing long context remains tough</text>
+<text x="805" y="1097" text-anchor="middle" font-size="9.5" fill="#555">Despite the current progresses, it it remains a tough challenge to compress</text>
+<text x="805" y="1109" text-anchor="middle" font-size="9.5" fill="#555">long contexts.</text>
+<title>N10 [Limitation] (cites=0)
+Despite the current progresses, it it remains a tough challenge to compress long contexts.</title>
+</g>
+<circle cx="1022.0" cy="1160.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1168.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1152" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1166" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Limitation]</text>
+<text x="805" y="1181" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Soft-token summarization is bottleneck</text>
+<text x="805" y="1197" text-anchor="middle" font-size="9.5" fill="#555">Specifically, existing methods usually summarize the context into a few soft</text>
+<text x="805" y="1209" text-anchor="middle" font-size="9.5" fill="#555">tokens [11; 20], which constitute the major bottleneck to summarize the</text>
+<text x="805" y="1221" text-anchor="middle" font-size="9.5" fill="#555">complex information within long contexts.</text>
+<title>N11 [Limitation] (cites=2)
+Specifically, existing methods usually summarize the context into a few soft tokens [11; 20], which constitute the major bottleneck to summarize the complex information within long contexts.</title>
+</g>
+<g>
+<rect x="595" y="1264" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1278" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Limitation]</text>
+<text x="805" y="1293" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">All-at-once compression lacks granularity</text>
+<text x="805" y="1309" text-anchor="middle" font-size="9.5" fill="#555">Besides, they try to compress the context &quot;all-at-once&quot;, lacking a</text>
+<text x="805" y="1321" text-anchor="middle" font-size="9.5" fill="#555">fine-grained handling of the detailed information.</text>
+<title>N12 [Limitation] (cites=0)
+Besides, they try to compress the context &quot;all-at-once&quot;, lacking a fine-grained handling of the detailed information.</title>
+</g>
+<g>
+<rect x="595" y="1364" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1378" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Limitation]</text>
+<text x="805" y="1393" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Soft tokens must be re-encoded → slow</text>
+<text x="805" y="1409" text-anchor="middle" font-size="9.5" fill="#555">Moreover, these soft tokens must be re-encoded before generation, resulting</text>
+<text x="805" y="1421" text-anchor="middle" font-size="9.5" fill="#555">in inferior efficiency in both training and inference.</text>
+<title>N13 [Limitation] (cites=0)
+Moreover, these soft tokens must be re-encoded before generation, resulting in inferior efficiency in both training and inference.</title>
+</g>
+<g>
+<rect x="595" y="1464" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1478" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Limitation]</text>
+<text x="805" y="1493" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fixed soft-token count → no ratio control</text>
+<text x="805" y="1509" text-anchor="middle" font-size="9.5" fill="#555">Lastly, these methods are learned to compress with a fixed number of soft</text>
+<text x="805" y="1521" text-anchor="middle" font-size="9.5" fill="#555">tokens, thus, it's hard to customize the compression ratio for downstream</text>
+<text x="805" y="1533" text-anchor="middle" font-size="9.5" fill="#555">tasks.</text>
+<title>N14 [Limitation] (cites=0)
+Lastly, these methods are learned to compress with a fixed number of soft tokens, thus, it's hard to customize the compression ratio for downstream tasks.</title>
+</g>
+<circle cx="1022.0" cy="1584.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1592.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1576" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1590" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Limitation]</text>
+<text x="805" y="1605" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Token-deletion methods need input question</text>
+<text x="805" y="1621" text-anchor="middle" font-size="9.5" fill="#555">While some alternamtive methods focus on deleting unimportant tokens [25;</text>
+<text x="805" y="1633" text-anchor="middle" font-size="9.5" fill="#555">31], they depend on the input question to estimate the token importance,</text>
+<text x="805" y="1645" text-anchor="middle" font-size="9.5" fill="#555">limiting their efficiency in real-world multi-turn scenarios.</text>
+<title>N15 [Limitation] (cites=2)
+While some alternamtive methods focus on deleting unimportant tokens [25; 31], they depend on the input question to estimate the token importance, limiting their efficiency in real-world multi-turn scenarios.</title>
+</g>
+<g>
+<rect x="595" y="1756" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1770" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Method]</text>
+<text x="805" y="1785" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose Activation Beacon plug-in module</text>
+<text x="805" y="1801" text-anchor="middle" font-size="9.5" fill="#555">To address the above challenges, we present Activation Beacon (Figure 1), a</text>
+<text x="805" y="1813" text-anchor="middle" font-size="9.5" fill="#555">plug-in module to transformer-based LLMs that enables effective, efficient,</text>
+<text x="805" y="1825" text-anchor="middle" font-size="9.5" fill="#555">and flexible compression of long contexts.</text>
+<title>N16 [Method] (cites=0)
+To address the above challenges, we present Activation Beacon (Figure 1), a plug-in module to transformer-based LLMs that enables effective, efficient, and flexible compression of long contexts.</title>
+</g>
+<g>
+<rect x="595" y="1868" width="420" height="60" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1882" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Method]</text>
+<text x="805" y="1897" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Beacon technical designs follow</text>
+<text x="805" y="1913" text-anchor="middle" font-size="9.5" fill="#555">Activation Beacon is featured with the following technical designs.</text>
+<title>N17 [Method] (cites=0)
+Activation Beacon is featured with the following technical designs.</title>
+</g>
+<g>
+<rect x="595" y="1956" width="420" height="60" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1970" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Method]</text>
+<text x="805" y="1985" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Design 1: introduce beacon token ⟨b⟩</text>
+<text x="805" y="2001" text-anchor="middle" font-size="9.5" fill="#555">First of all, we introduce a new special token, called the beacon token ⟨b⟩.</text>
+<title>N18 [Method] (cites=0)
+First of all, we introduce a new special token, called the beacon token ⟨b⟩.</title>
+</g>
+<g>
+<rect x="595" y="2044" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2058" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Method]</text>
+<text x="805" y="2073" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Distill context into beacon-token activations</text>
+<text x="805" y="2089" text-anchor="middle" font-size="9.5" fill="#555">The context is distilled into beacon tokens' activations (i.e. keys and</text>
+<text x="805" y="2101" text-anchor="middle" font-size="9.5" fill="#555">values at every layer), whose capacity are large enough to encapsulate the</text>
+<text x="805" y="2113" text-anchor="middle" font-size="9.5" fill="#555">complex information within long contexts.</text>
+<title>N19 [Method] (cites=0)
+The context is distilled into beacon tokens' activations (i.e. keys and values at every layer), whose capacity are large enough to encapsulate the complex information within long contexts.</title>
+</g>
+<g>
+<rect x="595" y="2156" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2170" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Method]</text>
+<text x="805" y="2185" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Design 2: progressive fine-grained workflow</text>
+<text x="805" y="2201" text-anchor="middle" font-size="9.5" fill="#555">Next, we tailor the compression workflow, where each fine-grained context</text>
+<text x="805" y="2213" text-anchor="middle" font-size="9.5" fill="#555">unit is progressively compressed.</text>
+<title>N20 [Method] (cites=0)
+Next, we tailor the compression workflow, where each fine-grained context unit is progressively compressed.</title>
+</g>
+<g>
+<rect x="595" y="2256" width="420" height="60" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2270" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Method]</text>
+<text x="805" y="2285" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Partition into equal-size chunks</text>
+<text x="805" y="2301" text-anchor="middle" font-size="9.5" fill="#555">Specifically, the long context is partitioned into equal-size chunks.</text>
+<title>N21 [Method] (cites=0)
+Specifically, the long context is partitioned into equal-size chunks.</title>
+</g>
+<g>
+<rect x="595" y="2344" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2358" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Method]</text>
+<text x="805" y="2373" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Split chunks into units of size α</text>
+<text x="805" y="2389" text-anchor="middle" font-size="9.5" fill="#555">Each chunk is further split into fine-grained units of size α where α is the</text>
+<text x="805" y="2401" text-anchor="middle" font-size="9.5" fill="#555">desired compression ratio.</text>
+<title>N22 [Method] (cites=0)
+Each chunk is further split into fine-grained units of size α where α is the desired compression ratio.</title>
+</g>
+<g>
+<rect x="595" y="2444" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2458" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23 [Method]</text>
+<text x="805" y="2473" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Interleave beacon tokens between units</text>
+<text x="805" y="2489" text-anchor="middle" font-size="9.5" fill="#555">A group of beacon tokens are interleaved with these units (one beacon token</text>
+<text x="805" y="2501" text-anchor="middle" font-size="9.5" fill="#555">is dispatched to the end of every unit).</text>
+<title>N23 [Method] (cites=0)
+A group of beacon tokens are interleaved with these units (one beacon token is dispatched to the end of every unit).</title>
+</g>
+<g>
+<rect x="595" y="2544" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2558" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N24 [Method]</text>
+<text x="805" y="2573" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLM encodes chunk-by-chunk via self-attn</text>
+<text x="805" y="2589" text-anchor="middle" font-size="9.5" fill="#555">The LLM encodes one chunk at a time, distilling the chunk's information into</text>
+<text x="805" y="2601" text-anchor="middle" font-size="9.5" fill="#555">beacon tokens' activations during self attention.</text>
+<title>N24 [Method] (cites=0)
+The LLM encodes one chunk at a time, distilling the chunk's information into beacon tokens' activations during self attention.</title>
+</g>
+<g>
+<rect x="595" y="2644" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2658" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N25 [Method]</text>
+<text x="805" y="2673" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Discard raw acts, accumulate beacon acts</text>
+<text x="805" y="2689" text-anchor="middle" font-size="9.5" fill="#555">After encoding, the raw tokens' activations are discarded; while the beacon</text>
+<text x="805" y="2701" text-anchor="middle" font-size="9.5" fill="#555">tokens' activations are accumulated and reused for encoding following</text>
+<text x="805" y="2713" text-anchor="middle" font-size="9.5" fill="#555">chunks.</text>
+<title>N25 [Method] (cites=0)
+After encoding, the raw tokens' activations are discarded; while the beacon tokens' activations are accumulated and reused for encoding following chunks.</title>
+</g>
+<g>
+<rect x="595" y="2756" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2770" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N26 [Method]</text>
+<text x="805" y="2785" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">3 advantages of progressive workflow</text>
+<text x="805" y="2801" text-anchor="middle" font-size="9.5" fill="#555">This progressive workflow brings forth several advantages: 1) It can handle</text>
+<text x="805" y="2813" text-anchor="middle" font-size="9.5" fill="#555">inputs longer than the backbone LLM's context window as the chunk size is</text>
+<text x="805" y="2825" text-anchor="middle" font-size="9.5" fill="#555">small. 2) It achieves fine-grained compression since the attention scope of</text>
+<text x="805" y="2837" text-anchor="middle" font-size="9.5" fill="#555">each beacon…</text>
+<title>N26 [Method] (cites=0)
+This progressive workflow brings forth several advantages: 1) It can handle inputs longer than the backbone LLM's context window as the chunk size is small. 2) It achieves fine-grained compression since the attention scope of each beacon token is differentiated. 3) By caching and reusing activations, it facilitates contiguous gradient propagation in training, avoids re-encoding overhead in inference, and allows for incrementally updating the compression results in multi-turn scenarios.</title>
+</g>
+<g>
+<rect x="595" y="2880" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2894" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N27 [Method]</text>
+<text x="805" y="2909" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Design 3: compression-based auto-regression</text>
+<text x="805" y="2925" text-anchor="middle" font-size="9.5" fill="#555">Finally, Activation Beacon is learned with compression-based auto-regression</text>
+<text x="805" y="2937" text-anchor="middle" font-size="9.5" fill="#555">to optimize the generation quality conditioned on the compressed context.</text>
+<title>N27 [Method] (cites=0)
+Finally, Activation Beacon is learned with compression-based auto-regression to optimize the generation quality conditioned on the compressed context.</title>
+</g>
+<g>
+<rect x="595" y="2980" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="2994" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N28 [Method]</text>
+<text x="805" y="3009" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Trained with 1B corpus + 30K samples</text>
+<text x="805" y="3025" text-anchor="middle" font-size="9.5" fill="#555">Thanks to high sample efficiency, the model can be effectively trained with</text>
+<text x="805" y="3037" text-anchor="middle" font-size="9.5" fill="#555">1B plain corpus and 30K fine-tuning samples (maximum context length is 20K),</text>
+<text x="805" y="3049" text-anchor="middle" font-size="9.5" fill="#555">which can be quickly accomplished.</text>
+<title>N28 [Method] (cites=0)
+Thanks to high sample efficiency, the model can be effectively trained with 1B plain corpus and 30K fine-tuning samples (maximum context length is 20K), which can be quickly accomplished.</title>
+</g>
+<g>
+<rect x="595" y="3092" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="3106" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N29 [Method]</text>
+<text x="805" y="3121" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Random per-chunk compression ratio</text>
+<text x="805" y="3137" text-anchor="middle" font-size="9.5" fill="#555">During training, we randomly sample the compression ratio for each chunk,</text>
+<text x="805" y="3149" text-anchor="middle" font-size="9.5" fill="#555">enhancing the model's flexibility to tackle different compression ratios in</text>
+<text x="805" y="3161" text-anchor="middle" font-size="9.5" fill="#555">downstream tasks.</text>
+<title>N29 [Method] (cites=0)
+During training, we randomly sample the compression ratio for each chunk, enhancing the model's flexibility to tackle different compression ratios in downstream tasks.</title>
+</g>
+<g>
+<rect x="595" y="3204" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="3218" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N30 [Method]</text>
+<text x="805" y="3233" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Shared embedding allows arbitrary ratio</text>
+<text x="805" y="3249" text-anchor="middle" font-size="9.5" fill="#555">Note that all beacon tokens share the same token embedding, one can use</text>
+<text x="805" y="3261" text-anchor="middle" font-size="9.5" fill="#555">arbitrary number of beacon tokens to achieve the desired compression ratio</text>
+<text x="805" y="3273" text-anchor="middle" font-size="9.5" fill="#555">by repeating.</text>
+<title>N30 [Method] (cites=0)
+Note that all beacon tokens share the same token embedding, one can use arbitrary number of beacon tokens to achieve the desired compression ratio by repeating.</title>
+</g>
+<circle cx="1022.0" cy="3392.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="3400.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="3384" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="3398" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N31 [Result]</text>
+<text x="805" y="3413" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Applied to Llama-2 and Qwen-2</text>
+<text x="805" y="3429" text-anchor="middle" font-size="9.5" fill="#555">In our experiments, Activation Beacon is applied to Llama-2 [36] and Qwen-2</text>
+<text x="805" y="3441" text-anchor="middle" font-size="9.5" fill="#555">[39].</text>
+<title>N31 [Result] (cites=2)
+In our experiments, Activation Beacon is applied to Llama-2 [36] and Qwen-2 [39].</title>
+</g>
+<g>
+<rect x="595" y="3484" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="3498" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N32 [Result]</text>
+<text x="805" y="3513" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Eval on 128K doc/few-shot/NiaH tasks</text>
+<text x="805" y="3529" text-anchor="middle" font-size="9.5" fill="#555">We evaluate the resulted models on a variety of long-context tasks (whose</text>
+<text x="805" y="3541" text-anchor="middle" font-size="9.5" fill="#555">lengths may be much longer than the training length, e.g., 128K), such as</text>
+<text x="805" y="3553" text-anchor="middle" font-size="9.5" fill="#555">document understanding, few-shot learning, and Needle-in-a-Haystack.</text>
+<title>N32 [Result] (cites=0)
+We evaluate the resulted models on a variety of long-context tasks (whose lengths may be much longer than the training length, e.g., 128K), such as document understanding, few-shot learning, and Needle-in-a-Haystack.</title>
+</g>
+<g>
+<rect x="595" y="3596" width="420" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="3610" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N33 [Result]</text>
+<text x="805" y="3625" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Matches baseline, 2x speed, 8x KV cut</text>
+<text x="805" y="3641" text-anchor="middle" font-size="9.5" fill="#555">Whilst existing methods struggle to handle these challenging tasks,</text>
+<text x="805" y="3653" text-anchor="middle" font-size="9.5" fill="#555">Activation Beacon maintains a comparable performance to the uncompressed</text>
+<text x="805" y="3665" text-anchor="middle" font-size="9.5" fill="#555">baseline across various compression configurations, meanwhile achieving 2x</text>
+<text x="805" y="3677" text-anchor="middle" font-size="9.5" fill="#555">acceleration and 8x KV…</text>
+<title>N33 [Result] (cites=0)
+Whilst existing methods struggle to handle these challenging tasks, Activation Beacon maintains a comparable performance to the uncompressed baseline across various compression configurations, meanwhile achieving 2x acceleration and 8x KV cache reduction.</title>
+</g>
+<g>
+<rect x="595" y="3720" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="3734" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N34 [Result]</text>
+<text x="805" y="3749" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Short-context capability preserved</text>
+<text x="805" y="3765" text-anchor="middle" font-size="9.5" fill="#555">Moreover, the LLM's original capabilities on short context is well</text>
+<text x="805" y="3777" text-anchor="middle" font-size="9.5" fill="#555">preserved.</text>
+<title>N34 [Result] (cites=0)
+Moreover, the LLM's original capabilities on short context is well preserved.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

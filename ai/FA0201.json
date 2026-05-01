@@ -1,0 +1,140 @@
+{
+  "paper_id": "FA0201",
+  "paper_topic": "Cap-and-Spill: two-pass CUDA-graph-compatible MoE dispatch using quantile-based buffer capacity",
+  "anchor_paper": null,
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Sparse Mixture-of-Experts (MoE) models have emerged as a powerful paradigm for scaling neural networks efficiently (Shazeer et al., 2017; Lepikhin et al., 2020; Fedus et al., 2021).",
+      "display_label": "MoE for scaling neural networks",
+      "citations": 3
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "By activating only a subset of experts for each input token, MoE architectures achieve the capacity of dense models at a fraction of the computational cost.",
+      "display_label": "MoE: dense capacity, sparse compute",
+      "citations": 0
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "Recent models such as Mixtral (Jiang et al., 2024a) and DeepSeek-V2 (Shao et al., 2024) have demonstrated state-of-the-art performance using this approach, driving widespread adoption in production systems.",
+      "display_label": "Mixtral, DeepSeek-V2 in production",
+      "citations": 2
+    },
+    {
+      "id": "N4",
+      "type": "Context",
+      "text": "A critical component of distributed MoE inference is the dispatch phase, where tokens are redistributed across GPUs via AllToAll collective communication to reach their assigned experts (Hwang et al., 2022; Rajbhandari et al., 2022).",
+      "display_label": "Dispatch via AllToAll in MoE inference",
+      "citations": 2
+    },
+    {
+      "id": "N5",
+      "type": "Prior_Work",
+      "text": "CUDA graphs have become essential for high-throughput inference, as they eliminate kernel launch overhead by capturing and replaying sequences of GPU operations.",
+      "display_label": "CUDA graphs eliminate launch overhead",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "However, CUDA graphs require all buffer sizes to be fixed at capture time, creating a fundamental tension with the dynamic nature of MoE routing: current approaches must allocate buffers for the worst-case token count across all peer pairs, leading to substantial padding waste.",
+      "display_label": "Fixed buffers force worst-case padding",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Result",
+      "text": "Our analysis of Mixtral-8x7B routing traces reveals that this worst-case allocation is highly inefficient.",
+      "display_label": "Worst-case allocation is inefficient",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Result",
+      "text": "The maximum per-peer token count (Cmax = 43) is 8.4× larger than the mean count (5.1), resulting in 88% padding overhead.",
+      "display_label": "Cmax 8.4x mean; 88% padding waste",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Result",
+      "text": "However, the distribution is heavy-tailed: 99% of per-peer counts fall below C = 16, suggesting that smaller buffers could handle the vast majority of dispatch operations.",
+      "display_label": "Heavy-tailed: 99% below C=16",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Method",
+      "text": "We propose Cap-and-Spill, a two-pass dispatch strategy that exploits this statistical property while maintaining CUDA-graph compatibility.",
+      "display_label": "Propose Cap-and-Spill two-pass dispatch",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method",
+      "text": "The first pass uses quantile-based buffer capacity (C = Q99 ) to handle most tokens efficiently; the second pass dispatches overflow tokens that exceed the capacity.",
+      "display_label": "Pass 1 Q99 buffer; Pass 2 overflow",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Method",
+      "text": "Both passes use fixed buffer sizes, enabling full CUDA-graph capture.",
+      "display_label": "Fixed buffers; full graph capture",
+      "citations": 0
+    },
+    {
+      "id": "N13",
+      "type": "Method",
+      "text": "Counterintuitively, we find that unconditionally executing both passes outperforms conditional execution by eliminating synchronization overhead.",
+      "display_label": "Unconditional execution beats conditional",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We propose Cap-and-Spill, a two-pass CUDA-graph-compatible MoE dispatch algorithm that uses quantile-based buffer capacity to reduce padding waste while handling overflow tokens in a second pass.",
+      "display_label": "C1: Cap-and-Spill algorithm",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We demonstrate 33.9% mean latency reduction (1077 µs → 712 µs) on 8×A100 NVLink with Mixtral-8x7B routing traces, recovering 53.2% of the gap to oracle eager dispatch while maintaining exact correctness.",
+      "display_label": "C2: 33.9% latency cut; correctness held",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We characterize the heavy-tailed nature of MoE routing distributions (Cmax /µ = 8.4×) and show that the 99th percentile provides the optimal operating point, balancing buffer reduction (2.69×) with minimal overflow (5.4%).",
+      "display_label": "C3: Q99 optimal; 2.69x buffer cut",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "elaboration"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "contrast", "connective": "However"},
+    {"from": "N6", "to": "N7", "kind": "elaboration"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "contrast", "connective": "However"},
+    {"from": "N9", "to": "N10", "kind": "consequence", "connective": "We propose"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "N12", "kind": "elaboration"},
+    {"from": "N12", "to": "N13", "kind": "elaboration"},
+    {"from": "N13", "to": "C1", "kind": "elaboration"},
+    {"from": "N13", "to": "C2", "kind": "elaboration"},
+    {"from": "N13", "to": "C3", "kind": "elaboration"},
+    {"from": "C1", "to": "N6", "kind": "addresses"},
+    {"from": "C2", "to": "N6", "kind": "addresses"},
+    {"from": "C3", "to": "N6", "kind": "addresses"}
+  ],
+  "observations": "FA0201 follows a tight problem-solution arc framing CUDA-graph buffer padding waste in MoE dispatch. Para 1 (N1-N4) is pure Context: MoE as scaling paradigm, sparse activation, production adoption (Mixtral, DeepSeek-V2), and dispatch via AllToAll. Para 2 introduces the only genuine Prior_Work / Limitation pair: N5 (CUDA graphs are essential for throughput) is reversed by N6 ('However, CUDA graphs require fixed buffer sizes... worst-case... padding waste'), where the 'current approaches' clause names the prior practice being critiqued. The Limitation N6 thus has Prior_Work N5 as its required upstream source.\n\nPara 3 (N7-N9) is empirical Result content that analyzes Mixtral routing traces and provides quantitative justification for the method's premise — Cmax/mean = 8.4x with 88% padding waste, and a heavy-tailed distribution where 99% of counts fall below C=16. The intra-paragraph 'However' (N8 -> N9) is a contrast between the worst-case-vs-mean ratio and the heavy-tail observation that motivates the proposed quantile-based buffer.\n\nThe Method block (N10-N13) decomposes Cap-and-Spill into the two-pass strategy, fixed buffers for graph capture, and the counterintuitive unconditional execution finding. Three Contribution nodes (C1-C3) close the intro and each maps via an addresses edge back to the single Limitation N6 (the worst-case padding waste being resolved). N13 is a fork node (out_degree=3 to C1/C2/C3); N6 is the join target of the three addresses back-edges. No anchor paper — this is a pure systems contribution rather than a derivative of one prior method."
+}

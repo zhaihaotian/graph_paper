@@ -1,0 +1,140 @@
+{
+  "paper_id": "FA0172",
+  "paper_topic": "Auditing norm-clipped L2-Laplacian token embedding obfuscation against sequence-aware reconstruction (BeamClean)",
+  "anchor_paper": "Split-and-Denoise (Mai et al., 2023)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Embedding-based NLP services—including semantic search, text classification, and language model inference—require transmitting dense vector representations of user text to remote servers.",
+      "display_label": "NLP services transmit embeddings",
+      "citations": 0
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "These embeddings, while enabling powerful downstream applications, pose significant privacy risks: recent work has demonstrated that text embeddings can be inverted to recover the original text with high fidelity (Morris et al., 2023; Kale et al., 2025).",
+      "display_label": "Embeddings can be inverted to text",
+      "citations": 2
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "This vulnerability is particularly concerning in split inference architectures, where clients compute embeddings locally before sending them to untrusted servers.",
+      "display_label": "Split inference exposes embeddings",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Context",
+      "text": "To mitigate embedding leakage, researchers have proposed perturbation-based defenses that add calibrated noise to embeddings before transmission.",
+      "display_label": "Perturbation-based defenses proposed",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Prior_Work",
+      "text": "A prominent approach combines L2-Laplacian noise with norm clipping (Mai et al., 2023), providing dχ-privacy guarantees (Chatzikokolakis et al., 2013) while bounding the output space.",
+      "display_label": "Norm-clipped L2-Laplacian (Mai 2023)",
+      "citations": 2,
+      "anchor": true
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "However, the effectiveness of this defense has been evaluated primarily using simple per-token nearest-neighbor (NN) attacks, which ignore sequence-level constraints.",
+      "display_label": "Defense evaluated only with NN attacks",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Limitation",
+      "text": "Recent work on BeamClean (Kale et al., 2025) has shown that sequence-aware attacks leveraging language model priors can dramatically outperform NN baselines under input-independent noise—but BeamClean's evaluation did not include norm-clipped mechanisms.",
+      "display_label": "BeamClean stronger but untested on clipping",
+      "citations": 1
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "This gap raises a critical question: Does the sequence-aware BeamClean attacker pose a greater threat than simple NN decoding under norm-clipped L2-Laplacian perturbation?",
+      "display_label": "RQ: BeamClean vs NN under norm-clipping",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Method",
+      "text": "If BeamClean significantly outperforms NN, then privacy evaluations relying solely on NN attacks may substantially underestimate leakage.",
+      "display_label": "If yes: NN under-estimates leakage",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Method",
+      "text": "Conversely, if norm clipping closes the gap, it could serve as an effective practical mitigation.",
+      "display_label": "If no: clipping is effective mitigation",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method",
+      "text": "We conduct a systematic privacy audit to answer this question, and our findings are surprising.",
+      "display_label": "Conduct systematic privacy audit",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Result",
+      "text": "At the operating point proposed in prior work (η = 142, producing 30–50% clip rate), both NN and BeamClean achieve near-perfect reconstruction (>99.98% Token-ASR, 100% Canary-EM).",
+      "display_label": "Both attackers >99.98% Token-ASR",
+      "citations": 0
+    },
+    {
+      "id": "N13",
+      "type": "Result",
+      "text": "The comparison between attackers becomes moot: the defense provides no meaningful privacy protection.",
+      "display_label": "Comparison moot; defense ineffective",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We demonstrate a ceiling effect: at the proposed operating point, both simple and sophisticated attackers achieve near-perfect reconstruction, rendering the defense ineffective.",
+      "display_label": "C1: ceiling effect; defense ineffective",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We show that BeamClean does not outperform NN under norm-clipped perturbation; in fact, NN achieves marginally higher accuracy due to the ceiling effect.",
+      "display_label": "C2: BeamClean does not beat NN here",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We explain this finding through directional preservation analysis: norm clipping preserves directional information exactly, making simple NN attacks sufficient when noise is mild.",
+      "display_label": "C3: directional preservation explains it",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "elaboration"},
+    {"from": "N3", "to": "N4", "kind": "consequence", "connective": "To mitigate"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "contrast", "connective": "However"},
+    {"from": "N6", "to": "N7", "kind": "elaboration"},
+    {"from": "N7", "to": "N8", "kind": "consequence", "connective": "This gap raises"},
+    {"from": "N8", "to": "N9", "kind": "elaboration"},
+    {"from": "N9", "to": "N10", "kind": "contrast", "connective": "Conversely"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "N12", "kind": "evidence"},
+    {"from": "N12", "to": "N13", "kind": "consequence"},
+    {"from": "N13", "to": "C1", "kind": "elaboration"},
+    {"from": "N13", "to": "C2", "kind": "elaboration"},
+    {"from": "N13", "to": "C3", "kind": "elaboration"},
+    {"from": "C1", "to": "N6", "kind": "addresses"},
+    {"from": "C2", "to": "N7", "kind": "addresses"}
+  ],
+  "observations": "FA0172 is a privacy audit paper with a striking null result. Para 1 (N1-N4) sets up Context: NLP services transmit embeddings, embeddings can be inverted, split inference is concerning, perturbation defenses have been proposed. The anchor Prior_Work N5 (norm-clipped L2-Laplacian, Mai et al., 2023) is then introduced and immediately critiqued by a Limitation pair (N6-N7): the defense was only evaluated with NN attacks, and although BeamClean is stronger it was not tested on norm-clipped mechanisms.\n\nThe Method block (N8-N11) is unusually shaped: a research question (N8: does BeamClean threaten more?), two conditional follow-ups (N9: if yes, evaluations underestimate leakage; N10: if no, clipping is a useful mitigation), and the audit announcement (N11). The Result block (N12-N13) reports the surprise: both attackers achieve >99.98% Token-ASR, making the comparison moot.\n\nThree Contributions close the intro. Two addresses edges connect them back to specific Limitations: C1 (ceiling effect rendering defense ineffective) addresses N6 (the original NN-only evaluation gap), and C2 (BeamClean does not outperform NN) addresses N7 (the BeamClean-untested-on-clipping gap). C3 (directional preservation explanation) is mechanistic and lacks a clean lexical bridge to a single Limitation, so no addresses edge there. Topology shows N13 as the contribution-fork and N6/N7 as the join-source for the contribution back-references."
+}

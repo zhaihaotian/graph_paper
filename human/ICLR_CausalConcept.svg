@@ -1,0 +1,315 @@
+<svg viewBox="0 0 1480 2360" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="402" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="998" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="784" x2="1450" y2="784" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1476" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="1212" x2="1450" y2="1212" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1886" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1740" x2="1450" y2="1740" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2166" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="2032" x2="1450" y2="2032" stroke="#eee" stroke-width="1"/>
+<rect x="424" y="1240" width="603" height="464" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="432" y="1236" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N7</text>
+<rect x="424" y="1364" width="762" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="432" y="1360" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N13</text>
+<rect x="424" y="1364" width="762" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="432" y="1360" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N17</text>
+<rect x="235" y="2148" width="1140" height="116" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="2144" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N18</text>
+<line x1="616" y1="164" x2="805" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="288" x2="805" y2="316" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="299" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Unlike</text>
+<line x1="805" y1="388" x2="805" y2="416" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="500" x2="805" y2="528" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="624" x2="805" y2="652" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="736" x2="616" y2="832" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="928" x2="616" y2="1260" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1356" x2="994" y2="68" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="709" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Yet</text>
+<line x1="994" y1="164" x2="994" y2="832" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="994" y="495" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To address this issue</text>
+<line x1="994" y1="928" x2="805" y2="956" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1052" x2="805" y2="1080" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1164" x2="994" y2="1260" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="899" y="1209" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Although</text>
+<line x1="994" y1="1356" x2="616" y2="1384" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1356" x2="994" y2="1384" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1480" x2="805" y2="1508" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1592" x2="805" y2="1620" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1603" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">As a result</text>
+<line x1="805" y1="1692" x2="805" y2="1788" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1737" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">In response to this challenge</text>
+<line x1="805" y1="1860" x2="805" y2="1888" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1984" x2="805" y2="2080" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2140" x2="427" y2="2168" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2140" x2="805" y2="2168" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2140" x2="1183" y2="2168" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="928" x2="805" y2="1620" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1984" x2="616" y2="1384" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1984" x2="994" y2="1384" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="2252" x2="805" y2="1620" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1183" y1="2252" x2="616" y2="1260" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="803.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="616" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Causal opacity defined</text>
+<text x="616" y="113" text-anchor="middle" font-size="9.5" fill="#555">Causal opacity refers to the difficulty in understanding a model's</text>
+<text x="616" y="125" text-anchor="middle" font-size="9.5" fill="#555">decision-making mechanisms (Termine &amp; Primiero, 2024).</text>
+<title>N1 [Context] (cites=1)
+Causal opacity refers to the difficulty in understanding a model's decision-making mechanisms (Termine &amp; Primiero, 2024).</title>
+</g>
+<circle cx="1022.0" cy="200.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="192" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Pearl 3-tier: observational/interventional/counterfactual</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">Like causal discovery, causal opacity, can be assessed through Pearl's</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">framework of causality (Pearl, 1995), categorizing an agent's causal</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">understanding based on its ability to answer three types of questions:</text>
+<text x="805" y="273" text-anchor="middle" font-size="9.5" fill="#555">observational queries (&quot;what…</text>
+<title>N2 [Context] (cites=1)
+Like causal discovery, causal opacity, can be assessed through Pearl's framework of causality (Pearl, 1995), categorizing an agent's causal understanding based on its ability to answer three types of questions: observational queries (&quot;what is the relationship between the feature x and the model's output?&quot;), interventional queries (&quot;what happens if I fix the feature x to a value k?&quot;), and counterfactual queries (&quot;what would the model's prediction had been if feature x had taken value k′ instead of k?&quot;).</title>
+</g>
+<g>
+<rect x="595" y="316" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="330" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="345" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Opacity = DNN decision process, not real-world</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">Unlike causal discovery, causal opacity concerns the decision-making process</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">of a DNN model.</text>
+<title>N3 [Context] (cites=0)
+Unlike causal discovery, causal opacity concerns the decision-making process of a DNN model.</title>
+</g>
+<g>
+<rect x="595" y="416" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="430" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="445" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Transparency = answerable interventional/counterfactual Qs</text>
+<text x="805" y="461" text-anchor="middle" font-size="9.5" fill="#555">Whether a DNN is causally opaque (or transparent) depends on whether users</text>
+<text x="805" y="473" text-anchor="middle" font-size="9.5" fill="#555">can answer interventional and counterfactual questions that concern the</text>
+<text x="805" y="485" text-anchor="middle" font-size="9.5" fill="#555">model's inferential behaviour.</text>
+<title>N4 [Context] (cites=0)
+Whether a DNN is causally opaque (or transparent) depends on whether users can answer interventional and counterfactual questions that concern the model's inferential behaviour.</title>
+</g>
+<g>
+<rect x="595" y="528" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="542" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="557" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Opacity ≠ causal discovery; no true-DGP needed</text>
+<text x="805" y="573" text-anchor="middle" font-size="9.5" fill="#555">In this regard, notice that (i) the problem of causal opacity is distinct</text>
+<text x="805" y="585" text-anchor="middle" font-size="9.5" fill="#555">from the problem of causal discovery, which involves detecting causal</text>
+<text x="805" y="597" text-anchor="middle" font-size="9.5" fill="#555">mechanisms in the real world, rather than understanding the causal structure</text>
+<text x="805" y="609" text-anchor="middle" font-size="9.5" fill="#555">of a model's…</text>
+<title>N5 [Context] (cites=0)
+In this regard, notice that (i) the problem of causal opacity is distinct from the problem of causal discovery, which involves detecting causal mechanisms in the real world, rather than understanding the causal structure of a model's internal reasoning; and (ii) causal opacity (and the related form of causal understanding) neither implies nor requires discovering the &quot;true&quot; causal structure of the data-generating process.</title>
+</g>
+<g>
+<rect x="595" y="652" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="666" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Context]</text>
+<text x="805" y="681" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Worked example: smoking ← lung cancer rule</text>
+<text x="805" y="697" text-anchor="middle" font-size="9.5" fill="#555">For example, a model might effectively predict heart attacks based on the</text>
+<text x="805" y="709" text-anchor="middle" font-size="9.5" fill="#555">rule heart_attack ← smoking ← lung_cancer, even though the actual biological</text>
+<text x="805" y="721" text-anchor="middle" font-size="9.5" fill="#555">mechanism is that smoking causes lung cancer, not the reverse.</text>
+<title>N6 [Context] (cites=0)
+For example, a model might effectively predict heart attacks based on the rule heart_attack ← smoking ← lung_cancer, even though the actual biological mechanism is that smoking causes lung cancer, not the reverse.</title>
+</g>
+<circle cx="803.0" cy="840.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="848.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="832" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="846" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Prior_Work]</text>
+<text x="616" y="861" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">DL models are causally opaque on images</text>
+<text x="616" y="877" text-anchor="middle" font-size="9.5" fill="#555">Deep Learning (DL) models (Fig. 1a) are causally opaque when</text>
+<text x="616" y="889" text-anchor="middle" font-size="9.5" fill="#555">applied to unstructured data like images, as interventions on</text>
+<text x="616" y="901" text-anchor="middle" font-size="9.5" fill="#555">low-level features, such as pixels, are not meaningful (Rudin,</text>
+<text x="616" y="913" text-anchor="middle" font-size="9.5" fill="#555">2019; Ghorbani et al., 2019) and therefore do not…</text>
+<title>N7 [Prior_Work] (cites=2)
+Deep Learning (DL) models (Fig. 1a) are causally opaque when applied to unstructured data like images, as interventions on low-level features, such as pixels, are not meaningful (Rudin, 2019; Ghorbani et al., 2019) and therefore do not enable us to easily answer any of these sorts of questions.</title>
+</g>
+<g>
+<rect x="436" y="1260" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="1274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Limitation]</text>
+<text x="616" y="1289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Pixel intervention ≠ attribute audit</text>
+<text x="616" y="1305" text-anchor="middle" font-size="9.5" fill="#555">For example, asking &quot;what happens if I fix the intensity of the</text>
+<text x="616" y="1317" text-anchor="middle" font-size="9.5" fill="#555">pixel xi to k?&quot; does little to reveal whether a DNN is exploiting</text>
+<text x="616" y="1329" text-anchor="middle" font-size="9.5" fill="#555">protected attributes like &quot;gender&quot; or &quot;race&quot; when classifying an</text>
+<text x="616" y="1341" text-anchor="middle" font-size="9.5" fill="#555">image of a person as a &quot;doctor&quot;.</text>
+<title>N8 [Limitation] (cites=0)
+For example, asking &quot;what happens if I fix the intensity of the pixel xi to k?&quot; does little to reveal whether a DNN is exploiting protected attributes like &quot;gender&quot; or &quot;race&quot; when classifying an image of a person as a &quot;doctor&quot;.</title>
+</g>
+<circle cx="1181.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Context]</text>
+<text x="994" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">High-level attribute auditing matters</text>
+<text x="994" y="113" text-anchor="middle" font-size="9.5" fill="#555">Yet, understanding when these sorts of high-level attributes are</text>
+<text x="994" y="125" text-anchor="middle" font-size="9.5" fill="#555">misused to make predictions is crucial for the proper verification</text>
+<text x="994" y="137" text-anchor="middle" font-size="9.5" fill="#555">and vetting of models (Kusner et al., 2017), particularly in</text>
+<text x="994" y="149" text-anchor="middle" font-size="9.5" fill="#555">high-impact real-world tasks (e.g., medical…</text>
+<title>N9 [Context] (cites=1)
+Yet, understanding when these sorts of high-level attributes are misused to make predictions is crucial for the proper verification and vetting of models (Kusner et al., 2017), particularly in high-impact real-world tasks (e.g., medical admission recommendations).</title>
+</g>
+<circle cx="1181.0" cy="840.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="848.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="832" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="846" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Prior_Work]</text>
+<text x="994" y="861" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CBMs intervene on high-level concepts</text>
+<text x="994" y="877" text-anchor="middle" font-size="9.5" fill="#555">To address this issue, Concept Bottleneck Models (CBMs) (Koh et</text>
+<text x="994" y="889" text-anchor="middle" font-size="9.5" fill="#555">al., 2020) have been designed to support interventions on</text>
+<text x="994" y="901" text-anchor="middle" font-size="9.5" fill="#555">high-level interpretable features known as &quot;concepts&quot; (Kim et al.,</text>
+<text x="994" y="913" text-anchor="middle" font-size="9.5" fill="#555">2018).</text>
+<title>N10 [Prior_Work] (cites=2)
+To address this issue, Concept Bottleneck Models (CBMs) (Koh et al., 2020) have been designed to support interventions on high-level interpretable features known as &quot;concepts&quot; (Kim et al., 2018).</title>
+</g>
+<circle cx="1022.0" cy="964.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="972.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="956" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="970" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Prior_Work]</text>
+<text x="805" y="985" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Concepts enable intuitive interventions</text>
+<text x="805" y="1001" text-anchor="middle" font-size="9.5" fill="#555">These concepts, whose semantics are aligned with units of information</text>
+<text x="805" y="1013" text-anchor="middle" font-size="9.5" fill="#555">experts would use to solve the same task, allow for more intuitive</text>
+<text x="805" y="1025" text-anchor="middle" font-size="9.5" fill="#555">interventions and counterfactual analysis (Wachter et al., 2017; Abid et</text>
+<text x="805" y="1037" text-anchor="middle" font-size="9.5" fill="#555">al., 2021).</text>
+<title>N11 [Prior_Work] (cites=2)
+These concepts, whose semantics are aligned with units of information experts would use to solve the same task, allow for more intuitive interventions and counterfactual analysis (Wachter et al., 2017; Abid et al., 2021).</title>
+</g>
+<g>
+<rect x="595" y="1080" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="1094" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Prior_Work]</text>
+<text x="805" y="1109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CBMs operate on interpretable variables</text>
+<text x="805" y="1125" text-anchor="middle" font-size="9.5" fill="#555">This is because CBMs shift from reasoning based on raw features to</text>
+<text x="805" y="1137" text-anchor="middle" font-size="9.5" fill="#555">explicitly operating on interpretable variables such as &quot;age&quot;, &quot;income&quot;,</text>
+<text x="805" y="1149" text-anchor="middle" font-size="9.5" fill="#555">&quot;gender&quot;, or &quot;BMI&quot;.</text>
+<title>N12 [Prior_Work] (cites=0)
+This is because CBMs shift from reasoning based on raw features to explicitly operating on interpretable variables such as &quot;age&quot;, &quot;income&quot;, &quot;gender&quot;, or &quot;BMI&quot;.</title>
+</g>
+<circle cx="1181.0" cy="1268.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1276.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="1260" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="1274" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Limitation]</text>
+<text x="994" y="1289" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CBMs rely on two unrealistic assumptions</text>
+<text x="994" y="1305" text-anchor="middle" font-size="9.5" fill="#555">Although CBMs are semantically transparent (Kim et al., 2018;</text>
+<text x="994" y="1317" text-anchor="middle" font-size="9.5" fill="#555">Facchini &amp; Termine, 2021), we argue they still rely on two</text>
+<text x="994" y="1329" text-anchor="middle" font-size="9.5" fill="#555">unrealistic assumptions (visualised in Fig. 1b).</text>
+<title>N13 [Limitation] (cites=2)
+Although CBMs are semantically transparent (Kim et al., 2018; Facchini &amp; Termine, 2021), we argue they still rely on two unrealistic assumptions (visualised in Fig. 1b).</title>
+</g>
+<g>
+<rect x="436" y="1384" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="1398" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13a [Limitation]</text>
+<text x="616" y="1413" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Assumption 1: concepts are independent</text>
+<text x="616" y="1429" text-anchor="middle" font-size="9.5" fill="#555">First, they assume that concepts are causally independent, an</text>
+<text x="616" y="1441" text-anchor="middle" font-size="9.5" fill="#555">assumption that breaks in most real-world tasks. For instance,</text>
+<text x="616" y="1453" text-anchor="middle" font-size="9.5" fill="#555">CBMs might treat &quot;smoking&quot; and other health conditions as</text>
+<text x="616" y="1465" text-anchor="middle" font-size="9.5" fill="#555">independent predictors of an insurance premium, ignoring…</text>
+<title>N13a [Limitation] (cites=0)
+First, they assume that concepts are causally independent, an assumption that breaks in most real-world tasks. For instance, CBMs might treat &quot;smoking&quot; and other health conditions as independent predictors of an insurance premium, ignoring how intervening on smoking affects health.</title>
+</g>
+<g>
+<rect x="814" y="1384" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="1398" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13b [Limitation]</text>
+<text x="994" y="1413" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Assumption 2: concepts directly cause predictions</text>
+<text x="994" y="1429" text-anchor="middle" font-size="9.5" fill="#555">Second, and more importantly, CBMs assume concepts are the direct</text>
+<text x="994" y="1441" text-anchor="middle" font-size="9.5" fill="#555">causes of model predictions.</text>
+<title>N13b [Limitation] (cites=0)
+Second, and more importantly, CBMs assume concepts are the direct causes of model predictions.</title>
+</g>
+<circle cx="1022.0" cy="1516.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1508" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1522" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Limitation]</text>
+<text x="805" y="1537" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Assumptions constrain inference structure</text>
+<text x="805" y="1553" text-anchor="middle" font-size="9.5" fill="#555">These assumptions oversimplify and constrain the model's inference</text>
+<text x="805" y="1565" text-anchor="middle" font-size="9.5" fill="#555">structure, preventing the model from using more complex and effective</text>
+<text x="805" y="1577" text-anchor="middle" font-size="9.5" fill="#555">concept dependencies (Beckers, 2022).</text>
+<title>N14 [Limitation] (cites=1)
+These assumptions oversimplify and constrain the model's inference structure, preventing the model from using more complex and effective concept dependencies (Beckers, 2022).</title>
+</g>
+<g>
+<rect x="595" y="1620" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="1634" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Limitation]</text>
+<text x="805" y="1649" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Causal opacity remains open challenge</text>
+<text x="805" y="1665" text-anchor="middle" font-size="9.5" fill="#555">As a result, the problem of causal opacity still represents a key open</text>
+<text x="805" y="1677" text-anchor="middle" font-size="9.5" fill="#555">challenge at the intersection of DL, causality, and XAI.</text>
+<title>N15 [Limitation] (cites=0)
+As a result, the problem of causal opacity still represents a key open challenge at the intersection of DL, causality, and XAI.</title>
+</g>
+<g>
+<rect x="595" y="1788" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1802" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Method]</text>
+<text x="805" y="1817" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose Causal CGMs</text>
+<text x="805" y="1833" text-anchor="middle" font-size="9.5" fill="#555">In response to this challenge, we introduce Causal Concept Graph Models</text>
+<text x="805" y="1845" text-anchor="middle" font-size="9.5" fill="#555">(Causal CGMs, see Figure 1c).</text>
+<title>N16 [Method] (cites=0)
+In response to this challenge, we introduce Causal Concept Graph Models (Causal CGMs, see Figure 1c).</title>
+</g>
+<g>
+<rect x="595" y="1888" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1902" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Method]</text>
+<text x="805" y="1917" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Causally transparent by design</text>
+<text x="805" y="1933" text-anchor="middle" font-size="9.5" fill="#555">Causal CGMs are a new concept-based architecture whose decision-making</text>
+<text x="805" y="1945" text-anchor="middle" font-size="9.5" fill="#555">process is causally transparent by design, avoiding the unrealistic</text>
+<text x="805" y="1957" text-anchor="middle" font-size="9.5" fill="#555">assumption that concepts must be causally independent and direct causes of</text>
+<text x="805" y="1969" text-anchor="middle" font-size="9.5" fill="#555">class prediction.</text>
+<title>N17 [Method] (cites=0)
+Causal CGMs are a new concept-based architecture whose decision-making process is causally transparent by design, avoiding the unrealistic assumption that concepts must be causally independent and direct causes of class prediction.</title>
+</g>
+<g>
+<rect x="595" y="2080" width="420" height="60" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="2094" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Contribution]</text>
+<text x="805" y="2109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contributions:</text>
+<text x="805" y="2125" text-anchor="middle" font-size="9.5" fill="#555">The results of our experiments show that Causal CGMs can:</text>
+<title>N18 [Contribution] (cites=0)
+The results of our experiments show that Causal CGMs can:</title>
+</g>
+<g>
+<rect x="247" y="2168" width="360" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="2182" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18a [Contribution]</text>
+<text x="427" y="2197" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: match SOTA causally-opaque accuracy</text>
+<text x="427" y="2213" text-anchor="middle" font-size="9.5" fill="#555">(i) match the generalisation performance of state-of-the-art</text>
+<text x="427" y="2225" text-anchor="middle" font-size="9.5" fill="#555">causally-opaque models,</text>
+<title>N18a [Contribution] (cites=0)
+(i) match the generalisation performance of state-of-the-art causally-opaque models,</title>
+</g>
+<g>
+<rect x="625" y="2168" width="360" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="2182" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18b [Contribution]</text>
+<text x="805" y="2197" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: HITL corrections boost both accuracy + explanation</text>
+<text x="805" y="2213" text-anchor="middle" font-size="9.5" fill="#555">(ii) enable human-in-the-loop corrections of mispredicted</text>
+<text x="805" y="2225" text-anchor="middle" font-size="9.5" fill="#555">intermediate reasoning steps, boosting both downstream accuracy</text>
+<text x="805" y="2237" text-anchor="middle" font-size="9.5" fill="#555">and explanation correctness,</text>
+<title>N18b [Contribution] (cites=0)
+(ii) enable human-in-the-loop corrections of mispredicted intermediate reasoning steps, boosting both downstream accuracy and explanation correctness,</title>
+</g>
+<g>
+<rect x="1003" y="2168" width="360" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="2182" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18c [Contribution]</text>
+<text x="1183" y="2197" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: interventional + counterfactual analysis</text>
+<text x="1183" y="2213" text-anchor="middle" font-size="9.5" fill="#555">and (iii) support the analysis of both interventional and</text>
+<text x="1183" y="2225" text-anchor="middle" font-size="9.5" fill="#555">counterfactual questions, improving causal interpretability and</text>
+<text x="1183" y="2237" text-anchor="middle" font-size="9.5" fill="#555">enabling effective verification of reliability and fairness.</text>
+<title>N18c [Contribution] (cites=0)
+and (iii) support the analysis of both interventional and counterfactual questions, improving causal interpretability and enabling effective verification of reliability and fairness.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

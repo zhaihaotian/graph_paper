@@ -1,0 +1,182 @@
+{
+  "paper_id": "FA0069",
+  "paper_topic": "Timeout bootstrapping for long-CoT RLVR: bootstrap from critic value at truncation rather than treat as failure",
+  "anchor_paper": "Pardo et al., 2017 (time limits in RL)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Reinforcement learning with verifiable rewards (RLVR) has emerged as a powerful paradigm for training large language models to perform complex reasoning (DeepSeek-AI et al., 2025; Shao et al., 2024).",
+      "display_label": "RLVR for LLM reasoning",
+      "citations": 2
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "By providing binary correctness signals from programmatic verifiers, RLVR enables models to develop sophisticated chain-of-thought (CoT) reasoning capabilities without requiring dense human feedback.",
+      "display_label": "Binary verifier signals enable CoT",
+      "citations": 0
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "Recent systems such as DeepSeek-R1 demonstrate that RLVR can produce reasoning traces spanning thousands of tokens, enabling multi-step problem solving on challenging mathematical benchmarks.",
+      "display_label": "DeepSeek-R1: thousand-token traces",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Context",
+      "text": "However, long-horizon reasoning introduces a fundamental challenge: truncation.",
+      "display_label": "Long reasoning has truncation problem",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Context",
+      "text": "Due to computational constraints, training rollouts must be capped at a maximum token length Lmax.",
+      "display_label": "Rollouts capped at Lmax",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Context",
+      "text": "When a model's reasoning exceeds this limit without reaching a conclusion, the trajectory is truncated mid-thought.",
+      "display_label": "Trajectory truncated mid-thought",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Prior_Work",
+      "text": "The standard approach treats such truncations as failures, assigning a reward of −1 (DeepSeek-AI et al., 2025).",
+      "display_label": "Standard: truncation = -1 reward",
+      "citations": 1
+    },
+    {
+      "id": "N8",
+      "type": "Limitation",
+      "text": "This conflates unfinished reasoning with incorrect reasoning, potentially biasing training against the extended deliberation needed for difficult problems.",
+      "display_label": "Conflates unfinished with incorrect",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Prior_Work",
+      "text": "Alternative approaches such as DAPO's overlong shaping (Yu et al., 2025) introduce soft length penalties,",
+      "display_label": "DAPO: soft length penalty",
+      "citations": 1
+    },
+    {
+      "id": "N10",
+      "type": "Limitation",
+      "text": "but these still discourage long responses rather than addressing the underlying credit assignment problem.",
+      "display_label": "Still discourages long, no credit fix",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method",
+      "text": "We propose timeout bootstrapping, drawing from classical RL theory on time limits (Pardo et al., 2017).",
+      "display_label": "Propose timeout bootstrapping",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N12",
+      "type": "Method",
+      "text": "The key insight is that truncation due to token limits is an artificial timeout, not a terminal state indicating failure.",
+      "display_label": "Truncation = artificial timeout",
+      "citations": 0
+    },
+    {
+      "id": "N13",
+      "type": "Method",
+      "text": "For tasks without inherent time constraints, the agent should bootstrap from the critic's value estimate at truncation, treating the partial trajectory as ongoing rather than failed.",
+      "display_label": "Bootstrap from critic value",
+      "citations": 0
+    },
+    {
+      "id": "N14",
+      "type": "Context",
+      "text": "This approach has proven effective in continuous control domains but has not been systematically evaluated for language model reasoning.",
+      "display_label": "Effective in control, untested in LMs",
+      "citations": 0
+    },
+    {
+      "id": "N15",
+      "type": "Method",
+      "text": "We conduct a pre-registered empirical comparison of three truncation strategies on mathematical reasoning: truncate-as-failure, DAPO overlong shaping, and timeout bootstrapping.",
+      "display_label": "Pre-registered 3-strategy comparison",
+      "citations": 0
+    },
+    {
+      "id": "N16",
+      "type": "Result",
+      "text": "Our experiments reveal that while timeout bootstrapping shows promise on stable training runs (+2.20pp over baseline on the long subset), it fails our pre-registered success criteria on average due to a critical failure mode: the critic's value estimates collapse to −1.0 within the first 15–20 training steps, rendering bootstrapping equivalent to truncate-as-failure.",
+      "display_label": "Promising but fails criteria; critic collapse",
+      "citations": 0
+    },
+    {
+      "id": "N17",
+      "type": "Result",
+      "text": "Further analysis reveals that the critic exhibits negative correlation with final correctness (Pearson r = −0.211, AUROC = 0.314), indicating fundamental miscalibration on reasoning prefixes.",
+      "display_label": "Critic anti-correlates (r=-0.211)",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We formalize three truncation handling strategies for RLVR and provide the first systematic comparison on long-horizon mathematical reasoning.",
+      "display_label": "C1: formalize 3 strategies + comparison",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We conduct a pre-registered evaluation on MATH-500, finding that timeout bootstrapping fails to outperform baselines on average but shows promise when training remains stable.",
+      "display_label": "C2: pre-registered MATH-500 eval",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We identify critic value collapse as the primary failure mode, where bootstrapped values degenerate to −1.0 within 15–20 steps.",
+      "display_label": "C3: critic collapse as failure mode",
+      "citations": 0
+    },
+    {
+      "id": "C4",
+      "type": "Contribution",
+      "text": "We provide mechanistic analysis showing that the critic learns features that anti-correlate with success, explaining why value bootstrapping fails in this setting.",
+      "display_label": "C4: critic anti-correlates with success",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "elaboration"},
+    {"from": "N3", "to": "N4", "kind": "contrast", "connective": "However"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N6", "to": "N7", "kind": "elaboration"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "elaboration"},
+    {"from": "N9", "to": "N10", "kind": "contrast", "connective": "but"},
+    {"from": "N10", "to": "N11", "kind": "consequence", "connective": "We propose"},
+    {"from": "N11", "to": "N12", "kind": "elaboration"},
+    {"from": "N12", "to": "N13", "kind": "elaboration"},
+    {"from": "N13", "to": "N14", "kind": "elaboration"},
+    {"from": "N14", "to": "N15", "kind": "elaboration"},
+    {"from": "N15", "to": "N16", "kind": "evidence"},
+    {"from": "N16", "to": "N17", "kind": "elaboration"},
+    {"from": "N17", "to": "C1", "kind": "elaboration"},
+    {"from": "N17", "to": "C2", "kind": "elaboration"},
+    {"from": "N17", "to": "C3", "kind": "elaboration"},
+    {"from": "N17", "to": "C4", "kind": "elaboration"},
+    {"from": "N7", "to": "N10", "kind": "contrast", "connective": "but"},
+    {"from": "N11", "to": "N7", "kind": "addresses"},
+    {"from": "N11", "to": "N9", "kind": "addresses"},
+    {"from": "C3", "to": "N8", "kind": "addresses"}
+  ],
+  "observations": "FA0069 follows a clean problem-solution-failure-mode arc on truncation handling for long-CoT RLVR. Para 1 is Context (N1-N3) framing RLVR for reasoning. Para 2 starts with a Para-1-style 'However' (N4) that introduces the truncation phenomenon — kept as Context because it is the paper's own topic-of-study being framed at the field level (N4-N6 set up that truncation is a generic issue), then N7 (Prior_Work: standard truncate-as-failure) and N8 (its Limitation) introduce the first specific critique. N9 introduces a second Prior_Work (DAPO overlong shaping) and N10 splits out its critique clause as a Limitation (Case C: split buried PW pattern — the original 'but these still discourage' clause is the critique).\n\nPara 3 is the Method (N11-N13): timeout bootstrapping anchored on Pardo et al. 2017. N14 is supporting Context (effective in control, untested in LMs). N15 is the experiment description, N16-N17 are Results. N17 forks into four Contributions (C1-C4).\n\nTopologically, N17 is the dominant fork. Pass 3: N8 has incoming edge from N7 (PW source — OK); N10 has incoming edges from N9 (PW source — OK) and from N7 (additional contrast since 'but these still discourage' refers back to the prior 'standard approach'). Two addresses edges link the Method to both critiqued Prior_Works (N11→N7 and N11→N9 — timeout bootstrapping addresses both truncate-as-failure and DAPO overlong shaping, since timeout-bootstrapping shares the 'truncation/timeout' distinctive term with both). C3 (critic collapse) → N8 (conflates unfinished with incorrect) on the lexical match around the truncation-equals-failure mechanism. Narrative arc: RLVR enables long CoT → truncation is unavoidable → standard treatment is failure-reward, biasing against length, with DAPO's soft penalty as a partial alternative → propose principled bootstrapping from the critic → empirically promising but fails on average due to critic value collapse → mechanistic finding: critic anti-correlates with correctness."
+}

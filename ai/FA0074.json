@@ -1,0 +1,171 @@
+{
+  "paper_id": "FA0074",
+  "paper_topic": "Security audit and hardening of LiveMedBench's rubric grader against prompt injection — a negative result",
+  "anchor_paper": "LiveMedBench (Yan et al., 2026)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Large language models (LLMs) are increasingly deployed as automated evaluators—a paradigm known as LLM-as-a-Judge (Zheng et al., 2023)—to assess the quality of model-generated text at scale.",
+      "display_label": "LLM-as-a-Judge for evaluation",
+      "citations": 1
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "This approach has enabled benchmarks such as MT-Bench (Zheng et al., 2023), G-Eval (Liu et al., 2023), and LiveMedBench (Yan et al., 2026) to evaluate open-ended responses without requiring expensive human annotation.",
+      "display_label": "MT-Bench, G-Eval, LiveMedBench",
+      "citations": 3
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "However, recent work has raised concerns about the vulnerability of LLM judges to prompt injection attacks, where adversarial content embedded in evaluated responses manipulates the judge's output (Maloyan et al., 2025; Shi et al., 2025).",
+      "display_label": "LLM judges vulnerable to prompt injection",
+      "citations": 2
+    },
+    {
+      "id": "N4",
+      "type": "Prior_Work",
+      "text": "LiveMedBench presents a particularly interesting case study for security analysis.",
+      "display_label": "LiveMedBench as case study",
+      "citations": 0,
+      "anchor": true
+    },
+    {
+      "id": "N5",
+      "type": "Prior_Work",
+      "text": "Its rubric grader directly interpolates model responses into the judge prompt without explicit untrusted-data framing, and employs permissive fallback parsing that searches for substrings like \"met\" and true when JSON parsing fails.",
+      "display_label": "LiveMedBench: direct interp + permissive parse",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "These design choices create theoretical attack surfaces: an adversary could inject instructions to override the judge's evaluation logic or craft responses that trigger favorable fallback parsing.",
+      "display_label": "Theoretical attack surfaces",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Result",
+      "text": "In our experiments, 99.78% of baseline evaluations triggered these fallback heuristics.",
+      "display_label": "99.78% trigger fallback heuristics",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "We conduct the first security audit of LiveMedBench's rubric grader, testing three injection payload families (direct override, format spoofing, and fallback-parse trigger) and implementing a four-layer hardening strategy (untrusted data framing, schema-constrained output, strict parsing, and evidence verification).",
+      "display_label": "First audit: 3 payloads + 4-layer hardening",
+      "citations": 0
+    },
+    {
+      "id": "N8a",
+      "type": "Method: payload-1",
+      "text": "direct override",
+      "display_label": "payload: direct override",
+      "citations": 0
+    },
+    {
+      "id": "N8b",
+      "type": "Method: payload-2",
+      "text": "format spoofing",
+      "display_label": "payload: format spoofing",
+      "citations": 0
+    },
+    {
+      "id": "N8c",
+      "type": "Method: payload-3",
+      "text": "fallback-parse trigger",
+      "display_label": "payload: fallback-parse trigger",
+      "citations": 0
+    },
+    {
+      "id": "N8d",
+      "type": "Method: layer-1",
+      "text": "untrusted data framing",
+      "display_label": "defense: untrusted data framing",
+      "citations": 0
+    },
+    {
+      "id": "N8e",
+      "type": "Method: layer-2",
+      "text": "schema-constrained output",
+      "display_label": "defense: schema-constrained output",
+      "citations": 0
+    },
+    {
+      "id": "N8f",
+      "type": "Method: layer-3",
+      "text": "strict parsing",
+      "display_label": "defense: strict parsing",
+      "citations": 0
+    },
+    {
+      "id": "N8g",
+      "type": "Method: layer-4",
+      "text": "evidence verification",
+      "display_label": "defense: evidence verification",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Result",
+      "text": "Our findings constitute a negative result: the baseline grader demonstrates natural robustness to all tested attacks, while the hardening introduces a statistically significant benign drift of −6.42% without providing measurable security benefit.",
+      "display_label": "Negative: robust baseline; -6.42% drift from hardening",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "First, we present the first security audit of LiveMedBench's rubric grader against prompt injection attacks, testing three payload families targeting distinct attack vectors.",
+      "display_label": "C1: first security audit (3 payloads)",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "Second, we provide empirical evidence that the baseline grader is naturally robust to the tested attacks, with no statistically significant score inflation (all 95% CIs include zero).",
+      "display_label": "C2: baseline naturally robust",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "Third, we demonstrate that a four-layer hardening strategy causes net harm: −6.42% benign drift (CI excludes zero) without security improvement.",
+      "display_label": "C3: hardening causes -6.42% benign drift",
+      "citations": 0
+    },
+    {
+      "id": "C4",
+      "type": "Contribution",
+      "text": "Fourth, we recommend that security interventions in LLM evaluation pipelines be empirically validated on both adversarial and benign conditions before deployment.",
+      "display_label": "C4: validate on adversarial + benign",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "contrast", "connective": "However"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N6", "to": "N7", "kind": "evidence"},
+    {"from": "N7", "to": "N8", "kind": "consequence"},
+    {"from": "N8", "to": "N8a", "kind": "elaboration"},
+    {"from": "N8", "to": "N8b", "kind": "elaboration"},
+    {"from": "N8", "to": "N8c", "kind": "elaboration"},
+    {"from": "N8", "to": "N8d", "kind": "elaboration"},
+    {"from": "N8", "to": "N8e", "kind": "elaboration"},
+    {"from": "N8", "to": "N8f", "kind": "elaboration"},
+    {"from": "N8", "to": "N8g", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "evidence"},
+    {"from": "N9", "to": "C1", "kind": "elaboration"},
+    {"from": "N9", "to": "C2", "kind": "elaboration"},
+    {"from": "N9", "to": "C3", "kind": "elaboration"},
+    {"from": "N9", "to": "C4", "kind": "elaboration"},
+    {"from": "C1", "to": "N6", "kind": "addresses"}
+  ],
+  "observations": "FA0074 is a security-audit negative-result paper. Para 1 is Context (N1-N3) framing LLM-as-a-Judge and the prompt injection vulnerability concern — the 'However' in N3 is field-level Context (the paper IS about prompt-injection robustness, so this 'However' introduces the topic-of-study). Para 2 introduces the specific Prior_Work case study: LiveMedBench (N4 + N5 describing its grader implementation details). N6 is the Limitation: theoretical attack surfaces are created by N5's design choices, which has clear PW source from N5 satisfying Pass 3. N7 is a Result-as-evidence (99.78% triggered fallback heuristics) substantiating the theoretical concern.\n\nN8 is the Method: first security audit + 4-layer hardening, expanded into seven sub-claims (N8a-N8g for the three payloads and four defense layers). N9 is the headline negative Result. Four Contribution bullets (C1-C4) close the intro.\n\nTopologically, N8 is the dominant fork (out_degree=8: seven sub-method children plus the evidence link to N9). N9 is the second fork into the four contributions. The Method sub-children are pure leaves (no downstream from any of N8a-N8g) so they will render as side-enum chips.\n\nOne addresses edge: C1 (the first security audit) → N6 (theoretical attack surfaces) — the audit is the paper's response to the named theoretical vulnerability. Other contributions (C2, C3, C4) describe empirical findings rather than addressing specific named gaps, so they have no addresses edges. Narrative arc: LLM-as-a-Judge benchmarks are widespread → recent work shows judges are vulnerable to prompt injection → LiveMedBench has theoretical attack surfaces in its design → 99.78% fallback rate observed → conduct first audit with 3 payloads + 4-layer defense → baseline is robust, hardening causes harm → recommend empirical validation."
+}

@@ -1,0 +1,156 @@
+{
+  "paper_id": "FA0191",
+  "paper_topic": "HeadRollback: post-task attention head rollback for replay-free continual LoRA fine-tuning",
+  "anchor_paper": "LoRA (Hu et al., 2021)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Large language models (LLMs) are increasingly deployed in scenarios requiring continual adaptation to new tasks and domains (Wu et al., 2024; Shi et al., 2024).",
+      "display_label": "LLMs need continual adaptation",
+      "citations": 2
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "Parameter-efficient fine-tuning methods such as LoRA (Hu et al., 2021) enable efficient adaptation by training low-rank matrices while keeping base model weights frozen.",
+      "display_label": "LoRA: low-rank PEFT adaptation",
+      "citations": 1
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "However, sequential fine-tuning on multiple tasks leads to catastrophic forgetting, where performance on earlier tasks degrades as the model adapts to new ones (Kirkpatrick et al., 2016).",
+      "display_label": "Catastrophic forgetting in sequential FT",
+      "citations": 1
+    },
+    {
+      "id": "N4",
+      "type": "Prior_Work",
+      "text": "Existing approaches to mitigate forgetting in continual learning fall into three paradigms, each with limitations.",
+      "display_label": "Three paradigms with limitations",
+      "citations": 0
+    },
+    {
+      "id": "N4a",
+      "type": "Prior_Work: paradigm-1",
+      "text": "Regularization methods (Kirkpatrick et al., 2016; Li & Hoiem, 2016) constrain parameter updates during training but add computational overhead.",
+      "display_label": "Regularization: adds compute overhead",
+      "citations": 2
+    },
+    {
+      "id": "N4b",
+      "type": "Prior_Work: paradigm-2",
+      "text": "Replay-based methods (Lopez-Paz & Ranzato, 2017; Buzzega et al., 2020) achieve strong performance by revisiting earlier examples but require storing training data.",
+      "display_label": "Replay: needs stored training data",
+      "citations": 2
+    },
+    {
+      "id": "N4c",
+      "type": "Prior_Work: paradigm-3",
+      "text": "Architecture-based methods (Razdaibiedina et al., 2023; Wang et al., 2023) expand model capacity per task but increase model size.",
+      "display_label": "Architecture: increases model size",
+      "citations": 2
+    },
+    {
+      "id": "N5",
+      "type": "Limitation",
+      "text": "All these approaches modify the training process itself, adding complexity to the fine-tuning pipeline.",
+      "display_label": "All modify training; add complexity",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Method",
+      "text": "We propose a different perspective: rather than modifying training, we intervene after each task to correct unintended parameter changes.",
+      "display_label": "Different perspective: post-task intervention",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Method",
+      "text": "Our key insight is that not all parameter changes during fine-tuning are equally harmful.",
+      "display_label": "Insight: not all changes equally harmful",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "Some attention heads undergo large changes that are not necessary for the new task—they are unintentionally disrupted.",
+      "display_label": "Unintentionally disrupted attention heads",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Method",
+      "text": "These heads can be identified by three properties: high disruption (large parameter change), high historical importance (critical for earlier tasks), and low new-task importance (not needed for the current task).",
+      "display_label": "Three signals: disruption, hist-imp, new-imp",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Method",
+      "text": "Rolling back these heads should recover earlier-task performance without harming current-task accuracy.",
+      "display_label": "Rollback recovers earlier-task perf",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method",
+      "text": "We introduce HeadRollback, a simple post-task intervention that identifies unintentionally disrupted attention heads and rolls back their LoRA B-matrix rows to the previous checkpoint.",
+      "display_label": "Introduce HeadRollback",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We propose HeadRollback, a replay-free post-task intervention for continual LoRA fine-tuning that operates at task boundaries without modifying training dynamics.",
+      "display_label": "C1: HeadRollback replay-free post-task",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We develop a three-signal scoring formula combining disruption magnitude, historical importance, and new-task importance to identify heads worth preserving.",
+      "display_label": "C2: three-signal scoring formula",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We demonstrate that HeadRollback improves Overall Performance by +1.98pp and Backward Transfer by +1.70pp over Vanilla LoRA on a 5-task benchmark, with consistent improvements across task orders (7/9 win rate).",
+      "display_label": "C3: +1.98pp OP, +1.70pp BWT",
+      "citations": 0
+    },
+    {
+      "id": "C4",
+      "type": "Contribution",
+      "text": "We provide analysis showing that HeadRollback selects heads with 3–7× higher historical importance than disruption-only selection, and that middle layers are most susceptible to unintentional disruption.",
+      "display_label": "C4: analysis: 3-7x higher hist-imp",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "contrast", "connective": "However"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N4a", "kind": "elaboration"},
+    {"from": "N4", "to": "N4b", "kind": "elaboration"},
+    {"from": "N4", "to": "N4c", "kind": "elaboration"},
+    {"from": "N4a", "to": "N5", "kind": "elaboration"},
+    {"from": "N4b", "to": "N5", "kind": "elaboration"},
+    {"from": "N4c", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "consequence", "connective": "We propose"},
+    {"from": "N6", "to": "N7", "kind": "elaboration"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "elaboration"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "C1", "kind": "elaboration"},
+    {"from": "N11", "to": "C2", "kind": "elaboration"},
+    {"from": "N11", "to": "C3", "kind": "elaboration"},
+    {"from": "N11", "to": "C4", "kind": "elaboration"},
+    {"from": "C1", "to": "N5", "kind": "addresses"}
+  ],
+  "observations": "FA0191 is a method paper with a clean enumerated Prior_Work fork. Para 1 (N1-N3) sets up Context: LLMs need continual adaptation, LoRA enables PEFT, and 'However' catastrophic forgetting occurs. The 'However' here is paper-theme-aligned — catastrophic forgetting IS the phenomenon HeadRollback addresses, so N3 is Context (field-level problem framing), not a critique of any specific named method.\n\nPara 2 introduces a structured three-paradigm Prior_Work survey: parent N4 ('three paradigms with limitations') with three lettered children N4a (regularization), N4b (replay), N4c (architecture). All three paradigms join into the unified Limitation N5 ('All these approaches modify the training process itself'). This is a textbook Prior_Work fork to Limitation join structure — N5 is now a join node by topology with three Prior_Work parents, satisfying the PW->Limitation source rule cleanly.\n\nThe Method block (N6-N11) is unusually long: a perspective shift (N6: post-task intervention), the key insight (N7-N8: unintentionally disrupted heads), the three-signal characterization (N9), the expected outcome (N10), and the named method introduction (N11: HeadRollback). Four Contributions (C1-C4) close the intro, all fed by N11. One addresses edge: C1 (replay-free post-task intervention not modifying training dynamics) addresses N5 (all prior approaches modify training) — strong lexical overlap on 'modifying training' and 'replay'. Topology features N4 as a Prior_Work fork (3 children) and N11 as the contribution-fork (4 contributions)."
+}

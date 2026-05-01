@@ -1,0 +1,192 @@
+<svg viewBox="0 0 1480 1364" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="172" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="420" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="324" x2="1450" y2="324" stroke="#eee" stroke-width="1"/>
+<text x="14" y="612" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="516" x2="1450" y2="516" stroke="#eee" stroke-width="1"/>
+<text x="14" y="910" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="708" x2="1450" y2="708" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1208" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1112" x2="1450" y2="1112" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1140" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1136" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N9</text>
+<line x1="616" y1="164" x2="616" y2="372" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="468" x2="616" y2="564" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="616" y="513" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="616" y1="660" x2="994" y2="68" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="164" x2="805" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="276" x2="994" y2="372" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="468" x2="994" y2="564" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="660" x2="805" y2="756" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="899" y="705" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">addresses these limitations</text>
+<line x1="805" y1="840" x2="805" y2="868" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="952" x2="805" y2="980" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1064" x2="427" y2="1160" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1064" x2="805" y2="1160" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1064" x2="1183" y2="1160" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="1256" x2="616" y2="564" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1256" x2="994" y2="564" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1183" y1="1256" x2="994" y2="564" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="803.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="616" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="616" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LSH binary fingerprints for similarity search</text>
+<text x="616" y="113" text-anchor="middle" font-size="9.5" fill="#555">Binary fingerprints from locality-sensitive hashing (LSH) are</text>
+<text x="616" y="125" text-anchor="middle" font-size="9.5" fill="#555">fundamental to large-scale similarity search, enabling efficient</text>
+<text x="616" y="137" text-anchor="middle" font-size="9.5" fill="#555">duplicate detection, semantic retrieval, and cross-service threat</text>
+<text x="616" y="149" text-anchor="middle" font-size="9.5" fill="#555">intelligence sharing (Thakur et al., 2021;…</text>
+<title>N1 [Context] (cites=2)
+Binary fingerprints from locality-sensitive hashing (LSH) are fundamental to large-scale similarity search, enabling efficient duplicate detection, semantic retrieval, and cross-service threat intelligence sharing (Thakur et al., 2021; Gill et al., 2025).</title>
+</g>
+<circle cx="803.0" cy="380.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="372" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="386" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Prior_Work : ANCHOR]</text>
+<text x="616" y="401" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">SimHash: Hamming approximates cosine</text>
+<text x="616" y="417" text-anchor="middle" font-size="9.5" fill="#555">SimHash (Charikar, 2002) produces compact binary codes where</text>
+<text x="616" y="429" text-anchor="middle" font-size="9.5" fill="#555">Hamming distance approximates cosine similarity, making it widely</text>
+<text x="616" y="441" text-anchor="middle" font-size="9.5" fill="#555">adopted for applications where raw text cannot be shared across</text>
+<text x="616" y="453" text-anchor="middle" font-size="9.5" fill="#555">organizational boundaries.</text>
+<title>N2 [Prior_Work] (cites=1)
+SimHash (Charikar, 2002) produces compact binary codes where Hamming distance approximates cosine similarity, making it widely adopted for applications where raw text cannot be shared across organizational boundaries.</title>
+</g>
+<g>
+<rect x="436" y="564" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="578" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Limitation]</text>
+<text x="616" y="593" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">SimHash collision curve leaks distance</text>
+<text x="616" y="609" text-anchor="middle" font-size="9.5" fill="#555">However, this similarity-preserving property is a double-edged</text>
+<text x="616" y="621" text-anchor="middle" font-size="9.5" fill="#555">sword: the collision probability P(s) = (1 + s)/2 leaks distance</text>
+<text x="616" y="633" text-anchor="middle" font-size="9.5" fill="#555">information, enabling attackers to estimate pairwise similarities</text>
+<text x="616" y="645" text-anchor="middle" font-size="9.5" fill="#555">from fingerprint comparisons.</text>
+<title>N3 [Limitation] (cites=0)
+However, this similarity-preserving property is a double-edged sword: the collision probability P(s) = (1 + s)/2 leaks distance information, enabling attackers to estimate pairwise similarities from fingerprint comparisons.</title>
+</g>
+<g>
+<rect x="814" y="68" width="360" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="994" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="994" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Cross-service telemetry: privacy concern</text>
+<text x="994" y="113" text-anchor="middle" font-size="9.5" fill="#555">This privacy vulnerability is particularly concerning for</text>
+<text x="994" y="125" text-anchor="middle" font-size="9.5" fill="#555">cross-service telemetry sharing, where fingerprints are released</text>
+<text x="994" y="137" text-anchor="middle" font-size="9.5" fill="#555">across compliance boundaries.</text>
+<title>N4 [Context] (cites=0)
+This privacy vulnerability is particularly concerning for cross-service telemetry sharing, where fingerprints are released across compliance boundaries.</title>
+</g>
+<circle cx="1022.0" cy="200.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="192" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Adversary triangulates similarities</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">An adversary observing fingerprint comparisons can triangulate to estimate</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">original embedding similarities (Riazi et al., 2016), potentially revealing</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">sensitive information about the underlying data.</text>
+<title>N5 [Context] (cites=1)
+An adversary observing fingerprint comparisons can triangulate to estimate original embedding similarities (Riazi et al., 2016), potentially revealing sensitive information about the underlying data.</title>
+</g>
+<circle cx="1181.0" cy="380.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="388.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="372" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="386" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work]</text>
+<text x="994" y="401" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RR + noise injection prior approaches</text>
+<text x="994" y="417" text-anchor="middle" font-size="9.5" fill="#555">Prior work has explored randomized response (Erlingsson et al.,</text>
+<text x="994" y="429" text-anchor="middle" font-size="9.5" fill="#555">2014; Gill et al., 2025) and noise injection for fingerprint</text>
+<text x="994" y="441" text-anchor="middle" font-size="9.5" fill="#555">privacy, but these approaches face fundamental limitations:</text>
+<text x="994" y="453" text-anchor="middle" font-size="9.5" fill="#555">randomized response requires extreme bit flipping for…</text>
+<title>N6 [Prior_Work] (cites=2)
+Prior work has explored randomized response (Erlingsson et al., 2014; Gill et al., 2025) and noise injection for fingerprint privacy, but these approaches face fundamental limitations: randomized response requires extreme bit flipping for privacy but destroys utility, while noise injection shows cliff-effect behavior where small noise increases cause catastrophic utility collapse.</title>
+</g>
+<g>
+<rect x="814" y="564" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="578" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6lim [Limitation]</text>
+<text x="994" y="593" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RR destroys utility; noise has cliff effect</text>
+<text x="994" y="609" text-anchor="middle" font-size="9.5" fill="#555">randomized response requires extreme bit flipping for privacy but</text>
+<text x="994" y="621" text-anchor="middle" font-size="9.5" fill="#555">destroys utility, while noise injection shows cliff-effect</text>
+<text x="994" y="633" text-anchor="middle" font-size="9.5" fill="#555">behavior where small noise increases cause catastrophic utility</text>
+<text x="994" y="645" text-anchor="middle" font-size="9.5" fill="#555">collapse.</text>
+<title>N6lim [Limitation] (cites=0)
+randomized response requires extreme bit flipping for privacy but destroys utility, while noise injection shows cliff-effect behavior where small noise increases cause catastrophic utility collapse.</title>
+</g>
+<g>
+<rect x="595" y="756" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="770" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Method]</text>
+<text x="805" y="785" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose Secure SimHash: flatten collision curve</text>
+<text x="805" y="801" text-anchor="middle" font-size="9.5" fill="#555">We propose Secure SimHash, a distance-hiding fingerprint transform that</text>
+<text x="805" y="813" text-anchor="middle" font-size="9.5" fill="#555">addresses these limitations by flattening collision probability curves</text>
+<text x="805" y="825" text-anchor="middle" font-size="9.5" fill="#555">rather than adding noise.</text>
+<title>N7 [Method] (cites=0)
+We propose Secure SimHash, a distance-hiding fingerprint transform that addresses these limitations by flattening collision probability curves rather than adding noise.</title>
+</g>
+<g>
+<rect x="595" y="868" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="882" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="897" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">XOR k-composition: Psec→0.5 for non-neighbors</text>
+<text x="805" y="913" text-anchor="middle" font-size="9.5" fill="#555">The key insight is that by composing k independent SimHash bits with XOR,</text>
+<text x="805" y="925" text-anchor="middle" font-size="9.5" fill="#555">the collision probability becomes Psec(s) = 1/2 + 1/2·p(s)^k, which</text>
+<text x="805" y="937" text-anchor="middle" font-size="9.5" fill="#555">approaches 0.5 for low-similarity pairs as k increases.</text>
+<title>N8 [Method] (cites=0)
+The key insight is that by composing k independent SimHash bits with XOR, the collision probability becomes Psec(s) = 1/2 + 1/2·p(s)^k, which approaches 0.5 for low-similarity pairs as k increases.</title>
+</g>
+<g>
+<rect x="595" y="980" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="994" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="1009" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Uninformative for non-neighbors; preserves neighbors</text>
+<text x="805" y="1025" text-anchor="middle" font-size="9.5" fill="#555">This makes distance estimation uninformative for non-neighbors while</text>
+<text x="805" y="1037" text-anchor="middle" font-size="9.5" fill="#555">preserving high collision rates for true near-neighbors, enabling both</text>
+<text x="805" y="1049" text-anchor="middle" font-size="9.5" fill="#555">privacy and utility.</text>
+<title>N9 [Method] (cites=0)
+This makes distance estimation uninformative for non-neighbors while preserving high collision rates for true near-neighbors, enabling both privacy and utility.</title>
+</g>
+<g>
+<rect x="247" y="1160" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1174" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="427" y="1189" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: formalize privacy-utility tradeoff</text>
+<text x="427" y="1205" text-anchor="middle" font-size="9.5" fill="#555">We formalize the privacy-utility tradeoff for binary fingerprints</text>
+<text x="427" y="1217" text-anchor="middle" font-size="9.5" fill="#555">and identify the collision probability curve as the root cause of</text>
+<text x="427" y="1229" text-anchor="middle" font-size="9.5" fill="#555">distance leakage.</text>
+<title>C1 [Contribution] (cites=0)
+We formalize the privacy-utility tradeoff for binary fingerprints and identify the collision probability curve as the root cause of distance leakage.</title>
+</g>
+<g>
+<rect x="625" y="1160" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1174" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="805" y="1189" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: Secure SimHash + theory</text>
+<text x="805" y="1205" text-anchor="middle" font-size="9.5" fill="#555">We propose Secure SimHash with theoretical analysis showing how</text>
+<text x="805" y="1217" text-anchor="middle" font-size="9.5" fill="#555">k-composition with XOR flattens collision curves for non-neighbors</text>
+<text x="805" y="1229" text-anchor="middle" font-size="9.5" fill="#555">while preserving near-neighbor detection.</text>
+<title>C2 [Contribution] (cites=0)
+We propose Secure SimHash with theoretical analysis showing how k-composition with XOR flattens collision curves for non-neighbors while preserving near-neighbor detection.</title>
+</g>
+<g>
+<rect x="1003" y="1160" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1174" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="1183" y="1189" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: dominates Pareto on BEIR Quora</text>
+<text x="1183" y="1205" text-anchor="middle" font-size="9.5" fill="#555">We demonstrate empirically on BEIR Quora that Secure SimHash</text>
+<text x="1183" y="1217" text-anchor="middle" font-size="9.5" fill="#555">dominates the privacy-utility Pareto frontier, achieving</text>
+<text x="1183" y="1229" text-anchor="middle" font-size="9.5" fill="#555">AUC@0.5=0.463 (near random-guess) at Recall@10=0.780,</text>
+<text x="1183" y="1241" text-anchor="middle" font-size="9.5" fill="#555">significantly outperforming randomized response and noise…</text>
+<title>C3 [Contribution] (cites=0)
+We demonstrate empirically on BEIR Quora that Secure SimHash dominates the privacy-utility Pareto frontier, achieving AUC@0.5=0.463 (near random-guess) at Recall@10=0.780, significantly outperforming randomized response and noise injection baselines.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

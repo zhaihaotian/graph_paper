@@ -1,0 +1,208 @@
+<svg viewBox="0 0 1480 1932" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="266" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="608" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="512" x2="1450" y2="512" stroke="#eee" stroke-width="1"/>
+<text x="14" y="794" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="704" x2="1450" y2="704" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1092" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="884" x2="1450" y2="884" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1496" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1300" x2="1450" y2="1300" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1782" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1692" x2="1450" y2="1692" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1720" width="1140" height="116" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1716" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N12</text>
+<line x1="805" y1="164" x2="805" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="276" x2="805" y2="304" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="376" x2="805" y2="404" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="464" x2="805" y2="560" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="656" x2="805" y2="752" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="701" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="836" x2="805" y2="932" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="805" y1="1016" x2="805" y2="1044" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1128" x2="805" y2="1156" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1139" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To test this hypothesis</text>
+<line x1="805" y1="1252" x2="805" y2="1348" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1420" x2="805" y2="1448" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="1532" x2="805" y2="1560" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1543" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">This negative result suggests</text>
+<line x1="805" y1="1644" x2="427" y2="1740" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1644" x2="805" y2="1740" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1644" x2="1183" y2="1740" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="1824" x2="805" y2="752" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1183" y1="1824" x2="805" y2="752" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs + test-time scaling for code</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Large language models (LLMs) have demonstrated remarkable capabilities in</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">code generation, and recent work shows that allocating additional</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">inference-time compute—known as test-time scaling—can substantially improve</text>
+<text x="805" y="149" text-anchor="middle" font-size="9.5" fill="#555">performance (Snell et…</text>
+<title>N1 [Context] (cites=2)
+Large language models (LLMs) have demonstrated remarkable capabilities in code generation, and recent work shows that allocating additional inference-time compute—known as test-time scaling—can substantially improve performance (Snell et al., 2024; Brown et al., 2024).</title>
+</g>
+<g>
+<rect x="595" y="192" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Best-of-N sampling baseline</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">A common approach is best-of-N sampling: generate multiple candidate</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">programs, execute them against unit tests, and select the best-performing</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">candidate.</text>
+<title>N2 [Context] (cites=0)
+A common approach is best-of-N sampling: generate multiple candidate programs, execute them against unit tests, and select the best-performing candidate.</title>
+</g>
+<g>
+<rect x="595" y="304" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="318" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Best-of-N boosts Pass@1</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">This simple strategy can significantly boost Pass@1 accuracy compared to</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">single-sample generation.</text>
+<title>N3 [Context] (cites=0)
+This simple strategy can significantly boost Pass@1 accuracy compared to single-sample generation.</title>
+</g>
+<g>
+<rect x="595" y="404" width="420" height="60" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="418" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="433" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Execution feedback as signal</text>
+<text x="805" y="449" text-anchor="middle" font-size="9.5" fill="#555">Execution feedback provides a powerful signal for improving code generation.</text>
+<title>N4 [Context] (cites=0)
+Execution feedback provides a powerful signal for improving code generation.</title>
+</g>
+<circle cx="1022.0" cy="568.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="576.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="584.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="560" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="574" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work : ANCHOR]</text>
+<text x="805" y="589" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Self-Debug, Reflexion, Self-Refine</text>
+<text x="805" y="605" text-anchor="middle" font-size="9.5" fill="#555">Self-debugging methods (Chen et al., 2023) use error messages and tracebacks</text>
+<text x="805" y="617" text-anchor="middle" font-size="9.5" fill="#555">to iteratively refine failing candidates, while approaches like Reflexion</text>
+<text x="805" y="629" text-anchor="middle" font-size="9.5" fill="#555">(Shinn et al., 2023) and Self-Refine (Madaan et al., 2023) maintain memory</text>
+<text x="805" y="641" text-anchor="middle" font-size="9.5" fill="#555">of past…</text>
+<title>N5 [Prior_Work] (cites=3)
+Self-debugging methods (Chen et al., 2023) use error messages and tracebacks to iteratively refine failing candidates, while approaches like Reflexion (Shinn et al., 2023) and Self-Refine (Madaan et al., 2023) maintain memory of past failures to guide future attempts.</title>
+</g>
+<g>
+<rect x="595" y="752" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="766" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="781" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Per-candidate; no cross-sample sharing</text>
+<text x="805" y="797" text-anchor="middle" font-size="9.5" fill="#555">However, these methods typically operate on individual candidates, refining</text>
+<text x="805" y="809" text-anchor="middle" font-size="9.5" fill="#555">each based on its own execution feedback without sharing information across</text>
+<text x="805" y="821" text-anchor="middle" font-size="9.5" fill="#555">candidates.</text>
+<title>N6 [Limitation] (cites=0)
+However, these methods typically operate on individual candidates, refining each based on its own execution feedback without sharing information across candidates.</title>
+</g>
+<g>
+<rect x="595" y="932" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="946" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Method]</text>
+<text x="805" y="961" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Hypothesis: candidates share failure modes</text>
+<text x="805" y="977" text-anchor="middle" font-size="9.5" fill="#555">We hypothesize that under best-of-N sampling, multiple candidates often fail</text>
+<text x="805" y="989" text-anchor="middle" font-size="9.5" fill="#555">for similar reasons—the same edge case, the same type error, or the same</text>
+<text x="805" y="1001" text-anchor="middle" font-size="9.5" fill="#555">off-by-one bug.</text>
+<title>N7 [Method] (cites=0)
+We hypothesize that under best-of-N sampling, multiple candidates often fail for similar reasons—the same edge case, the same type error, or the same off-by-one bug.</title>
+</g>
+<g>
+<rect x="595" y="1044" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1058" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="1073" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Dedup feedback to avoid redundancy</text>
+<text x="805" y="1089" text-anchor="middle" font-size="9.5" fill="#555">If failure modes cluster strongly, then providing deduplicated feedback</text>
+<text x="805" y="1101" text-anchor="middle" font-size="9.5" fill="#555">about common failures could help the model avoid redundant exploration and</text>
+<text x="805" y="1113" text-anchor="middle" font-size="9.5" fill="#555">focus on novel solutions.</text>
+<title>N8 [Method] (cites=0)
+If failure modes cluster strongly, then providing deduplicated feedback about common failures could help the model avoid redundant exploration and focus on novel solutions.</title>
+</g>
+<g>
+<rect x="595" y="1156" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1170" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="1185" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose ESR: signature-based clustering</text>
+<text x="805" y="1201" text-anchor="middle" font-size="9.5" fill="#555">To test this hypothesis, we propose Execution-Signature Recycling (ESR), a</text>
+<text x="805" y="1213" text-anchor="middle" font-size="9.5" fill="#555">training-free test-time scaling method that clusters candidates by their</text>
+<text x="805" y="1225" text-anchor="middle" font-size="9.5" fill="#555">execution signatures (the set of failing tests and error types) and</text>
+<text x="805" y="1237" text-anchor="middle" font-size="9.5" fill="#555">conditions subsequent…</text>
+<title>N9 [Method] (cites=0)
+To test this hypothesis, we propose Execution-Signature Recycling (ESR), a training-free test-time scaling method that clusters candidates by their execution signatures (the set of failing tests and error types) and conditions subsequent generations on a compact, deduplicated failure bank.</title>
+</g>
+<g>
+<rect x="595" y="1348" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1362" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Result]</text>
+<text x="805" y="1377" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Evaluate on HumanEval+ Qwen2.5-Coder-7B</text>
+<text x="805" y="1393" text-anchor="middle" font-size="9.5" fill="#555">We evaluate ESR on HumanEval+ with Qwen2.5-Coder-7B-Instruct under a fixed</text>
+<text x="805" y="1405" text-anchor="middle" font-size="9.5" fill="#555">16-generation budget.</text>
+<title>N10 [Result] (cites=0)
+We evaluate ESR on HumanEval+ with Qwen2.5-Coder-7B-Instruct under a fixed 16-generation budget.</title>
+</g>
+<g>
+<rect x="595" y="1448" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1462" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Result]</text>
+<text x="805" y="1477" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">ESR 87.60% vs Self-Debug 86.99%; CI includes 0</text>
+<text x="805" y="1493" text-anchor="middle" font-size="9.5" fill="#555">While ESR achieves the highest mean Pass@1 (87.60%), it does not</text>
+<text x="805" y="1505" text-anchor="middle" font-size="9.5" fill="#555">significantly outperform the simpler Self-Debug baseline (86.99%), with a</text>
+<text x="805" y="1517" text-anchor="middle" font-size="9.5" fill="#555">95% confidence interval of [−0.81, 2.24] that includes zero.</text>
+<title>N11 [Result] (cites=0)
+While ESR achieves the highest mean Pass@1 (87.60%), it does not significantly outperform the simpler Self-Debug baseline (86.99%), with a 95% confidence interval of [−0.81, 2.24] that includes zero.</title>
+</g>
+<g>
+<rect x="595" y="1560" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1574" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Result]</text>
+<text x="805" y="1589" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Negative result: per-sample suffices</text>
+<text x="805" y="1605" text-anchor="middle" font-size="9.5" fill="#555">This negative result suggests that for strong code generation models,</text>
+<text x="805" y="1617" text-anchor="middle" font-size="9.5" fill="#555">per-sample self-debugging may be sufficient, and cross-sample feedback</text>
+<text x="805" y="1629" text-anchor="middle" font-size="9.5" fill="#555">aggregation does not provide reliable additional benefits.</text>
+<title>N12 [Result] (cites=0)
+This negative result suggests that for strong code generation models, per-sample self-debugging may be sufficient, and cross-sample feedback aggregation does not provide reliable additional benefits.</title>
+</g>
+<g>
+<rect x="247" y="1740" width="360" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1754" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="427" y="1769" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: ESR signature-based clustering</text>
+<text x="427" y="1785" text-anchor="middle" font-size="9.5" fill="#555">We propose ESR, a method that aggregates execution feedback across</text>
+<text x="427" y="1797" text-anchor="middle" font-size="9.5" fill="#555">candidates using signature-based clustering and provides</text>
+<text x="427" y="1809" text-anchor="middle" font-size="9.5" fill="#555">deduplicated failure information to guide subsequent generations.</text>
+<title>C1 [Contribution] (cites=0)
+We propose ESR, a method that aggregates execution feedback across candidates using signature-based clustering and provides deduplicated failure information to guide subsequent generations.</title>
+</g>
+<g>
+<rect x="625" y="1740" width="360" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1754" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="805" y="1769" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: rigorous pre-registered eval</text>
+<text x="805" y="1785" text-anchor="middle" font-size="9.5" fill="#555">We conduct a rigorous evaluation with pre-registered decision</text>
+<text x="805" y="1797" text-anchor="middle" font-size="9.5" fill="#555">rules and paired bootstrap confidence intervals across multiple</text>
+<text x="805" y="1809" text-anchor="middle" font-size="9.5" fill="#555">random seeds.</text>
+<title>C2 [Contribution] (cites=0)
+We conduct a rigorous evaluation with pre-registered decision rules and paired bootstrap confidence intervals across multiple random seeds.</title>
+</g>
+<g>
+<rect x="1003" y="1740" width="360" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1754" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="1183" y="1769" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: negative result for ESR</text>
+<text x="1183" y="1785" text-anchor="middle" font-size="9.5" fill="#555">We report a negative result: ESR does not significantly outperform</text>
+<text x="1183" y="1797" text-anchor="middle" font-size="9.5" fill="#555">per-sample self-debugging on HumanEval+, providing evidence that</text>
+<text x="1183" y="1809" text-anchor="middle" font-size="9.5" fill="#555">simpler feedback approaches may be sufficient for strong models.</text>
+<title>C3 [Contribution] (cites=0)
+We report a negative result: ESR does not significantly outperform per-sample self-debugging on HumanEval+, providing evidence that simpler feedback approaches may be sufficient for strong models.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

@@ -1,0 +1,222 @@
+<svg viewBox="0 0 1480 2020" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="284" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="638" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="548" x2="1450" y2="548" stroke="#eee" stroke-width="1"/>
+<text x="14" y="824" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="728" x2="1450" y2="728" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1154" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="920" x2="1450" y2="920" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1578" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1388" x2="1450" y2="1388" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1864" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1768" x2="1450" y2="1768" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1796" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1792" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N13</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="264" x2="805" y2="292" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="376" x2="805" y2="404" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="500" x2="805" y2="596" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="680" x2="805" y2="776" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="725" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="872" x2="805" y2="1436" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1508" x2="805" y2="1536" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1608" x2="805" y2="1636" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="1619" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="1720" x2="805" y2="968" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1341" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">We propose</text>
+<line x1="805" y1="1040" x2="805" y2="1068" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1152" x2="805" y2="1180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1240" x2="805" y2="1268" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1340" x2="427" y2="1816" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1340" x2="805" y2="1816" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1340" x2="1183" y2="1816" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="1912" x2="805" y2="776" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1912" x2="805" y2="776" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1183" y1="1912" x2="805" y2="776" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">MoE for scaling neural networks</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Sparse Mixture-of-Experts (MoE) models have emerged as a powerful paradigm</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">for scaling neural networks efficiently (Shazeer et al., 2017; Lepikhin et</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">al., 2020; Fedus et al., 2021).</text>
+<title>N1 [Context] (cites=3)
+Sparse Mixture-of-Experts (MoE) models have emerged as a powerful paradigm for scaling neural networks efficiently (Shazeer et al., 2017; Lepikhin et al., 2020; Fedus et al., 2021).</title>
+</g>
+<g>
+<rect x="595" y="180" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">MoE: dense capacity, sparse compute</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">By activating only a subset of experts for each input token, MoE</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">architectures achieve the capacity of dense models at a fraction of the</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">computational cost.</text>
+<title>N2 [Context] (cites=0)
+By activating only a subset of experts for each input token, MoE architectures achieve the capacity of dense models at a fraction of the computational cost.</title>
+</g>
+<circle cx="1022.0" cy="300.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="308.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="292" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="306" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="321" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Mixtral, DeepSeek-V2 in production</text>
+<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">Recent models such as Mixtral (Jiang et al., 2024a) and DeepSeek-V2 (Shao et</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">al., 2024) have demonstrated state-of-the-art performance using this</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">approach, driving widespread adoption in production systems.</text>
+<title>N3 [Context] (cites=2)
+Recent models such as Mixtral (Jiang et al., 2024a) and DeepSeek-V2 (Shao et al., 2024) have demonstrated state-of-the-art performance using this approach, driving widespread adoption in production systems.</title>
+</g>
+<circle cx="1022.0" cy="412.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="420.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="404" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="418" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="433" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Dispatch via AllToAll in MoE inference</text>
+<text x="805" y="449" text-anchor="middle" font-size="9.5" fill="#555">A critical component of distributed MoE inference is the dispatch phase,</text>
+<text x="805" y="461" text-anchor="middle" font-size="9.5" fill="#555">where tokens are redistributed across GPUs via AllToAll collective</text>
+<text x="805" y="473" text-anchor="middle" font-size="9.5" fill="#555">communication to reach their assigned experts (Hwang et al., 2022;</text>
+<text x="805" y="485" text-anchor="middle" font-size="9.5" fill="#555">Rajbhandari et al., 2022).</text>
+<title>N4 [Context] (cites=2)
+A critical component of distributed MoE inference is the dispatch phase, where tokens are redistributed across GPUs via AllToAll collective communication to reach their assigned experts (Hwang et al., 2022; Rajbhandari et al., 2022).</title>
+</g>
+<g>
+<rect x="595" y="596" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="610" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="805" y="625" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">CUDA graphs eliminate launch overhead</text>
+<text x="805" y="641" text-anchor="middle" font-size="9.5" fill="#555">CUDA graphs have become essential for high-throughput inference, as they</text>
+<text x="805" y="653" text-anchor="middle" font-size="9.5" fill="#555">eliminate kernel launch overhead by capturing and replaying sequences of GPU</text>
+<text x="805" y="665" text-anchor="middle" font-size="9.5" fill="#555">operations.</text>
+<title>N5 [Prior_Work] (cites=0)
+CUDA graphs have become essential for high-throughput inference, as they eliminate kernel launch overhead by capturing and replaying sequences of GPU operations.</title>
+</g>
+<g>
+<rect x="595" y="776" width="420" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="790" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="805" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fixed buffers force worst-case padding</text>
+<text x="805" y="821" text-anchor="middle" font-size="9.5" fill="#555">However, CUDA graphs require all buffer sizes to be fixed at capture time,</text>
+<text x="805" y="833" text-anchor="middle" font-size="9.5" fill="#555">creating a fundamental tension with the dynamic nature of MoE routing:</text>
+<text x="805" y="845" text-anchor="middle" font-size="9.5" fill="#555">current approaches must allocate buffers for the worst-case token count</text>
+<text x="805" y="857" text-anchor="middle" font-size="9.5" fill="#555">across all peer…</text>
+<title>N6 [Limitation] (cites=0)
+However, CUDA graphs require all buffer sizes to be fixed at capture time, creating a fundamental tension with the dynamic nature of MoE routing: current approaches must allocate buffers for the worst-case token count across all peer pairs, leading to substantial padding waste.</title>
+</g>
+<g>
+<rect x="595" y="1436" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Result]</text>
+<text x="805" y="1465" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Worst-case allocation is inefficient</text>
+<text x="805" y="1481" text-anchor="middle" font-size="9.5" fill="#555">Our analysis of Mixtral-8x7B routing traces reveals that this worst-case</text>
+<text x="805" y="1493" text-anchor="middle" font-size="9.5" fill="#555">allocation is highly inefficient.</text>
+<title>N7 [Result] (cites=0)
+Our analysis of Mixtral-8x7B routing traces reveals that this worst-case allocation is highly inefficient.</title>
+</g>
+<g>
+<rect x="595" y="1536" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1550" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Result]</text>
+<text x="805" y="1565" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Cmax 8.4x mean; 88% padding waste</text>
+<text x="805" y="1581" text-anchor="middle" font-size="9.5" fill="#555">The maximum per-peer token count (Cmax = 43) is 8.4× larger than the mean</text>
+<text x="805" y="1593" text-anchor="middle" font-size="9.5" fill="#555">count (5.1), resulting in 88% padding overhead.</text>
+<title>N8 [Result] (cites=0)
+The maximum per-peer token count (Cmax = 43) is 8.4× larger than the mean count (5.1), resulting in 88% padding overhead.</title>
+</g>
+<g>
+<rect x="595" y="1636" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1650" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Result]</text>
+<text x="805" y="1665" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Heavy-tailed: 99% below C=16</text>
+<text x="805" y="1681" text-anchor="middle" font-size="9.5" fill="#555">However, the distribution is heavy-tailed: 99% of per-peer counts fall below</text>
+<text x="805" y="1693" text-anchor="middle" font-size="9.5" fill="#555">C = 16, suggesting that smaller buffers could handle the vast majority of</text>
+<text x="805" y="1705" text-anchor="middle" font-size="9.5" fill="#555">dispatch operations.</text>
+<title>N9 [Result] (cites=0)
+However, the distribution is heavy-tailed: 99% of per-peer counts fall below C = 16, suggesting that smaller buffers could handle the vast majority of dispatch operations.</title>
+</g>
+<g>
+<rect x="595" y="968" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="982" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="805" y="997" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose Cap-and-Spill two-pass dispatch</text>
+<text x="805" y="1013" text-anchor="middle" font-size="9.5" fill="#555">We propose Cap-and-Spill, a two-pass dispatch strategy that exploits this</text>
+<text x="805" y="1025" text-anchor="middle" font-size="9.5" fill="#555">statistical property while maintaining CUDA-graph compatibility.</text>
+<title>N10 [Method] (cites=0)
+We propose Cap-and-Spill, a two-pass dispatch strategy that exploits this statistical property while maintaining CUDA-graph compatibility.</title>
+</g>
+<g>
+<rect x="595" y="1068" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1082" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="805" y="1097" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Pass 1 Q99 buffer; Pass 2 overflow</text>
+<text x="805" y="1113" text-anchor="middle" font-size="9.5" fill="#555">The first pass uses quantile-based buffer capacity (C = Q99 ) to handle most</text>
+<text x="805" y="1125" text-anchor="middle" font-size="9.5" fill="#555">tokens efficiently; the second pass dispatches overflow tokens that exceed</text>
+<text x="805" y="1137" text-anchor="middle" font-size="9.5" fill="#555">the capacity.</text>
+<title>N11 [Method] (cites=0)
+The first pass uses quantile-based buffer capacity (C = Q99 ) to handle most tokens efficiently; the second pass dispatches overflow tokens that exceed the capacity.</title>
+</g>
+<g>
+<rect x="595" y="1180" width="420" height="60" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Method]</text>
+<text x="805" y="1209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fixed buffers; full graph capture</text>
+<text x="805" y="1225" text-anchor="middle" font-size="9.5" fill="#555">Both passes use fixed buffer sizes, enabling full CUDA-graph capture.</text>
+<title>N12 [Method] (cites=0)
+Both passes use fixed buffer sizes, enabling full CUDA-graph capture.</title>
+</g>
+<g>
+<rect x="595" y="1268" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1282" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Method]</text>
+<text x="805" y="1297" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Unconditional execution beats conditional</text>
+<text x="805" y="1313" text-anchor="middle" font-size="9.5" fill="#555">Counterintuitively, we find that unconditionally executing both passes</text>
+<text x="805" y="1325" text-anchor="middle" font-size="9.5" fill="#555">outperforms conditional execution by eliminating synchronization overhead.</text>
+<title>N13 [Method] (cites=0)
+Counterintuitively, we find that unconditionally executing both passes outperforms conditional execution by eliminating synchronization overhead.</title>
+</g>
+<g>
+<rect x="247" y="1816" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1830" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="427" y="1845" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: Cap-and-Spill algorithm</text>
+<text x="427" y="1861" text-anchor="middle" font-size="9.5" fill="#555">We propose Cap-and-Spill, a two-pass CUDA-graph-compatible MoE</text>
+<text x="427" y="1873" text-anchor="middle" font-size="9.5" fill="#555">dispatch algorithm that uses quantile-based buffer capacity to</text>
+<text x="427" y="1885" text-anchor="middle" font-size="9.5" fill="#555">reduce padding waste while handling overflow tokens in a second</text>
+<text x="427" y="1897" text-anchor="middle" font-size="9.5" fill="#555">pass.</text>
+<title>C1 [Contribution] (cites=0)
+We propose Cap-and-Spill, a two-pass CUDA-graph-compatible MoE dispatch algorithm that uses quantile-based buffer capacity to reduce padding waste while handling overflow tokens in a second pass.</title>
+</g>
+<g>
+<rect x="625" y="1816" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1830" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="805" y="1845" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: 33.9% latency cut; correctness held</text>
+<text x="805" y="1861" text-anchor="middle" font-size="9.5" fill="#555">We demonstrate 33.9% mean latency reduction (1077 µs → 712 µs) on</text>
+<text x="805" y="1873" text-anchor="middle" font-size="9.5" fill="#555">8×A100 NVLink with Mixtral-8x7B routing traces, recovering 53.2%</text>
+<text x="805" y="1885" text-anchor="middle" font-size="9.5" fill="#555">of the gap to oracle eager dispatch while maintaining exact</text>
+<text x="805" y="1897" text-anchor="middle" font-size="9.5" fill="#555">correctness.</text>
+<title>C2 [Contribution] (cites=0)
+We demonstrate 33.9% mean latency reduction (1077 µs → 712 µs) on 8×A100 NVLink with Mixtral-8x7B routing traces, recovering 53.2% of the gap to oracle eager dispatch while maintaining exact correctness.</title>
+</g>
+<g>
+<rect x="1003" y="1816" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1830" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="1183" y="1845" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: Q99 optimal; 2.69x buffer cut</text>
+<text x="1183" y="1861" text-anchor="middle" font-size="9.5" fill="#555">We characterize the heavy-tailed nature of MoE routing</text>
+<text x="1183" y="1873" text-anchor="middle" font-size="9.5" fill="#555">distributions (Cmax /µ = 8.4×) and show that the 99th percentile</text>
+<text x="1183" y="1885" text-anchor="middle" font-size="9.5" fill="#555">provides the optimal operating point, balancing buffer reduction</text>
+<text x="1183" y="1897" text-anchor="middle" font-size="9.5" fill="#555">(2.69×) with minimal overflow (5.4%).</text>
+<title>C3 [Contribution] (cites=0)
+We characterize the heavy-tailed nature of MoE routing distributions (Cmax /µ = 8.4×) and show that the 99th percentile provides the optimal operating point, balancing buffer reduction (2.69×) with minimal overflow (5.4%).</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

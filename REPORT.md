@@ -4,9 +4,14 @@
 
 **目标**：把每篇论文 Introduction 解析成**论证结构图**（argument graph），在图上算指标，比较 AI 生成论文与人写论文的结构差异。
 
-**数据集**：40 篇论文
-- **AI** (n=20)：FARS corpus AI-generated papers（FA0001–FA0047）
-- **Human** (n=20)：11 篇 anchor papers（真实被 AI 引用的 2024–2026 论文）+ 9 篇 ICLR 2025 Oral
+**数据集**：80 篇论文（2026-05-01 corpus 翻倍）
+- **AI** (n=40)：FARS corpus AI-generated papers（FA 系列）
+  - 原 20 篇：FA0001–FA0047
+  - 新增 20 篇：FA0058–FA0235（来自 fars_30_sample 未用部分）
+- **Human** (n=40)：
+  - 11 篇 anchor papers（真实被 AI 引用的 2024–2026 论文）
+  - 9 篇 ICLR 2025 Oral
+  - 新增 20 篇 ICLR 2025 Poster（iclr25_30_sample 中选 20）
 
 ---
 
@@ -219,20 +224,42 @@
 
 ## 5. 均值对比总表
 
-> **2026-05-01 更新**：应用 Pass 3 "Limitation source" 规则修复（每个 Limitation 必须有 Prior_Work 或 Limitation 入边，详见 §8）。修复涉及 16 个 violation，14 个 paper。Cite 总量守恒（AI 4.65、Human 19.70 不变），但部分 cite 从 Limitation 节点重新归位到 Prior_Work 节点。
+> **2026-05-01 更新（v2）**：corpus 从 40 → 80 翻倍。新增 20 AI（FA0058–FA0235）+ 20 ICLR 2025 Poster。所有 80 graphs 经过 Pass 3 校验 + 4 agent QA review（共 12 处自动修复）。Fingerprint 在更大样本上保持。
+
+### v2 (n=80, AI 40 / Human 40)
 
 | 组 | 指标 | AI | Human | Human/AI |
 |---|---|---|---|---|
-| A. 结构 | sum_node_degree (Σ in+out = 2|E|) | 35.0 | 61.7 | **1.76×** |
-| A. 结构 | graph_longest_path (深度) | 12.75 | 24.15 | **1.89×** |
-| A. 结构 | max_width (宽度) | 3.15 | 3.80 | 1.21× |
-| B. PW | pw_node_count | 2.40 | 4.60 | **1.92×** |
-| B. PW | pw_top_level_count (多样性) | 1.40 | 1.90 | 1.36× |
-| B. PW | pw_avg_cites (人均引用) | 0.89 | 1.81 | **2.03×** |
-| B. PW | **pw_total_cites (总引用)** | **2.15** | **7.65** | **3.56×** |
-| C. Lim | lim_scope_avg_cites (批评范围) | 1.18 | 2.36 | **2.01×** |
-| D. Method | method_node_count (复杂度) | 3.15 | 8.35 | **2.65×** |
-| D. Method | method_pw_reach_avg | 2.20 | 3.32 | **1.51×** |
+| A. 结构 | sum_node_degree (Σ in+out = 2\|E\|) | 36.05 | 59.95 | **1.66×** |
+| A. 结构 | graph_longest_path (深度) | 13.68 | 23.95 | **1.75×** |
+| A. 结构 | max_width (宽度) | 3.25 | 3.23 | 0.99× |
+| B. PW | pw_node_count | 2.30 | 4.38 | **1.90×** |
+| B. PW | pw_top_level_count (多样性) | 1.43 | 1.93 | 1.35× |
+| B. PW | pw_avg_cites (人均引用) | 0.98 | 1.85 | **1.89×** |
+| B. PW | **pw_total_cites (总引用) ★** | **2.15** | **7.42** | **3.45×** |
+| C. Lim | lim_scope_avg_cites (批评范围) ★ | 1.18 | 2.67 | **2.26×** |
+| D. Method | method_node_count (复杂度) ★ | 3.42 | 7.33 | **2.14×** |
+| D. Method | method_pw_reach_avg | 2.20 | 3.37 | **1.53×** |
+| 引用 | total_cites | 5.12 | 17.95 | **3.50×** |
+| 引用 | cite_density (cites/node) | 0.32 | 0.67 | **2.12×** |
+
+### v1 (n=40) 对比 — 看趋势是否稳定
+
+| 指标 | v1 AI | v1 Human | v2 AI | v2 Human | v2 ratio change |
+|---|---|---|---|---|---|
+| pw_total_cites | 2.15 | 7.65 | 2.15 | 7.42 | 3.56× → 3.45× |
+| method_node_count | 3.15 | 8.35 | 3.42 | 7.33 | 2.65× → 2.14× |
+| graph_longest_path | 12.75 | 24.15 | 13.68 | 23.95 | 1.89× → 1.75× |
+| pw_node_count | 2.40 | 4.60 | 2.30 | 4.38 | 1.92× → 1.90× |
+| lim_scope_avg_cites | 1.18 | 2.36 | 1.18 | 2.67 | 2.01× → 2.26× |
+
+**观察**：
+- **`pw_total_cites` 3.45×**（vs v1 3.56×）：最强信号在 80 篇上**保持**
+- **`method_node_count` 从 2.65× → 2.14×**：人写均值从 8.35 降到 7.33（ICLR Poster 比 Oral 短一点），AI 从 3.15 升到 3.42（新 FA papers 略复杂）
+- **`graph_longest_path` 从 1.89× → 1.75×**：略微收窄，但仍接近 2×
+- **`lim_scope_avg_cites` 从 2.01× → 2.26×**：反而**变强**，说明人写 Limitation 反向 BFS 找到的 PW 比之前更聚合
+- **`max_width` 从 1.21× → 0.99×**：完全消失。说明这个指标本来就弱，n 大了之后无差距
+- 整体：**主要 fingerprint（PW citation 体量、Method 复杂度、Limitation 批评范围）保持**
 
 ---
 
@@ -303,3 +330,33 @@
 **对 fingerprint 的影响**：差距没缩小。AI vs Human 在 `pw_node_count` 仍 1.92×，`pw_total_cites` 仍 3.56×，`method_pw_reach_avg` 仍 1.51×。AI 论文"单 anchor + 浅 PW"指纹在更严格的图上保持。
 
 **修改前快照**：保存在 `before_pw_lim_fix/`（14 个 JSON+SVG + 旧 metrics.csv），可直接 diff 对比。
+
+---
+
+## 9. Corpus 翻倍（2026-05-01）
+
+**动机**：n=40 太小，无法做显著性检验或训分类器。翻倍到 n=80（AI 40 / Human 40），同时引入 ICLR Poster 维度（不只 Oral）。
+
+**新数据**：
+- **+20 AI papers** (FA0058–FA0235)：从 `analemma_fars_papers/rag_novelty_workspace_2026-03-19/fars_30_sample` 选 20 篇之前未用的 FARS papers
+- **+20 ICLR 2025 Poster**：从 `iclr25_30_sample` 选 20 篇 ICLR 2025 接收 paper（非 oral）
+
+**流程**：
+1. PDF 拷贝到 `pdfs/{ai,human}/` 用统一命名
+2. **6 个并行 extraction subagent**（每个 6-7 篇），按 SKILL.md 五阶段+Pass 3 抽 JSON 并 render SVG
+3. **4 个并行 QA reviewer agent**（每个 10 篇），核查 type/edge/coverage，应用了 12 处自动修复（主要是边类型 marker 严格度）
+4. 全语料 `validate_graph.py` 80/80 OK，0 warning
+5. 重算 `metrics.csv`、重生成 `index.html`
+
+**新增 paper 列表**：
+
+AI（20）: FA0058, FA0063, FA0069, FA0073, FA0074, FA0115, FA0116, FA0153, FA0163, FA0172, FA0175, FA0181, FA0191, FA0193, FA0201, FA0209, FA0213, FA0214, FA0231, FA0235
+
+ICLR Poster（20）: RaNA, AutoGDA, BSTaR, PatchTraining, CausalConcept, ContractivePolicy, FasterCache, PerplexityCorr, Anonymizer, ActBeacon, MRAGBench, MiniCoreset, AsyncMoE, HeadKV, OfflineHRL, OpenWorldRL, OscSSM, StemOB, TransformerSq, metabench
+
+**主要发现**：fingerprint 在 n=80 上保持（详见 §5 总表）。`pw_total_cites`、`lim_scope_avg_cites`、`method_node_count` 三大信号都通过翻倍稳定性测试。
+
+**接下来可以做**：
+1. 现在样本足够做 t-test / Mann-Whitney U（n=40 each）
+2. 训分类器（logistic / random forest）报 AUC
+3. 把 ICLR Poster vs Oral vs anchor 三类 human paper 拆开看是否同质

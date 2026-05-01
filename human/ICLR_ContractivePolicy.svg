@@ -1,0 +1,368 @@
+<svg viewBox="0 0 1480 2250" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="222" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="632" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="424" x2="1450" y2="424" stroke="#eee" stroke-width="1"/>
+<text x="14" y="980" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="840" x2="1450" y2="840" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1198" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PROOF</text>
+<line x1="60" y1="1120" x2="1450" y2="1120" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1428" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1276" x2="1450" y2="1276" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1670" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1580" x2="1450" y2="1580" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1975" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1760" x2="1450" y2="1760" stroke="#eee" stroke-width="1"/>
+<rect x="613" y="576" width="762" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="621" y="572" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N10</text>
+<rect x="158" y="1888" width="1294" height="142" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="1884" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N16</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="163" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="264" x2="805" y2="292" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="376" x2="427" y2="472" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="616" y="421" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To address this issue</text>
+<line x1="427" y1="568" x2="427" y2="596" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="692" x2="616" y2="888" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="521" y="787" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">While</text>
+<line x1="616" y1="960" x2="616" y2="988" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1228" x2="616" y2="988" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="616" y1="1072" x2="805" y2="472" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="769" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">In contrast</text>
+<line x1="805" y1="568" x2="616" y2="1324" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="710" y="943" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">We leverage</text>
+<line x1="616" y1="1420" x2="1183" y2="472" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1183" y1="568" x2="805" y2="596" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="692" x2="994" y2="888" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="899" y="787" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="994" y1="960" x2="994" y2="988" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1072" x2="1183" y2="596" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1183" y1="568" x2="1183" y2="596" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1183" y1="692" x2="805" y2="720" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="994" y="703" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">As a result</text>
+<line x1="805" y1="792" x2="994" y2="1324" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1420" x2="805" y2="1448" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1532" x2="805" y2="1628" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1712" x2="805" y2="1808" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1880" x2="289" y2="1908" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="289" y1="2018" x2="616" y2="2046" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1880" x2="547" y2="1908" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="547" y1="2018" x2="994" y2="2046" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1880" x2="805" y2="1908" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1880" x2="1062" y2="1908" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1880" x2="1320" y2="1908" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2018" x2="616" y2="888" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1320" y1="2018" x2="994" y2="888" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1062" y1="2018" x2="616" y2="888" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Imitation learning for robotic tasks</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Imitation learning provides an intuitive policy optimization framework for</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">executing complex robotic tasks by learning from expert demonstrations</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">(Hussein et al., 2017).</text>
+<title>N1 [Context] (cites=1)
+Imitation learning provides an intuitive policy optimization framework for executing complex robotic tasks by learning from expert demonstrations (Hussein et al., 2017).</title>
+</g>
+<g>
+<rect x="595" y="180" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Naive imitation unreliable on OOS states</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">However, naively replicating expert behavior can raise safety concerns</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">during deployment, as the robot's trajectory may become unreliable when</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">facing out-of-sample (OOS) states.</text>
+<title>N2 [Context] (cites=0)
+However, naively replicating expert behavior can raise safety concerns during deployment, as the robot's trajectory may become unreliable when facing out-of-sample (OOS) states.</title>
+</g>
+<g>
+<rect x="595" y="292" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="306" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="321" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">OOS = unknown init or perturbation</text>
+<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">For instance, if the robot begins from an unknown initial state or</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">encounters environmental perturbations, it could fail to maintain a</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">consistent and reliable behavior.</text>
+<title>N3 [Context] (cites=0)
+For instance, if the robot begins from an unknown initial state or encounters environmental perturbations, it could fail to maintain a consistent and reliable behavior.</title>
+</g>
+<circle cx="614.0" cy="480.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="488.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="247" y="472" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="427" y="486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work]</text>
+<text x="427" y="501" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Model policy as DS with certificates</text>
+<text x="427" y="517" text-anchor="middle" font-size="9.5" fill="#555">To address this issue, the policy can be modeled using a dynamical</text>
+<text x="427" y="529" text-anchor="middle" font-size="9.5" fill="#555">system (DS) with rigorous reliability certificates (Ravichandar et</text>
+<text x="427" y="541" text-anchor="middle" font-size="9.5" fill="#555">al., 2020; Dawson et al., 2023).</text>
+<title>N4 [Prior_Work] (cites=2)
+To address this issue, the policy can be modeled using a dynamical system (DS) with rigorous reliability certificates (Ravichandar et al., 2020; Dawson et al., 2023).</title>
+</g>
+<circle cx="614.0" cy="604.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="612.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="620.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="628.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="247" y="596" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="427" y="610" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="427" y="625" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Asymptotic stability certificate</text>
+<text x="427" y="641" text-anchor="middle" font-size="9.5" fill="#555">One such certificate is asymptotic stability (Devaney, 2021),</text>
+<text x="427" y="653" text-anchor="middle" font-size="9.5" fill="#555">which ensures that all trajectories eventually converge to the</text>
+<text x="427" y="665" text-anchor="middle" font-size="9.5" fill="#555">same equilibrium state, regardless of the initial condition or</text>
+<text x="427" y="677" text-anchor="middle" font-size="9.5" fill="#555">perturbations (Khansari-Zadeh &amp; Billard, 2011; Rana…</text>
+<title>N5 [Prior_Work] (cites=4)
+One such certificate is asymptotic stability (Devaney, 2021), which ensures that all trajectories eventually converge to the same equilibrium state, regardless of the initial condition or perturbations (Khansari-Zadeh &amp; Billard, 2011; Rana et al., 2020; Abyaneh et al., 2024).</title>
+</g>
+<circle cx="803.0" cy="896.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="888" width="360" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="902" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="616" y="917" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Stability ignores transient behavior</text>
+<text x="616" y="933" text-anchor="middle" font-size="9.5" fill="#555">While asymptotic stability guarantees convergence, it overlooks</text>
+<text x="616" y="945" text-anchor="middle" font-size="9.5" fill="#555">the transient behavior (Tsukamoto et al., 2021).</text>
+<title>N6 [Limitation] (cites=1)
+While asymptotic stability guarantees convergence, it overlooks the transient behavior (Tsukamoto et al., 2021).</title>
+</g>
+<g>
+<rect x="436" y="988" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="1002" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="616" y="1017" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Stable trajectory fails to imitate expert</text>
+<text x="616" y="1033" text-anchor="middle" font-size="9.5" fill="#555">This phenomenon is illustrated in Fig. 1 for an arbitrary OOS</text>
+<text x="616" y="1045" text-anchor="middle" font-size="9.5" fill="#555">initial state, where the trajectory induced by the stable policy</text>
+<text x="616" y="1057" text-anchor="middle" font-size="9.5" fill="#555">converges to the target but fails to imitate the expert.</text>
+<title>N7 [Limitation] (cites=0)
+This phenomenon is illustrated in Fig. 1 for an arbitrary OOS initial state, where the trajectory induced by the stable policy converges to the target but fails to imitate the expert.</title>
+</g>
+<g>
+<rect x="595" y="1168" width="420" height="60" rx="6" fill="#fff2cc" stroke="#b38a2c" stroke-width="1.2"/>
+<text x="805" y="1182" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">P7 [Proof]</text>
+<text x="805" y="1197" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Fig. 1: stable vs contractive rollout</text>
+<text x="805" y="1213" text-anchor="middle" font-size="9.5" fill="#555">Fig. 1</text>
+<title>P7 [Proof] (cites=0)
+Fig. 1</title>
+</g>
+<circle cx="992.0" cy="480.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="488.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="625" y="472" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Prior_Work]</text>
+<text x="805" y="501" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Contractive DS: trajectories converge to each other</text>
+<text x="805" y="517" text-anchor="middle" font-size="9.5" fill="#555">In contrast, contractive DS policies ensure that the resulting</text>
+<text x="805" y="529" text-anchor="middle" font-size="9.5" fill="#555">trajectories exponentially converge to each other, and ultimately</text>
+<text x="805" y="541" text-anchor="middle" font-size="9.5" fill="#555">to the equilibrium state (Ravichandar et al., 2017; Mohammadi et</text>
+<text x="805" y="553" text-anchor="middle" font-size="9.5" fill="#555">al., 2024).</text>
+<title>N8 [Prior_Work] (cites=2)
+In contrast, contractive DS policies ensure that the resulting trajectories exponentially converge to each other, and ultimately to the equilibrium state (Ravichandar et al., 2017; Mohammadi et al., 2024).</title>
+</g>
+<circle cx="803.0" cy="1332.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="1324" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1338" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="616" y="1353" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Use contractivity for transient reliability</text>
+<text x="616" y="1369" text-anchor="middle" font-size="9.5" fill="#555">We leverage the stronger notion of contractivity (Lohmiller &amp;</text>
+<text x="616" y="1381" text-anchor="middle" font-size="9.5" fill="#555">Slotine, 1998) to ensure reliability in the transient phase, and</text>
+<text x="616" y="1393" text-anchor="middle" font-size="9.5" fill="#555">as a result, enhance the imitation quality.</text>
+<title>N9 [Method] (cites=1)
+We leverage the stronger notion of contractivity (Lohmiller &amp; Slotine, 1998) to ensure reliability in the transient phase, and as a result, enhance the imitation quality.</title>
+</g>
+<g>
+<rect x="1003" y="472" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="1183" y="486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Prior_Work]</text>
+<text x="1183" y="501" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Two approaches to contractive DS learning</text>
+<text x="1183" y="517" text-anchor="middle" font-size="9.5" fill="#555">There are two main approaches to learning contractive DSs.</text>
+<title>N10 [Prior_Work] (cites=0)
+There are two main approaches to learning contractive DSs.</title>
+</g>
+<circle cx="992.0" cy="604.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="612.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="620.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="625" y="596" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="610" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10a [Prior_Work]</text>
+<text x="805" y="625" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Approach A: constrained optimization</text>
+<text x="805" y="641" text-anchor="middle" font-size="9.5" fill="#555">The most common method relies on constrained optimization to train</text>
+<text x="805" y="653" text-anchor="middle" font-size="9.5" fill="#555">the DS while satisfying learned or fixed contractivity</text>
+<text x="805" y="665" text-anchor="middle" font-size="9.5" fill="#555">certificates (Ravichandar et al., 2017; Blocher et al., 2017;</text>
+<text x="805" y="677" text-anchor="middle" font-size="9.5" fill="#555">Sindhwani et al., 2018).</text>
+<title>N10a [Prior_Work] (cites=3)
+The most common method relies on constrained optimization to train the DS while satisfying learned or fixed contractivity certificates (Ravichandar et al., 2017; Blocher et al., 2017; Sindhwani et al., 2018).</title>
+</g>
+<g>
+<rect x="814" y="888" width="360" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="902" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11a [Limitation]</text>
+<text x="994" y="917" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Constrained opt computationally hard</text>
+<text x="994" y="933" text-anchor="middle" font-size="9.5" fill="#555">However, constrained optimization is computationally challenging</text>
+<text x="994" y="945" text-anchor="middle" font-size="9.5" fill="#555">for complex expert behaviors or high-dimensional state spaces.</text>
+<title>N11a [Limitation] (cites=0)
+However, constrained optimization is computationally challenging for complex expert behaviors or high-dimensional state spaces.</title>
+</g>
+<g>
+<rect x="814" y="988" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="1002" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11b [Limitation]</text>
+<text x="994" y="1017" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Trade off accuracy vs constraint</text>
+<text x="994" y="1033" text-anchor="middle" font-size="9.5" fill="#555">Additionally, most constrained approaches trade off imitation</text>
+<text x="994" y="1045" text-anchor="middle" font-size="9.5" fill="#555">accuracy for constraint satisfaction.</text>
+<title>N11b [Limitation] (cites=0)
+Additionally, most constrained approaches trade off imitation accuracy for constraint satisfaction.</title>
+</g>
+<circle cx="1370.0" cy="604.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1370.0" cy="612.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="1003" y="596" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="1183" y="610" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10b [Prior_Work]</text>
+<text x="1183" y="625" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Approach B: built-in contractivity parameterization</text>
+<text x="1183" y="641" text-anchor="middle" font-size="9.5" fill="#555">The second approach is based on parameterized models with built-in</text>
+<text x="1183" y="653" text-anchor="middle" font-size="9.5" fill="#555">contractivity guarantees for any choice of parameters (Mohammadi</text>
+<text x="1183" y="665" text-anchor="middle" font-size="9.5" fill="#555">et al., 2024; Dawson et al., 2023).</text>
+<title>N10b [Prior_Work] (cites=2)
+The second approach is based on parameterized models with built-in contractivity guarantees for any choice of parameters (Mohammadi et al., 2024; Dawson et al., 2023).</title>
+</g>
+<g>
+<rect x="595" y="720" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="734" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Prior_Work]</text>
+<text x="805" y="749" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Model stays contractive under imperfect training</text>
+<text x="805" y="765" text-anchor="middle" font-size="9.5" fill="#555">As a result, the model remains contractive even if the learning process is</text>
+<text x="805" y="777" text-anchor="middle" font-size="9.5" fill="#555">imperfect or disrupted.</text>
+<title>N12 [Prior_Work] (cites=0)
+As a result, the model remains contractive even if the learning process is imperfect or disrupted.</title>
+</g>
+<circle cx="1181.0" cy="1332.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1340.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="1324" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1338" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Method]</text>
+<text x="994" y="1353" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Build on RENs + coupling layers</text>
+<text x="994" y="1369" text-anchor="middle" font-size="9.5" fill="#555">In this work, we build on the foundation of two such formulations:</text>
+<text x="994" y="1381" text-anchor="middle" font-size="9.5" fill="#555">(i) a parameterization of contractive continuous-time DSs using</text>
+<text x="994" y="1393" text-anchor="middle" font-size="9.5" fill="#555">recurrent equilibrium networks (RENs) (Martinelli et al., 2023),</text>
+<text x="994" y="1405" text-anchor="middle" font-size="9.5" fill="#555">and (ii) the coupling layer architecture…</text>
+<title>N13 [Method] (cites=2)
+In this work, we build on the foundation of two such formulations: (i) a parameterization of contractive continuous-time DSs using recurrent equilibrium networks (RENs) (Martinelli et al., 2023), and (ii) the coupling layer architecture (Papamakarios et al., 2021).</title>
+</g>
+<g>
+<rect x="595" y="1448" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1462" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Method]</text>
+<text x="805" y="1477" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RENs: adjustable rate; coupling: contraction-preserving bijection</text>
+<text x="805" y="1493" text-anchor="middle" font-size="9.5" fill="#555">The former ensures that the DS is contractive with an adjustable rate, while</text>
+<text x="805" y="1505" text-anchor="middle" font-size="9.5" fill="#555">the latter provides a trainable bijective transformation that preserves</text>
+<text x="805" y="1517" text-anchor="middle" font-size="9.5" fill="#555">contraction properties.</text>
+<title>N14 [Method] (cites=0)
+The former ensures that the DS is contractive with an adjustable rate, while the latter provides a trainable bijective transformation that preserves contraction properties.</title>
+</g>
+<g>
+<rect x="595" y="1628" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1642" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Result]</text>
+<text x="805" y="1657" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Coupling: better accuracy + faster training</text>
+<text x="805" y="1673" text-anchor="middle" font-size="9.5" fill="#555">Our experiments demonstrate that the coupling layers enhance the model's</text>
+<text x="805" y="1685" text-anchor="middle" font-size="9.5" fill="#555">representation power, leading to improved imitation accuracy and faster</text>
+<text x="805" y="1697" text-anchor="middle" font-size="9.5" fill="#555">training, while maintaining the contractive nature of the DS.</text>
+<title>N15 [Result] (cites=0)
+Our experiments demonstrate that the coupling layers enhance the model's representation power, leading to improved imitation accuracy and faster training, while maintaining the contractive nature of the DS.</title>
+</g>
+<g>
+<rect x="595" y="1808" width="420" height="72" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1822" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Contribution]</text>
+<text x="805" y="1837" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose SCDS (state-only contractive DS)</text>
+<text x="805" y="1853" text-anchor="middle" font-size="9.5" fill="#555">Contributions. We propose a State-only framework for learning Contractive</text>
+<text x="805" y="1865" text-anchor="middle" font-size="9.5" fill="#555">Dynamical System policies (SCDS), which offers several distinct advantages.</text>
+<title>N16 [Contribution] (cites=0)
+Contributions. We propose a State-only framework for learning Contractive Dynamical System policies (SCDS), which offers several distinct advantages.</title>
+</g>
+<g>
+<rect x="170" y="1908" width="239" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="289" y="1922" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16a [Contribution]</text>
+<text x="289" y="1937" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: state-only (no expert velocity</text>
+<text x="289" y="1951" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">needed)</text>
+<text x="289" y="1967" text-anchor="middle" font-size="9.5" fill="#555">First, SCDS learns the policy solely from</text>
+<text x="289" y="1979" text-anchor="middle" font-size="9.5" fill="#555">state measurements, eliminating the need to</text>
+<text x="289" y="1991" text-anchor="middle" font-size="9.5" fill="#555">measure the expert's velocity.</text>
+<title>N16a [Contribution] (cites=0)
+First, SCDS learns the policy solely from state measurements, eliminating the need to measure the expert's velocity.</title>
+</g>
+<circle cx="803.0" cy="2054.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="2062.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="2046" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="616" y="2060" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16b [Contribution]</text>
+<text x="616" y="2075" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Avoids cumulative-velocity error</text>
+<text x="616" y="2091" text-anchor="middle" font-size="9.5" fill="#555">Hence, we address the cumulative error problem observed in</text>
+<text x="616" y="2103" text-anchor="middle" font-size="9.5" fill="#555">previous methods that replicate expert velocity, where small</text>
+<text x="616" y="2115" text-anchor="middle" font-size="9.5" fill="#555">errors can accumulate and lead to significant deviations in state</text>
+<text x="616" y="2127" text-anchor="middle" font-size="9.5" fill="#555">space trajectories (Ravichandar et al., 2020; Abyaneh…</text>
+<title>N16b [Contribution] (cites=2)
+Hence, we address the cumulative error problem observed in previous methods that replicate expert velocity, where small errors can accumulate and lead to significant deviations in state space trajectories (Ravichandar et al., 2020; Abyaneh et al., 2024).</title>
+</g>
+<g>
+<rect x="427" y="1908" width="239" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="547" y="1922" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16c [Contribution]</text>
+<text x="547" y="1937" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: adaptive-dim latent learning</text>
+<text x="547" y="1953" text-anchor="middle" font-size="9.5" fill="#555">Additionally, SCDS enables learning in a</text>
+<text x="547" y="1965" text-anchor="middle" font-size="9.5" fill="#555">latent space, with its dimension adapting</text>
+<text x="547" y="1977" text-anchor="middle" font-size="9.5" fill="#555">to the problem at hand.</text>
+<title>N16c [Contribution] (cites=0)
+Additionally, SCDS enables learning in a latent space, with its dimension adapting to the problem at hand.</title>
+</g>
+<g>
+<rect x="814" y="2046" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="994" y="2060" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16d [Contribution]</text>
+<text x="994" y="2075" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Up- or down-dimension flexibility</text>
+<text x="994" y="2091" text-anchor="middle" font-size="9.5" fill="#555">It facilitates learning in high-dimensional state spaces by</text>
+<text x="994" y="2103" text-anchor="middle" font-size="9.5" fill="#555">mapping to lower-dimensional latent representations, while also</text>
+<text x="994" y="2115" text-anchor="middle" font-size="9.5" fill="#555">providing flexibility in low-dimensional spaces through</text>
+<text x="994" y="2127" text-anchor="middle" font-size="9.5" fill="#555">higher-dimensional embeddings.</text>
+<title>N16d [Contribution] (cites=0)
+It facilitates learning in high-dimensional state spaces by mapping to lower-dimensional latent representations, while also providing flexibility in low-dimensional spaces through higher-dimensional embeddings.</title>
+</g>
+<g>
+<rect x="685" y="1908" width="239" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1922" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16e [Contribution]</text>
+<text x="805" y="1937" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: worst-case deviation upper bound</text>
+<text x="805" y="1953" text-anchor="middle" font-size="9.5" fill="#555">From a theoretical standpoint, we provide a</text>
+<text x="805" y="1965" text-anchor="middle" font-size="9.5" fill="#555">rigorous solution for OOS recovery by</text>
+<text x="805" y="1977" text-anchor="middle" font-size="9.5" fill="#555">establishing an upper bound on the</text>
+<text x="805" y="1989" text-anchor="middle" font-size="9.5" fill="#555">worst-case deviation from expert…</text>
+<title>N16e [Contribution] (cites=0)
+From a theoretical standpoint, we provide a rigorous solution for OOS recovery by establishing an upper bound on the worst-case deviation from expert trajectories.</title>
+</g>
+<g>
+<rect x="942" y="1908" width="239" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1062" y="1922" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16f [Contribution]</text>
+<text x="1062" y="1937" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C4: adjustable contraction rate</text>
+<text x="1062" y="1953" text-anchor="middle" font-size="9.5" fill="#555">SCDS also offers control over the transient</text>
+<text x="1062" y="1965" text-anchor="middle" font-size="9.5" fill="#555">behavior through an adjustable and</text>
+<text x="1062" y="1977" text-anchor="middle" font-size="9.5" fill="#555">learnable contraction rate.</text>
+<title>N16f [Contribution] (cites=0)
+SCDS also offers control over the transient behavior through an adjustable and learnable contraction rate.</title>
+</g>
+<circle cx="1447.0" cy="1916.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="1200" y="1908" width="239" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1320" y="1922" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16g [Contribution]</text>
+<text x="1320" y="1937" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C5: unconstrained opt + neural-ODE</text>
+<text x="1320" y="1951" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">gradient</text>
+<text x="1320" y="1967" text-anchor="middle" font-size="9.5" fill="#555">Training SCDS is highly efficient by</text>
+<text x="1320" y="1979" text-anchor="middle" font-size="9.5" fill="#555">relying on unconstrained optimization and</text>
+<text x="1320" y="1991" text-anchor="middle" font-size="9.5" fill="#555">neural ordinary differential equations</text>
+<text x="1320" y="2003" text-anchor="middle" font-size="9.5" fill="#555">(ODE) fixed-point differentiation for…</text>
+<title>N16g [Contribution] (cites=1)
+Training SCDS is highly efficient by relying on unconstrained optimization and neural ordinary differential equations (ODE) fixed-point differentiation for gradient computation (Chen et al., 2018).</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

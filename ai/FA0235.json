@@ -1,0 +1,129 @@
+{
+  "paper_id": "FA0235",
+  "paper_topic": "ReInk: training-free OCR-augmented inference wrapper for robust chart QA under visual degradations",
+  "anchor_paper": null,
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Charts are ubiquitous in scientific publications, business reports, and data journalism, serving as a primary medium for communicating quantitative information.",
+      "display_label": "Charts ubiquitous for quant info",
+      "citations": 0
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "Vision-language models (VLMs) have made substantial progress on chart question answering, with recent benchmarks such as ChartQA (Masry et al., 2022) and ChartQAPro (Masry et al., 2025) driving advances in visual reasoning over data visualizations.",
+      "display_label": "VLMs progress on chart QA",
+      "citations": 2
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "However, these benchmarks predominantly evaluate performance on clean, high-quality images, leaving a critical gap in understanding how VLMs perform under realistic deployment conditions.",
+      "display_label": "Benchmarks use clean images only",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Context",
+      "text": "Real-world chart images are frequently degraded by compression artifacts, blur from scanning or screenshots, pixelation from low-resolution sources, and noise from photocopying.",
+      "display_label": "Real charts: blur, pixelation, noise",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Context",
+      "text": "Recent studies have shown that VLMs suffer dramatic performance drops under such corruptions (Shin et al., 2025; Mukhopadhyay et al., 2024), with accuracy declining by 25–30 percentage points on blurred or pixelated charts.",
+      "display_label": "VLMs drop 25-30pp on corruptions",
+      "citations": 2
+    },
+    {
+      "id": "N6",
+      "type": "Context",
+      "text": "The primary failure mode is text illegibility: when axis labels, tick marks, legend entries, and titles become unreadable, VLMs cannot extract the information needed to answer questions, even when their visual reasoning capabilities remain intact.",
+      "display_label": "Failure mode: text illegibility",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Prior_Work",
+      "text": "Existing approaches to improving robustness typically require retraining models on augmented data or developing specialized architectures (Masry et al., 2023; Xu et al., 2024), which is expensive and may not generalize to new corruption types.",
+      "display_label": "Existing: retrain or specialized arch",
+      "citations": 2
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "We observe that OCR systems, which are specifically optimized for text extraction, can often recover text from degraded images more reliably than VLM vision encoders.",
+      "display_label": "OCR recovers text better than VLMs",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Method",
+      "text": "This motivates a simple question: can we improve chart QA robustness by providing OCR-extracted text to VLMs at inference time, without any model modification?",
+      "display_label": "Q: OCR text at inference time?",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Method",
+      "text": "We propose ReInk, a training-free inference wrapper that extracts text from corrupted charts using OCR and renders it as a spatially-aligned auxiliary image.",
+      "display_label": "Propose ReInk: OCR + canvas wrapper",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method",
+      "text": "By providing both the corrupted chart and the re-inked canvas to the VLM, we give the model access to legible text while preserving the original chart's visual structure.",
+      "display_label": "Two-image: corrupted + re-inked",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Result",
+      "text": "Our experiments on ChartQAPro-Corrupted demonstrate that ReInk improves accuracy by +12.21 percentage points (27.95% vs 15.74% baseline), with gains scaling predictably with OCR quality.",
+      "display_label": "ReInk: +12.21pp on ChartQAPro-Corrupted",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We propose ReInk, a training-free inference wrapper that improves VLM robustness on corrupted charts by providing OCR-extracted text as a spatially-rendered auxiliary image.",
+      "display_label": "C1: ReInk wrapper proposal",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We conduct comprehensive experiments on ChartQAPro-Corrupted, demonstrating +12.21pp improvement over baseline and +8.50pp over a scrambled-text control, confirming that correct text semantics drive the gains.",
+      "display_label": "C2: +12.21pp baseline, +8.50pp control",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We analyze what components matter: text content is the primary driver (+11.57pp from OCR text alone), while spatial rendering (+0.64pp) and bounding box outlines (+0.10pp) provide marginal additional benefit.",
+      "display_label": "C3: text content drives gains",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "contrast", "connective": "However"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N6", "to": "N7", "kind": "elaboration"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "consequence", "connective": "This motivates"},
+    {"from": "N9", "to": "N10", "kind": "consequence", "connective": "We propose"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "N12", "kind": "evidence"},
+    {"from": "N12", "to": "C1", "kind": "elaboration"},
+    {"from": "N12", "to": "C2", "kind": "elaboration"},
+    {"from": "N12", "to": "C3", "kind": "elaboration"}
+  ],
+  "observations": "FA0235 is a training-free inference-time robustness paper for chart QA. Para 1 (N1-N3) is Context: charts ubiquitous, VLM progress on ChartQA/ChartQAPro, and a 'However' pivoting to the gap that benchmarks use clean images (this 'However' is field-level problem framing — the paper itself is about robustness, so it stays Context per the para-1 'However' rule). Para 2 (N4-N6) elaborates the real-world corruption phenomenon: blur/pixelation/compression, the cited 25-30pp accuracy drop (Shin 2025; Mukhopadhyay 2024), and the text-illegibility failure mode. All Context.\n\nPara 3 introduces the only Prior_Work node N7 (existing robustness approaches: retraining or specialized architectures, citations Masry 2023, Xu 2024) — note the embedded critique 'expensive and may not generalize' is part of the same verbatim slice; rather than splitting into a separate Limitation node, the contrast is captured by the N7 -> N8 contrast edge (the OCR-based approach reverses the retraining requirement). Method block N8-N11: OCR-recovers-text observation, motivating question, ReInk proposal, two-image inference setup. N12 is a Result-as-evidence summarizing the +12.21pp headline.\n\nThree Contributions (C1-C3) close. Notably this paper has no standalone Limitation node — the critique is implicit in N7's verbatim text and the contrast pivot to N8. The validator's Limitation source check is trivially satisfied (no Limitations to check). Paper has no single anchor PW; it builds against a category (training-time robustness methods) rather than one prior method. N12 is the dominant fork into the three contributions."
+}

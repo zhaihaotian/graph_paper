@@ -1,0 +1,142 @@
+{
+  "paper_id": "FA0193",
+  "paper_topic": "Patch: post-drift conservative rule updates for LogRules-style LLM log parsers",
+  "anchor_paper": "LogRules (Huang et al., 2025)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Log parsing—converting raw log messages into structured templates—is a critical prerequisite for system reliability engineering (He et al., 2020).",
+      "display_label": "Log parsing for SRE",
+      "citations": 1
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "Accurate parsing enables downstream tasks such as anomaly detection, incident triage, and root cause analysis by aggregating logs into stable event types.",
+      "display_label": "Parsing enables anomaly/triage/RCA",
+      "citations": 0
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "However, log templates inevitably drift over time as software systems evolve through updates, configuration changes, and new deployments, silently breaking parsing pipelines and causing operational failures.",
+      "display_label": "Templates drift, breaking pipelines",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Context",
+      "text": "Recent advances in large language models have enabled a new paradigm for log parsing.",
+      "display_label": "LLMs enable new log-parsing paradigm",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Prior_Work",
+      "text": "LogRules (Huang et al., 2025) introduces a particularly promising architecture that separates parsing into induction (generating natural-language rules from sample logs) and deduction (applying rules to parse new logs).",
+      "display_label": "LogRules: induction + deduction",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N6",
+      "type": "Prior_Work",
+      "text": "This design achieves strong accuracy while reducing inference costs by using a smaller model for deduction.",
+      "display_label": "LogRules: strong accuracy + low cost",
+      "citations": 0
+    },
+    {
+      "id": "N7",
+      "type": "Limitation",
+      "text": "However, LogRules and similar approaches focus on initial parsing performance and do not address a critical operational question: how should the rule repository be updated when template drift occurs?",
+      "display_label": "LogRules: no rule-update policy for drift",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Prior_Work",
+      "text": "The intuitive response to drift is to regenerate the entire rule repository from post-drift examples.",
+      "display_label": "Intuitive: Rewrite all rules post-drift",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Result",
+      "text": "Surprisingly, our experiments reveal that this Rewrite strategy performs poorly—achieving only marginally better accuracy than using stale rules unchanged.",
+      "display_label": "Rewrite barely beats stale rules",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Limitation",
+      "text": "We hypothesize that global rewriting under limited post-drift evidence causes the LLM to inadvertently modify rules that remain effective for stable templates, introducing regressions that offset gains on drifted templates.",
+      "display_label": "Rewrite damages stable-template rules",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method",
+      "text": "We propose Patch, a conservative update policy that generates a small set of delta rules targeting drifted patterns and prepends them to the unchanged original repository.",
+      "display_label": "Propose Patch: prepend delta rules",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Method",
+      "text": "This approach mirrors the stability-plasticity principle from continual learning (Wang et al., 2023).",
+      "display_label": "Stability-plasticity inspiration",
+      "citations": 1
+    },
+    {
+      "id": "N13",
+      "type": "Result",
+      "text": "On a synthetic drift benchmark, Patch achieves 0.2742 overall FGA, outperforming Rewrite by +8.1 percentage points, with the largest gains on drifted templates (+14.1 points) while also improving stable-template performance (+5.5 points).",
+      "display_label": "Patch +8.1 FGA over Rewrite",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We identify the rule repository update problem for LogRules-style LLM log parsers and show that naive rewriting underperforms conservative patching.",
+      "display_label": "C1: identify the update problem",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We propose Patch, which generates targeted delta rules and prepends them to the unchanged original repository, achieving +8.1 FGA improvement over Rewrite.",
+      "display_label": "C2: Patch +8.1 FGA",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We analyze why Patch succeeds: it decouples drift adaptation from stable-template handling, preserving pre-drift knowledge while adding targeted capacity for new patterns.",
+      "display_label": "C3: decouples drift from stable",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "contrast", "connective": "However"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N6", "to": "N7", "kind": "contrast", "connective": "However"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "evidence"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N8", "to": "N10", "kind": "contrast"},
+    {"from": "N10", "to": "N11", "kind": "consequence", "connective": "We propose"},
+    {"from": "N11", "to": "N12", "kind": "elaboration"},
+    {"from": "N12", "to": "N13", "kind": "evidence"},
+    {"from": "N13", "to": "C1", "kind": "elaboration"},
+    {"from": "N13", "to": "C2", "kind": "elaboration"},
+    {"from": "N13", "to": "C3", "kind": "elaboration"},
+    {"from": "C1", "to": "N7", "kind": "addresses"},
+    {"from": "C2", "to": "N10", "kind": "addresses"},
+    {"from": "C3", "to": "N10", "kind": "addresses"}
+  ],
+  "observations": "FA0193 follows a problem-solution arc with two paired Prior_Work to Limitation pivots. Para 1 (N1-N3) is Context: log parsing for SRE, downstream tasks, and 'However' templates drift breaking pipelines. The 'However' here is paper-theme-aligned (the paper IS about handling template drift) so N3 stays Context.\n\nPara 2 introduces the LogRules anchor: N4 (LLMs enable new paradigm, Context), N5 (LogRules induction/deduction architecture, Prior_Work), N6 (LogRules accuracy + cost, Prior_Work). Then 'However' pivots to N7 (Limitation: LogRules has no rule-update policy for drift). This is a clean PW->Limitation source.\n\nPara 3 introduces a second Prior_Work (N8: Rewrite as the intuitive strategy), and N9 is a Result-as-evidence (Rewrite performs poorly). N10 is a Limitation (Rewrite damages stable-template rules) sourced both from N9 (the empirical finding) and from N8 via contrast (the strategy being critiqued). The dual incoming on N10 is explicit: an evidence chain via N9 plus the Prior_Work source via N8.\n\nThe Method block (N11-N12) proposes Patch and the stability-plasticity inspiration; N13 is a Result quantifying the +8.1 FGA gain over Rewrite. Three Contributions close the intro and all are fed by N13. Three addresses edges link them back: C1 (identify the update problem) addresses N7 (LogRules no-update gap); C2 (Patch +8.1 FGA) addresses N10 (Rewrite damages stable templates); C3 (decouples drift from stable) also addresses N10 (the same regression mechanism). Topology shows N13 as the contribution-fork and N10 as a join node."
+}

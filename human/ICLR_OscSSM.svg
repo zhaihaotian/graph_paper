@@ -1,0 +1,227 @@
+<svg viewBox="0 0 1480 1678" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="228" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="588" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="436" x2="1450" y2="436" stroke="#eee" stroke-width="1"/>
+<text x="14" y="880" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="740" x2="1450" y2="740" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1172" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1020" x2="1450" y2="1020" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1471" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1324" x2="1450" y2="1324" stroke="#eee" stroke-width="1"/>
+<rect x="158" y="1440" width="1294" height="142" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="1436" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N10</text>
+<rect x="583" y="768" width="444" height="216" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="591" y="764" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from C2</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="276" x2="805" y2="304" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="287" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">For these reasons</text>
+<line x1="805" y1="388" x2="805" y2="484" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="580" x2="805" y2="608" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="692" x2="805" y2="788" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="737" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="580" x2="805" y2="788" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="681" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="872" x2="805" y2="900" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="883" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Consequently</text>
+<line x1="805" y1="972" x2="805" y2="1068" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1017" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">we adopt a radically different approach</text>
+<line x1="805" y1="1164" x2="805" y2="1192" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1175" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">Motivated by this</text>
+<line x1="805" y1="1276" x2="805" y2="1372" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1432" x2="289" y2="1460" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1432" x2="547" y2="1460" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1432" x2="805" y2="1460" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1432" x2="1062" y2="1460" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1432" x2="1320" y2="1460" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="547" y1="1570" x2="805" y2="900" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="547" y1="1570" x2="805" y2="788" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="100.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">SSMs powerful for long sequences</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">State-space models (Gu et al., 2021; Hasani et al., 2022; Smith et al.,</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">2023; Orvieto et al., 2023) have recently emerged as a powerful tool for</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">learning on long sequences.</text>
+<title>N1 [Context] (cites=4)
+State-space models (Gu et al., 2021; Hasani et al., 2022; Smith et al., 2023; Orvieto et al., 2023) have recently emerged as a powerful tool for learning on long sequences.</title>
+</g>
+<circle cx="1022.0" cy="188.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="196.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="180" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">SSMs combine RNN + Transformer benefits</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">These models posses the statefullness and fast inference capabilities of</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">Recurrent Neural Networks (RNNs) together with many of the benefits of</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">Transformers (Vaswani, 2017; Devlin, 2018), such as efficient training and</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">competitive…</text>
+<title>N2 [Context] (cites=2)
+These models posses the statefullness and fast inference capabilities of Recurrent Neural Networks (RNNs) together with many of the benefits of Transformers (Vaswani, 2017; Devlin, 2018), such as efficient training and competitive performance on large-scale language and image modeling tasks.</title>
+</g>
+<circle cx="1022.0" cy="312.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="304" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="318" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">SSMs surpass Transformers as FMs</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">For these reasons, state-space models have been successfully implemented as</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">foundation models, surpassing Transformer-based counterparts in several key</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">modalities, including language, audio, and genomics (Gu &amp; Dao, 2023).</text>
+<title>N3 [Context] (cites=1)
+For these reasons, state-space models have been successfully implemented as foundation models, surpassing Transformer-based counterparts in several key modalities, including language, audio, and genomics (Gu &amp; Dao, 2023).</title>
+</g>
+<circle cx="1022.0" cy="492.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="500.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="484" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="498" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work]</text>
+<text x="805" y="513" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">HiPPO + FFT for linear recurrences</text>
+<text x="805" y="529" text-anchor="middle" font-size="9.5" fill="#555">Originally, state-space models have been introduced to modern sequence</text>
+<text x="805" y="541" text-anchor="middle" font-size="9.5" fill="#555">modelling by leveraging specific structures of the state matrix, i.e.,</text>
+<text x="805" y="553" text-anchor="middle" font-size="9.5" fill="#555">normal plus low-rank HiPPO matrices (Gu et al., 2020; 2021), allowing to</text>
+<text x="805" y="565" text-anchor="middle" font-size="9.5" fill="#555">solve linear recurrences…</text>
+<title>N4 [Prior_Work] (cites=2)
+Originally, state-space models have been introduced to modern sequence modelling by leveraging specific structures of the state matrix, i.e., normal plus low-rank HiPPO matrices (Gu et al., 2020; 2021), allowing to solve linear recurrences via a Fast Fourier Transform (FFT).</title>
+</g>
+<circle cx="1022.0" cy="616.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="624.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="632.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="608" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="622" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="805" y="637" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Diagonal state matrices simplify SSMs</text>
+<text x="805" y="653" text-anchor="middle" font-size="9.5" fill="#555">This has since been simplified to only requiring diagonal state matrices (Gu</text>
+<text x="805" y="665" text-anchor="middle" font-size="9.5" fill="#555">et al., 2022a; Smith et al., 2023; Orvieto et al., 2023) while still</text>
+<text x="805" y="677" text-anchor="middle" font-size="9.5" fill="#555">obtaining similar or even better performance.</text>
+<title>N5 [Prior_Work] (cites=3)
+This has since been simplified to only requiring diagonal state matrices (Gu et al., 2022a; Smith et al., 2023; Orvieto et al., 2023) while still obtaining similar or even better performance.</title>
+</g>
+<g>
+<rect x="595" y="788" width="420" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="802" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Limitation]</text>
+<text x="805" y="817" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Linear SSMs need structural constraints</text>
+<text x="805" y="833" text-anchor="middle" font-size="9.5" fill="#555">However, due to the linear nature of state-space models, the corresponding</text>
+<text x="805" y="845" text-anchor="middle" font-size="9.5" fill="#555">state matrices need to fulfill specific structural properties in order to</text>
+<text x="805" y="857" text-anchor="middle" font-size="9.5" fill="#555">learn long-range interactions and produce stable predictions.</text>
+<title>N6 [Limitation] (cites=0)
+However, due to the linear nature of state-space models, the corresponding state matrices need to fulfill specific structural properties in order to learn long-range interactions and produce stable predictions.</title>
+</g>
+<g>
+<rect x="595" y="900" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="914" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="929" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Constraints impair expressive power</text>
+<text x="805" y="945" text-anchor="middle" font-size="9.5" fill="#555">Consequently, these structural requirements heavily constrain the underlying</text>
+<text x="805" y="957" text-anchor="middle" font-size="9.5" fill="#555">latent feature space, potentially impairing the model's expressive power.</text>
+<title>N7 [Limitation] (cites=0)
+Consequently, these structural requirements heavily constrain the underlying latent feature space, potentially impairing the model's expressive power.</title>
+</g>
+<g>
+<rect x="595" y="1068" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1082" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="1097" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Use forced harmonic oscillators</text>
+<text x="805" y="1113" text-anchor="middle" font-size="9.5" fill="#555">In this article, we adopt a radically different approach by observing that</text>
+<text x="805" y="1125" text-anchor="middle" font-size="9.5" fill="#555">forced harmonic oscillators, the basis of many systems in physics, biology,</text>
+<text x="805" y="1137" text-anchor="middle" font-size="9.5" fill="#555">and engineering, can produce stable dynamics while at the same time seem to</text>
+<text x="805" y="1149" text-anchor="middle" font-size="9.5" fill="#555">ensure…</text>
+<title>N8 [Method] (cites=0)
+In this article, we adopt a radically different approach by observing that forced harmonic oscillators, the basis of many systems in physics, biology, and engineering, can produce stable dynamics while at the same time seem to ensure expressive representations.</title>
+</g>
+<g>
+<rect x="595" y="1192" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="1221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose oscillatory SSM via ODEs</text>
+<text x="805" y="1237" text-anchor="middle" font-size="9.5" fill="#555">Motivated by this, we propose to construct state-space models based on</text>
+<text x="805" y="1249" text-anchor="middle" font-size="9.5" fill="#555">stable discretizations of forced linear second-order ordinary differential</text>
+<text x="805" y="1261" text-anchor="middle" font-size="9.5" fill="#555">equations (ODEs) modelling oscillators.</text>
+<title>N9 [Method] (cites=0)
+Motivated by this, we propose to construct state-space models based on stable discretizations of forced linear second-order ordinary differential equations (ODEs) modelling oscillators.</title>
+</g>
+<g>
+<rect x="595" y="1372" width="420" height="60" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1386" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Contribution]</text>
+<text x="805" y="1401" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Additional contributions list</text>
+<text x="805" y="1417" text-anchor="middle" font-size="9.5" fill="#555">Our additional contributions are:</text>
+<title>N10 [Contribution] (cites=0)
+Our additional contributions are:</title>
+</g>
+<g>
+<rect x="170" y="1460" width="239" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="289" y="1474" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="289" y="1489" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: implicit/IMEX parallel scans</text>
+<text x="289" y="1505" text-anchor="middle" font-size="9.5" fill="#555">we introduce implicit and implicit-explicit</text>
+<text x="289" y="1517" text-anchor="middle" font-size="9.5" fill="#555">associative parallel scans ensuring fast</text>
+<text x="289" y="1529" text-anchor="middle" font-size="9.5" fill="#555">training and inference.</text>
+<title>C1 [Contribution] (cites=0)
+we introduce implicit and implicit-explicit associative parallel scans ensuring fast training and inference.</title>
+</g>
+<g>
+<rect x="427" y="1460" width="239" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="547" y="1474" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="547" y="1489" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: stable + long-range with nonneg</text>
+<text x="547" y="1503" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">diagonal</text>
+<text x="547" y="1519" text-anchor="middle" font-size="9.5" fill="#555">we show that our proposed state-space model</text>
+<text x="547" y="1531" text-anchor="middle" font-size="9.5" fill="#555">yields stable dynamics and is able to learn</text>
+<text x="547" y="1543" text-anchor="middle" font-size="9.5" fill="#555">long-range interactions only requiring</text>
+<text x="547" y="1555" text-anchor="middle" font-size="9.5" fill="#555">nonnegative diagonal state matrix.</text>
+<title>C2 [Contribution] (cites=0)
+we show that our proposed state-space model yields stable dynamics and is able to learn long-range interactions only requiring nonnegative diagonal state matrix.</title>
+</g>
+<g>
+<rect x="685" y="1460" width="239" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1474" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="805" y="1489" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: symplectic preserves time</text>
+<text x="805" y="1503" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">reversibility</text>
+<text x="805" y="1519" text-anchor="middle" font-size="9.5" fill="#555">we demonstrate that a symplectic</text>
+<text x="805" y="1531" text-anchor="middle" font-size="9.5" fill="#555">discretization of our underlying</text>
+<text x="805" y="1543" text-anchor="middle" font-size="9.5" fill="#555">oscillatory system conserves its symmetry</text>
+<text x="805" y="1555" text-anchor="middle" font-size="9.5" fill="#555">of time reversibility.</text>
+<title>C3 [Contribution] (cites=0)
+we demonstrate that a symplectic discretization of our underlying oscillatory system conserves its symmetry of time reversibility.</title>
+</g>
+<g>
+<rect x="942" y="1460" width="239" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1062" y="1474" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C4 [Contribution]</text>
+<text x="1062" y="1489" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C4: universal approximator proof</text>
+<text x="1062" y="1505" text-anchor="middle" font-size="9.5" fill="#555">we rigorously prove that our proposed</text>
+<text x="1062" y="1517" text-anchor="middle" font-size="9.5" fill="#555">state-space model is a universal</text>
+<text x="1062" y="1529" text-anchor="middle" font-size="9.5" fill="#555">approximator of continuous and causal</text>
+<text x="1062" y="1541" text-anchor="middle" font-size="9.5" fill="#555">operators between time-series.</text>
+<title>C4 [Contribution] (cites=0)
+we rigorously prove that our proposed state-space model is a universal approximator of continuous and causal operators between time-series.</title>
+</g>
+<g>
+<rect x="1200" y="1460" width="239" height="110" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1320" y="1474" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C5 [Contribution]</text>
+<text x="1320" y="1489" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C5: empirical: matches/beats</text>
+<text x="1320" y="1503" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Mamba/S4/S5/LRU</text>
+<text x="1320" y="1519" text-anchor="middle" font-size="9.5" fill="#555">we provide an extensive empirical</text>
+<text x="1320" y="1531" text-anchor="middle" font-size="9.5" fill="#555">evaluation of our model on a wide variety</text>
+<text x="1320" y="1543" text-anchor="middle" font-size="9.5" fill="#555">of sequential data sets with sequence</text>
+<text x="1320" y="1555" text-anchor="middle" font-size="9.5" fill="#555">lengths reaching up to 50k. Our results…</text>
+<title>C5 [Contribution] (cites=0)
+we provide an extensive empirical evaluation of our model on a wide variety of sequential data sets with sequence lengths reaching up to 50k. Our results demonstrate that our model consistently outperforms or matches the performance of state-of-the-art state-space models, including Mamba, S4, S5, and LRU.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

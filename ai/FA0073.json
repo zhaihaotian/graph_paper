@@ -1,0 +1,124 @@
+{
+  "paper_id": "FA0073",
+  "paper_topic": "Sink-Free Attention enables prefix-free streaming KV caches via post-SDPA gated attention",
+  "anchor_paper": "Qiu et al., 2025 (gated attention)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Large language models (LLMs) deployed for streaming applications—chatbots, real-time assistants, and continuous document processing—face a fundamental memory constraint: the key-value (KV) cache grows linearly with sequence length during autoregressive generation (Vaswani et al., 2017; Kwon et al., 2023).",
+      "display_label": "Streaming LLMs: KV cache grows linearly",
+      "citations": 2
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "For sequences extending to tens of thousands of tokens, unbounded caching becomes infeasible, motivating the use of bounded-memory strategies such as rolling-window attention that retains only the most recent W tokens.",
+      "display_label": "Bounded caches: rolling window",
+      "citations": 0
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "However, naive rolling-window caching causes catastrophic perplexity degradation in pretrained transformers.",
+      "display_label": "Naive rolling window degrades PPL",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Context",
+      "text": "This failure is attributed to attention sinks—a phenomenon where certain tokens, typically position 0, receive disproportionately high attention mass regardless of semantic relevance (Xiao et al., 2023; Gu et al., 2024).",
+      "display_label": "Attention sinks at position 0",
+      "citations": 2
+    },
+    {
+      "id": "N5",
+      "type": "Context",
+      "text": "When these sink tokens are evicted from the rolling window, the softmax normalization redistributes attention in unintended ways, destabilizing generation.",
+      "display_label": "Sink eviction destabilizes generation",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Prior_Work",
+      "text": "StreamingLLM (Xiao et al., 2023) addresses this by preserving a small number of prefix sink tokens alongside the rolling window,",
+      "display_label": "StreamingLLM: keep prefix sink tokens",
+      "citations": 1
+    },
+    {
+      "id": "N7",
+      "type": "Limitation",
+      "text": "but this solution adds engineering complexity and consumes cache capacity that could otherwise store semantically relevant context.",
+      "display_label": "Prefix sinks: complex, waste capacity",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Prior_Work",
+      "text": "Recent work on gated attention (Qiu et al., 2025) demonstrates that post-SDPA gating—applying a learnable gate after scaled dot-product attention—eliminates attention sinks by providing an explicit \"do nothing\" mechanism for attention heads.",
+      "display_label": "Gated attention eliminates sinks",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N9",
+      "type": "Method",
+      "text": "This raises a natural question: can sink-free attention enable prefix-free streaming?",
+      "display_label": "Question: prefix-free streaming?",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Method",
+      "text": "If gated models do not develop attention sinks, they should not require prefix sink tokens to maintain stable streaming inference.",
+      "display_label": "Hypothesis: no sinks → no prefix tokens",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method",
+      "text": "We investigate this hypothesis through systematic experiments comparing vanilla and gated Qwen2-1B models under pure rolling-window and prefix-sink cache regimes.",
+      "display_label": "Compare vanilla vs gated Qwen2-1B",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We demonstrate that gated attention achieves prefix-free streaming stability, with a PPL ratio of 1.015–1.007 between pure rolling-window and prefix-sink regimes, compared to 2.54 for vanilla attention.",
+      "display_label": "C1: prefix-free stability (1.015 vs 2.54)",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We verify the causal mechanism: gating reduces attention sink rate by 99.3–100%, and low sink rate perfectly predicts stable streaming across all tested models.",
+      "display_label": "C2: causal mechanism, 99.3-100% sink reduction",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We confirm that streaming stability gains are genuine—gated models maintain comparable or slightly better full-attention perplexity (12.71–12.79 vs 12.82 baseline), ruling out model degradation as an explanation.",
+      "display_label": "C3: gains genuine, not degradation",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "contrast", "connective": "However"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "consequence", "connective": "addresses this"},
+    {"from": "N6", "to": "N7", "kind": "contrast", "connective": "but"},
+    {"from": "N7", "to": "N8", "kind": "consequence"},
+    {"from": "N8", "to": "N9", "kind": "consequence", "connective": "raises a natural question"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "C1", "kind": "elaboration"},
+    {"from": "N11", "to": "C2", "kind": "elaboration"},
+    {"from": "N11", "to": "C3", "kind": "elaboration"},
+    {"from": "C1", "to": "N7", "kind": "addresses"},
+    {"from": "C2", "to": "N7", "kind": "addresses"}
+  ],
+  "observations": "FA0073 has a tight problem-solution arc anchored on Qiu et al. (2025)'s gated attention. Para 1 is Context (N1-N2): streaming LLMs need bounded KV caches, motivating rolling-window attention. Para 2 starts with the Para-2 'However' (N3) introducing the rolling-window failure phenomenon at the field level — kept as Context (Case A re-type) since the chain N3-N5 critiques a generic technique (rolling-window) rather than a specific named Prior_Work method, and the attention-sink phenomenon (N4) is the paper's own topic-of-study being framed.\n\nN6 introduces StreamingLLM (Xiao et al., 2023) as the prevailing Prior_Work fix; N7 is the critique-clause Limitation split out from N6's compound sentence (Case C: 'but this solution adds engineering complexity and consumes cache capacity' is the buried critique that becomes its own Limitation node, with PW source from N6). N8 introduces gated attention (Qiu et al., 2025) as the anchor Prior_Work the paper builds on. N9-N10 are the central research question and hypothesis, N11 the experimental approach, and N11 forks into three Contribution bullets (C1-C3).\n\nTopologically, N11 is the main fork into the contributions. Two addresses edges link both empirical contributions to the single named Limitation N7 (StreamingLLM's prefix-sink complexity): C1 (prefix-free stability achieved) → N7, and C2 (causal mechanism: sink elimination → stability) → N7. Narrative arc: streaming needs bounded caches → rolling window naively fails due to attention sinks → StreamingLLM works but adds prefix-token complexity → gated attention eliminates sinks (Qiu 2025) → does it enable prefix-free streaming? → yes, with verified causal mechanism and ruled-out alternative explanation."
+}

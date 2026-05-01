@@ -1,0 +1,197 @@
+<svg viewBox="0 0 1480 1640" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="334" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="744" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="648" x2="1450" y2="648" stroke="#eee" stroke-width="1"/>
+<text x="14" y="924" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="840" x2="1450" y2="840" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1198" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1008" x2="1450" y2="1008" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1484" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1388" x2="1450" y2="1388" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1416" width="1140" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1412" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N11</text>
+<line x1="805" y1="164" x2="805" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="276" x2="805" y2="304" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="287" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="376" x2="805" y2="404" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="488" x2="805" y2="516" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="600" x2="616" y2="696" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="710" y="645" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">addresses this</text>
+<line x1="616" y1="792" x2="805" y2="888" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="837" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">but</text>
+<line x1="805" y1="960" x2="994" y2="696" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<line x1="994" y1="792" x2="805" y2="1056" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="899" y="921" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">raises a natural question</text>
+<line x1="805" y1="1128" x2="805" y2="1156" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1228" x2="805" y2="1256" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1340" x2="427" y2="1436" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1340" x2="805" y2="1436" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1340" x2="1183" y2="1436" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="1532" x2="805" y2="888" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="805" y1="1532" x2="805" y2="888" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Streaming LLMs: KV cache grows linearly</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Large language models (LLMs) deployed for streaming applications—chatbots,</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">real-time assistants, and continuous document processing—face a fundamental</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">memory constraint: the key-value (KV) cache grows linearly with sequence</text>
+<text x="805" y="149" text-anchor="middle" font-size="9.5" fill="#555">length during…</text>
+<title>N1 [Context] (cites=2)
+Large language models (LLMs) deployed for streaming applications—chatbots, real-time assistants, and continuous document processing—face a fundamental memory constraint: the key-value (KV) cache grows linearly with sequence length during autoregressive generation (Vaswani et al., 2017; Kwon et al., 2023).</title>
+</g>
+<g>
+<rect x="595" y="192" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Bounded caches: rolling window</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">For sequences extending to tens of thousands of tokens, unbounded caching</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">becomes infeasible, motivating the use of bounded-memory strategies such as</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">rolling-window attention that retains only the most recent W tokens.</text>
+<title>N2 [Context] (cites=0)
+For sequences extending to tens of thousands of tokens, unbounded caching becomes infeasible, motivating the use of bounded-memory strategies such as rolling-window attention that retains only the most recent W tokens.</title>
+</g>
+<g>
+<rect x="595" y="304" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="318" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Naive rolling window degrades PPL</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">However, naive rolling-window caching causes catastrophic perplexity</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">degradation in pretrained transformers.</text>
+<title>N3 [Context] (cites=0)
+However, naive rolling-window caching causes catastrophic perplexity degradation in pretrained transformers.</title>
+</g>
+<circle cx="1022.0" cy="412.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="420.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="404" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="418" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="433" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Attention sinks at position 0</text>
+<text x="805" y="449" text-anchor="middle" font-size="9.5" fill="#555">This failure is attributed to attention sinks—a phenomenon where certain</text>
+<text x="805" y="461" text-anchor="middle" font-size="9.5" fill="#555">tokens, typically position 0, receive disproportionately high attention mass</text>
+<text x="805" y="473" text-anchor="middle" font-size="9.5" fill="#555">regardless of semantic relevance (Xiao et al., 2023; Gu et al., 2024).</text>
+<title>N4 [Context] (cites=2)
+This failure is attributed to attention sinks—a phenomenon where certain tokens, typically position 0, receive disproportionately high attention mass regardless of semantic relevance (Xiao et al., 2023; Gu et al., 2024).</title>
+</g>
+<g>
+<rect x="595" y="516" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="530" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="545" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Sink eviction destabilizes generation</text>
+<text x="805" y="561" text-anchor="middle" font-size="9.5" fill="#555">When these sink tokens are evicted from the rolling window, the softmax</text>
+<text x="805" y="573" text-anchor="middle" font-size="9.5" fill="#555">normalization redistributes attention in unintended ways, destabilizing</text>
+<text x="805" y="585" text-anchor="middle" font-size="9.5" fill="#555">generation.</text>
+<title>N5 [Context] (cites=0)
+When these sink tokens are evicted from the rolling window, the softmax normalization redistributes attention in unintended ways, destabilizing generation.</title>
+</g>
+<circle cx="803.0" cy="704.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="696" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="710" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work]</text>
+<text x="616" y="725" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">StreamingLLM: keep prefix sink tokens</text>
+<text x="616" y="741" text-anchor="middle" font-size="9.5" fill="#555">StreamingLLM (Xiao et al., 2023) addresses this by preserving a</text>
+<text x="616" y="753" text-anchor="middle" font-size="9.5" fill="#555">small number of prefix sink tokens alongside the rolling window,</text>
+<title>N6 [Prior_Work] (cites=1)
+StreamingLLM (Xiao et al., 2023) addresses this by preserving a small number of prefix sink tokens alongside the rolling window,</title>
+</g>
+<g>
+<rect x="595" y="888" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="902" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="917" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Prefix sinks: complex, waste capacity</text>
+<text x="805" y="933" text-anchor="middle" font-size="9.5" fill="#555">but this solution adds engineering complexity and consumes cache capacity</text>
+<text x="805" y="945" text-anchor="middle" font-size="9.5" fill="#555">that could otherwise store semantically relevant context.</text>
+<title>N7 [Limitation] (cites=0)
+but this solution adds engineering complexity and consumes cache capacity that could otherwise store semantically relevant context.</title>
+</g>
+<circle cx="1181.0" cy="704.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="696" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="710" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Prior_Work : ANCHOR]</text>
+<text x="994" y="725" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Gated attention eliminates sinks</text>
+<text x="994" y="741" text-anchor="middle" font-size="9.5" fill="#555">Recent work on gated attention (Qiu et al., 2025) demonstrates</text>
+<text x="994" y="753" text-anchor="middle" font-size="9.5" fill="#555">that post-SDPA gating—applying a learnable gate after scaled</text>
+<text x="994" y="765" text-anchor="middle" font-size="9.5" fill="#555">dot-product attention—eliminates attention sinks by providing an</text>
+<text x="994" y="777" text-anchor="middle" font-size="9.5" fill="#555">explicit &quot;do nothing&quot; mechanism for attention…</text>
+<title>N8 [Prior_Work] (cites=1)
+Recent work on gated attention (Qiu et al., 2025) demonstrates that post-SDPA gating—applying a learnable gate after scaled dot-product attention—eliminates attention sinks by providing an explicit &quot;do nothing&quot; mechanism for attention heads.</title>
+</g>
+<g>
+<rect x="595" y="1056" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1070" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="1085" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Question: prefix-free streaming?</text>
+<text x="805" y="1101" text-anchor="middle" font-size="9.5" fill="#555">This raises a natural question: can sink-free attention enable prefix-free</text>
+<text x="805" y="1113" text-anchor="middle" font-size="9.5" fill="#555">streaming?</text>
+<title>N9 [Method] (cites=0)
+This raises a natural question: can sink-free attention enable prefix-free streaming?</title>
+</g>
+<g>
+<rect x="595" y="1156" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1170" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="805" y="1185" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Hypothesis: no sinks → no prefix tokens</text>
+<text x="805" y="1201" text-anchor="middle" font-size="9.5" fill="#555">If gated models do not develop attention sinks, they should not require</text>
+<text x="805" y="1213" text-anchor="middle" font-size="9.5" fill="#555">prefix sink tokens to maintain stable streaming inference.</text>
+<title>N10 [Method] (cites=0)
+If gated models do not develop attention sinks, they should not require prefix sink tokens to maintain stable streaming inference.</title>
+</g>
+<g>
+<rect x="595" y="1256" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1270" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="805" y="1285" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Compare vanilla vs gated Qwen2-1B</text>
+<text x="805" y="1301" text-anchor="middle" font-size="9.5" fill="#555">We investigate this hypothesis through systematic experiments comparing</text>
+<text x="805" y="1313" text-anchor="middle" font-size="9.5" fill="#555">vanilla and gated Qwen2-1B models under pure rolling-window and prefix-sink</text>
+<text x="805" y="1325" text-anchor="middle" font-size="9.5" fill="#555">cache regimes.</text>
+<title>N11 [Method] (cites=0)
+We investigate this hypothesis through systematic experiments comparing vanilla and gated Qwen2-1B models under pure rolling-window and prefix-sink cache regimes.</title>
+</g>
+<g>
+<rect x="247" y="1436" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="427" y="1465" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: prefix-free stability (1.015 vs 2.54)</text>
+<text x="427" y="1481" text-anchor="middle" font-size="9.5" fill="#555">We demonstrate that gated attention achieves prefix-free streaming</text>
+<text x="427" y="1493" text-anchor="middle" font-size="9.5" fill="#555">stability, with a PPL ratio of 1.015–1.007 between pure</text>
+<text x="427" y="1505" text-anchor="middle" font-size="9.5" fill="#555">rolling-window and prefix-sink regimes, compared to 2.54 for</text>
+<text x="427" y="1517" text-anchor="middle" font-size="9.5" fill="#555">vanilla attention.</text>
+<title>C1 [Contribution] (cites=0)
+We demonstrate that gated attention achieves prefix-free streaming stability, with a PPL ratio of 1.015–1.007 between pure rolling-window and prefix-sink regimes, compared to 2.54 for vanilla attention.</title>
+</g>
+<g>
+<rect x="625" y="1436" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="805" y="1465" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: causal mechanism, 99.3-100% sink reduction</text>
+<text x="805" y="1481" text-anchor="middle" font-size="9.5" fill="#555">We verify the causal mechanism: gating reduces attention sink rate</text>
+<text x="805" y="1493" text-anchor="middle" font-size="9.5" fill="#555">by 99.3–100%, and low sink rate perfectly predicts stable</text>
+<text x="805" y="1505" text-anchor="middle" font-size="9.5" fill="#555">streaming across all tested models.</text>
+<title>C2 [Contribution] (cites=0)
+We verify the causal mechanism: gating reduces attention sink rate by 99.3–100%, and low sink rate perfectly predicts stable streaming across all tested models.</title>
+</g>
+<g>
+<rect x="1003" y="1436" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="1183" y="1465" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: gains genuine, not degradation</text>
+<text x="1183" y="1481" text-anchor="middle" font-size="9.5" fill="#555">We confirm that streaming stability gains are genuine—gated models</text>
+<text x="1183" y="1493" text-anchor="middle" font-size="9.5" fill="#555">maintain comparable or slightly better full-attention perplexity</text>
+<text x="1183" y="1505" text-anchor="middle" font-size="9.5" fill="#555">(12.71–12.79 vs 12.82 baseline), ruling out model degradation as</text>
+<text x="1183" y="1517" text-anchor="middle" font-size="9.5" fill="#555">an explanation.</text>
+<title>C3 [Contribution] (cites=0)
+We confirm that streaming stability gains are genuine—gated models maintain comparable or slightly better full-attention perplexity (12.71–12.79 vs 12.82 baseline), ruling out model degradation as an explanation.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

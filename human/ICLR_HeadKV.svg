@@ -1,0 +1,337 @@
+<svg viewBox="0 0 1480 2496" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="340" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="756" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="660" x2="1450" y2="660" stroke="#eee" stroke-width="1"/>
+<text x="14" y="948" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="852" x2="1450" y2="852" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1426" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1044" x2="1450" y2="1044" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2122" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1808" x2="1450" y2="1808" stroke="#eee" stroke-width="1"/>
+<line x1="805" y1="164" x2="805" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="288" x2="805" y2="316" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="388" x2="805" y2="416" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="399" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To improve inference speed</text>
+<line x1="805" y1="512" x2="805" y2="540" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="523" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="612" x2="616" y2="708" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="710" y="657" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To address this</text>
+<line x1="616" y1="804" x2="616" y2="900" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="616" y="849" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="616" y1="996" x2="616" y2="1092" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="616" y="1041" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">we propose</text>
+<line x1="616" y1="1188" x2="616" y2="1216" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="616" y="1199" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Specifically</text>
+<line x1="616" y1="1312" x2="616" y2="1340" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1436" x2="994" y2="708" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="804" x2="616" y2="1856" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1952" x2="994" y2="900" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="1423" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="994" y1="804" x2="994" y2="900" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="994" y="849" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="994" y1="996" x2="994" y2="1092" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="994" y="1041" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To address this</text>
+<line x1="994" y1="1188" x2="994" y2="1216" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="994" y="1199" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Specifically</text>
+<line x1="994" y1="1312" x2="994" y2="1340" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="994" y="1323" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">For instance</text>
+<line x1="994" y1="1436" x2="805" y2="1464" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1536" x2="805" y2="1564" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1660" x2="805" y2="1688" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1760" x2="994" y2="1856" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="994" y1="1952" x2="805" y2="1980" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2052" x2="805" y2="2080" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="2063" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Furthermore</text>
+<line x1="805" y1="2164" x2="805" y2="2192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2276" x2="805" y2="2304" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="2287" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Finally</text>
+<line x1="616" y1="1188" x2="616" y2="900" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="994" y1="1188" x2="994" y2="900" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="100.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Modern LLMs handle 128K-1M tokens</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Modern Large Language Models (LLMs) increasingly support extremely long</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">inputs: GPT-4 (Achiam et al., 2023), Llama-3 (Dubey et al., 2024), and</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">Qwen-2 (Yang et al., 2024) handle up to 128K tokens, while Claude</text>
+<text x="805" y="149" text-anchor="middle" font-size="9.5" fill="#555">(Anthropic, 2024) supports up…</text>
+<title>N1 [Context] (cites=4)
+Modern Large Language Models (LLMs) increasingly support extremely long inputs: GPT-4 (Achiam et al., 2023), Llama-3 (Dubey et al., 2024), and Qwen-2 (Yang et al., 2024) handle up to 128K tokens, while Claude (Anthropic, 2024) supports up to 1 million tokens.</title>
+</g>
+<circle cx="1022.0" cy="200.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="208.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="216.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="224.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="232.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="240.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="192" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Long-context boosts dialogue/QA/summary</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">These extended capacities improve performance on tasks like dialogue</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">generation (Li et al., 2024a; Yi et al., 2024), question answering (Ho et</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">al., 2020; Xu et al., 2023), and summarization (Xiao &amp; Carenini, 2019; Koh</text>
+<text x="805" y="273" text-anchor="middle" font-size="9.5" fill="#555">et al., 2022).</text>
+<title>N2 [Context] (cites=6)
+These extended capacities improve performance on tasks like dialogue generation (Li et al., 2024a; Yi et al., 2024), question answering (Ho et al., 2020; Xu et al., 2023), and summarization (Xiao &amp; Carenini, 2019; Koh et al., 2022).</title>
+</g>
+<g>
+<rect x="595" y="316" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="330" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="345" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Long inputs grow memory/latency</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">As input lengths increase, memory usage and latency grow significantly due</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">to self-attention in transformers.</text>
+<title>N3 [Context] (cites=0)
+As input lengths increase, memory usage and latency grow significantly due to self-attention in transformers.</title>
+</g>
+<g>
+<rect x="595" y="416" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="430" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="445" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Inference: prefilling + decoding via KV cache</text>
+<text x="805" y="461" text-anchor="middle" font-size="9.5" fill="#555">To improve inference speed and efficiency, most LLM inference consists of</text>
+<text x="805" y="473" text-anchor="middle" font-size="9.5" fill="#555">two phases: prefilling for input processing and decoding for token</text>
+<text x="805" y="485" text-anchor="middle" font-size="9.5" fill="#555">generation, with key and value states from attention cached for reuse (KV</text>
+<text x="805" y="497" text-anchor="middle" font-size="9.5" fill="#555">cache).</text>
+<title>N4 [Context] (cites=0)
+To improve inference speed and efficiency, most LLM inference consists of two phases: prefilling for input processing and decoding for token generation, with key and value states from attention cached for reuse (KV cache).</title>
+</g>
+<g>
+<rect x="595" y="540" width="420" height="72" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="554" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="569" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">KV cache memory grows rapidly</text>
+<text x="805" y="585" text-anchor="middle" font-size="9.5" fill="#555">However, as input length increases, KV cache memory grows rapidly, posing</text>
+<text x="805" y="597" text-anchor="middle" font-size="9.5" fill="#555">significant challenges for storage and efficiency.</text>
+<title>N5 [Context] (cites=0)
+However, as input length increases, KV cache memory grows rapidly, posing significant challenges for storage and efficiency.</title>
+</g>
+<circle cx="803.0" cy="716.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="724.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="732.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="740.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="708" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="722" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work]</text>
+<text x="616" y="737" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">KV cache compression via token eviction</text>
+<text x="616" y="753" text-anchor="middle" font-size="9.5" fill="#555">To address this, KV cache compression methods (Xiao et al., 2024;</text>
+<text x="616" y="765" text-anchor="middle" font-size="9.5" fill="#555">Li et al., 2024d; Cai et al., 2024; Feng et al., 2024) have been</text>
+<text x="616" y="777" text-anchor="middle" font-size="9.5" fill="#555">proposed, typically using token eviction to optimize retention per</text>
+<text x="616" y="789" text-anchor="middle" font-size="9.5" fill="#555">layer or head during prefilling, reducing…</text>
+<title>N6 [Prior_Work] (cites=4)
+To address this, KV cache compression methods (Xiao et al., 2024; Li et al., 2024d; Cai et al., 2024; Feng et al., 2024) have been proposed, typically using token eviction to optimize retention per layer or head during prefilling, reducing memory without impacting performance.</title>
+</g>
+<g>
+<rect x="436" y="900" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="914" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="616" y="929" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">None vary KV size across heads</text>
+<text x="616" y="945" text-anchor="middle" font-size="9.5" fill="#555">However, none have explored varying KV cache size across</text>
+<text x="616" y="957" text-anchor="middle" font-size="9.5" fill="#555">individual heads.</text>
+<title>N7 [Limitation] (cites=0)
+However, none have explored varying KV cache size across individual heads.</title>
+</g>
+<circle cx="803.0" cy="1100.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="1108.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="1116.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="1092" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1106" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="616" y="1121" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose HeadKV: head-level allocation by importance</text>
+<text x="616" y="1137" text-anchor="middle" font-size="9.5" fill="#555">Inspired by prior observations (Voita et al., 2019; Wu et al.,</text>
+<text x="616" y="1149" text-anchor="middle" font-size="9.5" fill="#555">2024; Zheng et al., 2024) that attention heads vary in importance</text>
+<text x="616" y="1161" text-anchor="middle" font-size="9.5" fill="#555">for generation, we propose HeadKV, a head-level KV cache</text>
+<text x="616" y="1173" text-anchor="middle" font-size="9.5" fill="#555">compression method that allocates KV cache budgets…</text>
+<title>N8 [Method] (cites=3)
+Inspired by prior observations (Voita et al., 2019; Wu et al., 2024; Zheng et al., 2024) that attention heads vary in importance for generation, we propose HeadKV, a head-level KV cache compression method that allocates KV cache budgets based on head importance distribution using a novel retrieval and reasoning importance estimation.</title>
+</g>
+<g>
+<rect x="436" y="1216" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1230" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="616" y="1245" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Important heads → larger budgets</text>
+<text x="616" y="1261" text-anchor="middle" font-size="9.5" fill="#555">Specifically, heads deemed more important are allocated larger KV</text>
+<text x="616" y="1273" text-anchor="middle" font-size="9.5" fill="#555">cache budgets, while less important ones receive smaller</text>
+<text x="616" y="1285" text-anchor="middle" font-size="9.5" fill="#555">allocations, optimizing memory usage without sacrificing</text>
+<text x="616" y="1297" text-anchor="middle" font-size="9.5" fill="#555">performance.</text>
+<title>N9 [Method] (cites=0)
+Specifically, heads deemed more important are allocated larger KV cache budgets, while less important ones receive smaller allocations, optimizing memory usage without sacrificing performance.</title>
+</g>
+<g>
+<rect x="436" y="1340" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1354" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="616" y="1369" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Key: distribute by head importance</text>
+<text x="616" y="1385" text-anchor="middle" font-size="9.5" fill="#555">In addition to allocating KV cache across attention heads rather</text>
+<text x="616" y="1397" text-anchor="middle" font-size="9.5" fill="#555">than layers, a key aspect of our approach is distributing cache</text>
+<text x="616" y="1409" text-anchor="middle" font-size="9.5" fill="#555">budgets based on head importance measures.</text>
+<title>N10 [Method] (cites=0)
+In addition to allocating KV cache across attention heads rather than layers, a key aspect of our approach is distributing cache budgets based on head importance measures.</title>
+</g>
+<circle cx="1181.0" cy="716.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="708" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="722" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Prior_Work : ANCHOR]</text>
+<text x="994" y="737" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Wu et al.: identify retrieval heads</text>
+<text x="994" y="753" text-anchor="middle" font-size="9.5" fill="#555">Prior work (Wu et al., 2024) proposed method to identify retrieval</text>
+<text x="994" y="765" text-anchor="middle" font-size="9.5" fill="#555">heads, using importance estimation to assess each head's role in</text>
+<text x="994" y="777" text-anchor="middle" font-size="9.5" fill="#555">retrieving relevant context.</text>
+<title>N11 [Prior_Work] (cites=1)
+Prior work (Wu et al., 2024) proposed method to identify retrieval heads, using importance estimation to assess each head's role in retrieving relevant context.</title>
+</g>
+<g>
+<rect x="436" y="1856" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="616" y="1870" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Result]</text>
+<text x="616" y="1885" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Baseline integration beats layer-level</text>
+<text x="616" y="1901" text-anchor="middle" font-size="9.5" fill="#555">We integrate their measure with our head-level KV cache</text>
+<text x="616" y="1913" text-anchor="middle" font-size="9.5" fill="#555">compression as a baseline, observing improved performance over</text>
+<text x="616" y="1925" text-anchor="middle" font-size="9.5" fill="#555">layer-level cache compression.</text>
+<title>N12 [Result] (cites=0)
+We integrate their measure with our head-level KV cache compression as a baseline, observing improved performance over layer-level cache compression.</title>
+</g>
+<g>
+<rect x="814" y="900" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="914" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Limitation]</text>
+<text x="994" y="929" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Retrieval-only heads insufficient for QA</text>
+<text x="994" y="945" text-anchor="middle" font-size="9.5" fill="#555">However, we argue that allocating larger KV cache budgets solely</text>
+<text x="994" y="957" text-anchor="middle" font-size="9.5" fill="#555">to retrieval heads is insufficient for tasks like contextual</text>
+<text x="994" y="969" text-anchor="middle" font-size="9.5" fill="#555">Question Answering (QA), which requires both retrieval and</text>
+<text x="994" y="981" text-anchor="middle" font-size="9.5" fill="#555">reasoning to handle long input contexts effectively.</text>
+<title>N13 [Limitation] (cites=0)
+However, we argue that allocating larger KV cache budgets solely to retrieval heads is insufficient for tasks like contextual Question Answering (QA), which requires both retrieval and reasoning to handle long input contexts effectively.</title>
+</g>
+<g>
+<rect x="814" y="1092" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1106" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Method]</text>
+<text x="994" y="1121" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Joint retrieval+reasoning importance estimation</text>
+<text x="994" y="1137" text-anchor="middle" font-size="9.5" fill="#555">To address this, we propose an importance-score estimation method</text>
+<text x="994" y="1149" text-anchor="middle" font-size="9.5" fill="#555">that jointly evaluates each head's retrieval and reasoning</text>
+<text x="994" y="1161" text-anchor="middle" font-size="9.5" fill="#555">capabilities for KV cache allocation.</text>
+<title>N14 [Method] (cites=0)
+To address this, we propose an importance-score estimation method that jointly evaluates each head's retrieval and reasoning capabilities for KV cache allocation.</title>
+</g>
+<g>
+<rect x="814" y="1216" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1230" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Method]</text>
+<text x="994" y="1245" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Construct retrieval+reasoning questions</text>
+<text x="994" y="1261" text-anchor="middle" font-size="9.5" fill="#555">Specifically, as illustrated in the Importance Score Estimation</text>
+<text x="994" y="1273" text-anchor="middle" font-size="9.5" fill="#555">section of Figure 1, we construct questions that require both the</text>
+<text x="994" y="1285" text-anchor="middle" font-size="9.5" fill="#555">retrieval and reasoning abilities of the LLM.</text>
+<title>N15 [Method] (cites=0)
+Specifically, as illustrated in the Importance Score Estimation section of Figure 1, we construct questions that require both the retrieval and reasoning abilities of the LLM.</title>
+</g>
+<g>
+<rect x="814" y="1340" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1354" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Method]</text>
+<text x="994" y="1369" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Example: younger of John/Mary then favorite</text>
+<text x="994" y="1385" text-anchor="middle" font-size="9.5" fill="#555">For instance, in the provided example, the model must first</text>
+<text x="994" y="1397" text-anchor="middle" font-size="9.5" fill="#555">identify &quot;who is younger between John and Mary&quot; (John) by</text>
+<text x="994" y="1409" text-anchor="middle" font-size="9.5" fill="#555">referencing the context of their ages, and then retrieve John's</text>
+<text x="994" y="1421" text-anchor="middle" font-size="9.5" fill="#555">favorite thing.</text>
+<title>N16 [Method] (cites=0)
+For instance, in the provided example, the model must first identify &quot;who is younger between John and Mary&quot; (John) by referencing the context of their ages, and then retrieve John's favorite thing.</title>
+</g>
+<g>
+<rect x="595" y="1464" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1478" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Method]</text>
+<text x="805" y="1493" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Score heads via attention while answering</text>
+<text x="805" y="1509" text-anchor="middle" font-size="9.5" fill="#555">We then estimate the importance score of each head based on the attention</text>
+<text x="805" y="1521" text-anchor="middle" font-size="9.5" fill="#555">scores generated by the model while answering the question.</text>
+<title>N17 [Method] (cites=0)
+We then estimate the importance score of each head based on the attention scores generated by the model while answering the question.</title>
+</g>
+<g>
+<rect x="595" y="1564" width="420" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1578" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Method]</text>
+<text x="805" y="1593" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Allocate per-head budget by score</text>
+<text x="805" y="1609" text-anchor="middle" font-size="9.5" fill="#555">Using the estimated importance scores, we allocate the KV cache budget for</text>
+<text x="805" y="1621" text-anchor="middle" font-size="9.5" fill="#555">each individual head, meaning that heads demonstrating greater importance in</text>
+<text x="805" y="1633" text-anchor="middle" font-size="9.5" fill="#555">retrieval and reasoning retain a larger portion of the KV cache, as shown in</text>
+<text x="805" y="1645" text-anchor="middle" font-size="9.5" fill="#555">the…</text>
+<title>N18 [Method] (cites=0)
+Using the estimated importance scores, we allocate the KV cache budget for each individual head, meaning that heads demonstrating greater importance in retrieval and reasoning retain a larger portion of the KV cache, as shown in the Head-Level Allocation section of Figure 1.</title>
+</g>
+<circle cx="1022.0" cy="1696.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1688" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1702" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Method]</text>
+<text x="805" y="1717" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Within head: retain most relevant entries (Li et al.)</text>
+<text x="805" y="1733" text-anchor="middle" font-size="9.5" fill="#555">Within each head, we then retain only the most relevant KV cache entries,</text>
+<text x="805" y="1745" text-anchor="middle" font-size="9.5" fill="#555">following the strategy proposed in Li et al. (2024d).</text>
+<title>N19 [Method] (cites=1)
+Within each head, we then retain only the most relevant KV cache entries, following the strategy proposed in Li et al. (2024d).</title>
+</g>
+<circle cx="1181.0" cy="1864.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1872.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1880.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1181.0" cy="1888.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="1856" width="360" height="96" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="994" y="1870" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Result]</text>
+<text x="994" y="1885" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Eval on LongBench/LooGLE w/ Llama-3, Mistral-7B</text>
+<text x="994" y="1901" text-anchor="middle" font-size="9.5" fill="#555">We conduct experiments on various benchmarks requiring both</text>
+<text x="994" y="1913" text-anchor="middle" font-size="9.5" fill="#555">retrieval and reasoning abilities, including QA tasks from</text>
+<text x="994" y="1925" text-anchor="middle" font-size="9.5" fill="#555">LongBench (Bai et al., 2024) and LooGLE (Li et al., 2024b), using</text>
+<text x="994" y="1937" text-anchor="middle" font-size="9.5" fill="#555">backbone models such as Llama-3-8B-Instruct (Dubey et…</text>
+<title>N20 [Result] (cites=4)
+We conduct experiments on various benchmarks requiring both retrieval and reasoning abilities, including QA tasks from LongBench (Bai et al., 2024) and LooGLE (Li et al., 2024b), using backbone models such as Llama-3-8B-Instruct (Dubey et al., 2024) and Mistral-7B-Instruct (Jiang et al., 2023a).</title>
+</g>
+<g>
+<rect x="595" y="1980" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="1994" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Result]</text>
+<text x="805" y="2009" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Beats previous on nearly all tasks</text>
+<text x="805" y="2025" text-anchor="middle" font-size="9.5" fill="#555">Our results demonstrate that the head-level KV cache compression method</text>
+<text x="805" y="2037" text-anchor="middle" font-size="9.5" fill="#555">outperforms previous approaches on nearly all tasks.</text>
+<title>N21 [Result] (cites=0)
+Our results demonstrate that the head-level KV cache compression method outperforms previous approaches on nearly all tasks.</title>
+</g>
+<g>
+<rect x="595" y="2080" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2094" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Result]</text>
+<text x="805" y="2109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Joint reasoning+retrieval beats retrieval-only</text>
+<text x="805" y="2125" text-anchor="middle" font-size="9.5" fill="#555">Furthermore, the allocation strategy based on our estimated importance</text>
+<text x="805" y="2137" text-anchor="middle" font-size="9.5" fill="#555">scores—reflecting both retrieval and reasoning abilities—outperforms</text>
+<text x="805" y="2149" text-anchor="middle" font-size="9.5" fill="#555">allocation strategies based on retrieval ability alone.</text>
+<title>N22 [Result] (cites=0)
+Furthermore, the allocation strategy based on our estimated importance scores—reflecting both retrieval and reasoning abilities—outperforms allocation strategies based on retrieval ability alone.</title>
+</g>
+<g>
+<rect x="595" y="2192" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23 [Result]</text>
+<text x="805" y="2221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">NiaH/reasoning-NiaH preserved</text>
+<text x="805" y="2237" text-anchor="middle" font-size="9.5" fill="#555">In challenging scenarios like needle-in-a-Haystack and</text>
+<text x="805" y="2249" text-anchor="middle" font-size="9.5" fill="#555">reasoning-in-a-Haystack tests, our methods effectively preserve the model's</text>
+<text x="805" y="2261" text-anchor="middle" font-size="9.5" fill="#555">retrieval and reasoning capabilities.</text>
+<title>N23 [Result] (cites=0)
+In challenging scenarios like needle-in-a-Haystack and reasoning-in-a-Haystack tests, our methods effectively preserve the model's retrieval and reasoning capabilities.</title>
+</g>
+<g>
+<rect x="595" y="2304" width="420" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2318" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N24 [Result]</text>
+<text x="805" y="2333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Cuts memory + decoding latency vs full KV</text>
+<text x="805" y="2349" text-anchor="middle" font-size="9.5" fill="#555">Finally, experiments on memory and latency reveal that our approach</text>
+<text x="805" y="2361" text-anchor="middle" font-size="9.5" fill="#555">significantly reduces memory usage and decoding latency, comparing with the</text>
+<text x="805" y="2373" text-anchor="middle" font-size="9.5" fill="#555">original full KV.</text>
+<title>N24 [Result] (cites=0)
+Finally, experiments on memory and latency reveal that our approach significantly reduces memory usage and decoding latency, comparing with the original full KV.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

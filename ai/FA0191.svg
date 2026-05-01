@@ -1,0 +1,245 @@
+<svg viewBox="0 0 1480 1816" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="222" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="564" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="424" x2="1450" y2="424" stroke="#eee" stroke-width="1"/>
+<text x="14" y="788" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="704" x2="1450" y2="704" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1218" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="872" x2="1450" y2="872" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1660" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1564" x2="1450" y2="1564" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="552" width="1140" height="116" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="548" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N4</text>
+<rect x="235" y="552" width="1140" height="116" rx="10" fill="none" stroke="#3a6a8a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="680" font-size="10" fill="#3a6a8a" font-style="italic" font-weight="600">JOIN -&gt; N5</text>
+<rect x="158" y="1592" width="1294" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="1588" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N11</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="264" x2="805" y2="292" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="275" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="376" x2="805" y2="472" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="544" x2="427" y2="572" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="544" x2="805" y2="572" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="544" x2="1183" y2="572" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="427" y1="656" x2="805" y2="752" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="656" x2="805" y2="752" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1183" y1="656" x2="805" y2="752" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="824" x2="805" y2="920" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="869" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">We propose</text>
+<line x1="805" y1="992" x2="805" y2="1020" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1092" x2="805" y2="1120" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1192" x2="805" y2="1220" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1304" x2="805" y2="1332" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1404" x2="805" y2="1432" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1516" x2="322" y2="1612" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1516" x2="644" y2="1612" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1516" x2="966" y2="1612" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1516" x2="1288" y2="1612" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="322" y1="1708" x2="805" y2="752" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs need continual adaptation</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Large language models (LLMs) are increasingly deployed in scenarios</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">requiring continual adaptation to new tasks and domains (Wu et al., 2024;</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">Shi et al., 2024).</text>
+<title>N1 [Context] (cites=2)
+Large language models (LLMs) are increasingly deployed in scenarios requiring continual adaptation to new tasks and domains (Wu et al., 2024; Shi et al., 2024).</title>
+</g>
+<circle cx="1022.0" cy="188.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="180" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LoRA: low-rank PEFT adaptation</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">Parameter-efficient fine-tuning methods such as LoRA (Hu et al., 2021)</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">enable efficient adaptation by training low-rank matrices while keeping base</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">model weights frozen.</text>
+<title>N2 [Context] (cites=1)
+Parameter-efficient fine-tuning methods such as LoRA (Hu et al., 2021) enable efficient adaptation by training low-rank matrices while keeping base model weights frozen.</title>
+</g>
+<circle cx="1022.0" cy="300.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="292" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="306" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="321" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Catastrophic forgetting in sequential FT</text>
+<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">However, sequential fine-tuning on multiple tasks leads to catastrophic</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">forgetting, where performance on earlier tasks degrades as the model adapts</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">to new ones (Kirkpatrick et al., 2016).</text>
+<title>N3 [Context] (cites=1)
+However, sequential fine-tuning on multiple tasks leads to catastrophic forgetting, where performance on earlier tasks degrades as the model adapts to new ones (Kirkpatrick et al., 2016).</title>
+</g>
+<g>
+<rect x="595" y="472" width="420" height="72" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work]</text>
+<text x="805" y="501" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Three paradigms with limitations</text>
+<text x="805" y="517" text-anchor="middle" font-size="9.5" fill="#555">Existing approaches to mitigate forgetting in continual learning fall into</text>
+<text x="805" y="529" text-anchor="middle" font-size="9.5" fill="#555">three paradigms, each with limitations.</text>
+<title>N4 [Prior_Work] (cites=0)
+Existing approaches to mitigate forgetting in continual learning fall into three paradigms, each with limitations.</title>
+</g>
+<circle cx="614.0" cy="580.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="588.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="247" y="572" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="427" y="586" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4a [Prior_Work: paradigm-1]</text>
+<text x="427" y="601" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Regularization: adds compute overhead</text>
+<text x="427" y="617" text-anchor="middle" font-size="9.5" fill="#555">Regularization methods (Kirkpatrick et al., 2016; Li &amp; Hoiem,</text>
+<text x="427" y="629" text-anchor="middle" font-size="9.5" fill="#555">2016) constrain parameter updates during training but add</text>
+<text x="427" y="641" text-anchor="middle" font-size="9.5" fill="#555">computational overhead.</text>
+<title>N4a [Prior_Work: paradigm-1] (cites=2)
+Regularization methods (Kirkpatrick et al., 2016; Li &amp; Hoiem, 2016) constrain parameter updates during training but add computational overhead.</title>
+</g>
+<circle cx="992.0" cy="580.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="588.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="625" y="572" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="586" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4b [Prior_Work: paradigm-2]</text>
+<text x="805" y="601" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Replay: needs stored training data</text>
+<text x="805" y="617" text-anchor="middle" font-size="9.5" fill="#555">Replay-based methods (Lopez-Paz &amp; Ranzato, 2017; Buzzega et al.,</text>
+<text x="805" y="629" text-anchor="middle" font-size="9.5" fill="#555">2020) achieve strong performance by revisiting earlier examples</text>
+<text x="805" y="641" text-anchor="middle" font-size="9.5" fill="#555">but require storing training data.</text>
+<title>N4b [Prior_Work: paradigm-2] (cites=2)
+Replay-based methods (Lopez-Paz &amp; Ranzato, 2017; Buzzega et al., 2020) achieve strong performance by revisiting earlier examples but require storing training data.</title>
+</g>
+<circle cx="1370.0" cy="580.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1370.0" cy="588.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="1003" y="572" width="360" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="1183" y="586" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4c [Prior_Work: paradigm-3]</text>
+<text x="1183" y="601" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Architecture: increases model size</text>
+<text x="1183" y="617" text-anchor="middle" font-size="9.5" fill="#555">Architecture-based methods (Razdaibiedina et al., 2023; Wang et</text>
+<text x="1183" y="629" text-anchor="middle" font-size="9.5" fill="#555">al., 2023) expand model capacity per task but increase model size.</text>
+<title>N4c [Prior_Work: paradigm-3] (cites=2)
+Architecture-based methods (Razdaibiedina et al., 2023; Wang et al., 2023) expand model capacity per task but increase model size.</title>
+</g>
+<g>
+<rect x="595" y="752" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="766" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Limitation]</text>
+<text x="805" y="781" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">All modify training; add complexity</text>
+<text x="805" y="797" text-anchor="middle" font-size="9.5" fill="#555">All these approaches modify the training process itself, adding complexity</text>
+<text x="805" y="809" text-anchor="middle" font-size="9.5" fill="#555">to the fine-tuning pipeline.</text>
+<title>N5 [Limitation] (cites=0)
+All these approaches modify the training process itself, adding complexity to the fine-tuning pipeline.</title>
+</g>
+<g>
+<rect x="595" y="920" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="934" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Method]</text>
+<text x="805" y="949" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Different perspective: post-task intervention</text>
+<text x="805" y="965" text-anchor="middle" font-size="9.5" fill="#555">We propose a different perspective: rather than modifying training, we</text>
+<text x="805" y="977" text-anchor="middle" font-size="9.5" fill="#555">intervene after each task to correct unintended parameter changes.</text>
+<title>N6 [Method] (cites=0)
+We propose a different perspective: rather than modifying training, we intervene after each task to correct unintended parameter changes.</title>
+</g>
+<g>
+<rect x="595" y="1020" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1034" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Method]</text>
+<text x="805" y="1049" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Insight: not all changes equally harmful</text>
+<text x="805" y="1065" text-anchor="middle" font-size="9.5" fill="#555">Our key insight is that not all parameter changes during fine-tuning are</text>
+<text x="805" y="1077" text-anchor="middle" font-size="9.5" fill="#555">equally harmful.</text>
+<title>N7 [Method] (cites=0)
+Our key insight is that not all parameter changes during fine-tuning are equally harmful.</title>
+</g>
+<g>
+<rect x="595" y="1120" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1134" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="805" y="1149" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Unintentionally disrupted attention heads</text>
+<text x="805" y="1165" text-anchor="middle" font-size="9.5" fill="#555">Some attention heads undergo large changes that are not necessary for the</text>
+<text x="805" y="1177" text-anchor="middle" font-size="9.5" fill="#555">new task—they are unintentionally disrupted.</text>
+<title>N8 [Method] (cites=0)
+Some attention heads undergo large changes that are not necessary for the new task—they are unintentionally disrupted.</title>
+</g>
+<g>
+<rect x="595" y="1220" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1234" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="805" y="1249" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Three signals: disruption, hist-imp, new-imp</text>
+<text x="805" y="1265" text-anchor="middle" font-size="9.5" fill="#555">These heads can be identified by three properties: high disruption (large</text>
+<text x="805" y="1277" text-anchor="middle" font-size="9.5" fill="#555">parameter change), high historical importance (critical for earlier tasks),</text>
+<text x="805" y="1289" text-anchor="middle" font-size="9.5" fill="#555">and low new-task importance (not needed for the current task).</text>
+<title>N9 [Method] (cites=0)
+These heads can be identified by three properties: high disruption (large parameter change), high historical importance (critical for earlier tasks), and low new-task importance (not needed for the current task).</title>
+</g>
+<g>
+<rect x="595" y="1332" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1346" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="805" y="1361" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Rollback recovers earlier-task perf</text>
+<text x="805" y="1377" text-anchor="middle" font-size="9.5" fill="#555">Rolling back these heads should recover earlier-task performance without</text>
+<text x="805" y="1389" text-anchor="middle" font-size="9.5" fill="#555">harming current-task accuracy.</text>
+<title>N10 [Method] (cites=0)
+Rolling back these heads should recover earlier-task performance without harming current-task accuracy.</title>
+</g>
+<g>
+<rect x="595" y="1432" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1446" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="805" y="1461" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Introduce HeadRollback</text>
+<text x="805" y="1477" text-anchor="middle" font-size="9.5" fill="#555">We introduce HeadRollback, a simple post-task intervention that identifies</text>
+<text x="805" y="1489" text-anchor="middle" font-size="9.5" fill="#555">unintentionally disrupted attention heads and rolls back their LoRA B-matrix</text>
+<text x="805" y="1501" text-anchor="middle" font-size="9.5" fill="#555">rows to the previous checkpoint.</text>
+<title>N11 [Method] (cites=0)
+We introduce HeadRollback, a simple post-task intervention that identifies unintentionally disrupted attention heads and rolls back their LoRA B-matrix rows to the previous checkpoint.</title>
+</g>
+<g>
+<rect x="170" y="1612" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="322" y="1626" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="322" y="1641" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: HeadRollback replay-free post-task</text>
+<text x="322" y="1657" text-anchor="middle" font-size="9.5" fill="#555">We propose HeadRollback, a replay-free post-task</text>
+<text x="322" y="1669" text-anchor="middle" font-size="9.5" fill="#555">intervention for continual LoRA fine-tuning that</text>
+<text x="322" y="1681" text-anchor="middle" font-size="9.5" fill="#555">operates at task boundaries without modifying training</text>
+<text x="322" y="1693" text-anchor="middle" font-size="9.5" fill="#555">dynamics.</text>
+<title>C1 [Contribution] (cites=0)
+We propose HeadRollback, a replay-free post-task intervention for continual LoRA fine-tuning that operates at task boundaries without modifying training dynamics.</title>
+</g>
+<g>
+<rect x="492" y="1612" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="644" y="1626" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="644" y="1641" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: three-signal scoring formula</text>
+<text x="644" y="1657" text-anchor="middle" font-size="9.5" fill="#555">We develop a three-signal scoring formula combining</text>
+<text x="644" y="1669" text-anchor="middle" font-size="9.5" fill="#555">disruption magnitude, historical importance, and</text>
+<text x="644" y="1681" text-anchor="middle" font-size="9.5" fill="#555">new-task importance to identify heads worth preserving.</text>
+<title>C2 [Contribution] (cites=0)
+We develop a three-signal scoring formula combining disruption magnitude, historical importance, and new-task importance to identify heads worth preserving.</title>
+</g>
+<g>
+<rect x="814" y="1612" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="966" y="1626" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="966" y="1641" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: +1.98pp OP, +1.70pp BWT</text>
+<text x="966" y="1657" text-anchor="middle" font-size="9.5" fill="#555">We demonstrate that HeadRollback improves Overall</text>
+<text x="966" y="1669" text-anchor="middle" font-size="9.5" fill="#555">Performance by +1.98pp and Backward Transfer by +1.70pp</text>
+<text x="966" y="1681" text-anchor="middle" font-size="9.5" fill="#555">over Vanilla LoRA on a 5-task benchmark, with</text>
+<text x="966" y="1693" text-anchor="middle" font-size="9.5" fill="#555">consistent improvements across task orders (7/9 win…</text>
+<title>C3 [Contribution] (cites=0)
+We demonstrate that HeadRollback improves Overall Performance by +1.98pp and Backward Transfer by +1.70pp over Vanilla LoRA on a 5-task benchmark, with consistent improvements across task orders (7/9 win rate).</title>
+</g>
+<g>
+<rect x="1136" y="1612" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1288" y="1626" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C4 [Contribution]</text>
+<text x="1288" y="1641" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C4: analysis: 3-7x higher hist-imp</text>
+<text x="1288" y="1657" text-anchor="middle" font-size="9.5" fill="#555">We provide analysis showing that HeadRollback selects</text>
+<text x="1288" y="1669" text-anchor="middle" font-size="9.5" fill="#555">heads with 3–7× higher historical importance than</text>
+<text x="1288" y="1681" text-anchor="middle" font-size="9.5" fill="#555">disruption-only selection, and that middle layers are</text>
+<text x="1288" y="1693" text-anchor="middle" font-size="9.5" fill="#555">most susceptible to unintentional disruption.</text>
+<title>C4 [Contribution] (cites=0)
+We provide analysis showing that HeadRollback selects heads with 3–7× higher historical importance than disruption-only selection, and that middle layers are most susceptible to unintentional disruption.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

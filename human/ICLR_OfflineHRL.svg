@@ -1,0 +1,282 @@
+<svg viewBox="0 0 1480 1972" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="172" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="662" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="324" x2="1450" y2="324" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1158" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="1000" x2="1450" y2="1000" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1518" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1316" x2="1450" y2="1316" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1816" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1720" x2="1450" y2="1720" stroke="#eee" stroke-width="1"/>
+<rect x="424" y="1152" width="762" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="432" y="1148" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N10</text>
+<rect x="158" y="1748" width="1294" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="1744" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N13</text>
+<line x1="805" y1="164" x2="805" y2="192" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="175" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="276" x2="616" y2="372" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="468" x2="805" y2="496" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="710" y="479" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Specifically</text>
+<line x1="805" y1="580" x2="805" y2="608" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="591" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Moreover</text>
+<line x1="805" y1="704" x2="805" y2="732" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="715" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Similarly</text>
+<line x1="805" y1="828" x2="805" y2="856" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="952" x2="616" y2="1048" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="997" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Nevertheless</text>
+<line x1="616" y1="468" x2="616" y2="1048" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="616" y="755" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Nevertheless</text>
+<line x1="616" y1="1144" x2="994" y2="372" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="755" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To address this issue</text>
+<line x1="994" y1="468" x2="994" y2="1048" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="994" y="755" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="994" y1="1144" x2="616" y2="1172" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1144" x2="994" y2="1172" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1268" x2="805" y2="1364" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="899" y="1313" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">In this work, we propose</text>
+<line x1="805" y1="1448" x2="805" y2="1476" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="1459" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Specifically</text>
+<line x1="805" y1="1560" x2="805" y2="1588" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1672" x2="322" y2="1768" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1672" x2="644" y2="1768" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1672" x2="966" y2="1768" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1672" x2="1288" y2="1768" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="322" y1="1864" x2="616" y2="1172" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="644" y1="1864" x2="994" y2="1172" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1288" y1="1864" x2="616" y2="1048" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="84.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="92.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">RL/OC succeed in continuous control</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Deep reinforcement learning (RL) and optimal control (OC) have made</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">significant progress within a broad range of continuous control tasks, such</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">as locomotion skills (Lillicrap et al., 2015), dexterous manipulation (Zhu</text>
+<text x="805" y="149" text-anchor="middle" font-size="9.5" fill="#555">et al., 2019), and…</text>
+<title>N1 [Context] (cites=3)
+Deep reinforcement learning (RL) and optimal control (OC) have made significant progress within a broad range of continuous control tasks, such as locomotion skills (Lillicrap et al., 2015), dexterous manipulation (Zhu et al., 2019), and robotic navigation (Long et al., 2018).</title>
+</g>
+<g>
+<rect x="595" y="192" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Tasks are atomic, not multi-level</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">However, most of these tasks are inherently atomic, as they can be completed</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">by performing basic skills episodically rather than through complex</text>
+<text x="805" y="261" text-anchor="middle" font-size="9.5" fill="#555">multi-level reasoning.</text>
+<title>N2 [Context] (cites=0)
+However, most of these tasks are inherently atomic, as they can be completed by performing basic skills episodically rather than through complex multi-level reasoning.</title>
+</g>
+<circle cx="803.0" cy="380.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="803.0" cy="388.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="372" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="386" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Prior_Work]</text>
+<text x="616" y="401" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Hierarchical policy decompositions</text>
+<text x="616" y="417" text-anchor="middle" font-size="9.5" fill="#555">Hierarchical policy decompositions, in which multiple sub-policies</text>
+<text x="616" y="429" text-anchor="middle" font-size="9.5" fill="#555">are composed to perform control at successively higher levels of</text>
+<text x="616" y="441" text-anchor="middle" font-size="9.5" fill="#555">temporal and representational abstraction, have long held the</text>
+<text x="616" y="453" text-anchor="middle" font-size="9.5" fill="#555">promise to help solve such complex tasks…</text>
+<title>N3 [Prior_Work] (cites=2)
+Hierarchical policy decompositions, in which multiple sub-policies are composed to perform control at successively higher levels of temporal and representational abstraction, have long held the promise to help solve such complex tasks (Barto &amp; Mahadevan, 2003; Nachum et al., 2018).</title>
+</g>
+<g>
+<rect x="595" y="496" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="510" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Prior_Work]</text>
+<text x="805" y="525" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Hierarchies enable long-horizon planning</text>
+<text x="805" y="541" text-anchor="middle" font-size="9.5" fill="#555">Specifically, by defining a hierarchy of policies where higher levels</text>
+<text x="805" y="553" text-anchor="middle" font-size="9.5" fill="#555">influence the behavior of the lower levels, it becomes easier to train</text>
+<text x="805" y="565" text-anchor="middle" font-size="9.5" fill="#555">high-level policies to plan over longer time scales.</text>
+<title>N4 [Prior_Work] (cites=0)
+Specifically, by defining a hierarchy of policies where higher levels influence the behavior of the lower levels, it becomes easier to train high-level policies to plan over longer time scales.</title>
+</g>
+<circle cx="1022.0" cy="616.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="624.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="608" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="622" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="805" y="637" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">OC uses hierarchies over state reps</text>
+<text x="805" y="653" text-anchor="middle" font-size="9.5" fill="#555">Moreover, approaches for OC often leverage problem-specific structure by</text>
+<text x="805" y="665" text-anchor="middle" font-size="9.5" fill="#555">constructing hierarchical policies over convenient state representations,</text>
+<text x="805" y="677" text-anchor="middle" font-size="9.5" fill="#555">e.g., planning in operational space as opposed to direct joint space control</text>
+<text x="805" y="689" text-anchor="middle" font-size="9.5" fill="#555">for robot…</text>
+<title>N5 [Prior_Work] (cites=2)
+Moreover, approaches for OC often leverage problem-specific structure by constructing hierarchical policies over convenient state representations, e.g., planning in operational space as opposed to direct joint space control for robot manipulation (Khatib, 1987; Peters &amp; Schaal, 2008).</title>
+</g>
+<circle cx="1022.0" cy="740.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="748.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="756.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="764.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="732" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="746" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work]</text>
+<text x="805" y="761" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Real-world systems benefit from hierarchy</text>
+<text x="805" y="777" text-anchor="middle" font-size="9.5" fill="#555">Similarly, sequential decision-making systems operating in the real</text>
+<text x="805" y="789" text-anchor="middle" font-size="9.5" fill="#555">world—such as vehicle routing and traffic control (Rasheed et al., 2020;</text>
+<text x="805" y="801" text-anchor="middle" font-size="9.5" fill="#555">Zardini et al., 2022), supply chain management (Rolf et al., 2023), and</text>
+<text x="805" y="813" text-anchor="middle" font-size="9.5" fill="#555">power grid optimization…</text>
+<title>N6 [Prior_Work] (cites=4)
+Similarly, sequential decision-making systems operating in the real world—such as vehicle routing and traffic control (Rasheed et al., 2020; Zardini et al., 2022), supply chain management (Rolf et al., 2023), and power grid optimization (Duan et al., 2019), among many others—have historically benefited from hierarchical abstractions.</title>
+</g>
+<circle cx="1022.0" cy="864.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="872.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="880.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="856" width="420" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="870" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Prior_Work]</text>
+<text x="805" y="885" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Two uses: decompose &amp; combine sub-policies</text>
+<text x="805" y="901" text-anchor="middle" font-size="9.5" fill="#555">Hierarchically structured policies are commonly used to (i) decompose a</text>
+<text x="805" y="913" text-anchor="middle" font-size="9.5" fill="#555">large optimization problem into smaller, tractable ones (Fluri et al.,</text>
+<text x="805" y="925" text-anchor="middle" font-size="9.5" fill="#555">2019), and (ii) combine the benefits of differently-structured sub-policies,</text>
+<text x="805" y="937" text-anchor="middle" font-size="9.5" fill="#555">such as integrating…</text>
+<title>N7 [Prior_Work] (cites=3)
+Hierarchically structured policies are commonly used to (i) decompose a large optimization problem into smaller, tractable ones (Fluri et al., 2019), and (ii) combine the benefits of differently-structured sub-policies, such as integrating learning-based methods with direct optimization (Delarue et al., 2020; Gammelli et al., 2023).</title>
+</g>
+<g>
+<rect x="436" y="1048" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="1062" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Limitation]</text>
+<text x="616" y="1077" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Prior hierarchical work needs costly online data</text>
+<text x="616" y="1093" text-anchor="middle" font-size="9.5" fill="#555">Nevertheless, there remains a significant gap between the</text>
+<text x="616" y="1105" text-anchor="middle" font-size="9.5" fill="#555">theoretical promise of hierarchically structured policies and</text>
+<text x="616" y="1117" text-anchor="middle" font-size="9.5" fill="#555">their practical application to complex, real-world decision-making</text>
+<text x="616" y="1129" text-anchor="middle" font-size="9.5" fill="#555">problems: previous work often relies on costly…</text>
+<title>N8 [Limitation] (cites=0)
+Nevertheless, there remains a significant gap between the theoretical promise of hierarchically structured policies and their practical application to complex, real-world decision-making problems: previous work often relies on costly online data collection, which is impractical for real-world, safety-critical systems.</title>
+</g>
+<g>
+<rect x="814" y="372" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="386" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Prior_Work]</text>
+<text x="994" y="401" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Offline RL avoids online exploration</text>
+<text x="994" y="417" text-anchor="middle" font-size="9.5" fill="#555">To address this issue, offline RL has gained attention for its</text>
+<text x="994" y="429" text-anchor="middle" font-size="9.5" fill="#555">ability to train policies from static offline datasets, thus</text>
+<text x="994" y="441" text-anchor="middle" font-size="9.5" fill="#555">avoiding the need for expensive or unsafe online exploration.</text>
+<title>N9 [Prior_Work] (cites=0)
+To address this issue, offline RL has gained attention for its ability to train policies from static offline datasets, thus avoiding the need for expensive or unsafe online exploration.</title>
+</g>
+<g>
+<rect x="814" y="1048" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="1062" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Limitation]</text>
+<text x="994" y="1077" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Offline RL limited in hierarchical settings</text>
+<text x="994" y="1093" text-anchor="middle" font-size="9.5" fill="#555">However, offline policy learning has had a limited impact within</text>
+<text x="994" y="1105" text-anchor="middle" font-size="9.5" fill="#555">hierarchical formulations due to two fundamental issues.</text>
+<title>N10 [Limitation] (cites=0)
+However, offline policy learning has had a limited impact within hierarchical formulations due to two fundamental issues.</title>
+</g>
+<g>
+<rect x="436" y="1172" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="1186" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10a [Limitation: issue-1]</text>
+<text x="616" y="1201" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Issue 1: high-level actions unobservable</text>
+<text x="616" y="1217" text-anchor="middle" font-size="9.5" fill="#555">First, unless we assume that offline data collection is performed</text>
+<text x="616" y="1229" text-anchor="middle" font-size="9.5" fill="#555">using the same hierarchical policy that we intend to learn,</text>
+<text x="616" y="1241" text-anchor="middle" font-size="9.5" fill="#555">actions across hierarchy levels may not be observable, thus</text>
+<text x="616" y="1253" text-anchor="middle" font-size="9.5" fill="#555">hindering the direct application of standard offline…</text>
+<title>N10a [Limitation: issue-1] (cites=0)
+First, unless we assume that offline data collection is performed using the same hierarchical policy that we intend to learn, actions across hierarchy levels may not be observable, thus hindering the direct application of standard offline RL algorithms.</title>
+</g>
+<g>
+<rect x="814" y="1172" width="360" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="1186" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10b [Limitation: issue-2]</text>
+<text x="994" y="1201" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Issue 2: controller modifications ill-pose RL</text>
+<text x="994" y="1217" text-anchor="middle" font-size="9.5" fill="#555">Second, even if the offline dataset is collected using a</text>
+<text x="994" y="1229" text-anchor="middle" font-size="9.5" fill="#555">hierarchical policy, any modifications to the hierarchical</text>
+<text x="994" y="1241" text-anchor="middle" font-size="9.5" fill="#555">controller or its components can lead to ill-posed offline RL</text>
+<text x="994" y="1253" text-anchor="middle" font-size="9.5" fill="#555">formulations.</text>
+<title>N10b [Limitation: issue-2] (cites=0)
+Second, even if the offline dataset is collected using a hierarchical policy, any modifications to the hierarchical controller or its components can lead to ill-posed offline RL formulations.</title>
+</g>
+<g>
+<rect x="595" y="1364" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1378" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="805" y="1393" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Propose OHIO framework</text>
+<text x="805" y="1409" text-anchor="middle" font-size="9.5" fill="#555">In this work, we propose a framework to learn hierarchical behavior policies</text>
+<text x="805" y="1421" text-anchor="middle" font-size="9.5" fill="#555">from offline data, OHIO: Offline Hierarchical reinforcement learning via</text>
+<text x="805" y="1433" text-anchor="middle" font-size="9.5" fill="#555">Inverse Optimization.</text>
+<title>N11 [Method] (cites=0)
+In this work, we propose a framework to learn hierarchical behavior policies from offline data, OHIO: Offline Hierarchical reinforcement learning via Inverse Optimization.</title>
+</g>
+<g>
+<rect x="595" y="1476" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1490" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Method]</text>
+<text x="805" y="1505" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Solve inverse problem for high-level actions</text>
+<text x="805" y="1521" text-anchor="middle" font-size="9.5" fill="#555">Specifically, we solve the inverse problem, mapping state transitions (and,</text>
+<text x="805" y="1533" text-anchor="middle" font-size="9.5" fill="#555">optionally, low-level actions) to the high-level actions that likely</text>
+<text x="805" y="1545" text-anchor="middle" font-size="9.5" fill="#555">generated those transitions.</text>
+<title>N12 [Method] (cites=0)
+Specifically, we solve the inverse problem, mapping state transitions (and, optionally, low-level actions) to the high-level actions that likely generated those transitions.</title>
+</g>
+<g>
+<rect x="595" y="1588" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1602" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Method]</text>
+<text x="805" y="1617" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Constructs dataset for off-the-shelf offline RL</text>
+<text x="805" y="1633" text-anchor="middle" font-size="9.5" fill="#555">This approach allows us to create a dataset that can be used by standard</text>
+<text x="805" y="1645" text-anchor="middle" font-size="9.5" fill="#555">offline RL algorithms within any hierarchical policy scheme, regardless of</text>
+<text x="805" y="1657" text-anchor="middle" font-size="9.5" fill="#555">the nature of the policy used for data collection (Figure 1).</text>
+<title>N13 [Method] (cites=0)
+This approach allows us to create a dataset that can be used by standard offline RL algorithms within any hierarchical policy scheme, regardless of the nature of the policy used for data collection (Figure 1).</title>
+</g>
+<g>
+<rect x="170" y="1768" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="322" y="1782" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="322" y="1797" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: novel hierarchical offline RL framework</text>
+<text x="322" y="1813" text-anchor="middle" font-size="9.5" fill="#555">We present a novel framework for hierarchical offline</text>
+<text x="322" y="1825" text-anchor="middle" font-size="9.5" fill="#555">RL that leverages structural knowledge of the</text>
+<text x="322" y="1837" text-anchor="middle" font-size="9.5" fill="#555">hierarchical policy to construct a dataset amenable to</text>
+<text x="322" y="1849" text-anchor="middle" font-size="9.5" fill="#555">off-the-shelf offline RL algorithms.</text>
+<title>C1 [Contribution] (cites=0)
+We present a novel framework for hierarchical offline RL that leverages structural knowledge of the hierarchical policy to construct a dataset amenable to off-the-shelf offline RL algorithms.</title>
+</g>
+<g>
+<rect x="492" y="1768" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="644" y="1782" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="644" y="1797" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: analytic + numeric inverse-opt objectives</text>
+<text x="644" y="1813" text-anchor="middle" font-size="9.5" fill="#555">We derive principled inverse optimization objectives to</text>
+<text x="644" y="1825" text-anchor="middle" font-size="9.5" fill="#555">solve the inverse problem both analytically and</text>
+<text x="644" y="1837" text-anchor="middle" font-size="9.5" fill="#555">numerically, thus making our method amenable to generic</text>
+<text x="644" y="1849" text-anchor="middle" font-size="9.5" fill="#555">policy structures and behavior policies used for data…</text>
+<title>C2 [Contribution] (cites=0)
+We derive principled inverse optimization objectives to solve the inverse problem both analytically and numerically, thus making our method amenable to generic policy structures and behavior policies used for data collection.</title>
+</g>
+<g>
+<rect x="814" y="1768" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="966" y="1782" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution]</text>
+<text x="966" y="1797" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C3: investigate design decisions</text>
+<text x="966" y="1813" text-anchor="middle" font-size="9.5" fill="#555">We investigate design decisions and learning strategies</text>
+<text x="966" y="1825" text-anchor="middle" font-size="9.5" fill="#555">within our framework, such as the impact of model</text>
+<text x="966" y="1837" text-anchor="middle" font-size="9.5" fill="#555">learning, the choice of inverse optimization algorithm,</text>
+<text x="966" y="1849" text-anchor="middle" font-size="9.5" fill="#555">dataset characteristics, and their impact on system…</text>
+<title>C3 [Contribution] (cites=0)
+We investigate design decisions and learning strategies within our framework, such as the impact of model learning, the choice of inverse optimization algorithm, dataset characteristics, and their impact on system performance and fine-tuning capabilities.</title>
+</g>
+<g>
+<rect x="1136" y="1768" width="304" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1288" y="1782" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C4 [Contribution]</text>
+<text x="1288" y="1797" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C4: empirical wins across diverse domains</text>
+<text x="1288" y="1813" text-anchor="middle" font-size="9.5" fill="#555">Through experiments on robotic tasks, supply chain</text>
+<text x="1288" y="1825" text-anchor="middle" font-size="9.5" fill="#555">inventory control, and dynamic vehicle routing, we show</text>
+<text x="1288" y="1837" text-anchor="middle" font-size="9.5" fill="#555">how our framework substantially improves the</text>
+<text x="1288" y="1849" text-anchor="middle" font-size="9.5" fill="#555">performance of off-the-shelf offline learning…</text>
+<title>C4 [Contribution] (cites=0)
+Through experiments on robotic tasks, supply chain inventory control, and dynamic vehicle routing, we show how our framework substantially improves the performance of off-the-shelf offline learning algorithms across a diverse set of embodiments and policy structures, while providing the safety guarantees needed for safe, real-world deployment.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

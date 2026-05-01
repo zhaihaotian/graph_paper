@@ -1,0 +1,313 @@
+<svg viewBox="0 0 1480 2168" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="346" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="762" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="672" x2="1450" y2="672" stroke="#eee" stroke-width="1"/>
+<text x="14" y="936" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="852" x2="1450" y2="852" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1322" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1020" x2="1450" y2="1020" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1714" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1624" x2="1450" y2="1624" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1956" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="1804" x2="1450" y2="1804" stroke="#eee" stroke-width="1"/>
+<rect x="235" y="1956" width="1140" height="116" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="243" y="1952" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from C2</text>
+<line x1="805" y1="152" x2="805" y2="180" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="264" x2="805" y2="292" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="388" x2="805" y2="416" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="512" x2="805" y2="540" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="523" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="624" x2="805" y2="720" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="804" x2="805" y2="900" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="849" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="972" x2="427" y2="1068" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="616" y="1017" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">This paper introduces</text>
+<line x1="427" y1="1164" x2="616" y2="1192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1276" x2="616" y2="1304" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1376" x2="616" y2="1672" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="616" y="1521" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">greatly enhances</text>
+<line x1="616" y1="1756" x2="805" y2="1068" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1164" x2="994" y2="1672" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="994" y1="1756" x2="1183" y2="1068" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="1183" y1="1164" x2="994" y2="1192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1276" x2="994" y2="1304" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1376" x2="805" y2="1404" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1476" x2="805" y2="1504" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1276" x2="616" y2="1852" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1376" x2="994" y2="1852" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1948" x2="427" y2="1976" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1948" x2="805" y2="1976" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1948" x2="1183" y2="1976" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1948" x2="805" y2="900" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="994" y1="1948" x2="805" y2="900" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<circle cx="1022.0" cy="76.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="68" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs leap toward human-like NLG</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Large Language Models (LLMs) represent a significant leap forward in our</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">quest to emulate human-like understanding and generation of language (Brown</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">et al., 2020).</text>
+<title>N1 [Context] (cites=1)
+Large Language Models (LLMs) represent a significant leap forward in our quest to emulate human-like understanding and generation of language (Brown et al., 2020).</title>
+</g>
+<circle cx="1022.0" cy="188.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="180" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="194" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="209" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Process language accurately + fluently</text>
+<text x="805" y="225" text-anchor="middle" font-size="9.5" fill="#555">These sophisticated algorithms are designed to process, interpret, and</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">produce language with unprecedented accuracy and fluency (Bubeck et al.,</text>
+<text x="805" y="249" text-anchor="middle" font-size="9.5" fill="#555">2023).</text>
+<title>N2 [Context] (cites=1)
+These sophisticated algorithms are designed to process, interpret, and produce language with unprecedented accuracy and fluency (Bubeck et al., 2023).</title>
+</g>
+<circle cx="1022.0" cy="300.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="308.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="316.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="292" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="306" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="321" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Capable across completion to reasoning</text>
+<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">By training on vast datasets encompassing a myriad of linguistic patterns,</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">LLMs have demonstrated remarkable capabilities in tasks ranging from simple</text>
+<text x="805" y="361" text-anchor="middle" font-size="9.5" fill="#555">text completion (Radford et al., 2019) to complex problem-solving (Chen et</text>
+<text x="805" y="373" text-anchor="middle" font-size="9.5" fill="#555">al., 2021a)…</text>
+<title>N3 [Context] (cites=3)
+By training on vast datasets encompassing a myriad of linguistic patterns, LLMs have demonstrated remarkable capabilities in tasks ranging from simple text completion (Radford et al., 2019) to complex problem-solving (Chen et al., 2021a) and creative writing (Elkins &amp; Chun, 2020).</title>
+</g>
+<circle cx="1022.0" cy="424.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="432.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="440.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="448.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="456.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="416" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="430" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="445" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">LLMs poised to transform fields</text>
+<text x="805" y="461" text-anchor="middle" font-size="9.5" fill="#555">Their potential to transform various fields—education (Kasneci et al.,</text>
+<text x="805" y="473" text-anchor="middle" font-size="9.5" fill="#555">2023), customer service (Pandya &amp; Holia, 2023), content creation (Zhang et</text>
+<text x="805" y="485" text-anchor="middle" font-size="9.5" fill="#555">al., 2023), and beyond—has captured the imagination of researchers and</text>
+<text x="805" y="497" text-anchor="middle" font-size="9.5" fill="#555">practitioners alike…</text>
+<title>N4 [Context] (cites=5)
+Their potential to transform various fields—education (Kasneci et al., 2023), customer service (Pandya &amp; Holia, 2023), content creation (Zhang et al., 2023), and beyond—has captured the imagination of researchers and practitioners alike (Bommasani et al., 2021; Bubeck et al., 2023).</title>
+</g>
+<circle cx="1022.0" cy="548.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="556.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="540" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="554" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Context]</text>
+<text x="805" y="569" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Evaluation challenge grows with complexity</text>
+<text x="805" y="585" text-anchor="middle" font-size="9.5" fill="#555">However, as these models grow in complexity, so does the challenge of</text>
+<text x="805" y="597" text-anchor="middle" font-size="9.5" fill="#555">effectively evaluating their diverse abilities (Burnell et al., 2023; Ke et</text>
+<text x="805" y="609" text-anchor="middle" font-size="9.5" fill="#555">al., 2023).</text>
+<title>N5 [Context] (cites=2)
+However, as these models grow in complexity, so does the challenge of effectively evaluating their diverse abilities (Burnell et al., 2023; Ke et al., 2023).</title>
+</g>
+<circle cx="1022.0" cy="728.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="736.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="720" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="734" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work]</text>
+<text x="805" y="749" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Traditional extensive benchmarks</text>
+<text x="805" y="765" text-anchor="middle" font-size="9.5" fill="#555">Traditionally, research has relied on extensive benchmarks—vast arrays of</text>
+<text x="805" y="777" text-anchor="middle" font-size="9.5" fill="#555">tasks—to assess the abilities of LLMs (Srivastava et al., 2023; Raji et al.,</text>
+<text x="805" y="789" text-anchor="middle" font-size="9.5" fill="#555">2021).</text>
+<title>N6 [Prior_Work] (cites=2)
+Traditionally, research has relied on extensive benchmarks—vast arrays of tasks—to assess the abilities of LLMs (Srivastava et al., 2023; Raji et al., 2021).</title>
+</g>
+<g>
+<rect x="595" y="900" width="420" height="72" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="914" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="805" y="929" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Benchmarks redundant + inefficient</text>
+<text x="805" y="945" text-anchor="middle" font-size="9.5" fill="#555">However, these benchmarks often measure overlapping skills, leading to</text>
+<text x="805" y="957" text-anchor="middle" font-size="9.5" fill="#555">redundancy and inefficiency.</text>
+<title>N7 [Limitation] (cites=0)
+However, these benchmarks often measure overlapping skills, leading to redundancy and inefficiency.</title>
+</g>
+<circle cx="614.0" cy="1076.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="1084.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="1092.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="1100.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="1108.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="614.0" cy="1116.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="247" y="1068" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="427" y="1082" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Method]</text>
+<text x="427" y="1097" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Introduce metabench from six benchmarks</text>
+<text x="427" y="1113" text-anchor="middle" font-size="9.5" fill="#555">This paper introduces metabench, a sparse benchmark engineered to</text>
+<text x="427" y="1125" text-anchor="middle" font-size="9.5" fill="#555">distill the essence of six prominent benchmarks—ARC (Clark et al.,</text>
+<text x="427" y="1137" text-anchor="middle" font-size="9.5" fill="#555">2018), GSM8K (Cobbe et al., 2021), HellaSwag (Zellers et al.,</text>
+<text x="427" y="1149" text-anchor="middle" font-size="9.5" fill="#555">2019), MMLU (Hendrycks et al., 2021),…</text>
+<title>N8 [Method] (cites=6)
+This paper introduces metabench, a sparse benchmark engineered to distill the essence of six prominent benchmarks—ARC (Clark et al., 2018), GSM8K (Cobbe et al., 2021), HellaSwag (Zellers et al., 2019), MMLU (Hendrycks et al., 2021), TruthfulQA (Lin et al., 2022), and WinoGrande (Sakaguchi et al., 2020)—into a more concise and informative benchmark.</title>
+</g>
+<g>
+<rect x="436" y="1192" width="360" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Method]</text>
+<text x="616" y="1221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Compress to &lt;3% via 5000 LLMs</text>
+<text x="616" y="1237" text-anchor="middle" font-size="9.5" fill="#555">By analyzing data from over 5000 LLMs, we identified the most</text>
+<text x="616" y="1249" text-anchor="middle" font-size="9.5" fill="#555">revealing items within these benchmarks, compressing them to less</text>
+<text x="616" y="1261" text-anchor="middle" font-size="9.5" fill="#555">than 3% of their combined size.</text>
+<title>N9 [Method] (cites=0)
+By analyzing data from over 5000 LLMs, we identified the most revealing items within these benchmarks, compressing them to less than 3% of their combined size.</title>
+</g>
+<g>
+<rect x="436" y="1304" width="360" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1318" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="616" y="1333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Adaptive testing lowers further</text>
+<text x="616" y="1349" text-anchor="middle" font-size="9.5" fill="#555">We also provide adaptive testing simulations that suggest that the</text>
+<text x="616" y="1361" text-anchor="middle" font-size="9.5" fill="#555">number of items administered to LLMs can be lowered even further.</text>
+<title>N10 [Method] (cites=0)
+We also provide adaptive testing simulations that suggest that the number of items administered to LLMs can be lowered even further.</title>
+</g>
+<g>
+<rect x="436" y="1672" width="360" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="616" y="1686" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Result]</text>
+<text x="616" y="1701" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Efficient + retains measurement ability</text>
+<text x="616" y="1717" text-anchor="middle" font-size="9.5" fill="#555">This volume reduction greatly enhances evaluation efficiency,</text>
+<text x="616" y="1729" text-anchor="middle" font-size="9.5" fill="#555">while also maintaining the original benchmarks' ability to measure</text>
+<text x="616" y="1741" text-anchor="middle" font-size="9.5" fill="#555">underlying abilities.</text>
+<title>N11 [Result] (cites=0)
+This volume reduction greatly enhances evaluation efficiency, while also maintaining the original benchmarks' ability to measure underlying abilities.</title>
+</g>
+<circle cx="992.0" cy="1076.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="1084.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="992.0" cy="1092.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="625" y="1068" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1082" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Method]</text>
+<text x="805" y="1097" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Use psychometrics to estimate latent abilities</text>
+<text x="805" y="1113" text-anchor="middle" font-size="9.5" fill="#555">The metabench framework leverages psychometric techniques</text>
+<text x="805" y="1125" text-anchor="middle" font-size="9.5" fill="#555">(Hambleton &amp; Swaminathan, 2013; Wang et al., 2023a) to estimate</text>
+<text x="805" y="1137" text-anchor="middle" font-size="9.5" fill="#555">the latent abilities captured by these benchmarks (Burnell et al.,</text>
+<text x="805" y="1149" text-anchor="middle" font-size="9.5" fill="#555">2023).</text>
+<title>N12 [Method] (cites=3)
+The metabench framework leverages psychometric techniques (Hambleton &amp; Swaminathan, 2013; Wang et al., 2023a) to estimate the latent abilities captured by these benchmarks (Burnell et al., 2023).</title>
+</g>
+<g>
+<rect x="814" y="1672" width="360" height="84" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="994" y="1686" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Result]</text>
+<text x="994" y="1701" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Reconstruct scores; one common factor</text>
+<text x="994" y="1717" text-anchor="middle" font-size="9.5" fill="#555">These estimates can reconstruct individual and total benchmark</text>
+<text x="994" y="1729" text-anchor="middle" font-size="9.5" fill="#555">scores with minimal error, and reveal a single underlying factor</text>
+<text x="994" y="1741" text-anchor="middle" font-size="9.5" fill="#555">that captures most of their variability.</text>
+<title>N13 [Result] (cites=0)
+These estimates can reconstruct individual and total benchmark scores with minimal error, and reveal a single underlying factor that captures most of their variability.</title>
+</g>
+<g>
+<rect x="1003" y="1068" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="1183" y="1082" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Method]</text>
+<text x="1183" y="1097" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">New lens for LLM ability measurement</text>
+<text x="1183" y="1113" text-anchor="middle" font-size="9.5" fill="#555">By refining how we measure the abilities of LLMs, metabench offers</text>
+<text x="1183" y="1125" text-anchor="middle" font-size="9.5" fill="#555">a new lens through which we can understand and improve them.</text>
+<title>N14 [Method] (cites=0)
+By refining how we measure the abilities of LLMs, metabench offers a new lens through which we can understand and improve them.</title>
+</g>
+<g>
+<rect x="814" y="1192" width="360" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Method]</text>
+<text x="994" y="1221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Practitioners get approximate scores</text>
+<text x="994" y="1237" text-anchor="middle" font-size="9.5" fill="#555">Practitioners can run their own models on this efficient and</text>
+<text x="994" y="1249" text-anchor="middle" font-size="9.5" fill="#555">highly informative benchmark, obtain approximated scores, and</text>
+<text x="994" y="1261" text-anchor="middle" font-size="9.5" fill="#555">compute an overall estimate of their models' general ability.</text>
+<title>N15 [Method] (cites=0)
+Practitioners can run their own models on this efficient and highly informative benchmark, obtain approximated scores, and compute an overall estimate of their models' general ability.</title>
+</g>
+<g>
+<rect x="814" y="1304" width="360" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1318" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Method]</text>
+<text x="994" y="1333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Disjoint second version for repeat eval</text>
+<text x="994" y="1349" text-anchor="middle" font-size="9.5" fill="#555">We additionally offer a second, disjoint version of metabench for</text>
+<text x="994" y="1361" text-anchor="middle" font-size="9.5" fill="#555">users that intend to evaluate an LLM multiple times.</text>
+<title>N16 [Method] (cites=0)
+We additionally offer a second, disjoint version of metabench for users that intend to evaluate an LLM multiple times.</title>
+</g>
+<circle cx="1022.0" cy="1412.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="1420.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="1404" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1418" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Method]</text>
+<text x="805" y="1433" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Psychologically meaningful evaluation</text>
+<text x="805" y="1449" text-anchor="middle" font-size="9.5" fill="#555">Our work underscores the potential for more streamlined and psychologically</text>
+<text x="805" y="1461" text-anchor="middle" font-size="9.5" fill="#555">meaningful evaluation methods (Coda-Forno et al., 2024; Huang et al., 2023).</text>
+<title>N17 [Method] (cites=2)
+Our work underscores the potential for more streamlined and psychologically meaningful evaluation methods (Coda-Forno et al., 2024; Huang et al., 2023).</title>
+</g>
+<g>
+<rect x="595" y="1504" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1518" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Method]</text>
+<text x="805" y="1533" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Aimed at low-resource open community</text>
+<text x="805" y="1549" text-anchor="middle" font-size="9.5" fill="#555">It is aimed for the open-source community and independent machine learning</text>
+<text x="805" y="1561" text-anchor="middle" font-size="9.5" fill="#555">researchers with limited resources.</text>
+<title>N18 [Method] (cites=0)
+It is aimed for the open-source community and independent machine learning researchers with limited resources.</title>
+</g>
+<g>
+<rect x="436" y="1852" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="616" y="1866" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="616" y="1881" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: distill 6 benchmarks to &lt;3%</text>
+<text x="616" y="1897" text-anchor="middle" font-size="9.5" fill="#555">We use data from n &gt; 5000 LLMs to identify the most informative</text>
+<text x="616" y="1909" text-anchor="middle" font-size="9.5" fill="#555">items of six benchmarks, ARC, GSM8K, HellaSwag, MMLU, TruthfulQA</text>
+<text x="616" y="1921" text-anchor="middle" font-size="9.5" fill="#555">and WinoGrande (with d = 28,632 items in total). From them we</text>
+<text x="616" y="1933" text-anchor="middle" font-size="9.5" fill="#555">distill a sparse benchmark, metabench, that has…</text>
+<title>C1 [Contribution] (cites=0)
+We use data from n &gt; 5000 LLMs to identify the most informative items of six benchmarks, ARC, GSM8K, HellaSwag, MMLU, TruthfulQA and WinoGrande (with d = 28,632 items in total). From them we distill a sparse benchmark, metabench, that has less than 3% of the original size of all six benchmarks combined.</title>
+</g>
+<g>
+<rect x="814" y="1852" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="994" y="1866" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="994" y="1881" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: latent-ability estimators (not point scores)</text>
+<text x="994" y="1897" text-anchor="middle" font-size="9.5" fill="#555">This new sparse benchmark goes beyond point scores by yielding</text>
+<text x="994" y="1909" text-anchor="middle" font-size="9.5" fill="#555">estimators of the underlying benchmark-specific abilities.</text>
+<title>C2 [Contribution] (cites=0)
+This new sparse benchmark goes beyond point scores by yielding estimators of the underlying benchmark-specific abilities.</title>
+</g>
+<g>
+<rect x="247" y="1976" width="360" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="427" y="1990" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C3 [Contribution: Finding 1]</text>
+<text x="427" y="2005" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Finding 1: 1.24% RMSE per benchmark</text>
+<text x="427" y="2021" text-anchor="middle" font-size="9.5" fill="#555">We show that these estimators (1) can be used to reconstruct each</text>
+<text x="427" y="2033" text-anchor="middle" font-size="9.5" fill="#555">original individual benchmark score with, on average, 1.24% root</text>
+<text x="427" y="2045" text-anchor="middle" font-size="9.5" fill="#555">mean square error (RMSE),</text>
+<title>C3 [Contribution: Finding 1] (cites=0)
+We show that these estimators (1) can be used to reconstruct each original individual benchmark score with, on average, 1.24% root mean square error (RMSE),</title>
+</g>
+<g>
+<rect x="625" y="1976" width="360" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="805" y="1990" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C4 [Contribution: Finding 2]</text>
+<text x="805" y="2005" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Finding 2: 0.58% RMSE total</text>
+<text x="805" y="2021" text-anchor="middle" font-size="9.5" fill="#555">(2) reconstruct the original total score with 0.58% RMSE, and</text>
+<title>C4 [Contribution: Finding 2] (cites=0)
+(2) reconstruct the original total score with 0.58% RMSE, and</title>
+</g>
+<g>
+<rect x="1003" y="1976" width="360" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1183" y="1990" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C5 [Contribution: Finding 3]</text>
+<text x="1183" y="2005" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Finding 3: r=0.94 common factor</text>
+<text x="1183" y="2021" text-anchor="middle" font-size="9.5" fill="#555">(3) have a single underlying common factor whose Spearman</text>
+<text x="1183" y="2033" text-anchor="middle" font-size="9.5" fill="#555">correlation with the total score is r = 0.94.</text>
+<title>C5 [Contribution: Finding 3] (cites=0)
+(3) have a single underlying common factor whose Spearman correlation with the total score is r = 0.94.</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

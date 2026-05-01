@@ -1,0 +1,167 @@
+{
+  "paper_id": "FA0209",
+  "paper_topic": "GradRatio-Select: gradient-based layer selection for fine-tuning model editing",
+  "anchor_paper": "Fine-tuning-based editing (Yang et al., 2025b)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "Large language models encode vast amounts of factual knowledge in their parameters, but this knowledge can become outdated or incorrect over time.",
+      "display_label": "LLM knowledge becomes outdated",
+      "citations": 0
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "Model editing has emerged as a promising approach to update specific facts without expensive full retraining (Zhang et al., 2024; Wang et al., 2023).",
+      "display_label": "Model editing for fact updates",
+      "citations": 2
+    },
+    {
+      "id": "N3",
+      "type": "Prior_Work",
+      "text": "Methods such as ROME (Meng et al., 2022a) and MEMIT (Meng et al., 2022b) directly modify model weights to insert new knowledge, while memory-based approaches like MEND (Mitchell et al., 2021) and SERAC (Mitchell et al., 2022) learn to predict weight updates or store edits externally.",
+      "display_label": "ROME/MEMIT vs MEND/SERAC",
+      "citations": 4
+    },
+    {
+      "id": "N4",
+      "type": "Prior_Work",
+      "text": "Fine-tuning-based editing offers a simpler alternative: directly optimizing a subset of model parameters on the edit examples (Yang et al., 2025b).",
+      "display_label": "Fine-tuning-based editing",
+      "citations": 1,
+      "anchor": true
+    },
+    {
+      "id": "N5",
+      "type": "Prior_Work",
+      "text": "This approach achieves competitive editing performance while avoiding the complexity of specialized editing networks.",
+      "display_label": "Competitive without editing networks",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Limitation",
+      "text": "However, a critical design choice remains: which layer should be fine-tuned?",
+      "display_label": "Open question: which layer?",
+      "citations": 0
+    },
+    {
+      "id": "N7pw",
+      "type": "Prior_Work",
+      "text": "Current practice relies on model-specific heuristics—early-middle layers for some architectures, late-middle layers for others—determined through expensive layer sweeps (Yang et al., 2025b).",
+      "display_label": "Current heuristics via layer sweeps",
+      "citations": 1
+    },
+    {
+      "id": "N7",
+      "type": "Limitation",
+      "text": "These heuristics lack principled justification and must be re-tuned for each new model family.",
+      "display_label": "Heuristics: ad hoc, must re-tune",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Method",
+      "text": "In this paper, we investigate whether gradient information can provide a principled basis for layer selection.",
+      "display_label": "Investigate gradient-based selection",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Method",
+      "text": "We propose GradRatio-Select, which computes the ratio of edit-to-retain gradient magnitudes across layers: S(ℓ) = ∥gedit (ℓ)∥2 /∥gretain (ℓ)∥2 .",
+      "display_label": "Propose GradRatio-Select score",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Method",
+      "text": "The intuition is that an ideal editing layer should be responsive to the edit objective (large edit gradient) while having minimal impact on general capabilities (small retain gradient).",
+      "display_label": "Intuition: edit-sensitive, retain-safe",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Method",
+      "text": "We further introduce an adaptive threshold to exclude structurally critical early layers that would cause catastrophic capability loss if modified.",
+      "display_label": "Adaptive threshold excludes early layers",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Result",
+      "text": "Our experiments on Qwen2.5-7B and LLaMA-3-8B reveal that GradRatio-Select automatically identifies layers adjacent to manually-tuned heuristics.",
+      "display_label": "Auto-selects layers adjacent to heuristics",
+      "citations": 0
+    },
+    {
+      "id": "N13",
+      "type": "Result",
+      "text": "On Qwen2.5-7B, the method achieves performance statistically indistinguishable from the baseline.",
+      "display_label": "Qwen2.5-7B: matches baseline",
+      "citations": 0
+    },
+    {
+      "id": "N14",
+      "type": "Result",
+      "text": "However, on LLaMA-3-8B, it shows a 5.26 percentage point capability degradation, primarily driven by mathematical reasoning tasks.",
+      "display_label": "LLaMA-3-8B: -5.26pp on math",
+      "citations": 0
+    },
+    {
+      "id": "N15",
+      "type": "Result",
+      "text": "These results suggest that while gradient-based selection can automate layer identification, it does not improve upon carefully-tuned heuristics.",
+      "display_label": "Automation but no improvement",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We propose GradRatio scoring, a gradient-based metric for evaluating layer editability based on the ratio of edit-to-retain gradient magnitudes.",
+      "display_label": "C1: GradRatio scoring metric",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We introduce an adaptive threshold mechanism that excludes structurally critical early layers, preventing capability catastrophe.",
+      "display_label": "C2: adaptive early-layer threshold",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We provide empirical evaluation showing that GradRatio-Select matches heuristic performance on Qwen2.5-7B but underperforms on LLaMA-3-8B, demonstrating that gradient-based selection provides automation without improvement.",
+      "display_label": "C3: matches Qwen, lags LLaMA",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "elaboration"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "contrast", "connective": "However"},
+    {"from": "N6", "to": "N7pw", "kind": "elaboration"},
+    {"from": "N7pw", "to": "N7", "kind": "elaboration"},
+    {"from": "N4", "to": "N6", "kind": "contrast", "connective": "However"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "elaboration"},
+    {"from": "N9", "to": "N10", "kind": "elaboration"},
+    {"from": "N10", "to": "N11", "kind": "elaboration"},
+    {"from": "N11", "to": "N12", "kind": "elaboration"},
+    {"from": "N12", "to": "N13", "kind": "elaboration"},
+    {"from": "N13", "to": "N14", "kind": "contrast", "connective": "However"},
+    {"from": "N14", "to": "N15", "kind": "elaboration"},
+    {"from": "N15", "to": "C1", "kind": "elaboration"},
+    {"from": "N15", "to": "C2", "kind": "elaboration"},
+    {"from": "N15", "to": "C3", "kind": "elaboration"},
+    {"from": "N9", "to": "N7", "kind": "addresses"},
+    {"from": "N11", "to": "N7", "kind": "addresses"},
+    {"from": "C1", "to": "N7", "kind": "addresses"},
+    {"from": "C3", "to": "N7", "kind": "addresses"}
+  ],
+  "observations": "FA0209 is a negative-result paper on automating layer selection for fine-tuning-based model editing. Para 1 (N1-N3) sets up Context: LLMs hold knowledge that goes stale, model editing solves this, and a Prior_Work cluster names ROME/MEMIT (weight-modifying) vs MEND/SERAC (memory-based). Para 2 narrows to the anchor Prior_Work — fine-tuning-based editing (N4, anchor=true) — and pivots on 'However' to the open-question Limitation N6 ('which layer?'). The next sentence describes the heuristic baseline being critiqued; per Pass 3 / Case C of the SKILL, the original sentence was split: N7pw (Prior_Work — current heuristic practice with citation Yang 2025b) and N7 (Limitation — heuristics lack justification). Both Limitation nodes (N6, N7) have proper Prior_Work upstream sources: N4 -> N6 contrast (the 'its' / 'a critical design choice remains' refers to fine-tuning-based editing, the anchor PW), and N7pw -> N7 elaboration.\n\nThe Method block (N8-N11) introduces the gradient-based investigation, the GradRatio score, the intuition, and the adaptive threshold. Results (N12-N15) report the headline negative finding: matches Qwen baseline but degrades 5.26pp on LLaMA-3-8B. Three Contributions (C1-C3) close. Multiple addresses edges back to N7 (the heuristic-justification Limitation): N9 (the score itself), N11 (adaptive threshold), C1 (the metric), C3 (empirical demonstration). N7 is a join node by topology; N15 forks into the three contributions. The arc reflects a candid negative-result framing: automate, but don't beat, the prior heuristic."
+}

@@ -1,0 +1,383 @@
+<svg viewBox="0 0 1480 2628" xmlns="http://www.w3.org/2000/svg" style="width:100%; background:#fdfcf6; border:1px solid #e2e0d7; border-radius:8px;" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="ar"      viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/></marker>
+  <marker id="ar-crit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c4502e"/></marker>
+  <marker id="ar-cons" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3a6a8a"/></marker>
+  <marker id="ar-ev"   viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b38a2c"/></marker>
+  <marker id="ar-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a3ec4"/></marker>
+</defs>
+<text x="14" y="260" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTEXT</text>
+<text x="14" y="652" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">PRIOR_WORK</text>
+<line x1="60" y1="500" x2="1450" y2="500" stroke="#eee" stroke-width="1"/>
+<text x="14" y="956" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">LIMITATION</text>
+<line x1="60" y1="804" x2="1450" y2="804" stroke="#eee" stroke-width="1"/>
+<text x="14" y="1552" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">METHOD</text>
+<line x1="60" y1="1108" x2="1450" y2="1108" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2130" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">RESULT</text>
+<line x1="60" y1="1996" x2="1450" y2="1996" stroke="#eee" stroke-width="1"/>
+<text x="14" y="2416" font-size="11" fill="#666" font-weight="700" dominant-baseline="middle">CONTRIBUTION</text>
+<line x1="60" y1="2264" x2="1450" y2="2264" stroke="#eee" stroke-width="1"/>
+<rect x="424" y="2292" width="762" height="128" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="432" y="2288" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from N24</text>
+<rect x="158" y="2416" width="1294" height="116" rx="10" fill="none" stroke="#9b8a3a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+<text x="166" y="2412" font-size="10" fill="#9b8a3a" font-style="italic" font-weight="600">FORK from C2</text>
+<line x1="805" y1="164" x2="805" y2="192" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="805" y="175" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">For example</text>
+<line x1="805" y1="252" x2="805" y2="280" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="364" x2="805" y2="392" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="375" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="452" x2="616" y2="548" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="710" y="497" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">For example</text>
+<line x1="616" y1="644" x2="805" y2="672" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="756" x2="616" y2="852" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="936" x2="994" y2="548" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="805" y="739" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">Although</text>
+<line x1="994" y1="644" x2="994" y2="852" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="936" x2="616" y2="1156" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="805" y="1043" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To improve</text>
+<line x1="616" y1="1240" x2="616" y2="1268" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1364" x2="616" y2="1392" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1488" x2="616" y2="1516" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1612" x2="616" y2="1640" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="1736" x2="805" y2="964" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)" opacity="0.9"/>
+<text x="710" y="1347" font-size="9.5" fill="#c4502e" font-weight="600" text-anchor="middle">However</text>
+<line x1="805" y1="1060" x2="994" y2="1156" stroke="#3a6a8a" stroke-width="1.5" marker-end="url(#ar-cons)" opacity="0.9"/>
+<text x="899" y="1105" font-size="9.5" fill="#3a6a8a" font-weight="600" text-anchor="middle">To address this issue</text>
+<line x1="994" y1="1240" x2="994" y2="1268" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1364" x2="994" y2="1392" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="994" y="1375" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Subsequently</text>
+<line x1="994" y1="1488" x2="994" y2="1516" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<text x="994" y="1499" font-size="9.5" fill="#666" font-weight="600" text-anchor="middle">Finally</text>
+<line x1="994" y1="1612" x2="994" y2="1640" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="1736" x2="805" y2="1764" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1848" x2="805" y2="1876" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="1948" x2="805" y2="2044" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2116" x2="805" y2="2144" stroke="#b38a2c" stroke-width="1.5" marker-end="url(#ar-ev)" opacity="0.9"/>
+<line x1="805" y1="2216" x2="616" y2="2312" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="805" y1="2216" x2="994" y2="2312" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="2408" x2="322" y2="2436" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="2408" x2="644" y2="2436" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="2408" x2="966" y2="2436" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="2408" x2="1288" y2="2436" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="994" y1="936" x2="805" y2="964" stroke="#666" stroke-width="1.2" marker-end="url(#ar)" opacity="0.9"/>
+<line x1="616" y1="2408" x2="994" y2="852" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="1288" y1="2520" x2="994" y2="852" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<line x1="322" y1="2520" x2="805" y2="964" stroke="#7a3ec4" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#ar-back)" opacity="0.9"/>
+<g>
+<rect x="595" y="68" width="420" height="96" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="82" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N1 [Context]</text>
+<text x="805" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Open-world RL: vast state, flexible, partial obs</text>
+<text x="805" y="113" text-anchor="middle" font-size="9.5" fill="#555">Open-world decision-making in the context of reinforcement learning (RL)</text>
+<text x="805" y="125" text-anchor="middle" font-size="9.5" fill="#555">involves the following characteristics: (i) The agent operates within an</text>
+<text x="805" y="137" text-anchor="middle" font-size="9.5" fill="#555">interactive environment that features a vast state space; (ii) The learned</text>
+<text x="805" y="149" text-anchor="middle" font-size="9.5" fill="#555">policy presents a…</text>
+<title>N1 [Context] (cites=0)
+Open-world decision-making in the context of reinforcement learning (RL) involves the following characteristics: (i) The agent operates within an interactive environment that features a vast state space; (ii) The learned policy presents a high degree of flexibility, allowing interaction with various objects in the environment; (iii) The agent lacks full visibility of the internal states and physical dynamics of the external world, meaning that its perception of the environment (e.g., raw images) carries substantial uncertainty.</title>
+</g>
+<g>
+<rect x="595" y="192" width="420" height="60" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="206" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N2 [Context]</text>
+<text x="805" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Minecraft as example</text>
+<text x="805" y="237" text-anchor="middle" font-size="9.5" fill="#555">For example, Minecraft serves as a typical open-world game.</text>
+<title>N2 [Context] (cites=0)
+For example, Minecraft serves as a typical open-world game.</title>
+</g>
+<g>
+<rect x="595" y="280" width="420" height="84" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="294" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N3 [Context]</text>
+<text x="805" y="309" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Visual open-world: human-level from pixels</text>
+<text x="805" y="325" text-anchor="middle" font-size="9.5" fill="#555">Building upon recent progress in visual control, open-world decision-making</text>
+<text x="805" y="337" text-anchor="middle" font-size="9.5" fill="#555">aims to train agents to approach human-level intelligence based solely on</text>
+<text x="805" y="349" text-anchor="middle" font-size="9.5" fill="#555">high-dimensional visual observations.</text>
+<title>N3 [Context] (cites=0)
+Building upon recent progress in visual control, open-world decision-making aims to train agents to approach human-level intelligence based solely on high-dimensional visual observations.</title>
+</g>
+<g>
+<rect x="595" y="392" width="420" height="60" rx="6" fill="#e0ebf5" stroke="#6d8ba8" stroke-width="1.2"/>
+<text x="805" y="406" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N4 [Context]</text>
+<text x="805" y="421" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Visual open-world has challenges</text>
+<text x="805" y="437" text-anchor="middle" font-size="9.5" fill="#555">However, this presents significant challenges.</text>
+<title>N4 [Context] (cites=0)
+However, this presents significant challenges.</title>
+</g>
+<circle cx="803.0" cy="556.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="436" y="548" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="616" y="562" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N5 [Prior_Work]</text>
+<text x="616" y="577" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Voyager: Minecraft APIs, not visual</text>
+<text x="616" y="593" text-anchor="middle" font-size="9.5" fill="#555">For example, in Minecraft tasks, existing methods like Voyager</text>
+<text x="616" y="605" text-anchor="middle" font-size="9.5" fill="#555">(Wang et al., 2024a) employ specific Minecraft APIs as the</text>
+<text x="616" y="617" text-anchor="middle" font-size="9.5" fill="#555">high-level controller, which is incompatible with standard visual</text>
+<text x="616" y="629" text-anchor="middle" font-size="9.5" fill="#555">control settings.</text>
+<title>N5 [Prior_Work] (cites=1)
+For example, in Minecraft tasks, existing methods like Voyager (Wang et al., 2024a) employ specific Minecraft APIs as the high-level controller, which is incompatible with standard visual control settings.</title>
+</g>
+<circle cx="1022.0" cy="680.0" r="2.8" fill="#9b7a2e"/>
+<circle cx="1022.0" cy="688.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="672" width="420" height="84" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="805" y="686" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N6 [Prior_Work]</text>
+<text x="805" y="701" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">PPO-MineCLIP/DECKARD: model-free struggle</text>
+<text x="805" y="717" text-anchor="middle" font-size="9.5" fill="#555">While approaches such as PPO-with-MineCLIP (Fan et al., 2022) and DECKARD</text>
+<text x="805" y="729" text-anchor="middle" font-size="9.5" fill="#555">(Nottingham et al., 2023) perform low-level visual control, these model-free</text>
+<text x="805" y="741" text-anchor="middle" font-size="9.5" fill="#555">RL methods struggle to grasp the underlying mechanics of the environment.</text>
+<title>N6 [Prior_Work] (cites=2)
+While approaches such as PPO-with-MineCLIP (Fan et al., 2022) and DECKARD (Nottingham et al., 2023) perform low-level visual control, these model-free RL methods struggle to grasp the underlying mechanics of the environment.</title>
+</g>
+<g>
+<rect x="436" y="852" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="616" y="866" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N7 [Limitation]</text>
+<text x="616" y="881" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Model-free: costly trial-and-error</text>
+<text x="616" y="897" text-anchor="middle" font-size="9.5" fill="#555">This may result in high trial-and-error costs, leading to</text>
+<text x="616" y="909" text-anchor="middle" font-size="9.5" fill="#555">inefficiencies in both exploration and sample usage.</text>
+<title>N7 [Limitation] (cites=0)
+This may result in high trial-and-error costs, leading to inefficiencies in both exploration and sample usage.</title>
+</g>
+<circle cx="1181.0" cy="556.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="548" width="360" height="96" rx="6" fill="#e8e8e8" stroke="#888" stroke-width="1.2"/>
+<text x="994" y="562" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N8 [Prior_Work : ANCHOR]</text>
+<text x="994" y="577" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">DreamerV3 MBRL but short-sighted (15 steps)</text>
+<text x="994" y="593" text-anchor="middle" font-size="9.5" fill="#555">Although DreamerV3 (Hafner et al., 2023) employs a model-based RL</text>
+<text x="994" y="605" text-anchor="middle" font-size="9.5" fill="#555">(MBRL) approach to improve sample efficiency, it is often</text>
+<text x="994" y="617" text-anchor="middle" font-size="9.5" fill="#555">“short-sighted” since the policy is optimized using short-term</text>
+<text x="994" y="629" text-anchor="middle" font-size="9.5" fill="#555">experiences—typically 15 time steps—generated by the…</text>
+<title>N8 [Prior_Work] (cites=1)
+Although DreamerV3 (Hafner et al., 2023) employs a model-based RL (MBRL) approach to improve sample efficiency, it is often “short-sighted” since the policy is optimized using short-term experiences—typically 15 time steps—generated by the world model.</title>
+</g>
+<g>
+<rect x="814" y="852" width="360" height="84" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="994" y="866" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N9 [Limitation]</text>
+<text x="994" y="881" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">No long-term guidance hurts exploration</text>
+<text x="994" y="897" text-anchor="middle" font-size="9.5" fill="#555">The absence of long-term guidance significantly hampers an</text>
+<text x="994" y="909" text-anchor="middle" font-size="9.5" fill="#555">effective exploration of the vast solution space of the open</text>
+<text x="994" y="921" text-anchor="middle" font-size="9.5" fill="#555">world.</text>
+<title>N9 [Limitation] (cites=0)
+The absence of long-term guidance significantly hampers an effective exploration of the vast solution space of the open world.</title>
+</g>
+<g>
+<rect x="436" y="1156" width="360" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1170" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N10 [Method]</text>
+<text x="616" y="1185" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Introduce LS-Imagine</text>
+<text x="616" y="1201" text-anchor="middle" font-size="9.5" fill="#555">To improve the behavior learning efficiency of MBRL, in this</text>
+<text x="616" y="1213" text-anchor="middle" font-size="9.5" fill="#555">paper, we introduce a novel method named Long Short-Term</text>
+<text x="616" y="1225" text-anchor="middle" font-size="9.5" fill="#555">Imagination (LS-Imagine).</text>
+<title>N10 [Method] (cites=0)
+To improve the behavior learning efficiency of MBRL, in this paper, we introduce a novel method named Long Short-Term Imagination (LS-Imagine).</title>
+</g>
+<g>
+<rect x="436" y="1268" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1282" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N11 [Method]</text>
+<text x="616" y="1297" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Simulate long-term effects without 1-step rollouts</text>
+<text x="616" y="1313" text-anchor="middle" font-size="9.5" fill="#555">Our key approach involves enabling the world model to efficiently</text>
+<text x="616" y="1325" text-anchor="middle" font-size="9.5" fill="#555">simulate the long-term effects of specific behaviors without the</text>
+<text x="616" y="1337" text-anchor="middle" font-size="9.5" fill="#555">need for repeatedly rolling out one-step predictions.</text>
+<title>N11 [Method] (cites=0)
+Our key approach involves enabling the world model to efficiently simulate the long-term effects of specific behaviors without the need for repeatedly rolling out one-step predictions.</title>
+</g>
+<g>
+<rect x="436" y="1392" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1406" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N12 [Method]</text>
+<text x="616" y="1421" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Instant + jumpy transitions in joint space</text>
+<text x="616" y="1437" text-anchor="middle" font-size="9.5" fill="#555">As illustrated in Figure 1, once trained, the world model provides</text>
+<text x="616" y="1449" text-anchor="middle" font-size="9.5" fill="#555">both instant and jumpy state transitions along with corresponding</text>
+<text x="616" y="1461" text-anchor="middle" font-size="9.5" fill="#555">(intrinsic) rewards, facilitating policy optimization in a joint</text>
+<text x="616" y="1473" text-anchor="middle" font-size="9.5" fill="#555">space of short- and long-term…</text>
+<title>N12 [Method] (cites=0)
+As illustrated in Figure 1, once trained, the world model provides both instant and jumpy state transitions along with corresponding (intrinsic) rewards, facilitating policy optimization in a joint space of short- and long-term imaginations.</title>
+</g>
+<g>
+<rect x="436" y="1516" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1530" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N13 [Method]</text>
+<text x="616" y="1545" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Encourages long-term exploration</text>
+<text x="616" y="1561" text-anchor="middle" font-size="9.5" fill="#555">This encourages the agent to explore behaviors that lead to</text>
+<text x="616" y="1573" text-anchor="middle" font-size="9.5" fill="#555">promising long-term outcomes.</text>
+<title>N13 [Method] (cites=0)
+This encourages the agent to explore behaviors that lead to promising long-term outcomes.</title>
+</g>
+<g>
+<rect x="436" y="1640" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="616" y="1654" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N14 [Method]</text>
+<text x="616" y="1669" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Train long short-term world model</text>
+<text x="616" y="1685" text-anchor="middle" font-size="9.5" fill="#555">The foundation of LS-Imagine is to train a long short-term world</text>
+<text x="616" y="1697" text-anchor="middle" font-size="9.5" fill="#555">model, which requires integrating task-specific guidance into the</text>
+<text x="616" y="1709" text-anchor="middle" font-size="9.5" fill="#555">representation learning phase based on off-policy experience</text>
+<text x="616" y="1721" text-anchor="middle" font-size="9.5" fill="#555">replay.</text>
+<title>N14 [Method] (cites=0)
+The foundation of LS-Imagine is to train a long short-term world model, which requires integrating task-specific guidance into the representation learning phase based on off-policy experience replay.</title>
+</g>
+<g>
+<rect x="595" y="964" width="420" height="96" rx="6" fill="#f5dcd4" stroke="#c4502e" stroke-width="1.2"/>
+<text x="805" y="978" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N15 [Limitation]</text>
+<text x="805" y="993" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Chicken-and-egg dilemma for jumpy transitions</text>
+<text x="805" y="1009" text-anchor="middle" font-size="9.5" fill="#555">However, this creates a classic “chicken-and-egg” dilemma: without true data</text>
+<text x="805" y="1021" text-anchor="middle" font-size="9.5" fill="#555">showing the agent has reached the goal, how can we effectively train the</text>
+<text x="805" y="1033" text-anchor="middle" font-size="9.5" fill="#555">model to simulate jumpy transitions from current states to pivotal future</text>
+<text x="805" y="1045" text-anchor="middle" font-size="9.5" fill="#555">states that…</text>
+<title>N15 [Limitation] (cites=0)
+However, this creates a classic “chicken-and-egg” dilemma: without true data showing the agent has reached the goal, how can we effectively train the model to simulate jumpy transitions from current states to pivotal future states that suggest a high likelihood of achieving that goal?</title>
+</g>
+<g>
+<rect x="814" y="1156" width="360" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1170" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N16 [Method]</text>
+<text x="994" y="1185" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Zoom-in to simulate goal approach</text>
+<text x="994" y="1201" text-anchor="middle" font-size="9.5" fill="#555">To address this issue, we first continuously zoom in on individual</text>
+<text x="994" y="1213" text-anchor="middle" font-size="9.5" fill="#555">images to simulate the consecutive video frames as the agent</text>
+<text x="994" y="1225" text-anchor="middle" font-size="9.5" fill="#555">approaches the goal.</text>
+<title>N16 [Method] (cites=0)
+To address this issue, we first continuously zoom in on individual images to simulate the consecutive video frames as the agent approaches the goal.</title>
+</g>
+<circle cx="1181.0" cy="1276.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="814" y="1268" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1282" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N17 [Method]</text>
+<text x="994" y="1297" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Affordance maps via MineCLIP</text>
+<text x="994" y="1313" text-anchor="middle" font-size="9.5" fill="#555">We then generate affordance maps by evaluating the relevance of</text>
+<text x="994" y="1325" text-anchor="middle" font-size="9.5" fill="#555">the pseudo video to task-specific goals presented in textual</text>
+<text x="994" y="1337" text-anchor="middle" font-size="9.5" fill="#555">instructions, using the established MineCLIP reward model (Fan et</text>
+<text x="994" y="1349" text-anchor="middle" font-size="9.5" fill="#555">al., 2022).</text>
+<title>N17 [Method] (cites=1)
+We then generate affordance maps by evaluating the relevance of the pseudo video to task-specific goals presented in textual instructions, using the established MineCLIP reward model (Fan et al., 2022).</title>
+</g>
+<g>
+<rect x="814" y="1392" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1406" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N18 [Method]</text>
+<text x="994" y="1421" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Train branches for instant + jumpy transitions</text>
+<text x="994" y="1437" text-anchor="middle" font-size="9.5" fill="#555">Subsequently, we train specific branches of the world model to</text>
+<text x="994" y="1449" text-anchor="middle" font-size="9.5" fill="#555">capture both instant and jumpy state transitions, using pairs of</text>
+<text x="994" y="1461" text-anchor="middle" font-size="9.5" fill="#555">image observations from adjacent time steps as well as those</text>
+<text x="994" y="1473" text-anchor="middle" font-size="9.5" fill="#555">across longer intervals.</text>
+<title>N18 [Method] (cites=0)
+Subsequently, we train specific branches of the world model to capture both instant and jumpy state transitions, using pairs of image observations from adjacent time steps as well as those across longer intervals.</title>
+</g>
+<g>
+<rect x="814" y="1516" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1530" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N19 [Method]</text>
+<text x="994" y="1545" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Policy optimized over imagined latents</text>
+<text x="994" y="1561" text-anchor="middle" font-size="9.5" fill="#555">Finally, we optimize the agent's policy based on a finite sequence</text>
+<text x="994" y="1573" text-anchor="middle" font-size="9.5" fill="#555">of imagined latent states generated by the world model,</text>
+<text x="994" y="1585" text-anchor="middle" font-size="9.5" fill="#555">integrating a more direct estimate of long-term values into</text>
+<text x="994" y="1597" text-anchor="middle" font-size="9.5" fill="#555">decision-making.</text>
+<title>N19 [Method] (cites=0)
+Finally, we optimize the agent's policy based on a finite sequence of imagined latent states generated by the world model, integrating a more direct estimate of long-term values into decision-making.</title>
+</g>
+<g>
+<rect x="814" y="1640" width="360" height="96" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="994" y="1654" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N20 [Method]</text>
+<text x="994" y="1669" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Example: 'cut a tree' simulate near-future</text>
+<text x="994" y="1685" text-anchor="middle" font-size="9.5" fill="#555">Let's use the example in Figure 1 to further elaborate the novel</text>
+<text x="994" y="1697" text-anchor="middle" font-size="9.5" fill="#555">aspects of the behavior learning process: After receiving the</text>
+<text x="994" y="1709" text-anchor="middle" font-size="9.5" fill="#555">instruction “cut a tree”, the agent simulates near-future states</text>
+<text x="994" y="1721" text-anchor="middle" font-size="9.5" fill="#555">based on the current real observation.</text>
+<title>N20 [Method] (cites=0)
+Let's use the example in Figure 1 to further elaborate the novel aspects of the behavior learning process: After receiving the instruction “cut a tree”, the agent simulates near-future states based on the current real observation.</title>
+</g>
+<g>
+<rect x="595" y="1764" width="420" height="84" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1778" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N21 [Method]</text>
+<text x="805" y="1793" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Single-step rollouts then jump</text>
+<text x="805" y="1809" text-anchor="middle" font-size="9.5" fill="#555">It initially performs several single-step rollouts until it identifies a</text>
+<text x="805" y="1821" text-anchor="middle" font-size="9.5" fill="#555">point in time for a long-distance state jump that allows it to approach the</text>
+<text x="805" y="1833" text-anchor="middle" font-size="9.5" fill="#555">tree.</text>
+<title>N21 [Method] (cites=0)
+It initially performs several single-step rollouts until it identifies a point in time for a long-distance state jump that allows it to approach the tree.</title>
+</g>
+<g>
+<rect x="595" y="1876" width="420" height="72" rx="6" fill="#d5ece8" stroke="#3a8a7e" stroke-width="1.2"/>
+<text x="805" y="1890" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N22 [Method]</text>
+<text x="805" y="1905" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Jump and maximize long-sight value</text>
+<text x="805" y="1921" text-anchor="middle" font-size="9.5" fill="#555">The agent then executes this jump and optimizes its policy network to</text>
+<text x="805" y="1933" text-anchor="middle" font-size="9.5" fill="#555">maximize the long-sight value function.</text>
+<title>N22 [Method] (cites=0)
+The agent then executes this jump and optimizes its policy network to maximize the long-sight value function.</title>
+</g>
+<circle cx="1022.0" cy="2052.0" r="2.8" fill="#9b7a2e"/>
+<g>
+<rect x="595" y="2044" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2058" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N23 [Result]</text>
+<text x="805" y="2073" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Evaluate on MineDojo</text>
+<text x="805" y="2089" text-anchor="middle" font-size="9.5" fill="#555">We evaluate our approach in the challenging open-world tasks from MineDojo</text>
+<text x="805" y="2101" text-anchor="middle" font-size="9.5" fill="#555">(Fan et al., 2022).</text>
+<title>N23 [Result] (cites=1)
+We evaluate our approach in the challenging open-world tasks from MineDojo (Fan et al., 2022).</title>
+</g>
+<g>
+<rect x="595" y="2144" width="420" height="72" rx="6" fill="#f0e6f5" stroke="#7a3ec4" stroke-width="1.2"/>
+<text x="805" y="2158" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">N24 [Result]</text>
+<text x="805" y="2173" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Superior to existing visual RL</text>
+<text x="805" y="2189" text-anchor="middle" font-size="9.5" fill="#555">LS-Imagine demonstrates superior performance compared to existing visual RL</text>
+<text x="805" y="2201" text-anchor="middle" font-size="9.5" fill="#555">methods.</text>
+<title>N24 [Result] (cites=0)
+LS-Imagine demonstrates superior performance compared to existing visual RL methods.</title>
+</g>
+<g>
+<rect x="436" y="2312" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="616" y="2326" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C1 [Contribution]</text>
+<text x="616" y="2341" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C1: novel MBRL with jumpy transitions</text>
+<text x="616" y="2357" text-anchor="middle" font-size="9.5" fill="#555">We present a novel model-based RL method that captures both</text>
+<text x="616" y="2369" text-anchor="middle" font-size="9.5" fill="#555">instant and jumpy state transitions and leverages them in behavior</text>
+<text x="616" y="2381" text-anchor="middle" font-size="9.5" fill="#555">learning to improve exploration efficiency in the open world.</text>
+<title>C1 [Contribution] (cites=0)
+We present a novel model-based RL method that captures both instant and jumpy state transitions and leverages them in behavior learning to improve exploration efficiency in the open world.</title>
+</g>
+<g>
+<rect x="814" y="2312" width="360" height="96" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="994" y="2326" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2 [Contribution]</text>
+<text x="994" y="2341" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2: four concrete contributions list</text>
+<text x="994" y="2357" text-anchor="middle" font-size="9.5" fill="#555">Our approach presents four concrete contributions: (i) a long</text>
+<text x="994" y="2369" text-anchor="middle" font-size="9.5" fill="#555">short-term world model architecture, (ii) a method for generating</text>
+<text x="994" y="2381" text-anchor="middle" font-size="9.5" fill="#555">affordance maps through image zoom-in, (iii) a novel form of</text>
+<text x="994" y="2393" text-anchor="middle" font-size="9.5" fill="#555">intrinsic rewards based on the affordance map, and…</text>
+<title>C2 [Contribution] (cites=0)
+Our approach presents four concrete contributions: (i) a long short-term world model architecture, (ii) a method for generating affordance maps through image zoom-in, (iii) a novel form of intrinsic rewards based on the affordance map, and (iv) an improved behavior learning method that integrates long-term values and operates on a mixed long short-term imagination pathway.</title>
+</g>
+<g>
+<rect x="170" y="2436" width="304" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="322" y="2450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2a [Contribution]</text>
+<text x="322" y="2465" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2(i): LS world-model architecture</text>
+<text x="322" y="2481" text-anchor="middle" font-size="9.5" fill="#555">(i) a long short-term world model architecture</text>
+<title>C2a [Contribution] (cites=0)
+(i) a long short-term world model architecture</title>
+</g>
+<g>
+<rect x="492" y="2436" width="304" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="644" y="2450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2b [Contribution]</text>
+<text x="644" y="2465" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2(ii): affordance maps via zoom-in</text>
+<text x="644" y="2481" text-anchor="middle" font-size="9.5" fill="#555">(ii) a method for generating affordance maps through</text>
+<text x="644" y="2493" text-anchor="middle" font-size="9.5" fill="#555">image zoom-in</text>
+<title>C2b [Contribution] (cites=0)
+(ii) a method for generating affordance maps through image zoom-in</title>
+</g>
+<g>
+<rect x="814" y="2436" width="304" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="966" y="2450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2c [Contribution]</text>
+<text x="966" y="2465" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2(iii): intrinsic rewards from affordance map</text>
+<text x="966" y="2481" text-anchor="middle" font-size="9.5" fill="#555">(iii) a novel form of intrinsic rewards based on the</text>
+<text x="966" y="2493" text-anchor="middle" font-size="9.5" fill="#555">affordance map</text>
+<title>C2c [Contribution] (cites=0)
+(iii) a novel form of intrinsic rewards based on the affordance map</title>
+</g>
+<g>
+<rect x="1136" y="2436" width="304" height="84" rx="6" fill="#d8ead4" stroke="#3e8a3e" stroke-width="1.2"/>
+<text x="1288" y="2450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333">C2d [Contribution]</text>
+<text x="1288" y="2465" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">C2(iv): behavior learning with long-term values</text>
+<text x="1288" y="2481" text-anchor="middle" font-size="9.5" fill="#555">(iv) an improved behavior learning method that</text>
+<text x="1288" y="2493" text-anchor="middle" font-size="9.5" fill="#555">integrates long-term values and operates on a mixed</text>
+<text x="1288" y="2505" text-anchor="middle" font-size="9.5" fill="#555">long short-term imagination pathway</text>
+<title>C2d [Contribution] (cites=0)
+(iv) an improved behavior learning method that integrates long-term values and operates on a mixed long short-term imagination pathway</title>
+</g>
+<g><rect x="1245" y="12" width="225" height="92" rx="6" fill="#ffffff" stroke="#ccc" stroke-width="0.8" opacity="0.95"/>
+<text x="1253" y="26" font-size="9.5" font-weight="700" fill="#333">EDGE TYPES</text>
+<line x1="1253" y1="40" x2="1275" y2="40" stroke="#666" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="1283" y="43" font-size="9" fill="#444">elaboration (default flow)</text>
+<line x1="1253" y1="53" x2="1275" y2="53" stroke="#c4502e" stroke-width="1.6" marker-end="url(#ar-crit)"/>
+<text x="1283" y="56" font-size="9" fill="#444">contrast (However / But)</text>
+<line x1="1253" y1="66" x2="1275" y2="66" stroke="#3a6a8a" stroke-width="1.6" marker-end="url(#ar-cons)"/>
+<text x="1283" y="69" font-size="9" fill="#444">consequence (Therefore)</text>
+<line x1="1253" y1="79" x2="1275" y2="79" stroke="#b38a2c" stroke-width="1.6" marker-end="url(#ar-ev)"/>
+<text x="1283" y="82" font-size="9" fill="#444">evidence (→ Result/Proof)</text>
+<line x1="1253" y1="92" x2="1275" y2="92" stroke="#7a3ec4" stroke-width="1.6" stroke-dasharray="4 2" marker-end="url(#ar-back)"/>
+<text x="1283" y="95" font-size="9" fill="#444">addresses (Method↔Limit)</text>
+</g>
+</svg>

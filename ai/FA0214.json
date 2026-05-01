@@ -1,0 +1,174 @@
+{
+  "paper_id": "FA0214",
+  "paper_topic": "Fit Cards: query-conditioned structured metadata for agentic marketplace search at large consideration sets",
+  "anchor_paper": "Magentic Marketplace (Bansal et al., 2025)",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "Context",
+      "text": "As large language models become capable of autonomous economic action, a new paradigm of agentic commerce is emerging where AI agents search, negotiate, and transact on behalf of human principals (Rothschild et al., 2025).",
+      "display_label": "Agentic commerce paradigm",
+      "citations": 1
+    },
+    {
+      "id": "N2",
+      "type": "Context",
+      "text": "This shift promises efficiency gains through automated discovery and negotiation, but introduces fundamental challenges in marketplace design.",
+      "display_label": "Promises efficiency, raises design challenges",
+      "citations": 0
+    },
+    {
+      "id": "N3",
+      "type": "Context",
+      "text": "When agents must evaluate large consideration sets—hundreds of potential sellers matching a customer's query—they face an information bottleneck that human-designed interfaces were never built to address.",
+      "display_label": "Info bottleneck at large consideration sets",
+      "citations": 0
+    },
+    {
+      "id": "N4",
+      "type": "Context",
+      "text": "The core problem is that marketplace search results typically present truncated natural language descriptions that lose critical fit signals.",
+      "display_label": "Truncated descriptions lose fit signals",
+      "citations": 0
+    },
+    {
+      "id": "N5",
+      "type": "Context",
+      "text": "A customer seeking specific menu items, amenities, and budget constraints cannot reliably determine from a 40-token description snippet whether a restaurant carries the requested dishes or falls within budget.",
+      "display_label": "40-token snippet hides key info",
+      "citations": 0
+    },
+    {
+      "id": "N6",
+      "type": "Context",
+      "text": "At scale, this information loss compounds: agents contact businesses based on incomplete signals, accumulate irrelevant context from poor-fit interactions, and exhibit first-proposal bias that locks in suboptimal early matches (Bansal et al., 2025).",
+      "display_label": "First-proposal bias compounds loss",
+      "citations": 1
+    },
+    {
+      "id": "N7",
+      "type": "Result",
+      "text": "In our experiments with 100 businesses, the baseline system achieves only 7.8% contacted-fit rate—agents waste over 90% of their interactions on businesses that cannot satisfy customer requirements.",
+      "display_label": "Baseline: 7.8% contacted-fit rate",
+      "citations": 0
+    },
+    {
+      "id": "N8",
+      "type": "Prior_Work",
+      "text": "A natural hypothesis is that agent-side interventions—better prompting or more inference compute—can overcome this information bottleneck.",
+      "display_label": "Hypothesis: agent-side fixes",
+      "citations": 0
+    },
+    {
+      "id": "N9",
+      "type": "Limitation",
+      "text": "Our experiments reject this hypothesis.",
+      "display_label": "Hypothesis rejected by experiments",
+      "citations": 0
+    },
+    {
+      "id": "N10",
+      "type": "Result",
+      "text": "Prompting agents to explicitly extract fit signals from truncated descriptions actually hurts welfare, dropping it from 68.51 to −35.85: agents become more selective but without sufficient information to act on, leading to misdirected selectivity.",
+      "display_label": "Prompting drops welfare 68.51 to -35.85",
+      "citations": 0
+    },
+    {
+      "id": "N11",
+      "type": "Result",
+      "text": "Inference scaling fares no better: providing 4.7× more LLM calls and forcing agents to explore multiple options yields negative welfare (−29.71) because additional computation cannot recover information lost during description truncation.",
+      "display_label": "Inference scaling: -29.71 welfare",
+      "citations": 0
+    },
+    {
+      "id": "N12",
+      "type": "Limitation",
+      "text": "These failures reveal that the bottleneck is information, not reasoning capacity.",
+      "display_label": "Bottleneck is information, not reasoning",
+      "citations": 0
+    },
+    {
+      "id": "N13",
+      "type": "Method",
+      "text": "We propose Fit Cards, a platform-side intervention that replaces truncated descriptions with query-conditioned structured metadata.",
+      "display_label": "Propose Fit Cards: platform-side metadata",
+      "citations": 0
+    },
+    {
+      "id": "N14",
+      "type": "Method",
+      "text": "Rather than presenting generic text snippets, the platform computes fit signals—how many requested items are available, which amenities match, and the estimated price—directly from its structured catalog.",
+      "display_label": "Compute fit signals from catalog",
+      "citations": 0
+    },
+    {
+      "id": "N15",
+      "type": "Method",
+      "text": "Results are sorted by relevance with explicit rank labels, enabling agents to identify high-fit businesses at a glance.",
+      "display_label": "Rank-labeled, sorted results",
+      "citations": 0
+    },
+    {
+      "id": "N16",
+      "type": "Result",
+      "text": "In experiments on a restaurant marketplace with 100 businesses, Fit Cards achieve 11.4× higher welfare than the status quo baseline while using 28% fewer LLM calls.",
+      "display_label": "Fit Cards: 11.4x welfare, 28% fewer calls",
+      "citations": 0
+    },
+    {
+      "id": "C1",
+      "type": "Contribution",
+      "text": "We identify the information bottleneck in agentic marketplace search, showing that agent-side interventions fail because truncated descriptions lose fit signals that agents cannot recover through reasoning.",
+      "display_label": "C1: identify info bottleneck",
+      "citations": 0
+    },
+    {
+      "id": "C2",
+      "type": "Contribution",
+      "text": "We propose Fit Cards, a platform-side intervention that surfaces query-conditioned structured metadata computed from the platform's catalog.",
+      "display_label": "C2: Fit Cards platform-side",
+      "citations": 0
+    },
+    {
+      "id": "C3",
+      "type": "Contribution",
+      "text": "We demonstrate that Fit Cards improve contacted-fit rate from 7.8% to 73.6%, validating that better discovery-stage contact selection drives welfare improvements.",
+      "display_label": "C3: contacted-fit 7.8% to 73.6%",
+      "citations": 0
+    },
+    {
+      "id": "C4",
+      "type": "Contribution",
+      "text": "We show that discovery-stage interventions are more effective than proposal-stage interventions: first-proposal bias persists but does not dominate welfare when agents contact high-fit businesses.",
+      "display_label": "C4: discovery beats proposal-stage",
+      "citations": 0
+    }
+  ],
+  "edges": [
+    {"from": "N1", "to": "N2", "kind": "elaboration"},
+    {"from": "N2", "to": "N3", "kind": "elaboration"},
+    {"from": "N3", "to": "N4", "kind": "elaboration"},
+    {"from": "N4", "to": "N5", "kind": "elaboration"},
+    {"from": "N5", "to": "N6", "kind": "elaboration"},
+    {"from": "N6", "to": "N7", "kind": "evidence"},
+    {"from": "N7", "to": "N8", "kind": "elaboration"},
+    {"from": "N8", "to": "N9", "kind": "elaboration"},
+    {"from": "N9", "to": "N10", "kind": "evidence"},
+    {"from": "N9", "to": "N11", "kind": "evidence"},
+    {"from": "N11", "to": "N12", "kind": "elaboration"},
+    {"from": "N9", "to": "N12", "kind": "elaboration"},
+    {"from": "N12", "to": "N13", "kind": "consequence", "connective": "We propose"},
+    {"from": "N13", "to": "N14", "kind": "elaboration"},
+    {"from": "N14", "to": "N15", "kind": "elaboration"},
+    {"from": "N15", "to": "N16", "kind": "evidence"},
+    {"from": "N16", "to": "C1", "kind": "elaboration"},
+    {"from": "N16", "to": "C2", "kind": "elaboration"},
+    {"from": "N16", "to": "C3", "kind": "elaboration"},
+    {"from": "N16", "to": "C4", "kind": "elaboration"},
+    {"from": "C1", "to": "N12", "kind": "addresses"},
+    {"from": "C2", "to": "N12", "kind": "addresses"},
+    {"from": "C3", "to": "N9", "kind": "addresses"},
+    {"from": "C4", "to": "N9", "kind": "addresses"}
+  ],
+  "observations": "FA0214 is a marketplace-design paper anchored on the Magentic Marketplace simulation framework. Para 1 (N1-N6) is dense Context: agentic commerce paradigm, the design challenges it raises, the information bottleneck at large consideration sets, truncated descriptions losing fit signals, the 40-token snippet failure mode, and how loss compounds at scale via first-proposal bias (Bansal 2025). N7 is a Result-as-evidence: the 7.8% baseline contacted-fit rate quantifies the bottleneck.\n\nPara 2 introduces a 'natural hypothesis' Prior_Work N8 (agent-side interventions like prompting or inference scaling) followed by Limitation N9 ('our experiments reject this hypothesis') with two Result nodes (N10 prompting drops welfare to -35.85; N11 inference scaling -29.71). N9 has Prior_Work N8 as its required upstream source (PW->L contrast). Limitation N12 ('bottleneck is information, not reasoning') unfolds from the same critique chain (N11 elaboration; upstream PW source via N8 -> N9 -> N12 chain through N11).\n\nMethod block (N13-N15) introduces Fit Cards (platform-side metadata, computed fit signals, sorted with rank labels). N16 reports the headline 11.4x welfare result. Four Contributions (C1-C4) close the intro with addresses edges to the two Limitations: C1, C2 -> N12 (information bottleneck framing); C3, C4 -> N9 (the rejected agent-side hypothesis). N16 forks into all four contributions; N9 and N12 are join targets."
+}
