@@ -5,7 +5,7 @@ A static site that lets you browse 40 paper introductions (20 AI-generated, 20 h
 **Live demo**: enable GitHub Pages on this repo → `https://<username>.github.io/<repo>/`
 
 **Project narrative + metrics**: see [REPORT.md](REPORT.md)
-**Tooling + handoff notes**: see [HANDOFF.md](HANDOFF.md)
+**Tooling + handoff notes**: see [HANDOVER.md](HANDOVER.md)
 
 ## Local viewing
 
