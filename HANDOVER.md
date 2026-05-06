@@ -330,17 +330,10 @@ argument_graphs_final/
 │   └── classify_papers.py
 ├── metrics.csv                  ← per-paper feature table (80 rows × ~37 columns)
 ├── metrics_plots.png            ← 6-metric boxplot figure
-├── before_pw_lim_fix/           ← older graph snapshots (for diff)
-├── blind_reviews_input/
-├── blind_reviews_output/
-├── blind_reviews_output_v1_subagent_with_tools/
-├── blind_reviews_mapping.json
-├── run_blind_review.sh
 ├── make_site.py                 ← regenerates index.html from ai/ + human/ + pdfs/
 ├── index.html                   ← single-page viewer (auto-generated)
-├── REPORT.md                    ← detailed metric report (mixed CN/EN)
-├── HANDOFF.md                   ← prior handoff with the long incident log (project archeology)
-└── HANDOVER.md                  ← this file (English consolidated handover)
+├── README.md
+└── HANDOVER.md                  ← this file
 ```
 
 ### Source PDFs (for re-extraction / coverage check)
