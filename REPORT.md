@@ -242,9 +242,9 @@
 | B. PW | pw_node_count | 2.30 | 4.38 | **1.90×** |
 | B. PW | pw_top_level_count (多样性) | 1.43 | 1.93 | 1.35× |
 | B. PW | pw_avg_cites (人均引用) | 0.98 | 1.85 | **1.89×** |
-| B. PW | **pw_total_cites (总引用) ★** | **2.15** | **7.42** | **3.45×** |
-| C. Lim | lim_scope_avg_cites (paper critique surface, v3 union) ★ | 1.73 | 4.65 | **2.70×** |
-| D. Method | method_node_count (复杂度) ★ | 3.42 | 7.33 | **2.14×** |
+| B. PW | **pw_total_cites (总引用, strongest)** | **2.15** | **7.42** | **3.45×** |
+| C. Lim | lim_scope_avg_cites (paper critique surface, v3 union, strongest) | 1.73 | 4.65 | **2.70×** |
+| D. Method | method_node_count (复杂度) | 3.42 | 7.33 | **2.14×** |
 | D. Method | method_pw_reach_avg | 2.20 | 3.37 | **1.53×** |
 | 引用 | total_cites | 5.12 | 17.95 | **3.50×** |
 | 引用 | cite_density (cites/node) | 0.32 | 0.67 | **2.12×** |
@@ -291,15 +291,24 @@
 
 ## 7. 文件清单
 
-- `ai/`、`human/` — 40 张图的 JSON + SVG
-- `metrics.csv` — 完整指标行（40 × ~35 列）
+- `ai/`、`human/` — 80 张图的 JSON + SVG（40 AI + 40 Human）
+- `pdfs/{ai,human}/` — 80 篇原始 PDF
+- `intros/{ai,human}/` — 80 篇 introduction 纯文本
+- `metrics.csv` — 6 个核心指标 × 80 行
+- `metrics_plots.png` — 6 指标 boxplot + p-value
+- `blind_reviews_input/` + `blind_reviews_output/` — LLM 盲评实验
+- `index.html` — 静态查看站
 - `REPORT.md` — 本文件
-- Skill 工具链：`/Users/zhaihaotian/.claude/skills/argument-graph-extractor/`
-  - `SKILL.md` — 抽取流程规范
-  - `render_graph.py` — SVG 渲染
-  - `validate_graph.py` — schema 校验
-  - `coverage_check.py` — 覆盖率硬校验
-  - `compute_metrics.py` — 指标计算
+- **`skill/` — Skill 工具链（repo 内自包含副本）**
+  - `SKILL.md` — 抽取流程规范（5 stages + Pass 3）
+  - `render_graph.py` — SVG 渲染（fork/join 自动检测）
+  - `validate_graph.py` — schema 校验 + Pass 3 Limitation source check
+  - `coverage_check.py` — 覆盖率硬校验（与源 PDF 比对）
+  - `compute_metrics.py` — 6 个核心指标计算
+  - `plot_metrics.py` — boxplot + Mann-Whitney U
+  - `classify_papers.py` — Logistic Regression + Random Forest，5-fold CV
+  - `EXAMPLE.json` / `EXAMPLE.svg` — schema 参考样例
+- 系统级 skill 安装位置：`~/.claude/skills/argument-graph-extractor/`（与 `skill/` 内容一致，由 Claude Code 自动加载）
 
 ---
 
