@@ -1,10 +1,9 @@
 # Argument Graph Fingerprinting — AI vs Human-Written Papers
 
-A static site that lets you browse 40 paper introductions (20 AI-generated, 20 human-written) as **typed argument graphs** alongside the original PDFs.
+A static site that lets you browse 80 paper introductions (40 AI-generated, 40 human-written) as **typed argument graphs** alongside the original PDFs.
 
-**Live demo**: enable GitHub Pages on this repo → `https://<username>.github.io/<repo>/`
+**Live demo**: https://zhaihaotian.github.io/graph_paper/
 
-**Project narrative + metrics**: see [REPORT.md](REPORT.md)
 **Tooling + handoff notes**: see [HANDOVER.md](HANDOVER.md)
 
 ## Local viewing
@@ -16,10 +15,12 @@ python3 -m http.server 8765
 
 ## Folder structure
 
-- `ai/` — 20 AI-generated paper graphs (JSON + SVG)
-- `human/` — 20 human-written paper graphs (JSON + SVG)
+- `ai/` — 40 AI-generated paper graphs (JSON + SVG)
+- `human/` — 40 human-written paper graphs (JSON + SVG)
 - `pdfs/ai/`, `pdfs/human/` — original PDFs
+- `intros/` — extracted intro text per paper
+- `skill/` — bundled extraction toolchain
 - `index.html` — single-page viewer (sidebar + split SVG/PDF panels)
 - `make_site.py` — regenerates `index.html` from JSON + PDFs
 - `metrics.csv` — per-paper structural metrics
-- `REPORT.md` — methodology + 10-metric comparison report
+- `metrics_plots.png` — 6-metric boxplot
