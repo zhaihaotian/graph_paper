@@ -1,0 +1,23 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clearly framed negative result with appropriate statistical reporting (p-values, effect sizes) that genuinely advances understanding of anchoring bias in LLM agents",
+      "Well-controlled three-condition experimental design that isolates clarification timing from candidate presentation order, making the causal story credible",
+      "The 14\u00d7 effect-size contrast between conditions is a memorable, actionable takeaway for practitioners"
+    ],
+    "weaknesses": [
+      "Scope is explicitly limited to 7B-scale models, severely constraining generalizability; it is plausible that larger models exhibit qualitatively different anchoring mechanisms",
+      "The IRG intervention is not clearly novel \u2014 forcing clarification before retrieval is a fairly obvious design choice, and the paper does not engage deeply with why it was expected to work beyond a single cognitive-science citation",
+      "The InteractComp-Anchor benchmark is cited as a single source of evaluation; robustness across other ambiguous-query benchmarks is untested",
+      "The cognitive science motivation (Sumita et al., 2024) is invoked superficially in one sentence and never revisited in the findings, leaving the theoretical grounding underdeveloped",
+      "The 'pre-registered success criteria' claim is mentioned but not described \u2014 readers cannot assess whether the pre-registration was substantive or post-hoc rationalization"
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.88,
+    "reasoning": "The introduction exhibits the canonical AI-generated structure almost perfectly: a tight four-paragraph funnel (problem \u2192 hypothesis \u2192 experiment \u2192 result) followed by exactly three bullet-point contributions with no stylistic variation. Prose is uniformly clean and formulaic, with no hedging irregularities, discursive asides, or authorial voice. The 'Our contributions are:' bullet list with a 14\u00d7 ratio claim packaged as the third bullet is a highly stereotyped AI writing pattern."
+  }
+}

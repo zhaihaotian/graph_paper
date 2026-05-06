@@ -1,0 +1,322 @@
+{
+  "P001": {
+    "true_label": "ai",
+    "true_name": "FA0153"
+  },
+  "P002": {
+    "true_label": "ai",
+    "true_name": "FA0012"
+  },
+  "P003": {
+    "true_label": "human",
+    "true_name": "FA0006_anchor"
+  },
+  "P004": {
+    "true_label": "human",
+    "true_name": "ICLR_LinearRNN"
+  },
+  "P005": {
+    "true_label": "ai",
+    "true_name": "FA0013"
+  },
+  "P006": {
+    "true_label": "human",
+    "true_name": "FA0013_anchor"
+  },
+  "P007": {
+    "true_label": "human",
+    "true_name": "ICLR_NeuralODE"
+  },
+  "P008": {
+    "true_label": "ai",
+    "true_name": "FA0025"
+  },
+  "P009": {
+    "true_label": "human",
+    "true_name": "ICLR_CausalConcept"
+  },
+  "P010": {
+    "true_label": "human",
+    "true_name": "FA0032_anchor"
+  },
+  "P011": {
+    "true_label": "ai",
+    "true_name": "FA0214"
+  },
+  "P012": {
+    "true_label": "human",
+    "true_name": "ICLR_FasterCache"
+  },
+  "P013": {
+    "true_label": "human",
+    "true_name": "FA0012_anchor"
+  },
+  "P014": {
+    "true_label": "human",
+    "true_name": "ICLR_StemOB"
+  },
+  "P015": {
+    "true_label": "ai",
+    "true_name": "FA0116"
+  },
+  "P016": {
+    "true_label": "human",
+    "true_name": "ICLR_AutoGDA"
+  },
+  "P017": {
+    "true_label": "human",
+    "true_name": "FA0022_anchor"
+  },
+  "P018": {
+    "true_label": "ai",
+    "true_name": "FA0018"
+  },
+  "P019": {
+    "true_label": "human",
+    "true_name": "FA0034_anchor"
+  },
+  "P020": {
+    "true_label": "human",
+    "true_name": "ICLR_PatchTraining"
+  },
+  "P021": {
+    "true_label": "human",
+    "true_name": "ICLR_OscSSM"
+  },
+  "P022": {
+    "true_label": "human",
+    "true_name": "FA0008_anchor"
+  },
+  "P023": {
+    "true_label": "human",
+    "true_name": "ICLR_ContractivePolicy"
+  },
+  "P024": {
+    "true_label": "human",
+    "true_name": "ICLR_MiniCoreset"
+  },
+  "P025": {
+    "true_label": "ai",
+    "true_name": "FA0007"
+  },
+  "P026": {
+    "true_label": "human",
+    "true_name": "ICLR_metabench"
+  },
+  "P027": {
+    "true_label": "ai",
+    "true_name": "FA0038"
+  },
+  "P028": {
+    "true_label": "ai",
+    "true_name": "FA0235"
+  },
+  "P029": {
+    "true_label": "human",
+    "true_name": "ICLR_InferenceScaling"
+  },
+  "P030": {
+    "true_label": "ai",
+    "true_name": "FA0006"
+  },
+  "P031": {
+    "true_label": "human",
+    "true_name": "ICLR_AttentionHeads"
+  },
+  "P032": {
+    "true_label": "ai",
+    "true_name": "FA0231"
+  },
+  "P033": {
+    "true_label": "ai",
+    "true_name": "FA0193"
+  },
+  "P034": {
+    "true_label": "ai",
+    "true_name": "FA0073"
+  },
+  "P035": {
+    "true_label": "ai",
+    "true_name": "FA0005"
+  },
+  "P036": {
+    "true_label": "ai",
+    "true_name": "FA0047"
+  },
+  "P037": {
+    "true_label": "human",
+    "true_name": "ICLR_TransformerSq"
+  },
+  "P038": {
+    "true_label": "ai",
+    "true_name": "FA0021"
+  },
+  "P039": {
+    "true_label": "ai",
+    "true_name": "FA0172"
+  },
+  "P040": {
+    "true_label": "human",
+    "true_name": "FA0018_anchor"
+  },
+  "P041": {
+    "true_label": "ai",
+    "true_name": "FA0041"
+  },
+  "P042": {
+    "true_label": "ai",
+    "true_name": "FA0201"
+  },
+  "P043": {
+    "true_label": "ai",
+    "true_name": "FA0209"
+  },
+  "P044": {
+    "true_label": "ai",
+    "true_name": "FA0011"
+  },
+  "P045": {
+    "true_label": "ai",
+    "true_name": "FA0063"
+  },
+  "P046": {
+    "true_label": "ai",
+    "true_name": "FA0008"
+  },
+  "P047": {
+    "true_label": "human",
+    "true_name": "ICLR_WizardMath"
+  },
+  "P048": {
+    "true_label": "ai",
+    "true_name": "FA0191"
+  },
+  "P049": {
+    "true_label": "human",
+    "true_name": "FA0021_anchor"
+  },
+  "P050": {
+    "true_label": "ai",
+    "true_name": "FA0074"
+  },
+  "P051": {
+    "true_label": "human",
+    "true_name": "ICLR_ActBeacon"
+  },
+  "P052": {
+    "true_label": "ai",
+    "true_name": "FA0069"
+  },
+  "P053": {
+    "true_label": "ai",
+    "true_name": "FA0035"
+  },
+  "P054": {
+    "true_label": "ai",
+    "true_name": "FA0115"
+  },
+  "P055": {
+    "true_label": "human",
+    "true_name": "ICLR_RaNA"
+  },
+  "P056": {
+    "true_label": "ai",
+    "true_name": "FA0058"
+  },
+  "P057": {
+    "true_label": "human",
+    "true_name": "ICLR_Backtracking"
+  },
+  "P058": {
+    "true_label": "ai",
+    "true_name": "FA0181"
+  },
+  "P059": {
+    "true_label": "human",
+    "true_name": "FA0011_anchor"
+  },
+  "P060": {
+    "true_label": "human",
+    "true_name": "ICLR_BSTaR"
+  },
+  "P061": {
+    "true_label": "human",
+    "true_name": "ICLR_Anonymizer"
+  },
+  "P062": {
+    "true_label": "human",
+    "true_name": "ICLR_MRAGBench"
+  },
+  "P063": {
+    "true_label": "human",
+    "true_name": "ICLR_PerplexityCorr"
+  },
+  "P064": {
+    "true_label": "ai",
+    "true_name": "FA0027"
+  },
+  "P065": {
+    "true_label": "ai",
+    "true_name": "FA0213"
+  },
+  "P066": {
+    "true_label": "ai",
+    "true_name": "FA0032"
+  },
+  "P067": {
+    "true_label": "ai",
+    "true_name": "FA0022"
+  },
+  "P068": {
+    "true_label": "ai",
+    "true_name": "FA0001"
+  },
+  "P069": {
+    "true_label": "ai",
+    "true_name": "FA0175"
+  },
+  "P070": {
+    "true_label": "human",
+    "true_name": "ICLR_BIRD"
+  },
+  "P071": {
+    "true_label": "human",
+    "true_name": "ICLR_HeadKV"
+  },
+  "P072": {
+    "true_label": "human",
+    "true_name": "ICLR_OfflineHRL"
+  },
+  "P073": {
+    "true_label": "human",
+    "true_name": "ICLR_AsyncMoE"
+  },
+  "P074": {
+    "true_label": "human",
+    "true_name": "ICLR_OpenWorldRL"
+  },
+  "P075": {
+    "true_label": "ai",
+    "true_name": "FA0163"
+  },
+  "P076": {
+    "true_label": "ai",
+    "true_name": "FA0028"
+  },
+  "P077": {
+    "true_label": "human",
+    "true_name": "ICLR_KAN"
+  },
+  "P078": {
+    "true_label": "human",
+    "true_name": "ICLR_InfluenceFunctions"
+  },
+  "P079": {
+    "true_label": "human",
+    "true_name": "FA0001_anchor"
+  },
+  "P080": {
+    "true_label": "ai",
+    "true_name": "FA0034"
+  }
+}

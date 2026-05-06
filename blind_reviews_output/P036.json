@@ -1,0 +1,23 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Documents a negative result with clear quantitative evidence (15.2pp accuracy drop), which is valuable for the community",
+      "Identifies a meaningful research problem (schema churn) in LLM tool-calling that has practical relevance",
+      "Third contribution regarding ASA asset robustness to lexical churn is a genuine, non-obvious empirical finding"
+    ],
+    "weaknesses": [
+      "Contribution framing is weak: reporting a failed approach as a primary contribution is only valuable if the failure is surprising and the hypothesis was well-motivated\u2014here the failure mode (removing semantic info from parameter names hurts mapping) is arguably predictable",
+      "Single benchmark (BFCL v3) limits generalizability; no ablations on churn severity, model size, or schema complexity",
+      "No comparison baseline beyond vanilla ASA; unclear whether any canonicalization variant or partial delex could recover performance",
+      "'Surprisingly' is doing heavy rhetorical work for a result that many practitioners would anticipate\u2014parameter names carry semantic grounding that LLMs depend on",
+      "The paper's scope appears narrow: essentially one negative experiment with limited analysis of why the failure occurs beyond the surface-level explanation"
+    ],
+    "overall_score": 4,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.88,
+    "reasoning": "The introduction exhibits classic AI-generated structure: a crisp problem setup in paragraph 1, a single prior-work anchor (ASA) in paragraph 2, a results paragraph, and a rigid three-bullet contributions list. The prose is formulaic and symmetric across sections, with no stylistic variation or discursive nuance typical of human academic writing. The phrase 'fails decisively' and the framing of a negative result as three neat contributions further suggest template-driven generation."
+  }
+}

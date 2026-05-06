@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a concrete and well-articulated set of limitations in existing context compression methods (fixed token count, all-at-once compression, re-encoding overhead, question-dependent token deletion) and addresses each with a specific design decision, giving the work clear motivational structure.",
+      "The progressive chunk-based encoding scheme with interleaved beacon tokens is technically elegant: it simultaneously enables handling of inputs beyond the backbone LLM's context window, enables fine-grained compression with differentiated attention scope, and yields reusable cached activations that reduce both training and inference cost—multiple benefits from a single architectural choice.",
+      "The compression ratio flexibility mechanism (randomly sampling compression ratios during training, with a single shared beacon token embedding that can be repeated arbitrarily) is a practically valuable contribution that most prior soft-token compression methods lack.",
+      "Empirical scope is reasonable: evaluation covers document understanding, few-shot learning, and Needle-in-a-Haystack across lengths up to 128K (well beyond the 20K training length), testing generalization, and the plug-in nature of Activation Beacon is demonstrated on two distinct backbone families (Llama-2 and Qwen-2).",
+      "The claimed efficiency gains (2x acceleration, 8x KV cache reduction) are quantitatively specific and are presented alongside quality comparisons to the uncompressed baseline, which is the correct evaluation frame."
+    ],
+    "weaknesses": [
+      "The introduction claims the model 'maintains comparable performance to the uncompressed baseline across various compression configurations,' but this is a strong assertion that needs careful qualification: comparable on what metrics, at what compression ratios, and how does performance degrade as the ratio increases? The introduction presents this as essentially lossless, which is unlikely to hold uniformly and needs nuance.",
+      "The chunk-level progressive encoding creates a unidirectional information flow: later chunks cannot influence the beacon representations of earlier chunks. This is a fundamental architectural constraint that can hurt tasks requiring global reasoning (e.g., summarization requiring synthesis across the full document), but it is not discussed in the introduction.",
+      "Training on only 1B tokens of plain corpus plus 30K fine-tuning samples (max context 20K) and then generalizing to 128K is a significant extrapolation. The introduction mentions this as a strength ('high sample efficiency') but does not acknowledge the potential distributional gap or justify why the method generalizes so far beyond its training distribution.",
+      "The baseline comparisons referenced in the introduction ('existing methods struggle') are vague at this stage—it is unclear which specific methods are compared, under what conditions, and whether the comparison is fair (e.g., similar parameter counts, similar training compute). The introduction should be more precise about the comparison set.",
+      "The notation and formalism in the introduction is inconsistent: 'alpha' is introduced as both the compression ratio and the unit size, and the relationship between chunk size, unit size, and beacon token count is described informally without a clear equation, which could cause confusion when readers attempt to reproduce or extend the method."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The introduction exhibits several markers consistent with human authorship: it develops a multi-thread argument across paragraphs (efficiency bottlenecks, then specific sub-problems, then a structured solution with enumerated design rationale), uses hedged language ('comparable performance', 'may be much longer'), and includes notational informality (mixing Greek letter alpha with plain prose). The slight inconsistency in formalizing the compression ratio and the somewhat uneven depth across design points are more characteristic of human technical writing than the uniform, highly polished structure typical of AI-generated introductions."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies and names a genuine, counterintuitive phenomenon (the Long-Caption Paradox) that is likely to resonate with the MLLM community, giving the work a memorable conceptual anchor.",
+      "The experimental design is clean and well-controlled: three conditions (original long captions, random length-matched selection, CLIP-scored selection) isolate the variable of interest and allow principled comparison.",
+      "Reporting a negative result is scientifically valuable, and the authors do so honestly—they do not oversell CLIP-scored distillation when it underperforms the long-caption baseline.",
+      "The mechanistic explanation via POPE recall (98% → 88%) is concrete and quantified, giving readers a plausible causal story for why sentence-level filtering fails.",
+      "The actionable redirect toward caption condensation (rewriting rather than filtering) transforms a dead end into a productive research direction."
+    ],
+    "weaknesses": [
+      "The experiment is explicitly described as 'micro-scale,' which severely limits generalizability. The paper does not report dataset size, number of training steps, or model scale, making it difficult to assess whether the 1.43 pp gap is meaningful or within noise.",
+      "Only a single evaluation benchmark (POPE) is analyzed mechanistically. Restricting the analysis to object-hallucination recall may miss other failure modes introduced by caption distillation (e.g., spatial reasoning, OCR, counting).",
+      "The paper references a 2026 work (Yu et al., 2026) as the anchor for ReVision-style pretraining. If this is a concurrent or future submission, reviewers cannot assess the validity of that baseline, which undermines the entire framing.",
+      "The three contributions listed are tightly coupled and arguably constitute a single contribution (a negative result on caption distillation), making the contribution section feel padded rather than substantive.",
+      "There is no ablation over the CLIP scoring threshold or the number of sentences retained, leaving open whether a different distillation hyperparameter regime might reverse the conclusion.",
+      "The paper appears to be a short report or workshop paper; at its current depth it does not meet the bar for a full venue submission without additional experiments or broader benchmarking."
+    ],
+    "overall_score": 5,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.74,
+    "reasoning": "The writing is unusually clean and formulaic for a short experimental report: each paragraph performs exactly one function (motivation, method, results, contributions), the contributions are enumerated in a three-bullet structure common in LLM-generated academic text, and the hedging language ('does not always hold,' 'actionable insight') follows templated phrasing. The absence of any first-person hedges, informal asides, or multi-threaded argumentation that typically marks human-written technical prose further suggests AI assistance or generation."
+  }
+}

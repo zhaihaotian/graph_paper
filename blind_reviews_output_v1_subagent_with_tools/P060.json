@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a clear and well-motivated gap: the internal dynamics of exploration and exploitation during self-improvement training are underexplored, and the paper provides quantitative monitoring of these dynamics across iterations.",
+      "The framing of self-improvement through an exploration-exploitation lens is intuitive and principled, drawing on established RL concepts and applying them to a novel setting in LLM training.",
+      "The proposed method, B-STaR, introduces a concrete and adaptive mechanism (balance score, adjustable temperature, reward thresholds) that operationalizes the theoretical insight, making the contribution actionable rather than merely analytical.",
+      "Experimental coverage is broad, spanning mathematical reasoning (GSM8K, MATH), coding, and commonsense reasoning, which strengthens generalizability claims.",
+      "The observation that self-improvement saturates after 3–5 iterations is well-supported by prior work citations and provides a strong empirical anchor for the problem statement."
+    ],
+    "weaknesses": [
+      "The paper excerpt provided is limited to the introduction, making it impossible to evaluate the technical rigor of the balance score metric, its derivation, or whether its adaptive modification procedure is well-founded mathematically.",
+      "The claim that B-STaR 'significantly surpasses' other methods is asserted without confidence intervals, statistical significance tests, or ablation evidence visible in this excerpt — making it hard to assess whether improvements are robust.",
+      "It is unclear how sensitive the method is to hyperparameters governing the adaptation of temperature and reward thresholds; the introduction does not address this, and tuning complexity could limit practical adoption.",
+      "The paper does not appear to address potential failure modes of the balance score — e.g., cases where the metric might give misleading signals or where exploration and exploitation are not separable.",
+      "The relationship between B-STaR and prior adaptive-curriculum or self-paced learning methods is not discussed in the introduction, leaving open the question of novelty relative to a broader literature."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The introduction displays multi-threaded argumentation that weaves together empirical observation, theoretical framing, and methodological motivation across a sustained logical arc rather than following a formulaic bullet-point structure. The prose shows genuine hedging ('remains largely opaque', 'remains underexplored despite its critical importance') and specificity (citing exact saturation windows of 3–5 iterations with named references) that suggest domain-embedded authorship. Citation density and integration style are consistent with human academic writing in ML venues."
+  }
+}

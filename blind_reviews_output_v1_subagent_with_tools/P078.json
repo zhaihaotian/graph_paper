@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper addresses a timely and practically important problem: scalable data attribution for diffusion models, motivated by real legal and commercial concerns around copyright and model accountability.",
+      "The authors propose a principled framework that unifies prior work on data attribution in diffusion models, articulating a clear design space and situating existing methods (Georgiev et al., 2023; Zheng et al., 2024) as special cases — this is methodologically rigorous and contributes conceptual clarity to the field.",
+      "The derivation of GGN formulations specific to the diffusion modelling objective fills a genuine gap: the paper correctly identifies that prior work (e.g., Kwon et al., 2023) avoided K-FAC due to perceived inapplicability, and the authors draw on recent theoretical results (Grosse & Martens, 2016; Eschenhagen et al., 2023) to justify its use for architectures involving linear layers, convolutions, and attention.",
+      "Empirical evaluation uses established metrics (Linear Datamodeling Score, retraining without top influences), and the ablation study over GGN variants and design choices lends credibility to the proposed method's advantage over baselines.",
+      "The acknowledgment of 'interesting empirical observations that challenge our current understanding' suggests intellectual honesty and may stimulate further research into influence functions in generative settings."
+    ],
+    "weaknesses": [
+      "The introduction does not clearly state the specific limitations of existing data attribution methods for diffusion models beyond the computational cost of Hessian inversion — a more precise articulation of what exactly fails in prior approaches (e.g., approximation quality, scalability thresholds, failure modes) would sharpen the motivation.",
+      "The claim that K-FAC 'can be applied to architectures used in diffusion models' is asserted with reference to recent work but the introduction does not describe how the authors extend or adapt it — the technical contribution versus prior work on K-FAC applicability (Eschenhagen et al., 2023) is not clearly delineated in the excerpt provided.",
+      "No discussion of limitations appears in the abstract or introduction: influence functions are known to be unreliable when the local quadratic approximation is poor (e.g., for highly non-convex losses or after significant parameter movement), and it is unclear how the authors handle or acknowledge this concern in the diffusion setting.",
+      "The empirical comparison metrics (LDS, retraining without top influences) are standard but not comprehensive — the paper does not mention whether human evaluations or downstream copyright-attribution tasks were tested, which would strengthen claims about practical utility.",
+      "The connection between the GGN formulation choices and their implicit assumptions is mentioned but not elaborated in the introduction, leaving the reader uncertain about the theoretical justification for the recommended design choices versus empirically determined ones."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.82,
+    "reasoning": "The writing exhibits dense, multi-layered motivation threading legal context (copyright lawsuits), technical history (K-FAC inapplicability claims and their rebuttal), and empirical self-critique into a single coherent narrative — a pattern more characteristic of expert human scientific writing than AI generation. The citation practice is specific and contextually embedded (e.g., quoting Kwon et al.'s stated reason for avoiding K-FAC verbatim), and the rhetorical arc builds non-trivially across the excerpt. The sentence complexity and the absence of formulaic bullet-point structure further support a human author."
+  }
+}

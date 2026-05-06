@@ -1,0 +1,44 @@
+Visual Imitation Learning (IL), where an agent learns to mimic the behavior of the demonstrator
+by learning a direct mapping from visual observations to low-level actions, has gained popularity in
+recent real-world robot tasks (Chi et al., 2023; Zhao et al., 2023; Wang et al., 2023; Chi et al., 2024;
+Ze et al., 2024). Despite the versatility demonstrated by visual IL, learned policies are often brittle
+and fail to generalize to unseen environments, even minor perturbations such as altering lighting
+conditions or changing the texture of the object may lead to failure of the learned policy (Xie et al.,
+2023; Yuan et al., 2024b). The underlying reason is that the high-dimensional visual observation
+space is redundant with virtually infinite variations in appearance that are irrelevant to the task and
+hard to generalize.
+As human beings, we can easily manipulate objects that have different appearances. For example,
+we can pick up a cup of coffee regardless of its color, texture, or the lighting condition of the room.
+This is partially because our visual system is capable of abstracting the high-level semantics of the
+scene, such as the silhouette of the object, the structure and arrangement of different objects, etc
+in a hierarchical manner (Hochstein & Ahissar, 2002), effectively merging scenes with perceptual
+differences to similar “meta” observations.
+Augmentation techniques such as Spectrum Random Masking (SRM) (Huang et al., 2022) and
+Mixup (Zhang et al., 2018) remove details from observations to encourage the model to focus on
+structural features; however, they lack the ability to distinguish between low-level and high-level
+features. It is preferable if we can sweep the photometrical differences while maintaining the highlevel structure for the scene. Achieving this requires a semantic understanding of the observations,
+and naively perturbing the data with Gaussian noise can lead to irreversible information loss.
+Pretrained large image diffusion models, such as Stable Diffusion (Rombach et al., 2022; Esser
+et al., 2024), embed essential world knowledge for visual understanding. Apart from synthesizing
+new images from random noise, these models are capable to perform a reverse procedure called
+inversion (Song et al., 2022), which converts an image back to the space of random noises. A recent
+study (Yue et al., 2024) indicates that this inversion process selectively eliminates information from
+the image. Rather than uniformly removing information from different semantic hierarchies, it will
+push those images with similar structures closer in the early stages of the inversion process. Inversion is like the reprogramming of a differentiated cell back to a stem cell, which bears the totipotency
+to differentiate into any cell type. This characteristic aligns perfectly with our will of enhancing the
+robustness and generalizability of visual IL algorithms to visual variations. To distill such property
+into a visual IL policy, we propose an imitation learning pipeline which applies diffusion inversion
+to the visual observations. We name our method Stem-OB to highlight the similarity between the
+inversed observation and the stem cell in biology, as illustrated in Figure 1.
+To be specific, our method is as simple as inverting the image for reasonable steps before sending them to the downstream visual IL algorithms, effectively serving as a preprocessing step that
+converges low-level appearance differences into similar high-level structures. From this perspective, our approach fundamentally distinguishes from generative augmentation methods, which aim
+to enrich the training dataset with more unseen objects and appearances (Yu et al., 2023; Mandlekar
+et al., 2023). Moreover, Stem-OB is indifferent to many unspecified appearance changes, in contrast
+to augmentation-based methods that must concentrate on a few selected types of generalization,
+thereby introducing inevitable inductive biases.
+We provide theoretical analysis and a user study to support our claim that Stem-OB can effectively
+merge scenes with perceptual differences to similar “stem observations”. Empirical study demonstrates the effectiveness of our approach in a variety of simulated and real-world tasks and a range
+of different perturbations. Stem-OB proves to be particularly effective in real-world tasks where
+appearance and lighting changes hamper the other baselines, establishing an overall improvement
+in the success rate of 22.2%. What’s better, no inference time inversion is required for Stem-OB to
+take effect, making the deployment of our method virtually free of computational cost.

@@ -1,0 +1,13 @@
+Reinforcement learning with verifiable rewards (RLVR) has emerged as a powerful paradigm for training reasoning models (DeepSeek-AI et al., 2025; Shao et al., 2024). Unlike traditional RLHF that relies on learned preference models, RLVR uses automated verifiers to provide reward signals by comparing model responses against ground-truth reference answers. This approach has enabled significant advances in mathematical reasoning and other domains where correctness can be objectively verified.
+
+However, reference-based verifiers harbor a critical vulnerability: they can be fooled by trivial "master-key" responses that exploit reference answer leakage (Zhao et al., 2025). These master keys—single tokens like ":" or short phrases like "Thought process:"—contain no substantive answer yet achieve false positive verification rates of 25–29% on state-of-the-art verifiers including xVerify (Chen et al., 2025) and Qwen2.5-7B-Instruct (Yang et al., 2024). Such vulnerabilities can corrupt RLVR training by rewarding non-solutions, potentially leading to reward hacking and training collapse.
+
+Simple defenses like length filtering fail against sentence-length master keys, with worst-case false positive rates remaining at 28.87%. This motivates the need for defenses that operate on deeper semantic properties rather than surface features.
+
+We propose RefSwap, a training-free method that detects master-key attacks through counterfactual reference swapping. The key insight is that legitimate correct responses exhibit self-solving behavior—the verifier can recognize correctness even with mismatched references—while master-key false positives cannot self-solve because they contain no actual answer. By sampling multiple counterfactual references and computing the maximum verification probability (max p cf), RefSwap achieves near-perfect separation between true positives and master-key false positives (AUC=0.991).
+
+Our contributions are:
+• We identify and quantify the master-key vulnerability in RLVR verifiers, showing 25–29% false positive rates on state-of-the-art systems.
+• We propose Multi-CF RefSwap, a training-free detection method using max p cf scoring that exploits the self-solving asymmetry between true positives and master keys.
+• We demonstrate 96.8% relative FPR reduction (25.50%→0.81%) on xVerify-7B-I with only 2.74pp accuracy cost, uniformly neutralizing all 10 tested master keys.
+• We analyze backbone dependency, revealing that verifier architecture determines susceptibility to counterfactual-based detection.

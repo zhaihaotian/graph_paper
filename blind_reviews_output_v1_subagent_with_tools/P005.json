@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Theoretically principled motivation: applying Jacobian regularization to encourage contractive dynamics is well-grounded in the fixed-point / DEQ literature and is a natural fit for the recurrent action head architecture.",
+      "Honest reporting of a null result: the paper transparently acknowledges that the depth boundary phenomenon does not appear on LIBERO-10, and reframes the investigation constructively rather than burying the negative finding.",
+      "Practical efficiency contributions: the two-phase fine-tuning strategy achieves 1.6% MSE improvement with a 15x efficiency gain over from-scratch regularization, and the adaptive stopping analysis yields a concrete 50% inference compute saving, both of which are useful regardless of the null main result.",
+      "The observation that depth boundary may be benchmark- or evaluation-protocol-dependent is a genuinely useful empirical finding that informs the broader community on the scope of the RD-VLA limitation."
+    ],
+    "weaknesses": [
+      "Single-benchmark evaluation on LIBERO-10 with offline teacher-forced evaluation severely limits generalizability; it is unclear whether LIBERO-10 is sufficiently challenging to reproduce the depth boundary reported in the original RD-VLA paper, making the null result hard to interpret.",
+      "The primary research hypothesis (Jacobian regularization will fix the depth boundary) is not validated because the problem does not appear in this setting; the resulting contributions are reframings of a null result rather than positive evidence that the proposed method works on the intended problem.",
+      "No real-robot or online evaluation is presented; offline MSE curves are a weak proxy for manipulation success, and the 50% compute savings claim is not validated in terms of task success rate.",
+      "The paper does not compare Jacobian regularization against alternative stabilization approaches (e.g., spectral normalization, gradient clipping, layer normalization within the recurrent head), leaving it unclear whether the proposed method is the best or even a necessary choice.",
+      "Because RD-VLA (Tur et al., 2026) is a very recent concurrent work, the experimental setup's fidelity to the original is difficult to assess, and results may not be directly comparable due to implementation differences."
+    ],
+    "overall_score": 5,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.82,
+    "reasoning": "The introduction follows a highly formulaic structure (paradigm introduction, single limitation, prior-work anchor, proposed fix, surprise null result, three-bullet contribution list) with no meandering narrative, no mid-course corrections, and no qualitative hedging typical of human writing. The three-bullet contribution list with parallel grammatical structure and the uniformly short, single-idea paragraphs are strong markers of AI-generated academic prose."
+  }
+}

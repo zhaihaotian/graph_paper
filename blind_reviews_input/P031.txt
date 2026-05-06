@@ -1,0 +1,50 @@
+The capabilities of large language models (LLMs) (Achiam et al., 2023; Touvron et al., 2023; Dubey
+et al., 2024; Yang et al., 2024) have significantly improved while learning from larger pre-training
+datasets recently. Despite this, language models may respond to harmful queries, generating unsafe
+and toxic content (Ousidhoum et al., 2021; Deshpande et al., 2023), raising concerns about potential
+risks (Bengio et al., 2024). In sight of this, alignment (Ouyang et al., 2022; Bai et al., 2022a;b) is
+employed to ensure LLM safety by aligning with human values, while existing research (Zou et al.,
+2023b; Wei et al., 2024a; Carlini et al., 2024) suggests that malicious attackers can circumvent safety
+guardrails. Therefore, understanding the inner workings of LLMs is necessary for responsible and
+ethical development (Zhao et al., 2024a; Bereska & Gavves, 2024; Fang et al., 2024).
+Currently, revealing the black-box LLM safety is typically achieved through mechanism interpretation methods. Specifically, these methods (Geiger et al., 2021; Stolfo et al., 2023; Gurnee et al.,
+2023) granularly analyze features, neurons, layers, and parameters to assist humans in understanding model behavior and capabilities. Recent studies (Zou et al., 2023a; Templeton, 2024; Arditi
+et al., 2024; Chen et al., 2024) indicate that the safety capability can be attributed to representations
+and neurons. However, multi-head attention, which is confirmed to be crucial in other abilities (Vig,
+2019; Gould et al., 2024; Wu et al., 2024), has received less attention in safety interpretability. Due to
+the differing specificities of components and representations, directly transferring existing methods
+to safety attention attribution is challenging. Additionally, some general approaches (Meng et al.,
+2022; Wang et al., 2023; Zhang & Nanda, 2024) typically involve special tasks to observe the result
+changes in one forward, whereas safety tasks necessitate full generation across multiple forwards.
+In this paper, we aim to interpret safety capability within multi-head attention. To achieve this, we
+introduce Safety Head ImPortant Scores (Ships) to attribute the safety capability of individual
+attention heads in an aligned model. The model is trained to reject harmful queries in a high probability so that it aligns with human values (Ganguli et al., 2022; Dubey et al., 2024). Based on this,
+Ships quantifies the impact of each attention head on the change in the rejection probability of
+harmful queries through causal tracing. Concretely, we demonstrate that Ships can be used for
+attributing safety attention head. Experimental results show that on three harmful query datasets,
+using Ships to identify safe heads and using undifferentiated attention ablation (only modifying
+∼ 0.006% of the parameters) can improve the attack success rate (ASR) of Llama-2-7b-chat
+from 0.04 to 0.64 ↑ and Vicuna-7b-v1.5 from 0.27 to 0.55 ↑.
+Furthermore, to attribute generalized safety attention heads, we generalize Ships to evaluate the
+changes in the representation of ablating attention heads on harmful query datasets. Based on the
+generalized version of Ships, we attribute the most important safety attention head, which is ablated, and the ASR is improved to 0.72 ↑. Iteratively selecting important heads results in a group
+of heads that can significantly change the rejection representation. We name this heuristic method
+Safety Attention Head AttRibution Algorithm (Sahara). Experimental results show that ablating
+the attention head group can further weaken the safety capability collaboratively.
+Based on the Ships and Sahara, we interpret the safety head of attention on several popular
+LLMs, such as Llama-2-7b-chat and Vicuna-7b-v1.5. This interpretation yields several
+intriguing insights: 1. Certain safety heads within the attention mechanism are crucial for feature
+integration in safety tasks. Specifically, modifying the value of the attention weight matrices changes
+the model output significantly, while scaling the attention output does not; 2. For LLMs fine-tuned
+from the same base model, their safety heads have overlap, indicating that in addition to alignment,
+the safety impact of the base model is critical; 3. The attention heads that affect safety can act
+independently with affecting helpfulness little. These insights provide a new perspective on LLM
+safety and provide a solid basis for the enhancement and future optimization of safety alignment.
+Our contributions are summarized as follows:
+➪ We make a pioneering effort to discover and prove the existence of safety-specific attention
+heads in LLMs, which complements the research on safety interpretability.
+
+➪ We present Ships to evaluate the safety impact of attention head ablation. Then, we propose a
+heuristic algorithm Sahara to find head groups whose ablation leads to safety degradation.
+➪ We comprehensively analyze the importance of the standard multi-head attention mechanism
+for LLM safety, providing intriguing insights based on extensive experiments. Our work significantly boosts transparency and alleviates concerns regarding LLM risks.

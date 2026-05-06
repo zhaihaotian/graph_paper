@@ -1,0 +1,50 @@
+Large Language Models (LLMs) are increasingly used in consequential applications. Despite their
+versatility, LLMs often produce hallucinations, in which the generated information is inaccurate
+or fabricated and require costly retraining to integrate new knowledge. One promising method to
+mitigate these problems is retrieval-augmented generation (RAG, Lewis et al., 2020). RAG enhances
+text generation by adding information from external knowledge sources to the prompt and has been
+shown to reduce hallucinations in practice (Shuster et al., 2021). Nevertheless, even when modern
+LLMs are used with RAG, hallucination rates of 15% – 30% (Chen et al., 2023a) or more than one
+hallucination per 100 output tokens can occur (Niu et al., 2024).
+To prevent hallucinated output from being delivered to end-users, natural language inference (NLI)
+models can be used to verify the grounding of the generated output in the documents retrieved (Chen
+et al., 2023b; Es et al., 2024; Tang et al., 2024) before the output is relayed to the end-user: the generated response must be fully grounded in the documents (see Figure 1); otherwise, it is considered ungrounded. However, our results indicate that their performance in verifying grounding for
+realistic RAG inputs lags behind LLMs by about 20% (in ROC-AUC scores). Other recent methods
+use pre- and post-processesing techniques such as sentence tokenization or LLM prompting to
+decompose long prompts (Zha et al., 2023; Es et al., 2024) into several chunks or facts. Each of
+these chunks needs to be processed in a separate forward pass, resulting in high latency as well.
+While some studies (e.g., Manakul et al., 2023; Tang et al., 2024) have also explored directly using
+LLMs like GPT-4 for text entailment detection, their latency is about an order of magnitude above
+the lightweight models. Taken together, these characteristics make it hard to deploy the existing
+approaches in real-time industry use-cases.
+The performance gap observed for realistic RAG inputs with the lightweight models may point to a
+substantial domain mismatch between the NLI datasets used to train these models and the challenging, real-world data encountered at test time. We observe that inputs of NLI models in RAG are more
+challenging as they comprise longer segments with multiple statements and contain more subtle ungrounded information as the output is LLM-generated. While these characteristics are common to
+RAG systems in general, each implementation still has a very individual input distribution: First,
+inputs may follow a specific format due to the RAG prompt template e.g., question: <question>.
+evidence: Passage 1 <evidence1>, Passage 2 <evidence2> .... Second, the documents are retrieved
+from knowledge bases from a variety of different domains, which may not be represented in training
+data. Prior work (Williams et al., 2018) confirms difficulties when NLI models are applied to data
+from an unseen domain and Hosseini et al. (2024) shows a generalization gap of up to 20%. This
+suggests that NLI models need to be adapted to their target domain for optimal performance.
+Bridging this domain gap poses a significant challenge due to the inherent difficulty of adapting
+models to unseen domains that is further amplified by the prohibitive costs of obtaining labeled data
+from the target domain. This prevents supervised domain adaptation, e.g., through fine-tuning on
+target domain data. To address this issue, we propose Automatic Generative Domain Adaptation
+(Auto-GDA). Our unsupervised domain adaptation framework produces high-quality synthetic data,
+which is then used to fine-tune a lightweight NLI model, adapting it to a specific domain of RAG
+inputs. While training data generation by simply prompting LLMs has been repeatedly explored
+in the literature (e.g., Saad-Falcon et al., 2024; Hosseini et al., 2024), data quality might be further improved through filtering and incorporating background knowledge through label-preserving
+data augmentation strategies, such as round-trip translation (Chen et al., 2023b). However, specifying good filters and heuristic augmentation strategies require significant manual effort. As data
+augmentations can further be applied iteratively, the space of potential samples grows exponentially,
+necessitating efficient search strategies. During this offline training phase, less efficient teacher models can provide additional guidance using weak labels. Auto-GDA offers a unified way to leverage
+all these available tools. We thus make the following contributions:
+
+1. We formalize the unsupervised domain adaptation problem under the availability of practical tools such as data generators, data augmentation routines, and weak teacher models.
+2. We propose Automatic Generative Domain Adaptation (Auto-GDA), a principled framework for unsupervised domain adaptation through synthetic data that can be instantiated
+with different implementations of generation, augmentation, and weak labeling steps and
+which automatically selects high-quality samples.
+3. We show that our objective corresponds to an enhanced distribution matching objective but
+is highly efficient to optimize. w
+4. Our experiments on realistic RAG inputs highlight that our fine-tuned models using AutoGDA (1) often outperform their weak teacher models (2) perform almost as well as reference models fine-tuned with human-labeled data and (3) reach the level of performance
+exhibited by LLMs while having almost 10x lower latency. (4) Our method further outperforms more classical training-based unsupervised domain adaptation techniques.1

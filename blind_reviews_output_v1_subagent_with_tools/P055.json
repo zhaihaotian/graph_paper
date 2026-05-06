@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear problem motivation: the paper systematically identifies three concrete failure modes of neuron-adaptive methods (layer-type mismatch, dependence on sparse activations, inefficient masking) before proposing RaNA, giving the contribution a well-grounded rationale.",
+      "Principled generalization: framing any linear layer as W x ≈ A(r(x) ⊙ Bx) is elegant and genuinely extends the neuron-adaptive paradigm to attention modules (QKV) without requiring activation sparsity, which is a non-trivial theoretical step.",
+      "Empirical breadth: experiments span three architecturally distinct model families (Llama2, Gemma, Pythia/GPTNeox) at multiple compression rates, with both perplexity and downstream accuracy reported, lending credibility to the generality claims.",
+      "Quantitative gains are substantial and specific: 4 perplexity-point and 8 accuracy-point improvements over CATS at ~44% FLOP reduction on Llama2-7b are large enough to be practically meaningful, not marginal.",
+      "Open-source release of code adds reproducibility."
+    ],
+    "weaknesses": [
+      "The introduction does not explain how the low-rank decomposition A and B are obtained (e.g., SVD at init, learned end-to-end, or post-hoc calibration) nor how the router r(x) is parameterized and trained; this leaves the core mechanism underspecified for readers of the intro alone.",
+      "Latency vs. FLOP gap is unaddressed in the abstract/intro: low-rank and masking operations can be memory-bandwidth-bound on modern hardware, so FLOP reduction does not always translate linearly to wall-clock speedup — an important caveat that should be flagged.",
+      "Comparison scope is narrow: only CATS and ReLUfication are benchmarked head-to-head; other relevant adaptive-compute baselines (e.g., early-exit, speculative decoding, or structured pruning methods) are omitted, which could overstate the novelty of the gain.",
+      "The claim that rank importances are sparse (Figs. 2a, 2b) is presented as empirical validation, but no statistical or theoretical argument is given for why this sparsity should persist across domains or tasks, weakening the generalization argument.",
+      "The paper does not report wall-clock inference benchmarks or memory overhead of maintaining the A/B decomposition alongside the original weights during deployment, which are critical for practitioners."
+    ],
+    "overall_score": 6,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The writing exhibits several markers of human authorship: multi-threaded argumentation that weaves together three distinct failure-mode threads (layer generality, activation sparsity, masking cost) before converging on a unified solution; varied sentence length with non-formulaic transitions; and domain-specific notation introduced organically (e.g., O(d_in · d_hidden) complexity) rather than as boilerplate. The prose occasionally uses hedged first-person ('we believe', 'we observe') in a way that feels deliberate rather than template-driven, and the flow of the results paragraph mixes perplexity and accuracy metrics with model-specific numbers in a pattern more consistent with author-written reporting than AI summarization."
+  }
+}

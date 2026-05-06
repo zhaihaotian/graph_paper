@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear and well-motivated problem formulation grounded in the compute scaling equation C\u22486ND, which logically partitions the solution space into reducing N vs. reducing D",
+      "The proposed patch-level training is conceptually intuitive and the efficiency analysis (\u03bb/K + 1 \u2212 \u03bb reduction factor) is concrete and verifiable",
+      "Preliminary empirical results across multiple model sizes (370M\u20132.7B) with specific hyperparameter settings lend credibility to the approach before the full paper is read",
+      "Correctly identifies that reducing D is underexplored relative to model compression/pruning work, positioning the contribution clearly in the literature gap"
+    ],
+    "weaknesses": [
+      "The patch construction mechanism is entirely unspecified in the introduction \u2014 it is unclear how tokens are aggregated into patches (fixed window, learned, BPE-style) and whether this is a key contribution or trivially borrowed",
+      "The claim that 'knowledge is sparsely distributed' and that 'only a small fraction of model parameters relevant to the current token are effectively updated' is asserted without citation or justification; this is a strong empirical claim that requires support",
+      "Performance is evaluated only on NLL loss in the introduction; downstream task evaluation is absent, making it unclear whether the loss advantage translates to capability",
+      "The two-stage training (patch then token) raises obvious questions about distribution shift and catastrophic forgetting that are not acknowledged",
+      "Related work on token merging, megabyte-style models, and subword compression is not engaged with, leaving the novelty claim insufficiently differentiated"
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.67,
+    "reasoning": "The introduction contains precise empirical details (370M\u20132.7B parameter range, Pile dataset, K=4 and \u03bb=2/3 hyperparameters, NLL curves), a non-trivial mathematical derivation, and a multi-paragraph logical argument structure that are characteristic of human-authored ML papers. While certain phrases ('remarkable progress', clean three-part framing) are formulaic, the specificity of the efficiency analysis and the acknowledgment of the model-growth limitation tradeoff reflect genuine domain reasoning rather than surface-level generation."
+  }
+}

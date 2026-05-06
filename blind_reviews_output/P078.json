@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Strong and well-grounded motivation connecting data attribution to real-world legal and copyright concerns in generative AI, with relevant citations to ongoing litigation",
+      "Technical depth is high: the authors clearly identify the gap (GGN not formulated for diffusion objectives, K-FAC not applied to diffusion architectures) and address each gap explicitly",
+      "Unifying prior methods (Georgiev et al., 2023; Zheng et al., 2024) under a shared framework is a genuine scientific contribution that adds clarity to a fragmented literature",
+      "Empirical claims are specific and measurable (LDS, retraining without top influences), suggesting the paper is verifiable",
+      "Honest acknowledgment of surprising empirical findings that challenge current understanding adds credibility and intellectual honesty"
+    ],
+    "weaknesses": [
+      "The introduction does not discuss limitations of the proposed approach (e.g., computational cost at scale, sensitivity to hyperparameters in K-FAC), which would improve balance",
+      "The final sentence about 'interesting empirical observations that challenge our current understanding' is vague and reads as a teaser rather than a substantive claim; it would benefit from a concrete hint",
+      "The transition from motivation (copyright law) to technical machinery (GGN, K-FAC) is abrupt; a bridging sentence or figure reference earlier would help readers track the argument",
+      "No discussion of scope: it is unclear whether the method applies to latent diffusion models (e.g., Stable Diffusion) or only pixel-space models, which is important for practical impact"
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.88,
+    "reasoning": "The prose is lengthy, multi-threaded, and technically specific, weaving citations naturally into a sustained argument across several paragraphs \u2014 atypical of AI-generated text. The acknowledgment of a prior work's exact quoted limitation and the discursive unpacking of design-space tradeoffs reflect the uneven, iterative style of human academic writing. There are no formulaic contribution bullet lists or single-anchor framing patterns commonly associated with LLM-generated introductions."
+  }
+}

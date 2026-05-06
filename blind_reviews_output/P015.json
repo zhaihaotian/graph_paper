@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear and well-motivated problem statement: the gap between token-level generation accuracy and truth-judgment consistency is a genuine and underappreciated failure mode in model editing.",
+      "Concrete illustrative example (Danielle Darrieux) makes the semantic inconsistency tangible and easy to follow.",
+      "Commendable honesty in the final contribution bullet explicitly stating the method's main limitation (template-specificity, non-significant transfer to paraphrases), which is rare and scientifically responsible.",
+      "Reports quantitative results with statistical significance (p = 0.0044), lending credibility to the primary claim."
+    ],
+    "weaknesses": [
+      "The proposed method (FCG) is conceptually thin \u2014 adding balanced True/False supervision is a straightforward idea that does not require substantial technical novelty to motivate a full paper.",
+      "The admitted limitation (template-label association rather than semantic generalization) substantially undermines the core contribution; the improvement on paraphrased prompts (+2.44, not significant) suggests the method does not achieve its stated goal of 'genuine truth discrimination'.",
+      "Evaluation appears restricted to a single dataset split (KnowEdit ZsRE), making it difficult to assess whether results generalize.",
+      "The three-bullet contribution list is formulaic and maps almost entirely to a single experiment rather than a broader research program.",
+      "No discussion of why template-specificity occurs or what architectural or training changes might address it, leaving the paper without a path forward."
+    ],
+    "overall_score": 5,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.78,
+    "reasoning": "The introduction follows a highly stereotyped structure (background \u2192 gap \u2192 naive-approach failure \u2192 proposed fix \u2192 3-bullet contributions) with uniform paragraph length and formulaic transitions. The three-bullet contribution list with a self-contained limitation bullet is a hallmark of AI-generated academic prose. Prose rhythm is consistently smooth with no stylistic variation, sentence-level hedging, or discursive detours typical of human academic writing."
+  }
+}

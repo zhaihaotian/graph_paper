@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear and well-motivated problem statement with concrete quantitative grounding (15\u201330% hallucination rates, 20% ROC-AUC gap vs LLMs, ~10x latency reduction), making the practical stakes immediately legible.",
+      "The narrative arc is coherent: RAG hallucination \u2192 NLI verification \u2192 performance/latency limitations \u2192 domain mismatch \u2192 unsupervised adaptation gap \u2192 Auto-GDA. Each step is justified before the next is introduced.",
+      "The domain mismatch diagnosis is nuanced and well-supported (citing Williams et al. 2018, Hosseini et al. 2024), and the observation that each RAG deployment has its own input distribution is a genuine and underappreciated insight.",
+      "The paper positions itself carefully against three distinct prior-work families (NLI models, decomposition-based methods, direct LLM use), with specific latency and accuracy tradeoffs called out for each."
+    ],
+    "weaknesses": [
+      "Contribution 3 contains an apparent editing artifact ('highly efficient to optimize. w'), suggesting the contributions list was not carefully proofread; this undermines presentation quality.",
+      "The four-part experimental claim in contribution 4 is dense and uses unbalanced numbering (four sub-claims inline) that reduces readability and obscures priority.",
+      "The claim that Auto-GDA 'often outperforms weak teacher models' is hedged with 'often' \u2014 this should be quantified or the scope clarified; readers cannot assess what 'often' means without more context.",
+      "The unsupervised domain adaptation framing is well-known territory (e.g., DANN, self-training); the introduction does not clearly differentiate Auto-GDA from prior UDA literature beyond RAG-specific motivation, which could be seen as undercontextualization.",
+      "The exposition of the distribution matching objective is mentioned but not explained \u2014 a brief intuition in the introduction would help readers evaluate the technical novelty claim."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.63,
+    "reasoning": "The introduction is notably long and multi-threaded, weaving together hallucination rates, NLI latency tradeoffs, domain mismatch, and adaptation costs across four substantive paragraphs before reaching contributions \u2014 a structural depth atypical of AI-generated intros. The editing artifact ('optimize. w') and slightly uneven prose rhythm also suggest human authorship. However, the numbered contributions section is formulaic and the overall structure follows a very clean problem\u2192gap\u2192solution\u2192contributions template, which introduces some AI-like signals."
+  }
+}

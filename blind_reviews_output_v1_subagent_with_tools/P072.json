@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The problem framing is clear and well-motivated: the paper identifies a genuine gap in hierarchical RL—the unobservability of high-level actions in offline datasets—and directly addresses it with a principled inverse optimization approach.",
+      "The OHIO framework is technically sound and practically motivated. Mapping state transitions to latent high-level actions via inverse optimization is a clean abstraction that allows compatibility with arbitrary offline RL algorithms and arbitrary low-level policy structures.",
+      "The paper spans three distinct application domains (robotic locomotion, supply chain inventory control, and dynamic vehicle routing), which meaningfully demonstrates breadth of applicability and strengthens the claim that the approach is policy-structure-agnostic.",
+      "The contributions are specific and well-delineated: a new framework, analytical and numerical inverse optimization objectives, ablation-style design investigations, and safety-focused evaluation—all presented with reasonable granularity.",
+      "Situating OHIO within both the RL and optimal control communities is appropriate; the paper bridges model-based and learning-based traditions and acknowledges prior hierarchical RL literature (HIRO, options framework, etc.) in context."
+    ],
+    "weaknesses": [
+      "The excerpt provided ends abruptly mid-paper (only 51 lines are visible), so a full assessment of experiments, baselines, and ablations cannot be made. The review is therefore necessarily limited to the introduction and contribution claims.",
+      "The inverse optimization formulation's robustness to distributional shift—a core challenge of offline RL—is not addressed in what is shown. It is unclear whether the recovered high-level actions are subject to the same out-of-distribution issues that plague standard offline RL, and whether the proposed method compounds or mitigates this risk.",
+      "Safety guarantees are mentioned in the contributions but not substantiated in the visible text. The claim that the approach provides 'safety guarantees needed for safe, real-world deployment' appears to be asserted rather than derived from a formal safety framework or constraint formulation.",
+      "The relationship between the quality/completeness of the offline dataset and the accuracy of inverse optimization recovery is not discussed. If the low-level policy is stochastic or the state transitions are noisy, the inverse problem may be ill-conditioned, and this failure mode deserves explicit treatment.",
+      "The connection between the two identified 'fundamental issues' (unobservability of hierarchy-level actions and ill-posedness from controller modifications) and how OHIO resolves the second issue specifically is underexplained in the introduction—the inverse optimization framing clearly addresses the first, but the second warrants more justification."
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.78,
+    "reasoning": "The writing exhibits multi-threaded argumentation across RL, optimal control, and real-world sequential decision-making simultaneously, with nested domain references (vehicle routing, supply chains, power grids, robotics) and nuanced hedging ('long held the promise', 'has had a limited impact'). Sentence-level variation is high, and the framing of two distinct 'fundamental issues' with asymmetric elaboration is a pattern more consistent with domain-expert authorship than AI templating. The contribution bullet list has four items of unequal depth, which departs from the uniform parallel structure typical of AI-generated text."
+  }
+}

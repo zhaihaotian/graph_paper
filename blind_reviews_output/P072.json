@@ -1,0 +1,23 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clearly identifies and articulates two specific, fundamental obstacles to offline hierarchical RL \u2014 unobservable inter-level actions and ill-posedness under policy modifications \u2014 providing strong motivation for the proposed framework.",
+      "The inverse optimization framing is technically principled and non-trivial; mapping state transitions back to latent high-level actions is a genuine insight rather than a shallow repackaging of existing methods.",
+      "Breadth of experimental domains (robotic locomotion, supply chain inventory, dynamic vehicle routing) lends credibility to the claimed generality of the framework.",
+      "Strong situating of the work across both RL and optimal control literatures, with citations spanning operations research, robotics, and deep RL communities."
+    ],
+    "weaknesses": [
+      "A figure caption ('low-level trajectory data (top left) into a dataset amenable to offline RL...') appears verbatim in the body text \u2014 a copy-paste artifact that breaks narrative flow and suggests incomplete editing.",
+      "The claim of 'safety guarantees needed for safe, real-world deployment' in the final contribution bullet is stated without qualification; offline RL alone does not provide formal safety guarantees, and this overreach may concern reviewers.",
+      "The four-bullet contribution list is formulaic and the last two bullets (design decisions investigation, experiments) are more methodological details than conceptual contributions.",
+      "The framing around 'OHIO' is introduced abruptly without sufficient intuition for why inverse optimization specifically is the right tool before the technical exposition."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The introduction exhibits broad, multi-threaded citation coverage spanning robotics, operations research, and optimal control, and builds a genuinely layered argument over two pages \u2014 atypical of AI-generated text which tends to be shorter and more uniform. The embedded figure-caption artifact mid-paragraph is a characteristic human editing error from LaTeX copy-paste. The four-bullet contribution list is somewhat formulaic, but that pattern is nearly universal in ML venue submissions regardless of authorship."
+  }
+}

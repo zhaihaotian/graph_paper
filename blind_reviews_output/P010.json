@@ -1,0 +1,23 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Identifies a genuine and under-addressed practical problem: the threshold-setting difficulty in adaptive reasoning is a valid critique of prior work, and the reframing as risk control is intellectually coherent",
+      "Leverages distribution-free risk control (Bates et al., 2021), a well-grounded statistical framework, giving the approach theoretical credibility beyond heuristic thresholding",
+      "The decomposition into false-positive and false-negative risk types is principled and maps cleanly onto two distinct sources of token inefficiency, which is a non-trivial insight",
+      "References specific equations and figures, indicating the introduction is grounded in technical content developed later in the paper"
+    ],
+    "weaknesses": [
+      "The claim that threshold-setting is strictly 'trickier' than token budgets is asserted without empirical or theoretical support; this premise underpins the paper's motivation and deserves more careful justification",
+      "No discussion of the size or domain requirements for the external validation set, which is central to the method; this raises practical questions about the approach's deployability",
+      "The introduction does not mention potential failure modes (e.g., distribution shift between validation and test, risk miscalibration under heavy-tailed distributions), weakening scientific rigor",
+      "The contributions list is formulaic and high-level; contribution (iii) in particular reads more like an experimental result than a scientific contribution"
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.68,
+    "reasoning": "The introduction follows a textbook AI-paper structure: problem statement, proposed reframe, technical decomposition, and a clean numbered 3-bullet contributions list with consistent parallelism. The prose is polished but lacks the rough edges, hedging, and idiosyncratic argumentation typical of human academic writing. The nuanced critique of prior work and multi-layered reframing add some human-like complexity, but the overall pattern\u2014especially the formulaic contributions section\u2014skews toward AI generation."
+  }
+}

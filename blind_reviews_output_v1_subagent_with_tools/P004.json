@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clearly identifies a fundamental and practically significant limitation shared by both Transformers and LRNNs — the inability to learn state-tracking tasks such as parity — and grounds it in formal theory (eigenvalue constraints), giving the paper a strong theoretical backbone.",
+      "The contributions are well-delineated and span multiple levels: impossibility proofs (Theorems 1–2), expressivity upper bounds (Theorems 3–4), an efficient architectural fix (eigenvalue range extension to [−1, 1]), and empirical validation at scale (up to 1.3B parameters), making the work both theoretically rigorous and practically relevant.",
+      "The proposed fix is remarkably simple — extending eigenvalue range from [0,1] to [−1,1] — yet yields improvements in state-tracking and code/math perplexity without sacrificing training stability or efficiency, a strong signal of a genuine insight rather than an engineering trick.",
+      "The work connects prior theoretical results (Sarrof et al., 2024) to a broader class of architectures including non-diagonal and generalized Householder matrices, and explicitly demonstrates applicability to deployed models (Mamba, DeltaNet), which increases its immediate impact.",
+      "Situating the limitation within real-world tasks (entity tracking, nested code structures, reasoning) gives the theoretical finding concrete motivation and broadens the paper's appeal beyond specialists in formal language theory."
+    ],
+    "weaknesses": [
+      "The introduction does not discuss whether the eigenvalue range extension introduces any trade-offs on standard language modeling benchmarks beyond perplexity; the claim of 'comparable performance' is under-specified and needs quantitative context (absolute perplexity values, benchmark suites).",
+      "The scope of the impossibility results (finite precision, arbitrary sequence lengths, one forward pass) is important but may be misread as more general than they are. Clearer upfront statements about these caveats would reduce potential misinterpretation.",
+      "The treatment of GH matrices used in DeltaNet is stated to share the same eigenvalue limitations, but the mechanistic argument for why products of GH matrices with negative eigenvalues suffice for regular languages (Theorems 3–4) is only sketched in the introduction; readers cannot assess whether the claims are tight without seeing the proofs, and the intro does not flag where this gap sits.",
+      "The introduction omits any discussion of related work on linear recurrences with complex-valued or negative eigenvalues (e.g., LRU, S4, S5, RWKV variants), which would sharpen the novelty claim and help readers understand what is genuinely new versus a re-discovery.",
+      "Empirical evidence for the main state-tracking claims appears limited to synthetic tasks (parity, modular arithmetic, permutation composition); it is unclear whether the improvement in code/math perplexity observed in DeltaNet is causally linked to better state-tracking or to other optimization dynamics."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.78,
+    "reasoning": "The review is structurally varied and multi-threaded: it interleaves formal theory, practical motivation, and methodological caveats across multiple distinct threads rather than following a formulaic three-bullet pattern. The weaknesses section pursues substantive logical gaps (scope of impossibility results, missing related-work coverage, causal ambiguity in empirical claims) that reflect domain-specific engagement rather than generic AI-generated hedging. The overall argument density and the specificity of the cited technical details (eigenvalue range semantics, GH matrix composition, finite-precision caveats) are more consistent with a knowledgeable human reviewer than with AI-generated text."
+  }
+}

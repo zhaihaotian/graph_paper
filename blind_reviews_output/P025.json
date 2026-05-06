@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear and well-motivated problem: the benign-padding vulnerability is concrete, with dramatic empirical numbers (FNR 0.0455\u21921.0) that immediately convey severity",
+      "Proposed solution (WindowScan-Judge) is cleanly scoped as a post-hoc wrapper, making it broadly applicable across base judges without retraining",
+      "The multiple-comparisons framing for FPR inflation is a legitimate statistical insight that grounds the LA-FPR design choice",
+      "Quantitative claims are specific and falsifiable, lending credibility to the experimental setup"
+    ],
+    "weaknesses": [
+      "The attack surface (literal prepend/append of benign text) is simplistic; it is unclear whether WSJ generalizes to more sophisticated interleaving or paraphrasing attacks",
+      "No discussion of computational overhead from multi-scale windowed scanning, which is critical for the stated real-time filtering use case",
+      "Related work on adversarial robustness of safety classifiers and sliding-window NLP methods is absent from this excerpt, making novelty hard to assess",
+      "The 'tuning-free' claim in contributions conflicts with the need to calibrate a threshold for LA-FPR; this tension is unaddressed",
+      "The three-bullet contributions section restates the abstract without adding depth, and the third bullet (99.1% FNR reduction) duplicates a result already stated in the body"
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.88,
+    "reasoning": "The introduction follows an extremely formulaic arc (problem \u2192 vulnerability \u2192 mitigation tradeoff \u2192 solution \u2192 three-bullet contributions) with no idiosyncratic prose, hedging, or tangential insight characteristic of human academic writing. The three-bullet 'Our contributions are:' list with parallel imperative structure is among the strongest single indicators of LLM-generated text. The prose is uniformly clean and transitions are mechanical, lacking the uneven voice typical of human authors."
+  }
+}

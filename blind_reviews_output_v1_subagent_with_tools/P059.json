@@ -1,0 +1,26 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a precise and underexplored problem: existing modality gap treatments rely on overly simplistic isotropic assumptions, and the paper offers a theoretically grounded decomposition into stable bias plus anisotropic residual within a fixed reference frame, which is a meaningful conceptual advance over prior mean-shift approaches.",
+      "The two-stage ReVision pipeline is well-motivated: by distinguishing the statistical pre-alignment (ReAlign, training-free) from the fine-grained visual instruction tuning stage, the authors provide a principled separation between what can be recovered from statistical laws alone versus what requires real paired data.",
+      "ReAlign is a training-free operator composed entirely of linear transformations and normalization, making it computationally cheap and easy to integrate; the three-step decomposition (Anchor, Trace, Centroid) maps clearly onto the theoretical quantities derived in the framework.",
+      "The core claim—that massive unpaired text is sufficient to statistically reconstruct the modality gap shape without expensive paired samples—is a practically important message for the community given the cost of curating large-scale image-text corpora.",
+      "The paper frames two sharp research questions (shape characterization; scalable substitution) and addresses both, giving the narrative a clear logical spine."
+    ],
+    "weaknesses": [
+      "The empirical section is not presented in the excerpt; from the introduction alone it is impossible to assess whether the benchmark results are statistically significant, whether ablations isolate each of the three ReAlign stages, or whether comparisons to geometric correction baselines (e.g., CLIP-GAP correction methods) are fair and comprehensive.",
+      "The fixed reference frame Rd = U ⊕ V is introduced without a rigorous definition of how U (task subspace) is identified in practice—specifically, what criterion determines when gradient concentration is sufficient to define U, and how sensitive ReAlign is to errors in estimating this subspace on unseen data distributions.",
+      "The claim that second-moment matching (Trace Alignment) is sufficient to capture the anisotropic residual is stated but not proven; in high-dimensional spaces the distribution of residuals may require higher-order statistics or a non-Gaussian model, and this limitation is not discussed.",
+      "Performance degradation on fine-grained visual tasks—acknowledged as a weakness of prior text-only training methods—is addressed only by adding a second stage of real-image instruction tuning. It is unclear how much of the final fine-grained performance is due to ReVision stage 1 versus stage 2, potentially undermining the core efficiency claim.",
+      "The introduction lists four contributions but does not sufficiently differentiate contribution (1) (theoretical framework) from contribution (2) (ReAlign), as ReAlign is presented as a direct corollary of the framework; more precise scoping of what is theoretically novel versus what is engineering application would strengthen the paper.",
+      "No discussion of failure modes: if the unpaired text corpus used to estimate alignment statistics is domain-mismatched with the downstream visual tasks, the statistical estimates of U and the residual covariance may be poor, and the paper gives no guidance on detecting or mitigating this."
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The introduction exhibits multi-threaded argumentation—interleaving theoretical motivation, empirical observation, and engineering design across several paragraphs—with hedged language ('most of these works,' 'exposing a pronounced distributional gap') and discipline-specific vocabulary (anisotropic residual, spherical projection, second-moment properties) that reflects genuine domain expertise rather than generic summarization. The prose density and the non-trivial logical dependency between the shape and scale research questions, combined with the specific three-stage nomenclature (Anchor, Trace, Centroid) that carries conceptual weight rather than being cosmetic, are patterns more consistent with human authorship. The contribution list is somewhat formulaic but is embedded in a richer argumentative context that offsets this."
+  }
+}

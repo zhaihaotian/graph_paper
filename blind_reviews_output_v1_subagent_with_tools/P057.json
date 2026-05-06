@@ -1,0 +1,23 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a genuine and important limitation of current prevention-only safety alignment paradigms, and motivates the backtracking idea with concrete, well-chosen examples (base64 jailbreaks, low-resource language attacks).",
+      "The proposed [RESET] mechanism is technically simple, modular, and compatible with standard alignment pipelines (SFT and DPO), lowering the bar for adoption; the paper also explicitly addresses the efficiency-safety tradeoff and shows it can be controlled via logit bias.",
+      "Evaluation is conducted on two architecturally distinct models (Gemma2-2B and Llama-3-8B), includes three state-of-the-art adversarial attacks plus a custom adaptive attack, and the authors report no safety-utility regression — a common pitfall in alignment work."
+    ],
+    "weaknesses": [
+      "The abstract and introduction conflate 'the model verifies safety' with 'the model backtracks' without a clear formal account of the verification step; it is unclear how the model decides when to emit [RESET] and how robust that decision is to adversarial pressure on the verifier itself.",
+      "The adaptive attack is described only at a high level in the excerpt; its construction, scope, and whether it constitutes a genuine white-box threat to the backtracking mechanism are not assessable from the provided text, raising concerns about evaluation completeness.",
+      "The approach is evaluated only during inference-time generation; there is no analysis of how training on contrastive safety demonstrations affects the base model's helpfulness distribution, calibration, or tendency to backtrack spuriously on benign prompts.",
+      "The paper does not address multi-turn or agentic settings where the discarded tokens may already have triggered downstream tool calls or external effects, limiting the practical scope of the safety claim.",
+      "The excerpt does not discuss compute overhead of generating tokens-before-reset during training or inference beyond the logit-bias efficiency note, which may understate real deployment costs."
+    ],
+    "overall_score": 6,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.77,
+    "reasoning": "The writing shows multi-threaded motivation with genuine conceptual tension (prevention vs. verification), specific empirical grounding (named attacks, named encodings, named models), and a discursive explanatory style that works through ideas rather than listing them. The critique vocabulary and the causal chain from problem framing to method to tradeoff analysis are characteristic of a research team writing iteratively, not a single-pass generation."
+  }
+}

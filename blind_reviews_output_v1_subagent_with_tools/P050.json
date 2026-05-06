@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper addresses a timely and important problem—security vulnerabilities in LLM-as-a-Judge pipelines—and situates it clearly within existing literature (Zheng et al., Maloyan et al., Shi et al.).",
+      "The negative result is reported honestly and with appropriate statistical rigor (95% confidence intervals, statistically significant benign drift of −6.42%), which is commendable and scientifically valuable.",
+      "The attack surface analysis is concrete and specific: the paper identifies real parsing fallback logic (substring search for 'met' and 'true') and quantifies baseline fallback rate at 99.78%, grounding theoretical claims in empirical observation.",
+      "The four-contribution framing is well-structured and each contribution is distinct and falsifiable.",
+      "The practical recommendation—empirically validate security interventions on both adversarial and benign conditions before deployment—is actionable and directly supported by the experimental findings."
+    ],
+    "weaknesses": [
+      "The paper is extremely short (roughly 300 words in the abstract/intro block provided), and it is unclear whether the full paper contains sufficient methodological detail to reproduce the experiments. The three payload families (direct override, format spoofing, fallback-parse trigger) and the four hardening layers are named but not described mechanistically.",
+      "The scope of the attack evaluation is limited to three payload families, which the authors chose themselves. Without a threat model or adversary capability specification, it is unclear whether these cover the realistic attack surface or represent a cherry-picked, easily-defeated set.",
+      "The claim that the baseline 'demonstrates natural robustness' is potentially misleading if the tested payloads are weak or non-adaptive. The authors should compare against stronger or adaptive adversaries before concluding robustness.",
+      "No comparison to related defenses or prior hardening strategies for LLM judges is presented, making it difficult to contextualize whether the proposed four-layer strategy is state-of-the-art or naive.",
+      "The LiveMedBench-specific focus limits generalizability. It is unclear whether findings extend to other LLM-as-a-Judge systems, and the paper does not discuss this limitation explicitly."
+    ],
+    "overall_score": 5,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.78,
+    "reasoning": "The text exhibits highly characteristic AI writing patterns: a four-point contribution list with parallel grammatical structure ('First... Second... Third... Fourth...'), each bullet anchored to a single precise quantitative claim, and no discursive hedging or authorial voice. The sentence rhythm is uniform throughout, and the transition from problem statement to contribution list follows a formulaic IMRaD-introduction template without any of the natural digression or emphasis asymmetry typical of human academic prose."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Identifies a concrete, reproducible vulnerability in RLVR verifiers with precise quantitative evidence (25\u201329% false positive rates across multiple state-of-the-art systems).",
+      "RefSwap is elegantly motivated: the self-solving asymmetry insight cleanly distinguishes the proposed method from surface-feature baselines.",
+      "Training-free design lowers the barrier to adoption, and the reported AUC of 0.991 with only 2.74pp accuracy cost is a strong empirical result if it holds under scrutiny.",
+      "Comprehensive evaluation across 10 master keys and multiple verifier backbones adds breadth."
+    ],
+    "weaknesses": [
+      "The introduction does not situate the work relative to broader reward-hacking and adversarial NLP literature; the threat model feels narrowly scoped to known master keys rather than adaptive adversaries.",
+      "The claim that 'simple defenses like length filtering fail' is presented without detail\u2014unclear what baselines were tested or why semantic approaches are necessary beyond this assertion.",
+      "The self-solving justification is intuitive but not formally grounded; it is unclear whether the asymmetry holds for borderline correct responses or partial-credit answers.",
+      "No discussion of computational overhead of sampling multiple counterfactual references during training-time inference, which matters for practical deployment in RLVR pipelines.",
+      "Backbone dependency analysis is mentioned as a contribution but not explained in the introduction, leaving a key finding opaque."
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.82,
+    "reasoning": "The introduction follows a near-canonical AI-paper template: one-paragraph background, one-paragraph problem statement, one-sentence baseline failure, one-paragraph proposed method, then a rigid four-bullet contributions list with inline metrics. The prose is uniformly clean and declarative with no hedging, rhetorical variation, or discursive threads typical of human academic writing. The high density of formatted statistics (AUC=0.991, 96.8%, 25.50%\u21920.81%, 2.74pp) within a very short introduction is also characteristic of AI-generated scientific text."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a genuine and practically important limitation of existing EM defenses: their use of fixed intervention parameters regardless of training dynamics. The closed-loop framing is well-motivated by the observation that misalignment can emerge abruptly in phase-transition-like dynamics.",
+      "The empirical result is concrete and quantified: 5.39% vs 7.15% General %Misaligned (25% relative improvement) with 4x lower cross-seed variance. The variance reduction is particularly noteworthy, as stability is often underreported in EM defense evaluations.",
+      "The ablation design is principled. Testing the contribution of adaptive timing independently from the average interleaving ratio (showing 36% degradation with fixed timing) isolates the causal mechanism and rules out the confound that the improvement is simply due to more interleaving on average. Testing EMA smoothing and hysteresis separately further decomposes the controller design."
+    ],
+    "weaknesses": [
+      "The paper as summarized covers only a single benchmark (Security EM). Generalizability to other EM settings (e.g., different fine-tuning task domains, different base model families, other harmful behavior taxonomies) is unestablished. A single benchmark result limits confidence in the method's breadth.",
+      "The canary prompt design is underdescribed. How many canary prompts are used? How are they selected or validated as reliable proxies? If the canaries can be gamed or are overly sensitive to distributional shift unrelated to EM, the controller could behave erratically. This is a central component and deserves more scrutiny.",
+      "The threshold-based policy with hysteresis introduces hyperparameters (thresholds, hysteresis band, EMA decay rate, interleaving ratios at each level) whose sensitivity is not fully characterized. While ablations show EMA and hysteresis matter, it is unclear how robust the results are to specific threshold choices, or how a practitioner should set these for a new task.",
+      "The comparison baselines are limited to fixed-ratio interleaving and implicitly SafeLoRA/representation engineering. No direct experimental comparison against SafeLoRA or representation engineering is reported in the excerpt, making it impossible to assess whether the adaptive interleaving framework is competitive with orthogonal defense approaches or whether combining them would be straightforward.",
+      "The paper covers only the introduction and contribution bullets—no methods, results tables, related work, or discussion sections are present in the submitted excerpt. Evaluation of experimental rigor, statistical testing, and reproducibility details is therefore impossible."
+    ],
+    "overall_score": 5,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.78,
+    "reasoning": "The writing exhibits tightly parallel three-bullet contribution structure, formulaic hedging ('poses significant risks', 'motivates an adaptive approach'), and each bullet terminates in a clean numeric claim with no interpretive digression—hallmarks of LLM-assisted scientific writing. The prose lacks the idiosyncratic phrasing, tangential qualifications, and multi-thread argumentation typical of a human-written introduction drafted across multiple revision sessions."
+  }
+}

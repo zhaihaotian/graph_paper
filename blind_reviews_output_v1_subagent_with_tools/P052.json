@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper addresses a genuinely under-explored problem in RLVR training: the credit assignment issue arising from mid-trajectory truncation. The framing via classical RL timeout theory (Pardo et al., 2017) is principled and theoretically motivated.",
+      "Pre-registration of the evaluation protocol is commendable and adds scientific rigor; the authors explicitly acknowledge that timeout bootstrapping fails their own pre-registered criteria, which reflects honest reporting.",
+      "The mechanistic diagnosis of critic value collapse (degeneration to -1.0 within 15-20 steps) and the negative correlation finding (Pearson r = -0.211, AUROC = 0.314) provide actionable insight into why the approach fails, going beyond a simple null result.",
+      "The three-way comparison (truncate-as-failure vs. DAPO overlong shaping vs. timeout bootstrapping) is clearly scoped and the distinctions between the strategies are well-articulated."
+    ],
+    "weaknesses": [
+      "The paper essentially reports a negative result with a partial positive signal (+2.20pp on the stable-training long subset), but the scope of experiments is narrow: only MATH-500 is evaluated, and the number of training runs and seeds is not described in the excerpt. Generalizability claims are therefore limited.",
+      "The critic collapse phenomenon is identified but not resolved. The paper does not propose or test any mitigation (e.g., critic pretraining, separate value head initialization, lower bootstrapping weight), leaving the contribution largely diagnostic rather than constructive.",
+      "The paper conflates two separate phenomena without fully disentangling them: (1) the critic's miscalibration on reasoning prefixes and (2) the speed of collapse. It is unclear whether the collapse is an initialization artifact, a dataset artifact, or fundamental to this setting.",
+      "The excerpt contains no ablations on hyperparameters (e.g., lambda for GAE, critic learning rate, bootstrapping coefficient), which limits understanding of whether the failure is inherent to the approach or to a specific implementation.",
+      "The contribution list (4 bullets) largely restates the abstract findings without adding new framing, which suggests the paper may be light on novel methodology."
+    ],
+    "overall_score": 5,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The writing exhibits multiple markers consistent with human authorship: the paper honestly reports failure against its own pre-registered criteria (a form of intellectual humility rare in AI-generated text that tends toward positive framing), uses specific quantitative findings embedded naturally in narrative context (r = -0.211, AUROC = 0.314, 15-20 steps), and constructs a genuinely nuanced argument about why a theoretically motivated approach fails empirically. The introduction thread moves from motivation to proposal to failure mode without the formulaic 'first... second... third...' scaffolding typical of AI-generated abstracts, and the DAPO contrast is integrated rather than listed."
+  }
+}

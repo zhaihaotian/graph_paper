@@ -1,0 +1,61 @@
+Accurate, interpretable, and unbiased probabilistic estimation is crucial to artificial intelligence (AI)
+systems in mission-critical tasks that require trustworthy decision making. This is because, in many
+real-world applications, AI systems have to work with partial and incomplete observations that are
+insufficient for deductive and deterministic decisions (McCarthy & Hayes, 1981). Consider the
+charging station planning scenario in Fig. 1, where we want to use large language models to decide
+where to build a certain number of charging stations over a region, subject to some constraints. Since
+we cannot always observe all the necessary information regarding a potential location, we can only
+provide probability or confidence estimates on whether we should use the candidate location. If
+the number of planned stations is significant, we need to perform an optimization process such as
+ILP (Roth & Yih, 2005) that maximizes the estimated probabilities of each individual station. A
+simple ranking of the candidates would not be sufficient in this scenario, as it may yield a suboptimal
+solution illustrated in Fig. 1. However, current LLMs are not ideal for such probability estimation
+tasks since 1) LLMs tend to be inaccurate and overconfident when estimating numerical confidences
+and probabilities (Xiong et al., 2024) and 2) they cannot provide an out-of-the-box interpretable and
+controllable process on how their estimates are derived (Li et al., 2024). This prevents us from using
+LLMs’ decision-making capabilities in large-scale automatic decision-making tasks. Consequently,
+there is a need to find ways to infer better probabilities from these models.
+In this work, we propose B IRD (Bayesian Inference from Abduction and Deduction). B IRD builds on
+three observations. The first observation is that although LLMs cannot produce convincing numerical
+probabilities directly, they can generate neutral and comprehensive real-world factors relevant to
+these probabilistic estimates. Moreover, we observe that they can make relatively correct coarse
+probability estimations when using these factors as contexts that provide more complete information.
+The last observation is that LLMs can decide how specific contexts and conditions are related to
+these factors via entailment classifications. Together, these observations motivate B IRD, where we
+approximate a Bayesian network (Friedman et al., 1997) using LLM-generated factors, optimize its
+internal conditional probabilities by sampling LLM coarse predictions on combinations of values of
+all the factors, and infer more accurate probabilities for specific downstream conditions by leveraging
+LLMs to map conditions to factors.
+
+As illustrated in Fig.2, we formulate the probability estimation problem as deciding P(Oi |C), where
+Oi is a potential outcome (e.g., the government should/should not build a charging station here)
+and C is the downstream condition or context (e.g., the location is on a busy highway) under a
+decision-making scenario S (e.g., deciding whether to build a charging station at the location). Given
+S, B IRD first generates a comprehensive set of real-world factors and values f1 , f2 , ..., fn that may
+contribute to the probabilistic estimations. Then, it approximates a Bayesian network structure
+using the generated factors and the outcomes {O}. We propose a novel method for estimating the
+conditional probability table (CPT) for the outcome, i.e., P(Oi |f ), f ∈ F where F is the product
+space of value sets for all factors.1 Specifically, we assume a set of learnable parameters P(Oi |fj )
+representing the conditional probability of each possible outcome given a single variable fj . We
+then sample f ∈ F and acquire LLM’s coarse probability estimations PLLM (Oi |f ). Next, we
+approximate the conditional probability Pestimated (Oi |f ) in the CPT using the learnable parameters
+P(Oi |fj ) based on a derived approximation formula and optimize these parameters by minimizing
+the distributional distance between Pestimated (Oi |f ) and the LLM’s coarse predicted probability
+PLLM (Oi |f ). From a high level, this abduction step aligns language models’ internal probability
+estimation with Bayesian constraints and has better error tolerance. The resulting Bayesian network
+is generic to all possible conditions in the scenario S. In the following deduction step, we use the
+trained Bayesian parameters to estimate the probability of any possible conditions and observations
+P(Oi |C). To do this, we employ an entailment process to determine P(f
+i |C), as shown by “LLM
+P
+Entailment” in Fig. 2, and the outcome we are interested in, P(Oi |C) = f ∈F P(Oi |f )P(f |C).
+As we show in §4, the inferred probabilities from B IRD are more reliable, consistent with human
+judgments on 30% more instances than those directly predicted by LLMs. We further show that B IRD
+probability predictions are good enough to be directly used for decision making (i.e., by computing an
+argmax on the predicted probabilities of each label for inference), outperforming standard chain-ofthought (CoT) (Wei et al., 2022) on several reasoning benchmarks. More importantly, B IRD achieves
+better probability estimations by optimizing an interpretable Bayesian network with natural-languagebased variables. There are two additional benefits of B IRD. First, we show that B IRD-aligned
+probabilities can serve as more accurate and fine-grained supervision signals for training smaller
+models. In addition, we demonstrate that B IRD’s factor generation process is neutral and unbiased to
+the specific conditions, so it can be used to generate better follow-up questions to improve decisionmaking confidence. Combining these findings, we show that B IRD improves trustworthiness — a
+crucial ability for mission-critical applications such as medical chatbots, where we need reliable
+decisions supported with enough evidence for high-confidence predictions.

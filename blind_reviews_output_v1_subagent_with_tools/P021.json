@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper is grounded in a physically motivated framework — forced harmonic oscillators — which provides an elegant and principled basis for constructing state-space models, distinguishing it from purely empirical architectural choices.",
+      "The contribution list is broad and credible: the authors claim theoretical results (universal approximation, stability guarantees, symplectic symmetry preservation) alongside algorithmic innovations (implicit and implicit-explicit associative parallel scans) and empirical validation across diverse long-sequence benchmarks up to 50k tokens.",
+      "Comparing favorably against a strong set of baselines (Mamba, S4, S5, LRU) on multiple modalities (language, audio, genomics, and presumably others given 'wide variety of sequential datasets') suggests the empirical work is substantive.",
+      "The stability argument — nonnegative diagonal state matrix suffices for stable dynamics and long-range interactions — is a meaningful theoretical simplification relative to prior diagonal SSMs that require more constrained parameterizations.",
+      "The symplectic discretization preserving time-reversibility is a mathematically interesting property that could matter for scientific/physics-informed applications."
+    ],
+    "weaknesses": [
+      "The excerpt provided is only the introduction/abstract-level contribution list; it is impossible to evaluate the actual technical depth, proof rigor, experimental protocol, or reproducibility from this fragment alone.",
+      "The claim of being a 'universal approximator of continuous and causal operators between time-series' is a strong theoretical assertion whose scope conditions (e.g., width, depth, approximation topology) cannot be assessed without seeing the theorem statement and proof.",
+      "It is unclear how the implicit-explicit parallel scans compare computationally (wall-clock time, memory) to existing parallel scan implementations in S5/Mamba; the introduction does not quantify the overhead of the implicit solver steps.",
+      "The motivation from 'forced harmonic oscillators' needs more justification for why second-order linear ODEs specifically are preferable to, e.g., higher-order or nonlinear oscillators; the current framing is suggestive but not yet rigorous.",
+      "Sequence lengths of up to 50k are notable but not state-of-the-art for long-range benchmarks (some tasks require 1M+ tokens); the scope of the empirical evaluation should be clarified."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The writing exhibits several markers of human academic authorship: dense, citation-heavy prose with irregular sentence rhythms, domain-specific hedging ('seem to ensure', 'potentially impairing'), and a multi-threaded contribution list that mixes algorithmic, theoretical, and empirical claims in a non-formulaic order. The phrasing is occasionally clunky in ways typical of non-native English academic writers rather than the polished uniformity of LLM output, and the choice to foreground the oscillator physics motivation before the formal contributions is a structurally nuanced rhetorical move uncommon in AI-generated introductions."
+  }
+}

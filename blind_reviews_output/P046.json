@@ -1,0 +1,23 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear and well-motivated problem: finite-sample noise in pass-rate rewards is a real practical issue in RLVR for code, and the framing is crisp",
+      "Principled solution grounded in Bayesian statistics (Beta-Binomial model, LCB as a conservative estimator) rather than an ad-hoc heuristic",
+      "Concrete, quantitative empirical claims (MBPP+, HumanEval+ numbers) with an efficiency angle (half the verifier compute) that adds practical relevance",
+      "The running example (3/5 vs 27/30 at same pass-rate 0.6) is pedagogically effective"
+    ],
+    "weaknesses": [
+      "Three-bullet contribution list is formulaic and does not convey depth; the third bullet ('robust to hyperparameters, stable training') reads more like an ablation finding than a contribution",
+      "The introduction does not engage with prior work on uncertainty-aware rewards, Thompson sampling, or pessimistic RL, leaving novelty undersubstantiated",
+      "'State-of-the-art' claim needs qualification: the comparison set, model scale, and training budget are not disclosed in the introduction, making the headline numbers hard to evaluate",
+      "The scope is narrow (unit-test RLVR for code); broader implications or limitations are entirely absent, suggesting the paper may underexplore failure modes and generalization"
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.82,
+    "reasoning": "The introduction follows a textbook AI-writing template: one-paragraph background, one-paragraph problem statement with a worked numerical example, one-paragraph proposed method, then exactly three bullet contributions. The prose is uniformly polished with no sentence-level variation in rhythm or register, and the phrase 'Our contributions are as follows:' with a three-item bulleted list is the single strongest statistical cue for LLM authorship. There is no digressive or hedged language characteristic of human academic writing."
+  }
+}

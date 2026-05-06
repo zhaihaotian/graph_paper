@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a concrete and well-motivated problem: existing coreset/mini-batch selection methods fail for LLM fine-tuning due to three distinct and non-obvious reasons (imbalanced sources, Adam optimizer mismatch, and high-dimensional gradient space), and the paper addresses each failure mode with a targeted technical contribution.",
+      "The proposed CoLM method stacks with LoRA and other memory-efficient techniques, which broadens its practical impact and deployment surface; the 2x memory reduction combined with performance gains over 4x larger random batches is a compelling empirical claim.",
+      "The evaluation covers multiple models (Phi-2, Phi-3, Zephyr, Llama-3) and both a specialized benchmark (MathInstruct with 14 imbalanced sources) and a general benchmark (SuperGLUE), providing reasonably broad coverage of the method's applicability.",
+      "The theoretical argument for why small sources are underrepresented in coresets (w.h.p. medoids come from large sources) adds formal grounding that distinguishes this work from purely empirical engineering papers."
+    ],
+    "weaknesses": [
+      "The introduction does not clarify how the zeroth-order gradient estimation for the V-projection matrix interacts with LoRA's low-rank structure — it is unclear whether the two techniques genuinely compose cleanly or whether there are accuracy or convergence costs that are hidden in the experimental setup.",
+      "The claim of up to 20% improvement on out-of-domain tasks is striking but the text does not contextualize which tasks, which baselines, or whether this gain is robust across random seeds; a single-number headline without variance reporting is epistemically weak.",
+      "The SuperGLUE experiment clusters hidden states to discover sources, but the quality of this clustering is not analyzed; if the clustering is poor, the entire rationale for source-aware coreset selection breaks down, yet this is treated as a minor implementation detail.",
+      "The related work treatment in the introduction is compressed and somewhat formulaic — it lists method categories (sparse parameters, low-rank, quantization, gradient-free) without engaging with why prior data-selection methods (beyond Yang et al. 2023 and Mirzasoleiman et al. 2020) are insufficient, leaving gaps in the literature positioning.",
+      "There is no discussion of the computational overhead of computing normalized gradients, performing zeroth-order gradient estimation, and running source-wise masking at training time — the 2x memory reduction may come with non-trivial wall-clock increases that the introduction does not acknowledge."
+    ],
+    "overall_score": 6,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The introduction develops a multi-threaded technical argument across several paragraphs with domain-specific notation (w.h.p., V-projection matrix, ℓ1 distance, exponential moving average of gradients) and engages in genuine problem decomposition rather than listing generic motivation bullets. The prose has minor awkward transitions ('In this work, we address... from the data perspective' followed immediately by 'In this work, we propose') and slightly uneven sentence rhythm that is more consistent with a human draft than a polished AI-generated text. The level of specificity in the failure-mode analysis (three distinct, non-obvious barriers) and the integration of theoretical grounding alongside empirical claims also suggests human authorship."
+  }
+}

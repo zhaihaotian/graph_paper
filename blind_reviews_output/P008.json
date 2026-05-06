@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear problem formulation: applying conformal risk control to early exit in diffusion LMs is a well-motivated and technically sound idea.",
+      "Empirical results are specific and quantitative (0% violation on GSM8K, 1.36\u00d7 speedup), lending credibility to the claims.",
+      "Comparison across multiple calibration methods (Naive, CRC, UCB-HB) adds useful practical insight.",
+      "Addresses a real gap: the heuristic threshold problem in Jot is concretely demonstrated with the 17.7% risk figure."
+    ],
+    "weaknesses": [
+      "Novelty is incremental \u2014 RC-Jot is primarily an application of existing conformal risk control machinery (Angelopoulos et al., 2025; Waudby-Smith & Ramdas, 2020) to an existing method (Jot). The technical contribution beyond wrapping CRC around Jot is unclear from the introduction.",
+      "Speedup gains are modest (1.32\u00d7\u20131.36\u00d7), which may not justify publication as a standalone contribution without stronger empirical breadth or theoretical depth.",
+      "Evaluation appears limited to two benchmarks (GSM8K, HumanEval); it is unclear whether the approach generalizes beyond math and code reasoning tasks.",
+      "The introduction does not discuss computational overhead of the calibration phase itself, which could erode the speedup advantage.",
+      "No discussion of related work on uncertainty quantification or conformal prediction in NLP/LM settings, making it hard to assess novelty relative to the broader literature."
+    ],
+    "overall_score": 5,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.88,
+    "reasoning": "The introduction follows a highly formulaic structure: problem \u2192 gap \u2192 proposed method \u2192 exactly four bullet-point contributions. The prose is uniformly polished but lacks nuanced argumentation or varied sentence structure. The three-part framing (parallel prediction advantage \u2192 cost \u2192 our fix) and the bullet list of contributions with precise numeric claims are strong AI-generation signatures."
+  }
+}

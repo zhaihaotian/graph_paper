@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a genuinely counterintuitive and practically significant phenomenon — that data repetition with a small dataset under a fixed update budget outperforms single-epoch training on larger datasets for long-CoT SFT — with reported gains of 12–26 percentage points on AIME'24/25 and GPQA, which are non-trivial and would be of immediate interest to practitioners.",
+      "The proposed memorization-based stopping criterion (training token accuracy reaching near-perfect levels) is a concrete, actionable heuristic derived from careful empirical observation, and the claim that this pattern holds across all tested models, benchmarks, and datasets adds meaningful generality.",
+      "The paper is honest about its limitations: it explicitly frames explaining the repetition advantage as an open problem rather than overclaiming a theoretical account, and it situates the work clearly within the post-training pipeline literature with appropriate citations.",
+      "The investigation of how distillation quality and data correctness modulate the repetition advantage demonstrates analytical depth beyond the main finding and will help future practitioners calibrate the approach to their specific data regime.",
+      "The parallel drawn to behavioral cloning in RL (and the comparison to data augmentation literature) provides useful framing that helps readers from different sub-communities situate the result conceptually."
+    ],
+    "weaknesses": [
+      "The introduction (as presented) stops at the contributions bullet list and does not include experimental sections, so it is impossible to evaluate whether the empirical methodology is sound — crucial details such as model sizes, the range of epoch counts tested, how the 'fixed update budget' is operationalized, how termination rates are measured, and statistical significance of the 12–26pp gains are entirely absent from the reviewed text.",
+      "The core claim that 'performance improvements plateau once models achieve near-perfect next-token prediction accuracy' needs more careful qualification: near-perfect training accuracy could reflect many things (dataset difficulty, model capacity, learning rate), and without ruling out confounders the proposed stopping criterion may not transfer reliably.",
+      "The paper appears to conflate memorization and internalization — claiming 'sufficient repetition is required for models to fully internalize the demonstrated reasoning structure' while simultaneously linking this to near-perfect training accuracy is a conceptual gap that deserves more rigorous treatment; memorization of token sequences does not logically imply internalization of reasoning structure.",
+      "The claim that no additional catastrophic forgetting occurs compared to single-epoch large-dataset training is stated without detail on how forgetting was measured or what capabilities were probed, making it difficult to assess how broadly safe the recommended practice is.",
+      "The scope of 'long-CoT SFT' as the regime of interest is reasonable but the introduction does not discuss whether the repetition advantage might depend on reasoning trace length distributions, diversity of problem types, or the gap between student and teacher model — factors that practitioners would need to understand before applying the heuristic."
+    ],
+    "overall_score": 6,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.75,
+    "reasoning": "The writing exhibits multi-threaded argumentation — weaving RL parallels, statistical learning theory, and practical data pipeline concerns across several paragraphs — along with explicit epistemic humility ('we pose this as a novel, open problem') that goes beyond formulaic AI boilerplate. The hedging ('might not only be suboptimal, but actually, a reverse pattern can be observed') and the non-standard sentence rhythms in the second paragraph are consistent with human scientific prose, though the crisp three-bullet contribution list is a common AI formatting pattern."
+  }
+}

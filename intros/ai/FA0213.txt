@@ -1,0 +1,13 @@
+Diffusion language models (dLLMs) have emerged as a compelling alternative to autoregressive models, offering advantages such as parallel generation, bidirectional context, and natural controllability (Ye et al., 2025; Nie et al., 2025; Sahoo et al., 2024). However, their iterative denoising process creates significant inference overhead: each of the hundreds of diffusion steps requires a forward pass over the full sequence, making deployment computationally expensive.
+
+Window-Diffusion (Zuo et al., 2026) addresses this by restricting attention to a sliding window around the decoding frontier, achieving substantial speedups while largely preserving generation quality. However, Window-Diffusion couples two distinct operations at each phase boundary: (1) shifting the window to align with the current decoding frontier, and (2) performing a full KV cache refresh. A single refresh cycle parameter controls both frequencies, creating an efficiency trade-off: shifting windows more often improves quality but forces more expensive full refreshes.
+
+We observe that these two operations serve fundamentally different purposes and can be decoupled. Critically, consecutive external windows overlap substantially—most tokens remain unchanged between shifts. Window-Diffusion recomputes KV for the entire window at every phase boundary, even though only a small fraction of tokens are new.
+
+We propose Overlap-Refresh, which introduces two independent scheduling parameters: shift interval controls how often the window moves, while refresh interval controls how often full KV recomputation occurs. At shift-only boundaries, we use delta-prefill—computing KV only for newly entered tokens while reusing cached KV for overlap tokens. This achieves O(|N| × C) cost versus O(C^2) for full refresh, where |N| is the number of new tokens and C is the context size.
+
+Our contributions are:
+• We identify the coupling inefficiency in Window-Diffusion's phase boundary operations and show that naive refresh reduction degrades both quality and speed.
+• We propose Overlap-Refresh, which decouples window shift frequency from KV refresh frequency via two independent scheduling parameters.
+• We introduce delta-prefill, an efficient operation that computes KV only for newly entered tokens, achieving 3.3× cost reduction compared to full refresh.
+• We demonstrate 6.0% throughput improvement on MBPP while preserving generation quality within 0.6 percentage points of the Window-Diffusion baseline.

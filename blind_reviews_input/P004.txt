@@ -1,0 +1,40 @@
+Transformer architectures (Vaswani et al., 2017) have revolutionized NLP but scale quadratically in sequence length, posing computational challenges for long sequences. To address this, Linear Recurrent Neural Networks (LRNNs) have emerged as promising alternatives that offer linear scaling while maintaining competitive performance (Gu & Dao, 2024; Dao & Gu, 2024; Yang et al., 2024a; Peng et al., 2023; Deletang et al., 2023; Sun et al., 2024; Beck et al., 2024). LRNNs update their state via matrix-vector products with structured and often input-dependent state-transition matrices. The structure of the state-transition matrices largely determines the expressivity of LRNNs. While successful models like Mamba (Gu & Dao, 2024) and GLA (Yang et al., 2024a) use diagonal matrices (diagonal LRNN) which only mix tokens along the sequence dimension, recent work explores more complex forms. Notably, non-diagonal matrices using generalized Householder (GH) transformations, defined as I - uu^T where u is a learnable vector and I is the identity, enable models like DeltaNet (Schlag et al., 2021; Yang et al., 2024b) and TTT-Linear (Sun et al., 2024) to achieve richer expressiveness through simultaneous token-channel mixing while maintaining efficiency.
+
+Surprisingly, both Transformers and current LRNNs face a fundamental limitation: they struggle to
+learn how to track the state of even simple finite-state machines from sequences of state-transitions
+(Deletang et al., 2023). This limitation may impair performance on tasks such as entity tracking in
+narratives, handling nested structures in code, and reasoning tasks that can benefit from maintaining
+and updating an internal state over time (Merrill et al., 2024). Even the simplest state-tracking
+task, computing the parity of a sequence of bits, cannot be solved by modern architectures, while
+non-linear RNNs like LSTM (Hochreiter & Schmidhuber, 1997) and sLSTM (Beck et al., 2024)
+can effectively track the state of any finite state machine. However, parallelizing non-linear RNNs
+across the sequence length presents significant challenges (Lim et al., 2024; Gonzalez et al., 2024).
+Recently, Sarrof et al. (2024) demonstrated that the inability of diagonal LRNNs to solve the parity
+problem stems from the fact that the eigenvalues of their state-transition matrices are constrained to
+be positive. Specifically, they proved that finite precision diagonal LRNNs with exclusively positive
+real eigenvalues, cannot solve the parity problem in one forward pass for sequences of arbitrary
+length. However, their work did not provide empirical evidence showing that diagonal LRNNs
+with negative eigenvalues can be successfully trained to overcome this limitation. We prove that
+the same limitation also affects LRNNs with non-diagonal state-transition matrices, and further
+prove that additionally, non-triangular matrices are necessary to solve the more challenging task
+of modular counting (when the modulus is not a power of two). Our findings also apply to the
+GH matrices used by DeltaNet, as they share the same eigenvalue limitations. To overcome this,
+we propose a simple yet powerful solution: extend the range of possible eigenvalues from [0, 1] to
+[−1, 1]. This change enables state-tracking and significantly improves the expressivity of LRNNs
+without compromising their efficiency and training stability. As illustrated in Figure 1, it allows
+diagonal LRNNs to learn parity successfully. The code for part of our experiments is available
+at https://github.com/automl/unlocking state tracking
+In summary, we make the following contributions:
+1. We prove that any finite precision LRNN with only positive real eigenvalues in the state-transition
+matrices (most LRNNs used in practice) cannot solve parity at arbitrary sequence lengths (Theorem 1), while non-triangular matrices are also required to learn counting modulo 3 (Theorem 2).
+2. By extending the eigenvalue range, we significantly improve the state-tracking capabilities of
+LRNNs. We prove that LRNNs with state-transition matrices formed by products of generalized
+Householder (GH) matrices, each with eigenvalues in the range [−1, 1], can learn any regular language (Theorem 4), in some cases with just one layer (Theorem 3). Notably, this range extension
+allows LRNNs using just one GH matrix (like DeltaNet), to learn substantially harder tasks, as the
+repeated composition of permutations of two (over n) elements, compared to diagonal LRNNs.
+3. We show that the eigenvalue range of Mamba and DeltaNet can be extended to [−1, 1] without
+compromising efficiency or training stability. We test the modified methods on parity, modular
+arithmetic, and permutation composition, demonstrating improved state-tracking performance.
+4. We pre-train modified versions of DeltaNet and Mamba (up to 1.3B parameters) and show that
+they reach performance comparable to the original models on generative language modeling
+tasks, while DeltaNet shows improved perplexity on code and math datasets.

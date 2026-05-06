@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a genuine and important gap in the privacy evaluation literature: whether sequence-aware attackers (BeamClean) outperform simple nearest-neighbor decoders under norm-clipped L2-Laplacian perturbation, a combination not previously evaluated.",
+      "The central finding—a ceiling effect where both NN and BeamClean achieve near-perfect reconstruction (>99.98% Token-ASR, 100% Canary-EM) at the operating point proposed in prior work—is a strong and actionable result that directly challenges the adequacy of existing privacy auditing practices.",
+      "The mechanistic explanation via directional preservation analysis is theoretically grounded: the argument that norm clipping preserves directional information, making NN attacks sufficient when noise is mild, gives the empirical result a principled basis and elevates the paper beyond a purely empirical audit.",
+      "The framing is clean and well-scoped: the research question is stated precisely, the implications for both directions of the answer are laid out, and the contributions are crisply enumerated."
+    ],
+    "weaknesses": [
+      "The submission as presented is extremely short (the full text appears to be only the introduction and bullet-point contributions, with no methods, experiments, or results sections visible). It is unclear whether this is an abstract-only submission or a truncated view; if the full paper is this short, it cannot be evaluated as a complete research contribution.",
+      "The empirical claim of '>99.98% Token-ASR, 100% Canary-EM' is stated without any accompanying description of the experimental setup: what dataset(s) were used, what embedding model, what sentence encoder, what language model prior does BeamClean use, and what constitutes a 'canary'? Reproducibility is currently impossible.",
+      "The directional preservation analysis is mentioned as an explanation but not described: what formal result or measurement supports this claim? Without at least a sketch of the analysis, it reads as post-hoc rationalization rather than a contribution.",
+      "The paper's scope is narrow: it evaluates a single defense mechanism (L2-Laplacian + norm clipping) at a single operating point (η = 142) against two attack variants. Generalizability to other noise distributions, other operating points, or other split-inference architectures is not discussed, limiting the practical takeaway.",
+      "The conclusion that 'the defense provides no meaningful privacy protection' at η = 142 is significant, but the paper does not explore whether any operating point of the same mechanism could provide meaningful privacy, leaving practitioners without actionable guidance beyond 'this specific configuration is broken.'"
+    ],
+    "overall_score": 5,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The writing exhibits several human markers: the framing sets up a two-sided research question with explicit consideration of both outcomes (a nuanced rhetorical move uncommon in AI-generated text), the technical vocabulary is used precisely and contextually (dχ-privacy, Token-ASR, Canary-EM, BeamClean) rather than generically, and the surprise framing ('our findings are surprising') paired with a ceiling-effect result reflects the kind of genuine intellectual discovery that tends to appear in human-authored empirical work. The bullet-point contribution list is formulaic, but the prose surrounding it is more organic and argumentatively structured than typical AI output."
+  }
+}

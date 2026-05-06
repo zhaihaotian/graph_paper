@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper addresses a well-motivated limitation: binary pass/fail reward signals in code RLVR discard contrastive information that could accelerate learning. The connection to MEL is natural and the transfer rationale is clearly stated.",
+      "The empirical finding that 66% of training prompts yield usable contrastive pairs is a concrete and interesting result, especially relative to the 5% rate reported for math MEL, and it substantiates the argument that code RLVR is a signal-rich domain.",
+      "The ablation study design that isolates replay validation as the most critical component is appropriate methodology; this component-level attribution is more informative than aggregate improvement alone.",
+      "Reporting both accuracy improvement and convergence speed (33% faster) as separate metrics provides a more complete picture of the method's practical value than accuracy alone."
+    ],
+    "weaknesses": [
+      "The performance gains reported are extremely modest: 9.2% vs 8.8% greedy Pass@1 on MBPP, a 0.4 percentage point difference. The paper does not discuss statistical significance, variance across runs, or confidence intervals, making it impossible to distinguish signal from noise.",
+      "Evaluation is limited to a single benchmark (MBPP) and a single base model configuration. MBPP is a relatively easy benchmark; results on HumanEval, APPS, LiveCodeBench, or harder splits would be necessary to assess generalizability.",
+      "The paper describes a 'template-based meta-experience construction' adapted to the code domain but provides insufficient detail about how bifurcation points are identified when solutions may differ from the first line—this is a non-trivial departure from the math setting and the technical solution is underspecified.",
+      "The convergence speed claim (33% faster) lacks methodological clarity: it is unclear whether this is measured by wall-clock time, gradient steps, or training epochs, and whether the comparison accounts for the additional overhead of replay validation and NLL internalization.",
+      "The paper relies heavily on MEL (Huang et al., 2026) as a foundational method but that reference appears to be a future-dated or internal citation, raising reproducibility and accessibility concerns for readers attempting to build on this work.",
+      "There is no discussion of failure modes: cases where the method underperforms GRPO, sensitivity to hyperparameters of the NLL internalization loss weight, or potential negative transfer from low-quality contrastive pairs that pass replay validation."
+    ],
+    "overall_score": 4,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.78,
+    "reasoning": "The abstract-style structure is extremely compact and formulaic, with contributions listed as three symmetric bullet points of nearly equal length. The quantitative claims are pre-packaged into the introduction at high density (66%, 5%, 9.2%, 8.8%, 33%, 3.9-4.7%) without the exploratory hedging or methodological digression typical of human-written venue submissions. The three-stage pipeline naming and the tight parallelism of the contribution list are consistent with AI-generated scientific text."
+  }
+}

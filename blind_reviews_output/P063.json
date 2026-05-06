@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear and well-motivated problem statement: the paper identifies a genuine bottleneck (expensive model retraining for data selection) and proposes a principled alternative leveraging existing public LLMs.",
+      "The core idea of using perplexity-benchmark correlations is elegant, simple, and practically actionable without human curation or parameter tuning.",
+      "Empirical validation is thorough: controlled pretraining experiments across multiple scales (160M\u20131.4B), multiple benchmarks, pre-registration of follow-up experiments, and comparison against strong baselines (DSIR, OH-2.5+ELI5 fastText).",
+      "Pre-registration of scale-up experiments signals scientific rigor and guards against post-hoc tuning.",
+      "The statistical framework for correlation estimation over heterogeneous LLM collections adds methodological depth beyond a purely empirical contribution."
+    ],
+    "weaknesses": [
+      "Experiments are limited to 160M\u20131.4B scale; it is unclear whether results generalize to frontier-scale pretraining (tens or hundreds of billions of parameters).",
+      "The method selects at the domain level (e.g., arxiv, bbc), which is coarser than document- or example-level selection; the introduction does not discuss whether finer-grained selection is feasible or whether domain-level granularity is a fundamental limitation.",
+      "Benchmark leakage risk: domains selected by correlating with benchmark performance may inadvertently overfit to benchmark-specific distributional cues rather than capturing genuine quality signals; this threat is not addressed in the introduction.",
+      "The claim that the approach 'requires no human selection of high-quality domains' glosses over the implicit human judgment embedded in the choice of target benchmarks, which are themselves curated artifacts.",
+      "Figure 1 caption references a description of the red/blue matrices but the textual introduction does not fully explain the pipeline clearly without the figure, suggesting the writing is tightly coupled to visuals in a way that weakens standalone readability."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The introduction is substantive and multi-threaded, weaving together motivation, technical insight, statistical framing, empirical results, and scale-up findings across several paragraphs without a formulaic bullet-point contribution list. The prose is varied and dense with citations, and the discussion of pre-registration reflects a nuanced authorial voice. However, some phrasing is unusually clean and structured, leaving moderate residual uncertainty."
+  }
+}

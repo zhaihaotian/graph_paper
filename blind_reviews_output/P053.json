@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear and well-scoped problem statement: context overflow and looping failures in CLI agents are genuine pain points with practical consequences (timeouts, degraded performance).",
+      "Training-free deployment is a meaningful practical advantage; the system requires no fine-tuning and is backend-agnostic.",
+      "Concrete, quantified results (+21.2pp completion rate, elimination of all timeout failures) make the empirical claims easy to evaluate.",
+      "The distinction between DCC (deterministic extraction) and PLC (loop shaping vs. termination) is principled and the motivation for each module is clearly articulated."
+    ],
+    "weaknesses": [
+      "The third contribution bullet partially undercuts the system: admitting PLC has a 0.12% block rate and is a 'conservative safety net' raises the question of whether it belongs in the system at all, and why it is presented as a co-equal contribution.",
+      "Single-dataset, single-model evaluation (Terminal-Bench 2.0, Qwen3-32B) is a significant limitation; generalizability across other CLI benchmarks and LLM backends is undemonstrated.",
+      "The introduction conflates two metrics without reconciling them: 68.8% is reported as the LASCon headline, but 70.0% is attributed to DCC alone, implying PLC slightly hurts performance \u2014 this tension is not explained.",
+      "Related work on context compression, memory management, and agent scaffolding is only superficially covered; no comparison to retrieval-augmented or structured memory approaches.",
+      "The scope of 'exact tokens critical for task completion' as the motivation for DCC over LLM summarization is asserted but not empirically validated in isolation."
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.87,
+    "reasoning": "The introduction follows a textbook AI-paper template with near-perfect fidelity: one-paragraph problem, one-paragraph prior-work critique, one-paragraph method, then a three-bullet 'Our contributions are:' list. Prose is uniformly dense and impersonal with no hedging, narrative variation, or authorial voice. The bullet structure, formulaic transition phrases ('two complementary modules', 'training-free scaffold intervention'), and the absence of any discursive detour are strong AI-generation signals."
+  }
+}

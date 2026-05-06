@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Strong theoretical grounding: the paper provides formal proofs (Theorems 1\u20134) connecting eigenvalue constraints to state-tracking expressivity, giving the work a rigorous foundation beyond empirical observation.",
+      "Elegant and actionable solution: extending the eigenvalue range from [0,1] to [\u22121,1] is a minimal, well-motivated intervention that preserves efficiency and training stability while fixing a principled limitation.",
+      "Broad empirical validation: experiments span synthetic tasks (parity, modular arithmetic, permutation composition) and large-scale language modeling (up to 1.3B parameters), strengthening generalization claims.",
+      "Unified treatment across architectures: the analysis covers both diagonal LRNNs (Mamba) and non-diagonal GH-based models (DeltaNet), with the same eigenvalue lens, which is a unifying conceptual contribution.",
+      "Good situatedness in prior work: the paper builds directly and clearly on Sarrof et al. (2024) while extending it in non-trivial ways (non-diagonal matrices, modular counting, empirical validation that was missing)."
+    ],
+    "weaknesses": [
+      "The simplicity of the fix (flipping sign of eigenvalues) raises the question of why prior work did not already do this \u2014 the paper should more explicitly address potential historical barriers (instability, saturation, optimization landscape) to make the contribution feel non-obvious.",
+      "Theorem 4 (arbitrary regular language learnability) is stated without discussing sample complexity or practical trainability; a gap may exist between theoretical expressivity and what gradient-based training actually achieves.",
+      "The improved perplexity on code and math for DeltaNet is promising but underexplored \u2014 the paper does not analyze why these domains specifically benefit, which weakens the narrative around practical impact.",
+      "The claim that 'both Transformers and current LRNNs' share this fundamental limitation conflates architecturally very different models; soft attention and linear recurrence fail for different reasons, and the paper's theory applies only to the latter.",
+      "Contribution 2 contains notation ('repeated composition of permutations of two (over n) elements') that is difficult to parse without more context, suggesting the summary was not carefully proofread."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.65,
+    "reasoning": "The introduction demonstrates genuine technical depth \u2014 dense mathematical specificity (GH transformation definition, eigenvalue constraint analysis, multi-theorem structure), a multi-threaded narrative arc that weaves theory and empirics, and non-trivial situatedness in a niche literature. The numbered 4-bullet contribution list and the phrase 'In summary, we make the following contributions' are formulaic signals, but the surrounding prose is varied and substantive enough to suggest primarily human authorship, possibly with light editing assistance."
+  }
+}

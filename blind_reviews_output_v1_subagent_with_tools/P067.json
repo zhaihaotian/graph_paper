@@ -1,0 +1,23 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a genuine and counterintuitive empirical phenomenon—the 'repetition advantage' in long-CoT SFT—and frames a sharp, testable hypothesis to explain it, distinguishing termination behavior from reasoning quality.",
+      "The decomposition of accuracy into ParseRate and Acc|Parse is a clean diagnostic contribution that could be broadly reused by the community for analyzing other SFT regimes.",
+      "The mediation analysis is the methodological highlight: showing that parseability over-explains the accuracy gap (mediation fraction exceeding 1.0) and that the data-scaling condition actually produces better conditional reasoning is a striking and non-obvious finding that strengthens the causal argument.",
+      "Termination-Aware SFT is a practically motivated intervention that flows naturally from the diagnostic insight, and the honest reporting of its partial effectiveness (14% recovery) demonstrates appropriate scientific restraint."
+    ],
+    "weaknesses": [
+      "The paper rests heavily on two benchmarks (AIME and GPQA); it is unclear whether the termination-effect explanation generalizes to domains where output format is less rigid or where parsing failure rates are inherently low.",
+      "The mechanism by which repeated exposure specifically improves termination behavior—rather than, say, gradient noise averaging or curriculum effects—is not deeply characterized. The claim that 'termination learning through repetition involves mechanisms beyond explicit loss reweighting' is asserted but not substantiated with ablations or probing experiments.",
+      "Termination-Aware SFT recovers only 14% of the repetition advantage, which the authors acknowledge but do not sufficiently interrogate. Alternative interventions (e.g., format-specific data augmentation, constrained decoding, RLHF on termination) are not compared, leaving the reader uncertain about the practical takeaway.",
+      "The paper does not discuss potential confounds in the repetition vs. scaling comparison: overfitting risk under 32-epoch training, distribution shift between the 1,600-sample and 51,200-sample datasets, or whether the gradient-update budget equivalence fully controls for learning-rate schedule effects."
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The writing shows multi-threaded engagement with the phenomenon—offering a competing hypothesis, quantifying partial recovery, and flagging mechanistic limits of the proposed intervention—rather than the flat, uniform structure typical of AI-generated abstracts. The specific numerical detail (mediation fractions exceeding 1.0, 14% recovery, 2.0pp improvement) and the intellectually honest framing of what the proposed method does not achieve are consistent with human authorship. The three-bullet contribution list is a mild AI-cue, but is common in ML papers regardless of authorship."
+  }
+}

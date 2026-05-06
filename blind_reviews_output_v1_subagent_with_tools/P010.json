@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The reframing of threshold-setting as risk-level specification is well-motivated and addresses a genuine interpretability gap in adaptive reasoning literature; translating an opaque hyperparameter into a quantity with downstream meaning (acceptable error rate) is a meaningful conceptual advance.",
+      "The decomposition into two complementary risk types—false positive (overconfident early stop) and false negative (futile continued reasoning)—is intellectually clean and maps naturally onto distinct inefficiency regimes, giving the framework principled coverage of both failure modes.",
+      "Grounding the method in distribution-free risk control (Bates et al., 2021; Jazbec et al., 2024) is appropriate; this statistical framework provides finite-sample coverage guarantees without distributional assumptions, which strengthens the theoretical credibility of the stopping rules.",
+      "Contribution (ii), the parametric lower threshold that detects insufficient progress in uncertainty reduction, appears to be genuinely novel relative to cited prior work, which only uses upper confidence thresholds."
+    ],
+    "weaknesses": [
+      "The introduction does not discuss the sensitivity of the method to the size and quality of the external validation set required by the risk control framework; in practice, this is a non-trivial requirement that may limit applicability in low-data regimes.",
+      "The intuition behind the lower threshold (Eq. 9) is underdeveloped in the introduction—'whether the reasoning is making enough progress' is vague, and without a sketch of the parametric form it is difficult to assess whether the mechanism is practically distinguishable from simple confidence-slope heuristics.",
+      "The evaluation claim in contribution (iii)—'consistently yields efficiency gains'—is stated qualitatively with no quantitative preview (e.g., token savings percentage, accuracy retention); a brief empirical teaser would substantially strengthen the introduction.",
+      "The related-work engagement is shallow: prior adaptive thinking methods (Wang et al., 2025a; Yang et al., 2025; Fu et al., 2025) are cited in bulk and characterized only by the shared property of 'monitoring uncertainty,' with no differentiation among their specific mechanisms or failure modes beyond the threshold-interpretability critique.",
+      "The framework assumes the validation set is drawn from the same distribution as test instances; distribution shift between validation and deployment is not acknowledged, which is a practical concern for real decision-making pipelines."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The introduction exhibits multi-threaded argumentation that moves fluidly between interpretability, statistical grounding, and efficiency concerns—a stylistic complexity more consistent with human writing than AI generation. Technical specificity such as 'arbitrary ranges depending on how the uncertainty is computed' and the precise mapping of thresholds to distinct inefficiency equations (Eq. 8 vs. Eq. 9) suggests domain-expert authorship rather than templated generation. The numbered contribution list is formulaic, a mild AI cue, but this structure is ubiquitous in ML venue papers and is insufficient on its own to override the other signals."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear and well-structured motivation: the gap between MLLM-based embedders and dedicated Video Foundation Models is concretely identified with specific failure cases (CARE, VLM2Vec-V2), making the problem statement compelling.",
+      "The proposed approach is technically creative: exploiting intermediate layer representations, using the MLLM head as a likelihood scorer, and text-only in-context optimization are three distinct and non-obvious ideas that together form a coherent system.",
+      "Strong empirical framing: the claim of outperforming models trained on orders-of-magnitude more data (~600M pairs vs ~60K) with text-only supervision is a striking and falsifiable result that motivates reading the full paper.",
+      "The literature review is thorough and up-to-date, covering CLIP-era dual encoders, large-scale VFMs, and the emerging MLLM-as-embedder line, with precise quantitative anchors (100M, 600M pairs)."
+    ],
+    "weaknesses": [
+      "The four numbered contributions partially overlap and could be compressed; contributions 1 and 2 both describe zero-shot exploitation of off-the-shelf MLLMs and together read as a single unified contribution.",
+      "The 'Overview of our approach' section is somewhat redundant with the contributions list immediately following it, creating a repetitive paragraph-then-bullets structure.",
+      "No discussion of limitations or failure modes is present in the introduction, which would strengthen the paper's credibility and scope the claims more carefully.",
+      "The claim about Fig. 1 panels (a, b, c) in the overview presupposes familiarity with figures not yet introduced, which can confuse first-time readers."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.62,
+    "reasoning": "The introduction exhibits dense, specific citation anchoring (precise data-scale numbers like 100M and 600M pairs, named failure cases for competing methods), multi-thread argumentation across five distinct paragraphs of related work, and nuanced comparative analysis of prior methods' shortcomings \u2014 all markers of human authorship. However, the clean 'background \u2192 gap \u2192 approach \u2192 numbered contributions' scaffold and the polished parallel structure of the contributions list introduce some formulaic signals consistent with AI-assisted writing, keeping confidence moderate."
+  }
+}

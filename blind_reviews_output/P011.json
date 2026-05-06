@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear problem framing with strong empirical motivation: the 7.8% contacted-fit baseline rate concretely quantifies the information bottleneck and makes the stakes immediate.",
+      "Methodologically honest: the paper explicitly tests and rejects agent-side alternatives (prompting and inference scaling) before proposing the platform-side solution, strengthening the causal argument for Fit Cards.",
+      "Quantitative results are specific and striking (11.4\u00d7 welfare improvement, 73.6% contacted-fit rate, 28% fewer LLM calls), giving reviewers concrete signals to evaluate.",
+      "The discovery-stage vs. proposal-stage distinction is a useful conceptual contribution that could generalize beyond the restaurant domain."
+    ],
+    "weaknesses": [
+      "Single-domain evaluation (100 restaurant businesses) severely limits generalizability; it is unclear whether the findings transfer to other marketplace types (e.g., software services, freelancers, physical goods) or larger catalogs.",
+      "The welfare metric is used without definition in the introduction\u2014values like 68.51 and \u221235.85 appear without units or normalization, making the magnitude of improvements difficult to interpret out of context.",
+      "Fit Cards assume the platform has a structured catalog with reliable metadata; the approach may not apply to marketplaces where listings are unstructured or user-generated, which is a significant practical limitation not acknowledged.",
+      "First-proposal bias is identified as a persistent phenomenon but is not resolved by the proposed intervention; the paper admits it 'does not dominate' rather than being fixed, which leaves a gap in the claimed solution.",
+      "4-contribution bullet structure is quite standard; contribution (3) and (4) read more as empirical findings than conceptual contributions, slightly overstating novelty."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.78,
+    "reasoning": "The introduction follows a textbook AI-generation pattern: one paragraph per rhetorical move (context \u2192 problem \u2192 failed alternatives \u2192 solution \u2192 numbered contributions), with an exact four-item bulleted contribution list that mirrors common LLM output templates. Prose is uniformly polished and free of the hedges, asides, or varied sentence rhythms typical of human academic writing. The numerical precision (e.g., welfare of \u221235.85, 4.7\u00d7 compute) feels curated for persuasive effect rather than emerging organically from reported methodology."
+  }
+}

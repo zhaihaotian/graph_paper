@@ -1,0 +1,22 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear hypothesis formulation and controlled experimental design with three conditions (A/B/C) that isolate the variable of interest",
+      "Honest reporting of a negative result with mechanistic explanation (POPE recall drop from 98% to 88%), which is scientifically valuable",
+      "Actionable future direction proposed (condensation vs. filtering) that follows logically from the findings"
+    ],
+    "weaknesses": [
+      "Micro-scale experiment limits generalizability; no indication of dataset size, model scale, or statistical significance of the 1.43pp difference",
+      "The 'Long-Caption Paradox' is introduced as an established finding but the sole citation (Yu et al., 2026) is a future-dated reference, raising concerns about the grounding of the central premise",
+      "Contributions are modest: a single small experiment with a null result, without ablations, broader benchmarks, or theoretical depth to support publication",
+      "The introduction does not contextualize how representative the tested conditions are of real-world caption distributions or MLLM training pipelines"
+    ],
+    "overall_score": 4,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.88,
+    "reasoning": "The introduction follows a highly formulaic structure: named phenomenon, cited prior work, hypothesis, experiment, result, three-bullet contributions. The prose is unusually clean and symmetrical, the negative result is framed with textbook balance, and the three-bullet contribution list is a strong AI writing signature. The future-dated citation (Yu et al., 2026) is also suspicious and may be a hallucinated reference."
+  }
+}

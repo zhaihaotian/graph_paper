@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear motivation grounded in a concrete limitation of existing neuron-adaptive methods (sparsity dependence, layer generality, masking inefficiency)",
+      "Proposes a principled generalization (rank-adaptive framework) with a clean mathematical formulation: Linear(x) \u2248 A(r(x) \u2299 Bx)",
+      "Empirical validation is broad: multiple architectures (Llama2, Gemma, Pythia), multiple model sizes, comparison against state-of-the-art CATS baseline",
+      "Quantitative gains are substantial and specific (4 perplexity points, 8 pp accuracy at ~44% FLOP compression on Llama2-7b)",
+      "Applicability to non-MLP layers (QKV) is a meaningful contribution not addressed by prior work"
+    ],
+    "weaknesses": [
+      "The claim that rank importances are sparse (Figs. 2a, 2b) is presented as empirical observation without theoretical justification for why low-rank decomposition induces this property",
+      "Wall-clock latency results are not prominently discussed; FLOP reduction does not always translate to practical speedup due to memory bandwidth and kernel efficiency constraints",
+      "No ablation separating the contribution of the rank-adaptive framework itself from the specific RaNA adapter design choices (A/B decomposition, masker form)",
+      "Training/fine-tuning cost of learning the rank router r(x) is not analyzed, making deployment overhead unclear",
+      "Comparison is limited to CATS as SOTA; other recent methods (e.g., dReLU, SparseGPT-style approaches) are not included"
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.65,
+    "reasoning": "The introduction is moderately long with multi-paragraph structure, varied sentence rhythm, and nested technical argumentation across three distinct problem dimensions (generalization, sparsity, masking cost). However, the contributions section follows a somewhat formulaic 'we propose / we empirically validate' pattern and the prose is unusually clean and enumeration-heavy, suggesting possible AI assistance in drafting while retaining human-level domain depth."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The core insight is elegant and well-motivated: not all parameter changes during continual fine-tuning are equally harmful, and a post-hoc surgical rollback of a small subset of attention heads can recover earlier-task performance without damaging current-task accuracy. This is a genuinely novel angle that sidesteps the training-complexity overhead of regularization and replay paradigms.",
+      "The three-signal scoring formula (disruption magnitude × historical importance × low new-task importance) is principled and interpretable. Each signal has a clear causal story, and the combination avoids degenerate solutions that any single signal alone would produce.",
+      "The empirical wins are reported with enough granularity to be informative: +1.98 pp Overall Performance and +1.70 pp Backward Transfer over Vanilla LoRA, a 7/9 task-order win rate, and the finding that selected heads have 3-7× higher historical importance than disruption-only selection. These numbers give a sense of effect size and robustness across orderings.",
+      "Situating the method as a post-task intervention rather than a training modification is a meaningful practical advantage: it can be layered on top of existing LoRA pipelines without touching the training loop, lowering the adoption barrier.",
+      "The layer-level analysis (middle layers most susceptible to unintentional disruption) adds mechanistic texture and opens a clear direction for follow-up work."
+    ],
+    "weaknesses": [
+      "The empirical scope is narrow. A single 5-task benchmark with 9 task orderings is the entire experimental base. Without results on at least one additional benchmark (e.g., SuperNI, TRACE, or a domain-shift suite) and at least one additional backbone beyond the implied single LLM, it is impossible to judge generalization. The win rate of 7/9 is suggestive but not decisive.",
+      "Comparison baselines are limited to Vanilla LoRA. The paper contrasts itself conceptually against regularization methods (EWC), replay methods (GEM, DER++), and architecture methods (L2P, DualPrompt, O-LoRA), but there appear to be no direct numerical comparisons against any of these. Without head-to-head numbers, the claim that HeadRollback is a competitive alternative is unsubstantiated.",
+      "Key hyperparameters and design choices are underspecified in the abstract/intro. What fraction of heads are rolled back? How is historical importance computed—gradient-based Fisher, activation magnitude, or something else? Is the LoRA B-matrix row rollback lossless with respect to the A-matrix, or does it introduce a mismatch? These questions bear directly on reproducibility and are not addressed.",
+      "The method is described only for the LoRA B-matrix rows; it is unclear whether the same logic applies to A-matrix rows, full-rank layers, or adapters other than LoRA. This scope limitation should be stated explicitly.",
+      "Performance gains, while consistent, are modest (+1.98 pp). The paper does not report variance across runs, nor does it discuss statistical significance, making it hard to determine whether the improvements exceed noise.",
+      "There is no ablation over each of the three signals individually, which would be the most direct evidence that all three are necessary and that their combination is the right one."
+    ],
+    "overall_score": 5,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.78,
+    "reasoning": "The writing is highly structured to the point of formulaicity: a three-paradigm taxonomy in paragraph 2, a three-property definition in paragraph 3, and a four-bullet contribution list in paragraph 4 all follow the same parallel, enumerated pattern. Quantitative claims ('+1.98pp', '3-7×', '7/9') are presented as stand-alone, polished anchors rather than woven into a discursive argument. The prose is clean but uniformly neutral in register, with no hedging, personal voice, or the kind of mid-sentence correction that typically marks human academic writing under time pressure."
+  }
+}

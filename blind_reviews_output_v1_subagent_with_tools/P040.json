@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a clear and concrete failure mode in GRPO training: the zero-gradient problem when all rollouts for a question share identical rewards. The empirical claim that over 80% of training questions yield zero gradients is striking and well-motivated by the group-relative normalization mechanics.",
+      "The proposed TA-GRPO method is elegant in its simplicity — augmenting training with semantically equivalent phrasings simultaneously addresses diversity collapse and gradient diminishing through a single mechanism, making the contribution easy to understand and implement.",
+      "The theoretical framework is unusually substantive for an RL-for-LLM paper. Providing four distinct theoretical justifications (non-vacuous initialization, reduced zero-gradient probability via formal proof, a Pinsker-KL generalization bound, and a Bernoulli-variance derivation of the pooled advantage) goes well beyond what most competing papers offer.",
+      "The experimental scope is appropriate and includes out-of-distribution evaluation (GPQA-Diamond), which strengthens the generalization claim beyond in-distribution math benchmarks. Improvements of up to 9.84 Pass@32 points on competition-level problems (AMC12, AIME24) are meaningful.",
+      "The framing of LLM pretraining as 'sophisticated pattern-matching' and RL fine-tuning as potentially worsening that limitation is a coherent conceptual narrative that ties the introduction together and makes the motivation self-contained."
+    ],
+    "weaknesses": [
+      "The paper reports Pass@k improvements but does not clearly report Pass@1 results. For deployment the most practically relevant metric is single-sample accuracy; focusing exclusively on Pass@k could mask that diversity gains come at the cost of per-sample precision, or alternatively, undersell TA-GRPO if Pass@1 also improves.",
+      "The quality and diversity of the transforms themselves are underspecified in the introduction. Systematic augmentation of math problems risks introducing semantically non-equivalent variants (e.g., 'Find the sum of 2 and 3' versus 'If x = 2+3, what is x?' are trivially equivalent, but for multi-step competition problems this is non-trivial). There is no discussion of transform verification or the sensitivity of results to transform quality.",
+      "The claim that GRPO 'worsens' pattern-matching relative to the pretrained model is strong but is not fully substantiated in the introduction. It is possible that the observed diversity collapse relative to pretraining is partially an artifact of the training distribution or reward signal design rather than GRPO's normalization per se; the paper does not clearly isolate these factors.",
+      "The theoretical generalization bound (Pinsker-KL) controls train-test gap via KL divergence between the augmented and original distributions, but the tightness of this bound is not assessed. A vacuously large KL could make the bound uninformative in practice; without empirical calibration the theoretical contribution here is hard to evaluate.",
+      "The paper lacks a discussion of computational cost. Training on multiple phrasings per question multiplies rollout cost roughly proportionally to the number of transforms. For large models and expensive rollouts this overhead is non-trivial and should be quantified relative to the performance gain."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The writing exhibits genuine multi-threaded argumentation — the pattern-matching framing in the introduction threads through both the diagnosis of GRPO failures and the justification for the proposed fix in a way that feels organically developed rather than templated. The critique structure is asymmetric across the two failure modes (Diversity Collapse and Gradient Diminishing receive different levels of detail and evidence), which is characteristic of human authors who have internalized different amounts of material for each sub-point. The theoretical framework section lists four mechanistically distinct justifications rather than a uniform three-bullet structure, suggesting authorial judgment rather than formula."
+  }
+}

@@ -1,0 +1,64 @@
+Recently, Large-scale language models (LLMs) have garnered significant attention and become
+the go-to approach for numerous natural language processing (NLP) tasks, including open domain
+conversation (Ouyang et al., 2022; OpenAI, 2023; Touvron et al., 2023a), coding (Chen et al., 2021;
+Wang et al., 2021; Li et al., 2023b) and math (Taylor et al., 2022; Lewkowycz et al., 2022; Shao
+et al., 2024; Yang et al., 2024). A conspicuous example is ChatGPT , developed by OpenAI. This
+model uses extensive pre-training on large-scale internet data and further fine-tuning with specific
+instruction data and methods. As a result, it achieves state-of-the-art zero-shot performance on
+various benchmarks. Subsequently, Anthropic, Google, and Meta also launched their competitive
+products one after another. Notably, Meta’s series of Llama (Touvron et al., 2023a;b; Dubey et al.,
+2024) have sparked an open-source revolution and quickly narrowed the gap with those closed-source
+LLMs. This trend also gradually stimulates the releases of Mistral (Jiang et al., 2023), Alpaca (Taori
+et al., 2023), Vicuna (Chiang et al., 2023), and WizardLM (Xu et al., 2023), etc. However, these open
+models still struggle with the scenarios which require complex multi-step quantitative reasoning,
+such as solving mathematical and science challenges (Ahn et al., 2024; Long et al., 2024).
+Chain-of-thought (CoT) (Wei et al., 2022) proposes to design better prompts to generate step-bystep solutions, which can lead to improved performance. Self-Consistency (Wang et al., 2022)
+also achieves remarkable performance on many reasoning benchmarks, which generates several
+possible answers from the model and selects the correct one based on majority vote (Fu et al., 2022).
+Llemma (Azerbayev et al., 2023) and MathPile (Wang et al., 2023c) continue pretraining LLMs with
+math corpus to improve domain capacity. MetaMath (Yu et al., 2023b) and Xwin-Math (Li et al.,
+2024a) bootstraps mathematical questions by augmenting the question from multiple perspectives.
+MAmmoTH (Yue et al., 2023) and TORA (Gou et al., 2023) presents a unique hybrid of CoT and
+program-of-thought (PoT) to ensure extensive coverage of diverse fields in math. Recently, EvolInstruct is an effective method for large-scale data synthesis using LLMs. It has been widely verified
+and proven to be effective in enhancing the model’s instruction following capability. It employs
+In-depth Evolving and In-breadth Evolving to automate the generation of diverse and complex
+open-domain instructions using LLMs, instead of relying on human-crafted instruction datasets. Indepth Evolving incrementally enhances instruction complexity by introducing additional constraints,
+deepening, concretizing, increasing reasoning steps, and complicating input. In-breadth Evolving
+focuses on improving topic diversity and dataset richness by creating entirely new instructions. To
+enhance the correctness of each step in the model’s generation process, (Wang et al., 2024a; Chen
+et al., 2024a; Lightman et al., 2023) finds that process supervision with reinforcement learning
+significantly outperforms outcome supervision for solving challenging MATH problems.
+Inspired by Evol-Instruct and Process-supervised Reinforcement Learning, this work aims to enhance
+the mathematical reasoning abilities of the LLMs. As shown in the Figure 1, we propose a new method
+named Reinforcement Learning from Evol-Instruct Feedback (RLEIF), which could firstly generate
+diverse math instructions data by brand-new Math Evol-Instruct, which includes two downward
+evolution and upward evolution progress to produce the grade school math and challenging high
+school math respectively. However different from WizardLM (Xu et al., 2023) and WizardCoder (Luo
+et al., 2023), which mainly focus on the SFT stage and are susceptible to learning hallucinated
+information from the teacher model, we innovatively introduce PRM to address the False-Positive
+issue in the problem-solving process. Moreover, to prevent instruction evolution from spiraling out
+of control, we incorporate an instruction reward model (IRM) as a mitigating strategy. Thus, we
+train an instruction reward model (IRM) and a process-supervised reward model (PRM) (Lightman
+et al., 2023; Uesato et al., 2022; Wang et al., 2024a; Chen et al., 2024a), the former indicates the
+quality of the evolved instruction and the latter offers feedback for each reasoning step in the solution.
+Initially, we finetune LLMs with the evolved math data. Immediately, we leverage GPT-4 to produce
+the ranking order of instructions, and the correctness of each reasoning step, then optimize the LLMs
+to obtain the reward models. Finally, we implement the step-by-step PPO to train our WizardMath.
+
+We perform experiments on two widely used mathematical reasoning benchmarks, namely
+GSM8k (Cobbe et al., 2021) and MATH (Hendrycks et al., 2021) covering math problems from grade
+to high school levels, the results show that our WizardMath outperforms all other open-source LLMs
+at the same model size, achieving state-of-the-art performance. For instance, WizardMath-70B significantly outperforms MetaMath-70B by a significant margin on GSM8k (92.8 vs. 82.3) and on MATH
+(58.6 vs. 26.6). Specifically, WizardMath-Mistral-7B observed a substantial improvement in pass@1
+with an increase of +12.8 (90.7. vs. 77.9) on GSM8k, and +26.8 (55.4 vs. 28.6) on MATH compared
+to MetaMath-Mistral-7B. Notably, our 70B model even also significantly surpasses those powerful
+proprietary LLMs, such as GPT-3.5-Turbo, Claude 2 (Bai et al., 2022), Mistral Medium (Jiang et al.,
+2024), Gemini-Pro (Team, 2023), PaLM-2 (Anil et al., 2023) and GPT-4-early-version.
+The main contributions of this work are as follows:
+• We introduce WizardMath model, which enhances the LLMs’ mathematical reasoning
+abilities across a range of problem difficulties, from grade to high school levels.
+• We propose a new fully AI-powered automatic reinforcement learning method, Reinforcement Learning from Evol-Instruct Feedback (RLEIF), alongside Math Evol-Instruct and
+Process Supervision, for improving reasoning performance.
+• WizardMath surpasses top-tier open-source LLMs by a substantial margin with higher data
+efficiency and also significantly outperforms various proprietary LLMs on both GSM8k and
+MATH, demonstrate the effectiveness of our RLEIF.

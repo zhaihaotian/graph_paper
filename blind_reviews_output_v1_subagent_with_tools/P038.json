@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a genuinely interesting and non-obvious research question: whether the benefit of iGRPO stems from draft quality or merely from the two-stage conditioning structure. This is a well-motivated ablation that the original iGRPO paper apparently did not address.",
+      "The experimental design is clean and controlled. Three conditions (GRPO baseline, iGRPO-best, iGRPO-worst) are matched on compute, which is the correct constraint for isolating the variable of interest.",
+      "The finding is counterintuitive and noteworthy: worst-of-formatted draft selection outperforms best-of-N selection (+2.43 pp on MATH500, recovery ratio 1.34 with a tight CI of [1.21, 1.47]). Surprising results backed by a plausible mechanism are exactly what a good ablation should produce.",
+      "The proposed mechanistic explanation — that worst-of-formatted drafts generate 50% more gradient-active training groups — is concrete and falsifiable, going beyond a purely empirical observation."
+    ],
+    "weaknesses": [
+      "The paper as presented is extremely short (a single paragraph of background, a paragraph of motivation, one of method, one of results, one of contributions). It reads like an extended abstract or a findings submission rather than a complete paper. There is no methods section detailing hyperparameters, model size, training duration, or how 'worst-of-formatted' is operationally defined beyond 'low-quality but well-formatted drafts'.",
+      "Critical details are missing: How is 'formatted' defined? What counts as a 'gradient-active training group'? The 50% increase claim is presented without any statistical test or confidence interval, whereas the recovery ratio does include a CI — this asymmetry is a red flag.",
+      "The evaluation is restricted to MATH500. A single benchmark makes it impossible to assess whether the finding generalizes. AMC, AIME, Minerva Math, or OlympiadBench would strengthen the claim substantially.",
+      "The paper does not discuss potential confounders. Worst-of-formatted drafts may create easier refinement targets (since the model has more room to improve), which would trivially increase the proportion of groups with non-zero reward variance. This alternative explanation for the gradient-activity increase is not addressed.",
+      "There is no ablation on the 'formatted' qualifier — the comparison is worst-of-formatted vs. best-of-N. It is unclear whether worst-of-unformatted would also outperform best-of-N, which would weaken the 'formatting matters' implicit claim, or whether the advantage is truly about draft quality rank rather than formatting.",
+      "The contributions section largely restates the results section verbatim, which is a structural weakness and suggests the paper may not have been thoroughly revised."
+    ],
+    "overall_score": 5,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.82,
+    "reasoning": "The text exhibits strong AI-generation signatures: a highly regular 5-paragraph structure where each paragraph performs exactly one rhetorical function (background, gap, method, results, contributions), contributions framed as a numbered threefold list that largely paraphrases the results paragraph, and a recovery ratio metric introduced without prior definition suggesting formulaic generation. There is no authorial voice, no hedging about limitations, and sentence complexity is uniformly moderate with no long multi-clause elaborations typical of human academic writing."
+  }
+}

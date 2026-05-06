@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper is refreshingly honest in reporting a decisive negative result, which has genuine scientific value—documenting a well-motivated failed approach prevents redundant exploration by the community.",
+      "The hypothesis is logically sound and clearly articulated: canonicalizing schemas to a stable placeholder vocabulary should, in principle, make activation-space representations invariant to lexical churn, and the authors explain the reasoning clearly.",
+      "The secondary finding—that ASA's learned assets are inherently robust to lexical churn and that degradation under churn originates from base-model sensitivity rather than asset drift—is a substantive and nontrivial insight that advances understanding of where fragility actually lives in tool-calling pipelines.",
+      "The experimental setup is concrete: a specific benchmark (BFCL v3), a specific baseline (ASA), and a quantified outcome (15.2 percentage-point drop from 0.768 to 0.616) give the reader enough to evaluate the claim.",
+      "The failure analysis is mechanistically grounded: the authors attribute the performance collapse to the removal of semantic cues in parameter names that LLMs rely on for argument-value mapping, which is a credible and testable explanation."
+    ],
+    "weaknesses": [
+      "At eight sentences the paper is far too short to constitute a complete research contribution. There is no related work section, no description of the experimental protocol (dataset splits, number of labeled examples used for ASA calibration, hyperparameters), no ablations, and no discussion of alternative canonicalization strategies that might preserve semantic cues while still providing identifier-invariance.",
+      "The claim that 'recalibration provides no benefit over simple reuse' is asserted but not supported by any reported numbers; without a table comparing reuse vs. recalibration accuracy under churn conditions, this third contribution is unverified.",
+      "The paper defines 'schema churn' informally but does not operationalize it experimentally—readers do not know how churn was simulated (random renaming? systematic refactoring patterns?), what churn magnitudes were tested, or whether results generalize beyond the specific churn distribution studied.",
+      "There is no discussion of partial canonicalization strategies (e.g., canonicalizing only function names while preserving parameter names, or using embedding-level abstractions rather than token-level placeholders) that might have salvaged the core hypothesis.",
+      "The paper references Wang et al. (2026), a future-dated citation that cannot be verified and raises concerns about the provenance of the baseline method being evaluated."
+    ],
+    "overall_score": 4,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.82,
+    "reasoning": "The text is unusually compact and formulaic: it follows a rigid three-paragraph structure (motivation, method, contributions) with a stereotyped three-bullet contribution list, and every sentence is maximally load-bearing with no rhetorical digression or hedging. The prose is clean but impersonal, lacking the characteristic messiness of human academic writing—no qualifications about scope, no acknowledgment of reviewer concerns, no personal voice—and the future-dated citation (Wang et al., 2026) is consistent with an LLM hallucinating plausible-sounding references."
+  }
+}

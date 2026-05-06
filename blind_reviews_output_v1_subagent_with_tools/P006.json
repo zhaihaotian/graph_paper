@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Compelling and well-articulated motivation grounded in a concrete cognitive analogy: the observation that humans adaptively scale computational effort to task difficulty provides a persuasive and intuitive framing for the core problem.",
+      "Clear and precise identification of the limitations of existing approaches—both token-level CoT reasoning (output-space bottlenecks, quantization noise, memory scaling) and diffusion-based policies (generative sampling vs. deliberation)—demonstrating sophisticated understanding of the relevant landscape.",
+      "The proposed RD-VLA architecture is technically coherent: decomposing the action head into an encoding stack, weight-tied recurrent block, and projection layer is an elegant design that addresses the stated limitations while maintaining a constant memory footprint.",
+      "Concrete and competitive empirical claims are provided upfront (93.0% on LIBERO, 3.39 avg task length on CALVIN, real-world generalization), giving reviewers an early signal of quantitative impact.",
+      "The novelty claim is clearly scoped: 'first VLA model to support scaling test-time computation through implicit latent-space reasoning via a weight-tied recurrent core' is specific and falsifiable."
+    ],
+    "weaknesses": [
+      "The distinction between RD-VLA's recurrent latent refinement and diffusion-based policies is asserted rather than rigorously justified. Claiming diffusion is 'generative sampling rather than deliberative' is intuitive but could be challenged; a more formal characterization of the difference would strengthen the argument.",
+      "The adaptive stopping criterion is mentioned and referenced to Figure 3 but is not described in the introduction, leaving a critical component of the system unexplained at a high level—readers cannot assess its soundness without forward-referencing.",
+      "The paper would benefit from a more explicit discussion of failure modes or limitations of the recurrent approach (e.g., risk of oscillation or non-convergence of the hidden state, sensitivity to the number of unrolled steps, computational overhead during training vs. inference).",
+      "The comparison baseline set is partially underspecified in the introduction: 'strong end-to-end VLAs and all reasoning-centric VLAs on LIBERO' is vague—naming specific baselines would sharpen the empirical contribution claim.",
+      "Minor grammatical issue: 'our approach enables adaptive behavior emerges naturally' in the contribution paragraph is a syntactic error, suggesting light proofreading was not completed before submission."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The introduction exhibits several hallmarks of human academic writing: multi-threaded argumentation that weaves together neuroscience analogy, architectural critique, and system description across a sustained logical arc; nuanced hedging ('fundamentally non-ideal', 'inherently subtler'); and an embedded grammatical error ('adaptive behavior emerges') that is atypical of LLM-generated text. The prose density and the depth of engagement with competing paradigms (CoT, diffusion, looped transformers) are consistent with domain-expert authorship rather than formulaic AI generation."
+  }
+}

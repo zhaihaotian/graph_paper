@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The motivation is crisp and well-grounded: finite-sample noise in pass-rate estimation is a real and under-addressed problem in unit-test RLVR, and the paper correctly identifies it as a systematic failure mode rather than random noise.",
+      "The proposed LCB reward is principled and elegant—using a Beta posterior quantile is a natural, well-understood Bayesian solution that carries formal uncertainty semantics, and the exposition (3/5 vs 27/30 at the same pass-rate) makes the intuition immediately accessible.",
+      "The compute-efficiency claim is particularly compelling: achieving state-of-the-art Pass@1 on both MBPP+ and HumanEval+ while using half the verifier compute (m=5 vs 2m=10) is a strong practical result that would matter to practitioners.",
+      "The robustness claim (stability across δ and prior hyperparameters) directly addresses the common skepticism that Bayesian methods introduce additional hyperparameter burden, making the contribution practically self-contained."
+    ],
+    "weaknesses": [
+      "The excerpt is introduction-only; it is impossible to evaluate experimental rigor, ablation depth, or whether the Pass@1 improvements are statistically significant—the results numbers (57.0%, 57.1%) appear without confidence intervals or multiple-run variance.",
+      "The claim that LCB 'exhibits the most stable training dynamics among all tested reward functions' is asserted without defining what baselines were tested or what 'stable' means quantitatively, leaving this contribution underspecified.",
+      "The Bayesian framing, while coherent, sidesteps an important question: why a Beta-Bernoulli model rather than, e.g., a Dirichlet-Multinomial over partial test categories, or a frequentist Wilson interval? The choice of prior is briefly mentioned as a robustness variable but the theoretical justification for the model itself is thin.",
+      "Related work is sparse—CodeRL and RLTF are cited but the connection to reward shaping literature, uncertainty-aware RL (e.g., optimism/pessimism in model-based RL), and conformal prediction-based reward bounds is absent, which limits positioning.",
+      "The paper conflates compute savings with sample efficiency: using fewer tests per rollout is only strictly cheaper if test execution dominates wall-clock time, but for fast unit tests (microseconds each) the policy rollout may dominate, making the '2× compute' framing potentially misleading."
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The writing contains multi-threaded reasoning—the core insight (systematic failure mode from finite-sample noise), the Bayesian formalization, and the practical compute argument are developed in parallel threads that weave together, which is characteristic of human authorship. However, the three-bullet contribution list and the tight, formulaic structure of the abstract-style opening paragraph are consistent with AI-assisted drafting, suggesting a likely human-led paper with possible AI polish."
+  }
+}

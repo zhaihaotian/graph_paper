@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper addresses a genuine and pressing problem in LLM evaluation: benchmark redundancy and inefficiency. The motivation is well-grounded, and the scope (compressing six major benchmarks to under 3% of their combined size while retaining predictive power) is ambitious and practically valuable.",
+      "Applying psychometric techniques (item response theory) to LLM evaluation is a principled methodological choice. The identification of a single latent factor underlying benchmark performance is an interesting empirical finding that has implications for how we conceptualize 'general ability' in LLMs.",
+      "The scale of the empirical analysis (over 5,000 LLMs) is impressive and lends credibility to the item-selection procedure. Offering both a standard and a disjoint version of metabench for repeated evaluation shows awareness of practical deployment scenarios.",
+      "The paper is clearly positioned for the open-source and resource-constrained ML community, and making code and data publicly available (GitHub and HuggingFace) is commendable for reproducibility."
+    ],
+    "weaknesses": [
+      "The abstract/introduction provided does not clarify how 'the most revealing items' are selected. Without methodological detail, it is impossible to assess whether the item-selection procedure is valid, transferable to new models, or prone to overfitting the 5,000-model pool used for calibration.",
+      "The claim that metabench maintains 'the original benchmarks' ability to measure underlying abilities' requires quantitative evidence (e.g., correlation of reconstructed scores vs. full benchmark scores, effect sizes), none of which is visible in the provided text. The nature and magnitude of reconstruction error is not characterized.",
+      "The paper's framing — discovering a 'single underlying factor' — echoes psychometric g-factor debates in human intelligence and raises important construct validity questions that appear unaddressed: Does the single factor reflect genuine general capability, or shared surface-level features (e.g., format familiarity, input length sensitivity)?",
+      "Adaptive testing simulations are mentioned as suggesting further item reductions, but the simulation methodology, validity assumptions, and stopping criteria are entirely absent from the excerpt, making this claim unverifiable.",
+      "The selected benchmarks (ARC, GSM8K, HellaSwag, MMLU, TruthfulQA, WinoGrande) are themselves not representative of the full range of LLM capabilities (e.g., instruction-following, tool use, long-context reasoning, safety). Generalizability of metabench beyond this narrow scope is not discussed."
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The writing exhibits multi-threaded positioning — simultaneously addressing practitioners, open-source researchers, and the psychometrics community — which is more characteristic of human authorship than AI-generated text. Citation density is high and contextually varied (not formulaic clusters), and the framing of limitations (benchmark redundancy, evaluation efficiency) is nuanced rather than templated. The minor typographic error ('and and') in line 32-33 is also consistent with human drafting."
+  }
+}

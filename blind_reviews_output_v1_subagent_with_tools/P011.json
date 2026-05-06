@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear and well-motivated problem statement: the paper identifies a concrete, underexplored bottleneck in agentic marketplace search (information loss from truncated descriptions) and grounds it with a striking empirical baseline (7.8% contacted-fit rate, over 90% wasted interactions).",
+      "Hypothesis falsification is handled rigorously and honestly. The authors explicitly test and reject agent-side interventions (better prompting, inference scaling) before advocating for a platform-side solution, which strengthens the causal narrative considerably.",
+      "The proposed intervention (Fit Cards) is simple, actionable, and well-differentiated: query-conditioned structured metadata rather than free-text snippets. The 11.4x welfare improvement and 28% reduction in LLM calls are concrete and quantitatively compelling.",
+      "The four-part contribution list at the end of the intro is sharply delineated — each contribution maps cleanly onto a distinct empirical finding (discovery-stage vs. proposal-stage, fit rate improvement, bottleneck diagnosis, comparison of agent- vs. platform-side solutions).",
+      "The paper engages with a timely real-world paradigm (agentic commerce) and frames its findings in a way that should be informative both to marketplace platform designers and to the AI systems research community."
+    ],
+    "weaknesses": [
+      "The experimental scope is narrow: 100 businesses in a single domain (restaurants) is a small testbed. Generalizability to other verticals (e.g., gig services, e-commerce with thousands of SKUs, B2B procurement) is not addressed in the intro.",
+      "The welfare metric is introduced numerically (68.51, −35.85, −29.71) without definition in the intro. Readers cannot interpret whether these magnitudes represent meaningful differences without knowing what units or normalization the metric uses.",
+      "The baseline system is under-described: it is unclear what 'status quo' means here — is it a realistic current deployment, a synthetic approximation, or a specific LLM configuration? Without this anchor, the claimed 11.4x improvement is hard to contextualize.",
+      "First-proposal bias is mentioned as a persistent problem but is set aside with the caveat that it 'does not dominate welfare.' This is analytically convenient but leaves an important confound underexplored — how much of the welfare gain is attributable to better contact selection versus changes in negotiation dynamics once fit is higher?",
+      "There is no discussion of adversarial or strategic behavior by businesses: once businesses know the platform computes and ranks fit scores, they may optimize their catalog metadata to game the ranking, potentially undermining the intervention over time."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The intro exhibits multi-threaded argumentation that moves fluidly from motivation to hypothesis falsification to a positive proposal, with specific negative results (welfare dropping to −35.85 under prompting) that carry the texture of iterative experimental discovery rather than formulaic construction. The acknowledgment of a persistent limitation (first-proposal bias) without claiming to resolve it, and the nuanced framing of the platform vs. agent dichotomy, suggest genuine research authorship. Some phrasing is polished enough to be post-edited, but the logical density and the non-trivial ordering of ideas align more closely with human scholarly writing."
+  }
+}

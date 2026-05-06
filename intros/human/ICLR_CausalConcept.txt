@@ -1,0 +1,48 @@
+Causal opacity refers to the difficulty in understanding a model’s decision-making mechanisms
+(Termine & Primiero, 2024). Like causal discovery, causal opacity, can be assessed through Pearl’s
+framework of causality (Pearl, 1995), categorizing an agent’s causal understanding based on its
+ability to answer three types of questions: observational queries (“what is the relationship between
+the feature x and the model’s output?”), interventional queries (“what happens if I fix the feature
+x to a value k?”), and counterfactual queries (“what would the model’s prediction had been if
+feature x had taken value k ′ instead of k?”). Unlike causal discovery, causal opacity concerns the
+decision-making process of a DNN model. Whether a DNN is causally opaque (or transparent)
+depends on whether users can answer interventional and counterfactual questions that concern the
+model’s inferential behaviour. In this regard, notice that (i) the problem of causal opacity is distinct
+from the problem of causal discovery, which involves detecting causal mechanisms in the real world, rather than understanding the causal structure of a model's internal reasoning; and (ii) causal opacity
+rather than understanding the causal structure of a model’s internal reasoning; and (ii) causal opacity
+(and the related form of causal understanding) neither implies nor requires discovering the “true”
+causal structure of the data-generating process. For example, a model might effectively predict
+heart attacks based on the rule heart_attack ← smoking ← lung_cancer, even though the
+actual biological mechanism is that smoking causes lung cancer, not the reverse. Further details on
+the distinction between causal opacity and causal discovery are discussed in App. A.
+Deep Learning (DL) models (Fig. 1a) are causally opaque when applied to unstructured data like
+images, as interventions on low-level features, such as pixels, are not meaningful (Rudin, 2019;
+Ghorbani et al., 2019) and therefore do not enable us to easily answer any of these sorts of questions.
+For example, asking “what happens if I fix the intensity of the pixel xi to k?” does little to reveal
+whether a DNN is exploiting protected attributes like “gender” or “race” when classifying an image
+of a person as a “doctor”. Yet, understanding when these sorts of high-level attributes are misused to
+make predictions is crucial for the proper verification and vetting of models (Kusner et al., 2017),
+particularly in high-impact real-world tasks (e.g., medical admission recommendations).
+To address this issue, Concept Bottleneck Models (CBMs) (Koh et al., 2020) have been designed to
+support interventions on high-level interpretable features known as “concepts” (Kim et al., 2018).
+These concepts, whose semantics are aligned with units of information experts would use to solve the
+same task, allow for more intuitive interventions and counterfactual analysis (Wachter et al., 2017;
+Abid et al., 2021). This is because CBMs shift from reasoning based on raw features to explicitly
+operating on interpretable variables such as “age”, “income”, “gender”, or “BMI”.
+Although CBMs are semantically transparent (Kim et al., 2018; Facchini & Termine, 2021), we
+argue they still rely on two unrealistic assumptions (visualised in Fig. 1b). First, they assume
+that concepts are causally independent, an assumption that breaks in most real-world tasks. For
+instance, CBMs might treat “smoking” and other health conditions as independent predictors of
+an insurance premium, ignoring how intervening on smoking affects health. Second, and more
+importantly, CBMs assume concepts are the direct causes of model predictions. These assumptions
+oversimplify and constrain the model’s inference structure, preventing the model from using more
+complex and effective concept dependencies (Beckers, 2022). As a result, the problem of causal
+opacity still represents a key open challenge at the intersection of DL, causality, and XAI.
+Contributions In response to this challenge, we introduce Causal Concept Graph Models (Causal
+CGMs, see Figure 1c). Causal CGMs are a new concept-based architecture whose decision-making
+process is causally transparent by design, avoiding the unrealistic assumption that concepts must
+be causally independent and direct causes of class prediction. The results of our experiments show
+that Causal CGMs can: (i) match the generalisation performance of state-of-the-art causally-opaque
+models, (ii) enable human-in-the-loop corrections of mispredicted intermediate reasoning steps, boosting both downstream accuracy and explanation correctness, and (iii) support the analysis of both
+interventional and counterfactual questions, improving causal interpretability and enabling effective
+verification of reliability and fairness. The code related to this paper is publicly available.

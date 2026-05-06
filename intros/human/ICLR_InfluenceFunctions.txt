@@ -1,0 +1,47 @@
+Generative modelling for continuous data modalities — like images, video, and audio — has advanced
+rapidly, propelled by improvements in diffusion-based approaches. Many companies now offer easy
+access to AI-generated bespoke image content. However, the use of these models for commercial
+purposes creates a need for understanding how the training data influences their outputs. In cases
+where the model’s outputs are undesirable, it is useful to be able to identify, and possibly remove, the
+training data instances responsible for those outputs. Furthermore, as copyrighted works often make
+up a significant part of the training corpora of these models (Schuhmann et al., 2022), concerns about
+the extent to which individual copyright owners’ works influence the generated samples arise. Some
+already characterise what these companies offer as “copyright infringement as a service” (Saveri &
+Butterick, 2023a), which has caused a flurry of high-profile lawsuits Saveri & Butterick (2023a;b).
+This motivates exploring tools for data attribution that might be able to quantify how each group of
+training data points influences the models’ outputs. Influence functions (Koh & Liang, 2017b; Bae et al., 2022) offer precisely such a tool. By approximating the answer to the question, “If the model
+was trained with some of the data excluded, what would its output be?”, they can help finding data
+points most responsible for a low loss on an example, or a high probability of generating a particular
+example. However, they have yet to be scalably adapted to the general diffusion modelling setting.
+Influence functions work by locally approximating how the loss landscape would change if some of
+the training data points were down-weighted in the training loss (illustrated in Figure 4). Consequently,
+this enables prediction for how the (local) optimum of the training loss would change, and how
+that change in the parameters would affect a measurement of interest (e.g., loss on a particular
+example). By extrapolating this prediction, one can estimate what would happen if the data points
+were fully removed from the training set. However, to locally approximate the shape of the loss
+landscape, influence functions require computing and inverting the Hessian of the training loss,
+which is computationally expensive. One common approximation of the training loss’s Hessian is the
+generalised Gauss-Newton matrix (GGN, Schraudolph, 2002; Martens, 2020). The GGN has not been
+clearly formulated for the diffusion modelling objective before and cannot be uniquely determined
+based on its general definition. Moreover, to compute and store a GGN for large neural networks
+further approximations are necessary. We propose using Kronecker-Factored Approximate Curvature
+(K-FAC, Heskes, 2000; Martens & Grosse, 2015) and its variant eigenvalue-corrected K-FAC (George
+et al., 2018, EK-FAC) to approximate the GGN. It is not commonly known how to apply it to neural
+network architectures used in diffusion models; for example, Kwon et al. (2023) resort to alternative
+Hessian approximation methods because “[K-FAC] might not be applicable to general deep neural
+network models as it highly depends on the model architecture”. However, based on recent work, it is
+indeed clear that it can be applied to architectures used in diffusion models (Grosse & Martens, 2016;
+Eschenhagen et al., 2023), which typically combine linear layers, convolutions, and attention (Ho
+et al., 2020).
+In this work, we describe a scalable approach to influence function-based approximations for data
+attribution in diffusion models, using (E)K-FAC approximation of GGNs as Hessian approximations.
+We articulate a design space based on influence functions, unify previous methods for data attribution
+in diffusion models (Georgiev et al., 2023; Zheng et al., 2024) through our framework, and argue for
+the design choices that distinguish our method from previous ones. One important design choice is
+the GGN used as the Hessian approximation. We formulate different GGN matrices for the diffusion
+modelling objective and discuss their implicit assumptions. We empirically ablate variations of the
+GGN approximation and other design choices in our framework and show that our proposed method
+outperforms the existing data attribution methods for diffusion models as measured by common data
+attribution metrics like the Linear Datamodeling Score (Park et al., 2023) or retraining without top
+influences. Finally, we also discuss interesting empirical observations that challenge our current
+understanding of influence functions in the context of diffusion models.

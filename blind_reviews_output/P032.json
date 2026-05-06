@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Honest reporting of a negative result, which provides genuine value to the community by warning against a plausible-but-flawed direction",
+      "Clear post-hoc diagnosis of why DCS fails (96% draft completion rate undermines the continuation mechanism), making the failure informative",
+      "Specific hyperparameter choices and baselines are stated concretely, aiding reproducibility",
+      "Comparison against multiple relevant baselines (greedy, uniform SC, CGES-LNS) is appropriate"
+    ],
+    "weaknesses": [
+      "The failure mode\u2014that drafts mostly complete within the token limit\u2014seems like it could have been anticipated with a simple pilot measurement before designing the full system, raising questions about research methodology",
+      "Evaluation is narrow: single dataset (MATH-500) and single model (Qwen2.5-Math-7B-Instruct), limiting generalizability of even the negative finding",
+      "Hyperparameter choices (B=7, Tdraft=1024, k=3) are presented without ablation or justification; it is unclear whether different settings would change the conclusion",
+      "The hedge allocation strategy is described but its contribution is never isolated experimentally",
+      "The insight gained is shallow: the paper essentially discovers that its core assumption (drafts are frequently truncated) does not hold, rather than revealing a deeper structural problem with the two-stage paradigm"
+    ],
+    "overall_score": 4,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.78,
+    "reasoning": "The introduction follows a highly formulaic structure\u2014background, gap, method, result, then a three-bullet 'Our contributions are:' list\u2014which is a strong AI-generation signature. The prose is uniformly clean and declarative with no hedging, stylistic variation, or discursive tangents typical of human academic writing. The precise numeric reporting (19.6%, 109%, ~96%) embedded in a mechanically structured narrative further matches common LLM output patterns."
+  }
+}

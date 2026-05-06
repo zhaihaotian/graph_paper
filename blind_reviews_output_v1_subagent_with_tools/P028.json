@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a practically important and underexplored problem: VLM performance degradation on corrupted chart images under realistic deployment conditions, with a clear empirical motivation (25–30 percentage point drops) drawn from prior work.",
+      "ReInk is a cleanly motivated, training-free inference wrapper that is simple to apply, making it broadly useful without the cost or generalization concerns of retraining-based approaches.",
+      "The ablation design is well-structured: the scrambled-text control (+8.50pp vs. +12.21pp) isolates semantic content as the primary driver, and the further decomposition of spatial rendering and bounding box outlines (+0.64pp and +0.10pp respectively) adds useful granularity to understanding what each component contributes.",
+      "The headline gain of +12.21pp on ChartQAPro-Corrupted is substantial and the claim that gains scale predictably with OCR quality provides a principled path for future improvement."
+    ],
+    "weaknesses": [
+      "The submission is very short (13 lines as presented), appearing to be only an abstract or introduction. A complete paper would require full experimental details, methodology, related work, and discussion sections — it is impossible to assess rigor, reproducibility, or statistical significance from the current text.",
+      "The evaluation is limited to a single benchmark (ChartQAPro-Corrupted). Generalization to other chart QA benchmarks, other corruption types beyond those mentioned, or other VLMs is not demonstrated.",
+      "The OCR quality dependency is acknowledged but not explored: the paper does not characterize how ReInk performs when OCR fails or introduces errors, which is a critical failure mode for heavily corrupted images where OCR itself may be unreliable.",
+      "The spatial rendering component contributes only +0.64pp and bounding box outlines +0.10pp, raising questions about whether the added complexity of the auxiliary image canvas is justified versus simply prepending OCR text as a string to the prompt — a simpler baseline that appears absent.",
+      "No comparison to fine-tuning or augmentation baselines is provided, making it unclear how large the gap is between this inference-only approach and approaches that do invest in retraining."
+    ],
+    "overall_score": 5,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.78,
+    "reasoning": "The text exhibits highly structured, formulaic presentation with a clean three-bullet contribution list, precise rounded statistics (+12.21pp, +8.50pp, +11.57pp, +0.64pp, +0.10pp), and a single-threaded narrative arc from problem to method to result with no hedging, tangents, or authorial voice. The contribution bullets closely mirror the abstract claims in a way characteristic of LLM-generated academic writing, and the writing is uniformly polished without the uneven register or minor idiosyncrasies typical of human authors."
+  }
+}

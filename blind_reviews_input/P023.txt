@@ -1,0 +1,56 @@
+Imitation learning provides an intuitive policy optimization framework for executing complex
+robotic tasks by learning from expert demonstrations (Hussein et al., 2017). However, naively replicating expert behavior can raise safety concerns during deployment, as the robot’s trajectory may
+become unreliable when facing out-of-sample (OOS) states. For instance, if the robot begins from
+an unknown initial state or encounters environmental perturbations, it could fail to maintain a consistent and reliable behavior. To address this issue, the policy can be modeled using a dynamical
+system (DS) with rigorous reliability certificates (Ravichandar et al., 2020; Dawson et al., 2023).
+One such certificate is asymptotic stability (Devaney,
+2021), which ensures that all trajectories eventually converge to the same equilibrium state, regardless of
+the initial condition or perturbations (Khansari-Zadeh &
+Billard, 2011; Rana et al., 2020; Abyaneh et al., 2024).
+While asymptotic stability guarantees convergence, it overlooks the transient behavior (Tsukamoto et al., 2021).
+This phenomenon is illustrated in Fig. 1 for an arbitrary
+OOS initial state, where the trajectory induced by the stable policy converges to the target but fails to imitate the
+expert. In contrast, contractive DS policies ensure that the resulting trajectories exponentially converge to each
+other, and ultimately to the equilibrium state (Ravichandar et al., 2017; Mohammadi et al., 2024). We leverage
+the stronger notion of contractivity (Lohmiller & Slotine,
+1998) to ensure reliability in the transient phase, and as a result, enhance the imitation quality.
+There are two main approaches to learning contractive
+DSs. The most common method relies on constrained optimization to train the DS while satisfying learned or fixed contractivity certificates (Ravichandar
+et al., 2017; Blocher et al., 2017; Sindhwani et al., 2018). However, constrained optimization is
+computationally challenging for complex expert behaviors or high-dimensional state spaces. Additionally, most constrained approaches trade off imitation accuracy for constraint satisfaction. The
+second approach is based on parameterized models with built-in contractivity guarantees for any
+choice of parameters (Mohammadi et al., 2024; Dawson et al., 2023). As a result, the model remains contractive even if the learning process is imperfect or disrupted.
+In this work, we build on the foundation of two such formulations: (i) a parameterization of contractive continuous-time DSs using recurrent equilibrium networks (RENs) (Martinelli et al., 2023),
+and (ii) the coupling layer architecture (Papamakarios et al., 2021). The former ensures that the DS
+is contractive with an adjustable rate, while the latter provides a trainable bijective transformation
+that preserves contraction properties. Our experiments demonstrate that the coupling layers enhance
+the model’s representation power, leading to improved imitation accuracy and faster training, while
+maintaining the contractive nature of the DS.
+Related work. Contractive imitation learning approaches are less common in the literature, primarily due to the increased difficulty of enforcing contractivity compared to asymptotic stability.
+The majority of existing methods train the DS under contractivity constraints (Blocher et al., 2017;
+Ravichandar et al., 2017; Sindhwani et al., 2018), resulting in a computationally demanding optimization problem. These methods assume specific representations of the DS or the contraction
+certificate to mitigate the intensive computation. For example, Ravichandar et al. (2017) employ
+sum-of-squares programming with polynomials, while Blocher et al. (2017) and Ravichandar et al.
+(2017) use Gaussian mixture techniques. Additionally, Sindhwani et al. (2018) adopt reproducing
+kernel Hilbert spaces. By focusing on these particular representations, these methods reduce the
+computational cost, but at the cost of limiting the model’s representation power.
+More recently, Mohammadi et al. (2024) introduce a promising unconstrained neural architecture
+with inherent contractivity guarantees. The algorithm optimizes a parameterized negative-definite
+Jacobian in a lower-dimensional latent space and integrates it to derive the DS. Despite better performance in some high-dimensional environments, it under-performs in lower-dimensional ones. The
+method also requires solving a second-order differential equation, which is more complex than the
+standard first-order equations typically used (Rana et al., 2020; Sochopoulos et al., 2024). Further
+discussion of the literature, including non-contractive methods, is provided in App. B.
+Contributions. We propose a State-only framework for learning Contractive Dynamical System
+policies (SCDS), which offers several distinct advantages. First, SCDS learns the policy solely from
+state measurements, eliminating the need to measure the expert’s velocity. Hence, we address the
+cumulative error problem observed in previous methods that replicate expert velocity, where small
+errors can accumulate and lead to significant deviations in state space trajectories (Ravichandar
+et al., 2020; Abyaneh et al., 2024). Additionally, SCDS enables learning in a latent space, with its
+dimension adapting to the problem at hand. It facilitates learning in high-dimensional state spaces
+by mapping to lower-dimensional latent representations, while also providing flexibility in lowdimensional spaces through higher-dimensional embeddings.
+From a theoretical standpoint, we provide a rigorous solution for OOS recovery by establishing an
+upper bound on the worst-case deviation from expert trajectories. SCDS also offers control over the
+transient behavior through an adjustable and learnable contraction rate. Training SCDS is highly
+efficient by relying on unconstrained optimization and neural ordinary differential equations (ODE)
+fixed-point differentiation for gradient computation (Chen et al., 2018). An overview of SCDS is
+outlined in Fig. 2.

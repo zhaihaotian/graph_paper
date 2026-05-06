@@ -1,0 +1,67 @@
+In recent years, deep neural networks have achieved remarkable success across a wide range of
+applications. Among these advancements, Neural Ordinary Differential Equations (ODEs)
+(Chen et al., 2018b) stand out due to their continuous nature and parameter efficiency
+through shared parameters. Unlike conventional neural networks with discrete layers, Neural ODEs model the evolution of hidden states as a continuous-time differential equation,
+allowing them to better capture dynamic systems. This parameter-sharing mechanism ensures consistent dynamics throughout the continuous transformation and reduces the number of parameters, improving both memory efficiency and computational complexity. These
+unique properties make Neural ODEs particularly effective not only for traditional machine
+learning tasks like image classification (Chen et al., 2018b) and natural language processing
+(Rubanova et al., 2019), but also for more complex tasks involving continuous processes,
+such as time series analysis (Kidger et al., 2020), reinforcement learning (Du et al., 2020),
+and diffusion models (Song et al., 2020). However, while these features offer flexibility and
+efficiency, they also introduce significant challenges during training, particularly in gradient
+computation and convergence analysis.
+One of the key challenges in training Neural ODEs is accurately computing gradients. Unlike
+traditional networks, where backpropagation can be computed through a discrete chain of
+layers, Neural ODEs require solving forward and backward ODEs using numerical solvers.
+These solvers introduce numerical errors, which can lead to inaccurate gradients and slow
+convergence or even suboptimal model performance (Rodriguez et al., 2022). Moreover,
+
+ensuring the well-posedness of ODE solutions during training is nontrivial. According to
+the Picard–Lindelöf Theorem, solutions may not always exist or may only exist locally,
+which can cause training divergence or significant numerical errors (Gholami et al., 2019;
+Ott et al., 2020; Sander et al., 2022). Even with advanced solvers (Zhuang et al., 2020a;b;
+Matsubara et al., 2021; Ko et al., 2023), it remains an open problem whether simple firstorder methods, such as stochastic gradient descent (SGD), can reliably train Neural ODEs
+to convergence. While discretizing Neural ODEs as finite-depth networks offers a potential
+solution, it results in a deeper computation graph (Zhuang et al., 2020a;b), raising questions
+about whether the gradients computed in this manner truly match those of the continuous
+model.
+Another essential challenge lies in analyzing the training dynamics of Neural ODEs. The optimization problem in training neural networks is inherently nonconvex, making theoretical
+analysis difficult. Recent work by Jacot et al. (2018) has shown that the training dynamics
+of overparameterized networks can be understood through the lens of the Neural Tangent
+Kernel (NTK), which converges to a deterministic limit as network width increases. This
+convergence has enabled researchers to establish global convergence guarantees for gradientbased methods in overparameterized regimes, provided the NTK remains strictly positive
+definite (SPD) (Du et al., 2019a; Allen-Zhu et al., 2019; Nguyen, 2021; Gao et al., 2021).
+The analysis of the NTK’s strict positive definiteness began with Daniely et al. (2016), who
+introduced the concept of dual activation for two-layer networks, later extended to deeper,
+finite networks (Jacot et al., 2018; Du et al., 2019a). However, these results are limited to
+networks with discrete layers, raising the question of whether the same properties hold for
+continuous models like Neural ODEs.
+In this paper, we address these challenges by exploring the impact of activation functions on
+training Neural ODEs. We show that activation function properties—specifically, smoothness and nonlinearity—play critical roles in determining the well-posedness of ODE solutions
+and the spectral properties of the NTK. Through our analysis, we demonstrate that smooth
+activation functions lead to globally unique solutions for both forward and backward ODEs,
+ensuring the stability of the training process. Additionally, we extend existing results on
+the NTK from discrete-layered neural networks to continuous models, demonstrating that
+the NTK for Neural ODEs is well-defined. Importantly, we find that a higher degree of
+nonlinearity in the activation function not only helps maintain the SPD property of the
+limiting NTK, but also practically speeds up Neural ODE convergence.
+1. We investigate the significance of the smoothness of activation functions for the wellposedness of forward and backward ODEs in Neural ODEs. Using random matrix theory,
+we demonstrate the existence of globally unique solutions. Additionally, we show that no
+additional regularity is needed if forward and backward ODEs are combined in a weakly
+coupled ODE system.
+2. We propose a new mathematical framework for studying continuous models from the
+approximation theory perspective. By using a sequence of finite-depth neural networks
+to approximate Neural ODEs, we show that key properties like activation and gradient
+propagation are preserved as depth approaches infinity. This allows us to apply the
+Moore-Osgood theorem from functional analysis to prove that the NTK of Neural ODEs
+is well-defined.
+3. Unfortunately, the SPD property of the NTK may not hold at infinite depth, even we can
+show every finite-depth approximation satisfies it. To address this, we conduct a finegrained analysis and derive an integral form for the limiting NTK of Neural ODEs. This
+form reveals that the NTK remains SPD if the activation function is non-polynomial.
+Leveraging this integral representation provides valuable insights into continuous models
+and may inspire further research.
+4. We conduct a series of numerical experiments to support our theoretical findings. Beyond
+validating our analysis, these experiments also provide practical guidelines for training
+Neural ODEs. We show that activation function smoothness and nonlinearity accelerate convergence and improve performance (see Figure 7-8). Conversely, improper ODE
+scaling leads to damping from accumulated numerical errors (see Figure3), while adaptive solvers struggle with efficiency in large-scale Neural ODEs (see Figure 14), causing
+instability and high computational overhead.

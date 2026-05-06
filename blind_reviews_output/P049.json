@@ -1,0 +1,23 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear motivation grounded in cognitive science literature (Flower & Hayes, Polya, Flavell) drawing a meaningful analogy between human iterative problem-solving and proposed RL training",
+      "Concrete and well-scoped method: iGRPO is a minimal, targeted extension of GRPO with a clear two-stage mechanism that is easy to understand",
+      "Strong empirical results across multiple benchmarks (AIME24, AIME25, MATH500, AMC23, GSM8K, Minerva) with multiple base models and parameter scales, culminating in state-of-the-art numbers",
+      "Efficiency-conscious design that reuses existing group reward signals, reducing overhead concerns"
+    ],
+    "weaknesses": [
+      "The core idea\u2014feeding the best-of-N draft back as a prompt prefix\u2014is relatively simple and may lack sufficient technical novelty to distinguish from existing best-of-N sampling or iterative self-refinement methods (e.g., Self-Refine, Reflexion)",
+      "No ablation or analysis on why the highest-scoring draft (vs. random or average) serves as the best self-feedback signal; the design choice is stated but not justified empirically within the intro",
+      "Generalization beyond mathematical reasoning is not addressed; the framing implies broad applicability but all experiments are math-specific",
+      "The gap identification ('RL algorithms do not incorporate feedback') glosses over a rich literature on iterative RL, online RLHF, and multi-turn RL that partially addresses this gap\u2014no serious engagement with these works in the intro"
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.72,
+    "reasoning": "The introduction follows a highly formulaic three-part structure (prior work \u2192 gap \u2192 proposed method \u2192 experiments), uses standard transitional phrases ('Yet, in the realm of...', 'In this work, we propose'), and presents exactly the canonical three-bullet-style contribution summary compressed into a single paragraph. The cognitive science citation cluster feels decorative rather than deeply integrated. Prose is competent but uniform in rhythm and lacks the varied sentence structure and discursive texture typical of human-written academic introductions."
+  }
+}

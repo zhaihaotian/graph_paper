@@ -1,0 +1,21 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a concrete and well-characterized failure mode in Mamba/Mamba2 models—perplexity explosion under long contexts—and provides a mechanistic explanation grounded in transition-spectrum eigenvalue dynamics, which is more principled than empirical trial-and-error.",
+      "The proposed method (transition-spectrum winsorization) is data-free, which is a meaningful practical advantage over calibrated scaling, and the paper quantifies exactly what fraction of channels are modified (17.5%), lending credibility and reproducibility.",
+      "The mechanism analysis distinguishing input-dependent delta-t dynamics from static A outliers is a non-trivial empirical finding that advances understanding and motivates a concrete future research direction."
+    ],
+    "weaknesses": [
+      "The evaluation scope is narrow: results are reported primarily on a single model (Mamba2-1.3B) with perplexity as the sole metric. There is no downstream task evaluation (e.g., long-context retrieval, question answering) and no ablation across model scales or architectures, which limits confidence in generalizability.",
+      "The method does not close the gap with calibrated scaling (PPL@64K of 11.44 vs. 4.72), and this substantial performance difference is not sufficiently analyzed—it is unclear whether the gap is fundamental to the data-free constraint or addressable with better clipping heuristics.",
+      "The percentile threshold q and the resulting 17.5% channel modification rate appear to be presented without a principled derivation or sensitivity analysis; it is unclear how sensitive results are to this hyperparameter and how a practitioner should choose it."
+    ],
+    "overall_score": 5,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.72,
+    "reasoning": "The introduction follows an unusually clean three-part structure (problem statement, prior work limitation, proposed solution) with precisely three bullet-point contributions that are stylistically formulaic and symmetrically constructed. The prose is polished but lacks the idiosyncratic phrasing, hedged qualifications, or multi-threaded asides typical of a human-authored research paper intro; every sentence advances a single rhetorical thread with minimal digression."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Identifies a concrete and practically important failure mode (high-staleness off-policy RLVR) with specific empirical evidence of baseline crashes and poor performance, lending credibility to the motivation",
+      "Proposes an adaptive mechanism (AC-MIS-PO) with clear algorithmic intuition\u2014quantile-based bound discovery and EMA smoothing\u2014that addresses a genuine limitation of fixed-hyperparameter approaches",
+      "Reports strong quantitative gains (32.57% vs 6.57%\u201318.67% for all baselines) on standard math benchmarks, with a training stability narrative that is falsifiable"
+    ],
+    "weaknesses": [
+      "Evaluation is confined to a single staleness level (s=256); it is unclear whether AC-MIS-PO remains superior at lower staleness regimes or whether the acceptance schedule (40%\u219220%) needs re-tuning per setting",
+      "The acceptance schedule design (start at 40%, decay to 20%) appears heuristic; no ablation is presented on schedule shape, decay rate, or EMA coefficient, making it hard to assess how sensitive performance is to these choices",
+      "The method is incremental over MIS-PO: the core idea (importance-ratio masking) is unchanged, and the contribution is essentially an adaptive hyperparameter controller. The introduction does not situate this relative to general adaptive clipping or curriculum approaches in RL",
+      "Generalization beyond mathematical reasoning is not discussed; RLVR with code or other verifiable domains may have different staleness dynamics, limiting the scope of the claimed contribution"
+    ],
+    "overall_score": 5,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.85,
+    "reasoning": "The introduction follows a near-canonical AI-generated structure: one paragraph per narrative beat (background, problem, prior work, proposed solution, contributions), terminated by an exact three-bullet contributions list with leading bullet symbols and quantitative payoffs formatted identically. Prose transitions are uniformly formulaic ('However, these methods...', 'We propose...', 'Our contributions are as follows:') with no hedging, authorial voice, or discursive asides characteristic of human academic writing. The specificity of numbers (32.57%, step 94 crash) does not offset the templated macro-structure."
+  }
+}

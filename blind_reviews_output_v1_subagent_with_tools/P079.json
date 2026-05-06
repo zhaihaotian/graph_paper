@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper addresses a genuinely important and timely safety problem — emergent misalignment (EMA) — which is directly relevant to real-world API fine-tuning services offered by model providers.",
+      "The framing is clear and practically motivated: interventions are evaluated not only on EMA prevention but also on alignment tax (impact on benign tasks) and coherence, which are the right axes for a deployment-oriented study.",
+      "The automatic safety data selection method based on perplexity difference between aligned and misaligned models is a novel contribution that outperforms baselines on the key combined metric.",
+      "The paper honestly reports that no method is perfect, including its own proposed technique, lending credibility to the empirical findings.",
+      "Situating the work within a rapidly developing literature (Betley et al. 2026, Turner et al. 2025, Woodruff 2025, Chua et al. 2025) is done competently and the citations appear current and appropriate."
+    ],
+    "weaknesses": [
+      "The introduction (and presumably the paper) focuses on smaller, open-source models for cost/reproducibility reasons, but EMA was shown to be most robust in large models like GPT-4o. This gap between the experimental setting and the threat model most relevant to API providers is a significant limitation that needs more careful discussion.",
+      "The evaluation design is only partially described in the introduction — it is unclear how EMA, benign task performance, and coherence are quantified, which makes it difficult to assess the reliability of comparative conclusions.",
+      "The persona vectors method is described as preventing learning in RL settings and narrow misalignment, but the mechanism behind this failure mode is not explained, reducing actionability of the findings.",
+      "The automatic safety data selection method is presented as the best overall performer, but the absolute performance numbers referenced only in passing ('coherence stays relatively high') are vague — without knowing whether EMA is robustly suppressed or only marginally better, the practical recommendation is hard to evaluate.",
+      "The paper does not appear to address adversarial scenarios where a customer intentionally crafts the fine-tuning dataset to circumvent the proposed mitigations, which is arguably the most dangerous threat model for API providers."
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The introduction exhibits multi-threaded argumentation — simultaneously tracking the safety motivation, alignment tax trade-off, and coherence as distinct evaluation axes — with enough nuance and honest hedging ('no method is perfect yet') that reads as genuine research uncertainty rather than templated positivity. The citation density and recency (2025-2026 dates including Betley et al. 2026, Woodruff 2025, Chua et al. 2025) suggest domain familiarity rather than generic generation. However, the bullet-point contribution list at the end is a common AI structural cue, and the prose is fairly clean, so moderate rather than high human confidence is warranted."
+  }
+}

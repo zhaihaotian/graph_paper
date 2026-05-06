@@ -1,0 +1,41 @@
+Retrieval-augmented generation (RAG) has emerged as a promising direction in large visionlanguage models (LVLMs) (OpenAI, 2023; Liu et al., 2023a; Bai et al., 2023; Huang et al., 2023;
+Chen et al., 2023a; Hu et al., 2024b; Chen et al., 2024; Tong et al., 2024; McKinzie et al., 2024). By
+incorporating external knowledge during generation, models such as Wiki-LLaVA (Caffagni et al.,
+2024) have demonstrated improved performance in knowledge-intensive question answering tasks.
+There are several existing benchmarks evaluating retrieval-augmented LVLMs. For example, OKVQA (Marino et al., 2019) focused on scenarios where the image content alone is insufficient
+to answer the questions. A-OKVQA (Schwenk et al., 2022) further extended this dataset to
+incorporate additional types of world knowledge. More recent works (Chang et al., 2022; Chen
+et al., 2023b; Mensink et al., 2023) further expanded and curated large-scale knowledge base data
+to evaluate pre-trained vision and language models in knowledge-intensive and information-seeking
+visual questions. However, as shown in Table 1, these benchmarks remain text-centric, as their
+questions can often be resolved with related external textual knowledge. In contrast, retrieving
+visual information is sometimes more beneficial than retrieving text, as humans often gain greater
+insights from it. Specifically, we illustrate examples in Figure 1 where retrieving correct textual
+knowledge can be hard and retrieved textual knowledge can be useless, while retrieving additional
+images is helpful. For instance, when presented with a top-down view of a car, humans may struggle
+to accurately identify it; however, with a front-facing view, they can quickly recognize the vehicle
+and effectively leverage the visual information.
+In this paper, we introduce MRAG-B ENCH, a benchmark specifically designed for visioncentric evaluation for retrieval-augmented multimodal models, with visual questions typically
+benefit more from retrieving visual knowledge than textual information. MRAG-B ENCH consists
+of 16,130 images and 1,353 human-annotated multi-choice questions spanning 9 distinctive
+scenarios. Focusing on utilizing visually augmented knowledge in real-world scenarios, we
+divide our benchmark into two aspects: perspective, where changes in visual entity’s perspective
+requiring visually augmented knowledge; and transformative, where the visual entity undergoes
+transformative change physically thus requiring visually augmented knowledge. Specifically,
+MRAG-B ENCH requires models to reason about visual entities that undergo perspective changes,
+such as angle, partial, scope and occlusion, as well as transformative changes, such as temporal,
+incomplete, biological and deformations. Additionally, MRAG-B ENCH includes 9,673 humanselected images, which serves as the ground-truth image knowledge corpus for model evaluation.
+We conduct extensive experiments on MRAG-B ENCH to evaluate 10 open-source and 4 proprietary
+LVLMs. The results confirm that MRAG-B ENCH is vision-centric, as all LVLMs show greater
+improvements when augmented with images compared to textual knowledge. Our results indicate
+that the best-performing GPT-4o model only achieve 68.68% and 74.5% of accuracy without
+RAG knowledge and with ground-truth (GT) RAG knowledge, respectively. This substantially
+outperforms the best open-source model LLaVA-OneVision by 15.39% and 15.52%, respectively.
+
+Notably, we observe while all models improve with GT knowledge, only proprietary models are able
+to effectively utilize noisy retrieved multimodal knowledge. This indicates the gap between opensource and close-source models still exists. Open-source models are falling short on their parametric
+knowledge and the ability to distinguish between high-quality and poor-quality retrieved visually
+augmented examples. In comparison to humans, GPT-4o achieves only a 5.82% improvement when
+augmented with GT knowledge and 0.28% with retrieved knowledge, whereas humans demonstrate
+a 33.16% and 22.91% improvement, respectively. These results highlight the importance of MRAGB ENCH in encouraging the community to develop LVLMs better utilizing of visually augmented
+knowledge.

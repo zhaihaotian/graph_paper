@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a concrete and practically significant inefficiency in MoE dispatch: worst-case buffer allocation leading to 88% padding overhead, supported by empirical routing trace analysis of Mixtral-8x7B.",
+      "The Cap-and-Spill design is well-motivated by a clear statistical observation (heavy-tailed per-peer token count distribution with Cmax/mu = 8.4x) and directly exploits the gap between the 99th percentile and the maximum.",
+      "The reported results are specific and compelling: 33.9% mean latency reduction (1077 to 712 microseconds) with 53.2% recovery of the gap to oracle eager dispatch, maintaining correctness, on a realistic multi-GPU setup (8xA100 NVLink).",
+      "The counterintuitive finding that unconditional dual-pass execution outperforms conditional execution due to synchronization overhead elimination is a non-obvious and valuable insight that strengthens the paper's contribution.",
+      "Quantitative characterization of the 99th percentile as the optimal operating point (2.69x buffer reduction, 5.4% overflow rate) provides actionable and reproducible engineering guidance."
+    ],
+    "weaknesses": [
+      "The paper as excerpted is very short (one page of introduction and contributions); it is unclear whether the full paper includes ablations, sensitivity analyses across different models/routing strategies, or comparisons to alternative approaches beyond oracle eager dispatch.",
+      "Generalizability is not established: results are derived solely from Mixtral-8x7B routing traces. It is unknown whether the heavy-tailed distribution property holds for other MoE architectures (e.g., DeepSeek-V2, Switch Transformer) or for different sequence lengths and batch sizes.",
+      "The second-pass overhead for overflow tokens is mentioned but not quantified in the excerpted text. The cost of the spill pass and its interaction with pipeline scheduling under high load or adversarial routing patterns is unaddressed.",
+      "The choice of Q99 as the buffer capacity is presented as empirically optimal but the optimization criterion is not formally stated. It is unclear whether this threshold was tuned on the same traces used for evaluation, which would raise concerns about overfitting to a specific workload.",
+      "There is no discussion of correctness guarantees under concurrent or out-of-order dispatch scenarios, nor of potential failure modes when overflow exceeds the second-pass buffer capacity."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The writing is technically dense and specific, with concrete numerical claims (Cmax/mu = 8.4x, 88% padding overhead, 33.9% latency reduction, 53.2% gap recovery) that reflect iterative experimental refinement rather than templated generation. The structure follows a natural engineering paper progression with a genuinely non-obvious insight highlighted (unconditional dual-pass beating conditional execution), which is characteristic of human authors reporting unexpected findings. The prose is workmanlike rather than polished or formulaic, and the contribution bullets embed quantitative nuance rather than high-level claims, further suggesting human authorship."
+  }
+}

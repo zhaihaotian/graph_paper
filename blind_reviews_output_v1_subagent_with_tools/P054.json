@@ -1,0 +1,23 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper demonstrates commendable intellectual honesty by reporting a clear negative result with full transparency about why the proposed method fails, which is genuinely useful scientific contribution.",
+      "The root-cause diagnosis is rigorous and specific: pinpointing candidate homogeneity at low temperature (90.6% identical outputs across 8 samples) gives future researchers a concrete obstacle to address rather than leaving the failure unexplained.",
+      "The method is well-motivated and practically appealing — using traditional OCR as a training-free proxy verifier for VLM output reranking is a logical and low-cost idea that deserved investigation."
+    ],
+    "weaknesses": [
+      "The scope of the experiment is narrow. Only a single temperature (0.1) is evaluated in depth. The paper would be substantially stronger if it systematically varied temperature and showed the threshold at which diversity becomes sufficient for reranking to provide gains, rather than reporting a single operating point.",
+      "The benchmark coverage is limited to olmOCR-Bench alone. Generalizability claims about best-of-N for document OCR cannot be established without evaluation on at least one additional benchmark (e.g., DocVQA, FUNSD, or a proprietary set), making it unclear whether results are benchmark-specific.",
+      "The method conflates two failure modes — low diversity at inference time and the quality of the anchor-matching signal — without disentangling them. Even at higher temperatures where diversity exists, the anchor-coverage score might still be a poor verifier. An ablation using oracle selection (select the candidate closest to ground truth) would isolate how much of the failure is due to lack of diversity vs. a weak reranking signal.",
+      "The contribution framing is overly padded. Four bullet points for a short paper reporting a negative result inflates perceived novelty; the last two bullets essentially restate each other. Tightening this into two focused contributions would be more credible.",
+      "No error analysis is provided at the page or document level. Understanding which document types (tables vs. text-heavy vs. math-heavy pages) produce the most homogeneity or the largest potential reranking gain would guide future work more concretely."
+    ],
+    "overall_score": 4,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.82,
+    "reasoning": "The paper exhibits strong AI-composition signals: a rigid four-bullet contribution list with nearly verbatim restatement of the abstract, formulaic section transitions, and a single-anchor quantitative claim (90.6%) deployed as the sole explanatory pivot. The prose is uniformly smooth with no hedging variation, no digressive asides, and no multi-threaded argumentative development typical of human academic writing under revision pressure."
+  }
+}

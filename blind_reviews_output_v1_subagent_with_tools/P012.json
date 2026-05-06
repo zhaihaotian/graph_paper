@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper targets a genuinely important and well-motivated problem: the prohibitive inference cost of video DiT models (2-5 minutes for a 6-second clip) is a real barrier to practical deployment, and the authors articulate this clearly with quantitative grounding.",
+      "The empirical investigation is structured around two distinct and non-obvious insights—(1) subtle but quality-degrading feature differences between adjacent timesteps in attention modules, and (2) high redundancy in CFG outputs within the same timestep but weaker redundancy across timesteps—demonstrating diagnostic rigor before proposing solutions.",
+      "FasterCache is training-free, which is a significant practical virtue: it generalizes directly to new video DiT architectures without requiring additional compute at training time, and this is demonstrated across five different models (Open-Sora 1.2, Open-Sora-Plan, Latte, CogVideoX, Vchitect-2.0).",
+      "The CFG-Cache design, which stores conditional-unconditional residuals and dynamically enhances their frequency components before reuse, is technically novel—most prior cache methods focus only on attention features, leaving CFG (which nearly doubles inference cost) unexplored.",
+      "Quantitative results are stated concretely and are strong: 1.67x speedup on Vchitect-2.0 with VBench score of 80.84% vs baseline 80.80%, indicating negligible quality degradation."
+    ],
+    "weaknesses": [
+      "The introduction does not specify what 'dynamic' means in the 'dynamic feature reuse strategy': the mechanism by which the reuse schedule is adapted per timestep is not described, making it impossible to assess the technical soundness of the core method from the introduction alone.",
+      "The characterization of the frequency-domain behavior of CFG residuals ('low- to mid-frequency differences in mid-sampling, shifting to high-frequency in late-sampling') is an interesting empirical finding, but the causal mechanism and its implications for the reuse schedule are not explained—the leap from observation to the CFG-Cache design lacks intermediate justification in the introduction.",
+      "The paper does not discuss potential failure modes: it is unclear under what conditions (e.g., high-motion videos, fine-grained texture generation, very short or very long denoising schedules) the feature similarity assumptions break down and quality degradation would become non-negligible.",
+      "The four-bullet contribution list is somewhat redundant—contributions 1 and 3 overlap substantially (both describe the attention reuse strategy), and contributions 2 and 4 each restate an observation and an evaluation rather than introducing distinct technical advances.",
+      "The 1.67x speedup figure is presented only for Vchitect-2.0; the introduction does not report speedup numbers for the other four models, making it difficult to judge the consistency of gains across architectures."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.65,
+    "reasoning": "The introduction demonstrates several characteristics of human academic writing: the argumentative structure is multi-threaded, weaving together empirical observations about feature similarity, a frequency-domain analysis of CFG, and an architectural proposal across a sustained logical arc rather than following a simple three-bullet formula. The prose contains discipline-specific hedging ('subtle yet discernible differences', 'nearly identical') and shows genuine analytical engagement with the tension between the two caching regimes (attention modules vs. CFG) that would be unusual in formulaic AI-generated text. The four-bullet contribution list at the end is the most formulaic element and is a mild AI cue, but it is common in human-authored ML papers and is insufficient to override the overall human-consistent writing pattern."
+  }
+}

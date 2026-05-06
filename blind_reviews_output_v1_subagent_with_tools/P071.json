@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a genuine gap in the KV cache compression literature: prior work operates at the layer or head-uniform level, but no method had allocated variable budgets per individual attention head. This is a well-motivated and novel decomposition.",
+      "The proposed importance-score estimation is conceptually compelling. Jointly capturing retrieval and reasoning ability via a synthetic question-answering probe—rather than relying on retrieval heads alone—is a principled and practical design choice that avoids the need for labeled calibration data.",
+      "The experimental scope is adequate: two backbone models (Llama-3-8B-Instruct, Mistral-7B-Instruct), two long-context benchmarks (LongBench, LooGLE), and targeted stress tests (needle-in-a-Haystack, reasoning-in-a-Haystack) collectively stress both retrieval and reasoning dimensions. Reporting memory and latency in addition to accuracy is a meaningful contribution to reproducibility.",
+      "The ablation logic is cleanly structured: head-level vs. layer-level compression is tested as a first ablation, and retrieval-only vs. retrieval+reasoning allocation is tested as a second, allowing the contribution of each design decision to be isolated."
+    ],
+    "weaknesses": [
+      "The probe construction for importance estimation is under-specified. The abstract describes a two-hop example ('who is younger between John and Mary, then retrieve John's favorite thing'), but the paper does not explain how many such probes are used, how they are generated (hand-crafted? templated? LLM-synthesized?), or how sensitive results are to probe quality and diversity. This is a critical reproducibility gap.",
+      "The KV cache budget allocation policy is not fully derived. Given importance scores per head, how exactly is the integer token budget assigned—greedy rounding, a continuous relaxation, a learned mapping? The paper appears to defer entirely to the strategy from Li et al. (2024d) for intra-head selection, but the inter-head budget distribution rule is the core novel claim and needs explicit formalization.",
+      "The comparison baseline set appears narrow. The paper compares against layer-level and retrieval-head-only allocation but does not benchmark against other recent token-level eviction methods (e.g., H2O, StreamingLLM, SnapKV) under a common budget, making it difficult to assess where HeadKV sits in the broader compression landscape.",
+      "No analysis of failure modes or performance variance across heads is provided. It is unknown whether the importance scores are stable across different input documents, whether a small number of heads dominate the budget, or whether the method degrades gracefully when the probe is a poor match for the downstream task distribution.",
+      "The paper is framed as an empirical systems contribution, but there is no theoretical characterization of why head-level allocation should be superior—e.g., no information-theoretic argument, no monotonicity proof, nothing that would help a reader predict when the method will and will not work."
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The writing exhibits multi-threaded motivation that builds across several paragraphs—from KV cache growth, to layer-level gaps, to retrieval-only insufficiency—with each step grounded in a distinct body of prior work. The inline example ('who is younger between John and Mary') is concrete and idiosyncratic rather than generic, and the ablation structure reflects a genuine design process rather than a pre-planned checklist. These features are characteristic of human technical writing, though the consistently clean prose and absence of hedging do introduce mild AI-authorship uncertainty."
+  }
+}

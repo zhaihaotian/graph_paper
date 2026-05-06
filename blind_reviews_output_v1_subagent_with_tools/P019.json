@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper addresses a clearly identified gap: existing MLLM-based embedding approaches treat video as an auxiliary modality, and dedicated VFMs dominate video-text retrieval. The motivation is well-grounded in a survey of recent literature.",
+      "The proposed pipeline is notably data-efficient: using only ~60K text-only in-context pairs to outperform models trained on hundreds of millions of video-text pairs is a compelling empirical claim that, if verified, represents a meaningful advance.",
+      "The methodology is decomposed into three interpretable and independently evaluable components—layer-wise hidden-state analysis, MLLM-head re-ranking, and in-context optimization—which makes the contribution technically transparent and allows ablation.",
+      "The introduction situates the work within a dense and up-to-date literature (InternVideo2, VideoPrism, VLM2Vec-V2, CARE, MegaPairs, etc.), giving reviewers confidence that the authors are aware of the relevant baseline landscape.",
+      "The claim that intermediate layers outperform the final layer for retrieval is an interesting empirical finding that has broader implications for how Video MLLMs should be probed or adapted."
+    ],
+    "weaknesses": [
+      "The paper excerpt provided covers only the introduction; the experimental section, ablations, and implementation details are absent from what was shared. Consequently, the validity of the core performance claims (SOTA on standard benchmarks with text-only training) cannot be evaluated from this submission fragment.",
+      "The in-context optimization strategy—mapping dense video captions to short summaries—is described only at a high level. The mechanism by which this enables 'task-related embedding learning without visual supervision' needs substantially more technical detail; it is not obvious why text-only training would close the modality gap.",
+      "The re-ranking component relies on a 'calibrated MLLM head' whose calibration procedure is not explained in the introduction. Without knowing how calibration is achieved, it is unclear whether this step is practically general or dataset-specific.",
+      "The comparison landscape may be uneven: outperforming video foundation models trained on 600M pairs is a headline result, but those models (VideoPrism, InternVideo2) optimize for different objectives (e.g., classification, dense video tasks) and may not be tuned for text-video retrieval in the way the proposed method is. A fairer comparison should be clearly delineated.",
+      "No discussion of computational overhead or inference cost is provided. If layer-wise analysis and re-ranking require multiple forward passes through a large MLLM, practical deployment may be prohibitive despite the data-efficiency advantage."
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The introduction exhibits several hallmarks of human academic writing: an uneven citation density that thickens around specific claims rather than distributing uniformly, a multi-threaded narrative that simultaneously tracks VFM scaling, MLLM embedding, and retrieval literatures before converging on the gap, and phrasing like 'The few efforts that explicitly target video have yet to achieve strong results' which reflects a nuanced hedge rather than a formulaic contrast. The contribution list is four-point rather than the canonical three, and the critique of VLM2Vec-V2 is specific and comparative rather than generic. These features are more consistent with human authorship, though moderate AI assistance in polishing cannot be ruled out."
+  }
+}

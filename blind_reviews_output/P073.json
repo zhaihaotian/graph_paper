@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Thorough and well-organized related work covering asynchronous training, gradient compression, MoE, and mixture-of-models\u2014clearly situates the contribution in context",
+      "Identifies a genuine and specific gap: prior mixture-of-models approaches require full corpus clustering or metadata, limiting practical applicability on short-prefix downstream tasks",
+      "The proposed approach elegantly combines two orthogonal desiderata (low-bandwidth training and sparse inference) rather than trading one off against the other",
+      "Empirical claims are concrete and falsifiable: perplexity improvement, FLOP-matched baseline, scaling behavior with number of experts, and 75% downstream task accuracy"
+    ],
+    "weaknesses": [
+      "The 75% downstream accuracy claim is a weak positive framing\u2014it means 25% of tasks are worse or equivalent, and the threshold for 'better or similar' is unspecified",
+      "No quantitative bandwidth reduction figures are provided in the introduction, making it hard to judge the practical significance of the communication savings",
+      "The routing mechanism based on a 'short prefix' is introduced as a key design choice but the rationale for why this is sufficient is deferred entirely, leaving a conceptual gap in the intro",
+      "The 1.5% router size figure is oddly precise for an introduction without any supporting context or ablation preview",
+      "It is unclear how SMALLTALKLM handles domain shift at inference when input prefixes are ambiguous or unlike training clusters\u2014a limitation worth acknowledging upfront"
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.68,
+    "reasoning": "The introduction follows a highly formulaic structure: scaling motivation \u2192 prior work paragraph per sub-topic \u2192 gap sentence \u2192 'In this paper we introduce' pivot \u2192 exactly three bullet-point contributions. The prose is clean and well-connected but generic, with no stylistic idiosyncrasies or authorial voice. The three-bullet contribution list with parenthetical section pointers is a strong AI-generation signal, though the depth and specificity of cited related work tempers confidence."
+  }
+}

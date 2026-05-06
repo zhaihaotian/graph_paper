@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Novel insight that citation consistency across permutations is a more stable aggregation signal than answer text frequency \u2014 well-motivated and testable",
+      "Training-free design makes CCV practically deployable without model access, filling a clear gap between the two existing categories",
+      "Specific quantitative claims (+0.19 SubEM, p = 1.14e-5) lend some credibility to the empirical grounding",
+      "Clear positioning against prior work (Stable-RAG, Mixture-of-Agents) with honest articulation of their limitations"
+    ],
+    "weaknesses": [
+      "Evaluation is limited to a single dataset (NaturalQuestions); generalizability to other QA tasks, domains, or long-form generation is undemonstrated",
+      "The +0.19 SubEM improvement is modest and may not be practically significant; no error bars or statistical significance for the primary metric are reported",
+      "Method assumes models reliably produce grounded citations, which is not guaranteed \u2014 the 'evidence validity' filtering step is underspecified and may itself introduce noise",
+      "Only compared against majority voting; stronger inference-time baselines (e.g., self-consistency variants, chain-of-thought aggregation) are absent",
+      "Zhang et al. (2026) is the foundational motivation paper yet appears to be a concurrent or future work \u2014 the dependence on this single anchor weakens independent contribution framing",
+      "Scaling behavior described as 'monotonically with K' lacks any ablation showing diminishing returns or cost analysis at large K"
+    ],
+    "overall_score": 5,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.88,
+    "reasoning": "The introduction follows a near-perfect formulaic template: problem statement \u2192 two-category prior work taxonomy \u2192 'our key insight' pivot sentence \u2192 method description \u2192 exactly three bullet contributions. This rigid tripartite structure, the 'Our key insight is that...' phrasing, and the absence of any digressive or nuanced authorial voice are strong indicators of LLM generation. The specificity of quantitative values (p = 1.14e-5) adds surface texture but does not offset the structural uniformity."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper identifies a genuine and underappreciated practical problem: layer selection for fine-tuning-based model editing currently relies on expensive, model-specific heuristics with no principled basis, and addressing this gap is useful for the community.",
+      "The proposed GradRatio metric is intuitive and theoretically motivated — maximizing edit gradient magnitude while minimizing retain gradient magnitude is a natural dual objective that connects to established regularization thinking in continual learning.",
+      "The adaptive threshold mechanism to exclude structurally critical early layers shows methodological awareness of a known failure mode (catastrophic capability loss from modifying foundational representations), and its inclusion reflects appropriate engineering caution.",
+      "Evaluating on two distinct model families (Qwen2.5-7B and LLaMA-3-8B) provides some cross-architecture perspective, and the honest reporting of LLaMA-3-8B degradation rather than cherry-picking favorable results is commendable."
+    ],
+    "weaknesses": [
+      "The scope of empirical evaluation is very narrow: only two model families are tested, and the paper does not report editing benchmarks (e.g., CounterFact, ZsRE, RIPPLE) systematically alongside capability benchmarks, making it hard to assess the full tradeoff profile of GradRatio-Select.",
+      "The 5.26 percentage point capability degradation on LLaMA-3-8B is attributed primarily to mathematical reasoning tasks, but the paper does not investigate why the gradient ratio signal fails for this architecture — there is no ablation, no layer-level analysis, and no hypothesis about the mechanistic cause, leaving the negative result underexplained.",
+      "The contributions as stated are modest: the method does not improve over heuristics on either architecture, and the paper essentially validates that gradient-based selection can replicate human-tuned layer choices without surpassing them. The framing as positive contributions overstates the technical advance.",
+      "The adaptive threshold mechanism is described at a high level but its design is not analyzed: how sensitive is performance to the threshold value, and how was it chosen? Without ablations over the threshold, the mechanism reads as an unexplored free parameter.",
+      "The paper reads as a short empirical note rather than a full research paper — it lacks a related work section, a proper experimental setup section with dataset statistics, and any discussion of failure modes or future directions, which makes it feel incomplete."
+    ],
+    "overall_score": 4,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.78,
+    "reasoning": "The paper exhibits several strong AI-generation markers: the contributions are enumerated as a clean three-bullet list mirroring the abstract almost verbatim, the prose is uniformly formulaic and free of hedged personal voice, and the entire submission is a single dense block with no deviation in register or sentence rhythm. The negative result is reported with unusual flatness ('automation without improvement') rather than the typically defensive or exploratory framing human authors adopt when their method underperforms, and the absence of any related work or future work section is consistent with a truncated generation rather than deliberate authorial omission."
+  }
+}

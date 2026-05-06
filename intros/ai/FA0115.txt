@@ -1,0 +1,13 @@
+Converting PDF documents to machine-readable formats such as Markdown is a critical first step in retrieval-augmented generation (RAG) and document analytics pipelines. Vision-language models (VLMs) have emerged as powerful tools for this task, capable of handling complex layouts including multi-column text, tables, and mathematical equations (Blecher et al., 2023; Wei et al., 2024; Poznanski et al., 2025). However, VLM-based document parsing remains stochastic at inference time, where small decoding differences can cause significant downstream failures such as missing table rows, permuted reading order, or hallucinated content.
+
+Best-of-N sampling has proven effective for improving language model outputs in reasoning tasks (Wu et al., 2024; Chow et al., 2024). The approach generates multiple candidates and selects the best one using a reward signal, enabling inference-time scaling without retraining. For document OCR, this is appealing because it can be applied to any base model as a reliability layer. The key challenge is candidate selection: the model's own log-probability may not correlate well with visual correctness, and directly comparing long structured outputs is difficult.
+
+We propose OCR-Anchor Reranking, a training-free method that uses traditional OCR as a proxy verifier for VLM outputs. The key insight is that classical OCR engines like PaddleOCR (Cui et al., 2025) can extract high-confidence tokens that serve as visually-grounded anchors, independent of the VLM's language prior. We score each VLM candidate by the fraction of anchor tokens it contains and select the candidate with highest coverage.
+
+Our comprehensive evaluation on olmOCR-Bench (Poznanski et al., 2025) reveals a negative result: the method does not improve over baselines. All selection strategies—including random selection—perform within a 0.3-point band (82.0–82.3%). The root cause is candidate homogeneity: at low temperature (0.1), 90.6% of pages produce identical candidates across all 8 samples. When there is no diversity to select from, no selection strategy can succeed.
+
+Our contributions are:
+• We propose OCR-Anchor Reranking, a training-free method for selecting among VLM-generated document parsing candidates using traditional OCR as a proxy verifier.
+• We provide comprehensive evaluation showing that the method fails to improve over baselines, with all selection strategies performing within noise of each other.
+• We identify the root cause as candidate homogeneity at low temperature, where 90.6% of pages produce identical outputs.
+• We discuss broader implications for best-of-N approaches: the technique requires candidate diversity, which well-trained models at low temperature do not provide.

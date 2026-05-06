@@ -1,0 +1,23 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear and precise problem decomposition: the coupling observation between window-shift and KV-refresh is technically sound and well-articulated",
+      "Concrete complexity analysis (O(|N|\u00d7C) vs O(C^2)) grounds the contribution in theory",
+      "Quantified empirical claims (6.0% throughput, 3.3\u00d7 cost reduction, 0.6pp quality delta) make the contribution falsifiable"
+    ],
+    "weaknesses": [
+      "The 6.0% throughput improvement is modest and the 3.3\u00d7 cost reduction on refresh alone does not translate proportionally to end-to-end gains \u2014 the gap between these two numbers is unexplained",
+      "Evaluation is limited to a single benchmark (MBPP), which is insufficient to establish generality across dLLM tasks",
+      "The contribution is narrowly incremental: it decouples two hyperparameters of a single concurrent paper (Window-Diffusion, 2026), raising questions about standalone significance",
+      "No ablation is discussed in the introduction regarding how sensitive quality is to the choice of shift interval vs. refresh interval independently",
+      "The claim that 'naive refresh reduction degrades both quality and speed' is counterintuitive and requires explanation; the introduction asserts it without mechanism"
+    ],
+    "overall_score": 5,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.92,
+    "reasoning": "The introduction follows an extremely rigid template: one-paragraph context, one-paragraph prior work, one-paragraph gap, one-paragraph method, then a 4-bullet contribution list with parallel structure. Prose is uniformly clean with no hedging, no tangential observations, and no author voice. The formulaic bullet-point contribution section with numbered metrics is a strong AI-generation fingerprint."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear and precise problem formulation: the collision probability leakage is identified and formalized with an explicit expression, grounding the privacy threat in mathematics.",
+      "Concrete empirical claims with specific numbers (AUC@0.5=0.463, Recall@10=0.780) give the reader an immediate sense of practical impact.",
+      "The Pareto frontier framing for privacy-utility tradeoff is appropriate and makes the comparison against baselines principled."
+    ],
+    "weaknesses": [
+      "The threat model is underspecified: the adversary's capability (number of observable comparisons, access to a reference corpus) is not bounded, making the formal privacy guarantee hard to evaluate.",
+      "Related work coverage is thin \u2014 randomized response and noise injection are dismissed in two sentences without citing the specific utility-privacy tradeoff results that motivate the claimed 'fundamental limitations'.",
+      "The k-composition insight resembles known locality-sensitive hashing composition tricks; novelty over prior secure similarity schemes (e.g., private set intersection, homomorphic sketches) is not discussed.",
+      "Evaluation is on a single dataset (BEIR Quora), limiting generalizability claims about 'dominating the Pareto frontier'.",
+      "No discussion of computational or communication overhead introduced by k-bit XOR composition, which is critical for the cross-service telemetry use case."
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.88,
+    "reasoning": "The introduction follows an almost perfectly formulaic structure: hook with citations, problem statement, proposed solution with an inline formula, then exactly three bullet-point contributions \u2014 a pattern that appears in the vast majority of AI-drafted ML papers. Prose is clean and uniform without the register variation, hedging, or digressive elaboration typical of human-written academic text. The 'double-edged sword' metaphor and the transition phrase 'Our contributions are:' followed by a three-item list are strong AI stylistic markers."
+  }
+}

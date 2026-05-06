@@ -1,0 +1,26 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The THEORY OF SPACE framework is a clearly motivated and conceptually novel contribution: framing active spatial exploration as a first-class, task-decoupled decision-making problem fills a genuine gap between passive benchmarks and goal-driven task benchmarks.",
+      "The paper introduces multiple well-differentiated evaluation axes — belief exploitation (route vs. survey knowledge), exploration efficiency (steps + information-gain curves), and cognitive-map probing — giving the benchmark diagnostic resolution that end-task scores alone cannot provide.",
+      "The False Belief paradigm is an elegant experimental design that isolates dynamic belief revision from static spatial reasoning, and the coined phenomenon 'spatial belief inertia' is a precise, empirically grounded finding.",
+      "The analogy to Theory of Mind is apt and productively extends a well-understood cognitive-science construct to spatial grounding, making the framework intuitive to readers from both NLP and cognitive science.",
+      "Concrete quantitative gaps (passive vs. active degradation; proxy agent ~9 steps vs. models >=14 steps) give the claims empirical weight and make failure modes actionable for future work."
+    ],
+    "weaknesses": [
+      "The introduction does not specify how the 'cognitive-map probing' mechanism works in practice: it is unclear whether the model is prompted in natural language, whether a structured output format is required, and how ambiguous or hallucinated beliefs are handled during scoring.",
+      "The claim that ThreeDWorld + Objaverse yields a 'scalable' environment is asserted but not quantified in the intro; scale (number of scenes, object categories, viewpoint diversity) is critical to generalization claims and its absence makes the benchmark's scope hard to assess.",
+      "The text-world vs. vision-world split is introduced as a way to 'localize perception versus reasoning failures,' but the intro does not explain what 'Text-based worlds' look like or how the two modalities are matched, leaving ambiguity about confounds.",
+      "The model names used in the quantitative examples (GPT-5.2, GEMINI-3 PRO) do not correspond to any publicly known model versions as of the knowledge cutoff, raising concerns about whether these are real reported numbers or placeholders, which undermines reproducibility.",
+      "The future-work paragraph on multi-agent extension feels perfunctory and disconnected from the rest of the intro; it adds little and could be cut or integrated more meaningfully.",
+      "While the cognitive-science motivation (Held & Hein 1963; Chrastil & Warren 2012/2013) is appropriate, the paper does not discuss related embodied-AI benchmarks (e.g., ScanQA, EQA, MP3D-based navigation) in the introduction, making it harder to situate the contribution precisely."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The introduction exhibits multi-threaded argumentation with overlapping conceptual layers (belief probing, efficiency metrics, false-belief paradigm, cognitive-science grounding) that interleave organically rather than following a rigid formula. The writing also shows domain-specific vocabulary choices ('spatial belief inertia,' 'cognitive-map probing,' 'route-level vs. survey-level knowledge') and a non-uniform rhetorical structure — hallmarks of human academic writing. The main AI-leaning signal is the slightly formulaic paragraph structure and the suspicious model version names, but overall the density and specificity of the argumentation lean human."
+  }
+}

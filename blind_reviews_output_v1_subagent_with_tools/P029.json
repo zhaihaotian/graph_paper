@@ -1,0 +1,26 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper addresses a timely and practically important problem: how to scale inference computation for RAG systems, which is underexplored relative to training-time scaling.",
+      "The introduction of two novel strategies (DRAG and IterDRAG) is well-motivated, with DRAG leveraging in-context demonstrations to teach models how to locate and apply retrieved information, and IterDRAG extending this via iterative sub-query decomposition to handle multi-hop queries.",
+      "The framing of 'effective context length' as a unified measure of inference computation across both strategies provides a clean conceptual basis for comparing different inference parameter configurations.",
+      "The empirical finding of a near-linear scaling relationship between RAG performance and effective context length is striking and practically useful, offering a principled basis for compute-performance tradeoffs.",
+      "The computation allocation model adds a quantitative layer that could generalize to new tasks and budgets, moving beyond purely empirical tuning and toward predictive guidance."
+    ],
+    "weaknesses": [
+      "The introduction does not clarify the conditions under which the near-linear scaling law holds — whether it applies across all QA datasets tested, all model sizes, or only under optimal configurations. The caveat 'when test-time compute is optimally allocated' is central but underspecified in the intro.",
+      "The relationship between DRAG and existing many-shot ICL literature (e.g., Bertsch et al., 2024) is glossed over. It is unclear what is genuinely novel about DRAG versus simply applying many-shot ICL to RAG settings, and this distinction deserves explicit treatment.",
+      "IterDRAG's connection to prior iterative retrieval methods (e.g., Trivedi et al., 2023; Yoran et al., 2024) is acknowledged but the delta is not sharply articulated. The claim that IterDRAG learns to decompose queries 'in-context' requires more precision — does this decomposition emerge from demonstrations or from explicit prompting?",
+      "The computation allocation model is mentioned but not described in the introduction in any substantive way. For a contribution listed as a bullet point, the reader has no basis to evaluate its form, assumptions, or generalization scope.",
+      "The paper focuses on Gemini 1.5 Flash as the primary model, which limits generalizability claims. State-of-the-art performance with a 'compact' model is a positive framing, but whether the scaling laws transfer to other long-context LLMs or to models with different retrieval interfaces is not addressed.",
+      "The introduction conflates two related but distinct goals — demonstrating scaling laws and deriving an allocation model — without clearly explaining how they relate. A reader may find it unclear whether the allocation model is derived from observed scaling laws or validated independently."
+    ],
+    "overall_score": 6,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The writing exhibits multi-threaded argumentation across several interleaved themes (scaling laws, inference strategies, compute allocation modeling), with non-formulaic transitions and a moderately complex citation structure spanning multiple concurrent threads. However, the four-bullet contribution list and some structured parallelism in framing DRAG/IterDRAG show light stylistic regularities. On balance, the nuance and density of reasoning threads — including the careful hedging around soft thresholds and noise effects — align more closely with human academic writing than with AI-generated text."
+  }
+}

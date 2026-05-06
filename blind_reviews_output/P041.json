@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear motivation grounding the transfer of MEL from math to code, with explicit identification of structural differences (stepwise proofs vs. arbitrary code diffs, answer verification vs. unit tests)",
+      "Concrete empirical signal reported upfront: 66% of prompts yield usable contrastive pairs, framing the feasibility question quantitatively",
+      "The three-stage pipeline is described with enough specificity (rollout mining, replay validation, NLL internalization) to assess reproducibility",
+      "Ablation isolating replay validation as the critical component adds mechanistic insight beyond a black-box result"
+    ],
+    "weaknesses": [
+      "Improvement margin is extremely thin: 9.2% vs. 8.8% Pass@1 on MBPP is a 0.4 pp absolute gain on a single, relatively easy benchmark \u2014 statistical significance is not addressed",
+      "Evaluation is limited to MBPP; no results on HumanEval, LiveCodeBench, or harder benchmarks, making generalization claims unsupported",
+      "The 33% faster convergence claim is vague \u2014 faster to what threshold, on what hardware, over how many seeds?",
+      "The reference 'Huang et al., 2026' is a forward citation to a not-yet-published (as of submission) paper, which is methodologically problematic and raises reproducibility concerns",
+      "The contribution is narrowly incremental: template-based pair construction for code is a modest adaptation of MEL with limited conceptual novelty",
+      "No discussion of failure modes, prompts where MEL-Code underperforms GRPO, or why 9.2% is the ceiling"
+    ],
+    "overall_score": 4,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.87,
+    "reasoning": "The introduction follows a near-canonical AI-generated structure: one paragraph of field context, one paragraph of prior work with a named limitation, one paragraph introducing the proposed method, then a verbatim 'Our contributions are:' header with exactly three bullet points. The prose is uniformly clean but mechanical, lacking the hedging, narrative detours, or authorial voice typical of human-written introductions. The formulaic single-anchor framing and bullet-point contributions list are the strongest stylistic indicators."
+  }
+}

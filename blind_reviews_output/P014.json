@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Creative and well-developed biological analogy (stem cell / cellular reprogramming) that meaningfully maps to the technical contribution and aids intuition",
+      "Addresses a genuine, practically important problem in visual IL \u2014 brittleness to appearance variations \u2014 with clear real-world motivation",
+      "Plug-and-play preprocessing framing is elegant: no inference-time cost is a strong practical advantage over generative augmentation baselines",
+      "Concrete empirical claim (22.2% success rate improvement in real-world tasks) alongside claimed theoretical analysis and user study suggests rigorous evaluation",
+      "Clear differentiation from data augmentation approaches: the argument that Stem-OB avoids inductive bias from selecting perturbation types is well-articulated"
+    ],
+    "weaknesses": [
+      "'Reasonable steps' of inversion is left undefined in the introduction \u2014 a core hyperparameter with no guidance on selection criteria, which raises questions about sensitivity",
+      "The no-inference-time-cost claim is stated without explanation in the intro; it is non-obvious why a preprocessing step applied at training time would not also be needed at test time, and this needs clearer framing",
+      "The analogy-heavy motivation crowds out technical specificity: the mechanism by which inversion 'selectively eliminates' low-level information is cited but not explained, making the causal claim hard to evaluate",
+      "No discussion of failure modes or computational cost at training time, which could be significant if inversion must be applied to the entire dataset",
+      "The theoretical analysis is mentioned but not characterized at all \u2014 readers cannot judge its strength or scope from the introduction"
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.62,
+    "reasoning": "The stem cell reprogramming analogy is developed with genuine depth and biological specificity (totipotency, differentiation) that goes beyond typical AI-generated metaphors, and the prose exhibits multi-thread motivation rather than a single linear structure. However, the paragraph-level organization is quite clean and the contribution summary follows a formulaic pattern (theoretical + user study + empirical), introducing some ambiguity. Overall the creative analogy and nuanced technical framing tip the balance toward human authorship."
+  }
+}

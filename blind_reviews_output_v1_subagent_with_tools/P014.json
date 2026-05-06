@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The core idea of using diffusion inversion as a preprocessing step is genuinely novel and elegantly simple: by partially inverting images through a pretrained diffusion model, low-level photometric details are suppressed while high-level structural semantics are preserved, directly addressing the brittleness of visual IL policies under appearance variation.",
+      "The method is computationally practical — no inference-time inversion is required, so deployment overhead is negligible, which is a significant advantage over approaches that require test-time augmentation or adaptation.",
+      "The motivation is well-grounded: the paper correctly identifies that existing augmentation methods (SRM, Mixup) are agnostic to semantic hierarchy and therefore cannot reliably separate task-relevant structure from irrelevant appearance, and it positions diffusion inversion as a principled solution to this gap.",
+      "The paper claims both theoretical analysis and a user study to validate the perceptual merging effect, as well as empirical results across simulated and real-world tasks with a concrete aggregate improvement of 22.2% in success rate, suggesting a thorough evaluation.",
+      "The contrast with generative augmentation methods is clearly articulated: Stem-OB does not try to synthesize novel appearances but instead collapses appearance variation, avoiding the inductive bias of having to pre-specify which perturbation types to cover."
+    ],
+    "weaknesses": [
+      "The criterion of inverting for 'reasonable steps' is underspecified in the introduction; there is no discussion of how sensitive the method is to the number of inversion steps or how practitioners should select this hyperparameter, which is critical for reproducibility and adoption.",
+      "The theoretical analysis is mentioned but not characterized at all in the introduction — it is unclear whether the theory provides formal guarantees, intuitive justifications, or empirical bounds, making it impossible to assess the rigor of the claimed theoretical contribution.",
+      "The user study is an unconventional validation mechanism for perceptual similarity claims; its design, scale, and what exactly it measures are not described, raising questions about whether it constitutes rigorous scientific evidence or a more informal demonstration.",
+      "The claim that Stem-OB is 'indifferent to many unspecified appearance changes' may be overstated: diffusion inversion behavior is model-dependent and may not uniformly preserve task-relevant structure across highly diverse scene configurations or in domains far from the diffusion model's training distribution.",
+      "The introduction does not discuss potential failure modes, limitations of relying on a large pretrained diffusion model (e.g., computational cost of the inversion at training time, potential artifacts, domain shift between robot images and natural image training data), or scenarios where the semantic-structure-preserving property of inversion might break down."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.72,
+    "reasoning": "The introduction develops an extended biological metaphor (stem cell/cellular reprogramming) integrated naturally across multiple paragraphs rather than deployed as a single isolated analogy, which is characteristic of human scientific writing. The prose exhibits varied sentence structure, dense citation threading, and a motivational narrative arc that builds across several conceptual layers (human vision, augmentation limitations, diffusion inversion properties) in a way that feels organically constructed rather than templated. The phrasing 'this characteristic aligns perfectly with our will' is an idiosyncratic, slightly non-standard construction more consistent with non-native-English human authors than with AI-generated text."
+  }
+}

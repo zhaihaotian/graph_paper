@@ -1,0 +1,43 @@
+Large language models possess advanced reasoning capabilities such as mathematical problemsolving (Cobbe et al., 2021), coding challenges (Chen et al., 2021) or commonsense reasoning
+(Clark et al., 2018). However, the challenge of acquiring extensive, high-quality human-curated
+datasets remains a significant barrier to further enhancing these reasoning abilities. As tasks grow in
+complexity, the reliance on human-generated data becomes increasingly unsustainable, necessitating
+alternative approaches to training.
+To tackle this issue, methods rooted in the concept of “self-improvement” (Huang et al., 2022),
+such as STaR (Zelikman et al., 2022), RFT (Yuan et al., 2023), and ReST (Gulcehre et al., 2023;
+Singh et al., 2023), provide more cost-effective and scalable solutions. Self-improvement follows an
+iterative process where the model generates responses, from which the better are selected to create higher-quality data for further refinement (Hosseini et al., 2024). This continuous loop allows the
+model to improve its performance over time, reducing the need for large amounts of human-generated
+data. Ultimately, this approach enhances the model’s ability to handle complex reasoning tasks,
+pushing the limits of its capabilities (Havrilla et al., 2024).
+Despite significant advancements, we still lack a deep understanding of the key factors that drive
+successful self-improvement and the internal optimization mechanisms remain largely opaque. Understanding the critical components and bottlenecks of these self-improving methods is particularly
+important given that performance of current self-improving approaches does not scale well with
+increased compute and saturates very quickly after merely 3 to 5 iterations (Singh et al., 2023; Wu
+et al., 2024). In this paper, we address the following questions: (1) What key factors play a decisive
+role in the self-improvement process? (2) How can these factors be used to analyze the limitations of
+current self-improvement methods from a unified perspective? and (3) How can we leverage these
+factors to guide the self-improvement process, ultimately maximizing performance gains?
+To this end, we identify two crucial capabilities of the model during its self-improvement process: (1)
+Exploration – the model’s ability to generate correct and diverse responses among multiple generated
+candidates (Singh et al., 2023; Wang et al., 2024a), and (2) Exploitation – the effectiveness of external
+rewards (e.g., a reward model or final answer supervision) in selecting high-quality solutions from
+these candidates (Wang et al., 2024b; Sun et al., 2024). Intuitively, these two factors are dynamic,
+evolving throughout the training process, a phenomenon that remains underexplored despite its
+critical importance. In this work, we first conduct empirical analysis to quantitatively monitor the
+dynamics of exploration and exploitation during iterative training processes. We observe that both
+capabilities may stagnate or even decline, and imbalances between them can hinder the model’s
+ongoing improvement.
+Motivated by these insights, we propose a novel approach for self-improvement that automatically
+monitors and balances these dynamic factors to optimize the use of the current policy and reward.
+This involves adjusting configurations that influence exploration and exploitation, such as sampling
+temperature and reward thresholds. These configurations are adaptively modified throughout training
+in terms of our proposed metric, balance score. This new metric assesses the potential of a query
+based on the current model’s exploration and exploitation capabilities, and our method automatically
+balances exploration and exploitation behaviors to maximize the average balance scores. We refer to
+this method as B-STA R, a Balanced Self-Taught Reasoner.
+The experimental results from mathematical problem-solving, coding challenges and commonsense
+reasoning demonstrate that B-STA R significantly surpasses other self-improvement methods through
+balanced exploration and exploitation. For instance, B-STA R achieves a significant improvement in
+Pass@1 on both GSM8K and MATH, surpassing various self-improving variants while maintaining
+a steady upward trajectory, as depicted in Figure 1. Furthermore, we demonstrate that explorationrelated metrics, such as Pass@32, are continuously improving without any notable degradation.

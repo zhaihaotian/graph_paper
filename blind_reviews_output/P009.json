@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear and well-motivated problem formulation: the paper carefully situates causal opacity within Pearl's three-rung hierarchy (observational, interventional, counterfactual), providing a principled theoretical anchor that distinguishes the work from generic XAI papers.",
+      "Precise identification of CBM limitations: the two failure modes (concept independence assumption, direct-cause assumption) are concretely described with real-world examples (smoking/lung cancer, insurance premium), making the critique credible and actionable.",
+      "Broad scope of claimed contributions: the paper addresses generalization performance, human-in-the-loop correction, and fairness/reliability verification simultaneously, suggesting genuine practical ambition beyond a narrow technical contribution.",
+      "Grounded in relevant literature with appropriate citations spanning causal inference (Pearl), interpretability (Koh, Kim, Rudin), and fairness (Kusner), indicating good command of the field."
+    ],
+    "weaknesses": [
+      "The contributions section collapses into a formulaic three-bullet (i, ii, iii) enumeration with no quantitative preview of results, making it hard to assess the magnitude of claimed improvements before the experiments.",
+      "There is a verbatim duplicated sentence in the fourth paragraph ('rather than understanding the causal structure of a model\u2019s internal reasoning'), indicating insufficient proofreading and raising concerns about manuscript quality.",
+      "The claim that CBMs rely on 'unrealistic assumptions' is asserted rather than rigorously demonstrated in the introduction; the degree to which concept independence is violated in benchmark datasets used later is unclear upfront.",
+      "The conceptual distinction between causal opacity and causal discovery, while important, is given substantial space in the introduction but then deferred to an appendix, creating an awkward structure that may confuse readers about the paper\u2019s core focus.",
+      "No ablation or comparison baseline is hinted at in the introduction, so it is unclear how much of the claimed performance gain stems from the graph architecture versus the causal supervision signal."
+    ],
+    "overall_score": 6,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.62,
+    "reasoning": "The prose is multi-threaded and conceptually layered, engaging carefully with Pearl\u2019s hierarchy and drawing subtle distinctions between causal opacity and causal discovery \u2014 characteristic of human academic writing. The verbatim duplicated sentence is a strong artifact of human drafting and revision rather than LLM generation, which rarely produces such copy-paste errors. The contributions section does exhibit a formulaic three-point structure common in AI-generated text, but this is also a near-universal convention in ML papers, slightly reducing its diagnostic weight here."
+  }
+}

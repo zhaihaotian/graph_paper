@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clearly identifies a concrete, previously underexplored failure mode: user-only indexing misses SSA queries where relevant information resides in assistant turns",
+      "Motivates the problem with an established benchmark (LongMemEval) and a specific query category, grounding the claim empirically rather than anecdotally",
+      "Proposes a lightweight, training-free solution (fielded max-sim keying) that is practically appealing for production deployment",
+      "Explicitly demonstrates the 'zero-harm' property with precise quantitative metrics (Recall@10, NDCG@10), making the contribution verifiable",
+      "Provides a clear ablation rationale: explains why concatenation fails (cross-field interference) and why linear mixture fails (non-linear max is necessary), preempting obvious alternative approaches"
+    ],
+    "weaknesses": [
+      "The introduction covers only a single benchmark (LongMemEval) and one embedding model setup; generalizability to other retrieval architectures or corpora is unaddressed",
+      "The 'zero-harm' framing is strong but the SSA improvement (+0.018 Recall@10) is modest in absolute terms; the introduction does not contextualize whether this delta is practically meaningful",
+      "No discussion of computational overhead from storing dual embeddings per round, which is a real production concern the authors claim to address",
+      "The scope of 'SSA queries' as a category is taken from one benchmark without discussion of how prevalent or representative this query type is in real deployments",
+      "The introduction reads as a complete technical summary with numerical results included; it pre-empts the paper body and leaves little suspense or motivation for continued reading"
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.82,
+    "reasoning": "The introduction follows a highly formulaic three-act structure (problem identification, failure of naive solution, proposed fix) with an unnaturally clean three-bullet contribution list that mirrors typical AI-generated paper introductions. The prose is uniformly precise and hedging-free, lacks any discursive detours or authorial voice, and the transition sentences are textbook smooth. The explicit labeling of the zero-harm property and the tidy symmetry between the three bullets (one per comparison condition) further suggest LLM-assisted drafting."
+  }
+}

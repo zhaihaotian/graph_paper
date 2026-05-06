@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Identifies a concrete and practically significant vulnerability (master-key attacks) in RLVR verifiers, with precise empirical quantification (25–29% false positive rates across multiple state-of-the-art systems), grounding the threat model in reproducible evidence.",
+      "RefSwap is an elegant, training-free defense grounded in a principled counterfactual insight—true positives self-solve, master keys do not—requiring no modification to the underlying verifier and thus broadly applicable.",
+      "The reported results are strong and specific: AUC=0.991, 96.8% relative FPR reduction (25.50%→0.81%), and only 2.74pp accuracy cost, with uniform coverage across all 10 tested master keys, suggesting practical robustness.",
+      "The backbone dependency analysis adds scientific depth beyond mere empirical results, connecting verifier architecture to susceptibility and opening a research direction for future verifier design."
+    ],
+    "weaknesses": [
+      "The paper is a short four-contribution bullet summary with almost no methodological detail: how counterfactual references are sampled, how many are used, how max p_cf is computed, and how the 2.74pp accuracy cost was measured are all absent from the provided text.",
+      "Generalization scope is unclear—whether RefSwap holds beyond mathematical reasoning (the apparent domain) to code, science, or open-ended tasks is not addressed, nor is the behavior under adversarially crafted master keys designed to mimic self-solving responses.",
+      "The threat model implicitly assumes an adversary injecting fixed master keys; more sophisticated reward-hacking strategies (learned exploits, gradient-guided attacks) are not discussed, leaving the practical security claim under-supported.",
+      "No ablation over the number of counterfactual samples is visible in the excerpt, making it impossible to assess the compute overhead of the method or whether the AUC improvement saturates early.",
+      "Comparison to alternative defenses beyond simple length filtering is absent; the paper claims length filtering fails but does not compare RefSwap against semantic similarity checks, entailment-based filters, or ensemble verifiers."
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.65,
+    "reasoning": "The paper exhibits several cues associated with human writing: the vulnerability is framed with a nuanced threat model, results are reported with two-decimal precision and asymmetric cost tradeoffs (96.8% FPR reduction vs. 2.74pp accuracy cost), and the backbone dependency finding reflects domain-specific reasoning beyond surface-level benchmarking. However, the four-bullet contribution structure and the tight, formulaic intro-to-contributions pipeline are consistent with AI-assisted drafting, preventing high-confidence classification."
+  }
+}

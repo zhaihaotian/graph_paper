@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Clear and well-motivated problem framing: the three-paradigm taxonomy of existing continual learning methods is concise and accurately identifies their limitations",
+      "The core insight\u2014distinguishing unintentionally disrupted heads via three orthogonal signals\u2014is crisp and provides an intuitive justification for the proposed intervention",
+      "Post-task, replay-free design is practically appealing; operating at task boundaries without touching training dynamics is a genuine simplicity advantage",
+      "Empirical claims are specific (concrete pp gains, layer-level analysis, win-rate across task orderings), suggesting the authors ran thorough experiments"
+    ],
+    "weaknesses": [
+      "Performance gains are modest (+1.98pp OAP, +1.70pp BWT) and the 7/9 win rate leaves non-trivial failure cases unexplained in the introduction",
+      "The three-signal scoring formula is described only verbally; no equation or intuition about how the signals are combined (e.g., weighted product vs. sum) is given, making reproducibility unclear at this stage",
+      "Evaluation is limited to a single 5-task benchmark; generalization to longer task sequences or different LoRA configurations is not discussed",
+      "Rolling back only the LoRA B-matrix rows (not A-matrix) is an asymmetric design choice that is not justified in the introduction",
+      "The claim that disrupted heads are 'not necessary for the new task' implicitly assumes new-task importance can be measured cheaply and accurately\u2014this assumption is not scrutinized"
+    ],
+    "overall_score": 6,
+    "recommendation": "borderline"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.85,
+    "reasoning": "The introduction follows a textbook formulaic structure: one paragraph per rhetorical move (context \u2192 taxonomy of limitations \u2192 our insight \u2192 contributions), ending in an exact four-bullet contribution list with leading bold terms. Sentence length is uniform, transitions are mechanical ('We propose', 'We introduce', 'We develop', 'We demonstrate'), and there is no discursive or hedging prose typical of human academic writing. The three-signal framing is intellectually coherent but presented with the over-clean symmetry characteristic of LLM-generated text."
+  }
+}

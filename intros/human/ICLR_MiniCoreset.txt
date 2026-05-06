@@ -1,0 +1,45 @@
+Large Language Models (LLMs) have achieved remarkable success in a variety of tasks, ranging
+from machine translation to conversational AI. However, pretraining and fine-tuning LLMs with
+billions of parameters requires a large amount of compute and GPU memory, not only to store
+the parameters but also to compute gradients and optimizer states (e.g., momentum and historical
+gradients in Adam). For example, full finetuning a relatively small LLM, such as Phi-2 with 2.7B
+parameters, using a batch size of 128 requires at least 44 GB of GPU memory. The large memory
+requirement makes it prohibitive to train such models with larger batch sizes, which effectively
+improves the convergence and can improve performance. This raises a key question: can we train
+LLMs with smaller mini-batches and get the benefits of training with larger batch sizes?
+To address this problem, many memory-efficient techniques have been recently proposed, mainly
+to enable efficient fine-tuning of pretrained language models. At a high level, such methods aim
+to find a smaller set of parameters (Adelman et al., 2021), or find low-rank (Hu et al., 2021; Zhao
+et al., 2024b) or quantized (Dettmers et al., 2022) weights or optimizer states to train the model
+in a memory-efficient manner. There have also been efforts to adapt gradient-free optimization for
+training LLMs (Malladi et al., 2023). Yet, most memory-efficient techniques cannot achieve a comparable performance to training the full model parameters, or considerably increase the training time.
+In this work, we address the above problem from the data perspective. Specifically, we target finding smaller mini-batches of examples that simulate or outperform training with larger mini-batches.
+If this can be done, it directly improves the convergence rate of training or fine-tuning with minibatch stochastic gradient methods, and can yield superior performance. To achieve this, an effective
+approach is to find smaller mini-batches that closely capture the gradient of large random batches
+(Yang et al., 2023). Smaller mini-batches (coresets) selected by this approach are medoids (centroids) of the data in gradient space, weighted by their corresponding cluster size (Mirzasoleiman
+et al., 2020). Despite its promise on classification tasks, this approach is infeasible and ineffective
+for pre-training or fine-tuning LLMs, as we discuss below.
+Firstly, language data is often a mixture of highly imbalanced sources (e.g. categories or types of
+instructions). In this case, we show that smaller mini-batch coresets do not contain representative
+examples from the small sources, and obtain poor performance. Secondly, Adam is the standard optimizer for training LLMs, and small mini-batches that capture the vanilla gradient of larger batches
+are not optimal for training with Adam. Finally, the very large dimensionality of the LLM gradients
+makes pairwise distances vacuous and the medoids cannot be found accurately. These challenges
+make finding mini-batch coresets for training LLMs inherently much more challenging to address.
+In this work,we propose Coresets for Training LLMs(CoLM) by making the following contributions:
+• First, we show that w.h.p. mini-batch coresets only contain medoids of the big sources with
+a large-enough number of samples. Thus, examples selected via gradient matching from small
+sources are not representative and do not benefit learning other examples in their sources. Therefore, it is crucial to include all examples of the small sources in the mini-batch coresets. Besides,
+to enhance learning small sources, we weight all examples in the mini-batch coresets uniformly.
+• Next, to find mini-batch coresets for training with Adam, we normalize gradients by their historical exponential average, where the historical terms are only calculated for examples in the big
+sources. We find medoids of the big sources based on their normalized gradients.
+• Finally, to enable finding medoids in the very high-dimensional gradient space, we use zerothorder methods to find smooth gradient of the last V -projection matrix in a memory-efficient
+way, and sparsify it via a source-wise mask, which keeps dimensions with the largest normalized
+gradient magnitude. We use ℓ1 distance between sparse gradients to find medoids of big sources.
+• We evaluate CoLM on the challenging task of mathematical problem-solving, by fine-tuning
+Phi-2, Phi-3 (Li et al., 2023b), Zephyr (Tunstall et al., 2023), and Llama-3 models (Dubey et al.,
+2024) using LoRA on the MathInstruct dataset (Yue et al., 2023) containing 14 highly imbalanced sources. Additionally, we apply CoLM to datasets in SuperGLUE benchmark (Wang
+et al., 2019), where we find sources by clustering the model’s hidden states during the training.
+Remarkably, CoLM reduces the memory requirement of fine-tuning by 2x and even outperforms
+training with 4x larger random mini-batches. Compare to mini-batch of the same size, CoLM
+outperforms by up to 7.1% and 20% on several in- and out-domain tasks.
+Notably, our approach can be easily stacked with LoRA, and other memory-efficient training methods to further reduce the memory requirements of training LLMs, as we confirm in our experiments.

@@ -1,0 +1,25 @@
+{
+  "peer_review": {
+    "strengths": [
+      "The paper addresses a well-motivated and practically important problem: LLMs are poor at calibrated probability estimation, and the authors clearly articulate why this matters for downstream decision-making tasks such as ILP-based optimization.",
+      "The BIRD framework is technically creative — decomposing the estimation into an abduction step (learning a Bayesian network from LLM coarse predictions) and a deduction step (entailment-based inference) is a principled way to leverage LLM strengths while correcting for their weaknesses in numerical probability output.",
+      "The paper reports multiple downstream payoffs: improved calibration (30% more agreement with human judgments), competitive or superior reasoning accuracy relative to chain-of-thought baselines, utility as supervision signals for smaller models, and generation of unbiased follow-up questions — a convincingly broad validation footprint.",
+      "Grounding the method in a Bayesian network makes the probability derivation interpretable and auditable, which is a genuine contribution over black-box LLM confidence scores.",
+      "The running example (charging station planning with ILP) is concrete and effectively illustrates why rank-only approaches are insufficient when marginal probabilities interact through a combinatorial constraint."
+    ],
+    "weaknesses": [
+      "The description of the CPT approximation formula and the independence assumption behind P(Oi|f) ≈ product-of-marginals is stated but not derived in the excerpt; without this, readers cannot evaluate whether the approximation error is bounded or how sensitive the method is to factor correlations.",
+      "The factor generation step is central to BIRD but receives only light treatment in the excerpt: it is unclear how many factors are generated, how redundancy or conflicting factors are handled, and whether the LLM's factor set is stable across repeated calls — all of which directly affect reliability.",
+      "The 30% improvement claim over LLM direct predictions lacks sufficient context in the excerpt: the baseline (which LLM? prompted how?), the evaluation metric (accuracy of probability ordering? calibration ECE?), and the test set are not specified, making independent assessment impossible.",
+      "Scalability is a concern that is raised implicitly (the space F is a product space of all factor values) but not addressed: exponential growth in F could make the sampling step computationally intractable for even moderately many factors, and no complexity analysis or ablation on number of factors is referenced.",
+      "The claim that BIRD's factor generation is 'neutral and unbiased' to specific conditions is asserted but not formally justified — if the LLM is conditioned on scenario S when generating factors, systematic LLM biases in the language model's prior could still infiltrate the factors."
+    ],
+    "overall_score": 7,
+    "recommendation": "weak_accept"
+  },
+  "ai_detection": {
+    "predicted_label": "Human",
+    "confidence": 0.78,
+    "reasoning": "The review contains multi-threaded technical critique spanning approximation theory, scalability, and statistical claim validity simultaneously, with specific terminological precision (ECE, ILP, CPT, product-space notation) embedded naturally in longer sentences — patterns characteristic of a domain expert. The weaknesses section in particular shows the kind of asymmetric depth (some points short, one elaborated to two sub-issues) typical of human spontaneous evaluation rather than formulaic AI bullet generation."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "peer_review": {
+    "strengths": [
+      "Identifies a concrete, counterintuitive failure mode (non-monotonic budget scaling) with a clear mechanistic explanation via trajectory drift",
+      "Proposes a simple and well-motivated fix (chunked allocation with M=1) that directly addresses the diagnosed root cause",
+      "Quantitative claims are specific and falsifiable (60.5% failure attribution, 25\u00d7 success rate improvement, 98.4% degenerate calibration rate)",
+      "Connects the failure mode to a broader structural principle (sequential vs. parallel budget use) that could generalize beyond web agents"
+    ],
+    "weaknesses": [
+      "The proposed solution\u2014spend all budget in one round (M=1)\u2014is trivially derived from the diagnosis; the intellectual contribution is thin once trajectory drift is named",
+      "The extremely low baseline success rate (0.86%) raises concerns about the experimental setup; the 25\u00d7 headline figure may be misleading if the baseline is pathological rather than representative",
+      "The third contribution bullet reveals that world-model calibration is so poor (p\u0302=0 for 98.4% of cycles) that it calls into question whether the underlying approach is viable at all, yet this concern is not addressed",
+      "Scope is narrow (web checkout in one benchmark); generalizability claims are implicit rather than empirically supported",
+      "No discussion of why parallel rollouts are feasible at the same budget cost as sequential ones, or of latency/compute tradeoffs"
+    ],
+    "overall_score": 5,
+    "recommendation": "weak_reject"
+  },
+  "ai_detection": {
+    "predicted_label": "AI",
+    "confidence": 0.88,
+    "reasoning": "The introduction follows a highly formulaic structure: one-paragraph background, one-paragraph problem statement with a named phenomenon, a 'key insight' pivot paragraph, and a clean four-bullet contributions list with precise statistics. The prose is uniformly terse and declarative with no rhetorical variation, hedging, or discursive digressions typical of human academic writing. The single-anchor prior work pattern (Li et al., 2025 doing most framing work) and the clinical 'Our contributions are:' enumeration are strong AI-generation signals."
+  }
+}
